@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"idealistyu.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.14.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="RegEx相关">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基础正则表达式速查表与常用正则表达式示例">
+<meta property="og:url" content="https://idealistyu.github.io/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/index.html">
+<meta property="og:site_name" content="Yu&#39;s Site">
+<meta property="og:description" content="RegEx相关">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-12-02T08:49:00.000Z">
+<meta property="article:modified_time" content="2022-12-02T10:07:17.613Z">
+<meta property="article:author" content="Yu">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://idealistyu.github.io/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://idealistyu.github.io/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/","path":"基础正则表达式速查表与常用正则表达式示例/","title":"基础正则表达式速查表与常用正则表达式示例"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>基础正则表达式速查表与常用正则表达式示例 | Yu's Site</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Yu's Site</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-download"><a href="/download/" rel="section"><i class="fa fa-download fa-fw"></i>Download</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-music fa-fw"></i>Music</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8"><span class="nav-number">1.</span> <span class="nav-text">基础正则表达式速查表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6"><span class="nav-number">1.1.</span> <span class="nav-text">字符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E7%BB%84%E5%92%8C%E5%BC%95%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">分组和引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%94%9A%E7%82%B9%E8%BE%B9%E7%95%8C"><span class="nav-number">1.3.</span> <span class="nav-text">锚点&#x2F;边界</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E9%87%8F%E8%A1%A8%E7%A4%BA"><span class="nav-number">1.4.</span> <span class="nav-text">数量表示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A2%84%E6%9F%A5%E6%96%AD%E8%A8%80"><span class="nav-number">1.5.</span> <span class="nav-text">预查断言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E6%AE%8A%E6%A0%87%E5%BF%97"><span class="nav-number">1.6.</span> <span class="nav-text">特殊标志</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">常用正则表达式示例</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E5%AD%97%E6%A0%A1%E9%AA%8C"><span class="nav-number">2.1.</span> <span class="nav-text">数字校验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E6%A0%A1%E9%AA%8C"><span class="nav-number">2.2.</span> <span class="nav-text">字符校验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4%E6%A0%A1%E9%AA%8C"><span class="nav-number">2.3.</span> <span class="nav-text">日期和时间校验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E7%9B%B8%E5%85%B3"><span class="nav-number">2.4.</span> <span class="nav-text">日常生活相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%92%E8%81%94%E7%BD%91%E7%9B%B8%E5%85%B3"><span class="nav-number">2.5.</span> <span class="nav-text">互联网相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">2.6.</span> <span class="nav-text">其他</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yu"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Yu</p>
+  <div class="site-description" itemprop="description">Stay hungry, stay foolish.</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/IdealistYu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;IdealistYu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:harveyzhang@vip.qq.com" title="E-Mail → mailto:harveyzhang@vip.qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://idealistyu.github.io/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yu's Site">
+      <meta itemprop="description" content="Stay hungry, stay foolish.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="基础正则表达式速查表与常用正则表达式示例 | Yu's Site">
+      <meta itemprop="description" content="RegEx相关">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          基础正则表达式速查表与常用正则表达式示例
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-02 16:49:00 / Modified: 18:07:17" itemprop="dateCreated datePublished" datetime="2022-12-02T16:49:00+08:00">2022-12-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Regular-expression/" itemprop="url" rel="index"><span itemprop="name">Regular expression</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>2.8k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>10 mins.</span>
+    </span>
+</div>
+
+            <div class="post-description">RegEx相关</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <hr />
+<h1 id="基础正则表达式速查表">基础正则表达式速查表</h1>
+<h2 id="字符">字符</h2>
+<table>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[abc]</code></td>
+<td>字符集。匹配集合中所含的任一字符。</td>
+</tr>
+<tr class="even">
+<td><code>[^abc]</code></td>
+<td>否定字符集。匹配任何不在集合中的字符。</td>
+</tr>
+<tr class="odd">
+<td><code>[a-z]</code></td>
+<td>字符范围。匹配指定范围内的任意字符。</td>
+</tr>
+<tr class="even">
+<td><code>.</code></td>
+<td>匹配除换行符以外的任何单个字符。</td>
+</tr>
+<tr class="odd">
+<td><code>\</code></td>
+<td>转义字符。</td>
+</tr>
+<tr class="even">
+<td><code>\w</code></td>
+<td>匹配任何字母数字，包括下划线（等价于<code>[A-Za-z0-9_]</code>）。</td>
+</tr>
+<tr class="odd">
+<td><code>\W</code></td>
+<td>匹配任何非字母数字（等价于<code>[^A-Za-z0-9_]</code>）。</td>
+</tr>
+<tr class="even">
+<td><code>\d</code></td>
+<td>数字。匹配任何数字。</td>
+</tr>
+<tr class="odd">
+<td><code>\D</code></td>
+<td>非数字。匹配任何非数字字符。</td>
+</tr>
+<tr class="even">
+<td><code>\s</code></td>
+<td>空白。匹配任何空白字符，包括空格、制表符等。</td>
+</tr>
+<tr class="odd">
+<td><code>\S</code></td>
+<td>非空白。匹配任何非空白字符。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="分组和引用">分组和引用</h2>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 78%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>(expression)</code></td>
+<td>分组。匹配括号里的整个表达式。</td>
+</tr>
+<tr class="even">
+<td><code>(?:expression)</code></td>
+<td>非捕获分组。匹配括号里的整个字符串但不获取匹配结果，拿不到分组引用。</td>
+</tr>
+<tr class="odd">
+<td><code>\num</code></td>
+<td>对前面所匹配分组的引用。比如<code>(\d)\1</code>可以匹配两个相同的数字，<code>(idealist)(Yu)\1\2</code>则可以匹配<code>idealistYuidealistYu</code>。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="锚点边界">锚点/边界</h2>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>^</code></td>
+<td>匹配字符串或行开头。</td>
+</tr>
+<tr class="even">
+<td><code>$</code></td>
+<td>匹配字符串或行结尾。</td>
+</tr>
+<tr class="odd">
+<td><code>\b</code></td>
+<td>匹配单词边界。比如<code>idealist\b</code>可以匹配<code>idealistYu</code>末尾的<code>idealist</code>，不能匹配<code>YuidealistYu</code>中的<code>idealist</code>。</td>
+</tr>
+<tr class="even">
+<td><code>\B</code></td>
+<td>匹配非单词边界。比如<code>idealist\B</code>可以匹配<code>YuidealistYu</code>中的<code>idealist</code>，不能匹配<code>idealistYu</code>中的<code>idealist</code>。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="数量表示">数量表示</h2>
+<table>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>?</code></td>
+<td>匹配前面的表达式0个或1个。即表示可选项。</td>
+</tr>
+<tr class="even">
+<td><code>+</code></td>
+<td>匹配前面的表达式至少1个。</td>
+</tr>
+<tr class="odd">
+<td><code>*</code></td>
+<td>匹配前面的表达式0个或多个。</td>
+</tr>
+<tr class="even">
+<td><code>\|</code></td>
+<td>或运算符。并集，可以匹配符号前后的表达式。</td>
+</tr>
+<tr class="odd">
+<td><code>&#123;m&#125;</code></td>
+<td>匹配前面的表达式m个。</td>
+</tr>
+<tr class="even">
+<td><code>&#123;m,&#125;</code></td>
+<td>匹配前面的表达式最少m个。</td>
+</tr>
+<tr class="odd">
+<td><code>&#123;m,n&#125;</code></td>
+<td>匹配前面的表达式最少m个，最多n个。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="预查断言">预查断言</h2>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 89%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>(?=)</code></td>
+<td>正向预查。比如<code>idealist(?=Yu)</code>能匹配<code>idealistYu</code>中的<code>idealist</code>，但不能匹配<code>idealistPig</code>中的<code>idealist</code>。</td>
+</tr>
+<tr class="even">
+<td><code>(?!)</code></td>
+<td>正向否定预查。比如<code>idealist(?!Yu)</code>不能匹配<code>idealistYu</code>中的<code>idealist</code>，但能匹配<code>idealistPig</code>中的<code>idealist</code>。</td>
+</tr>
+<tr class="odd">
+<td><code>(?&lt;=)</code></td>
+<td>反向预查。比如<code>(?&lt;=idealist)Yu</code>能匹配<code>idealistYu</code>中的<code>Yu</code>，但不能匹配<code>idolYu</code>中的<code>Yu</code>。</td>
+</tr>
+<tr class="even">
+<td><code>(?&lt;!)</code></td>
+<td>反向否定预查。比如<code>(?&lt;!idealist)Yu</code>不能匹配<code>idealistYu</code>中的<code>Yu</code>，但能匹配<code>idolYu</code>中的<code>Yu</code>。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="特殊标志">特殊标志</h2>
+<table>
+<thead>
+<tr class="header">
+<th>表达式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>/.../i</code></td>
+<td>忽略大小写。</td>
+</tr>
+<tr class="even">
+<td><code>/.../g</code></td>
+<td>全局匹配。</td>
+</tr>
+<tr class="odd">
+<td><code>/.../m</code></td>
+<td>多行修饰符。用于多行匹配。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="常用正则表达式示例">常用正则表达式示例</h1>
+<h2 id="数字校验">数字校验</h2>
+<table>
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 55%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>数字</td>
+<td><code>^[0-9]*$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>n位数字</td>
+<td><code>^\d&#123;n&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>至少n位数字</td>
+<td><code>^\d&#123;n,&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>m~n位数字</td>
+<td><code>^\d&#123;m,n&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>整数</td>
+<td><code>^(-?[1-9]\d*)$</code></td>
+<td>非0开头，包括正整数和负整数</td>
+</tr>
+<tr class="even">
+<td>正整数</td>
+<td><code>^[1-9]\d*$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>负整数</td>
+<td><code>^-[1-9]\d*$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>非负整数</td>
+<td><code>^(([1-9]\d*)\|0)$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>非正整数</td>
+<td><code>^((-[1-9]\d*)\|0)$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>浮点数</td>
+<td><code>^-?(?:[1-9]\d*\.\d*\|0\.\d*[1-9]\d*\|0\.0+\|0)$</code></td>
+<td>包括正浮点数和负浮点数</td>
+</tr>
+<tr class="odd">
+<td>正浮点数</td>
+<td><code>^(?:[1-9]\d*\.\d*\|0\.\d*[1-9]\d*)$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>负浮点数</td>
+<td><code>^-(?:[1-9]\d*\.\d*\|0\.\d*[1-9]\d*)$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>非正浮点数</td>
+<td><code>^(?:-(?:[1-9]\d*\.\d+\|0\.\d*[1-9]\d*)\|0\.0+\|0)$</code></td>
+<td>包含0</td>
+</tr>
+<tr class="even">
+<td>非负浮点数</td>
+<td><code>^(?:[1-9]\d*\.\d+\|0\.\d+\|0\.0+\|0)$</code></td>
+<td>包含0</td>
+</tr>
+<tr class="odd">
+<td>仅一位小数</td>
+<td><code>^-?(?:0\|[1-9][0-9]*)\.[0-9]&#123;1&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>最少一位小数</td>
+<td><code>^-?(?:0\|[1-9][0-9]*)\.[0-9]&#123;1,&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>最少一位小数</td>
+<td><code>^-?(?:0\|[1-9][0-9]*)\.[0-9]&#123;1,&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>连续重复的数字</td>
+<td><code>^(\d)\1+$</code></td>
+<td>例如：<code>111</code>，<code>222</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="字符校验">字符校验</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 44%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>中文</td>
+<td><code>^[\u4E00-\u9FA5]+$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>全角字符</td>
+<td><code>^[\uFF00-\uFFFF]+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>半角字符</td>
+<td><code>^[\u0000-\u00FF]+$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>英文字符串（大写）</td>
+<td><code>^[A-Z]+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>英文字符串（小写）</td>
+<td><code>^[a-z]+$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>英文字符串（不区分大小写）</td>
+<td><code>^[A-Za-z]+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>中文和数字</td>
+<td><code>^(?:[\u4E00-\u9FA5]&#123;0,&#125;\|\d)+$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>英文和数字</td>
+<td><code>^[A-Za-z0-9]+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>数字、英文字母或者下划线组成的字符串</td>
+<td><code>^\w+$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>中文、英文、数字包括下划线</td>
+<td><code>^[\u4E00-\u9FA5\w]+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>不含字母的字符串</td>
+<td><code>^[^A-Za-z]*$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>连续重复的字符串</td>
+<td><code>^(.)\1+$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>长度为n的字符串</td>
+<td><code>^.&#123;n&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ASCII</td>
+<td><code>^[ -~]$</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="日期和时间校验">日期和时间校验</h2>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 62%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>日期</td>
+<td><code>^\d&#123;1,4&#125;-(?:1[0-2]\|0?[1-9])-(?:0?[1-9]\|[1-2]\d\|30\|31)$</code></td>
+<td>弱校验，例如：<code>2022-06-12</code></td>
+</tr>
+<tr class="even">
+<td>日期</td>
+<td><code>^(?:(?!0000)[0-9]&#123;4&#125;-(?:(?:0[1-9]\|1[0-2])-(?:0[1-9]\|1[0-9]\|2[0-8])\|(?:0[13-9]\|1[0-2])-(?:29\|30)\|(?:0[13578]\|1[02])-31)\|(?:[0-9]&#123;2&#125;(?:0[48]\|[2468][048]\|[13579][26])\|(?:0[48]\|[2468][048]\|[13579][26])00)-02-29)$</code></td>
+<td>严格校验，考虑平闰年</td>
+</tr>
+<tr class="odd">
+<td>时间</td>
+<td><code>^(?:1[0-2]\|0?[1-9]):[0-5]\d:[0-5]\d$</code></td>
+<td>12小时制，例如：<code>11:21:31</code></td>
+</tr>
+<tr class="even">
+<td>时间</td>
+<td><code>^(?:1[0-2]\|0?[1-9]):[0-5]\d:[0-5]\d$</code></td>
+<td>12小时制，例如：<code>11:21:31</code></td>
+</tr>
+<tr class="odd">
+<td>日期+时间</td>
+<td><code>^(\d&#123;1,4&#125;-(?:1[0-2]\|0?[1-9])-(?:0?[1-9]\|[1-2]\d\|30\|31)) ((?:[01]\d\|2[0-3]):[0-5]\d:[0-5]\d)$</code></td>
+<td>例如：<code>2000-11-11 23:20:21</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="日常生活相关">日常生活相关</h2>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 44%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>中文名</td>
+<td><code>^[\u4E00-\u9FA5·]&#123;2,16&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>英文名</td>
+<td><code>^[a-zA-Z][a-zA-Z\s]&#123;0,20&#125;[a-zA-Z]$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>车牌号</td>
+<td><code>^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z][A-HJ-NP-Z0-9]&#123;4&#125;[A-HJ-NP-Z0-9挂学警港澳]$</code></td>
+<td>不含新能源</td>
+</tr>
+<tr class="even">
+<td>车牌号</td>
+<td><code>^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领][A-HJ-NP-Z](?:(?:[A-HJ-NP-Z0-9]&#123;4&#125;[A-HJ-NP-Z0-9挂学警港澳])\|(?:(?:\d&#123;5&#125;[A-HJK])\|(?:[A-HJK][A-HJ-NP-Z0-9][0-9]&#123;4&#125;)))$</code></td>
+<td>包含新能源</td>
+</tr>
+<tr class="odd">
+<td>火车车次</td>
+<td><code>^[GCDZTSPKXLY1-9]\d&#123;1,4&#125;$</code></td>
+<td>例如：<code>G1234</code></td>
+</tr>
+<tr class="even">
+<td>手机号</td>
+<td><code>^(?:(?:\+\|00)86)?1[3-9]\d&#123;9&#125;$</code></td>
+<td>弱匹配</td>
+</tr>
+<tr class="odd">
+<td>手机号</td>
+<td><code>^(?:(?:\+\|00)86)?1(?:(?:3[\d])\|(?:4[5-79])\|(?:5[0-35-9])\|(?:6[5-7])\|(?:7[0-8])\|(?:8[\d])\|(?:9[189]))\d&#123;8&#125;$</code></td>
+<td>严格匹配</td>
+</tr>
+<tr class="even">
+<td>固话号码</td>
+<td><code>^(?:(?:\d&#123;3&#125;-)?\d&#123;8&#125;\|^(?:\d&#123;4&#125;-)?\d&#123;7,8&#125;)(?:-\d+)?$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>手机IMEI码</td>
+<td><code>^\d&#123;15,17&#125;$</code></td>
+<td>一般是15位</td>
+</tr>
+<tr class="even">
+<td>手机IMEI码</td>
+<td><code>^\d&#123;15,17&#125;$</code></td>
+<td>一般是15位</td>
+</tr>
+<tr class="odd">
+<td>统一社会信用代码</td>
+<td><code>^[0-9A-HJ-NPQRTUWXY]&#123;2&#125;\d&#123;6&#125;[0-9A-HJ-NPQRTUWXY]&#123;10&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>身份证号码(1代)</td>
+<td><code>^[1-9]\d&#123;7&#125;(?:0\d\|10\|11\|12)(?:0[1-9]\|[1-2][\d]\|30\|31)\d&#123;3&#125;$</code></td>
+<td>15位数字</td>
+</tr>
+<tr class="odd">
+<td>身份证号码(2代)</td>
+<td><code>^[1-9]\d&#123;5&#125;(?:18\|19\|20)\d&#123;2&#125;(?:0[1-9]\|10\|11\|12)(?:0[1-9]\|[1-2]\d\|30\|31)\d&#123;3&#125;[0-9Xx]$</code></td>
+<td>18位数字</td>
+</tr>
+<tr class="even">
+<td>QQ号</td>
+<td><code>^[1-9][0-9]&#123;4,&#125;$</code></td>
+<td>一般是5到10位</td>
+</tr>
+<tr class="odd">
+<td>微信号</td>
+<td><code>^[a-zA-Z][-_a-zA-Z0-9]&#123;5,19&#125;$</code></td>
+<td>一般6~20位，字母开头，可包含字母、数字、-、_，不含特殊字符</td>
+</tr>
+<tr class="even">
+<td>股票代码</td>
+<td><code>^(s[hz]\|S[HZ])(000[\d]&#123;3&#125;\|002[\d]&#123;3&#125;\|300[\d]&#123;3&#125;\|600[\d]&#123;3&#125;\|60[\d]&#123;4&#125;)$</code></td>
+<td>A股，例如：<code>600519</code></td>
+</tr>
+<tr class="odd">
+<td>银行卡卡号</td>
+<td><code>^[1-9]&#123;1&#125;(?:\d&#123;15&#125;\|\d&#123;18&#125;)$</code></td>
+<td>一般为19位</td>
+</tr>
+</tbody>
+</table>
+<h2 id="互联网相关">互联网相关</h2>
+<table>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 42%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>域名</td>
+<td><code>^[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;(?:\.[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;)+$</code></td>
+<td>例如：www.baidu.com</td>
+</tr>
+<tr class="even">
+<td>网址</td>
+<td><code>^(?:https?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;(?:\.[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;)+$</code></td>
+<td>例如：https://www.baidu.com/</td>
+</tr>
+<tr class="odd">
+<td>带端口号的网址(或IP)</td>
+<td><code>^(?:https?:\/\/)?[\w-]+(?:\.[\w-]+)+:\d&#123;1,5&#125;\/?$</code></td>
+<td>例如：<code>http://127.0.0.1:8888/</code></td>
+</tr>
+<tr class="even">
+<td>URL</td>
+<td><code>^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]&#123;1,256&#125;\.[a-zA-Z0-9()]&#123;1,6&#125;\b(?:[-a-zA-Z0-9()!@:%_\+.~#?&amp;\/\/=]*)$</code></td>
+<td>例如：https://www.baidu.com</td>
+</tr>
+<tr class="odd">
+<td>邮箱email</td>
+<td><code>^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;(?:\.[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;)+$</code></td>
+<td>支持中文，例如：<code>xxx@cs.com</code></td>
+</tr>
+<tr class="even">
+<td>用户名</td>
+<td><code>^[a-zA-Z0-9_-]&#123;4,20&#125;$</code></td>
+<td>4到20位</td>
+</tr>
+<tr class="odd">
+<td>弱密码</td>
+<td><code>^[\w]&#123;6,16&#125;$</code></td>
+<td>6~16位，包含大小写字母和数字的组合</td>
+</tr>
+<tr class="even">
+<td>强密码</td>
+<td><code>^.*(?=.&#123;6,&#125;)(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!@\.#$%^&amp;*? ]).*$</code></td>
+<td>至少6位，包括至少1个大写字母，1个小写字母，1个数字，1个特殊字符</td>
+</tr>
+<tr class="odd">
+<td>端口号</td>
+<td><code>^(?:[0-9]\|[1-9][0-9]&#123;1,3&#125;\|[1-5][0-9]&#123;4&#125;\|6[0-4][0-9]&#123;3&#125;\|65[0-4][0-9]&#123;2&#125;\|655[0-2][0-9]\|6553[0-5])$</code></td>
+<td>例如：<code>65535</code></td>
+</tr>
+<tr class="even">
+<td>IPv4地址</td>
+<td><code>^(?:(?:\d\|[1-9]\d\|1\d\d\|2[0-4]\d\|25[0-5])\.)&#123;3&#125;(?:\d\|[1-9]\d\|1\d\d\|2[0-4]\d\|25[0-5])$</code></td>
+<td>例如：<code>192.168.31.1</code></td>
+</tr>
+<tr class="odd">
+<td>IPv4地址+端口</td>
+<td><code>^(?:(?:\d\|[1-9]\d\|1\d\d\|2[0-4]\d\|25[0-5])\.)&#123;3&#125;(?:\d\|[1-9]\d\|1\d\d\|2[0-4]\d\|25[0-5])(?::(?:[0-9]\|[1-9][0-9]&#123;1,3&#125;\|[1-5][0-9]&#123;4&#125;\|6[0-4][0-9]&#123;3&#125;\|65[0-4][0-9]&#123;2&#125;\|655[0-2][0-9]\|6553[0-5]))?$</code></td>
+<td>例如：<code>192.168.31.1:8080</code></td>
+</tr>
+<tr class="even">
+<td>IPv6地址</td>
+<td><code>^(([0-9a-fA-F]&#123;1,4&#125;:)&#123;7,7&#125;[0-9a-fA-F]&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,7&#125;:\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,6&#125;:[0-9a-fA-F]&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,5&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,2&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,4&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,3&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,3&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,2&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,5&#125;\|[0-9a-fA-F]&#123;1,4&#125;:((:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,6&#125;)\|:((:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,7&#125;\|:)\|fe80:(:[0-9a-fA-F]&#123;0,4&#125;)&#123;0,4&#125;%[0-9a-zA-Z]&#123;1,&#125;\|::(ffff(:0&#123;1,4&#125;)&#123;0,1&#125;:)&#123;0,1&#125;((25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\.)&#123;3,3&#125;(25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,4&#125;:((25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\.)&#123;3,3&#125;(25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9]))$</code></td>
+<td>例如：<code>CDCD:910A:2222:5498:8475:1111:3900:2020</code></td>
+</tr>
+<tr class="odd">
+<td>IPv6地址+端口</td>
+<td><code>^\[(([0-9a-fA-F]&#123;1,4&#125;:)&#123;7,7&#125;[0-9a-fA-F]&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,7&#125;:\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,6&#125;:[0-9a-fA-F]&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,5&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,2&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,4&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,3&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,3&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,4&#125;\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,2&#125;(:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,5&#125;\|[0-9a-fA-F]&#123;1,4&#125;:((:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,6&#125;)\|:((:[0-9a-fA-F]&#123;1,4&#125;)&#123;1,7&#125;\|:)\|fe80:(:[0-9a-fA-F]&#123;0,4&#125;)&#123;0,4&#125;%[0-9a-zA-Z]&#123;1,&#125;\|::(ffff(:0&#123;1,4&#125;)&#123;0,1&#125;:)&#123;0,1&#125;((25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\.)&#123;3,3&#125;(25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\|([0-9a-fA-F]&#123;1,4&#125;:)&#123;1,4&#125;:((25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9])\.)&#123;3,3&#125;(25[0-5]\|(2[0-4]\|1&#123;0,1&#125;[0-9])&#123;0,1&#125;[0-9]))\](?::(?:[0-9]\|[1-9][0-9]&#123;1,3&#125;\|[1-5][0-9]&#123;4&#125;\|6[0-4][0-9]&#123;3&#125;\|65[0-4][0-9]&#123;2&#125;\|655[0-2][0-9]\|6553[0-5]))?$</code></td>
+<td>例如：<code>[CDCD:910A:2222:5498:8475:1111:3900:2020]:9800</code></td>
+</tr>
+<tr class="even">
+<td>子网掩码</td>
+<td><code>^(?:254\|252\|248\|240\|224\|192\|128)\.0\.0\.0\|255\.(?:254\|252\|248\|240\|224\|192\|128\|0)\.0\.0\|255\.255\.(?:254\|252\|248\|240\|224\|192\|128\|0)\.0\|255\.255\.255\.(?:255\|254\|252\|248\|240\|224\|192\|128\|0)$</code></td>
+<td>例如：<code>255.255.255.0</code></td>
+</tr>
+<tr class="odd">
+<td>MAC地址</td>
+<td><code>^(?:(?:[a-f0-9A-F]&#123;2&#125;:)&#123;5&#125;\|(?:[a-f0-9A-F]&#123;2&#125;-)&#123;5&#125;)[a-f0-9A-F]&#123;2&#125;$</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Version版本号</td>
+<td><code>^\d+(?:\.\d+)&#123;2&#125;$</code></td>
+<td>例如：<code>12.1.1</code></td>
+</tr>
+<tr class="odd">
+<td>图片后缀</td>
+<td><code>\.(gif\|png\|jpg\|jpeg\|webp\|svg\|psd\|bmp\|tif)+</code></td>
+<td>可按需增删扩展名集合</td>
+</tr>
+<tr class="even">
+<td>视频后缀</td>
+<td><code>\.(swf\|avi\|flv\|mpg\|rm\|mov\|wav\|asf\|3gp\|mkv\|rmvb\|mp4)+</code></td>
+<td>可按需增删扩展名集合</td>
+</tr>
+<tr class="odd">
+<td>图片链接</td>
+<td><code>(?:https?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;(?:\.[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;)+.+\.(gif\|png\|jpg\|jpeg\|webp\|svg\|psd\|bmp\|tif)</code></td>
+<td>可按需增删扩展名集合</td>
+</tr>
+<tr class="even">
+<td>视频链接</td>
+<td><code>(?:https?:\/\/)?[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;(?:\.[a-zA-Z0-9][-a-zA-Z0-9]&#123;0,62&#125;)+.+\.(swf\|avi\|flv\|mpg\|rm\|mov\|wav\|asf\|3gp\|mkv\|rmvb\|mp4)</code></td>
+<td>可按需增删扩展名集合</td>
+</tr>
+<tr class="odd">
+<td>迅雷链接</td>
+<td><code>thunderx?:\/\/[a-zA-Z\d]+=</code></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>磁力链接</td>
+<td><code>magnet:\?xt=urn:btih:[0-9a-fA-F]&#123;40,&#125;.*</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="其他">其他</h2>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 48%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>描述</th>
+<th>正则表达式</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Windows文件路径</td>
+<td><code>^[a-zA-Z]:(?:\\[\w\u4E00-\u9FA5\s]+)+[.\w\u4E00-\u9FA5\s]+$</code></td>
+<td>例如：<code>C:\Users\Administrator\Desktop\a.txt</code></td>
+</tr>
+<tr class="even">
+<td>Windows文件路径</td>
+<td><code>^[a-zA-Z]:(?:\\[\w\u4E00-\u9FA5\s]+)+[.\w\u4E00-\u9FA5\s]+$</code></td>
+<td>例如：<code>C:\Users\Administrator\Desktop\a.txt</code></td>
+</tr>
+<tr class="odd">
+<td>Linux文件路径</td>
+<td><code>^\/(?:[^/]+\/)*[^/]+$</code></td>
+<td>例如：<code>/root/library/a.txt</code></td>
+</tr>
+<tr class="even">
+<td>Linux文件夹路径</td>
+<td><code>^\/(?:[^/]+\/)*$</code></td>
+<td>例如：<code>/root/library/</code></td>
+</tr>
+<tr class="odd">
+<td>MD5格式</td>
+<td><code>^(?:[a-f\d]&#123;32&#125;\|[A-F\d]&#123;32&#125;)$</code></td>
+<td>32位MD5，例如：<code>7552E7071B118CBFFEC8C930455B4297</code></td>
+</tr>
+<tr class="even">
+<td>BASE64格式</td>
+<td><code>^\s*data:(?:[a-z]+\/[a-z0-9-+.]+(?:;[a-z-]+=[a-z0-9-]+)?)?(?:;base64)?,([a-z0-9!$&amp;',()*+;=\-._~:@/?%\s]*?)\s*$</code></td>
+<td>例如：<code>data:image/jpeg;base64,xxxx==</code></td>
+</tr>
+<tr class="odd">
+<td>UUID</td>
+<td><code>^[a-f\d]&#123;4&#125;(?:[a-f\d]&#123;4&#125;-)&#123;4&#125;[a-f\d]&#123;12&#125;$</code></td>
+<td>例如：<code>94f9d45a-71b0-4b3c-b69d-20c4bc9c8fdd</code></td>
+</tr>
+<tr class="even">
+<td>UUID</td>
+<td><code>^[a-f\d]&#123;4&#125;(?:[a-f\d]&#123;4&#125;-)&#123;4&#125;[a-f\d]&#123;12&#125;$</code></td>
+<td>例如：<code>94f9d45a-71b0-4b3c-b69d-20c4bc9c8fdd</code></td>
+</tr>
+<tr class="odd">
+<td>16进制颜色</td>
+<td><code>^#?([0-9a-fA-F]&#123;3&#125;\|[0-9a-fA-F]&#123;6&#125;)$</code></td>
+<td>例如：<code>#FFFFFF</code></td>
+</tr>
+<tr class="even">
+<td>SQL语句</td>
+<td><code>^(?:select\|drop\|delete\|create\|update\|insert).*$</code></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Java包名</td>
+<td><code>^(?:[a-zA-Z_]\w*)+(?:[.][a-zA-Z_]\w*)+$</code></td>
+<td>例如：<code>com.idealistYu.controller</code></td>
+</tr>
+<tr class="even">
+<td>文件扩展名</td>
+<td><code>\.(?:doc\|pdf\|txt)</code></td>
+<td>可按需增删扩展名集合</td>
+</tr>
+<tr class="odd">
+<td>HTML标签</td>
+<td><code>&lt;(\w+)[^&gt;]*&gt;(.*?&lt;\/\1&gt;)?</code></td>
+<td>例如：<code>&lt;div class="navigator"&gt;&lt;/div&gt;</code></td>
+</tr>
+<tr class="even">
+<td>HTML注释</td>
+<td><code>&lt;!--(.*?)--&gt;</code></td>
+<td>例如：<code>&lt;!--注释--&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Yu
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="https://idealistyu.github.io/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/" title="基础正则表达式速查表与常用正则表达式示例">https://idealistyu.github.io/基础正则表达式速查表与常用正则表达式示例/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/" rel="next" title="正则表达式可视化">
+                  正则表达式可视化 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>Word count total: </span>
+    <span title="Word count total">36k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>Reading time total &asymp;</span>
+    <span title="Reading time total">2:10</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/IdealistYu" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>

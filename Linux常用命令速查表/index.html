@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"idealistyu.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.14.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Linux相关">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux常用命令速查表">
+<meta property="og:url" content="https://idealistyu.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/index.html">
+<meta property="og:site_name" content="Yu&#39;s Site">
+<meta property="og:description" content="Linux相关">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-12-02T10:30:49.000Z">
+<meta property="article:modified_time" content="2022-12-02T10:33:29.467Z">
+<meta property="article:author" content="Yu">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://idealistyu.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://idealistyu.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/","path":"Linux常用命令速查表/","title":"Linux常用命令速查表"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Linux常用命令速查表 | Yu's Site</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Yu's Site</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-download"><a href="/download/" rel="section"><i class="fa fa-download fa-fw"></i>Download</a></li><li class="menu-item menu-item-music"><a href="/music/" rel="section"><i class="fa fa-music fa-fw"></i>Music</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E6%9C%BA%E9%87%8D%E5%90%AF%E6%B3%A8%E9%94%80"><span class="nav-number">1.</span> <span class="nav-text">关机&#x2F;重启&#x2F;注销</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%92%8C%E6%80%A7%E8%83%BD%E6%9F%A5%E7%9C%8B"><span class="nav-number">2.</span> <span class="nav-text">系统信息和性能查看</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A3%81%E7%9B%98%E5%92%8C%E5%88%86%E5%8C%BA"><span class="nav-number">3.</span> <span class="nav-text">磁盘和分区</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84"><span class="nav-number">4.</span> <span class="nav-text">用户和用户组</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BD%91%E7%BB%9C%E5%92%8C%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86"><span class="nav-number">5.</span> <span class="nav-text">网络和进程管理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1%E5%91%BD%E4%BB%A4"><span class="nav-number">6.</span> <span class="nav-text">系统服务命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%B6%E5%92%8C%E5%BD%95%E6%93%8D%E4%BD%9C"><span class="nav-number">7.</span> <span class="nav-text">⽂件和⽬录操作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%E5%92%8C%E5%A4%84%E7%90%86"><span class="nav-number">8.</span> <span class="nav-text">文件查看和处理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%89%93%E5%8C%85%E5%92%8C%E8%A7%A3%E5%8E%8B"><span class="nav-number">9.</span> <span class="nav-text">打包和解压</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#rpm%E5%8C%85%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4"><span class="nav-number">10.</span> <span class="nav-text">RPM包管理命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum%E5%8C%85%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4"><span class="nav-number">11.</span> <span class="nav-text">YUM包管理命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#dpkg%E5%8C%85%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4"><span class="nav-number">12.</span> <span class="nav-text">DPKG包管理命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#apt%E8%BD%AF%E4%BB%B6%E5%85%B7"><span class="nav-number">13.</span> <span class="nav-text">APT软件⼯具</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yu"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Yu</p>
+  <div class="site-description" itemprop="description">Stay hungry, stay foolish.</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/IdealistYu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;IdealistYu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:harveyzhang@vip.qq.com" title="E-Mail → mailto:harveyzhang@vip.qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://idealistyu.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yu's Site">
+      <meta itemprop="description" content="Stay hungry, stay foolish.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Linux常用命令速查表 | Yu's Site">
+      <meta itemprop="description" content="Linux相关">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Linux常用命令速查表
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-12-02 18:30:49 / Modified: 18:33:29" itemprop="dateCreated datePublished" datetime="2022-12-02T18:30:49+08:00">2022-12-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>2.7k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>10 mins.</span>
+    </span>
+</div>
+
+            <div class="post-description">Linux相关</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <hr />
+<h1 id="关机重启注销">关机/重启/注销</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>shutdown -h now</td>
+<td>即刻关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -h 10</td>
+<td>10分钟后关机</td>
+</tr>
+<tr class="odd">
+<td>shutdown -h 11:00</td>
+<td>11：00关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -h +10</td>
+<td>预定时间关机（10分钟后）</td>
+</tr>
+<tr class="odd">
+<td>shutdown -c</td>
+<td>取消指定时间关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -r now</td>
+<td>重启</td>
+</tr>
+<tr class="odd">
+<td>shutdown -r 10</td>
+<td>10分钟之后重启</td>
+</tr>
+<tr class="even">
+<td>shutdown -r 11:00</td>
+<td>定时重启</td>
+</tr>
+<tr class="odd">
+<td>reboot</td>
+<td>重启</td>
+</tr>
+<tr class="even">
+<td>init 6</td>
+<td>重启</td>
+</tr>
+<tr class="odd">
+<td>init 0</td>
+<td>⽴刻关机</td>
+</tr>
+<tr class="even">
+<td>telinit 0</td>
+<td>关机</td>
+</tr>
+<tr class="odd">
+<td>poweroff</td>
+<td>⽴刻关机</td>
+</tr>
+<tr class="even">
+<td>halt</td>
+<td>关机</td>
+</tr>
+<tr class="odd">
+<td>sync</td>
+<td>buff数据同步到磁盘</td>
+</tr>
+<tr class="even">
+<td>logout</td>
+<td>退出登录Shell</td>
+</tr>
+</tbody>
+</table>
+<h1 id="系统信息和性能查看">系统信息和性能查看</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>uname -a</td>
+<td>查看内核/OS/CPU信息</td>
+</tr>
+<tr class="even">
+<td>uname -r</td>
+<td>查看内核版本</td>
+</tr>
+<tr class="odd">
+<td>uname -m</td>
+<td>查看处理器架构</td>
+</tr>
+<tr class="even">
+<td>arch</td>
+<td>查看处理器架构</td>
+</tr>
+<tr class="odd">
+<td>hostname</td>
+<td>查看计算机名</td>
+</tr>
+<tr class="even">
+<td>who</td>
+<td>显示当前登录系统的⽤户</td>
+</tr>
+<tr class="odd">
+<td>who am i</td>
+<td>显示登录时的⽤户名</td>
+</tr>
+<tr class="even">
+<td>whoami</td>
+<td>显示当前⽤户名</td>
+</tr>
+<tr class="odd">
+<td>cat /proc/version</td>
+<td>查看linux版本信息</td>
+</tr>
+<tr class="even">
+<td>cat /proc/cpuinfo</td>
+<td>查看CPU信息</td>
+</tr>
+<tr class="odd">
+<td>cat /proc/interrupts</td>
+<td>查看中断</td>
+</tr>
+<tr class="even">
+<td>cat /proc/loadavg</td>
+<td>查看系统负载</td>
+</tr>
+<tr class="odd">
+<td>uptime</td>
+<td>查看系统运⾏时间、⽤户数、负载</td>
+</tr>
+<tr class="even">
+<td>env</td>
+<td>查看系统的环境变量</td>
+</tr>
+<tr class="odd">
+<td>lsusb -tv</td>
+<td>查看系统USB设备信息</td>
+</tr>
+<tr class="even">
+<td>lspci -tv</td>
+<td>查看系统PCI设备信息</td>
+</tr>
+<tr class="odd">
+<td>lsmod</td>
+<td>查看已加载的系统模块</td>
+</tr>
+<tr class="even">
+<td>grep MemTotal /proc/meminfo</td>
+<td>查看内存总量</td>
+</tr>
+<tr class="odd">
+<td>grep MemFree /proc/meminfo</td>
+<td>查看空闲内存量</td>
+</tr>
+<tr class="even">
+<td>free -m</td>
+<td>查看内存⽤量和交换区⽤量</td>
+</tr>
+<tr class="odd">
+<td>date</td>
+<td>显示系统⽇期时间</td>
+</tr>
+<tr class="even">
+<td>cal 2021</td>
+<td>显示2021⽇历表</td>
+</tr>
+<tr class="odd">
+<td>top</td>
+<td>动态显示cpu/内存/进程等情况</td>
+</tr>
+<tr class="even">
+<td>vmstat 1 20</td>
+<td>每1秒采⼀次系统状态，采20次</td>
+</tr>
+<tr class="odd">
+<td>iostat</td>
+<td>查看io读写/cpu使⽤情况</td>
+</tr>
+<tr class="even">
+<td>sar -u 1 10</td>
+<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
+</tr>
+<tr class="odd">
+<td>sar -d 1 10</td>
+<td>查询磁盘性能</td>
+</tr>
+</tbody>
+</table>
+<h1 id="磁盘和分区">磁盘和分区</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>fdisk -l</td>
+<td>查看所有磁盘分区</td>
+</tr>
+<tr class="even">
+<td>swapon -s</td>
+<td>查看所有交换分区</td>
+</tr>
+<tr class="odd">
+<td>df -h</td>
+<td>查看磁盘使⽤情况及挂载点</td>
+</tr>
+<tr class="even">
+<td>df -hl</td>
+<td>同上</td>
+</tr>
+<tr class="odd">
+<td>du -sh /dir</td>
+<td>查看指定某个⽬录的⼤⼩</td>
+</tr>
+<tr class="even">
+<td>du -sk * | sort -rn</td>
+<td>从⾼到低依次显示⽂件和⽬录⼤⼩</td>
+</tr>
+<tr class="odd">
+<td>mount /dev/hda2 /mnt/hda2</td>
+<td>挂载hda2盘</td>
+</tr>
+<tr class="even">
+<td>mount -t ntfs /dev/sdc1 /mnt/usbhd1</td>
+<td>指定⽂件系统类型挂载（如ntfs）</td>
+</tr>
+<tr class="odd">
+<td>mount -o loop xxx.iso /mnt/cdrom</td>
+<td>挂载iso⽂件</td>
+</tr>
+<tr class="even">
+<td>mount /dev/sda1 /mnt/usbdisk</td>
+<td>挂载usb盘/闪存设备</td>
+</tr>
+<tr class="odd">
+<td>umount -v /dev/sda1</td>
+<td>通过设备名卸载</td>
+</tr>
+<tr class="even">
+<td>umount -v /mnt/mymnt</td>
+<td>通过挂载点卸载</td>
+</tr>
+<tr class="odd">
+<td>fuser -km /mnt/hda1</td>
+<td>强制卸载(慎⽤)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="用户和用户组">用户和用户组</h1>
+<table>
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>useradd user_name</td>
+<td>创建⽤户</td>
+</tr>
+<tr class="even">
+<td>userdel -r user_name</td>
+<td>删除⽤户</td>
+</tr>
+<tr class="odd">
+<td>usermod -g group_name user_name</td>
+<td>修改⽤户的组</td>
+</tr>
+<tr class="even">
+<td>usermod -aG group_name user_name</td>
+<td>将⽤户添加到组</td>
+</tr>
+<tr class="odd">
+<td>usermod -s /bin/ksh -d /home/codepig –g dev codesheep</td>
+<td>修改⽤户codesheep的登录Shell、主⽬录以及⽤户组</td>
+</tr>
+<tr class="even">
+<td>groups test</td>
+<td>查看test⽤户所在的组</td>
+</tr>
+<tr class="odd">
+<td>groupadd group_name</td>
+<td>创建⽤户组</td>
+</tr>
+<tr class="even">
+<td>groupdel group_name</td>
+<td>删除⽤户组</td>
+</tr>
+<tr class="odd">
+<td>groupmod -n new_name old_name</td>
+<td>重命名⽤户组</td>
+</tr>
+<tr class="even">
+<td>su - user_name</td>
+<td>完整切换到⼀个⽤户环境</td>
+</tr>
+<tr class="odd">
+<td>passwd</td>
+<td>修改⼝令</td>
+</tr>
+<tr class="even">
+<td>passwd user_name</td>
+<td>修改某⽤户的⼝令</td>
+</tr>
+<tr class="odd">
+<td>w</td>
+<td>查看活动⽤户</td>
+</tr>
+<tr class="even">
+<td>id user_name</td>
+<td>查看指定⽤户信息</td>
+</tr>
+<tr class="odd">
+<td>last</td>
+<td>查看⽤户登录⽇志</td>
+</tr>
+<tr class="even">
+<td>crontab -l</td>
+<td>查看当前⽤户的计划任务</td>
+</tr>
+<tr class="odd">
+<td>cut -d: -f1 /etc/passwd</td>
+<td>查看系统所有⽤户</td>
+</tr>
+<tr class="even">
+<td>cut -d: -f1 /etc/group</td>
+<td>查看系统所有组</td>
+</tr>
+</tbody>
+</table>
+<h1 id="网络和进程管理">网络和进程管理</h1>
+<table>
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ifconfig</td>
+<td>查看⽹络接⼝属性</td>
+</tr>
+<tr class="even">
+<td>ifconfig eth0</td>
+<td>查看某⽹卡的配置</td>
+</tr>
+<tr class="odd">
+<td>route -n</td>
+<td>查看路由表</td>
+</tr>
+<tr class="even">
+<td>netstat -lntp</td>
+<td>查看所有监听端⼝</td>
+</tr>
+<tr class="odd">
+<td>netstat -antp</td>
+<td>查看已经建⽴的TCP连接</td>
+</tr>
+<tr class="even">
+<td>netstat -lutp</td>
+<td>查看TCP/UDP的状态信息</td>
+</tr>
+<tr class="odd">
+<td>ifup eth0</td>
+<td>启⽤eth0⽹络设备</td>
+</tr>
+<tr class="even">
+<td>ifdown eth0</td>
+<td>禁⽤eth0⽹络设备</td>
+</tr>
+<tr class="odd">
+<td>iptables -L</td>
+<td>查看iptables规则</td>
+</tr>
+<tr class="even">
+<td>ifconfig eth0 192.168.1.1 netmask 255.255.255.0</td>
+<td>配置ip地址</td>
+</tr>
+<tr class="odd">
+<td>dhclient eth0</td>
+<td>以dhcp模式启⽤eth0</td>
+</tr>
+<tr class="even">
+<td>route add -net 0/0 gw Gateway_IP</td>
+<td>配置默认⽹关</td>
+</tr>
+<tr class="odd">
+<td>route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1</td>
+<td>配置静态路由到达⽹络'192.168.0.0/16'</td>
+</tr>
+<tr class="even">
+<td>route del 0/0 gw Gateway_IP</td>
+<td>删除静态路由hostname</td>
+</tr>
+<tr class="odd">
+<td>host idealist-haoyu.top</td>
+<td>解析主机名</td>
+</tr>
+<tr class="even">
+<td>nslookup idealist-haoyu.top</td>
+<td>查询DNS记录，查看域名解析是否正常</td>
+</tr>
+<tr class="odd">
+<td>ps -ef</td>
+<td>查看所有进程</td>
+</tr>
+<tr class="even">
+<td>ps -ef | grep user_name</td>
+<td>过滤出你需要的进程</td>
+</tr>
+<tr class="odd">
+<td>kill -s name</td>
+<td>kill指定名称的进程</td>
+</tr>
+<tr class="even">
+<td>kill -s pid</td>
+<td>kill指定pid的进程</td>
+</tr>
+<tr class="odd">
+<td>top</td>
+<td>实时显示进程状态</td>
+</tr>
+<tr class="even">
+<td>vmstat 1 20</td>
+<td>每1秒采⼀次系统状态，采20次</td>
+</tr>
+<tr class="odd">
+<td>iostat</td>
+<td>查看io读写/cpu使⽤情况</td>
+</tr>
+<tr class="even">
+<td>sar -u 1 10</td>
+<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
+</tr>
+<tr class="odd">
+<td>sar -d 1 10</td>
+<td>查询磁盘性能</td>
+</tr>
+</tbody>
+</table>
+<h1 id="系统服务命令">系统服务命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>chkconfig --list</td>
+<td>列出系统服务</td>
+</tr>
+<tr class="even">
+<td>service <服务名> status</td>
+<td>查看某个服务</td>
+</tr>
+<tr class="odd">
+<td>service <服务名> start</td>
+<td>启动某个服务</td>
+</tr>
+<tr class="even">
+<td>service <服务名> stop</td>
+<td>终⽌某个服务</td>
+</tr>
+<tr class="odd">
+<td>service <服务名> restart</td>
+<td>重启某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl status <服务名></td>
+<td>查看某个服务</td>
+</tr>
+<tr class="odd">
+<td>systemctl start <服务名></td>
+<td>启动某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl stop <服务名></td>
+<td>终⽌某个服务</td>
+</tr>
+<tr class="odd">
+<td>systemctl restart <服务名></td>
+<td>重启某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl enable <服务名></td>
+<td>开启⾃启动</td>
+</tr>
+<tr class="odd">
+<td>systemctl disable <服务名></td>
+<td>关闭⾃启动</td>
+</tr>
+</tbody>
+</table>
+<h1 id="件和录操作">⽂件和⽬录操作</h1>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 71%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cd &lt;⽬录名&gt;</td>
+<td>进⼊某个⽬录</td>
+</tr>
+<tr class="even">
+<td>cd ..</td>
+<td>回上级⽬录</td>
+</tr>
+<tr class="odd">
+<td>cd ../..</td>
+<td>回上两级⽬录</td>
+</tr>
+<tr class="even">
+<td>cd</td>
+<td>进个⼈主⽬录</td>
+</tr>
+<tr class="odd">
+<td>cd -</td>
+<td>回上⼀步所在⽬录</td>
+</tr>
+<tr class="even">
+<td>pwd</td>
+<td>显示当前路径</td>
+</tr>
+<tr class="odd">
+<td>ls</td>
+<td>查看⽂件⽬录列表</td>
+</tr>
+<tr class="even">
+<td>ls -F</td>
+<td>查看⽬录中内容（显示是⽂件还是⽬录）</td>
+</tr>
+<tr class="odd">
+<td>ls -l</td>
+<td>查看⽂件和⽬录的详情列表</td>
+</tr>
+<tr class="even">
+<td>ls -a</td>
+<td>查看隐藏⽂件</td>
+</tr>
+<tr class="odd">
+<td>ls -lh</td>
+<td>查看⽂件和⽬录的详情列表（增强⽂件⼤⼩易读性）</td>
+</tr>
+<tr class="even">
+<td>ls -lSr</td>
+<td>查看⽂件和⽬录列表（以⽂件⼤⼩升序查看）</td>
+</tr>
+<tr class="odd">
+<td>tree</td>
+<td>查看⽂件和⽬录的树形结构</td>
+</tr>
+<tr class="even">
+<td>mkdir &lt;⽬录名&gt;</td>
+<td>创建⽬录</td>
+</tr>
+<tr class="odd">
+<td>mkdir dir1 dir2</td>
+<td>同时创建两个⽬录</td>
+</tr>
+<tr class="even">
+<td>mkdir -p /tmp/dir1/dir2</td>
+<td>创建⽬录树</td>
+</tr>
+<tr class="odd">
+<td>rm -f file1</td>
+<td>删除'file1'⽂件</td>
+</tr>
+<tr class="even">
+<td>rmdir dir1</td>
+<td>删除'dir1'⽬录</td>
+</tr>
+<tr class="odd">
+<td>rm -rf dir1</td>
+<td>删除'dir1'⽬录和其内容</td>
+</tr>
+<tr class="even">
+<td>rm -rf dir1 dir2</td>
+<td>同时删除两个⽬录及其内容</td>
+</tr>
+<tr class="odd">
+<td>mv old_dir new_dir</td>
+<td>重命名/移动⽬录</td>
+</tr>
+<tr class="even">
+<td>cp file1 file2</td>
+<td>复制⽂件</td>
+</tr>
+<tr class="odd">
+<td>cp dir/* .</td>
+<td>复制某⽬录下的所有⽂件⾄当前⽬录</td>
+</tr>
+<tr class="even">
+<td>cp -a dir1 dir2</td>
+<td>复制⽬录</td>
+</tr>
+<tr class="odd">
+<td>cp -a /tmp/dir1 .</td>
+<td>复制⼀个⽬录⾄当前⽬录</td>
+</tr>
+<tr class="even">
+<td>ln -s file1 link1</td>
+<td>创建指向⽂件/⽬录的软链接</td>
+</tr>
+<tr class="odd">
+<td>ln file1 lnk1</td>
+<td>创建指向⽂件/⽬录的物理链接</td>
+</tr>
+<tr class="even">
+<td>find / -name file1</td>
+<td>从跟⽬录开始搜索⽂件/⽬录</td>
+</tr>
+<tr class="odd">
+<td>find / -user user1</td>
+<td>搜索⽤户user1的⽂件/⽬录</td>
+</tr>
+<tr class="even">
+<td>find /dir -name *.bin</td>
+<td>在⽬录/dir中搜带有.bin后缀的⽂件</td>
+</tr>
+<tr class="odd">
+<td>locate <关键词></td>
+<td>快速定位⽂件</td>
+</tr>
+<tr class="even">
+<td>locate *.mp4</td>
+<td>寻找.mp4结尾的⽂件</td>
+</tr>
+<tr class="odd">
+<td>whereis <关键词></td>
+<td>显示某⼆进制⽂件/可执⾏⽂件的路径</td>
+</tr>
+<tr class="even">
+<td>which <关键词></td>
+<td>查找系统⽬录下某的⼆进制⽂件</td>
+</tr>
+<tr class="odd">
+<td>chmod ugo+rwx dir1</td>
+<td>设置⽬录所有者(u)、群组(g)及其他⼈(o)的读(r)写(w)执⾏(x)权限</td>
+</tr>
+<tr class="even">
+<td>chmod go-rwx dir1</td>
+<td>移除群组(g)与其他⼈(o)对⽬录的读写执⾏权限</td>
+</tr>
+<tr class="odd">
+<td>chown user1 file1</td>
+<td>改变⽂件的所有者属性</td>
+</tr>
+<tr class="even">
+<td>chown -R user1 dir1</td>
+<td>改变⽬录的所有者属性</td>
+</tr>
+<tr class="odd">
+<td>chgrp group1 file1</td>
+<td>改变⽂件群组</td>
+</tr>
+<tr class="even">
+<td>chown user1:group1 file1</td>
+<td>改变⽂件的所有⼈和群组</td>
+</tr>
+</tbody>
+</table>
+<h1 id="文件查看和处理">文件查看和处理</h1>
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cat file1</td>
+<td>查看⽂件内容</td>
+</tr>
+<tr class="even">
+<td>cat -n file1</td>
+<td>查看内容并标示⾏数</td>
+</tr>
+<tr class="odd">
+<td>tac file1</td>
+<td>从最后⼀⾏开始反看⽂件内容</td>
+</tr>
+<tr class="even">
+<td>more file1</td>
+<td>查看⼀个⻓⽂件的内容</td>
+</tr>
+<tr class="odd">
+<td>less file1</td>
+<td>类似more命令，但允许反向操作</td>
+</tr>
+<tr class="even">
+<td>head -2 file1</td>
+<td>查看⽂件前两⾏</td>
+</tr>
+<tr class="odd">
+<td>tail -2 file1</td>
+<td>查看⽂件后两⾏</td>
+</tr>
+<tr class="even">
+<td>tail -f /log/msg</td>
+<td>实时查看添加到⽂件中的内容</td>
+</tr>
+<tr class="odd">
+<td>grep keyword hello.txt</td>
+<td>在⽂件hello.txt中查找关键词keyword</td>
+</tr>
+<tr class="even">
+<td>grep ^keyword hello.txt</td>
+<td>在⽂件hello.txt中查找以keyword开头的内容</td>
+</tr>
+<tr class="odd">
+<td>grep [0-9] hello.txt</td>
+<td>选择hello.txt⽂件中所有包含数字的⾏</td>
+</tr>
+<tr class="even">
+<td>sed 's/s1/s2/g' hello.txt</td>
+<td>将hello.txt⽂件中的s1替换成s2</td>
+</tr>
+<tr class="odd">
+<td>sed '/^<span class="math inline">\(/d&#39; hello.txt |
+从hello.txt⽂件中删除所有空⽩⾏ | | sed &#39;/ *#/d; /^\)</span>/d'
+hello.txt</td>
+<td>从hello.txt⽂件中删除所有注释和空⽩⾏</td>
+</tr>
+<tr class="even">
+<td>sed -e '1d' hello.txt</td>
+<td>从⽂件hello.txt 中排除第⼀⾏</td>
+</tr>
+<tr class="odd">
+<td>sed -n '/s1/p' hello.txt</td>
+<td>查看只包含关键词"s1"的⾏</td>
+</tr>
+<tr class="even">
+<td>sed -e 's/ *$//' hello.txt</td>
+<td>删除每⼀⾏最后的空⽩字符</td>
+</tr>
+<tr class="odd">
+<td>sed -e 's/s1//g' hello.txt</td>
+<td>从⽂档中只删除词汇s1并保留剩余全部</td>
+</tr>
+<tr class="even">
+<td>sed -n '1,5p;5q' hello.txt</td>
+<td>查看从第⼀⾏到第5⾏内容</td>
+</tr>
+<tr class="odd">
+<td>sed -n '5p;5q' hello.txt</td>
+<td>查看第5⾏</td>
+</tr>
+<tr class="even">
+<td>paste file1 file2</td>
+<td>合并两个⽂件或两栏的内容</td>
+</tr>
+<tr class="odd">
+<td>paste -d '+' file1 file2</td>
+<td>合并两个⽂件或两栏的内容，中间⽤"+"区分</td>
+</tr>
+<tr class="even">
+<td>sort file1 file2</td>
+<td>排序两个⽂件的内容</td>
+</tr>
+<tr class="odd">
+<td>comm -1 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除'file1'所含内容)</td>
+</tr>
+<tr class="even">
+<td>comm -2 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除'file2'所含内容)</td>
+</tr>
+<tr class="odd">
+<td>comm -3 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除两⽂件共有部分)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="打包和解压">打包和解压</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>zip xxx.zip file</td>
+<td>压缩⾄zip包</td>
+</tr>
+<tr class="even">
+<td>zip -r xxx.zip file1 file2 dir1</td>
+<td>将多个⽂件+⽬录压成zip包</td>
+</tr>
+<tr class="odd">
+<td>unzip xxx.zip</td>
+<td>解压zip包</td>
+</tr>
+<tr class="even">
+<td>tar -cvf xxx.tar file</td>
+<td>创建⾮压缩tar包</td>
+</tr>
+<tr class="odd">
+<td>tar -cvf xxx.tar file1 file2 dir1</td>
+<td>将多个⽂件+⽬录打tar包</td>
+</tr>
+<tr class="even">
+<td>tar -tf xxx.tar</td>
+<td>查看tar包的内容</td>
+</tr>
+<tr class="odd">
+<td>tar -xvf xxx.tar</td>
+<td>解压tar包</td>
+</tr>
+<tr class="even">
+<td>tar -xvf xxx.tar -C /dir</td>
+<td>将tar包解压⾄指定⽬录</td>
+</tr>
+<tr class="odd">
+<td>tar -cvfj xxx.tar.bz2 dir</td>
+<td>创建bz2压缩包</td>
+</tr>
+<tr class="even">
+<td>tar -jxvf xxx.tar.bz2</td>
+<td>解压bz2压缩包</td>
+</tr>
+<tr class="odd">
+<td>tar -cvfz xxx.tar.gz dir</td>
+<td>创建gzip压缩包</td>
+</tr>
+<tr class="even">
+<td>tar -zxvf xxx.tar.gz</td>
+<td>解压gzip压缩包</td>
+</tr>
+<tr class="odd">
+<td>bunzip2 xxx.bz2</td>
+<td>解压bz2压缩包</td>
+</tr>
+<tr class="even">
+<td>bzip2 filename</td>
+<td>压缩⽂件</td>
+</tr>
+<tr class="odd">
+<td>gunzip xxx.gz</td>
+<td>解压gzip压缩包</td>
+</tr>
+<tr class="even">
+<td>gzip filename</td>
+<td>压缩⽂件</td>
+</tr>
+<tr class="odd">
+<td>gzip -9 filename</td>
+<td>最⼤程度压缩</td>
+</tr>
+</tbody>
+</table>
+<h1 id="rpm包管理命令">RPM包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>rpm -qa</td>
+<td>查看已安装的rpm包</td>
+</tr>
+<tr class="even">
+<td>rpm -q pkg_name</td>
+<td>查询某个rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -q --whatprovides xxx</td>
+<td>显示xxx功能是由哪个包提供的</td>
+</tr>
+<tr class="even">
+<td>rpm -q --whatrequires xxx</td>
+<td>显示xxx功能被哪个程序包依赖的</td>
+</tr>
+<tr class="odd">
+<td>rpm -q --changelog xxx</td>
+<td>显示xxx包的更改记录</td>
+</tr>
+<tr class="even">
+<td>rpm -qi pkg_name</td>
+<td>查看⼀个包的详细信息</td>
+</tr>
+<tr class="odd">
+<td>rpm -qd pkg_name</td>
+<td>查询⼀个包所提供的⽂档</td>
+</tr>
+<tr class="even">
+<td>rpm -qc pkg_name</td>
+<td>查看已安装rpm包提供的配置⽂件</td>
+</tr>
+<tr class="odd">
+<td>rpm -ql pkg_name</td>
+<td>查看⼀个包安装了哪些⽂件</td>
+</tr>
+<tr class="even">
+<td>rpm -qf filename</td>
+<td>查看某个⽂件属于哪个包</td>
+</tr>
+<tr class="odd">
+<td>rpm -qR pkg_name</td>
+<td>查询包的依赖关系</td>
+</tr>
+<tr class="even">
+<td>rpm -ivh xxx.rpm</td>
+<td>安装rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -ivh --test xxx.rpm</td>
+<td>测试安装rpm包</td>
+</tr>
+<tr class="even">
+<td>rpm -ivh --nodeps xxx.rpm</td>
+<td>安装rpm包时忽略依赖关系</td>
+</tr>
+<tr class="odd">
+<td>rpm -e xxx</td>
+<td>卸载程序包</td>
+</tr>
+<tr class="even">
+<td>rpm -Fvh pkg_name</td>
+<td>升级确定已安装的rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -Uvh pkg_name</td>
+<td>升级rpm包(若未安装则会安装)</td>
+</tr>
+<tr class="even">
+<td>rpm -V pkg_name</td>
+<td>PM包详细信息校验</td>
+</tr>
+</tbody>
+</table>
+<h1 id="yum包管理命令">YUM包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>yum repolist enabled</td>
+<td>显示可⽤的源仓库</td>
+</tr>
+<tr class="even">
+<td>yum search pkg_name</td>
+<td>搜索软件包</td>
+</tr>
+<tr class="odd">
+<td>yum install pkg_name</td>
+<td>下载并安装软件包</td>
+</tr>
+<tr class="even">
+<td>yum install --downloadonly pkg_name</td>
+<td>只下载不安装</td>
+</tr>
+<tr class="odd">
+<td>yum list</td>
+<td>显示所有程序包</td>
+</tr>
+<tr class="even">
+<td>yum list installed</td>
+<td>查看当前系统已安装包</td>
+</tr>
+<tr class="odd">
+<td>yum list updates</td>
+<td>查看可以更新的包列表</td>
+</tr>
+<tr class="even">
+<td>yum check-update</td>
+<td>查看可升级的软件包</td>
+</tr>
+<tr class="odd">
+<td>yum update</td>
+<td>更新所有软件包</td>
+</tr>
+<tr class="even">
+<td>yum update pkg_name</td>
+<td>升级指定软件包</td>
+</tr>
+<tr class="odd">
+<td>yum deplist pkg_name</td>
+<td>列出软件包依赖关系</td>
+</tr>
+<tr class="even">
+<td>yum remove pkg_name</td>
+<td>删除软件包</td>
+</tr>
+<tr class="odd">
+<td>yum clean all</td>
+<td>清除缓存</td>
+</tr>
+<tr class="even">
+<td>yum clean packages</td>
+<td>清除缓存的软件包</td>
+</tr>
+<tr class="odd">
+<td>yum clean headers</td>
+<td>清除缓存的header</td>
+</tr>
+</tbody>
+</table>
+<h1 id="dpkg包管理命令">DPKG包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>dpkg -c xxx.deb</td>
+<td>列出deb包的内容</td>
+</tr>
+<tr class="even">
+<td>dpkg -i xxx.deb</td>
+<td>安装/更新deb包</td>
+</tr>
+<tr class="odd">
+<td>dpkg -r pkg_name</td>
+<td>移除deb包</td>
+</tr>
+<tr class="even">
+<td>dpkg -P pkg_name</td>
+<td>移除deb包(不保留配置)</td>
+</tr>
+<tr class="odd">
+<td>dpkg -l</td>
+<td>查看系统中已安装deb包</td>
+</tr>
+<tr class="even">
+<td>dpkg -l pkg_name</td>
+<td>显示包的⼤致信息</td>
+</tr>
+<tr class="odd">
+<td>dpkg -L pkg_name</td>
+<td>查看deb包安装的⽂件</td>
+</tr>
+<tr class="even">
+<td>dpkg -s pkg_name</td>
+<td>查看包的详细信息</td>
+</tr>
+<tr class="odd">
+<td>dpkg –unpack xxx.deb</td>
+<td>解开deb包的内容</td>
+</tr>
+</tbody>
+</table>
+<h1 id="apt软件具">APT软件⼯具</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>apt-cache search pkg_name</td>
+<td>搜索程序包</td>
+</tr>
+<tr class="even">
+<td>apt-cache show pkg_name</td>
+<td>获取包的概览信息</td>
+</tr>
+<tr class="odd">
+<td>apt-get install pkg_name</td>
+<td>安装/升级软件包</td>
+</tr>
+<tr class="even">
+<td>apt-get purge pkg_name</td>
+<td>卸载软件（包括配置）</td>
+</tr>
+<tr class="odd">
+<td>apt-get remove pkg_name</td>
+<td>卸载软件（不包括配置）</td>
+</tr>
+<tr class="even">
+<td>apt-get update</td>
+<td>更新包索引信息</td>
+</tr>
+<tr class="odd">
+<td>apt-get upgrade</td>
+<td>更新已安装软件包</td>
+</tr>
+<tr class="even">
+<td>apt-get clean</td>
+<td>清理缓存</td>
+</tr>
+</tbody>
+</table>
+<hr />
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Yu
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="https://idealistyu.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/" title="Linux常用命令速查表">https://idealistyu.github.io/Linux常用命令速查表/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/" rel="prev" title="树莓派安装conky监控运行状态">
+                  <i class="fa fa-chevron-left"></i> 树莓派安装conky监控运行状态
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/N1%E6%96%87%E6%B3%95/" rel="next" title="N1文法">
+                  N1文法 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yu</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>Word count total: </span>
+    <span title="Word count total">36k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>Reading time total &asymp;</span>
+    <span title="Reading time total">2:10</span>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/IdealistYu" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>
