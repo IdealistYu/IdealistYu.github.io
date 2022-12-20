@@ -1,1145 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Linux常用命令速查表</title>
-    <url>/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
-    <content><![CDATA[<hr />
-<h1 id="关机重启注销">关机/重启/注销</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>shutdown -h now</td>
-<td>即刻关机</td>
-</tr>
-<tr class="even">
-<td>shutdown -h 10</td>
-<td>10分钟后关机</td>
-</tr>
-<tr class="odd">
-<td>shutdown -h 11:00</td>
-<td>11：00关机</td>
-</tr>
-<tr class="even">
-<td>shutdown -h +10</td>
-<td>预定时间关机（10分钟后）</td>
-</tr>
-<tr class="odd">
-<td>shutdown -c</td>
-<td>取消指定时间关机</td>
-</tr>
-<tr class="even">
-<td>shutdown -r now</td>
-<td>重启</td>
-</tr>
-<tr class="odd">
-<td>shutdown -r 10</td>
-<td>10分钟之后重启</td>
-</tr>
-<tr class="even">
-<td>shutdown -r 11:00</td>
-<td>定时重启</td>
-</tr>
-<tr class="odd">
-<td>reboot</td>
-<td>重启</td>
-</tr>
-<tr class="even">
-<td>init 6</td>
-<td>重启</td>
-</tr>
-<tr class="odd">
-<td>init 0</td>
-<td>⽴刻关机</td>
-</tr>
-<tr class="even">
-<td>telinit 0</td>
-<td>关机</td>
-</tr>
-<tr class="odd">
-<td>poweroff</td>
-<td>⽴刻关机</td>
-</tr>
-<tr class="even">
-<td>halt</td>
-<td>关机</td>
-</tr>
-<tr class="odd">
-<td>sync</td>
-<td>buff数据同步到磁盘</td>
-</tr>
-<tr class="even">
-<td>logout</td>
-<td>退出登录Shell</td>
-</tr>
-</tbody>
-</table>
-<h1 id="系统信息和性能查看">系统信息和性能查看</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>uname -a</td>
-<td>查看内核/OS/CPU信息</td>
-</tr>
-<tr class="even">
-<td>uname -r</td>
-<td>查看内核版本</td>
-</tr>
-<tr class="odd">
-<td>uname -m</td>
-<td>查看处理器架构</td>
-</tr>
-<tr class="even">
-<td>arch</td>
-<td>查看处理器架构</td>
-</tr>
-<tr class="odd">
-<td>hostname</td>
-<td>查看计算机名</td>
-</tr>
-<tr class="even">
-<td>who</td>
-<td>显示当前登录系统的⽤户</td>
-</tr>
-<tr class="odd">
-<td>who am i</td>
-<td>显示登录时的⽤户名</td>
-</tr>
-<tr class="even">
-<td>whoami</td>
-<td>显示当前⽤户名</td>
-</tr>
-<tr class="odd">
-<td>cat /proc/version</td>
-<td>查看linux版本信息</td>
-</tr>
-<tr class="even">
-<td>cat /proc/cpuinfo</td>
-<td>查看CPU信息</td>
-</tr>
-<tr class="odd">
-<td>cat /proc/interrupts</td>
-<td>查看中断</td>
-</tr>
-<tr class="even">
-<td>cat /proc/loadavg</td>
-<td>查看系统负载</td>
-</tr>
-<tr class="odd">
-<td>uptime</td>
-<td>查看系统运⾏时间、⽤户数、负载</td>
-</tr>
-<tr class="even">
-<td>env</td>
-<td>查看系统的环境变量</td>
-</tr>
-<tr class="odd">
-<td>lsusb -tv</td>
-<td>查看系统USB设备信息</td>
-</tr>
-<tr class="even">
-<td>lspci -tv</td>
-<td>查看系统PCI设备信息</td>
-</tr>
-<tr class="odd">
-<td>lsmod</td>
-<td>查看已加载的系统模块</td>
-</tr>
-<tr class="even">
-<td>grep MemTotal /proc/meminfo</td>
-<td>查看内存总量</td>
-</tr>
-<tr class="odd">
-<td>grep MemFree /proc/meminfo</td>
-<td>查看空闲内存量</td>
-</tr>
-<tr class="even">
-<td>free -m</td>
-<td>查看内存⽤量和交换区⽤量</td>
-</tr>
-<tr class="odd">
-<td>date</td>
-<td>显示系统⽇期时间</td>
-</tr>
-<tr class="even">
-<td>cal 2021</td>
-<td>显示2021⽇历表</td>
-</tr>
-<tr class="odd">
-<td>top</td>
-<td>动态显示cpu/内存/进程等情况</td>
-</tr>
-<tr class="even">
-<td>vmstat 1 20</td>
-<td>每1秒采⼀次系统状态，采20次</td>
-</tr>
-<tr class="odd">
-<td>iostat</td>
-<td>查看io读写/cpu使⽤情况</td>
-</tr>
-<tr class="even">
-<td>sar -u 1 10</td>
-<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
-</tr>
-<tr class="odd">
-<td>sar -d 1 10</td>
-<td>查询磁盘性能</td>
-</tr>
-</tbody>
-</table>
-<h1 id="磁盘和分区">磁盘和分区</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>fdisk -l</td>
-<td>查看所有磁盘分区</td>
-</tr>
-<tr class="even">
-<td>swapon -s</td>
-<td>查看所有交换分区</td>
-</tr>
-<tr class="odd">
-<td>df -h</td>
-<td>查看磁盘使⽤情况及挂载点</td>
-</tr>
-<tr class="even">
-<td>df -hl</td>
-<td>同上</td>
-</tr>
-<tr class="odd">
-<td>du -sh /dir</td>
-<td>查看指定某个⽬录的⼤⼩</td>
-</tr>
-<tr class="even">
-<td>du -sk * | sort -rn</td>
-<td>从⾼到低依次显示⽂件和⽬录⼤⼩</td>
-</tr>
-<tr class="odd">
-<td>mount /dev/hda2 /mnt/hda2</td>
-<td>挂载hda2盘</td>
-</tr>
-<tr class="even">
-<td>mount -t ntfs /dev/sdc1 /mnt/usbhd1</td>
-<td>指定⽂件系统类型挂载（如ntfs）</td>
-</tr>
-<tr class="odd">
-<td>mount -o loop xxx.iso /mnt/cdrom</td>
-<td>挂载iso⽂件</td>
-</tr>
-<tr class="even">
-<td>mount /dev/sda1 /mnt/usbdisk</td>
-<td>挂载usb盘/闪存设备</td>
-</tr>
-<tr class="odd">
-<td>umount -v /dev/sda1</td>
-<td>通过设备名卸载</td>
-</tr>
-<tr class="even">
-<td>umount -v /mnt/mymnt</td>
-<td>通过挂载点卸载</td>
-</tr>
-<tr class="odd">
-<td>fuser -km /mnt/hda1</td>
-<td>强制卸载(慎⽤)</td>
-</tr>
-</tbody>
-</table>
-<h1 id="用户和用户组">用户和用户组</h1>
-<table>
-<colgroup>
-<col style="width: 53%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>useradd user_name</td>
-<td>创建⽤户</td>
-</tr>
-<tr class="even">
-<td>userdel -r user_name</td>
-<td>删除⽤户</td>
-</tr>
-<tr class="odd">
-<td>usermod -g group_name user_name</td>
-<td>修改⽤户的组</td>
-</tr>
-<tr class="even">
-<td>usermod -aG group_name user_name</td>
-<td>将⽤户添加到组</td>
-</tr>
-<tr class="odd">
-<td>usermod -s /bin/ksh -d /home/codepig –g dev codesheep</td>
-<td>修改⽤户codesheep的登录Shell、主⽬录以及⽤户组</td>
-</tr>
-<tr class="even">
-<td>groups test</td>
-<td>查看test⽤户所在的组</td>
-</tr>
-<tr class="odd">
-<td>groupadd group_name</td>
-<td>创建⽤户组</td>
-</tr>
-<tr class="even">
-<td>groupdel group_name</td>
-<td>删除⽤户组</td>
-</tr>
-<tr class="odd">
-<td>groupmod -n new_name old_name</td>
-<td>重命名⽤户组</td>
-</tr>
-<tr class="even">
-<td>su - user_name</td>
-<td>完整切换到⼀个⽤户环境</td>
-</tr>
-<tr class="odd">
-<td>passwd</td>
-<td>修改⼝令</td>
-</tr>
-<tr class="even">
-<td>passwd user_name</td>
-<td>修改某⽤户的⼝令</td>
-</tr>
-<tr class="odd">
-<td>w</td>
-<td>查看活动⽤户</td>
-</tr>
-<tr class="even">
-<td>id user_name</td>
-<td>查看指定⽤户信息</td>
-</tr>
-<tr class="odd">
-<td>last</td>
-<td>查看⽤户登录⽇志</td>
-</tr>
-<tr class="even">
-<td>crontab -l</td>
-<td>查看当前⽤户的计划任务</td>
-</tr>
-<tr class="odd">
-<td>cut -d: -f1 /etc/passwd</td>
-<td>查看系统所有⽤户</td>
-</tr>
-<tr class="even">
-<td>cut -d: -f1 /etc/group</td>
-<td>查看系统所有组</td>
-</tr>
-</tbody>
-</table>
-<h1 id="网络和进程管理">网络和进程管理</h1>
-<table>
-<colgroup>
-<col style="width: 62%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ifconfig</td>
-<td>查看⽹络接⼝属性</td>
-</tr>
-<tr class="even">
-<td>ifconfig eth0</td>
-<td>查看某⽹卡的配置</td>
-</tr>
-<tr class="odd">
-<td>route -n</td>
-<td>查看路由表</td>
-</tr>
-<tr class="even">
-<td>netstat -lntp</td>
-<td>查看所有监听端⼝</td>
-</tr>
-<tr class="odd">
-<td>netstat -antp</td>
-<td>查看已经建⽴的TCP连接</td>
-</tr>
-<tr class="even">
-<td>netstat -lutp</td>
-<td>查看TCP/UDP的状态信息</td>
-</tr>
-<tr class="odd">
-<td>ifup eth0</td>
-<td>启⽤eth0⽹络设备</td>
-</tr>
-<tr class="even">
-<td>ifdown eth0</td>
-<td>禁⽤eth0⽹络设备</td>
-</tr>
-<tr class="odd">
-<td>iptables -L</td>
-<td>查看iptables规则</td>
-</tr>
-<tr class="even">
-<td>ifconfig eth0 192.168.1.1 netmask 255.255.255.0</td>
-<td>配置ip地址</td>
-</tr>
-<tr class="odd">
-<td>dhclient eth0</td>
-<td>以dhcp模式启⽤eth0</td>
-</tr>
-<tr class="even">
-<td>route add -net 0/0 gw Gateway_IP</td>
-<td>配置默认⽹关</td>
-</tr>
-<tr class="odd">
-<td>route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1</td>
-<td>配置静态路由到达⽹络'192.168.0.0/16'</td>
-</tr>
-<tr class="even">
-<td>route del 0/0 gw Gateway_IP</td>
-<td>删除静态路由hostname</td>
-</tr>
-<tr class="odd">
-<td>host idealist-haoyu.top</td>
-<td>解析主机名</td>
-</tr>
-<tr class="even">
-<td>nslookup idealist-haoyu.top</td>
-<td>查询DNS记录，查看域名解析是否正常</td>
-</tr>
-<tr class="odd">
-<td>ps -ef</td>
-<td>查看所有进程</td>
-</tr>
-<tr class="even">
-<td>ps -ef | grep user_name</td>
-<td>过滤出你需要的进程</td>
-</tr>
-<tr class="odd">
-<td>kill -s name</td>
-<td>kill指定名称的进程</td>
-</tr>
-<tr class="even">
-<td>kill -s pid</td>
-<td>kill指定pid的进程</td>
-</tr>
-<tr class="odd">
-<td>top</td>
-<td>实时显示进程状态</td>
-</tr>
-<tr class="even">
-<td>vmstat 1 20</td>
-<td>每1秒采⼀次系统状态，采20次</td>
-</tr>
-<tr class="odd">
-<td>iostat</td>
-<td>查看io读写/cpu使⽤情况</td>
-</tr>
-<tr class="even">
-<td>sar -u 1 10</td>
-<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
-</tr>
-<tr class="odd">
-<td>sar -d 1 10</td>
-<td>查询磁盘性能</td>
-</tr>
-</tbody>
-</table>
-<h1 id="系统服务命令">系统服务命令</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>chkconfig --list</td>
-<td>列出系统服务</td>
-</tr>
-<tr class="even">
-<td>service <服务名> status</td>
-<td>查看某个服务</td>
-</tr>
-<tr class="odd">
-<td>service <服务名> start</td>
-<td>启动某个服务</td>
-</tr>
-<tr class="even">
-<td>service <服务名> stop</td>
-<td>终⽌某个服务</td>
-</tr>
-<tr class="odd">
-<td>service <服务名> restart</td>
-<td>重启某个服务</td>
-</tr>
-<tr class="even">
-<td>systemctl status <服务名></td>
-<td>查看某个服务</td>
-</tr>
-<tr class="odd">
-<td>systemctl start <服务名></td>
-<td>启动某个服务</td>
-</tr>
-<tr class="even">
-<td>systemctl stop <服务名></td>
-<td>终⽌某个服务</td>
-</tr>
-<tr class="odd">
-<td>systemctl restart <服务名></td>
-<td>重启某个服务</td>
-</tr>
-<tr class="even">
-<td>systemctl enable <服务名></td>
-<td>开启⾃启动</td>
-</tr>
-<tr class="odd">
-<td>systemctl disable <服务名></td>
-<td>关闭⾃启动</td>
-</tr>
-</tbody>
-</table>
-<h1 id="件和录操作">⽂件和⽬录操作</h1>
-<table>
-<colgroup>
-<col style="width: 28%" />
-<col style="width: 71%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>cd &lt;⽬录名&gt;</td>
-<td>进⼊某个⽬录</td>
-</tr>
-<tr class="even">
-<td>cd ..</td>
-<td>回上级⽬录</td>
-</tr>
-<tr class="odd">
-<td>cd ../..</td>
-<td>回上两级⽬录</td>
-</tr>
-<tr class="even">
-<td>cd</td>
-<td>进个⼈主⽬录</td>
-</tr>
-<tr class="odd">
-<td>cd -</td>
-<td>回上⼀步所在⽬录</td>
-</tr>
-<tr class="even">
-<td>pwd</td>
-<td>显示当前路径</td>
-</tr>
-<tr class="odd">
-<td>ls</td>
-<td>查看⽂件⽬录列表</td>
-</tr>
-<tr class="even">
-<td>ls -F</td>
-<td>查看⽬录中内容（显示是⽂件还是⽬录）</td>
-</tr>
-<tr class="odd">
-<td>ls -l</td>
-<td>查看⽂件和⽬录的详情列表</td>
-</tr>
-<tr class="even">
-<td>ls -a</td>
-<td>查看隐藏⽂件</td>
-</tr>
-<tr class="odd">
-<td>ls -lh</td>
-<td>查看⽂件和⽬录的详情列表（增强⽂件⼤⼩易读性）</td>
-</tr>
-<tr class="even">
-<td>ls -lSr</td>
-<td>查看⽂件和⽬录列表（以⽂件⼤⼩升序查看）</td>
-</tr>
-<tr class="odd">
-<td>tree</td>
-<td>查看⽂件和⽬录的树形结构</td>
-</tr>
-<tr class="even">
-<td>mkdir &lt;⽬录名&gt;</td>
-<td>创建⽬录</td>
-</tr>
-<tr class="odd">
-<td>mkdir dir1 dir2</td>
-<td>同时创建两个⽬录</td>
-</tr>
-<tr class="even">
-<td>mkdir -p /tmp/dir1/dir2</td>
-<td>创建⽬录树</td>
-</tr>
-<tr class="odd">
-<td>rm -f file1</td>
-<td>删除'file1'⽂件</td>
-</tr>
-<tr class="even">
-<td>rmdir dir1</td>
-<td>删除'dir1'⽬录</td>
-</tr>
-<tr class="odd">
-<td>rm -rf dir1</td>
-<td>删除'dir1'⽬录和其内容</td>
-</tr>
-<tr class="even">
-<td>rm -rf dir1 dir2</td>
-<td>同时删除两个⽬录及其内容</td>
-</tr>
-<tr class="odd">
-<td>mv old_dir new_dir</td>
-<td>重命名/移动⽬录</td>
-</tr>
-<tr class="even">
-<td>cp file1 file2</td>
-<td>复制⽂件</td>
-</tr>
-<tr class="odd">
-<td>cp dir/* .</td>
-<td>复制某⽬录下的所有⽂件⾄当前⽬录</td>
-</tr>
-<tr class="even">
-<td>cp -a dir1 dir2</td>
-<td>复制⽬录</td>
-</tr>
-<tr class="odd">
-<td>cp -a /tmp/dir1 .</td>
-<td>复制⼀个⽬录⾄当前⽬录</td>
-</tr>
-<tr class="even">
-<td>ln -s file1 link1</td>
-<td>创建指向⽂件/⽬录的软链接</td>
-</tr>
-<tr class="odd">
-<td>ln file1 lnk1</td>
-<td>创建指向⽂件/⽬录的物理链接</td>
-</tr>
-<tr class="even">
-<td>find / -name file1</td>
-<td>从跟⽬录开始搜索⽂件/⽬录</td>
-</tr>
-<tr class="odd">
-<td>find / -user user1</td>
-<td>搜索⽤户user1的⽂件/⽬录</td>
-</tr>
-<tr class="even">
-<td>find /dir -name *.bin</td>
-<td>在⽬录/dir中搜带有.bin后缀的⽂件</td>
-</tr>
-<tr class="odd">
-<td>locate <关键词></td>
-<td>快速定位⽂件</td>
-</tr>
-<tr class="even">
-<td>locate *.mp4</td>
-<td>寻找.mp4结尾的⽂件</td>
-</tr>
-<tr class="odd">
-<td>whereis <关键词></td>
-<td>显示某⼆进制⽂件/可执⾏⽂件的路径</td>
-</tr>
-<tr class="even">
-<td>which <关键词></td>
-<td>查找系统⽬录下某的⼆进制⽂件</td>
-</tr>
-<tr class="odd">
-<td>chmod ugo+rwx dir1</td>
-<td>设置⽬录所有者(u)、群组(g)及其他⼈(o)的读(r)写(w)执⾏(x)权限</td>
-</tr>
-<tr class="even">
-<td>chmod go-rwx dir1</td>
-<td>移除群组(g)与其他⼈(o)对⽬录的读写执⾏权限</td>
-</tr>
-<tr class="odd">
-<td>chown user1 file1</td>
-<td>改变⽂件的所有者属性</td>
-</tr>
-<tr class="even">
-<td>chown -R user1 dir1</td>
-<td>改变⽬录的所有者属性</td>
-</tr>
-<tr class="odd">
-<td>chgrp group1 file1</td>
-<td>改变⽂件群组</td>
-</tr>
-<tr class="even">
-<td>chown user1:group1 file1</td>
-<td>改变⽂件的所有⼈和群组</td>
-</tr>
-</tbody>
-</table>
-<h1 id="文件查看和处理">文件查看和处理</h1>
-<table>
-<colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>cat file1</td>
-<td>查看⽂件内容</td>
-</tr>
-<tr class="even">
-<td>cat -n file1</td>
-<td>查看内容并标示⾏数</td>
-</tr>
-<tr class="odd">
-<td>tac file1</td>
-<td>从最后⼀⾏开始反看⽂件内容</td>
-</tr>
-<tr class="even">
-<td>more file1</td>
-<td>查看⼀个⻓⽂件的内容</td>
-</tr>
-<tr class="odd">
-<td>less file1</td>
-<td>类似more命令，但允许反向操作</td>
-</tr>
-<tr class="even">
-<td>head -2 file1</td>
-<td>查看⽂件前两⾏</td>
-</tr>
-<tr class="odd">
-<td>tail -2 file1</td>
-<td>查看⽂件后两⾏</td>
-</tr>
-<tr class="even">
-<td>tail -f /log/msg</td>
-<td>实时查看添加到⽂件中的内容</td>
-</tr>
-<tr class="odd">
-<td>grep keyword hello.txt</td>
-<td>在⽂件hello.txt中查找关键词keyword</td>
-</tr>
-<tr class="even">
-<td>grep ^keyword hello.txt</td>
-<td>在⽂件hello.txt中查找以keyword开头的内容</td>
-</tr>
-<tr class="odd">
-<td>grep [0-9] hello.txt</td>
-<td>选择hello.txt⽂件中所有包含数字的⾏</td>
-</tr>
-<tr class="even">
-<td>sed 's/s1/s2/g' hello.txt</td>
-<td>将hello.txt⽂件中的s1替换成s2</td>
-</tr>
-<tr class="odd">
-<td>sed '/^<span class="math inline">\(/d&#39; hello.txt |
-从hello.txt⽂件中删除所有空⽩⾏ | | sed &#39;/ *#/d; /^\)</span>/d'
-hello.txt</td>
-<td>从hello.txt⽂件中删除所有注释和空⽩⾏</td>
-</tr>
-<tr class="even">
-<td>sed -e '1d' hello.txt</td>
-<td>从⽂件hello.txt 中排除第⼀⾏</td>
-</tr>
-<tr class="odd">
-<td>sed -n '/s1/p' hello.txt</td>
-<td>查看只包含关键词"s1"的⾏</td>
-</tr>
-<tr class="even">
-<td>sed -e 's/ *$//' hello.txt</td>
-<td>删除每⼀⾏最后的空⽩字符</td>
-</tr>
-<tr class="odd">
-<td>sed -e 's/s1//g' hello.txt</td>
-<td>从⽂档中只删除词汇s1并保留剩余全部</td>
-</tr>
-<tr class="even">
-<td>sed -n '1,5p;5q' hello.txt</td>
-<td>查看从第⼀⾏到第5⾏内容</td>
-</tr>
-<tr class="odd">
-<td>sed -n '5p;5q' hello.txt</td>
-<td>查看第5⾏</td>
-</tr>
-<tr class="even">
-<td>paste file1 file2</td>
-<td>合并两个⽂件或两栏的内容</td>
-</tr>
-<tr class="odd">
-<td>paste -d '+' file1 file2</td>
-<td>合并两个⽂件或两栏的内容，中间⽤"+"区分</td>
-</tr>
-<tr class="even">
-<td>sort file1 file2</td>
-<td>排序两个⽂件的内容</td>
-</tr>
-<tr class="odd">
-<td>comm -1 file1 file2</td>
-<td>⽐较两个⽂件的内容(去除'file1'所含内容)</td>
-</tr>
-<tr class="even">
-<td>comm -2 file1 file2</td>
-<td>⽐较两个⽂件的内容(去除'file2'所含内容)</td>
-</tr>
-<tr class="odd">
-<td>comm -3 file1 file2</td>
-<td>⽐较两个⽂件的内容(去除两⽂件共有部分)</td>
-</tr>
-</tbody>
-</table>
-<h1 id="打包和解压">打包和解压</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>zip xxx.zip file</td>
-<td>压缩⾄zip包</td>
-</tr>
-<tr class="even">
-<td>zip -r xxx.zip file1 file2 dir1</td>
-<td>将多个⽂件+⽬录压成zip包</td>
-</tr>
-<tr class="odd">
-<td>unzip xxx.zip</td>
-<td>解压zip包</td>
-</tr>
-<tr class="even">
-<td>tar -cvf xxx.tar file</td>
-<td>创建⾮压缩tar包</td>
-</tr>
-<tr class="odd">
-<td>tar -cvf xxx.tar file1 file2 dir1</td>
-<td>将多个⽂件+⽬录打tar包</td>
-</tr>
-<tr class="even">
-<td>tar -tf xxx.tar</td>
-<td>查看tar包的内容</td>
-</tr>
-<tr class="odd">
-<td>tar -xvf xxx.tar</td>
-<td>解压tar包</td>
-</tr>
-<tr class="even">
-<td>tar -xvf xxx.tar -C /dir</td>
-<td>将tar包解压⾄指定⽬录</td>
-</tr>
-<tr class="odd">
-<td>tar -cvfj xxx.tar.bz2 dir</td>
-<td>创建bz2压缩包</td>
-</tr>
-<tr class="even">
-<td>tar -jxvf xxx.tar.bz2</td>
-<td>解压bz2压缩包</td>
-</tr>
-<tr class="odd">
-<td>tar -cvfz xxx.tar.gz dir</td>
-<td>创建gzip压缩包</td>
-</tr>
-<tr class="even">
-<td>tar -zxvf xxx.tar.gz</td>
-<td>解压gzip压缩包</td>
-</tr>
-<tr class="odd">
-<td>bunzip2 xxx.bz2</td>
-<td>解压bz2压缩包</td>
-</tr>
-<tr class="even">
-<td>bzip2 filename</td>
-<td>压缩⽂件</td>
-</tr>
-<tr class="odd">
-<td>gunzip xxx.gz</td>
-<td>解压gzip压缩包</td>
-</tr>
-<tr class="even">
-<td>gzip filename</td>
-<td>压缩⽂件</td>
-</tr>
-<tr class="odd">
-<td>gzip -9 filename</td>
-<td>最⼤程度压缩</td>
-</tr>
-</tbody>
-</table>
-<h1 id="rpm包管理命令">RPM包管理命令</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>rpm -qa</td>
-<td>查看已安装的rpm包</td>
-</tr>
-<tr class="even">
-<td>rpm -q pkg_name</td>
-<td>查询某个rpm包</td>
-</tr>
-<tr class="odd">
-<td>rpm -q --whatprovides xxx</td>
-<td>显示xxx功能是由哪个包提供的</td>
-</tr>
-<tr class="even">
-<td>rpm -q --whatrequires xxx</td>
-<td>显示xxx功能被哪个程序包依赖的</td>
-</tr>
-<tr class="odd">
-<td>rpm -q --changelog xxx</td>
-<td>显示xxx包的更改记录</td>
-</tr>
-<tr class="even">
-<td>rpm -qi pkg_name</td>
-<td>查看⼀个包的详细信息</td>
-</tr>
-<tr class="odd">
-<td>rpm -qd pkg_name</td>
-<td>查询⼀个包所提供的⽂档</td>
-</tr>
-<tr class="even">
-<td>rpm -qc pkg_name</td>
-<td>查看已安装rpm包提供的配置⽂件</td>
-</tr>
-<tr class="odd">
-<td>rpm -ql pkg_name</td>
-<td>查看⼀个包安装了哪些⽂件</td>
-</tr>
-<tr class="even">
-<td>rpm -qf filename</td>
-<td>查看某个⽂件属于哪个包</td>
-</tr>
-<tr class="odd">
-<td>rpm -qR pkg_name</td>
-<td>查询包的依赖关系</td>
-</tr>
-<tr class="even">
-<td>rpm -ivh xxx.rpm</td>
-<td>安装rpm包</td>
-</tr>
-<tr class="odd">
-<td>rpm -ivh --test xxx.rpm</td>
-<td>测试安装rpm包</td>
-</tr>
-<tr class="even">
-<td>rpm -ivh --nodeps xxx.rpm</td>
-<td>安装rpm包时忽略依赖关系</td>
-</tr>
-<tr class="odd">
-<td>rpm -e xxx</td>
-<td>卸载程序包</td>
-</tr>
-<tr class="even">
-<td>rpm -Fvh pkg_name</td>
-<td>升级确定已安装的rpm包</td>
-</tr>
-<tr class="odd">
-<td>rpm -Uvh pkg_name</td>
-<td>升级rpm包(若未安装则会安装)</td>
-</tr>
-<tr class="even">
-<td>rpm -V pkg_name</td>
-<td>PM包详细信息校验</td>
-</tr>
-</tbody>
-</table>
-<h1 id="yum包管理命令">YUM包管理命令</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>yum repolist enabled</td>
-<td>显示可⽤的源仓库</td>
-</tr>
-<tr class="even">
-<td>yum search pkg_name</td>
-<td>搜索软件包</td>
-</tr>
-<tr class="odd">
-<td>yum install pkg_name</td>
-<td>下载并安装软件包</td>
-</tr>
-<tr class="even">
-<td>yum install --downloadonly pkg_name</td>
-<td>只下载不安装</td>
-</tr>
-<tr class="odd">
-<td>yum list</td>
-<td>显示所有程序包</td>
-</tr>
-<tr class="even">
-<td>yum list installed</td>
-<td>查看当前系统已安装包</td>
-</tr>
-<tr class="odd">
-<td>yum list updates</td>
-<td>查看可以更新的包列表</td>
-</tr>
-<tr class="even">
-<td>yum check-update</td>
-<td>查看可升级的软件包</td>
-</tr>
-<tr class="odd">
-<td>yum update</td>
-<td>更新所有软件包</td>
-</tr>
-<tr class="even">
-<td>yum update pkg_name</td>
-<td>升级指定软件包</td>
-</tr>
-<tr class="odd">
-<td>yum deplist pkg_name</td>
-<td>列出软件包依赖关系</td>
-</tr>
-<tr class="even">
-<td>yum remove pkg_name</td>
-<td>删除软件包</td>
-</tr>
-<tr class="odd">
-<td>yum clean all</td>
-<td>清除缓存</td>
-</tr>
-<tr class="even">
-<td>yum clean packages</td>
-<td>清除缓存的软件包</td>
-</tr>
-<tr class="odd">
-<td>yum clean headers</td>
-<td>清除缓存的header</td>
-</tr>
-</tbody>
-</table>
-<h1 id="dpkg包管理命令">DPKG包管理命令</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常用命令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>dpkg -c xxx.deb</td>
-<td>列出deb包的内容</td>
-</tr>
-<tr class="even">
-<td>dpkg -i xxx.deb</td>
-<td>安装/更新deb包</td>
-</tr>
-<tr class="odd">
-<td>dpkg -r pkg_name</td>
-<td>移除deb包</td>
-</tr>
-<tr class="even">
-<td>dpkg -P pkg_name</td>
-<td>移除deb包(不保留配置)</td>
-</tr>
-<tr class="odd">
-<td>dpkg -l</td>
-<td>查看系统中已安装deb包</td>
-</tr>
-<tr class="even">
-<td>dpkg -l pkg_name</td>
-<td>显示包的⼤致信息</td>
-</tr>
-<tr class="odd">
-<td>dpkg -L pkg_name</td>
-<td>查看deb包安装的⽂件</td>
-</tr>
-<tr class="even">
-<td>dpkg -s pkg_name</td>
-<td>查看包的详细信息</td>
-</tr>
-<tr class="odd">
-<td>dpkg –unpack xxx.deb</td>
-<td>解开deb包的内容</td>
-</tr>
-</tbody>
-</table>
-<h1 id="apt软件具">APT软件⼯具</h1>
-<table>
-<thead>
-<tr class="header">
-<th>常⽤命令</th>
-<th>作⽤</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>apt-cache search pkg_name</td>
-<td>搜索程序包</td>
-</tr>
-<tr class="even">
-<td>apt-cache show pkg_name</td>
-<td>获取包的概览信息</td>
-</tr>
-<tr class="odd">
-<td>apt-get install pkg_name</td>
-<td>安装/升级软件包</td>
-</tr>
-<tr class="even">
-<td>apt-get purge pkg_name</td>
-<td>卸载软件（包括配置）</td>
-</tr>
-<tr class="odd">
-<td>apt-get remove pkg_name</td>
-<td>卸载软件（不包括配置）</td>
-</tr>
-<tr class="even">
-<td>apt-get update</td>
-<td>更新包索引信息</td>
-</tr>
-<tr class="odd">
-<td>apt-get upgrade</td>
-<td>更新已安装软件包</td>
-</tr>
-<tr class="even">
-<td>apt-get clean</td>
-<td>清理缓存</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-  </entry>
-  <entry>
     <title>N1副詞</title>
     <url>/N1%E5%89%AF%E8%A9%9E/</url>
     <content><![CDATA[<hr />
@@ -4709,6 +3570,1145 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
+    <title>Linux常用命令速查表</title>
+    <url>/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
+    <content><![CDATA[<hr />
+<h1 id="关机重启注销">关机/重启/注销</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>shutdown -h now</td>
+<td>即刻关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -h 10</td>
+<td>10分钟后关机</td>
+</tr>
+<tr class="odd">
+<td>shutdown -h 11:00</td>
+<td>11：00关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -h +10</td>
+<td>预定时间关机（10分钟后）</td>
+</tr>
+<tr class="odd">
+<td>shutdown -c</td>
+<td>取消指定时间关机</td>
+</tr>
+<tr class="even">
+<td>shutdown -r now</td>
+<td>重启</td>
+</tr>
+<tr class="odd">
+<td>shutdown -r 10</td>
+<td>10分钟之后重启</td>
+</tr>
+<tr class="even">
+<td>shutdown -r 11:00</td>
+<td>定时重启</td>
+</tr>
+<tr class="odd">
+<td>reboot</td>
+<td>重启</td>
+</tr>
+<tr class="even">
+<td>init 6</td>
+<td>重启</td>
+</tr>
+<tr class="odd">
+<td>init 0</td>
+<td>⽴刻关机</td>
+</tr>
+<tr class="even">
+<td>telinit 0</td>
+<td>关机</td>
+</tr>
+<tr class="odd">
+<td>poweroff</td>
+<td>⽴刻关机</td>
+</tr>
+<tr class="even">
+<td>halt</td>
+<td>关机</td>
+</tr>
+<tr class="odd">
+<td>sync</td>
+<td>buff数据同步到磁盘</td>
+</tr>
+<tr class="even">
+<td>logout</td>
+<td>退出登录Shell</td>
+</tr>
+</tbody>
+</table>
+<h1 id="系统信息和性能查看">系统信息和性能查看</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>uname -a</td>
+<td>查看内核/OS/CPU信息</td>
+</tr>
+<tr class="even">
+<td>uname -r</td>
+<td>查看内核版本</td>
+</tr>
+<tr class="odd">
+<td>uname -m</td>
+<td>查看处理器架构</td>
+</tr>
+<tr class="even">
+<td>arch</td>
+<td>查看处理器架构</td>
+</tr>
+<tr class="odd">
+<td>hostname</td>
+<td>查看计算机名</td>
+</tr>
+<tr class="even">
+<td>who</td>
+<td>显示当前登录系统的⽤户</td>
+</tr>
+<tr class="odd">
+<td>who am i</td>
+<td>显示登录时的⽤户名</td>
+</tr>
+<tr class="even">
+<td>whoami</td>
+<td>显示当前⽤户名</td>
+</tr>
+<tr class="odd">
+<td>cat /proc/version</td>
+<td>查看linux版本信息</td>
+</tr>
+<tr class="even">
+<td>cat /proc/cpuinfo</td>
+<td>查看CPU信息</td>
+</tr>
+<tr class="odd">
+<td>cat /proc/interrupts</td>
+<td>查看中断</td>
+</tr>
+<tr class="even">
+<td>cat /proc/loadavg</td>
+<td>查看系统负载</td>
+</tr>
+<tr class="odd">
+<td>uptime</td>
+<td>查看系统运⾏时间、⽤户数、负载</td>
+</tr>
+<tr class="even">
+<td>env</td>
+<td>查看系统的环境变量</td>
+</tr>
+<tr class="odd">
+<td>lsusb -tv</td>
+<td>查看系统USB设备信息</td>
+</tr>
+<tr class="even">
+<td>lspci -tv</td>
+<td>查看系统PCI设备信息</td>
+</tr>
+<tr class="odd">
+<td>lsmod</td>
+<td>查看已加载的系统模块</td>
+</tr>
+<tr class="even">
+<td>grep MemTotal /proc/meminfo</td>
+<td>查看内存总量</td>
+</tr>
+<tr class="odd">
+<td>grep MemFree /proc/meminfo</td>
+<td>查看空闲内存量</td>
+</tr>
+<tr class="even">
+<td>free -m</td>
+<td>查看内存⽤量和交换区⽤量</td>
+</tr>
+<tr class="odd">
+<td>date</td>
+<td>显示系统⽇期时间</td>
+</tr>
+<tr class="even">
+<td>cal 2021</td>
+<td>显示2021⽇历表</td>
+</tr>
+<tr class="odd">
+<td>top</td>
+<td>动态显示cpu/内存/进程等情况</td>
+</tr>
+<tr class="even">
+<td>vmstat 1 20</td>
+<td>每1秒采⼀次系统状态，采20次</td>
+</tr>
+<tr class="odd">
+<td>iostat</td>
+<td>查看io读写/cpu使⽤情况</td>
+</tr>
+<tr class="even">
+<td>sar -u 1 10</td>
+<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
+</tr>
+<tr class="odd">
+<td>sar -d 1 10</td>
+<td>查询磁盘性能</td>
+</tr>
+</tbody>
+</table>
+<h1 id="磁盘和分区">磁盘和分区</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>fdisk -l</td>
+<td>查看所有磁盘分区</td>
+</tr>
+<tr class="even">
+<td>swapon -s</td>
+<td>查看所有交换分区</td>
+</tr>
+<tr class="odd">
+<td>df -h</td>
+<td>查看磁盘使⽤情况及挂载点</td>
+</tr>
+<tr class="even">
+<td>df -hl</td>
+<td>同上</td>
+</tr>
+<tr class="odd">
+<td>du -sh /dir</td>
+<td>查看指定某个⽬录的⼤⼩</td>
+</tr>
+<tr class="even">
+<td>du -sk * | sort -rn</td>
+<td>从⾼到低依次显示⽂件和⽬录⼤⼩</td>
+</tr>
+<tr class="odd">
+<td>mount /dev/hda2 /mnt/hda2</td>
+<td>挂载hda2盘</td>
+</tr>
+<tr class="even">
+<td>mount -t ntfs /dev/sdc1 /mnt/usbhd1</td>
+<td>指定⽂件系统类型挂载（如ntfs）</td>
+</tr>
+<tr class="odd">
+<td>mount -o loop xxx.iso /mnt/cdrom</td>
+<td>挂载iso⽂件</td>
+</tr>
+<tr class="even">
+<td>mount /dev/sda1 /mnt/usbdisk</td>
+<td>挂载usb盘/闪存设备</td>
+</tr>
+<tr class="odd">
+<td>umount -v /dev/sda1</td>
+<td>通过设备名卸载</td>
+</tr>
+<tr class="even">
+<td>umount -v /mnt/mymnt</td>
+<td>通过挂载点卸载</td>
+</tr>
+<tr class="odd">
+<td>fuser -km /mnt/hda1</td>
+<td>强制卸载(慎⽤)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="用户和用户组">用户和用户组</h1>
+<table>
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>useradd user_name</td>
+<td>创建⽤户</td>
+</tr>
+<tr class="even">
+<td>userdel -r user_name</td>
+<td>删除⽤户</td>
+</tr>
+<tr class="odd">
+<td>usermod -g group_name user_name</td>
+<td>修改⽤户的组</td>
+</tr>
+<tr class="even">
+<td>usermod -aG group_name user_name</td>
+<td>将⽤户添加到组</td>
+</tr>
+<tr class="odd">
+<td>usermod -s /bin/ksh -d /home/codepig –g dev codesheep</td>
+<td>修改⽤户codesheep的登录Shell、主⽬录以及⽤户组</td>
+</tr>
+<tr class="even">
+<td>groups test</td>
+<td>查看test⽤户所在的组</td>
+</tr>
+<tr class="odd">
+<td>groupadd group_name</td>
+<td>创建⽤户组</td>
+</tr>
+<tr class="even">
+<td>groupdel group_name</td>
+<td>删除⽤户组</td>
+</tr>
+<tr class="odd">
+<td>groupmod -n new_name old_name</td>
+<td>重命名⽤户组</td>
+</tr>
+<tr class="even">
+<td>su - user_name</td>
+<td>完整切换到⼀个⽤户环境</td>
+</tr>
+<tr class="odd">
+<td>passwd</td>
+<td>修改⼝令</td>
+</tr>
+<tr class="even">
+<td>passwd user_name</td>
+<td>修改某⽤户的⼝令</td>
+</tr>
+<tr class="odd">
+<td>w</td>
+<td>查看活动⽤户</td>
+</tr>
+<tr class="even">
+<td>id user_name</td>
+<td>查看指定⽤户信息</td>
+</tr>
+<tr class="odd">
+<td>last</td>
+<td>查看⽤户登录⽇志</td>
+</tr>
+<tr class="even">
+<td>crontab -l</td>
+<td>查看当前⽤户的计划任务</td>
+</tr>
+<tr class="odd">
+<td>cut -d: -f1 /etc/passwd</td>
+<td>查看系统所有⽤户</td>
+</tr>
+<tr class="even">
+<td>cut -d: -f1 /etc/group</td>
+<td>查看系统所有组</td>
+</tr>
+</tbody>
+</table>
+<h1 id="网络和进程管理">网络和进程管理</h1>
+<table>
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ifconfig</td>
+<td>查看⽹络接⼝属性</td>
+</tr>
+<tr class="even">
+<td>ifconfig eth0</td>
+<td>查看某⽹卡的配置</td>
+</tr>
+<tr class="odd">
+<td>route -n</td>
+<td>查看路由表</td>
+</tr>
+<tr class="even">
+<td>netstat -lntp</td>
+<td>查看所有监听端⼝</td>
+</tr>
+<tr class="odd">
+<td>netstat -antp</td>
+<td>查看已经建⽴的TCP连接</td>
+</tr>
+<tr class="even">
+<td>netstat -lutp</td>
+<td>查看TCP/UDP的状态信息</td>
+</tr>
+<tr class="odd">
+<td>ifup eth0</td>
+<td>启⽤eth0⽹络设备</td>
+</tr>
+<tr class="even">
+<td>ifdown eth0</td>
+<td>禁⽤eth0⽹络设备</td>
+</tr>
+<tr class="odd">
+<td>iptables -L</td>
+<td>查看iptables规则</td>
+</tr>
+<tr class="even">
+<td>ifconfig eth0 192.168.1.1 netmask 255.255.255.0</td>
+<td>配置ip地址</td>
+</tr>
+<tr class="odd">
+<td>dhclient eth0</td>
+<td>以dhcp模式启⽤eth0</td>
+</tr>
+<tr class="even">
+<td>route add -net 0/0 gw Gateway_IP</td>
+<td>配置默认⽹关</td>
+</tr>
+<tr class="odd">
+<td>route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1</td>
+<td>配置静态路由到达⽹络'192.168.0.0/16'</td>
+</tr>
+<tr class="even">
+<td>route del 0/0 gw Gateway_IP</td>
+<td>删除静态路由hostname</td>
+</tr>
+<tr class="odd">
+<td>host idealist-haoyu.top</td>
+<td>解析主机名</td>
+</tr>
+<tr class="even">
+<td>nslookup idealist-haoyu.top</td>
+<td>查询DNS记录，查看域名解析是否正常</td>
+</tr>
+<tr class="odd">
+<td>ps -ef</td>
+<td>查看所有进程</td>
+</tr>
+<tr class="even">
+<td>ps -ef | grep user_name</td>
+<td>过滤出你需要的进程</td>
+</tr>
+<tr class="odd">
+<td>kill -s name</td>
+<td>kill指定名称的进程</td>
+</tr>
+<tr class="even">
+<td>kill -s pid</td>
+<td>kill指定pid的进程</td>
+</tr>
+<tr class="odd">
+<td>top</td>
+<td>实时显示进程状态</td>
+</tr>
+<tr class="even">
+<td>vmstat 1 20</td>
+<td>每1秒采⼀次系统状态，采20次</td>
+</tr>
+<tr class="odd">
+<td>iostat</td>
+<td>查看io读写/cpu使⽤情况</td>
+</tr>
+<tr class="even">
+<td>sar -u 1 10</td>
+<td>查询cpu使⽤情况（1秒⼀次，共10次）</td>
+</tr>
+<tr class="odd">
+<td>sar -d 1 10</td>
+<td>查询磁盘性能</td>
+</tr>
+</tbody>
+</table>
+<h1 id="系统服务命令">系统服务命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>chkconfig --list</td>
+<td>列出系统服务</td>
+</tr>
+<tr class="even">
+<td>service <服务名> status</td>
+<td>查看某个服务</td>
+</tr>
+<tr class="odd">
+<td>service <服务名> start</td>
+<td>启动某个服务</td>
+</tr>
+<tr class="even">
+<td>service <服务名> stop</td>
+<td>终⽌某个服务</td>
+</tr>
+<tr class="odd">
+<td>service <服务名> restart</td>
+<td>重启某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl status <服务名></td>
+<td>查看某个服务</td>
+</tr>
+<tr class="odd">
+<td>systemctl start <服务名></td>
+<td>启动某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl stop <服务名></td>
+<td>终⽌某个服务</td>
+</tr>
+<tr class="odd">
+<td>systemctl restart <服务名></td>
+<td>重启某个服务</td>
+</tr>
+<tr class="even">
+<td>systemctl enable <服务名></td>
+<td>开启⾃启动</td>
+</tr>
+<tr class="odd">
+<td>systemctl disable <服务名></td>
+<td>关闭⾃启动</td>
+</tr>
+</tbody>
+</table>
+<h1 id="件和录操作">⽂件和⽬录操作</h1>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 71%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cd &lt;⽬录名&gt;</td>
+<td>进⼊某个⽬录</td>
+</tr>
+<tr class="even">
+<td>cd ..</td>
+<td>回上级⽬录</td>
+</tr>
+<tr class="odd">
+<td>cd ../..</td>
+<td>回上两级⽬录</td>
+</tr>
+<tr class="even">
+<td>cd</td>
+<td>进个⼈主⽬录</td>
+</tr>
+<tr class="odd">
+<td>cd -</td>
+<td>回上⼀步所在⽬录</td>
+</tr>
+<tr class="even">
+<td>pwd</td>
+<td>显示当前路径</td>
+</tr>
+<tr class="odd">
+<td>ls</td>
+<td>查看⽂件⽬录列表</td>
+</tr>
+<tr class="even">
+<td>ls -F</td>
+<td>查看⽬录中内容（显示是⽂件还是⽬录）</td>
+</tr>
+<tr class="odd">
+<td>ls -l</td>
+<td>查看⽂件和⽬录的详情列表</td>
+</tr>
+<tr class="even">
+<td>ls -a</td>
+<td>查看隐藏⽂件</td>
+</tr>
+<tr class="odd">
+<td>ls -lh</td>
+<td>查看⽂件和⽬录的详情列表（增强⽂件⼤⼩易读性）</td>
+</tr>
+<tr class="even">
+<td>ls -lSr</td>
+<td>查看⽂件和⽬录列表（以⽂件⼤⼩升序查看）</td>
+</tr>
+<tr class="odd">
+<td>tree</td>
+<td>查看⽂件和⽬录的树形结构</td>
+</tr>
+<tr class="even">
+<td>mkdir &lt;⽬录名&gt;</td>
+<td>创建⽬录</td>
+</tr>
+<tr class="odd">
+<td>mkdir dir1 dir2</td>
+<td>同时创建两个⽬录</td>
+</tr>
+<tr class="even">
+<td>mkdir -p /tmp/dir1/dir2</td>
+<td>创建⽬录树</td>
+</tr>
+<tr class="odd">
+<td>rm -f file1</td>
+<td>删除'file1'⽂件</td>
+</tr>
+<tr class="even">
+<td>rmdir dir1</td>
+<td>删除'dir1'⽬录</td>
+</tr>
+<tr class="odd">
+<td>rm -rf dir1</td>
+<td>删除'dir1'⽬录和其内容</td>
+</tr>
+<tr class="even">
+<td>rm -rf dir1 dir2</td>
+<td>同时删除两个⽬录及其内容</td>
+</tr>
+<tr class="odd">
+<td>mv old_dir new_dir</td>
+<td>重命名/移动⽬录</td>
+</tr>
+<tr class="even">
+<td>cp file1 file2</td>
+<td>复制⽂件</td>
+</tr>
+<tr class="odd">
+<td>cp dir/* .</td>
+<td>复制某⽬录下的所有⽂件⾄当前⽬录</td>
+</tr>
+<tr class="even">
+<td>cp -a dir1 dir2</td>
+<td>复制⽬录</td>
+</tr>
+<tr class="odd">
+<td>cp -a /tmp/dir1 .</td>
+<td>复制⼀个⽬录⾄当前⽬录</td>
+</tr>
+<tr class="even">
+<td>ln -s file1 link1</td>
+<td>创建指向⽂件/⽬录的软链接</td>
+</tr>
+<tr class="odd">
+<td>ln file1 lnk1</td>
+<td>创建指向⽂件/⽬录的物理链接</td>
+</tr>
+<tr class="even">
+<td>find / -name file1</td>
+<td>从跟⽬录开始搜索⽂件/⽬录</td>
+</tr>
+<tr class="odd">
+<td>find / -user user1</td>
+<td>搜索⽤户user1的⽂件/⽬录</td>
+</tr>
+<tr class="even">
+<td>find /dir -name *.bin</td>
+<td>在⽬录/dir中搜带有.bin后缀的⽂件</td>
+</tr>
+<tr class="odd">
+<td>locate <关键词></td>
+<td>快速定位⽂件</td>
+</tr>
+<tr class="even">
+<td>locate *.mp4</td>
+<td>寻找.mp4结尾的⽂件</td>
+</tr>
+<tr class="odd">
+<td>whereis <关键词></td>
+<td>显示某⼆进制⽂件/可执⾏⽂件的路径</td>
+</tr>
+<tr class="even">
+<td>which <关键词></td>
+<td>查找系统⽬录下某的⼆进制⽂件</td>
+</tr>
+<tr class="odd">
+<td>chmod ugo+rwx dir1</td>
+<td>设置⽬录所有者(u)、群组(g)及其他⼈(o)的读(r)写(w)执⾏(x)权限</td>
+</tr>
+<tr class="even">
+<td>chmod go-rwx dir1</td>
+<td>移除群组(g)与其他⼈(o)对⽬录的读写执⾏权限</td>
+</tr>
+<tr class="odd">
+<td>chown user1 file1</td>
+<td>改变⽂件的所有者属性</td>
+</tr>
+<tr class="even">
+<td>chown -R user1 dir1</td>
+<td>改变⽬录的所有者属性</td>
+</tr>
+<tr class="odd">
+<td>chgrp group1 file1</td>
+<td>改变⽂件群组</td>
+</tr>
+<tr class="even">
+<td>chown user1:group1 file1</td>
+<td>改变⽂件的所有⼈和群组</td>
+</tr>
+</tbody>
+</table>
+<h1 id="文件查看和处理">文件查看和处理</h1>
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cat file1</td>
+<td>查看⽂件内容</td>
+</tr>
+<tr class="even">
+<td>cat -n file1</td>
+<td>查看内容并标示⾏数</td>
+</tr>
+<tr class="odd">
+<td>tac file1</td>
+<td>从最后⼀⾏开始反看⽂件内容</td>
+</tr>
+<tr class="even">
+<td>more file1</td>
+<td>查看⼀个⻓⽂件的内容</td>
+</tr>
+<tr class="odd">
+<td>less file1</td>
+<td>类似more命令，但允许反向操作</td>
+</tr>
+<tr class="even">
+<td>head -2 file1</td>
+<td>查看⽂件前两⾏</td>
+</tr>
+<tr class="odd">
+<td>tail -2 file1</td>
+<td>查看⽂件后两⾏</td>
+</tr>
+<tr class="even">
+<td>tail -f /log/msg</td>
+<td>实时查看添加到⽂件中的内容</td>
+</tr>
+<tr class="odd">
+<td>grep keyword hello.txt</td>
+<td>在⽂件hello.txt中查找关键词keyword</td>
+</tr>
+<tr class="even">
+<td>grep ^keyword hello.txt</td>
+<td>在⽂件hello.txt中查找以keyword开头的内容</td>
+</tr>
+<tr class="odd">
+<td>grep [0-9] hello.txt</td>
+<td>选择hello.txt⽂件中所有包含数字的⾏</td>
+</tr>
+<tr class="even">
+<td>sed 's/s1/s2/g' hello.txt</td>
+<td>将hello.txt⽂件中的s1替换成s2</td>
+</tr>
+<tr class="odd">
+<td>sed '/^<span class="math inline">\(/d&#39; hello.txt |
+从hello.txt⽂件中删除所有空⽩⾏ | | sed &#39;/ *#/d; /^\)</span>/d'
+hello.txt</td>
+<td>从hello.txt⽂件中删除所有注释和空⽩⾏</td>
+</tr>
+<tr class="even">
+<td>sed -e '1d' hello.txt</td>
+<td>从⽂件hello.txt 中排除第⼀⾏</td>
+</tr>
+<tr class="odd">
+<td>sed -n '/s1/p' hello.txt</td>
+<td>查看只包含关键词"s1"的⾏</td>
+</tr>
+<tr class="even">
+<td>sed -e 's/ *$//' hello.txt</td>
+<td>删除每⼀⾏最后的空⽩字符</td>
+</tr>
+<tr class="odd">
+<td>sed -e 's/s1//g' hello.txt</td>
+<td>从⽂档中只删除词汇s1并保留剩余全部</td>
+</tr>
+<tr class="even">
+<td>sed -n '1,5p;5q' hello.txt</td>
+<td>查看从第⼀⾏到第5⾏内容</td>
+</tr>
+<tr class="odd">
+<td>sed -n '5p;5q' hello.txt</td>
+<td>查看第5⾏</td>
+</tr>
+<tr class="even">
+<td>paste file1 file2</td>
+<td>合并两个⽂件或两栏的内容</td>
+</tr>
+<tr class="odd">
+<td>paste -d '+' file1 file2</td>
+<td>合并两个⽂件或两栏的内容，中间⽤"+"区分</td>
+</tr>
+<tr class="even">
+<td>sort file1 file2</td>
+<td>排序两个⽂件的内容</td>
+</tr>
+<tr class="odd">
+<td>comm -1 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除'file1'所含内容)</td>
+</tr>
+<tr class="even">
+<td>comm -2 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除'file2'所含内容)</td>
+</tr>
+<tr class="odd">
+<td>comm -3 file1 file2</td>
+<td>⽐较两个⽂件的内容(去除两⽂件共有部分)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="打包和解压">打包和解压</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>zip xxx.zip file</td>
+<td>压缩⾄zip包</td>
+</tr>
+<tr class="even">
+<td>zip -r xxx.zip file1 file2 dir1</td>
+<td>将多个⽂件+⽬录压成zip包</td>
+</tr>
+<tr class="odd">
+<td>unzip xxx.zip</td>
+<td>解压zip包</td>
+</tr>
+<tr class="even">
+<td>tar -cvf xxx.tar file</td>
+<td>创建⾮压缩tar包</td>
+</tr>
+<tr class="odd">
+<td>tar -cvf xxx.tar file1 file2 dir1</td>
+<td>将多个⽂件+⽬录打tar包</td>
+</tr>
+<tr class="even">
+<td>tar -tf xxx.tar</td>
+<td>查看tar包的内容</td>
+</tr>
+<tr class="odd">
+<td>tar -xvf xxx.tar</td>
+<td>解压tar包</td>
+</tr>
+<tr class="even">
+<td>tar -xvf xxx.tar -C /dir</td>
+<td>将tar包解压⾄指定⽬录</td>
+</tr>
+<tr class="odd">
+<td>tar -cvfj xxx.tar.bz2 dir</td>
+<td>创建bz2压缩包</td>
+</tr>
+<tr class="even">
+<td>tar -jxvf xxx.tar.bz2</td>
+<td>解压bz2压缩包</td>
+</tr>
+<tr class="odd">
+<td>tar -cvfz xxx.tar.gz dir</td>
+<td>创建gzip压缩包</td>
+</tr>
+<tr class="even">
+<td>tar -zxvf xxx.tar.gz</td>
+<td>解压gzip压缩包</td>
+</tr>
+<tr class="odd">
+<td>bunzip2 xxx.bz2</td>
+<td>解压bz2压缩包</td>
+</tr>
+<tr class="even">
+<td>bzip2 filename</td>
+<td>压缩⽂件</td>
+</tr>
+<tr class="odd">
+<td>gunzip xxx.gz</td>
+<td>解压gzip压缩包</td>
+</tr>
+<tr class="even">
+<td>gzip filename</td>
+<td>压缩⽂件</td>
+</tr>
+<tr class="odd">
+<td>gzip -9 filename</td>
+<td>最⼤程度压缩</td>
+</tr>
+</tbody>
+</table>
+<h1 id="rpm包管理命令">RPM包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>rpm -qa</td>
+<td>查看已安装的rpm包</td>
+</tr>
+<tr class="even">
+<td>rpm -q pkg_name</td>
+<td>查询某个rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -q --whatprovides xxx</td>
+<td>显示xxx功能是由哪个包提供的</td>
+</tr>
+<tr class="even">
+<td>rpm -q --whatrequires xxx</td>
+<td>显示xxx功能被哪个程序包依赖的</td>
+</tr>
+<tr class="odd">
+<td>rpm -q --changelog xxx</td>
+<td>显示xxx包的更改记录</td>
+</tr>
+<tr class="even">
+<td>rpm -qi pkg_name</td>
+<td>查看⼀个包的详细信息</td>
+</tr>
+<tr class="odd">
+<td>rpm -qd pkg_name</td>
+<td>查询⼀个包所提供的⽂档</td>
+</tr>
+<tr class="even">
+<td>rpm -qc pkg_name</td>
+<td>查看已安装rpm包提供的配置⽂件</td>
+</tr>
+<tr class="odd">
+<td>rpm -ql pkg_name</td>
+<td>查看⼀个包安装了哪些⽂件</td>
+</tr>
+<tr class="even">
+<td>rpm -qf filename</td>
+<td>查看某个⽂件属于哪个包</td>
+</tr>
+<tr class="odd">
+<td>rpm -qR pkg_name</td>
+<td>查询包的依赖关系</td>
+</tr>
+<tr class="even">
+<td>rpm -ivh xxx.rpm</td>
+<td>安装rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -ivh --test xxx.rpm</td>
+<td>测试安装rpm包</td>
+</tr>
+<tr class="even">
+<td>rpm -ivh --nodeps xxx.rpm</td>
+<td>安装rpm包时忽略依赖关系</td>
+</tr>
+<tr class="odd">
+<td>rpm -e xxx</td>
+<td>卸载程序包</td>
+</tr>
+<tr class="even">
+<td>rpm -Fvh pkg_name</td>
+<td>升级确定已安装的rpm包</td>
+</tr>
+<tr class="odd">
+<td>rpm -Uvh pkg_name</td>
+<td>升级rpm包(若未安装则会安装)</td>
+</tr>
+<tr class="even">
+<td>rpm -V pkg_name</td>
+<td>PM包详细信息校验</td>
+</tr>
+</tbody>
+</table>
+<h1 id="yum包管理命令">YUM包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>yum repolist enabled</td>
+<td>显示可⽤的源仓库</td>
+</tr>
+<tr class="even">
+<td>yum search pkg_name</td>
+<td>搜索软件包</td>
+</tr>
+<tr class="odd">
+<td>yum install pkg_name</td>
+<td>下载并安装软件包</td>
+</tr>
+<tr class="even">
+<td>yum install --downloadonly pkg_name</td>
+<td>只下载不安装</td>
+</tr>
+<tr class="odd">
+<td>yum list</td>
+<td>显示所有程序包</td>
+</tr>
+<tr class="even">
+<td>yum list installed</td>
+<td>查看当前系统已安装包</td>
+</tr>
+<tr class="odd">
+<td>yum list updates</td>
+<td>查看可以更新的包列表</td>
+</tr>
+<tr class="even">
+<td>yum check-update</td>
+<td>查看可升级的软件包</td>
+</tr>
+<tr class="odd">
+<td>yum update</td>
+<td>更新所有软件包</td>
+</tr>
+<tr class="even">
+<td>yum update pkg_name</td>
+<td>升级指定软件包</td>
+</tr>
+<tr class="odd">
+<td>yum deplist pkg_name</td>
+<td>列出软件包依赖关系</td>
+</tr>
+<tr class="even">
+<td>yum remove pkg_name</td>
+<td>删除软件包</td>
+</tr>
+<tr class="odd">
+<td>yum clean all</td>
+<td>清除缓存</td>
+</tr>
+<tr class="even">
+<td>yum clean packages</td>
+<td>清除缓存的软件包</td>
+</tr>
+<tr class="odd">
+<td>yum clean headers</td>
+<td>清除缓存的header</td>
+</tr>
+</tbody>
+</table>
+<h1 id="dpkg包管理命令">DPKG包管理命令</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常用命令</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>dpkg -c xxx.deb</td>
+<td>列出deb包的内容</td>
+</tr>
+<tr class="even">
+<td>dpkg -i xxx.deb</td>
+<td>安装/更新deb包</td>
+</tr>
+<tr class="odd">
+<td>dpkg -r pkg_name</td>
+<td>移除deb包</td>
+</tr>
+<tr class="even">
+<td>dpkg -P pkg_name</td>
+<td>移除deb包(不保留配置)</td>
+</tr>
+<tr class="odd">
+<td>dpkg -l</td>
+<td>查看系统中已安装deb包</td>
+</tr>
+<tr class="even">
+<td>dpkg -l pkg_name</td>
+<td>显示包的⼤致信息</td>
+</tr>
+<tr class="odd">
+<td>dpkg -L pkg_name</td>
+<td>查看deb包安装的⽂件</td>
+</tr>
+<tr class="even">
+<td>dpkg -s pkg_name</td>
+<td>查看包的详细信息</td>
+</tr>
+<tr class="odd">
+<td>dpkg –unpack xxx.deb</td>
+<td>解开deb包的内容</td>
+</tr>
+</tbody>
+</table>
+<h1 id="apt软件具">APT软件⼯具</h1>
+<table>
+<thead>
+<tr class="header">
+<th>常⽤命令</th>
+<th>作⽤</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>apt-cache search pkg_name</td>
+<td>搜索程序包</td>
+</tr>
+<tr class="even">
+<td>apt-cache show pkg_name</td>
+<td>获取包的概览信息</td>
+</tr>
+<tr class="odd">
+<td>apt-get install pkg_name</td>
+<td>安装/升级软件包</td>
+</tr>
+<tr class="even">
+<td>apt-get purge pkg_name</td>
+<td>卸载软件（包括配置）</td>
+</tr>
+<tr class="odd">
+<td>apt-get remove pkg_name</td>
+<td>卸载软件（不包括配置）</td>
+</tr>
+<tr class="even">
+<td>apt-get update</td>
+<td>更新包索引信息</td>
+</tr>
+<tr class="odd">
+<td>apt-get upgrade</td>
+<td>更新已安装软件包</td>
+</tr>
+<tr class="even">
+<td>apt-get clean</td>
+<td>清理缓存</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+  </entry>
+  <entry>
     <title>N2慣用句</title>
     <url>/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
     <content><![CDATA[<hr />
@@ -5188,6 +5188,231 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       <categories>
         <category>日本語</category>
         <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ことわざ</title>
+    <url>/%E3%81%93%E3%81%A8%E3%82%8F%E3%81%95%E3%82%99/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ことわざ</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>一目ぼれ</td>
+<td>一见钟情</td>
+</tr>
+<tr class="even">
+<td>目と鼻の先</td>
+<td>一箭之地</td>
+</tr>
+<tr class="odd">
+<td>急がば回れ</td>
+<td>欲速则不达</td>
+</tr>
+<tr class="even">
+<td>弘法にも筆の誤り</td>
+<td>智者千虑，必有一失</td>
+</tr>
+<tr class="odd">
+<td>千里の堤蟻の穴から崩れる</td>
+<td>千里之堤，溃于蚁穴</td>
+</tr>
+<tr class="even">
+<td>猫に小判</td>
+<td>对牛弹琴</td>
+</tr>
+<tr class="odd">
+<td>猫の目のように変わる</td>
+<td>变化无常</td>
+</tr>
+<tr class="even">
+<td>井の中の蛙</td>
+<td>井底之蛙</td>
+</tr>
+<tr class="odd">
+<td>塵も積もれば山となる</td>
+<td>积少成多</td>
+</tr>
+<tr class="even">
+<td>郷に入っては郷に従え</td>
+<td>入乡随俗</td>
+</tr>
+<tr class="odd">
+<td>河童の屁</td>
+<td>易如反掌</td>
+</tr>
+<tr class="even">
+<td>河童に水泳を教える</td>
+<td>班门弄斧</td>
+</tr>
+<tr class="odd">
+<td>好事門を出でず悪事千里を走る</td>
+<td>好事不出门，坏事行千里</td>
+</tr>
+<tr class="even">
+<td>馬子にも衣裳</td>
+<td>人靠衣装马靠鞍</td>
+</tr>
+<tr class="odd">
+<td>縁は異なもの</td>
+<td>千里姻缘一线牵</td>
+</tr>
+<tr class="even">
+<td>異とするに足りない</td>
+<td>不足为奇</td>
+</tr>
+<tr class="odd">
+<td>石が流れて木の葉が沈む</td>
+<td>浮石沉木，太阳从西边出来</td>
+</tr>
+<tr class="even">
+<td>転ばぬ先の杖</td>
+<td>未雨绸缪</td>
+</tr>
+<tr class="odd">
+<td>気は心</td>
+<td>千里送鹅毛，礼轻情意重</td>
+</tr>
+<tr class="even">
+<td>彼を知り己を知らば百戦危うからず</td>
+<td>知彼知己，百战不殆</td>
+</tr>
+<tr class="odd">
+<td>木に竹を接ぐ</td>
+<td>驴唇不对马嘴，张冠李戴</td>
+</tr>
+<tr class="even">
+<td>木に縁って魚を求む</td>
+<td>缘木求鱼</td>
+</tr>
+<tr class="odd">
+<td>木で鼻を括る</td>
+<td>冷淡对人，爱答不理</td>
+</tr>
+<tr class="even">
+<td>腐っても鯛</td>
+<td>瘦死的骆驼比马大</td>
+</tr>
+<tr class="odd">
+<td>愚公山を移す</td>
+<td>愚公移山</td>
+</tr>
+<tr class="even">
+<td>癖ある馬に乗りあり</td>
+<td>有脾气的人必有专长</td>
+</tr>
+<tr class="odd">
+<td>光陰矢の如し</td>
+<td>光阴似箭</td>
+</tr>
+<tr class="even">
+<td>目糞鼻糞を笑う</td>
+<td>秃子笑和尚</td>
+</tr>
+<tr class="odd">
+<td>落花流水</td>
+<td>落花流水</td>
+</tr>
+<tr class="even">
+<td>五十歩百歩</td>
+<td>五十步笑百步</td>
+</tr>
+<tr class="odd">
+<td>虎穴に入らずんば虎子を得ず</td>
+<td>不入虎穴焉得虎子</td>
+</tr>
+<tr class="even">
+<td>気にも草にも心を置く</td>
+<td>风声鹤唳，草木皆兵</td>
+</tr>
+<tr class="odd">
+<td>短気は損気</td>
+<td>性急吃亏</td>
+</tr>
+<tr class="even">
+<td>転んでもただは起きぬ</td>
+<td>雁过拔毛</td>
+</tr>
+<tr class="odd">
+<td>聞くは一時の恥聞かぬは一生の恥</td>
+<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
+</tr>
+<tr class="even">
+<td>亀の甲より年の劫</td>
+<td>姜还是老的辣</td>
+</tr>
+<tr class="odd">
+<td>すき腹にまずいものなし</td>
+<td>饥不择食</td>
+</tr>
+<tr class="even">
+<td>可愛い子には旅をさせよ</td>
+<td>爱子就让他外出见世面</td>
+</tr>
+<tr class="odd">
+<td>頭隠して尻隠さず</td>
+<td>藏头露尾</td>
+</tr>
+<tr class="even">
+<td>帯に短し、たすきに長し</td>
+<td>高不成低不就</td>
+</tr>
+<tr class="odd">
+<td>二階から目薬</td>
+<td>远水救不了近火</td>
+</tr>
+<tr class="even">
+<td>痘痕も靨</td>
+<td>情人眼里出西施</td>
+</tr>
+<tr class="odd">
+<td>暑さ寒さも彼岸まで</td>
+<td>热到秋分，冷到春分</td>
+</tr>
+<tr class="even">
+<td>人の花は赤い、他人の飯は白い</td>
+<td>东西总是别人的好</td>
+</tr>
+<tr class="odd">
+<td>腹も身の内</td>
+<td>食不过量</td>
+</tr>
+<tr class="even">
+<td>腹八分目に医者いらず</td>
+<td>八分饱不求医</td>
+</tr>
+<tr class="odd">
+<td>好きこそものの上手なれ</td>
+<td>爱好就能精通</td>
+</tr>
+<tr class="even">
+<td>虎の威を借りる狐</td>
+<td>狐假虎威</td>
+</tr>
+<tr class="odd">
+<td>団栗の背比べ</td>
+<td>半斤八两</td>
+</tr>
+<tr class="even">
+<td>花より団子</td>
+<td>舍华求实</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -9516,223 +9741,222 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
-    <title>ことわざ</title>
-    <url>/%E3%81%93%E3%81%A8%E3%82%8F%E3%81%95%E3%82%99/</url>
+    <title>授受</title>
+    <url>/%E6%8E%88%E5%8F%97/</url>
     <content><![CDATA[<hr />
-<table>
-<colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>ことわざ</th>
-<th>意味</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>一目ぼれ</td>
-<td>一见钟情</td>
-</tr>
-<tr class="even">
-<td>目と鼻の先</td>
-<td>一箭之地</td>
-</tr>
-<tr class="odd">
-<td>急がば回れ</td>
-<td>欲速则不达</td>
-</tr>
-<tr class="even">
-<td>弘法にも筆の誤り</td>
-<td>智者千虑，必有一失</td>
-</tr>
-<tr class="odd">
-<td>千里の堤蟻の穴から崩れる</td>
-<td>千里之堤，溃于蚁穴</td>
-</tr>
-<tr class="even">
-<td>猫に小判</td>
-<td>对牛弹琴</td>
-</tr>
-<tr class="odd">
-<td>猫の目のように変わる</td>
-<td>变化无常</td>
-</tr>
-<tr class="even">
-<td>井の中の蛙</td>
-<td>井底之蛙</td>
-</tr>
-<tr class="odd">
-<td>塵も積もれば山となる</td>
-<td>积少成多</td>
-</tr>
-<tr class="even">
-<td>郷に入っては郷に従え</td>
-<td>入乡随俗</td>
-</tr>
-<tr class="odd">
-<td>河童の屁</td>
-<td>易如反掌</td>
-</tr>
-<tr class="even">
-<td>河童に水泳を教える</td>
-<td>班门弄斧</td>
-</tr>
-<tr class="odd">
-<td>好事門を出でず悪事千里を走る</td>
-<td>好事不出门，坏事行千里</td>
-</tr>
-<tr class="even">
-<td>馬子にも衣裳</td>
-<td>人靠衣装马靠鞍</td>
-</tr>
-<tr class="odd">
-<td>縁は異なもの</td>
-<td>千里姻缘一线牵</td>
-</tr>
-<tr class="even">
-<td>異とするに足りない</td>
-<td>不足为奇</td>
-</tr>
-<tr class="odd">
-<td>石が流れて木の葉が沈む</td>
-<td>浮石沉木，太阳从西边出来</td>
-</tr>
-<tr class="even">
-<td>転ばぬ先の杖</td>
-<td>未雨绸缪</td>
-</tr>
-<tr class="odd">
-<td>気は心</td>
-<td>千里送鹅毛，礼轻情意重</td>
-</tr>
-<tr class="even">
-<td>彼を知り己を知らば百戦危うからず</td>
-<td>知彼知己，百战不殆</td>
-</tr>
-<tr class="odd">
-<td>木に竹を接ぐ</td>
-<td>驴唇不对马嘴，张冠李戴</td>
-</tr>
-<tr class="even">
-<td>木に縁って魚を求む</td>
-<td>缘木求鱼</td>
-</tr>
-<tr class="odd">
-<td>木で鼻を括る</td>
-<td>冷淡对人，爱答不理</td>
-</tr>
-<tr class="even">
-<td>腐っても鯛</td>
-<td>瘦死的骆驼比马大</td>
-</tr>
-<tr class="odd">
-<td>愚公山を移す</td>
-<td>愚公移山</td>
-</tr>
-<tr class="even">
-<td>癖ある馬に乗りあり</td>
-<td>有脾气的人必有专长</td>
-</tr>
-<tr class="odd">
-<td>光陰矢の如し</td>
-<td>光阴似箭</td>
-</tr>
-<tr class="even">
-<td>目糞鼻糞を笑う</td>
-<td>秃子笑和尚</td>
-</tr>
-<tr class="odd">
-<td>落花流水</td>
-<td>落花流水</td>
-</tr>
-<tr class="even">
-<td>五十歩百歩</td>
-<td>五十步笑百步</td>
-</tr>
-<tr class="odd">
-<td>虎穴に入らずんば虎子を得ず</td>
-<td>不入虎穴焉得虎子</td>
-</tr>
-<tr class="even">
-<td>気にも草にも心を置く</td>
-<td>风声鹤唳，草木皆兵</td>
-</tr>
-<tr class="odd">
-<td>短気は損気</td>
-<td>性急吃亏</td>
-</tr>
-<tr class="even">
-<td>転んでもただは起きぬ</td>
-<td>雁过拔毛</td>
-</tr>
-<tr class="odd">
-<td>聞くは一時の恥聞かぬは一生の恥</td>
-<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
-</tr>
-<tr class="even">
-<td>亀の甲より年の劫</td>
-<td>姜还是老的辣</td>
-</tr>
-<tr class="odd">
-<td>すき腹にまずいものなし</td>
-<td>饥不择食</td>
-</tr>
-<tr class="even">
-<td>可愛い子には旅をさせよ</td>
-<td>爱子就让他外出见世面</td>
-</tr>
-<tr class="odd">
-<td>頭隠して尻隠さず</td>
-<td>藏头露尾</td>
-</tr>
-<tr class="even">
-<td>帯に短し、たすきに長し</td>
-<td>高不成低不就</td>
-</tr>
-<tr class="odd">
-<td>二階から目薬</td>
-<td>远水救不了近火</td>
-</tr>
-<tr class="even">
-<td>痘痕も靨</td>
-<td>情人眼里出西施</td>
-</tr>
-<tr class="odd">
-<td>暑さ寒さも彼岸まで</td>
-<td>热到秋分，冷到春分</td>
-</tr>
-<tr class="even">
-<td>人の花は赤い、他人の飯は白い</td>
-<td>东西总是别人的好</td>
-</tr>
-<tr class="odd">
-<td>腹も身の内</td>
-<td>食不过量</td>
-</tr>
-<tr class="even">
-<td>腹八分目に医者いらず</td>
-<td>八分饱不求医</td>
-</tr>
-<tr class="odd">
-<td>好きこそものの上手なれ</td>
-<td>爱好就能精通</td>
-</tr>
-<tr class="even">
-<td>虎の威を借りる狐</td>
-<td>狐假虎威</td>
-</tr>
-<tr class="odd">
-<td>団栗の背比べ</td>
-<td>半斤八两</td>
-</tr>
-<tr class="even">
-<td>花より団子</td>
-<td>舍华求实</td>
-</tr>
-</tbody>
-</table>
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
+<hr />
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>
@@ -10581,230 +10805,6 @@ href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式�
 ]]></content>
       <categories>
         <category>Regular expression</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
       </categories>
   </entry>
   <entry>
