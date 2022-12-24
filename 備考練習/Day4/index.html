@@ -28,7 +28,7 @@
 <meta property="og:description" content="修考群每日一题 Day 4">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-12-23T13:05:28.000Z">
-<meta property="article:modified_time" content="2022-12-23T13:05:54.064Z">
+<meta property="article:modified_time" content="2022-12-24T05:38:10.096Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -126,7 +126,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -139,6 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%95%8F%E9%A1%8C"><span class="nav-number">1.</span> <span class="nav-text">問題</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%A3%E7%AD%94"><span class="nav-number">2.</span> <span class="nav-text">解答</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -225,9 +226,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2022-12-23 21:05:28 / Modified: 21:05:54" itemprop="dateCreated datePublished" datetime="2022-12-23T21:05:28+08:00">2022-12-23</time>
+      <time title="Created: 2022-12-23 21:05:28" itemprop="dateCreated datePublished" datetime="2022-12-23T21:05:28+08:00">2022-12-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2022-12-24 13:38:10" itemprop="dateModified" datetime="2022-12-24T13:38:10+08:00">2022-12-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -246,7 +253,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>0</span>
+      <span>391</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -265,7 +272,80 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        
+        <hr />
+<h1 id="問題">問題</h1>
+<p>以下の問いに答えよ.</p>
+<p>（１）関数<span
+class="math inline">\(f(x,y)=x^3-x^2y+y^3-y\)</span>の<span
+class="math inline">\(y&gt;0\)</span>における極値を求めよ.</p>
+<p>（２）次の重積分の値を求めよ. <span class="math display">\[
+\iint_Dx\log(x^2+y^2)dxdy,\quad D=\{(x,y):1\leq
+x^2+y^2\leq4,x\geq0,y\geq0\}
+\]</span></p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+&amp;
+\begin{cases}
+f_x=3x^2-2yx=0\\
+f_y=-x^2+3y^2-1=0\\
+y&gt;0
+\end{cases}\\
+&amp;(x,y)=(0,\frac{\sqrt 3}{3})または,(\frac{2\sqrt
+{23}}{23},\frac{3\sqrt {23}}{23})
+\\
+&amp;A=f_{xx}=6x-2y
+\\
+&amp;B=f_{xy}=-2x
+\\
+&amp;C=f{yy}=6y
+\\&amp;
+(i)(x,y)=(0,\frac{\sqrt 3}{3})のとき,
+\\&amp;
+A=-\frac{2\sqrt3}{3},B=0,C=2\sqrt3とおくと,\\
+&amp;
+B^2-AC&gt;0より,
+\\
+&amp;点(0,\frac{\sqrt 3}{3})で,極値をとらない
+\\&amp;
+(ii)(x,y)=(\frac{2\sqrt {23}}{23},\frac{3\sqrt {23}}{23})のとき,
+\\&amp;
+A＝\frac{6\sqrt {23}}{23},B=-\frac{4\sqrt {23}}{23},C=\frac{18\sqrt
+{23}}{23}
+\\&amp;
+B^2-AC&lt;0かつA&gt;0より,
+\\
+&amp;点(\frac{2\sqrt {23}}{23},\frac{3\sqrt
+{23}}{23})で,極小値f(\frac{2\sqrt {23}}{23},\frac{3\sqrt
+{23}}{23})=-\frac{2\sqrt{23}}{23}をとる
+\end{align}
+\]</span></p>
+<p>（２） <span class="math display">\[
+\begin{align}
+x&amp;=r\cos \theta,y=r\sin \thetaより,\\
+D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
+\\
+\iint_D\log(x^2+y^2)dxdy
+&amp;=\iint_{D&#39;}r\cos \theta\log r^2\cdot rdrd\theta
+\\
+&amp;=\iint_{D&#39;}2r^2\cos \theta\log{r}drd\theta
+\\
+&amp;=\int_1^2\int_0^{\frac\pi2}2r^2\cos \theta\log{r}d\theta dr
+\\
+&amp;=\int_1^2\left[2r^2\sin \theta\log{r}\right]_0^{\frac\pi2} dr
+\\
+&amp;=\int_1^22r^2\log{r}dr
+\\
+&amp;=\int_1^2\left(\frac {2r^3} {3}\right)&#39;\log{r}dr
+\\
+&amp;=\left[\frac{2r^3}{3}\log r\right]_1 ^2-\int_1^2\frac {2r^3}
+{3}\cdot\frac 1 rdr
+\\&amp;=\frac{16}{3}\log2-\left[\frac 2 9r^3\right]_1^2
+\\&amp;=frac{16}{3}\log2-\frac {14} 9
+\end{align}
+\]</span></p>
+<hr />
 
     </div>
 
@@ -333,14 +413,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Word count total: </span>
-    <span title="Word count total">36k</span>
+    <span title="Word count total">37k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:12</span>
+    <span title="Reading time total">2:14</span>
   </span>
 </div>
 
