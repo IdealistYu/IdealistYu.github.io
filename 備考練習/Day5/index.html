@@ -28,7 +28,7 @@
 <meta property="og:description" content="修考群每日一题 Day 5">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-12-24T13:05:28.000Z">
-<meta property="article:modified_time" content="2022-12-24T13:15:58.917Z">
+<meta property="article:modified_time" content="2022-12-24T15:24:03.648Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -228,7 +228,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-12-24 21:05:28 / Modified: 21:15:58" itemprop="dateCreated datePublished" datetime="2022-12-24T21:05:28+08:00">2022-12-24</time>
+      <time title="Created: 2022-12-24 21:05:28 / Modified: 23:24:03" itemprop="dateCreated datePublished" datetime="2022-12-24T21:05:28+08:00">2022-12-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -247,14 +247,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>4</span>
+      <span>539</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -268,8 +268,174 @@
     <div class="post-body" itemprop="articleBody">
         <hr />
 <h1 id="問題">問題</h1>
+<p><span class="math inline">\(a\)</span>を実数とし,3次正方行列<span
+class="math inline">\(A,E\)</span>と<span class="math inline">\(\mathbb
+R^3\)</span>のベクトル<span class="math inline">\(v_1,v_2\)</span>を
+<span class="math display">\[
+A＝
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+,\quad
+E＝
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+,\quad
+v_1=
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+,\quad
+v_2=
+\begin{bmatrix}
+2\\
+3\\
+1\\
+\end{bmatrix}
+\]</span> とする.さらに,<span class="math inline">\(\mathbb
+R^3\)</span>の部分空間<span class="math inline">\(\langle v_1,v_2
+\rangle\)</span>を <span class="math display">\[
+\langle v_1,v_2\rangle=\{c_1v_1+c_2v_2\in\mathbb R^3|c_1,c_2\in\mathbb
+R\}
+\]</span> で定義し,線形変換<span class="math inline">\(f:\mathbb
+R^3\rightarrow \mathbb R^3\)</span>を<span
+class="math inline">\(f(v)=Av(v\in\mathbb R^3)\)</span>と定める.</p>
+<p>このとき,以下の問いに答えよ.</p>
+<p>（１）<span class="math inline">\(f(v)\in\langle
+v_1,v_2\rangle\)</span>となるように<span
+class="math inline">\(a\)</span>の値を定めよ.</p>
+<p>（２）行列式<span class="math inline">\(\det A\)</span>の値が<span
+class="math inline">\(-6\)</span>となるときの<span
+class="math inline">\(a\)</span>の値を求めよ.</p>
+<p>以下では,<span
+class="math inline">\(a\)</span>は（２）で求めた値とする.</p>
+<p>（３）線形変換<span class="math inline">\(g:\mathbb
+R^3\rightarrow\mathbb R^3\)</span>を<span
+class="math inline">\(g(v)＝(A+E)v \quad (v\in\mathbb
+R^3)\)</span>と定めるとき,<span
+class="math inline">\(g\)</span>の核<span class="math inline">\({\rm
+Ker}\, g\)</span>の基底を求めよ.</p>
+<p>（４）<span
+class="math inline">\(f\)</span>の固有値をすべて求めよ.</p>
 <hr />
 <h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+f(v_1)
+&amp;=Av_1
+=
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+a-2\\
+-3\\
+0\\
+\end{bmatrix}
+\\
+&amp;\because f(v)\in\langle v_1,v_2\rangle\\
+&amp;\therefore|v_1,v_2,f(v_1)|=
+\left|
+\begin{matrix}
+1 &amp; 2 &amp; a-2\\
+1 &amp; 3 &amp; -3\\
+0 &amp; 1 &amp; 0\\
+\end{matrix}
+\right|=
+0\\
+&amp;\therefore a=-1
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+&amp;\because
+\left|
+\begin{matrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1
+\end{matrix}
+\right|
+=
+a(-6+18)+2(3-18)+4(-9+18)
+=12a+6
+=-6
+\\
+&amp;\therefore a=-1
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+A+E&amp;=
+\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
++
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\\
+&amp;\rightarrow
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;-6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+3&amp;-3&amp;2\\
+0&amp;-1&amp;2\\
+0&amp;0&amp;0
+\end{bmatrix}
+\\
+g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
+基底v&amp;=k\begin{bmatrix} \frac{4}{3}\\2\\1\end{bmatrix}\quad(k \in
+\mathbf R)
+\end{align}
+\]</span> （４） <span class="math display">\[
+\begin{align}
+&amp;f=A=\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\\
+&amp;\because|T|=|A-\lambda E|=
+\left|
+\begin{matrix}
+\lambda+1 &amp;2 &amp; 4\\
+-3&amp;\lambda+6 &amp;-6\\
+-3 &amp;3&amp;\lambda-1=0
+\end{matrix}
+\right|
+=(\lambda+1)(\lambda+2)(\lambda+3)=0
+\\
+&amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
+\end{align}
+\]</span></p>
 <hr />
 
     </div>
@@ -338,14 +504,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Word count total: </span>
-    <span title="Word count total">37k</span>
+    <span title="Word count total">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:16</span>
+    <span title="Reading time total">2:18</span>
   </span>
 </div>
 
