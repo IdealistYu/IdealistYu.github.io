@@ -28,7 +28,7 @@
 <meta property="og:description" content="修考群每日一题 Day 8">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-12-27T15:29:13.000Z">
-<meta property="article:modified_time" content="2022-12-31T02:22:00.758Z">
+<meta property="article:modified_time" content="2022-12-31T17:00:48.740Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -234,7 +234,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-12-31 10:22:00" itemprop="dateModified" datetime="2022-12-31T10:22:00+08:00">2022-12-31</time>
+      <time title="Modified: 2023-01-01 01:00:48" itemprop="dateModified" datetime="2023-01-01T01:00:48+08:00">2023-01-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -253,14 +253,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>263</span>
+      <span>970</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -304,31 +304,274 @@ class="math inline">\(B\)</span>の共役転置である。</p>
 <hr />
 <h1 id="解答">解答</h1>
 <p>（１）</p>
-<p>$$ <span class="math display">\[\begin{align}
+<p><span class="math display">\[
+\begin{align}
+\left|
+A
+\right|
+=\frac 1 3
+\left|
+\begin{matrix}
+1&amp;-2&amp;-2\\
+-2&amp;1&amp;-2\\
+-2&amp;-2&amp;1
+\end{matrix}
+\right|
+=
+\frac 1 3
+\left|
+\begin{matrix}
+1&amp;-2&amp;-2\\
+0&amp;-3&amp;-6\\
+0&amp;0&amp;9
+\end{matrix}
+\right|
+=-9
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\left|
+xI-A
+\right|
+=
+\left|
+\begin{matrix}
+{x-\frac 1 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{x-\frac 1 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{x-\frac 1 3}
+\end{matrix}
+\right|
+=(x+1)(x-1)^2
+\end{align}
+\]</span></p>
+<p>（３） <span class="math display">\[
+\begin{align}
+|T|=
+\left|
+\lambda E-A
+\right|
+=0
+\\
+(2)によって,
+\lambda_1=-1\quad\lambda_2=\lambda_3=1
+\end{align}
+\]</span> （４） $$ <span class="math display">\[\begin{align}
+&amp;\lambda_1=-1のとき,T_1\lambda_1
+=0,そして,x_1=\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}とおくと,
+\\
+&amp;\begin{bmatrix}
+{-\frac 4 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{-\frac 4 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 4 3}
+\end{bmatrix}
+\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 0 &amp; -1\\
+0 &amp; -1 &amp; 1\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=0\\
+\\&amp;これから,
+\begin{cases}
+\alpha_1-\alpha_3=0\\
+-\alpha_2+\alpha_3=0
+\end{cases}
+\\
+\\
+&amp;\alpha_3=k_1とおくと,\alpha_1=k_1,\alpha_2=k_1\\
 
-\end{align}\]</span> <span class="math display">\[
-（２）
-\]</span> <span class="math display">\[\begin{align}
+&amp;\therefore 固有ベクトルx_1=
+\begin{bmatrix}
+k_1\\
+k_1\\
+k_1
+\end{bmatrix}=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\quad
+(k_1 \neq 0)
 
-\end{align}\]</span> $$</p>
-<p>（３） $$ <span class="math display">\[\begin{align}
+\\
+&amp;\lambda_2=\lambda_3=1のとき,T_2\lambda_2
+=0,そして,x_2=\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}とおくと,
+\\
+&amp;\begin{bmatrix}
+{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 2 3}
+\end{bmatrix}
+\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\beta_1\\
+\beta_2\\
+\beta_3
+\end{bmatrix}=0\\
+\\&amp;これから,
 
-\end{align}\]</span> <span class="math display">\[
-（４）
-\]</span> <span class="math display">\[\begin{align}
+\beta_1+\beta_2+\beta_3=0
 
+\\
+\\
+&amp;\beta_2=k_2,\beta_3=k_3とおくと,\beta_1=-k_2-k_3\\
+
+&amp;\therefore 固有ベクトルx_2=
+\begin{bmatrix}
+-k_2-k_3\\
+k_2\\
+k_3
+\end{bmatrix}=k_2
+\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
++
+k_3
+\begin{bmatrix}
+-1\\
+0\\
+1
+\end{bmatrix}
+\quad
+(k_2 \neq 0,k_3 \neq 0)
 \end{align}\]</span> <span class="math display">\[
 （５）
 \]</span> <span class="math display">\[\begin{align}
-
+&amp;ユニタリ行列：n次の複素行列U_Uが
+\\
+&amp;
+^t\overline {U_U}{U_U}={U_U}^t\overline {U_U}=Eを満たすとき,
+\\
+&amp;U_Uを「ユニタリ行列」と呼ぶ。
+\\
+\\
+&amp;\because {^tA}=A,{^t\overline A} ={^tA}
+\\
+&amp;\therefore AA=AA
+\\ &amp;\Rightarrow
+{^tA}A=A{^tA}
+\\
+&amp;\Rightarrow
+{^t\overline A}A=A{^t\overline A}
+\\
+&amp;\therefore Aはユニタリ行列
 \end{align}\]</span> <span class="math display">\[
 （６）
 \]</span> <span class="math display">\[\begin{align}
-
+&amp;エルミート行列：n次複素行列A_Hが
+\\
+&amp;^t\overline {A_H}=A_Hを満たすとき,
+\\&amp;A_Hを「エルミート行列」と呼ぶ。
+\\
+\\
+&amp;\because {^tA}=A,{^t\overline A} ={^tA}
+\\
+&amp;\therefore {^t\overline A} =A
+\\
+&amp;\therefore Aはエルミート行列
 \end{align}\]</span> <span class="math display">\[
 （７）
 \]</span> <span class="math display">\[\begin{align}
+Bはユニタリ行列のとき,
+{^t\overline B}B=E
+\\
+B^*={^t\overline B}=B^{-1}
+\\
+A=BDB^*=BDB^{-1}
+\\
+x_1=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\\k_1=\frac 1 {\sqrt3}とおくと,
+u_1=\frac 1 {\sqrt3}\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac 1 {\sqrt3}\\
+\frac 1 {\sqrt3}\\
+\frac 1 {\sqrt3}
+\end{bmatrix}
+\\
+x_2=k_2
+\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
+\\k_2=\frac 1 {\sqrt2}とおくと,
+u_2=\frac 1 {\sqrt2}\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1 {\sqrt2}\\
+\frac 1 {\sqrt2}\\
+0
+\end{bmatrix}
+\\
+x_3&#39;=x_3-(u_2\cdot x_3)u_2=\begin{bmatrix}
+-1\\
+0\\
+1
+\end{bmatrix}
+-\frac 1{\sqrt2}
+\begin{bmatrix}
+-\frac 1 {\sqrt2}\\
+\frac 1 {\sqrt2}\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1 2\\
+-\frac 1 2\\
+1
+\end{bmatrix}
+\\
+u_3=\frac {x_3&#39;}{||x_3||}=\frac {\sqrt2}{\sqrt3}\begin{bmatrix}
+-\frac 1 2\\
+-\frac 1 2\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1{\sqrt6} \\
+-\frac 1{\sqrt6}\\
+\frac 2{\sqrt6}
+\end{bmatrix}
+\\
+B=[u_1,u_2,u_3]=
+\begin{bmatrix}
+\frac 1{\sqrt 3}&amp;-\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
+\frac 1{\sqrt 3}&amp;\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
+\frac 1{\sqrt 3}&amp;0&amp;\frac 2{\sqrt6}
+\end{bmatrix}\\
+D=
 
+\begin{bmatrix}
+-1&amp;0&amp;0\\
+0&amp;1&amp;0\\
+0&amp;0&amp;1
+\end{bmatrix}
 \end{align}\]</span> $$</p>
 <hr />
 
@@ -389,7 +632,7 @@ class="math inline">\(B\)</span>の共役転置である。</p>
 
 <div class="copyright">
   &copy; 2020 – 
-  <span itemprop="copyrightYear">2022</span>
+  <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -401,14 +644,14 @@ class="math inline">\(B\)</span>の共役転置である。</p>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Word count total: </span>
-    <span title="Word count total">39k</span>
+    <span title="Word count total">40k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:23</span>
+    <span title="Reading time total">2:25</span>
   </span>
 </div>
 
