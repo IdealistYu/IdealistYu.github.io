@@ -28,7 +28,7 @@
 <meta property="og:description" content="修考群每日一题 Day 8">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-12-27T15:29:13.000Z">
-<meta property="article:modified_time" content="2022-12-31T17:00:48.740Z">
+<meta property="article:modified_time" content="2022-12-31T17:08:51.643Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -234,7 +234,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-01 01:00:48" itemprop="dateModified" datetime="2023-01-01T01:00:48+08:00">2023-01-01</time>
+      <time title="Modified: 2023-01-01 01:08:51" itemprop="dateModified" datetime="2023-01-01T01:08:51+08:00">2023-01-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -253,7 +253,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>970</span>
+      <span>974</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -276,12 +276,14 @@
 <h1 id="問題">問題</h1>
 <p><span class="math inline">\(3\times3\)</span>実行列<span
 class="math inline">\(A\)</span>を <span class="math display">\[
+\begin{align}
 A=\frac1 3
 \begin{pmatrix}
 1&amp;-2&amp;-2\\
 -2&amp;1&amp;-2\\
 -2&amp;-2&amp;1
 \end{pmatrix}
+\end{align}
 \]</span> によって定義する。以下の問に答えよ.</p>
 <p>１）行列<span class="math inline">\(A\)</span>の行列式を求めよ。</p>
 <p>２）<span class="math inline">\(I\)</span>を<span
@@ -303,8 +305,7 @@ class="math inline">\(B^*\)</span>は<span
 class="math inline">\(B\)</span>の共役転置である。</p>
 <hr />
 <h1 id="解答">解答</h1>
-<p>（１）</p>
-<p><span class="math display">\[
+<p>（１） <span class="math display">\[
 \begin{align}
 \left|
 A
@@ -343,8 +344,7 @@ xI-A
 \right|
 =(x+1)(x-1)^2
 \end{align}
-\]</span></p>
-<p>（３） <span class="math display">\[
+\]</span> （３） <span class="math display">\[
 \begin{align}
 |T|=
 \left|
@@ -355,7 +355,8 @@ xI-A
 (2)によって,
 \lambda_1=-1\quad\lambda_2=\lambda_3=1
 \end{align}
-\]</span> （４） $$ <span class="math display">\[\begin{align}
+\]</span> （４） <span class="math display">\[
+\begin{align}
 &amp;\lambda_1=-1のとき,T_1\lambda_1
 =0,そして,x_1=\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}とおくと,
 \\
@@ -383,7 +384,6 @@ xI-A
 \\
 \\
 &amp;\alpha_3=k_1とおくと,\alpha_1=k_1,\alpha_2=k_1\\
-
 &amp;\therefore 固有ベクトルx_1=
 \begin{bmatrix}
 k_1\\
@@ -397,7 +397,6 @@ k_1
 \end{bmatrix}
 \quad
 (k_1 \neq 0)
-
 \\
 &amp;\lambda_2=\lambda_3=1のとき,T_2\lambda_2
 =0,そして,x_2=\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}とおくと,
@@ -419,13 +418,10 @@ k_1
 \beta_3
 \end{bmatrix}=0\\
 \\&amp;これから,
-
 \beta_1+\beta_2+\beta_3=0
-
 \\
 \\
 &amp;\beta_2=k_2,\beta_3=k_3とおくと,\beta_1=-k_2-k_3\\
-
 &amp;\therefore 固有ベクトルx_2=
 \begin{bmatrix}
 -k_2-k_3\\
@@ -446,9 +442,9 @@ k_3
 \end{bmatrix}
 \quad
 (k_2 \neq 0,k_3 \neq 0)
-\end{align}\]</span> <span class="math display">\[
-（５）
-\]</span> <span class="math display">\[\begin{align}
+\end{align}
+\]</span> （５） <span class="math display">\[
+\begin{align}
 &amp;ユニタリ行列：n次の複素行列U_Uが
 \\
 &amp;
@@ -467,9 +463,9 @@ k_3
 {^t\overline A}A=A{^t\overline A}
 \\
 &amp;\therefore Aはユニタリ行列
-\end{align}\]</span> <span class="math display">\[
-（６）
-\]</span> <span class="math display">\[\begin{align}
+\end{align}
+\]</span> （６） <span class="math display">\[
+\begin{align}
 &amp;エルミート行列：n次複素行列A_Hが
 \\
 &amp;^t\overline {A_H}=A_Hを満たすとき,
@@ -481,9 +477,9 @@ k_3
 &amp;\therefore {^t\overline A} =A
 \\
 &amp;\therefore Aはエルミート行列
-\end{align}\]</span> <span class="math display">\[
-（７）
-\]</span> <span class="math display">\[\begin{align}
+\end{align}
+\]</span> （７） <span class="math display">\[
+\begin{align}
 Bはユニタリ行列のとき,
 {^t\overline B}B=E
 \\
@@ -566,13 +562,13 @@ B=[u_1,u_2,u_3]=
 \frac 1{\sqrt 3}&amp;0&amp;\frac 2{\sqrt6}
 \end{bmatrix}\\
 D=
-
 \begin{bmatrix}
 -1&amp;0&amp;0\\
 0&amp;1&amp;0\\
 0&amp;0&amp;1
 \end{bmatrix}
-\end{align}\]</span> $$</p>
+\end{align}
+\]</span></p>
 <hr />
 
     </div>
