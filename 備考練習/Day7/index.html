@@ -28,7 +28,7 @@
 <meta property="og:description" content="修考群每日一题 Day 7">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-12-26T15:18:13.000Z">
-<meta property="article:modified_time" content="2023-01-01T06:51:23.327Z">
+<meta property="article:modified_time" content="2023-01-01T06:56:07.261Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -234,7 +234,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-01 14:51:23" itemprop="dateModified" datetime="2023-01-01T14:51:23+08:00">2023-01-01</time>
+      <time title="Modified: 2023-01-01 14:56:07" itemprop="dateModified" datetime="2023-01-01T14:56:07+08:00">2023-01-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -318,84 +318,92 @@ class="math inline">\(A\)</span>の固有値は,ゼロでないときは,純虚�
 class="math inline">\(A\)</span>の行列式の値は負ではないことを示せ.</p>
 <hr />
 <h1 id="解答">解答</h1>
-<p>（１）</p>
-<ol type="a">
-<li>$$ \begin{align} Bは
-<span
-class="math display">\[\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}\]</span>
-とおく \
-<span class="math display">\[\begin{bmatrix}
+<p>（１） a) <span class="math display">\[
+\begin{align}
+Bは\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}とおく
+\\
+\begin{bmatrix}
 a_{k+2}\\
 a_{k+1}
-\end{bmatrix}\]</span>
+\end{bmatrix}
 =B
-<span class="math display">\[\begin{bmatrix}
-a_{k+1}\\
-a_{k}
-\end{bmatrix}\]</span>
-=
-<span
-class="math display">\[\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}
 \begin{bmatrix}
 a_{k+1}\\
 a_{k}
-\end{bmatrix}\]</span>
+\end{bmatrix}
 =
-<span
-class="math display">\[\begin{bmatrix}aa_{k+1}+ba_k\\ca_{k+1}+da_k\end{bmatrix}\]</span>
-\ a_{k+2}はa_{k+1}とa_kの算術平均である \ a_{k+2}= 2 a_{k+1} + 2 a_k \
-a= 2b= 2c=1d=0 \ B=
-<span class="math display">\[\begin{bmatrix}
+\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}
+\begin{bmatrix}
+a_{k+1}\\
+a_{k}
+\end{bmatrix}
+=
+\begin{bmatrix}aa_{k+1}+ba_k\\ca_{k+1}+da_k\end{bmatrix}
+\\
+a_{k+2}はa_{k+1}とa_kの算術平均である
+\\
+a_{k+2}=\frac 1 2 a_{k+1} +\frac 1 2 a_k
+\\
+a=\frac 1 2\quad b=\frac 1 2\quad c=1\quad d=0
+\\
+B=\begin{bmatrix}
 \frac 1 2&amp;\frac 1 2\\
 1&amp;0
-\end{bmatrix}\]</span>
-\ |T|=|E-B|= |
-<span class="math display">\[\begin{matrix}
+\end{bmatrix}
+\\
+\because |T|=|\lambda E-B|=
+\left|
+\begin{matrix}
 \lambda-\frac 1 2&amp;-\frac 1 2\\
 -1&amp;\lambda
-\end{matrix}\]</span>
-| =()(+ 2)=0 \ _1=1 _2=- 2 \ _1=1のとき,T_1x_1=0,そして,x_1=
-<span class="math display">\[\begin{bmatrix}
+\end{matrix}
+\right|
+=(\lambda-1)(\lambda+\frac 1 2)=0
+\\
+\therefore \lambda_1=1 \quad\lambda_2=-\frac 1 2
+\\
+\lambda_1=1のとき,T_1x_1=0,そして,x_1=
+\begin{bmatrix}
 \alpha_1\\
 \alpha_2
-\end{bmatrix}\]</span>
-とおくと,\
-<span class="math display">\[\begin{bmatrix}
+\end{bmatrix}
+とおくと,\\
+\begin{bmatrix}
 \frac 1 2&amp;-\frac 1 2\\
 -1&amp;1
 \end{bmatrix}
 \begin{bmatrix}
 \alpha_1\\
 \alpha_2
-\end{bmatrix}\]</span>
-=0 \ x_1=
-<span class="math display">\[\begin{bmatrix}
+\end{bmatrix}=0
+\\
+x_1=\begin{bmatrix}
 1\\
 1
-\end{bmatrix}\]</span>
-\ _2=- 2のとき,T_2x_2=0,そして,x_2=
-<span class="math display">\[\begin{bmatrix}
+\end{bmatrix}
+\\
+\lambda_2=-\frac 1 2のとき,T_2x_2=0,そして,x_2=
+\begin{bmatrix}
 \beta_1\\
 \beta_2
-\end{bmatrix}\]</span>
-とおくと,\
-<span class="math display">\[\begin{bmatrix}
+\end{bmatrix}
+とおくと,\\
+\begin{bmatrix}
 -1&amp;-\frac 1 2\\
 -1&amp;-\frac 1 2
 \end{bmatrix}
 \begin{bmatrix}
 \beta_1\\
 \beta_2
-\end{bmatrix}\]</span>
-=0 \ x_2=
-<span class="math display">\[\begin{bmatrix}
+\end{bmatrix}=0
+\\
+x_2=\begin{bmatrix}
 -1\\
 2
-\end{bmatrix}\]</span></li>
-</ol>
-<p>\end{align} <span class="math display">\[
-b)
-\]</span> <span class="math display">\[\begin{align}
+\end{bmatrix}
+\end{align}
+\]</span> b) <span class="math display">\[
+\begin{align}
 P&amp;=[x_1,x_2]=\begin{bmatrix}
 1&amp;-1\\
 1&amp;2
@@ -437,9 +445,9 @@ B^n&amp;=\frac 1 3
 2&amp;1\\
 2&amp;1
 \end{bmatrix}
-\end{align}\]</span> <span class="math display">\[
-c)
-\]</span> <span class="math display">\[\begin{align}
+\end{align}
+\]</span> c) <span class="math display">\[
+\begin{align}
 \begin{bmatrix}
 a_{k+2}\\
 a_{k+1}
@@ -488,9 +496,8 @@ a_{0}
 \\
 \lim \limits_{k\rightarrow \infty}a_k&amp;=\lim \limits_{k\rightarrow
 \infty}\frac 1 3[2+\frac 1{(-2)^{k-1}}]=\frac 2 3
-\end{align}\]</span> $$ （２）</p>
-<ol type="a">
-<li><p><span class="math display">\[
+\end{align}
+\]</span> （２） a) <span class="math display">\[
 \begin{align}
 &amp;|\lambda E-A|=|(\lambda E-A)^{\mathsf T}|=|\lambda E^{\mathsf
 T}-A^{\mathsf T}|\\
@@ -501,16 +508,14 @@ T}-A^{\mathsf T}|\\
 \\
 &amp;\therefore Aが固有値\lambdaをもつとき,-\lambdaはAの固有値である.
 \end{align}
-\]</span></p></li>
-<li><p><span class="math display">\[
+\]</span> b) <span class="math display">\[
 \begin{align}
 x^{\mathsf T}(A+A^{\mathsf T})x=0\\
 x^{\mathsf T}Ax+x^{\mathsf T}A^{\mathsf T}x=0\\
 x^{\mathsf T}Ax+(x^{\mathsf T}Ax)^{\mathsf T}=0\\
 x^{\mathsf T}Ax=0
 \end{align}
-\]</span></p></li>
-<li><p><span class="math display">\[
+\]</span> c) <span class="math display">\[
 \begin{align}
 Au=\lambda u
 \\
@@ -526,8 +531,7 @@ Au=\lambda u
 \\
 \therefore Aの固有値は,ゼロでないときは,純虚数である
 \end{align}
-\]</span></p></li>
-<li><p><span class="math display">\[
+\]</span> d) <span class="math display">\[
 \begin{align}
 |A|=|A^{\mathsf T}|=|-A|=(-1)^n|A|\\
 nは奇数のとき,\\|A|=-|A|,|A|=0\\
@@ -537,8 +541,7 @@ nは偶数のとき,\\|A|=\lambda_1\lambda_2\cdots\lambda_{2n}(\lambdaと-\lambd
 \\
 \therefore |A|は負ではない
 \end{align}
-\]</span></p></li>
-</ol>
+\]</span></p>
 <hr />
 
     </div>
