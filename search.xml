@@ -60,37 +60,6 @@ CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，�
       </categories>
   </entry>
   <entry>
-    <title>正则表达式可视化</title>
-    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
-    <content><![CDATA[<hr />
-<p><a
-href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Regular expression</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
-    <content><![CDATA[<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?style=flat-square&amp;logo=hexo" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?style=flat-square" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
     <title>基础正则表达式速查表与常用正则表达式示例</title>
     <url>/Regular%20expression/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<hr />
@@ -859,377 +828,6 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?style=flat-square" /></a></
 ]]></content>
       <categories>
         <category>Regular expression</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day1</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day1/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>行列<span class="math inline">\(A\)</span>を次で定義する. <span
-class="math display">\[
-A=
-\begin{bmatrix}
-1 &amp; 2 &amp; 0\\
-2 &amp; -1 &amp; 2\\
-0 &amp; 2 &amp; 1\\
-\end{bmatrix}
-\]</span> 以下の問いに答えよ.ただし,<span
-class="math inline">\(E\)</span>は単位行列,<span
-class="math inline">\(O\)</span>は零行列とする.</p>
-<p>（１）<span
-class="math inline">\(A\)</span>の固有値をすべて求め,最大の固有値に対応する固有ベクトルを求めよ.</p>
-<p>（２）<span class="math inline">\(a,b,c\)</span>を実数とする.<span
-class="math inline">\(aA^2+bA+cE=O\)</span>ならば<span
-class="math inline">\(a=b=c=0\)</span>であることを示せ.</p>
-<p>（３）<span
-class="math inline">\(A^3+sA^2+tA+uE=O\)</span>をみたす実数<span
-class="math inline">\(s,t,u\)</span>を求めよ.</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
-\begin{align}
-&amp;\because
-\left|
-T
-\right|
-=
-\left|
-A-\lambda E
-\right|
-=
-\left|
-\begin{matrix}
-1-\lambda &amp; 2 &amp; 0\\
-2 &amp; -1-\lambda &amp; 2\\
-0 &amp; 2 &amp; 1-\lambda
-\end{matrix}
-\right|
-=(1-\lambda)(\lambda+3)(\lambda-3)=0\\
-&amp;\therefore
-\lambda_1=1 \quad \lambda_2=-3 \quad \lambda_3=3\\
-\\
-&amp;\lambda_3=3のとき,T_3x_3=0,そして,x_3=
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}
-とおくと,\\
-\\&amp;
-\begin{bmatrix}
--2 &amp; 2 &amp; 0\\
-2 &amp; -4 &amp; 2\\
-0 &amp; 2 &amp; -2
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}=
-\begin{bmatrix}
--1 &amp; 1 &amp; 0\\
-0 &amp; -1 &amp; 1\\
-0 &amp; 0 &amp; 0
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}=0\\
-\\&amp;これから,
-\begin{cases}
--\alpha_1+\alpha_2=0\\
--\alpha_2+\alpha_3=0
-\end{cases}
-\\
-\\&amp;
-\alpha_1=k_1とおくと,\alpha_2=k_1,\alpha_3=k_1\\
-&amp;
-\therefore 最大の固有値に対応する固有ベクトルx_3=
-\begin{bmatrix}
-k_1\\
-k_1\\
-k_1
-\end{bmatrix}=k_1
-\begin{bmatrix}
-1\\
-1\\
-1
-\end{bmatrix}
-\quad
-(k_1 \neq 0)
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-&amp;f(A)=aA^2+bA+cEとおく\\
-&amp;フロべニウスの定理によって,行列f(A)の固有値は\\
-&amp;\begin{cases}
-f(\lambda_1)=a\lambda_1+b\lambda_1+c=a+b+c\\
-f(\lambda_2)=a\lambda_2+b\lambda_2+c=9a-3b+c\\
-f(\lambda_3)=a\lambda_3+b\lambda_3+c=9a+3b+c
-\end{cases}
-\\&amp;f(A)=Oならば,f(A)の固有値はすべて0である\\
-&amp;
-B\begin{bmatrix}
-a\\
-b\\
-c
-\end{bmatrix}=
-\begin{bmatrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-a\\
-b\\
-c
-\end{bmatrix}=0とおくと,\\
-&amp;\because
-\left|B\right|\neq0
-\\
-&amp;\therefore a=b=c=0（自明な解）
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-(2)も同様に
-\\
-&amp;\because f(A)=A^3+sA^2+tA+uA=O\\
-&amp;\therefore
-\begin{cases}
-f(\lambda_1)=1+s+t+u=0\\
-f(\lambda_2)=-27+9s-3t+u=0\\
-f(\lambda_3)=27+9s+3t+u=0
-\end{cases}\\
-&amp;\begin{bmatrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-s\\
-t\\
-u
-\end{bmatrix}=\begin{bmatrix}
--1\\
-27\\
--27
-\end{bmatrix}\\
-&amp;
-\left [
-\begin{array}{c:c}
-\begin{matrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{matrix}&amp;
-\begin{matrix}
--1\\
-27\\
--27
-\end{matrix}
-\end{array}
-\right ]
-\rightarrow
-\left [
-\begin{array}{c:c}
-\begin{matrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1
-\end{matrix}&amp;
-\begin{matrix}
--1\\
--9\\
-9
-\end{matrix}
-\end{array}
-\right ]
-\\
-&amp;\therefore s=-1,t=-9,u=9
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day2</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day2/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>以下の問いに答えよ.</p>
-<p>（１）2変数関数 <span class="math display">\[
-f(x,y)=3x^2-12xy+y^3+6y^2-15y-3
-\]</span> および,<span
-class="math inline">\(xy\)</span>平面上において,<span
-class="math inline">\(f(x,y)=0\)</span>が定める曲線<span
-class="math inline">\(C\)</span>を考える,このとき,以下の問いに答えよ.</p>
-<p>（i）<span
-class="math inline">\(f(x,y)\)</span>の極限をすべて求めよ.</p>
-<p>（ii）曲線<span class="math inline">\(C\)</span>上の点<span
-class="math inline">\((1,3)\)</span>における接線の方程式を求めよ.</p>
-<p>（２）次の重積分の値を求めよ. <span class="math display">\[
-I=\iint_D\frac{dxdy}{5-\sqrt{x^2+y^2}},D=\{(x,y)|1\leq x^2+y^2\leq16\}
-\]</span></p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１）</p>
-<p>（i） <span class="math display">\[
-\begin{align}
-&amp;
-\begin{cases}
-f_x=6x-12y=0\\
-f_y=-12x+3y^2+12y-15=0\\
-\end{cases}\\
-&amp;(x,y)=(10,5)または,(-2,-1)
-\\
-&amp;A=f_{xx}=6
-\\
-&amp;B=f_{xy}=-12
-\\
-&amp;C=f_{yy}=6y+12
-\\&amp;
-(i)(x,y)=(10,5)のとき,
-\\&amp;
-A=6,B=-12,C=42とおくと,\\
-&amp;
-B^2-AC&lt;0かつA&gt;0より,
-\\
-&amp;点(10,5)で,極小値f(10,5)=-103をとる
-\\&amp;
-(ii)(x,y)=(-2,-1)のとき,
-\\&amp;
-A＝6,B=-12,C=6
-\\&amp;
-B^2-AC&lt;0より,
-\\
-&amp;点(-2,-1)で,極値をとらない
-\end{align}
-\]</span> （ii） <span class="math display">\[
-\begin{align}
-f(x,y)&amp;=3x^2-12xy+y^3+6y^2-15y-3=0
-\\
-f_x(1,3)&amp;=-30\\
-f_y(1,3)&amp;=36\\
-接線方程式:\frac {y-3} {36}&amp;=\frac {x-1} {-30}
-\\
-6x+5y-21&amp;=0
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-x&amp;=r\cos \theta,y=r\sin \thetaより,\\
-D&#39;:r&amp;\in[1,4],\theta\in[0,2\pi]となる.
-\\
-\iint_D\frac {dxdy}{5-\sqrt{x^2+y^2}}
-&amp;=\iint_{D&#39;}\frac {1}{5-r}\cdot rdrd\theta
-\\
-&amp;=\int_0^{2\pi}\int_1^4\left(\frac 5 {5-r}-1\right)drd\theta
-\\
-&amp;=\int_0^{2\pi}\left[-5\log(5-r)-r\right]_1^4drd\theta
-\\
-&amp;=5\log4-3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day3</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day3/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>ベクトル<span
-class="math inline">\(\alpha=\begin{bmatrix}1\\1\\2\end{bmatrix}\in\mathbb
-R^3\)</span>に対し,線形変換<span class="math inline">\(f:\mathbb
-R^3\rightarrow\mathbb R^3\)</span>を <span class="math display">\[
-f(x)=x-\frac{2(x,\alpha)}{(\alpha,\alpha)}\alpha\quad(x\in\mathbb R^3)
-\]</span> で定義する,ただし,<span
-class="math inline">\((x,y)\)</span>は<span
-class="math inline">\(x,y\in\mathbb R^3\)</span>の標準内積を表す.</p>
-<p>また,<span
-class="math inline">\(\mathscr{E}=(e_1,e_2,e_3)\)</span>を<span
-class="math inline">\(\mathbb R^3\)</span>の標準基底とする.</p>
-<p>このとき,以下の問いに答えよ.</p>
-<p>（１）<span class="math inline">\(f(e_1)\)</span>および<span
-class="math inline">\(f(\alpha)\)</span>を求めよ.</p>
-<p>（２）<span class="math inline">\(\mathscr{E}\)</span>に関する<span
-class="math inline">\(f\)</span>の表現行列<span
-class="math inline">\(A\)</span>を求めよ.</p>
-<p>（３）<span
-class="math inline">\(A\)</span>の固有値をすべて求めよ.</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
-\begin{align}
-e_1&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}
-\\
-f(e_1)&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}-\frac{2(1+0+0)}{1+1+4}\begin{bmatrix}1\\1\\2\end{bmatrix}=\begin{bmatrix}\frac2
-3\\-\frac1 3\\-\frac2 3\end{bmatrix}
-\\
-f(a)&amp;=-a=\begin{bmatrix}-1\\-1\\-2\end{bmatrix}
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-f(e_2)&amp;=\begin{bmatrix}-\frac1 3\\\frac2 3\\-\frac2 3\end{bmatrix}
-\quad
-f(e_3)=\begin{bmatrix}-\frac2 3\\-\frac2 3\\-\frac1 3\end{bmatrix}
-\\
-表現行列A&amp;=\begin{bmatrix}
-\frac2 3 &amp; -\frac1 3 &amp;-\frac2 3\\
--\frac1 3 &amp; \frac2 3 &amp;-\frac2 3\\
--\frac2 3 &amp; -\frac2 3 &amp;-\frac1 3
-\end{bmatrix}
-=\frac1 3\begin{bmatrix}
-2 &amp; -1 &amp;-2\\
--1  &amp; 2  &amp;-2 \\
--2  &amp; -2  &amp;-1
-\end{bmatrix}
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-\because
-\left|
-T
-\right|
-&amp;=
-\left|
-A-\lambda E
-\right|
-=0\\
-\therefore
-\left|
-3T
-\right|
-&amp;=
-\left|
-3A-3\lambda E
-\right|
-=0\\
-3\lambda&amp;=aとおくと,\\
-\left|
-\begin{matrix}
-2-a &amp; -1 &amp;-2\\
--1  &amp; 2-a  &amp;-2 \\
--2  &amp; -2  &amp;-1-a
-\end{matrix}
-\right|
-&amp;=(a-3)^2(3+a)=0\\
-a_1&amp;=a_2=3 \quad a_3=-3\\
-\therefore
-\lambda_1&amp;=\lambda_2=1\quad\lambda_3=-1
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
       </categories>
   </entry>
   <entry>
@@ -2372,176 +1970,321 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
-    <title>Day5</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day5/</url>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?style=flat-square&amp;logo=hexo" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?style=flat-square" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
+]]></content>
+      <categories>
+        <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>正则表达式可视化</title>
+    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+    <content><![CDATA[<hr />
+<p><a
+href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Regular expression</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>和楽千本桜</title>
+    <url>/Lyrics/%E5%92%8C%E6%A5%BD%E5%8D%83%E6%9C%AC%E6%A1%9C/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=3062939&amp;bvid=BV1Ys41127FZ&amp;cid=4809203&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>おそれも知らずにハイカラ革命</p>
+<p>きはめて磊落反戦国家</p>
+<p>日の丸じるしの自在車まろがし</p>
+<p>物の怪調伏逢ひし弥えむ</p>
+<p><br></p>
+<p>環状の線走り出で</p>
+<p>南船北馬なんのその</p>
+<p>ますらをおとめご</p>
+<p>花開く浮世の随に</p>
+<p><br></p>
+<p>千本桜小夜ニ入リテ</p>
+<p>君ノ声モ届カザリキ</p>
+<p>此処は宴刃金の織</p>
+<p>その断頭台で見下ろせよ</p>
+<p><br></p>
+<p>三千世界常世之闇</p>
+<p>嘆キノ唄聞コエザリキ</p>
+<p>青藍の空遥けきかな</p>
+<p>その光線銃にて打ち抜いて</p>
+<p><br></p>
+<p>煙管の雨降るいなせな将校</p>
+<p>行きつ戻りつの花魁道中</p>
+<p>彼方も御許も諸人寄り合へ</p>
+<p>三味線邦楽人含道善</p>
+<p><br></p>
+<p>禅定の門潜り抜けて</p>
+<p>極楽浄土厄はらひ</p>
+<p>定めて仕舞いば大団円</p>
+<p>拍手の合間に</p>
+<p><br></p>
+<p>千本桜小夜ニ入リテ</p>
+<p>君ノ声モ届カザリキ</p>
+<p>此処は宴刃金の織</p>
+<p>その断頭台で見下ろせよ</p>
+<p><br></p>
+<p>三千世界常世之闇</p>
+<p>嘆キノ唄聞コエザリキ</p>
+<p>曙光の丘遥けきかな</p>
+<p>その閃光弾をば打ち上げよ</p>
+<p><br></p>
+<p>環状の線走り出で</p>
+<p>南船北馬なんのその</p>
+<p>ますらをおとめご</p>
+<p>花開く浮世の随に</p>
+<p><br></p>
+<p>千本桜小夜ニ入リテ</p>
+<p>君ノ声モ届カザリキ</p>
+<p>此処は宴刃金の織</p>
+<p>その断頭台より舞い降りて</p>
+<p><br></p>
+<p>千本桜小夜ニ入リテ</p>
+<p>君が歌ひわれ踊らむ</p>
+<p>此処は宴刃金の織</p>
+<p>サア光線銃をば撃ちまくれ</p>
+<hr />
+]]></content>
+  </entry>
+  <entry>
+    <title>すずめ feat.十明</title>
+    <url>/Lyrics/%E3%81%99%E3%81%9A%E3%82%81/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=690634501&amp;bvid=BV1w24y1y7xP&amp;cid=908204446&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>君の中にある　赤と青き線</p>
+<p>それらが結ばれるのは　心の臓</p>
+<p><br></p>
+<p>風の中でも負けないような声で</p>
+<p>届ける言葉を今は育ててる</p>
+<p><br></p>
+<p>時はまくらぎ　風はにきはだ　星はうぶすな　人はかげろう</p>
+<p><br></p>
+<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
+<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
+<p><br></p>
+<p>この身ひとつじゃ　足りない叫び</p>
+<p><br></p>
+<p>君の手に触れた時にだけ震えた　心があったよ</p>
+<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
+<p><br></p>
+<p>愚かさでいい　醜さでいい　正しさのその先で　君と手を取りたい</p>
+<p><br></p>
+<p>思い出せない　大切な記憶</p>
+<p>言葉にならない　ここにある想い</p>
+<p><br></p>
+<p>もしかしたら　もしかしたら</p>
+<p>それだけでこの心はできてる</p>
+<p><br></p>
+<p>もしかしたら　もしかしたら</p>
+<p>君に「気づいて」と今もその胸を</p>
+<p>打ち鳴らす</p>
+<p><br></p>
+<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
+<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
+<p><br></p>
+<p>この身ひとつじゃ　足りない叫び</p>
+<p><br></p>
+<p>君の手に触れた時にだけ震えた　心があったよ</p>
+<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
+<p><br></p>
+<p>愚かさでいい　醜さでいい　正しさのその先で　君と生きてきたい</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>中间灰</title>
+    <url>/Lyrics/%E4%B8%AD%E9%97%B4%E7%81%B0/</url>
+    <content><![CDATA[<hr />
+<iframe allowfullscreen="true" border="0" src="https://player.bilibili.com/player.html?aid=76219671&amp;bvid=BV1mJ411m76h&amp;cid=130492787&amp;page=1" allow-top-navigation="false" allow-forms="false" allow-popups="false" sandbox="allow-scripts allow-same-origin allow-popups" onload="window.remoteOnLoad &amp;&amp; window.remoteOnLoad(this)">
+</iframe>
+<hr />
+<p><br></p>
+<p>不要再停下了</p>
+<p>不要再停下了</p>
+<p>转着圈的木偶转累的那一刻</p>
+<p><br></p>
+<p>不要再停下了</p>
+<p>不要再停下了</p>
+<p>不记得承诺过放弃的那一刻</p>
+<p><br></p>
+<p>不要再停下了</p>
+<p>不要再停下了</p>
+<p>这样子的生活也并非理想呢</p>
+<p><br></p>
+<p>再一次停下吧</p>
+<p>再一次停下</p>
+<p>原来哭着哭着就会真的睡着啊</p>
+<p><br></p>
+<p>也许只是再次</p>
+<p>深陷这般无解的循环</p>
+<p>不断偏离</p>
+<p>直至迷失进谁的梦里</p>
+<p>心中仿佛有</p>
+<p>反复裂开之后又再粘合的伤痕</p>
+<p>你会笑我吗</p>
+<p>你会笑我吗</p>
+<p><br></p>
+<p>如果无法</p>
+<p>带走片刻呼吸在这个夜里</p>
+<p>能否与你</p>
+<p>连同星星一起沉入进水底</p>
+<p>忽隐忽现 看见</p>
+<p>聚集后又消散的鱼群</p>
+<p>不知不觉 又能梦见</p>
+<p>散落了满地的繁星</p>
+<p><br></p>
+<p>逐渐 不去</p>
+<p>尝试解读</p>
+<p>自我的含义</p>
+<p>逐渐 忘记</p>
+<p>渴求不会再得到回应</p>
+<p>不存在什么</p>
+<p>所谓的同类与所谓的感同身受</p>
+<p>我不清楚啊</p>
+<p>我不清楚啊</p>
+<p><br></p>
+<p>也许只是再次</p>
+<p>深陷这般无解的循环</p>
+<p>不断偏离</p>
+<p>直至迷失进谁的梦里</p>
+<p>还是未能调试出</p>
+<p>将自己溶解于其中的灰度</p>
+<p>还在寻找吗</p>
+<p>还在寻找吗</p>
+<p><br></p>
+<p>不要再停下了</p>
+<p>不要再停下了</p>
+<p><br></p>
+<p>即使放弃关闭</p>
+<p>脑海无法稀释的声音</p>
+<p>即使玻璃</p>
+<p>代替全部过往嵌入进手臂</p>
+<p>依旧无法换取</p>
+<p>一瞬近似于真实的痛感</p>
+<p>大概或许 还是与你一样</p>
+<p>渴望过死去</p>
+<p>如果无法 带走片刻心跳在这个夜里</p>
+<p>能否与你</p>
+<p>连同月亮一起沉入进水底</p>
+<p>还是无法面对</p>
+<p>逃跑留下的拙劣的剪影</p>
+<p>大概或许 明天也是</p>
+<p>一样的渴望着消失</p>
+<p>如果无法 (只是再次)</p>
+<p>带走片刻呼吸在这个夜里 (深陷这般无解的循环)</p>
+<p>能否与你 (不断偏离)</p>
+<p>连同星星一起沉入进水底 (直至迷失进谁的梦里)</p>
+<p>忽隐忽现 看见 (心中仿佛有 反复)</p>
+<p>聚集后又消散的鱼群 (裂开之后又再粘合的伤痕)</p>
+<p>不知不觉 又能梦见 (你会笑我吗 你会)</p>
+<p>散落了满地的繁星 (笑我吗)</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day2</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day2/</url>
     <content><![CDATA[<hr />
 <h1 id="問題">問題</h1>
-<p><span class="math inline">\(a\)</span>を実数とし,3次正方行列<span
-class="math inline">\(A,E\)</span>と<span class="math inline">\(\mathbb
-R^3\)</span>のベクトル<span class="math inline">\(v_1,v_2\)</span>を
-<span class="math display">\[
-A＝
-\begin{bmatrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-,\quad
-E＝
-\begin{bmatrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1\\
-\end{bmatrix}
-,\quad
-v_1=
-\begin{bmatrix}
-1\\
-1\\
-0\\
-\end{bmatrix}
-,\quad
-v_2=
-\begin{bmatrix}
-2\\
-3\\
-1\\
-\end{bmatrix}
-\]</span> とする.さらに,<span class="math inline">\(\mathbb
-R^3\)</span>の部分空間<span class="math inline">\(\langle v_1,v_2
-\rangle\)</span>を <span class="math display">\[
-\langle v_1,v_2\rangle=\{c_1v_1+c_2v_2\in\mathbb R^3|c_1,c_2\in\mathbb
-R\}
-\]</span> で定義し,線形変換<span class="math inline">\(f:\mathbb
-R^3\rightarrow \mathbb R^3\)</span>を<span
-class="math inline">\(f(v)=Av(v\in\mathbb R^3)\)</span>と定める.</p>
-<p>このとき,以下の問いに答えよ.</p>
-<p>（１）<span class="math inline">\(f(v)\in\langle
-v_1,v_2\rangle\)</span>となるように<span
-class="math inline">\(a\)</span>の値を定めよ.</p>
-<p>（２）行列式<span class="math inline">\(\det A\)</span>の値が<span
-class="math inline">\(-6\)</span>となるときの<span
-class="math inline">\(a\)</span>の値を求めよ.</p>
-<p>以下では,<span
-class="math inline">\(a\)</span>は（２）で求めた値とする.</p>
-<p>（３）線形変換<span class="math inline">\(g:\mathbb
-R^3\rightarrow\mathbb R^3\)</span>を<span
-class="math inline">\(g(v)＝(A+E)v \quad (v\in\mathbb
-R^3)\)</span>と定めるとき,<span
-class="math inline">\(g\)</span>の核<span class="math inline">\({\rm
-Ker}\, g\)</span>の基底を求めよ.</p>
-<p>（４）<span
-class="math inline">\(f\)</span>の固有値をすべて求めよ.</p>
+<p>以下の問いに答えよ.</p>
+<p>（１）2変数関数 <span class="math display">\[
+f(x,y)=3x^2-12xy+y^3+6y^2-15y-3
+\]</span> および,<span
+class="math inline">\(xy\)</span>平面上において,<span
+class="math inline">\(f(x,y)=0\)</span>が定める曲線<span
+class="math inline">\(C\)</span>を考える,このとき,以下の問いに答えよ.</p>
+<p>（i）<span
+class="math inline">\(f(x,y)\)</span>の極限をすべて求めよ.</p>
+<p>（ii）曲線<span class="math inline">\(C\)</span>上の点<span
+class="math inline">\((1,3)\)</span>における接線の方程式を求めよ.</p>
+<p>（２）次の重積分の値を求めよ. <span class="math display">\[
+I=\iint_D\frac{dxdy}{5-\sqrt{x^2+y^2}},D=\{(x,y)|1\leq x^2+y^2\leq16\}
+\]</span></p>
 <hr />
 <h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
+<p>（１）</p>
+<p>（i） <span class="math display">\[
 \begin{align}
-f(v_1)
-&amp;=Av_1
-=
-\begin{bmatrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-\begin{bmatrix}
-1\\
-1\\
-0\\
-\end{bmatrix}
-=
-\begin{bmatrix}
-a-2\\
--3\\
-0\\
-\end{bmatrix}
+&amp;
+\begin{cases}
+f_x=6x-12y=0\\
+f_y=-12x+3y^2+12y-15=0\\
+\end{cases}\\
+&amp;(x,y)=(10,5)または,(-2,-1)
 \\
-&amp;\because f(v)\in\langle v_1,v_2\rangle\\
-&amp;\therefore|v_1,v_2,f(v_1)|=
-\left|
-\begin{matrix}
-1 &amp; 2 &amp; a-2\\
-1 &amp; 3 &amp; -3\\
-0 &amp; 1 &amp; 0\\
-\end{matrix}
-\right|=
-0\\
-&amp;\therefore a=-1
+&amp;A=f_{xx}=6
+\\
+&amp;B=f_{xy}=-12
+\\
+&amp;C=f_{yy}=6y+12
+\\&amp;
+(i)(x,y)=(10,5)のとき,
+\\&amp;
+A=6,B=-12,C=42とおくと,\\
+&amp;
+B^2-AC&lt;0かつA&gt;0より,
+\\
+&amp;点(10,5)で,極小値f(10,5)=-103をとる
+\\&amp;
+(ii)(x,y)=(-2,-1)のとき,
+\\&amp;
+A＝6,B=-12,C=6
+\\&amp;
+B^2-AC&lt;0より,
+\\
+&amp;点(-2,-1)で,極値をとらない
+\end{align}
+\]</span> （ii） <span class="math display">\[
+\begin{align}
+f(x,y)&amp;=3x^2-12xy+y^3+6y^2-15y-3=0
+\\
+f_x(1,3)&amp;=-30\\
+f_y(1,3)&amp;=36\\
+接線方程式:\frac {y-3} {36}&amp;=\frac {x-1} {-30}
+\\
+6x+5y-21&amp;=0
 \end{align}
 \]</span> （２） <span class="math display">\[
 \begin{align}
-&amp;\because
-\left|
-\begin{matrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1
-\end{matrix}
-\right|
-=
-a(-6+18)+2(3-18)+4(-9+18)
-=12a+6
-=-6
+x&amp;=r\cos \theta,y=r\sin \thetaより,\\
+D&#39;:r&amp;\in[1,4],\theta\in[0,2\pi]となる.
 \\
-&amp;\therefore a=-1
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-A+E&amp;=
-\begin{bmatrix}
--1 &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-+
-\begin{bmatrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1\\
-\end{bmatrix}
-=
-\begin{bmatrix}
-0&amp;-2&amp;4\\
-3&amp;-5&amp;6\\
-3&amp;-3&amp;2
-\end{bmatrix}
+\iint_D\frac {dxdy}{5-\sqrt{x^2+y^2}}
+&amp;=\iint_{D&#39;}\frac {1}{5-r}\cdot rdrd\theta
 \\
-&amp;\rightarrow
-\begin{bmatrix}
-0&amp;-2&amp;4\\
-3&amp;-5&amp;-6\\
-3&amp;-3&amp;2
-\end{bmatrix}
-\rightarrow
-\begin{bmatrix}
-3&amp;-3&amp;2\\
-0&amp;-1&amp;2\\
-0&amp;0&amp;0
-\end{bmatrix}
+&amp;=\int_0^{2\pi}\int_1^4\left(\frac 5 {5-r}-1\right)drd\theta
 \\
-g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
-基底v&amp;=k\begin{bmatrix} \frac{4}{3}\\2\\1\end{bmatrix}\quad(k \in
-\mathbf R)
-\end{align}
-\]</span> （４） <span class="math display">\[
-\begin{align}
-&amp;f=A=\begin{bmatrix}
--1 &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
+&amp;=\int_0^{2\pi}\left[-5\log(5-r)-r\right]_1^4drd\theta
 \\
-&amp;\because|T|=|A-\lambda E|=
-\left|
-\begin{matrix}
-\lambda+1 &amp;2 &amp; 4\\
--3&amp;\lambda+6 &amp;-6\\
--3 &amp;3&amp;\lambda-1=0
-\end{matrix}
-\right|
-=(\lambda+1)(\lambda+2)(\lambda+3)=0
-\\
-&amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
+&amp;=5\log4-3
 \end{align}
 \]</span></p>
 <hr />
@@ -2551,79 +2294,284 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
       </categories>
   </entry>
   <entry>
-    <title>Day4</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day4/</url>
+    <title>Day3</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day3/</url>
     <content><![CDATA[<hr />
 <h1 id="問題">問題</h1>
-<p>以下の問いに答えよ.</p>
-<p>（１）関数<span
-class="math inline">\(f(x,y)=x^3-x^2y+y^3-y\)</span>の<span
-class="math inline">\(y&gt;0\)</span>における極値を求めよ.</p>
-<p>（２）次の重積分の値を求めよ. <span class="math display">\[
-\iint_Dx\log(x^2+y^2)dxdy,\quad D=\{(x,y):1\leq
-x^2+y^2\leq4,x\geq0,y\geq0\}
-\]</span></p>
+<p>ベクトル<span
+class="math inline">\(\alpha=\begin{bmatrix}1\\1\\2\end{bmatrix}\in\mathbb
+R^3\)</span>に対し,線形変換<span class="math inline">\(f:\mathbb
+R^3\rightarrow\mathbb R^3\)</span>を <span class="math display">\[
+f(x)=x-\frac{2(x,\alpha)}{(\alpha,\alpha)}\alpha\quad(x\in\mathbb R^3)
+\]</span> で定義する,ただし,<span
+class="math inline">\((x,y)\)</span>は<span
+class="math inline">\(x,y\in\mathbb R^3\)</span>の標準内積を表す.</p>
+<p>また,<span
+class="math inline">\(\mathscr{E}=(e_1,e_2,e_3)\)</span>を<span
+class="math inline">\(\mathbb R^3\)</span>の標準基底とする.</p>
+<p>このとき,以下の問いに答えよ.</p>
+<p>（１）<span class="math inline">\(f(e_1)\)</span>および<span
+class="math inline">\(f(\alpha)\)</span>を求めよ.</p>
+<p>（２）<span class="math inline">\(\mathscr{E}\)</span>に関する<span
+class="math inline">\(f\)</span>の表現行列<span
+class="math inline">\(A\)</span>を求めよ.</p>
+<p>（３）<span
+class="math inline">\(A\)</span>の固有値をすべて求めよ.</p>
 <hr />
 <h1 id="解答">解答</h1>
 <p>（１） <span class="math display">\[
 \begin{align}
-&amp;
-\begin{cases}
-f_x=3x^2-2yx=0\\
-f_y=-x^2+3y^2-1=0\\
-y&gt;0
-\end{cases}\\
-&amp;(x,y)=(0,\frac{\sqrt 3}{3})または,(\frac{2\sqrt
-{23}}{23},\frac{3\sqrt {23}}{23})
+e_1&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}
 \\
-&amp;A=f_{xx}=6x-2y
+f(e_1)&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}-\frac{2(1+0+0)}{1+1+4}\begin{bmatrix}1\\1\\2\end{bmatrix}=\begin{bmatrix}\frac2
+3\\-\frac1 3\\-\frac2 3\end{bmatrix}
 \\
-&amp;B=f_{xy}=-2x
+f(a)&amp;=-a=\begin{bmatrix}-1\\-1\\-2\end{bmatrix}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+f(e_2)&amp;=\begin{bmatrix}-\frac1 3\\\frac2 3\\-\frac2 3\end{bmatrix}
+\quad
+f(e_3)=\begin{bmatrix}-\frac2 3\\-\frac2 3\\-\frac1 3\end{bmatrix}
 \\
-&amp;C=f_{yy}=6y
-\\&amp;
-(i)(x,y)=(0,\frac{\sqrt 3}{3})のとき,
-\\&amp;
-A=-\frac{2\sqrt3}{3},B=0,C=2\sqrt3とおくと,\\
-&amp;
-B^2-AC&gt;0より,
-\\
-&amp;点(0,\frac{\sqrt 3}{3})で,極値をとらない
-\\&amp;
-(ii)(x,y)=(\frac{2\sqrt {23}}{23},\frac{3\sqrt {23}}{23})のとき,
-\\&amp;
-A＝\frac{6\sqrt {23}}{23},B=-\frac{4\sqrt {23}}{23},C=\frac{18\sqrt
-{23}}{23}
-\\&amp;
-B^2-AC&lt;0かつA&gt;0より,
-\\
-&amp;点(\frac{2\sqrt {23}}{23},\frac{3\sqrt
-{23}}{23})で,極小値f(\frac{2\sqrt {23}}{23},\frac{3\sqrt
-{23}}{23})=-\frac{2\sqrt{23}}{23}をとる
+表現行列A&amp;=\begin{bmatrix}
+\frac2 3 &amp; -\frac1 3 &amp;-\frac2 3\\
+-\frac1 3 &amp; \frac2 3 &amp;-\frac2 3\\
+-\frac2 3 &amp; -\frac2 3 &amp;-\frac1 3
+\end{bmatrix}
+=\frac1 3\begin{bmatrix}
+2 &amp; -1 &amp;-2\\
+-1  &amp; 2  &amp;-2 \\
+-2  &amp; -2  &amp;-1
+\end{bmatrix}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+\because
+\left|
+T
+\right|
+&amp;=
+\left|
+A-\lambda E
+\right|
+=0\\
+\therefore
+\left|
+3T
+\right|
+&amp;=
+\left|
+3A-3\lambda E
+\right|
+=0\\
+3\lambda&amp;=aとおくと,\\
+\left|
+\begin{matrix}
+2-a &amp; -1 &amp;-2\\
+-1  &amp; 2-a  &amp;-2 \\
+-2  &amp; -2  &amp;-1-a
+\end{matrix}
+\right|
+&amp;=(a-3)^2(3+a)=0\\
+a_1&amp;=a_2=3 \quad a_3=-3\\
+\therefore
+\lambda_1&amp;=\lambda_2=1\quad\lambda_3=-1
 \end{align}
 \]</span></p>
-<p>（２） <span class="math display">\[
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day1</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day1/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>行列<span class="math inline">\(A\)</span>を次で定義する. <span
+class="math display">\[
+A=
+\begin{bmatrix}
+1 &amp; 2 &amp; 0\\
+2 &amp; -1 &amp; 2\\
+0 &amp; 2 &amp; 1\\
+\end{bmatrix}
+\]</span> 以下の問いに答えよ.ただし,<span
+class="math inline">\(E\)</span>は単位行列,<span
+class="math inline">\(O\)</span>は零行列とする.</p>
+<p>（１）<span
+class="math inline">\(A\)</span>の固有値をすべて求め,最大の固有値に対応する固有ベクトルを求めよ.</p>
+<p>（２）<span class="math inline">\(a,b,c\)</span>を実数とする.<span
+class="math inline">\(aA^2+bA+cE=O\)</span>ならば<span
+class="math inline">\(a=b=c=0\)</span>であることを示せ.</p>
+<p>（３）<span
+class="math inline">\(A^3+sA^2+tA+uE=O\)</span>をみたす実数<span
+class="math inline">\(s,t,u\)</span>を求めよ.</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
 \begin{align}
-x&amp;=r\cos \theta,y=r\sin \thetaより,\\
-D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
+&amp;\because
+\left|
+T
+\right|
+=
+\left|
+A-\lambda E
+\right|
+=
+\left|
+\begin{matrix}
+1-\lambda &amp; 2 &amp; 0\\
+2 &amp; -1-\lambda &amp; 2\\
+0 &amp; 2 &amp; 1-\lambda
+\end{matrix}
+\right|
+=(1-\lambda)(\lambda+3)(\lambda-3)=0\\
+&amp;\therefore
+\lambda_1=1 \quad \lambda_2=-3 \quad \lambda_3=3\\
 \\
-\iint_D\log(x^2+y^2)dxdy
-&amp;=\iint_{D&#39;}r\cos \theta\log r^2\cdot rdrd\theta
+&amp;\lambda_3=3のとき,T_3x_3=0,そして,x_3=
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}
+とおくと,\\
+\\&amp;
+\begin{bmatrix}
+-2 &amp; 2 &amp; 0\\
+2 &amp; -4 &amp; 2\\
+0 &amp; 2 &amp; -2
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=
+\begin{bmatrix}
+-1 &amp; 1 &amp; 0\\
+0 &amp; -1 &amp; 1\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=0\\
+\\&amp;これから,
+\begin{cases}
+-\alpha_1+\alpha_2=0\\
+-\alpha_2+\alpha_3=0
+\end{cases}
 \\
-&amp;=\iint_{D&#39;}2r^2\cos \theta\log{r}drd\theta
+\\&amp;
+\alpha_1=k_1とおくと,\alpha_2=k_1,\alpha_3=k_1\\
+&amp;
+\therefore 最大の固有値に対応する固有ベクトルx_3=
+\begin{bmatrix}
+k_1\\
+k_1\\
+k_1
+\end{bmatrix}=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\quad
+(k_1 \neq 0)
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+&amp;f(A)=aA^2+bA+cEとおく\\
+&amp;フロべニウスの定理によって,行列f(A)の固有値は\\
+&amp;\begin{cases}
+f(\lambda_1)=a\lambda_1+b\lambda_1+c=a+b+c\\
+f(\lambda_2)=a\lambda_2+b\lambda_2+c=9a-3b+c\\
+f(\lambda_3)=a\lambda_3+b\lambda_3+c=9a+3b+c
+\end{cases}
+\\&amp;f(A)=Oならば,f(A)の固有値はすべて0である\\
+&amp;
+B\begin{bmatrix}
+a\\
+b\\
+c
+\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+a\\
+b\\
+c
+\end{bmatrix}=0とおくと,\\
+&amp;\because
+\left|B\right|\neq0
 \\
-&amp;=\int_1^2\int_0^{\frac\pi2}2r^2\cos \theta\log{r}d\theta dr
+&amp;\therefore a=b=c=0（自明な解）
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+(2)も同様に
 \\
-&amp;=\int_1^2\left[2r^2\sin \theta\log{r}\right]_0^{\frac\pi2} dr
+&amp;\because f(A)=A^3+sA^2+tA+uA=O\\
+&amp;\therefore
+\begin{cases}
+f(\lambda_1)=1+s+t+u=0\\
+f(\lambda_2)=-27+9s-3t+u=0\\
+f(\lambda_3)=27+9s+3t+u=0
+\end{cases}\\
+&amp;\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+s\\
+t\\
+u
+\end{bmatrix}=\begin{bmatrix}
+-1\\
+27\\
+-27
+\end{bmatrix}\\
+&amp;
+\left [
+\begin{array}{c:c}
+\begin{matrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{matrix}&amp;
+\begin{matrix}
+-1\\
+27\\
+-27
+\end{matrix}
+\end{array}
+\right ]
+\rightarrow
+\left [
+\begin{array}{c:c}
+\begin{matrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1
+\end{matrix}&amp;
+\begin{matrix}
+-1\\
+-9\\
+9
+\end{matrix}
+\end{array}
+\right ]
 \\
-&amp;=\int_1^22r^2\log{r}dr
-\\
-&amp;=\int_1^2\left(\frac {2r^3} {3}\right)&#39;\log{r}dr
-\\
-&amp;=\left[\frac{2r^3}{3}\log r\right]_1 ^2-\int_1^2\frac {2r^3}
-{3}\cdot\frac 1 rdr
-\\&amp;=\frac{16}{3}\log2-\left[\frac 2 9r^3\right]_1^2
-\\&amp;=\frac{16}{3}\log2-\frac {14} 9
+&amp;\therefore s=-1,t=-9,u=9
 \end{align}
 \]</span></p>
 <hr />
@@ -2979,212 +2927,570 @@ nは偶数のとき,\\|A|=\lambda_1\lambda_2\cdots\lambda_{2n}(\lambdaと-\lambd
       </categories>
   </entry>
   <entry>
-    <title>中间灰</title>
-    <url>/Lyrics/%E4%B8%AD%E9%97%B4%E7%81%B0/</url>
+    <title>Day4</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day4/</url>
     <content><![CDATA[<hr />
-<iframe allowfullscreen="true" border="0" src="https://player.bilibili.com/player.html?aid=76219671&amp;bvid=BV1mJ411m76h&amp;cid=130492787&amp;page=1" allow-top-navigation="false" allow-forms="false" allow-popups="false" sandbox="allow-scripts allow-same-origin allow-popups" onload="window.remoteOnLoad &amp;&amp; window.remoteOnLoad(this)">
-</iframe>
+<h1 id="問題">問題</h1>
+<p>以下の問いに答えよ.</p>
+<p>（１）関数<span
+class="math inline">\(f(x,y)=x^3-x^2y+y^3-y\)</span>の<span
+class="math inline">\(y&gt;0\)</span>における極値を求めよ.</p>
+<p>（２）次の重積分の値を求めよ. <span class="math display">\[
+\iint_Dx\log(x^2+y^2)dxdy,\quad D=\{(x,y):1\leq
+x^2+y^2\leq4,x\geq0,y\geq0\}
+\]</span></p>
 <hr />
-<p><br></p>
-<p>不要再停下了</p>
-<p>不要再停下了</p>
-<p>转着圈的木偶转累的那一刻</p>
-<p><br></p>
-<p>不要再停下了</p>
-<p>不要再停下了</p>
-<p>不记得承诺过放弃的那一刻</p>
-<p><br></p>
-<p>不要再停下了</p>
-<p>不要再停下了</p>
-<p>这样子的生活也并非理想呢</p>
-<p><br></p>
-<p>再一次停下吧</p>
-<p>再一次停下</p>
-<p>原来哭着哭着就会真的睡着啊</p>
-<p><br></p>
-<p>也许只是再次</p>
-<p>深陷这般无解的循环</p>
-<p>不断偏离</p>
-<p>直至迷失进谁的梦里</p>
-<p>心中仿佛有</p>
-<p>反复裂开之后又再粘合的伤痕</p>
-<p>你会笑我吗</p>
-<p>你会笑我吗</p>
-<p><br></p>
-<p>如果无法</p>
-<p>带走片刻呼吸在这个夜里</p>
-<p>能否与你</p>
-<p>连同星星一起沉入进水底</p>
-<p>忽隐忽现 看见</p>
-<p>聚集后又消散的鱼群</p>
-<p>不知不觉 又能梦见</p>
-<p>散落了满地的繁星</p>
-<p><br></p>
-<p>逐渐 不去</p>
-<p>尝试解读</p>
-<p>自我的含义</p>
-<p>逐渐 忘记</p>
-<p>渴求不会再得到回应</p>
-<p>不存在什么</p>
-<p>所谓的同类与所谓的感同身受</p>
-<p>我不清楚啊</p>
-<p>我不清楚啊</p>
-<p><br></p>
-<p>也许只是再次</p>
-<p>深陷这般无解的循环</p>
-<p>不断偏离</p>
-<p>直至迷失进谁的梦里</p>
-<p>还是未能调试出</p>
-<p>将自己溶解于其中的灰度</p>
-<p>还在寻找吗</p>
-<p>还在寻找吗</p>
-<p><br></p>
-<p>不要再停下了</p>
-<p>不要再停下了</p>
-<p><br></p>
-<p>即使放弃关闭</p>
-<p>脑海无法稀释的声音</p>
-<p>即使玻璃</p>
-<p>代替全部过往嵌入进手臂</p>
-<p>依旧无法换取</p>
-<p>一瞬近似于真实的痛感</p>
-<p>大概或许 还是与你一样</p>
-<p>渴望过死去</p>
-<p>如果无法 带走片刻心跳在这个夜里</p>
-<p>能否与你</p>
-<p>连同月亮一起沉入进水底</p>
-<p>还是无法面对</p>
-<p>逃跑留下的拙劣的剪影</p>
-<p>大概或许 明天也是</p>
-<p>一样的渴望着消失</p>
-<p>如果无法 (只是再次)</p>
-<p>带走片刻呼吸在这个夜里 (深陷这般无解的循环)</p>
-<p>能否与你 (不断偏离)</p>
-<p>连同星星一起沉入进水底 (直至迷失进谁的梦里)</p>
-<p>忽隐忽现 看见 (心中仿佛有 反复)</p>
-<p>聚集后又消散的鱼群 (裂开之后又再粘合的伤痕)</p>
-<p>不知不觉 又能梦见 (你会笑我吗 你会)</p>
-<p>散落了满地的繁星 (笑我吗)</p>
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+&amp;
+\begin{cases}
+f_x=3x^2-2yx=0\\
+f_y=-x^2+3y^2-1=0\\
+y&gt;0
+\end{cases}\\
+&amp;(x,y)=(0,\frac{\sqrt 3}{3})または,(\frac{2\sqrt
+{23}}{23},\frac{3\sqrt {23}}{23})
+\\
+&amp;A=f_{xx}=6x-2y
+\\
+&amp;B=f_{xy}=-2x
+\\
+&amp;C=f_{yy}=6y
+\\&amp;
+(i)(x,y)=(0,\frac{\sqrt 3}{3})のとき,
+\\&amp;
+A=-\frac{2\sqrt3}{3},B=0,C=2\sqrt3とおくと,\\
+&amp;
+B^2-AC&gt;0より,
+\\
+&amp;点(0,\frac{\sqrt 3}{3})で,極値をとらない
+\\&amp;
+(ii)(x,y)=(\frac{2\sqrt {23}}{23},\frac{3\sqrt {23}}{23})のとき,
+\\&amp;
+A＝\frac{6\sqrt {23}}{23},B=-\frac{4\sqrt {23}}{23},C=\frac{18\sqrt
+{23}}{23}
+\\&amp;
+B^2-AC&lt;0かつA&gt;0より,
+\\
+&amp;点(\frac{2\sqrt {23}}{23},\frac{3\sqrt
+{23}}{23})で,極小値f(\frac{2\sqrt {23}}{23},\frac{3\sqrt
+{23}}{23})=-\frac{2\sqrt{23}}{23}をとる
+\end{align}
+\]</span></p>
+<p>（２） <span class="math display">\[
+\begin{align}
+x&amp;=r\cos \theta,y=r\sin \thetaより,\\
+D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
+\\
+\iint_D\log(x^2+y^2)dxdy
+&amp;=\iint_{D&#39;}r\cos \theta\log r^2\cdot rdrd\theta
+\\
+&amp;=\iint_{D&#39;}2r^2\cos \theta\log{r}drd\theta
+\\
+&amp;=\int_1^2\int_0^{\frac\pi2}2r^2\cos \theta\log{r}d\theta dr
+\\
+&amp;=\int_1^2\left[2r^2\sin \theta\log{r}\right]_0^{\frac\pi2} dr
+\\
+&amp;=\int_1^22r^2\log{r}dr
+\\
+&amp;=\int_1^2\left(\frac {2r^3} {3}\right)&#39;\log{r}dr
+\\
+&amp;=\left[\frac{2r^3}{3}\log r\right]_1 ^2-\int_1^2\frac {2r^3}
+{3}\cdot\frac 1 rdr
+\\&amp;=\frac{16}{3}\log2-\left[\frac 2 9r^3\right]_1^2
+\\&amp;=\frac{16}{3}\log2-\frac {14} 9
+\end{align}
+\]</span></p>
 <hr />
 ]]></content>
       <categories>
-        <category>Lyrics</category>
+        <category>備考練習</category>
       </categories>
   </entry>
   <entry>
-    <title>和楽千本桜</title>
-    <url>/Lyrics/%E5%92%8C%E6%A5%BD%E5%8D%83%E6%9C%AC%E6%A1%9C/</url>
+    <title>Day8</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day8/</url>
     <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=3062939&amp;bvid=BV1Ys41127FZ&amp;cid=4809203&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<h1 id="問題">問題</h1>
+<p><span class="math inline">\(3\times3\)</span>実行列<span
+class="math inline">\(A\)</span>を <span class="math display">\[
+\begin{align}
+A=\frac1 3
+\begin{pmatrix}
+1&amp;-2&amp;-2\\
+-2&amp;1&amp;-2\\
+-2&amp;-2&amp;1
+\end{pmatrix}
+\end{align}
+\]</span> によって定義する。以下の問に答えよ.</p>
+<p>１）行列<span class="math inline">\(A\)</span>の行列式を求めよ。</p>
+<p>２）<span class="math inline">\(I\)</span>を<span
+class="math inline">\(3\times 3\)</span>単位行列、<span
+class="math inline">\(x\)</span>を変数としたとき、行列<span
+class="math inline">\(xI-A\)</span>の行列式を求めよ。</p>
+<p>３）行列<span
+class="math inline">\(A\)</span>の固有値を全て求めよ。</p>
+<p>４）行列<span
+class="math inline">\(A\)</span>の各々固有値について、その固有値に対する固有空間の基底を求めよ。</p>
+<p>５）ユニタリ行列の定義を述べ、その定義を行列<span
+class="math inline">\(A\)</span>が満たしていることを示せ。</p>
+<p>６）エルミート行列の定義を述べ、その定義を行列<span
+class="math inline">\(A\)</span>が満たしていることを示せ。</p>
+<p>７）<span class="math inline">\(A=BDB^*\)</span>を満たす行列<span
+class="math inline">\(B\)</span>と対角行列<span
+class="math inline">\(D\)</span>を求めよ。ただし<span
+class="math inline">\(B^*\)</span>は<span
+class="math inline">\(B\)</span>の共役転置である。</p>
 <hr />
-<p><br></p>
-<p>おそれも知らずにハイカラ革命</p>
-<p>きはめて磊落反戦国家</p>
-<p>日の丸じるしの自在車まろがし</p>
-<p>物の怪調伏逢ひし弥えむ</p>
-<p><br></p>
-<p>環状の線走り出で</p>
-<p>南船北馬なんのその</p>
-<p>ますらをおとめご</p>
-<p>花開く浮世の随に</p>
-<p><br></p>
-<p>千本桜小夜ニ入リテ</p>
-<p>君ノ声モ届カザリキ</p>
-<p>此処は宴刃金の織</p>
-<p>その断頭台で見下ろせよ</p>
-<p><br></p>
-<p>三千世界常世之闇</p>
-<p>嘆キノ唄聞コエザリキ</p>
-<p>青藍の空遥けきかな</p>
-<p>その光線銃にて打ち抜いて</p>
-<p><br></p>
-<p>煙管の雨降るいなせな将校</p>
-<p>行きつ戻りつの花魁道中</p>
-<p>彼方も御許も諸人寄り合へ</p>
-<p>三味線邦楽人含道善</p>
-<p><br></p>
-<p>禅定の門潜り抜けて</p>
-<p>極楽浄土厄はらひ</p>
-<p>定めて仕舞いば大団円</p>
-<p>拍手の合間に</p>
-<p><br></p>
-<p>千本桜小夜ニ入リテ</p>
-<p>君ノ声モ届カザリキ</p>
-<p>此処は宴刃金の織</p>
-<p>その断頭台で見下ろせよ</p>
-<p><br></p>
-<p>三千世界常世之闇</p>
-<p>嘆キノ唄聞コエザリキ</p>
-<p>曙光の丘遥けきかな</p>
-<p>その閃光弾をば打ち上げよ</p>
-<p><br></p>
-<p>環状の線走り出で</p>
-<p>南船北馬なんのその</p>
-<p>ますらをおとめご</p>
-<p>花開く浮世の随に</p>
-<p><br></p>
-<p>千本桜小夜ニ入リテ</p>
-<p>君ノ声モ届カザリキ</p>
-<p>此処は宴刃金の織</p>
-<p>その断頭台より舞い降りて</p>
-<p><br></p>
-<p>千本桜小夜ニ入リテ</p>
-<p>君が歌ひわれ踊らむ</p>
-<p>此処は宴刃金の織</p>
-<p>サア光線銃をば撃ちまくれ</p>
-<hr />
-]]></content>
-  </entry>
-  <entry>
-    <title>すずめ feat.十明</title>
-    <url>/Lyrics/%E3%81%99%E3%81%9A%E3%82%81/</url>
-    <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=690634501&amp;bvid=BV1w24y1y7xP&amp;cid=908204446&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<hr />
-<p><br></p>
-<p>君の中にある　赤と青き線</p>
-<p>それらが結ばれるのは　心の臓</p>
-<p><br></p>
-<p>風の中でも負けないような声で</p>
-<p>届ける言葉を今は育ててる</p>
-<p><br></p>
-<p>時はまくらぎ　風はにきはだ　星はうぶすな　人はかげろう</p>
-<p><br></p>
-<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
-<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
-<p><br></p>
-<p>この身ひとつじゃ　足りない叫び</p>
-<p><br></p>
-<p>君の手に触れた時にだけ震えた　心があったよ</p>
-<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
-<p><br></p>
-<p>愚かさでいい　醜さでいい　正しさのその先で　君と手を取りたい</p>
-<p><br></p>
-<p>思い出せない　大切な記憶</p>
-<p>言葉にならない　ここにある想い</p>
-<p><br></p>
-<p>もしかしたら　もしかしたら</p>
-<p>それだけでこの心はできてる</p>
-<p><br></p>
-<p>もしかしたら　もしかしたら</p>
-<p>君に「気づいて」と今もその胸を</p>
-<p>打ち鳴らす</p>
-<p><br></p>
-<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
-<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
-<p><br></p>
-<p>この身ひとつじゃ　足りない叫び</p>
-<p><br></p>
-<p>君の手に触れた時にだけ震えた　心があったよ</p>
-<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
-<p><br></p>
-<p>愚かさでいい　醜さでいい　正しさのその先で　君と生きてきたい</p>
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+\left|
+A
+\right|
+=\frac 1 3
+\left|
+\begin{matrix}
+1&amp;-2&amp;-2\\
+-2&amp;1&amp;-2\\
+-2&amp;-2&amp;1
+\end{matrix}
+\right|
+=
+\frac 1 3
+\left|
+\begin{matrix}
+1&amp;-2&amp;-2\\
+0&amp;-3&amp;-6\\
+0&amp;0&amp;9
+\end{matrix}
+\right|
+=-9
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\left|
+xI-A
+\right|
+=
+\left|
+\begin{matrix}
+{x-\frac 1 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{x-\frac 1 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{x-\frac 1 3}
+\end{matrix}
+\right|
+=(x+1)(x-1)^2
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+|T|=
+\left|
+\lambda E-A
+\right|
+=0
+\\
+(2)によって,
+\lambda_1=-1\quad\lambda_2=\lambda_3=1
+\end{align}
+\]</span> （４） <span class="math display">\[
+\begin{align}
+&amp;\lambda_1=-1のとき,T_1\lambda_1
+=0,そして,x_1=\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}とおくと,
+\\
+&amp;\begin{bmatrix}
+{-\frac 4 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{-\frac 4 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 4 3}
+\end{bmatrix}
+\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 0 &amp; -1\\
+0 &amp; -1 &amp; 1\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=0\\
+\\&amp;これから,
+\begin{cases}
+\alpha_1-\alpha_3=0\\
+-\alpha_2+\alpha_3=0
+\end{cases}
+\\
+\\
+&amp;\alpha_3=k_1とおくと,\alpha_1=k_1,\alpha_2=k_1\\
+&amp;\therefore 固有ベクトルx_1=
+\begin{bmatrix}
+k_1\\
+k_1\\
+k_1
+\end{bmatrix}=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\quad
+(k_1 \neq 0)
+\\
+&amp;\lambda_2=\lambda_3=1のとき,T_2\lambda_2
+=0,そして,x_2=\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}とおくと,
+\\
+&amp;\begin{bmatrix}
+{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
+{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 2 3}
+\end{bmatrix}
+\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\beta_1\\
+\beta_2\\
+\beta_3
+\end{bmatrix}=0\\
+\\&amp;これから,
+\beta_1+\beta_2+\beta_3=0
+\\
+\\
+&amp;\beta_2=k_2,\beta_3=k_3とおくと,\beta_1=-k_2-k_3\\
+&amp;\therefore 固有ベクトルx_2=
+\begin{bmatrix}
+-k_2-k_3\\
+k_2\\
+k_3
+\end{bmatrix}=k_2
+\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
++
+k_3
+\begin{bmatrix}
+-1\\
+0\\
+1
+\end{bmatrix}
+\quad
+(k_2 \neq 0,k_3 \neq 0)
+\end{align}
+\]</span> （５） <span class="math display">\[
+\begin{align}
+&amp;ユニタリ行列：n次の複素行列U_Uが
+\\
+&amp;
+^t\overline {U_U}{U_U}={U_U}^t\overline {U_U}=Eを満たすとき,
+\\
+&amp;U_Uを「ユニタリ行列」と呼ぶ。
+\\
+\\
+&amp;\because {^tA}=A,{^t\overline A} ={^tA}
+\\
+&amp;\therefore AA=AA
+\\ &amp;\Rightarrow
+{^tA}A=A{^tA}
+\\
+&amp;\Rightarrow
+{^t\overline A}A=A{^t\overline A}
+\\
+&amp;\therefore Aはユニタリ行列
+\end{align}
+\]</span> （６） <span class="math display">\[
+\begin{align}
+&amp;エルミート行列：n次複素行列A_Hが
+\\
+&amp;^t\overline {A_H}=A_Hを満たすとき,
+\\&amp;A_Hを「エルミート行列」と呼ぶ。
+\\
+\\
+&amp;\because {^tA}=A,{^t\overline A} ={^tA}
+\\
+&amp;\therefore {^t\overline A} =A
+\\
+&amp;\therefore Aはエルミート行列
+\end{align}
+\]</span> （７） <span class="math display">\[
+\begin{align}
+Bはユニタリ行列のとき,
+{^t\overline B}B=E
+\\
+B^*={^t\overline B}=B^{-1}
+\\
+A=BDB^*=BDB^{-1}
+\\
+x_1=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\\k_1=\frac 1 {\sqrt3}とおくと,
+u_1=\frac 1 {\sqrt3}\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac 1 {\sqrt3}\\
+\frac 1 {\sqrt3}\\
+\frac 1 {\sqrt3}
+\end{bmatrix}
+\\
+x_2=k_2
+\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
+\\k_2=\frac 1 {\sqrt2}とおくと,
+u_2=\frac 1 {\sqrt2}\begin{bmatrix}
+-1\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1 {\sqrt2}\\
+\frac 1 {\sqrt2}\\
+0
+\end{bmatrix}
+\\
+x_3&#39;=x_3-(u_2\cdot x_3)u_2=\begin{bmatrix}
+-1\\
+0\\
+1
+\end{bmatrix}
+-\frac 1{\sqrt2}
+\begin{bmatrix}
+-\frac 1 {\sqrt2}\\
+\frac 1 {\sqrt2}\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1 2\\
+-\frac 1 2\\
+1
+\end{bmatrix}
+\\
+u_3=\frac {x_3&#39;}{||x_3||}=\frac {\sqrt2}{\sqrt3}\begin{bmatrix}
+-\frac 1 2\\
+-\frac 1 2\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac 1{\sqrt6} \\
+-\frac 1{\sqrt6}\\
+\frac 2{\sqrt6}
+\end{bmatrix}
+\\
+B=[u_1,u_2,u_3]=
+\begin{bmatrix}
+\frac 1{\sqrt 3}&amp;-\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
+\frac 1{\sqrt 3}&amp;\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
+\frac 1{\sqrt 3}&amp;0&amp;\frac 2{\sqrt6}
+\end{bmatrix}\\
+D=
+\begin{bmatrix}
+-1&amp;0&amp;0\\
+0&amp;1&amp;0\\
+0&amp;0&amp;1
+\end{bmatrix}
+\end{align}
+\]</span></p>
 <hr />
 ]]></content>
       <categories>
-        <category>Lyrics</category>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day5</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day5/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p><span class="math inline">\(a\)</span>を実数とし,3次正方行列<span
+class="math inline">\(A,E\)</span>と<span class="math inline">\(\mathbb
+R^3\)</span>のベクトル<span class="math inline">\(v_1,v_2\)</span>を
+<span class="math display">\[
+A＝
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+,\quad
+E＝
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+,\quad
+v_1=
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+,\quad
+v_2=
+\begin{bmatrix}
+2\\
+3\\
+1\\
+\end{bmatrix}
+\]</span> とする.さらに,<span class="math inline">\(\mathbb
+R^3\)</span>の部分空間<span class="math inline">\(\langle v_1,v_2
+\rangle\)</span>を <span class="math display">\[
+\langle v_1,v_2\rangle=\{c_1v_1+c_2v_2\in\mathbb R^3|c_1,c_2\in\mathbb
+R\}
+\]</span> で定義し,線形変換<span class="math inline">\(f:\mathbb
+R^3\rightarrow \mathbb R^3\)</span>を<span
+class="math inline">\(f(v)=Av(v\in\mathbb R^3)\)</span>と定める.</p>
+<p>このとき,以下の問いに答えよ.</p>
+<p>（１）<span class="math inline">\(f(v)\in\langle
+v_1,v_2\rangle\)</span>となるように<span
+class="math inline">\(a\)</span>の値を定めよ.</p>
+<p>（２）行列式<span class="math inline">\(\det A\)</span>の値が<span
+class="math inline">\(-6\)</span>となるときの<span
+class="math inline">\(a\)</span>の値を求めよ.</p>
+<p>以下では,<span
+class="math inline">\(a\)</span>は（２）で求めた値とする.</p>
+<p>（３）線形変換<span class="math inline">\(g:\mathbb
+R^3\rightarrow\mathbb R^3\)</span>を<span
+class="math inline">\(g(v)＝(A+E)v \quad (v\in\mathbb
+R^3)\)</span>と定めるとき,<span
+class="math inline">\(g\)</span>の核<span class="math inline">\({\rm
+Ker}\, g\)</span>の基底を求めよ.</p>
+<p>（４）<span
+class="math inline">\(f\)</span>の固有値をすべて求めよ.</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+f(v_1)
+&amp;=Av_1
+=
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+a-2\\
+-3\\
+0\\
+\end{bmatrix}
+\\
+&amp;\because f(v)\in\langle v_1,v_2\rangle\\
+&amp;\therefore|v_1,v_2,f(v_1)|=
+\left|
+\begin{matrix}
+1 &amp; 2 &amp; a-2\\
+1 &amp; 3 &amp; -3\\
+0 &amp; 1 &amp; 0\\
+\end{matrix}
+\right|=
+0\\
+&amp;\therefore a=-1
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+&amp;\because
+\left|
+\begin{matrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1
+\end{matrix}
+\right|
+=
+a(-6+18)+2(3-18)+4(-9+18)
+=12a+6
+=-6
+\\
+&amp;\therefore a=-1
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+A+E&amp;=
+\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
++
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\\
+&amp;\rightarrow
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;-6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+3&amp;-3&amp;2\\
+0&amp;-1&amp;2\\
+0&amp;0&amp;0
+\end{bmatrix}
+\\
+g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
+基底v&amp;=k\begin{bmatrix} \frac{4}{3}\\2\\1\end{bmatrix}\quad(k \in
+\mathbf R)
+\end{align}
+\]</span> （４） <span class="math display">\[
+\begin{align}
+&amp;f=A=\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\\
+&amp;\because|T|=|A-\lambda E|=
+\left|
+\begin{matrix}
+\lambda+1 &amp;2 &amp; 4\\
+-3&amp;\lambda+6 &amp;-6\\
+-3 &amp;3&amp;\lambda-1=0
+\end{matrix}
+\right|
+=(\lambda+1)(\lambda+2)(\lambda+3)=0
+\\
+&amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
       </categories>
   </entry>
   <entry>
@@ -3293,6 +3599,294 @@ x^2&amp;3&amp;2
 ]]></content>
       <categories>
         <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>等价无穷小</title>
+    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+when\quad x &amp;\rightarrow0,
+\\
+\sin x &amp;\sim x
+\\
+1-\cos x &amp;\sim \frac 1 2 x^2
+\\
+\tan x &amp;\sim x
+\\
+\arctan x &amp;\sim x
+\\
+\arcsin x &amp;\sim x
+\\
+a^x-1 &amp;\sim x\ln a
+\\
+\ln(1+x) &amp;\sim x
+\\
+(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
+\\
+\log_a(1+x) &amp;\sim \frac x {\ln a}
+\\
+x-\sin x &amp;\sim \frac 1 6 x^3
+\\
+e^x-1 &amp;\sim x
+\\
+x-\ln(1+x) &amp;\sim \frac 1 2 x^2
+\\
+\ln(x+\sqrt{1+x^2}) &amp;\sim x
+\\
+\tan x-x &amp;\sim \frac 1 3 x^3
+\\
+\arcsin x-x &amp;\sim \frac 1 6 x^3
+\\
+x-\arctan x &amp;\sim \frac 1 3 x^3
+\\
+\tan x-\sin x &amp;\sim \frac 1 2 x^3
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N2動詞</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
+    <content><![CDATA[<hr />
+<table style="width:100%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>悩んむ</th>
+<th>悔やむ</th>
+<th>恨む</th>
+<th>憎む</th>
+<th>痛む・傷む</th>
+<th>恵む</th>
+<th>囲む</th>
+<th>包む</th>
+<th>掴む</th>
+<th>縮む</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>疑う</strong></td>
+<td><strong>育つ</strong></td>
+<td><strong>養う</strong></td>
+<td><strong>奪う</strong></td>
+<td><strong>競う　戦う</strong></td>
+<td><strong>争う</strong></td>
+<td><strong>庇う</strong></td>
+<td><strong>狙う</strong></td>
+<td><strong>揃う</strong></td>
+<td><strong>補う</strong></td>
+</tr>
+<tr class="even">
+<td><strong>除く</strong></td>
+<td><strong>省く</strong></td>
+<td><strong>暴く</strong></td>
+<td><strong>招く</strong></td>
+<td><strong>傾く　導く</strong></td>
+<td><strong>扱う</strong></td>
+<td><strong>救う</strong></td>
+<td><strong>伺う</strong></td>
+<td><strong>覆う</strong></td>
+<td><strong>占う</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>俯く</strong></td>
+<td><strong>囁く</strong></td>
+<td><strong>催す</strong></td>
+<td><strong>偏る</strong></td>
+<td><strong>謝る・誤る</strong></td>
+<td><strong>乱れる</strong></td>
+<td><strong>暴れる</strong></td>
+<td><strong>潰れる</strong></td>
+<td><strong>崩れる</strong></td>
+<td><strong>萎れる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>凍る</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>濁る</strong></td>
+<td><strong>破れる</strong></td>
+<td><strong>囲まれる</strong></td>
+<td><strong>異なる</strong></td>
+<td><strong>倒れる</strong></td>
+<td><strong>壊れる</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>含める</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>腐る</strong></td>
+<td><strong>断る</strong></td>
+<td><strong>被る</strong></td>
+<td><strong>固める</strong></td>
+<td><strong>隔てる</strong></td>
+<td><strong>憧れる</strong></td>
+<td><strong>整える</strong></td>
+<td><strong>備える</strong></td>
+<td><strong>喋る</strong></td>
+<td><strong>蓄える</strong></td>
+</tr>
+<tr class="even">
+<td><strong>頼る</strong></td>
+<td><strong>潜る</strong></td>
+<td><strong>劣る</strong></td>
+<td><strong>痺れる</strong></td>
+<td><strong>隠れる</strong></td>
+<td><strong>隠す</strong></td>
+<td><strong>定める</strong></td>
+<td><strong>握る</strong></td>
+<td><strong>畳む</strong></td>
+<td><strong>挟む</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>驚かす</strong></td>
+<td><strong>躓く</strong></td>
+<td><strong>削る</strong></td>
+<td><strong>戻す</strong></td>
+<td><strong>衰える</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>なやんむ</th>
+<th>くやむ</th>
+<th>うらむ</th>
+<th>にくむ</th>
+<th>いたむ</th>
+<th>めぐむ</th>
+<th>かこむ</th>
+<th>つつむ</th>
+<th>つかむ</th>
+<th>ちぢむ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>うたがう</strong></td>
+<td><strong>そだつ</strong></td>
+<td><strong>やしなう</strong></td>
+<td><strong>うばう</strong></td>
+<td><strong>きそう　たたかう</strong></td>
+<td><strong>あらそう</strong></td>
+<td><strong>かばう</strong></td>
+<td><strong>ねらう</strong></td>
+<td><strong>そろう</strong></td>
+<td><strong>おぎなう</strong></td>
+</tr>
+<tr class="even">
+<td><strong>のぞく</strong></td>
+<td><strong>はぶく</strong></td>
+<td><strong>あばく</strong></td>
+<td><strong>まねく</strong></td>
+<td><strong>かたむく　みちびく</strong></td>
+<td><strong>あつかう</strong></td>
+<td><strong>すくう</strong></td>
+<td><strong>うかがう</strong></td>
+<td><strong>おおう</strong></td>
+<td><strong>うらなう</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>うつむく</strong></td>
+<td><strong>ささやく</strong></td>
+<td><strong>もよおす</strong></td>
+<td><strong>かたよる</strong></td>
+<td><strong>あやまる</strong></td>
+<td><strong>みだれる</strong></td>
+<td><strong>あばれる</strong></td>
+<td><strong>つぶれる</strong></td>
+<td><strong>くずれる</strong></td>
+<td><strong>しおれる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>こおる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>にごる</strong></td>
+<td><strong>やぶれる</strong></td>
+<td><strong>かこまれる</strong></td>
+<td><strong>ことなる</strong></td>
+<td><strong>たおれる</strong></td>
+<td><strong>こわれる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>ふくめる</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>くさる</strong></td>
+<td><strong>ことわる</strong></td>
+<td><strong>こうむる</strong></td>
+<td><strong>かためる</strong></td>
+<td><strong>へだてる</strong></td>
+<td><strong>あこがれる</strong></td>
+<td><strong>ととのえる</strong></td>
+<td><strong>そなえる</strong></td>
+<td><strong>しゃべる</strong></td>
+<td><strong>たくわえる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>たよる</strong></td>
+<td><strong>もぐる</strong></td>
+<td><strong>おとる</strong></td>
+<td><strong>しびれる</strong></td>
+<td><strong>かくれる</strong></td>
+<td><strong>かくる</strong></td>
+<td><strong>さだめる</strong></td>
+<td><strong>にぎる</strong></td>
+<td><strong>たたむ</strong></td>
+<td><strong>はさむ</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>おどろかす</strong></td>
+<td><strong>つまずく</strong></td>
+<td><strong>けずる</strong></td>
+<td><strong>もどす</strong></td>
+<td><strong>おとろえる</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
       </categories>
   </entry>
   <entry>
@@ -4050,600 +4644,6 @@ x^2&amp;3&amp;2
 <tr class="odd">
 <td>ただいま（只今）</td>
 <td>马上，立即</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day8</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day8/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p><span class="math inline">\(3\times3\)</span>実行列<span
-class="math inline">\(A\)</span>を <span class="math display">\[
-\begin{align}
-A=\frac1 3
-\begin{pmatrix}
-1&amp;-2&amp;-2\\
--2&amp;1&amp;-2\\
--2&amp;-2&amp;1
-\end{pmatrix}
-\end{align}
-\]</span> によって定義する。以下の問に答えよ.</p>
-<p>１）行列<span class="math inline">\(A\)</span>の行列式を求めよ。</p>
-<p>２）<span class="math inline">\(I\)</span>を<span
-class="math inline">\(3\times 3\)</span>単位行列、<span
-class="math inline">\(x\)</span>を変数としたとき、行列<span
-class="math inline">\(xI-A\)</span>の行列式を求めよ。</p>
-<p>３）行列<span
-class="math inline">\(A\)</span>の固有値を全て求めよ。</p>
-<p>４）行列<span
-class="math inline">\(A\)</span>の各々固有値について、その固有値に対する固有空間の基底を求めよ。</p>
-<p>５）ユニタリ行列の定義を述べ、その定義を行列<span
-class="math inline">\(A\)</span>が満たしていることを示せ。</p>
-<p>６）エルミート行列の定義を述べ、その定義を行列<span
-class="math inline">\(A\)</span>が満たしていることを示せ。</p>
-<p>７）<span class="math inline">\(A=BDB^*\)</span>を満たす行列<span
-class="math inline">\(B\)</span>と対角行列<span
-class="math inline">\(D\)</span>を求めよ。ただし<span
-class="math inline">\(B^*\)</span>は<span
-class="math inline">\(B\)</span>の共役転置である。</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
-\begin{align}
-\left|
-A
-\right|
-=\frac 1 3
-\left|
-\begin{matrix}
-1&amp;-2&amp;-2\\
--2&amp;1&amp;-2\\
--2&amp;-2&amp;1
-\end{matrix}
-\right|
-=
-\frac 1 3
-\left|
-\begin{matrix}
-1&amp;-2&amp;-2\\
-0&amp;-3&amp;-6\\
-0&amp;0&amp;9
-\end{matrix}
-\right|
-=-9
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-\left|
-xI-A
-\right|
-=
-\left|
-\begin{matrix}
-{x-\frac 1 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{x-\frac 1 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{\frac 2 3}&amp;{x-\frac 1 3}
-\end{matrix}
-\right|
-=(x+1)(x-1)^2
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-|T|=
-\left|
-\lambda E-A
-\right|
-=0
-\\
-(2)によって,
-\lambda_1=-1\quad\lambda_2=\lambda_3=1
-\end{align}
-\]</span> （４） <span class="math display">\[
-\begin{align}
-&amp;\lambda_1=-1のとき,T_1\lambda_1
-=0,そして,x_1=\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}とおくと,
-\\
-&amp;\begin{bmatrix}
-{-\frac 4 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{-\frac 4 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 4 3}
-\end{bmatrix}
-\begin{bmatrix}\alpha_1\\\alpha_2\\\alpha_3\end{bmatrix}=
-\begin{bmatrix}
-1 &amp; 0 &amp; -1\\
-0 &amp; -1 &amp; 1\\
-0 &amp; 0 &amp; 0
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}=0\\
-\\&amp;これから,
-\begin{cases}
-\alpha_1-\alpha_3=0\\
--\alpha_2+\alpha_3=0
-\end{cases}
-\\
-\\
-&amp;\alpha_3=k_1とおくと,\alpha_1=k_1,\alpha_2=k_1\\
-&amp;\therefore 固有ベクトルx_1=
-\begin{bmatrix}
-k_1\\
-k_1\\
-k_1
-\end{bmatrix}=k_1
-\begin{bmatrix}
-1\\
-1\\
-1
-\end{bmatrix}
-\quad
-(k_1 \neq 0)
-\\
-&amp;\lambda_2=\lambda_3=1のとき,T_2\lambda_2
-=0,そして,x_2=\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}とおくと,
-\\
-&amp;\begin{bmatrix}
-{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{\frac 2 3}&amp;{\frac 2 3}\\
-{\frac 2 3}&amp;{\frac 2 3}&amp;{-\frac 2 3}
-\end{bmatrix}
-\begin{bmatrix}\beta_1\\\beta_2\\\beta_3\end{bmatrix}=
-\begin{bmatrix}
-1 &amp; 1 &amp; 1\\
-0 &amp; 0 &amp; 0\\
-0 &amp; 0 &amp; 0
-\end{bmatrix}
-\begin{bmatrix}
-\beta_1\\
-\beta_2\\
-\beta_3
-\end{bmatrix}=0\\
-\\&amp;これから,
-\beta_1+\beta_2+\beta_3=0
-\\
-\\
-&amp;\beta_2=k_2,\beta_3=k_3とおくと,\beta_1=-k_2-k_3\\
-&amp;\therefore 固有ベクトルx_2=
-\begin{bmatrix}
--k_2-k_3\\
-k_2\\
-k_3
-\end{bmatrix}=k_2
-\begin{bmatrix}
--1\\
-1\\
-0
-\end{bmatrix}
-+
-k_3
-\begin{bmatrix}
--1\\
-0\\
-1
-\end{bmatrix}
-\quad
-(k_2 \neq 0,k_3 \neq 0)
-\end{align}
-\]</span> （５） <span class="math display">\[
-\begin{align}
-&amp;ユニタリ行列：n次の複素行列U_Uが
-\\
-&amp;
-^t\overline {U_U}{U_U}={U_U}^t\overline {U_U}=Eを満たすとき,
-\\
-&amp;U_Uを「ユニタリ行列」と呼ぶ。
-\\
-\\
-&amp;\because {^tA}=A,{^t\overline A} ={^tA}
-\\
-&amp;\therefore AA=AA
-\\ &amp;\Rightarrow
-{^tA}A=A{^tA}
-\\
-&amp;\Rightarrow
-{^t\overline A}A=A{^t\overline A}
-\\
-&amp;\therefore Aはユニタリ行列
-\end{align}
-\]</span> （６） <span class="math display">\[
-\begin{align}
-&amp;エルミート行列：n次複素行列A_Hが
-\\
-&amp;^t\overline {A_H}=A_Hを満たすとき,
-\\&amp;A_Hを「エルミート行列」と呼ぶ。
-\\
-\\
-&amp;\because {^tA}=A,{^t\overline A} ={^tA}
-\\
-&amp;\therefore {^t\overline A} =A
-\\
-&amp;\therefore Aはエルミート行列
-\end{align}
-\]</span> （７） <span class="math display">\[
-\begin{align}
-Bはユニタリ行列のとき,
-{^t\overline B}B=E
-\\
-B^*={^t\overline B}=B^{-1}
-\\
-A=BDB^*=BDB^{-1}
-\\
-x_1=k_1
-\begin{bmatrix}
-1\\
-1\\
-1
-\end{bmatrix}
-\\k_1=\frac 1 {\sqrt3}とおくと,
-u_1=\frac 1 {\sqrt3}\begin{bmatrix}
-1\\
-1\\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
-\frac 1 {\sqrt3}\\
-\frac 1 {\sqrt3}\\
-\frac 1 {\sqrt3}
-\end{bmatrix}
-\\
-x_2=k_2
-\begin{bmatrix}
--1\\
-1\\
-0
-\end{bmatrix}
-\\k_2=\frac 1 {\sqrt2}とおくと,
-u_2=\frac 1 {\sqrt2}\begin{bmatrix}
--1\\
-1\\
-0
-\end{bmatrix}
-=
-\begin{bmatrix}
--\frac 1 {\sqrt2}\\
-\frac 1 {\sqrt2}\\
-0
-\end{bmatrix}
-\\
-x_3&#39;=x_3-(u_2\cdot x_3)u_2=\begin{bmatrix}
--1\\
-0\\
-1
-\end{bmatrix}
--\frac 1{\sqrt2}
-\begin{bmatrix}
--\frac 1 {\sqrt2}\\
-\frac 1 {\sqrt2}\\
-0
-\end{bmatrix}
-=
-\begin{bmatrix}
--\frac 1 2\\
--\frac 1 2\\
-1
-\end{bmatrix}
-\\
-u_3=\frac {x_3&#39;}{||x_3||}=\frac {\sqrt2}{\sqrt3}\begin{bmatrix}
--\frac 1 2\\
--\frac 1 2\\
-1
-\end{bmatrix}
-=
-\begin{bmatrix}
--\frac 1{\sqrt6} \\
--\frac 1{\sqrt6}\\
-\frac 2{\sqrt6}
-\end{bmatrix}
-\\
-B=[u_1,u_2,u_3]=
-\begin{bmatrix}
-\frac 1{\sqrt 3}&amp;-\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
-\frac 1{\sqrt 3}&amp;\frac 1{\sqrt 2}&amp;-\frac 1{\sqrt6}\\
-\frac 1{\sqrt 3}&amp;0&amp;\frac 2{\sqrt6}
-\end{bmatrix}\\
-D=
-\begin{bmatrix}
--1&amp;0&amp;0\\
-0&amp;1&amp;0\\
-0&amp;0&amp;1
-\end{bmatrix}
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>等价无穷小</title>
-    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-when\quad x &amp;\rightarrow0,
-\\
-\sin x &amp;\sim x
-\\
-1-\cos x &amp;\sim \frac 1 2 x^2
-\\
-\tan x &amp;\sim x
-\\
-\arctan x &amp;\sim x
-\\
-\arcsin x &amp;\sim x
-\\
-a^x-1 &amp;\sim x\ln a
-\\
-\ln(1+x) &amp;\sim x
-\\
-(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
-\\
-\log_a(1+x) &amp;\sim \frac x {\ln a}
-\\
-x-\sin x &amp;\sim \frac 1 6 x^3
-\\
-e^x-1 &amp;\sim x
-\\
-x-\ln(1+x) &amp;\sim \frac 1 2 x^2
-\\
-\ln(x+\sqrt{1+x^2}) &amp;\sim x
-\\
-\tan x-x &amp;\sim \frac 1 3 x^3
-\\
-\arcsin x-x &amp;\sim \frac 1 6 x^3
-\\
-x-\arctan x &amp;\sim \frac 1 3 x^3
-\\
-\tan x-\sin x &amp;\sim \frac 1 2 x^3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N2動詞</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
-    <content><![CDATA[<hr />
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 13%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>悩んむ</th>
-<th>悔やむ</th>
-<th>恨む</th>
-<th>憎む</th>
-<th>痛む・傷む</th>
-<th>恵む</th>
-<th>囲む</th>
-<th>包む</th>
-<th>掴む</th>
-<th>縮む</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>疑う</strong></td>
-<td><strong>育つ</strong></td>
-<td><strong>養う</strong></td>
-<td><strong>奪う</strong></td>
-<td><strong>競う　戦う</strong></td>
-<td><strong>争う</strong></td>
-<td><strong>庇う</strong></td>
-<td><strong>狙う</strong></td>
-<td><strong>揃う</strong></td>
-<td><strong>補う</strong></td>
-</tr>
-<tr class="even">
-<td><strong>除く</strong></td>
-<td><strong>省く</strong></td>
-<td><strong>暴く</strong></td>
-<td><strong>招く</strong></td>
-<td><strong>傾く　導く</strong></td>
-<td><strong>扱う</strong></td>
-<td><strong>救う</strong></td>
-<td><strong>伺う</strong></td>
-<td><strong>覆う</strong></td>
-<td><strong>占う</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>俯く</strong></td>
-<td><strong>囁く</strong></td>
-<td><strong>催す</strong></td>
-<td><strong>偏る</strong></td>
-<td><strong>謝る・誤る</strong></td>
-<td><strong>乱れる</strong></td>
-<td><strong>暴れる</strong></td>
-<td><strong>潰れる</strong></td>
-<td><strong>崩れる</strong></td>
-<td><strong>萎れる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>凍る</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>濁る</strong></td>
-<td><strong>破れる</strong></td>
-<td><strong>囲まれる</strong></td>
-<td><strong>異なる</strong></td>
-<td><strong>倒れる</strong></td>
-<td><strong>壊れる</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>含める</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>腐る</strong></td>
-<td><strong>断る</strong></td>
-<td><strong>被る</strong></td>
-<td><strong>固める</strong></td>
-<td><strong>隔てる</strong></td>
-<td><strong>憧れる</strong></td>
-<td><strong>整える</strong></td>
-<td><strong>備える</strong></td>
-<td><strong>喋る</strong></td>
-<td><strong>蓄える</strong></td>
-</tr>
-<tr class="even">
-<td><strong>頼る</strong></td>
-<td><strong>潜る</strong></td>
-<td><strong>劣る</strong></td>
-<td><strong>痺れる</strong></td>
-<td><strong>隠れる</strong></td>
-<td><strong>隠す</strong></td>
-<td><strong>定める</strong></td>
-<td><strong>握る</strong></td>
-<td><strong>畳む</strong></td>
-<td><strong>挟む</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>驚かす</strong></td>
-<td><strong>躓く</strong></td>
-<td><strong>削る</strong></td>
-<td><strong>戻す</strong></td>
-<td><strong>衰える</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 15%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>なやんむ</th>
-<th>くやむ</th>
-<th>うらむ</th>
-<th>にくむ</th>
-<th>いたむ</th>
-<th>めぐむ</th>
-<th>かこむ</th>
-<th>つつむ</th>
-<th>つかむ</th>
-<th>ちぢむ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>うたがう</strong></td>
-<td><strong>そだつ</strong></td>
-<td><strong>やしなう</strong></td>
-<td><strong>うばう</strong></td>
-<td><strong>きそう　たたかう</strong></td>
-<td><strong>あらそう</strong></td>
-<td><strong>かばう</strong></td>
-<td><strong>ねらう</strong></td>
-<td><strong>そろう</strong></td>
-<td><strong>おぎなう</strong></td>
-</tr>
-<tr class="even">
-<td><strong>のぞく</strong></td>
-<td><strong>はぶく</strong></td>
-<td><strong>あばく</strong></td>
-<td><strong>まねく</strong></td>
-<td><strong>かたむく　みちびく</strong></td>
-<td><strong>あつかう</strong></td>
-<td><strong>すくう</strong></td>
-<td><strong>うかがう</strong></td>
-<td><strong>おおう</strong></td>
-<td><strong>うらなう</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>うつむく</strong></td>
-<td><strong>ささやく</strong></td>
-<td><strong>もよおす</strong></td>
-<td><strong>かたよる</strong></td>
-<td><strong>あやまる</strong></td>
-<td><strong>みだれる</strong></td>
-<td><strong>あばれる</strong></td>
-<td><strong>つぶれる</strong></td>
-<td><strong>くずれる</strong></td>
-<td><strong>しおれる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>こおる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>にごる</strong></td>
-<td><strong>やぶれる</strong></td>
-<td><strong>かこまれる</strong></td>
-<td><strong>ことなる</strong></td>
-<td><strong>たおれる</strong></td>
-<td><strong>こわれる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>ふくめる</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>くさる</strong></td>
-<td><strong>ことわる</strong></td>
-<td><strong>こうむる</strong></td>
-<td><strong>かためる</strong></td>
-<td><strong>へだてる</strong></td>
-<td><strong>あこがれる</strong></td>
-<td><strong>ととのえる</strong></td>
-<td><strong>そなえる</strong></td>
-<td><strong>しゃべる</strong></td>
-<td><strong>たくわえる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>たよる</strong></td>
-<td><strong>もぐる</strong></td>
-<td><strong>おとる</strong></td>
-<td><strong>しびれる</strong></td>
-<td><strong>かくれる</strong></td>
-<td><strong>かくる</strong></td>
-<td><strong>さだめる</strong></td>
-<td><strong>にぎる</strong></td>
-<td><strong>たたむ</strong></td>
-<td><strong>はさむ</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>おどろかす</strong></td>
-<td><strong>つまずく</strong></td>
-<td><strong>けずる</strong></td>
-<td><strong>もどす</strong></td>
-<td><strong>おとろえる</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -12027,6 +12027,230 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
+    <title>授受</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
+    <content><![CDATA[<hr />
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
+<hr />
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
     <title>ことわざ</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E3%81%93%E3%81%A8%E3%82%8F%E3%81%95%E3%82%99/</url>
     <content><![CDATA[<hr />
@@ -12244,230 +12468,6 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 </tr>
 </tbody>
 </table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>

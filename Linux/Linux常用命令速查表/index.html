@@ -176,16 +176,16 @@
 
 <!-- 网站运行时间的设置 -->
 <div class="site-state-wrap animated">
-<i class="fa fa-circle-notch fa-spin"></i>
+<i class="fa fa-circle-notch fa-spin" style="color:green;"></i> Running
 <span id="timeDate">Loading...</span>
 <script>
     var now = new Date();
     function createtime() 
     {
-        var grt= new Date("01/02/2020");//此处修改为你的建站时间或者网站上线时间
+        var grt= new Date("09/03/2021");//此处修改为你的建站时间或者网站上线时间
         now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
-        document.getElementById("timeDate").innerHTML = "Running for "+dnum+" days.";
+        document.getElementById("timeDate").innerHTML = dnum+" days.";
     }
 setInterval("createtime()",250);
 </script>
