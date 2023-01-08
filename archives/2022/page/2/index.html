@@ -151,13 +151,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">31</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
   </nav>
@@ -170,10 +170,29 @@
         <a href="mailto:harveyzhang@vip.qq.com" title="E-Mail → mailto:harveyzhang@vip.qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
   </div>
+
+<!-- 网站运行时间的设置 -->
+<div class="site-state-wrap animated">
+<span id="timeDate">Loading...</span>
+<script>
+    var now = new Date();
+    function createtime() 
+    {
+        var grt= new Date("01/02/2020");//此处修改为你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        document.getElementById("timeDate").innerHTML = "Running for "+dnum+" days.";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
   <div class="cc-license animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
   </div>
 
+<div class="site-state-wrap animated">
+<i class="fa fa-blog fa-2x"></i>
+</div>
         </div>
       </div>
     </div>
@@ -194,7 +213,7 @@
     <div class="post-content">
       <div class="collection-title">
         
-        <span class="collection-header">OK! 31 posts in total. Keep on posting.</span>
+        <span class="collection-header">OK! 32 posts in total. Keep on posting.</span>
       </div>
 
       
@@ -443,7 +462,6 @@
     <span title="Reading time total">2:33</span>
   </span>
 </div>
-
     </div>
   </footer>
 
