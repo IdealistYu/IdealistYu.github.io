@@ -29,10 +29,12 @@
 <meta property="og:site_name" content="Yu&#39;s Site">
 <meta property="og:description" content="修考群每日一题 Day 11">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://p.ipic.vip/oidyvt.png">
 <meta property="article:published_time" content="2023-01-08T13:55:47.000Z">
-<meta property="article:modified_time" content="2023-01-08T15:17:39.900Z">
+<meta property="article:modified_time" content="2023-01-11T13:40:34.141Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p.ipic.vip/oidyvt.png">
 
 
 <link rel="canonical" href="https://idealistyu.github.io/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day11/">
@@ -156,7 +158,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">34</span>
+          <span class="site-state-item-count">35</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -246,9 +248,15 @@ setInterval("createtime()",250);
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-01-08 21:55:47 / Modified: 23:17:39" itemprop="dateCreated datePublished" datetime="2023-01-08T21:55:47+08:00">2023-01-08</time>
+      <time title="Created: 2023-01-08 21:55:47" itemprop="dateCreated datePublished" datetime="2023-01-08T21:55:47+08:00">2023-01-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-01-11 21:40:34" itemprop="dateModified" datetime="2023-01-11T21:40:34+08:00">2023-01-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -267,14 +275,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>4</span>
+      <span>441</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -288,8 +296,61 @@ setInterval("createtime()",250);
     <div class="post-body" itemprop="articleBody">
         <hr />
 <h1 id="問題">問題</h1>
+<p>問１</p>
+<p>２次正方行列<span
+class="math inline">\(A=\begin{pmatrix}2&amp;1\\1&amp;2\end{pmatrix}\)</span>について,以下の問に答えよ。</p>
+<p>（１）<span
+class="math inline">\(A\)</span>の固有値とこれに対応する固有ベクトルをすべて求めよ。固有ベクトルは大きさが１になるように正規化せよ。</p>
+<p>（２）<span class="math inline">\(A\)</span>について,<span
+class="math inline">\(A^n\)</span>（<span
+class="math inline">\(n\)</span>は自然数）を求めよ。</p>
+<p>問２</p>
+<p>図１のように,ある点が角速度<span
+class="math inline">\(w\,(w&gt;0)\)</span>で３次元空間内を等速円運動している。回転軸は原点<span
+class="math inline">\(O\)</span>を通るとし,その方向を単位ベクトル<span
+class="math inline">\(\boldsymbol
+{p}\)</span>で表す。この回転する点の時刻<span
+class="math inline">\(t\)</span>における位置を<span
+class="math inline">\(x(t)\)</span>とおく。<span
+class="math inline">\(x(t)\)</span>における点の速度を,３次正方行列<span
+class="math inline">\(C\)</span>を用いて<span
+class="math inline">\(dx(t)/dt=Cx(t)\)</span>と表す。<span
+class="math inline">\(C\)</span>を<span
+class="math inline">\(\boldsymbol p=(p_1,p_2,p_3)^T\)</span>の要素<span
+class="math inline">\(p_i(i=1,2,3)\)</span>と角速度<span
+class="math inline">\(w\)</span>を用いて表せ。ただし,行列<span
+class="math inline">\(A\)</span>の転置を<span
+class="math inline">\(A^T\)</span>と表す。</p>
+<p><img src="https://p.ipic.vip/oidyvt.png" style="zoom:50%;" /></p>
+<p>問３</p>
+<p><span
+class="math inline">\(X\)</span>は実交代行列であるとする。実交代行列は実数からなる正行列で,<span
+class="math inline">\(X^T＝-X\)</span>を満たすものをいう。<span
+class="math inline">\(Y=\exp(X)\)</span>について,以下の問に答えよ。答えだけでなく導出も示すこと。ただし,<span
+class="math inline">\(\exp(X)\)</span>は次式で表される。 <span
+class="math display">\[
+\exp(X)=\sum_{n=0}^{\infty}\frac 1 {n!}X^n
+\]</span> （１）<span class="math inline">\(Y\)</span>の行列式<span
+class="math inline">\(\det(Y)\)</span>を求めよ。ただし,実交代行列は対角化可能で,その非零の固有値は全て純虚数であり,<span
+class="math inline">\(\pm\lambda_1,\pm\lambda_2,\ldots\)</span>のようにペアの形で求まることを用いてよい。</p>
+<p>（２）<span class="math inline">\(YY^T\)</span>および,<span
+class="math inline">\(Y^TY\)</span>を求めよ。</p>
 <hr />
 <h1 id="解答">解答</h1>
+<p>問１</p>
+<p>（１） $$</p>
+<p><span class="math display">\[
+（２）
+\]</span></p>
+<p><span class="math display">\[
+問２
+\]</span></p>
+<p>$$ 問３</p>
+<p>（１） $$</p>
+<p><span class="math display">\[
+（２）
+\]</span></p>
+<p>$$</p>
 <hr />
 
     </div>
@@ -326,6 +387,9 @@ setInterval("createtime()",250);
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day12/" rel="next" title="Day12">
+                  Day12 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -368,7 +432,7 @@ setInterval("createtime()",250);
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:35</span>
+    <span title="Reading time total">2:37</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
