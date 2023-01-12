@@ -28,9 +28,7 @@ m\quad \beta
 \boldsymbol \beta
 \]</span></p>
 <hr />
-<center>
-<img src="/images/1.gif" width = "" height = "">
-</center>
+<p><img src="https://p.ipic.vip/po1h5r.gif" style="zoom:25%;" /></p>
 ]]></content>
       <categories>
         <category>LaTex</category>
@@ -2018,74 +2016,6 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
-    <title>等价无穷小</title>
-    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-when\quad x &amp;\rightarrow0,
-\\
-\sin x &amp;\sim x
-\\
-1-\cos x &amp;\sim \frac 1 2 x^2
-\\
-\tan x &amp;\sim x
-\\
-\arctan x &amp;\sim x
-\\
-\arcsin x &amp;\sim x
-\\
-a^x-1 &amp;\sim x\ln a
-\\
-\ln(1+x) &amp;\sim x
-\\
-(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
-\\
-\log_a(1+x) &amp;\sim \frac x {\ln a}
-\\
-x-\sin x &amp;\sim \frac 1 6 x^3
-\\
-e^x-1 &amp;\sim x
-\\
-x-\ln(1+x) &amp;\sim \frac 1 2 x^2
-\\
-\ln(x+\sqrt{1+x^2}) &amp;\sim x
-\\
-\tan x-x &amp;\sim \frac 1 3 x^3
-\\
-\arcsin x-x &amp;\sim \frac 1 6 x^3
-\\
-x-\arctan x &amp;\sim \frac 1 3 x^3
-\\
-\tan x-\sin x &amp;\sim \frac 1 2 x^3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
-    <content><![CDATA[<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?style=flat-square&amp;logo=hexo" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?style=flat-square" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
     <title>すずめ feat.十明</title>
     <url>/Lyrics/%E3%81%99%E3%81%9A%E3%82%81/</url>
     <content><![CDATA[<hr />
@@ -2743,6 +2673,79 @@ x}\right)dx+\left(3y^2+\frac{1}{y\log x}\right)dy
       </categories>
   </entry>
   <entry>
+    <title>Day13</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day13/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>問１</p>
+<p>行列<span class="math inline">\(A\in\R^{n\times
+m}\)</span>,ベクトル<span
+class="math inline">\(b\in\R^n\)</span>に対して,<span
+class="math inline">\(f(x)=||Ax-b||\)</span>をベクトル<span
+class="math inline">\(x\in\R^m\)</span>に関して最小化することを考える。ただし,<span
+class="math inline">\(||\cdot||\)</span>はユークリッドノルムを表す。また,<span
+class="math inline">\(f(x)\)</span>が最小となる<span
+class="math inline">\(x\)</span>を<span
+class="math inline">\(x^*\)</span>と表す。</p>
+<p>（１）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;2\\1&amp;3\end{bmatrix},b=\begin{bmatrix}1\\0\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>（２）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;1\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\2\\1\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>（３）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;0\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>問２</p>
+<p>（１）巡回行列<span
+class="math inline">\(A_1=\begin{bmatrix}0&amp;1&amp;0\\0&amp;0&amp;1\\1&amp;0&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は,ある<span
+class="math inline">\(r\geq0\)</span>および<span
+class="math inline">\(\theta\in[0,2\pi)\)</span>を用いて,極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。なお,<span
+class="math inline">\(i=\sqrt {-1}\)</span>とする。</p>
+<p>（２）巡回行列<span
+class="math inline">\(A_2=\begin{bmatrix}0&amp;1&amp;-1\\-1&amp;0&amp;1\\1&amp;-1&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
+<p>（３）<span
+class="math inline">\(a,b,c\)</span>を定数とする。巡回行列<span
+class="math inline">\(A_3=\begin{bmatrix}a&amp;b&amp;c\\c&amp;a&amp;b\\b&amp;c&amp;a\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>問１</p>
+<p>（１） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> 問２</p>
+<p>（１） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Day2</title>
     <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day2/</url>
     <content><![CDATA[<hr />
@@ -2818,79 +2821,6 @@ D&#39;:r&amp;\in[1,4],\theta\in[0,2\pi]となる.
 &amp;=\int_0^{2\pi}\left[-5\log(5-r)-r\right]_1^4drd\theta
 \\
 &amp;=5\log4-3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day13</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day13/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>問１</p>
-<p>行列<span class="math inline">\(A\in\R^{n\times
-m}\)</span>,ベクトル<span
-class="math inline">\(b\in\R^n\)</span>に対して,<span
-class="math inline">\(f(x)=||Ax-b||\)</span>をベクトル<span
-class="math inline">\(x\in\R^m\)</span>に関して最小化することを考える。ただし,<span
-class="math inline">\(||\cdot||\)</span>はユークリッドノルムを表す。また,<span
-class="math inline">\(f(x)\)</span>が最小となる<span
-class="math inline">\(x\)</span>を<span
-class="math inline">\(x^*\)</span>と表す。</p>
-<p>（１）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;2\\1&amp;3\end{bmatrix},b=\begin{bmatrix}1\\0\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>（２）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;1\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\2\\1\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>（３）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;0\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>問２</p>
-<p>（１）巡回行列<span
-class="math inline">\(A_1=\begin{bmatrix}0&amp;1&amp;0\\0&amp;0&amp;1\\1&amp;0&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は,ある<span
-class="math inline">\(r\geq0\)</span>および<span
-class="math inline">\(\theta\in[0,2\pi)\)</span>を用いて,極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。なお,<span
-class="math inline">\(i=\sqrt {-1}\)</span>とする。</p>
-<p>（２）巡回行列<span
-class="math inline">\(A_2=\begin{bmatrix}0&amp;1&amp;-1\\-1&amp;0&amp;1\\1&amp;-1&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
-<p>（３）<span
-class="math inline">\(a,b,c\)</span>を定数とする。巡回行列<span
-class="math inline">\(A_3=\begin{bmatrix}a&amp;b&amp;c\\c&amp;a&amp;b\\b&amp;c&amp;a\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>問１</p>
-<p>（１） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> 問２</p>
-<p>（１） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
 \end{align}
 \]</span></p>
 <hr />
@@ -3074,73 +3004,6 @@ D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
       </categories>
   </entry>
   <entry>
-    <title>Day6</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day6/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>以下の各問いに答えよ.</p>
-<p>（１）関数<span
-class="math inline">\(f(x,y)=2x^3-y^3+4xy+1\)</span>に対して,次の問いに答えよ.</p>
-<p>​ （i）<span
-class="math inline">\(f_x(1,-1),f_y(1,-1)\)</span>の値を求めよ.</p>
-<p>​ （ii）<span class="math inline">\(f(x,y)=0\)</span>上の点<span
-class="math inline">\((1,-1)\)</span>の近くでは,<span
-class="math inline">\(f(x,y)=0\)</span>の陰関数<span
-class="math inline">\(y=\varphi(x)\)</span>が存在する.このとき,<span
-class="math inline">\(\varphi(1),\varphi&#39;(1),\varphi&#39;&#39;(1)\)</span>の値を求めよ.</p>
-<p>（２）次の重積分<span class="math inline">\(I\)</span>を求めよ. <span
-class="math display">\[
-I=\iint_D\frac y {\sqrt{1+x^3}}dxdy,\quad D=\{(x,y):0\leq x \leq 1,0\leq
-y\leq x\}
-\]</span></p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１）</p>
-<p>（i） <span class="math display">\[
-\begin{align}
-f_x&amp;=6x^2+4y
-\\
-f_y&amp;=-3y^2+4x
-\\
-f_x(1,-1)&amp;=2
-\\
-f_y(1,-1)&amp;=1
-\end{align}
-\]</span> （ii） <span class="math display">\[
-\begin{align}
-\because\varphi(1)&amp;=y=-1
-\\
-0&amp;=6x^2-3y^2y&#39;+4y+4xy&#39;
-\\
-y&#39;&amp;=-\frac{6x^2+4y}{4x-3y^2}
-\\
-\therefore\varphi&#39;(1)&amp;=-2
-\\
-\because
-y&#39;&#39;&amp;=-\frac{(12x+4y&#39;)(4x-3y^2)-(4-6yy&#39;)(6x^2+4y)}{(4x-3y^2)^2}
-\\
-\therefore\varphi&#39;&#39;(1)&amp;=-20
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-I
-&amp;=\iint_D\frac y {\sqrt{1+x^3}}dxdy\\
-&amp;=\int_0^1\int_0^x\frac y {\sqrt{1+x^3}}dydx\\
-&amp;=\int_0^1\left[\frac {y^2} {2\sqrt{1+x^3}}\right]_0^xdx\\
-&amp;=\int_0^1\frac {x^2} {2\sqrt{1+x^3}}dx\\
-&amp;=\frac 1 6\int_0^1\frac {3x^2} {\sqrt{1+x^3}}dx\\
-&amp;=\frac 1 6\int_1^2\frac 1 {\sqrt{u}}du\quad (u=1+x^3\in[1,2])\\
-&amp;=\frac 1 6\left[2\sqrt u\right]_1^2\\
-&amp;=\frac 1 3(\sqrt 2 -1)
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day5</title>
     <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day5/</url>
     <content><![CDATA[<hr />
@@ -3311,6 +3174,352 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
 =(\lambda+1)(\lambda+2)(\lambda+3)=0
 \\
 &amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day6</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day6/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>以下の各問いに答えよ.</p>
+<p>（１）関数<span
+class="math inline">\(f(x,y)=2x^3-y^3+4xy+1\)</span>に対して,次の問いに答えよ.</p>
+<p>​ （i）<span
+class="math inline">\(f_x(1,-1),f_y(1,-1)\)</span>の値を求めよ.</p>
+<p>​ （ii）<span class="math inline">\(f(x,y)=0\)</span>上の点<span
+class="math inline">\((1,-1)\)</span>の近くでは,<span
+class="math inline">\(f(x,y)=0\)</span>の陰関数<span
+class="math inline">\(y=\varphi(x)\)</span>が存在する.このとき,<span
+class="math inline">\(\varphi(1),\varphi&#39;(1),\varphi&#39;&#39;(1)\)</span>の値を求めよ.</p>
+<p>（２）次の重積分<span class="math inline">\(I\)</span>を求めよ. <span
+class="math display">\[
+I=\iint_D\frac y {\sqrt{1+x^3}}dxdy,\quad D=\{(x,y):0\leq x \leq 1,0\leq
+y\leq x\}
+\]</span></p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１）</p>
+<p>（i） <span class="math display">\[
+\begin{align}
+f_x&amp;=6x^2+4y
+\\
+f_y&amp;=-3y^2+4x
+\\
+f_x(1,-1)&amp;=2
+\\
+f_y(1,-1)&amp;=1
+\end{align}
+\]</span> （ii） <span class="math display">\[
+\begin{align}
+\because\varphi(1)&amp;=y=-1
+\\
+0&amp;=6x^2-3y^2y&#39;+4y+4xy&#39;
+\\
+y&#39;&amp;=-\frac{6x^2+4y}{4x-3y^2}
+\\
+\therefore\varphi&#39;(1)&amp;=-2
+\\
+\because
+y&#39;&#39;&amp;=-\frac{(12x+4y&#39;)(4x-3y^2)-(4-6yy&#39;)(6x^2+4y)}{(4x-3y^2)^2}
+\\
+\therefore\varphi&#39;&#39;(1)&amp;=-20
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+I
+&amp;=\iint_D\frac y {\sqrt{1+x^3}}dxdy\\
+&amp;=\int_0^1\int_0^x\frac y {\sqrt{1+x^3}}dydx\\
+&amp;=\int_0^1\left[\frac {y^2} {2\sqrt{1+x^3}}\right]_0^xdx\\
+&amp;=\int_0^1\frac {x^2} {2\sqrt{1+x^3}}dx\\
+&amp;=\frac 1 6\int_0^1\frac {3x^2} {\sqrt{1+x^3}}dx\\
+&amp;=\frac 1 6\int_1^2\frac 1 {\sqrt{u}}du\quad (u=1+x^3\in[1,2])\\
+&amp;=\frac 1 6\left[2\sqrt u\right]_1^2\\
+&amp;=\frac 1 3(\sqrt 2 -1)
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day7</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day7/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>１）実数列<span
+class="math inline">\(a_0,a_1,...\)</span>において,<span
+class="math inline">\(a_{k+2}\)</span>は<span
+class="math inline">\(a_{k+1}\)</span>と<span
+class="math inline">\(a_k\)</span>の算術平均であるとする<span
+class="math inline">\((k\geq0)\)</span>.</p>
+<p>いま,<span
+class="math inline">\(a_0=0,a_1=1\)</span>とおく.以下の問いに答えよ.</p>
+<p>​
+a）以下の関係を満たす行列Bの固有値を求めよ.また,各々の固有値に対し,固有ベクトルを一つあげよ.
+<span class="math display">\[
+\begin{align}
+\begin{pmatrix}
+a_{k+2}\\
+a_{k+1}
+\end{pmatrix}
+=B
+\begin{pmatrix}
+a_{k+1}\\
+a_{k}
+\end{pmatrix}
+\end{align}
+\]</span> ​ b）a）の結果を用いて,<span
+class="math inline">\(n\rightarrow\infty\)</span>としたときの<span
+class="math inline">\(B^n\)</span>の極限値を求めよ.</p>
+<p>​ c）b）の結果を用いて,<span
+class="math inline">\(k\rightarrow\infty\)</span>としたときの<span
+class="math inline">\(a_k\)</span>の極限値を求めよ.</p>
+<p>２）実行列<span class="math inline">\(A\)</span>が<span
+class="math inline">\(A^{\mathsf{T}}=-A\)</span>という性質を満たすとする.ここで<span
+class="math inline">\(\mathsf{T}\)</span>は転置を表す.以下の問いに答えよ.</p>
+<p>​ a）<span class="math inline">\(A\)</span>が固有値<span
+class="math inline">\(\lambda\)</span>をもつとき,<span
+class="math inline">\(-\lambda\)</span>も<span
+class="math inline">\(A\)</span>の固有値か.理由とともに答えよ.</p>
+<p>​ b）すべての要素が実数のベクトル<span
+class="math inline">\(x\)</span>について,<span
+class="math inline">\(x^\mathsf{T}Ax=0\)</span>であることを示せ.</p>
+<p>​ c）<span
+class="math inline">\(A\)</span>の固有値は,ゼロでないときは,純虚数であることを示せ.</p>
+<p>​ d）<span
+class="math inline">\(A\)</span>の行列式の値は負ではないことを示せ.</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） a) <span class="math display">\[
+\begin{align}
+Bは\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}とおく
+\\
+\begin{bmatrix}
+a_{k+2}\\
+a_{k+1}
+\end{bmatrix}
+=B
+\begin{bmatrix}
+a_{k+1}\\
+a_{k}
+\end{bmatrix}
+=
+\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}
+\begin{bmatrix}
+a_{k+1}\\
+a_{k}
+\end{bmatrix}
+=
+\begin{bmatrix}aa_{k+1}+ba_k\\ca_{k+1}+da_k\end{bmatrix}
+\\
+a_{k+2}はa_{k+1}とa_kの算術平均である
+\\
+a_{k+2}=\frac 1 2 a_{k+1} +\frac 1 2 a_k
+\\
+a=\frac 1 2\quad b=\frac 1 2\quad c=1\quad d=0
+\\
+B=\begin{bmatrix}
+\frac 1 2&amp;\frac 1 2\\
+1&amp;0
+\end{bmatrix}
+\\
+\because |T|=|\lambda E-B|=
+\left|
+\begin{matrix}
+\lambda-\frac 1 2&amp;-\frac 1 2\\
+-1&amp;\lambda
+\end{matrix}
+\right|
+=(\lambda-1)(\lambda+\frac 1 2)=0
+\\
+\therefore \lambda_1=1 \quad\lambda_2=-\frac 1 2
+\\
+\lambda_1=1のとき,T_1x_1=0,そして,x_1=
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2
+\end{bmatrix}
+とおくと,\\
+\begin{bmatrix}
+\frac 1 2&amp;-\frac 1 2\\
+-1&amp;1
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2
+\end{bmatrix}=0
+\\
+x_1=\begin{bmatrix}
+1\\
+1
+\end{bmatrix}
+\\
+\lambda_2=-\frac 1 2のとき,T_2x_2=0,そして,x_2=
+\begin{bmatrix}
+\beta_1\\
+\beta_2
+\end{bmatrix}
+とおくと,\\
+\begin{bmatrix}
+-1&amp;-\frac 1 2\\
+-1&amp;-\frac 1 2
+\end{bmatrix}
+\begin{bmatrix}
+\beta_1\\
+\beta_2
+\end{bmatrix}=0
+\\
+x_2=\begin{bmatrix}
+-1\\
+2
+\end{bmatrix}
+\end{align}
+\]</span> b) <span class="math display">\[
+\begin{align}
+P&amp;=[x_1,x_2]=\begin{bmatrix}
+1&amp;-1\\
+1&amp;2
+\end{bmatrix}とおくと,\\
+P^{-1}&amp;=\frac 1 3
+\begin{bmatrix}
+2&amp;1\\
+-1&amp;1
+\end{bmatrix}
+\\
+B&amp;=P\Lambda P^{-1}
+\\
+B^n&amp;=P\Lambda^nP^{-1}
+\\
+&amp;=
+\begin{bmatrix}
+1&amp;-1\\
+1&amp;2
+\end{bmatrix}
+\begin{bmatrix}
+1&amp;0\\
+0&amp;\frac 1 {(-2)^n}
+\end{bmatrix}
+\begin{bmatrix}
+2&amp;1\\
+-1&amp;1
+\end{bmatrix}
+\frac 1 3
+\\&amp;=\frac 1 3
+\begin{bmatrix}
+2+\frac 1 {(-2)^n}&amp;1-\frac 1 {(-2)^n}\\
+2-2\frac 1 {(-2)^n}&amp;1+2\frac 1 {(-2)^n}
+\end{bmatrix}
+\\
+n&amp;\rightarrow\infty
+\\
+B^n&amp;=\frac 1 3
+\begin{bmatrix}
+2&amp;1\\
+2&amp;1
+\end{bmatrix}
+\end{align}
+\]</span> c) <span class="math display">\[
+\begin{align}
+\begin{bmatrix}
+a_{k+2}\\
+a_{k+1}
+\end{bmatrix}
+&amp;=
+B
+\begin{bmatrix}
+a_{k+1}\\
+a_{k}
+\end{bmatrix}
+=B^2
+\begin{bmatrix}
+a_{k}\\
+a_{k-1}
+\end{bmatrix}
+=B^{k+1}
+\begin{bmatrix}
+a_{1}\\
+a_{0}
+\end{bmatrix}
+\\
+\begin{bmatrix}
+a_{k+1}\\
+a_{k}
+\end{bmatrix}
+&amp;=B^k
+\begin{bmatrix}
+a_{1}\\
+a_{0}
+\end{bmatrix}
+\\&amp;=
+\frac 1 3
+\begin{bmatrix}
+2+\frac 1 {(-2)^{k}}&amp;1-\frac 1 {(-2)^{k}}\\
+2-2\frac 1 {(-2)^{k}}&amp;1+2\frac 1 {(-2)^{k}}
+\end{bmatrix}
+\begin{bmatrix}
+1\\0
+\end{bmatrix}
+\\
+&amp;=\frac 1 3
+\begin{bmatrix}
+2+\frac 1 {(-2)^{k}}\\
+2+\frac 1{(-2)^{k-1}}
+\end{bmatrix}
+\\
+\lim \limits_{k\rightarrow \infty}a_k&amp;=\lim \limits_{k\rightarrow
+\infty}\frac 1 3[2+\frac 1{(-2)^{k-1}}]=\frac 2 3
+\end{align}
+\]</span> （２） a) <span class="math display">\[
+\begin{align}
+&amp;|\lambda E-A|=|(\lambda E-A)^{\mathsf T}|=|\lambda E^{\mathsf
+T}-A^{\mathsf T}|\\
+&amp;\because A^{\mathsf T}=-A\\
+&amp;\therefore |\lambda E-A|=|\lambda E+A|=(-1)^n|(-\lambda) E-A|=0
+\\
+&amp;\therefore |(-\lambda)E-A|=0
+\\
+&amp;\therefore Aが固有値\lambdaをもつとき,-\lambdaはAの固有値である.
+\end{align}
+\]</span> b) <span class="math display">\[
+\begin{align}
+x^{\mathsf T}(A+A^{\mathsf T})x=0\\
+x^{\mathsf T}Ax+x^{\mathsf T}A^{\mathsf T}x=0\\
+x^{\mathsf T}Ax+(x^{\mathsf T}Ax)^{\mathsf T}=0\\
+x^{\mathsf T}Ax=0
+\end{align}
+\]</span> c) <span class="math display">\[
+\begin{align}
+Au=\lambda u
+\\
+(Au)^{\mathsf T}=(\lambda u)^{\mathsf T}
+\\
+-u^{\mathsf T}A=\overline\lambda u^{\mathsf T}
+\\
+-u^{\mathsf T}Au=\overline\lambda u^{\mathsf T}u
+\\
+-\lambda u^{\mathsf T}u=\overline\lambda u^{\mathsf T}u
+\\
+\lambda=-\overline\lambda
+\\
+\therefore Aの固有値は,ゼロでないときは,純虚数である
+\end{align}
+\]</span> d) <span class="math display">\[
+\begin{align}
+|A|=|A^{\mathsf T}|=|-A|=(-1)^n|A|\\
+nは奇数のとき,\\|A|=-|A|,|A|=0\\
+nは偶数のとき,\\|A|=\lambda_1\lambda_2\cdots\lambda_{2n}(\lambdaと-\lambdaは固有値)
+\\＝(k_1i)(-k_1i)(k_2i)(-k_2i)\cdots(k_ni)(-k_ni)
+\\={k_1}^2{k_2}^2\cdots {k_n}^2&gt;0
+\\
+\therefore |A|は負ではない
 \end{align}
 \]</span></p>
 <hr />
@@ -3626,285 +3835,6 @@ D=
       </categories>
   </entry>
   <entry>
-    <title>Day7</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day7/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>１）実数列<span
-class="math inline">\(a_0,a_1,...\)</span>において,<span
-class="math inline">\(a_{k+2}\)</span>は<span
-class="math inline">\(a_{k+1}\)</span>と<span
-class="math inline">\(a_k\)</span>の算術平均であるとする<span
-class="math inline">\((k\geq0)\)</span>.</p>
-<p>いま,<span
-class="math inline">\(a_0=0,a_1=1\)</span>とおく.以下の問いに答えよ.</p>
-<p>​
-a）以下の関係を満たす行列Bの固有値を求めよ.また,各々の固有値に対し,固有ベクトルを一つあげよ.
-<span class="math display">\[
-\begin{align}
-\begin{pmatrix}
-a_{k+2}\\
-a_{k+1}
-\end{pmatrix}
-=B
-\begin{pmatrix}
-a_{k+1}\\
-a_{k}
-\end{pmatrix}
-\end{align}
-\]</span> ​ b）a）の結果を用いて,<span
-class="math inline">\(n\rightarrow\infty\)</span>としたときの<span
-class="math inline">\(B^n\)</span>の極限値を求めよ.</p>
-<p>​ c）b）の結果を用いて,<span
-class="math inline">\(k\rightarrow\infty\)</span>としたときの<span
-class="math inline">\(a_k\)</span>の極限値を求めよ.</p>
-<p>２）実行列<span class="math inline">\(A\)</span>が<span
-class="math inline">\(A^{\mathsf{T}}=-A\)</span>という性質を満たすとする.ここで<span
-class="math inline">\(\mathsf{T}\)</span>は転置を表す.以下の問いに答えよ.</p>
-<p>​ a）<span class="math inline">\(A\)</span>が固有値<span
-class="math inline">\(\lambda\)</span>をもつとき,<span
-class="math inline">\(-\lambda\)</span>も<span
-class="math inline">\(A\)</span>の固有値か.理由とともに答えよ.</p>
-<p>​ b）すべての要素が実数のベクトル<span
-class="math inline">\(x\)</span>について,<span
-class="math inline">\(x^\mathsf{T}Ax=0\)</span>であることを示せ.</p>
-<p>​ c）<span
-class="math inline">\(A\)</span>の固有値は,ゼロでないときは,純虚数であることを示せ.</p>
-<p>​ d）<span
-class="math inline">\(A\)</span>の行列式の値は負ではないことを示せ.</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） a) <span class="math display">\[
-\begin{align}
-Bは\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}とおく
-\\
-\begin{bmatrix}
-a_{k+2}\\
-a_{k+1}
-\end{bmatrix}
-=B
-\begin{bmatrix}
-a_{k+1}\\
-a_{k}
-\end{bmatrix}
-=
-\begin{bmatrix}a&amp;b\\c&amp;d\end{bmatrix}
-\begin{bmatrix}
-a_{k+1}\\
-a_{k}
-\end{bmatrix}
-=
-\begin{bmatrix}aa_{k+1}+ba_k\\ca_{k+1}+da_k\end{bmatrix}
-\\
-a_{k+2}はa_{k+1}とa_kの算術平均である
-\\
-a_{k+2}=\frac 1 2 a_{k+1} +\frac 1 2 a_k
-\\
-a=\frac 1 2\quad b=\frac 1 2\quad c=1\quad d=0
-\\
-B=\begin{bmatrix}
-\frac 1 2&amp;\frac 1 2\\
-1&amp;0
-\end{bmatrix}
-\\
-\because |T|=|\lambda E-B|=
-\left|
-\begin{matrix}
-\lambda-\frac 1 2&amp;-\frac 1 2\\
--1&amp;\lambda
-\end{matrix}
-\right|
-=(\lambda-1)(\lambda+\frac 1 2)=0
-\\
-\therefore \lambda_1=1 \quad\lambda_2=-\frac 1 2
-\\
-\lambda_1=1のとき,T_1x_1=0,そして,x_1=
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2
-\end{bmatrix}
-とおくと,\\
-\begin{bmatrix}
-\frac 1 2&amp;-\frac 1 2\\
--1&amp;1
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2
-\end{bmatrix}=0
-\\
-x_1=\begin{bmatrix}
-1\\
-1
-\end{bmatrix}
-\\
-\lambda_2=-\frac 1 2のとき,T_2x_2=0,そして,x_2=
-\begin{bmatrix}
-\beta_1\\
-\beta_2
-\end{bmatrix}
-とおくと,\\
-\begin{bmatrix}
--1&amp;-\frac 1 2\\
--1&amp;-\frac 1 2
-\end{bmatrix}
-\begin{bmatrix}
-\beta_1\\
-\beta_2
-\end{bmatrix}=0
-\\
-x_2=\begin{bmatrix}
--1\\
-2
-\end{bmatrix}
-\end{align}
-\]</span> b) <span class="math display">\[
-\begin{align}
-P&amp;=[x_1,x_2]=\begin{bmatrix}
-1&amp;-1\\
-1&amp;2
-\end{bmatrix}とおくと,\\
-P^{-1}&amp;=\frac 1 3
-\begin{bmatrix}
-2&amp;1\\
--1&amp;1
-\end{bmatrix}
-\\
-B&amp;=P\Lambda P^{-1}
-\\
-B^n&amp;=P\Lambda^nP^{-1}
-\\
-&amp;=
-\begin{bmatrix}
-1&amp;-1\\
-1&amp;2
-\end{bmatrix}
-\begin{bmatrix}
-1&amp;0\\
-0&amp;\frac 1 {(-2)^n}
-\end{bmatrix}
-\begin{bmatrix}
-2&amp;1\\
--1&amp;1
-\end{bmatrix}
-\frac 1 3
-\\&amp;=\frac 1 3
-\begin{bmatrix}
-2+\frac 1 {(-2)^n}&amp;1-\frac 1 {(-2)^n}\\
-2-2\frac 1 {(-2)^n}&amp;1+2\frac 1 {(-2)^n}
-\end{bmatrix}
-\\
-n&amp;\rightarrow\infty
-\\
-B^n&amp;=\frac 1 3
-\begin{bmatrix}
-2&amp;1\\
-2&amp;1
-\end{bmatrix}
-\end{align}
-\]</span> c) <span class="math display">\[
-\begin{align}
-\begin{bmatrix}
-a_{k+2}\\
-a_{k+1}
-\end{bmatrix}
-&amp;=
-B
-\begin{bmatrix}
-a_{k+1}\\
-a_{k}
-\end{bmatrix}
-=B^2
-\begin{bmatrix}
-a_{k}\\
-a_{k-1}
-\end{bmatrix}
-=B^{k+1}
-\begin{bmatrix}
-a_{1}\\
-a_{0}
-\end{bmatrix}
-\\
-\begin{bmatrix}
-a_{k+1}\\
-a_{k}
-\end{bmatrix}
-&amp;=B^k
-\begin{bmatrix}
-a_{1}\\
-a_{0}
-\end{bmatrix}
-\\&amp;=
-\frac 1 3
-\begin{bmatrix}
-2+\frac 1 {(-2)^{k}}&amp;1-\frac 1 {(-2)^{k}}\\
-2-2\frac 1 {(-2)^{k}}&amp;1+2\frac 1 {(-2)^{k}}
-\end{bmatrix}
-\begin{bmatrix}
-1\\0
-\end{bmatrix}
-\\
-&amp;=\frac 1 3
-\begin{bmatrix}
-2+\frac 1 {(-2)^{k}}\\
-2+\frac 1{(-2)^{k-1}}
-\end{bmatrix}
-\\
-\lim \limits_{k\rightarrow \infty}a_k&amp;=\lim \limits_{k\rightarrow
-\infty}\frac 1 3[2+\frac 1{(-2)^{k-1}}]=\frac 2 3
-\end{align}
-\]</span> （２） a) <span class="math display">\[
-\begin{align}
-&amp;|\lambda E-A|=|(\lambda E-A)^{\mathsf T}|=|\lambda E^{\mathsf
-T}-A^{\mathsf T}|\\
-&amp;\because A^{\mathsf T}=-A\\
-&amp;\therefore |\lambda E-A|=|\lambda E+A|=(-1)^n|(-\lambda) E-A|=0
-\\
-&amp;\therefore |(-\lambda)E-A|=0
-\\
-&amp;\therefore Aが固有値\lambdaをもつとき,-\lambdaはAの固有値である.
-\end{align}
-\]</span> b) <span class="math display">\[
-\begin{align}
-x^{\mathsf T}(A+A^{\mathsf T})x=0\\
-x^{\mathsf T}Ax+x^{\mathsf T}A^{\mathsf T}x=0\\
-x^{\mathsf T}Ax+(x^{\mathsf T}Ax)^{\mathsf T}=0\\
-x^{\mathsf T}Ax=0
-\end{align}
-\]</span> c) <span class="math display">\[
-\begin{align}
-Au=\lambda u
-\\
-(Au)^{\mathsf T}=(\lambda u)^{\mathsf T}
-\\
--u^{\mathsf T}A=\overline\lambda u^{\mathsf T}
-\\
--u^{\mathsf T}Au=\overline\lambda u^{\mathsf T}u
-\\
--\lambda u^{\mathsf T}u=\overline\lambda u^{\mathsf T}u
-\\
-\lambda=-\overline\lambda
-\\
-\therefore Aの固有値は,ゼロでないときは,純虚数である
-\end{align}
-\]</span> d) <span class="math display">\[
-\begin{align}
-|A|=|A^{\mathsf T}|=|-A|=(-1)^n|A|\\
-nは奇数のとき,\\|A|=-|A|,|A|=0\\
-nは偶数のとき,\\|A|=\lambda_1\lambda_2\cdots\lambda_{2n}(\lambdaと-\lambdaは固有値)
-\\＝(k_1i)(-k_1i)(k_2i)(-k_2i)\cdots(k_ni)(-k_ni)
-\\={k_1}^2{k_2}^2\cdots {k_n}^2&gt;0
-\\
-\therefore |A|は負ではない
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day9</title>
     <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day9/</url>
     <content><![CDATA[<hr />
@@ -4013,165 +3943,71 @@ x^2&amp;3&amp;2
       </categories>
   </entry>
   <entry>
-    <title>通情過去問の解答A-1</title>
-    <url>/%E9%81%8E%E5%8E%BB%E5%95%8F/%E5%B0%82%E9%96%80%E5%9F%BA%E7%A4%8EA/%E9%80%9A%E6%83%85%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94A-1/</url>
+    <title>等价无穷小</title>
+    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
     <content><![CDATA[<hr />
-<h1 id="問題">2020問題</h1>
-<p>下記のすべての問に答えよ．</p>
-<p>（１）下記の問に答えよ．</p>
-<p>​ （a）次の極限を求めよ．</p>
-<p><span class="math display">\[
-\lim _{x \rightarrow 0}\frac{\sin x}{x}
-\]</span> ​ （ｂ）次の極限を求めよ．</p>
-<p><span class="math display">\[
-\lim _{x \rightarrow 0}\left(\frac{1}{\sin ^2 x}-\frac{1}{x^2}\right)
-\]</span> ​
-（ｃ）次の極方程式で表される直交座標系での曲線を図示せよ．</p>
-<p><span class="math display">\[
-r = 1 + \cos \theta
-\]</span> ​ （ｄ）問（ｃ）の曲線で囲まれる面積を求めよ．</p>
-<p>（2）下記の問に答えよ．ただし,行列<span
-class="math inline">\(A_3,A_4\)</span>は次式で与えられる．</p>
 <p><span class="math display">\[
 \begin{align}
-A_3=
-\begin{bmatrix}
-1 &amp; a &amp; a^2 \\
-1 &amp; b &amp; b^2 \\
-1 &amp; c &amp; c^2
-\end{bmatrix}
-\qquad
-A_4=
-\begin{bmatrix}
-1 &amp; a &amp; a^2 &amp;a^3\\
-1 &amp; b &amp; b^2 &amp;b^3\\
-1 &amp; c &amp; c^2 &amp;c^3\\
-1 &amp; d &amp; d^2 &amp;d^3
-\end{bmatrix}
-\end{align}
-\]</span> ​ （a）<span
-class="math inline">\({A_3}^{-1}\)</span>を求めよ．</p>
-<p>​ （ｂ）行列式<span
-class="math inline">\(\det(A_4)\)</span>を求めよ．因数分解した形にすること．</p>
-<hr />
-<h1 id="解答">2020解答</h1>
-<p>（１）</p>
-<p>​ （a） <span class="math display">\[
-\lim _{x \rightarrow 0}\frac{\sin x}{x}=\lim _{x \rightarrow
-0}\frac{(\sin x)^{&#39;}}{x^{&#39;}}=\lim _{x \rightarrow 0}\frac{\cos
-x}{1}=\lim _{x \rightarrow 0}{\cos x}=1
-\]</span> ​ （ｂ） <span class="math display">\[
-\begin{align}
-f(x)&amp;=\lim _{x \rightarrow 0}\left(\frac{1}{\sin ^2
-x}-\frac{1}{x^2}\right)\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x - x^2}{x^2\sin ^2
-x}\right)\frac{x^2}{x^2}\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
-x^2}{x^4}\right)\frac{x^2}{\sin ^2 x}\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
-x^2}{x^4}\right)\left(\frac{x}{\sin x}\right)^2\\
-&amp;=\lim _{x \rightarrow 0}\frac{\sin ^2 x - x^2}{x^4}\\
-&amp;=\lim _{x \rightarrow 0}\frac{(\sin ^2 x -
-x^2)^{&#39;}}{(x^4)^{&#39;}}\\
-&amp;=\lim _{x \rightarrow 0}\frac{2\sin x \cos x- 2x}{4x^3}\\
-&amp;=\lim _{x \rightarrow 0}\frac{(2\sin x \cos x-
-2x)^{&#39;}}{(4x^3)^{&#39;}}\\
-&amp;=\lim _{x \rightarrow 0}\frac{2(\cos ^2 x - \sin ^2 x)-2}{12x^2}\\
-&amp;=\lim _{x \rightarrow 0}\frac{\cos 2x-1}{6x^2}\\
-&amp;=\lim _{x \rightarrow 0}\frac{(\cos
-2x-1)^{&#39;}}{(6x^2)^{&#39;}}\\
-&amp;=\lim _{x \rightarrow 0}\frac{-2\sin 2x}{12x}\\
-&amp;=\lim _{x \rightarrow 0}-\frac{1}{3}\left(\frac{\sin
-2x}{2x}\right)\\
-&amp;=-\frac{1}{3}
-\end{align}
-\]</span> ​ （ｃ）</p>
-<p>​ カージオイド</p>
-<p><img src="https://p.ipic.vip/dgdauq.svg" /></p>
-<p>​ （ｄ）</p>
-<p>​ カージオイド:<span class="math inline">\(r=1+\cos \theta \ (0 \leq
-\theta \leq 2
-\pi)\)</span>で囲まれる図形の面積Sを求めよう。図形の対称性から、<span
-class="math inline">\(0 \leq \theta \leq \pi\)</span>の範囲の曲線と<span
-class="math inline">\(x\)</span>軸とで囲まれる図形の面積を<span
-class="math inline">\(S_1\)</span>とおくと， <span
-class="math display">\[
-\begin{align}
-S&amp;=2S_1\\
-&amp;=2 \cdot \frac{1}{2}\int _0^{\pi}r^2\, {\rm d} \theta\\
-&amp;=\int _0^{\pi}(1+\cos \theta)^2\, {\rm d} \theta\\
-&amp;=\int _0^{\pi}(1+2\cos \theta + \cos^2 \theta)\, {\rm d} \theta\\
-&amp;=\int _0^{\pi}\left(1+2\cos \theta + \frac{\cos 2 \theta +
-1}{2}\right)\, {\rm d} \theta\\
-&amp;=\left[\frac{3}{2}\theta+2\sin \theta + \frac{\sin 2
-\theta}{4}\right] _0^{\pi}\\
-&amp;=\frac{3}{2}\pi
-\end{align}
-\]</span> （２）</p>
-<p>​ （a） <span class="math display">\[
-\begin{align}
-{A_3}^{-1}&amp;=\frac{\widetilde A_3}{\left| A_3 \right|}\\
+when\quad x &amp;\rightarrow0,
 \\
-&amp;= \frac{\begin{bmatrix}
-A_{11} &amp; A_{21} &amp; A_{31} \\
-A_{12} &amp; A_{22} &amp; A_{32} \\
-A_{13} &amp; A_{23} &amp; A_{33}
-\end{bmatrix}}{\prod_{1\leq j &lt; i \leq 3}(x_i-x_j)}\\
+\sin x &amp;\sim x
 \\
-&amp;= \begin{bmatrix}
-\frac{bc}{(b-a)(c-a)} &amp; -\frac{ac}{(b-a)(c-b)} &amp;
-\frac{ab}{(c-b)(c-a)} \\
--\frac{b+c}{(b-a)(c-a)} &amp; \frac{a+c}{(b-a)(c-b)} &amp;
--\frac{a+b}{(c-b)(c-a)}\\
-\frac{1}{(b-a)(c-a)} &amp; -\frac{1}{(b-a)(c-b)} &amp;
-\frac{1}{(c-b)(c-a)}
-\end{bmatrix}\\
-\end{align}
-\]</span> ​ （ｂ） <span class="math display">\[
-\begin{align}
-\det(A_4)&amp;=\prod_{1\leq j &lt; i \leq 4}(x_i-x_j)\\
-&amp;=(b-a)(c-b)(c-a)(d-c)(d-b)(d-a)
+1-\cos x &amp;\sim \frac 1 2 x^2
+\\
+\tan x &amp;\sim x
+\\
+\arctan x &amp;\sim x
+\\
+\arcsin x &amp;\sim x
+\\
+a^x-1 &amp;\sim x\ln a
+\\
+\ln(1+x) &amp;\sim x
+\\
+(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
+\\
+\log_a(1+x) &amp;\sim \frac x {\ln a}
+\\
+x-\sin x &amp;\sim \frac 1 6 x^3
+\\
+e^x-1 &amp;\sim x
+\\
+x-\ln(1+x) &amp;\sim \frac 1 2 x^2
+\\
+\ln(x+\sqrt{1+x^2}) &amp;\sim x
+\\
+\tan x-x &amp;\sim \frac 1 3 x^3
+\\
+\arcsin x-x &amp;\sim \frac 1 6 x^3
+\\
+x-\arctan x &amp;\sim \frac 1 3 x^3
+\\
+\tan x-\sin x &amp;\sim \frac 1 2 x^3
 \end{align}
 \]</span></p>
 <hr />
-<h1 id="問題-1">2019問題</h1>
-<p>下記のすべての問に答えよ．</p>
-<p>（１）下記の問に答えよ．ただし，関数<span
-class="math inline">\(B(x,y)\)</span>は次式で与えられる． <span
-class="math display">\[
-B(x,y)=\int _0^1 t^{x-1}(1-t)^{y-1} \, {\rm d} t,x &gt; 0,y &gt; 0
-\]</span> （a）次の等式が成り立つことを示せ． <span
-class="math display">\[
-xB(x,y+1)=yB(x+1,y)
-\]</span> （b）次の等式が成り立つことを示せ． <span
-class="math display">\[
-B(x,y)=2\int_0^{\pi/2}\sin ^{2x-1}\theta\cos^{2y-1}\theta\,{\rm d}\theta
-\]</span> （c）次の等式が成り立つことを示せ． <span
-class="math display">\[
-\frac{1}{a}B\left(1-\frac{b}{a},\frac{b}{a}\right)=\int_0^\infty\frac{t^{b-1}}{1+t^a}\,{\rm
-d}t
-\]</span> （２）下記の問に答えよ．ただし，行列<span
-class="math inline">\(A\)</span>は次式で与えられる． <span
-class="math display">\[
-A=
-\begin{pmatrix}
-1-p &amp; p\\
-q &amp; 1-q
-\end{pmatrix},0&lt;p&lt;1,0&lt;q&lt;1
-\]</span> （a）<span
-class="math inline">\(n\)</span>を正整数とする．<span
-class="math inline">\(A^n\)</span>を求めよ．</p>
-<p>（b）$_{n }A^n $ を求めよ．</p>
-<p>（c）次式で定義される<span
-class="math inline">\(\exp(A)\)</span>を求めよ． <span
-class="math display">\[
-\exp(A)=\sum_{n=0}^\infty\frac{1}{n!}A^n    
-\]</span> ​ ただし，<span
-class="math inline">\(A^0\)</span>は単位行列である．</p>
 ]]></content>
       <categories>
-        <category>過去問</category>
-        <category>専門基礎A</category>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?style=flat-square&amp;logo=hexo" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?style=flat-square" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
+]]></content>
+      <categories>
+        <category>Site</category>
       </categories>
   </entry>
   <entry>
@@ -4929,1220 +4765,6 @@ class="math inline">\(A^0\)</span>は単位行列である．</p>
 <tr class="odd">
 <td>ただいま（只今）</td>
 <td>马上，立即</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N1擬声語と擬態語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%93%AC%E5%A3%B0%E8%AA%9E%E3%81%A8%E6%93%AC%E6%85%8B%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<h1 id="擬声語擬態語">✨擬声語&amp;擬態語✨</h1>
-<hr />
-<h2 id="擬声語">擬声語</h2>
-<h3 id="聞こえる物音を表す言葉">聞こえる物音を表す言葉</h3>
-<h2 id="擬態語">擬態語</h2>
-<h3
-id="聞こえないものや身振りなどの状態を表す言葉">聞こえないものや身振りなどの状態を表す言葉</h3>
-<hr />
-<h1 id="見る">✨見る✨</h1>
-<blockquote>
-<p>きょろきょろ</p>
-<p>じっと</p>
-<p>じろじろ</p>
-<p>ちらちら</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 56%" />
-<col style="width: 32%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>きょろきょろ</td>
-<td>東京に初めて来たとき、きょろきょろしていたら変な人だと思われた。</td>
-<td>いろんなところを見る様子。</td>
-</tr>
-<tr class="even">
-<td>じっと</td>
-<td>話した事もないのにじっと見てくる男の子がいます。私のことが好きなのかしら。</td>
-<td>ずっと一つのものを見ていること。</td>
-</tr>
-<tr class="odd">
-<td>じろじろ</td>
-<td>何さっきからじろじろ見ているの？本当に失礼ね。</td>
-<td>一つのもののいろんなところを見る。</td>
-</tr>
-<tr class="even">
-<td>ちらちら</td>
-<td>おい！ちらちらどこを見ているんだ！まだ授業は終わってないぞ。</td>
-<td>時々違う場所を見る。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="感じる">✨感じる✨</h1>
-<blockquote>
-<p>さらさら</p>
-<p>つるつる</p>
-<p>ふわふわ</p>
-<p>すべすべ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 54%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>さらさら</td>
-<td>美容室帰りのサラサラ髪。</td>
-<td>スムーズに指が髪の毛に通る感じ。</td>
-</tr>
-<tr class="even">
-<td>つるつる</td>
-<td>温泉に入ると肌がツルツルになりますよね！</td>
-<td>滑りやすいこと。</td>
-</tr>
-<tr class="odd">
-<td>ふわふわ</td>
-<td>干したばかりの布団はふわふわしていてとて気持ちいい。</td>
-<td>空気をいっぱい含むんで、やわらかい。</td>
-</tr>
-<tr class="even">
-<td>すべすべ</td>
-<td>赤ちゃんの肌ってほんとすべすべだよね。</td>
-<td>肌が良い状態のこと。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="感じる-２回目">✨感じる ２回目✨</h1>
-<blockquote>
-<p>ざらざら</p>
-<p>かさかさ</p>
-<p>べたべた</p>
-<p>ねばねば</p>
-<p>ぬるぬる</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ざらざら</td>
-<td>もう夏になるし、かかとのザラザラをなくしたい。</td>
-<td>硬いしなんかごそごそするし。</td>
-</tr>
-<tr class="even">
-<td>かさかさ</td>
-<td>肌が乾燥する季節突入。毎年この時期になると肌がカサカサになる。</td>
-<td>水分不足が原因の肌荒れ。落ち葉。</td>
-</tr>
-<tr class="odd">
-<td>べたべた</td>
-<td>汗でベタベタだから早くシャワーを浴びたい。</td>
-<td>気持ち悪いくらいの粘着感。<br />カップルとか人がいちゃついている時。</td>
-</tr>
-<tr class="even">
-<td>ねばねば</td>
-<td>とろろ丼とか納豆は、ねばねばしているけど健康にいいしとてもおいしい。</td>
-<td>食べ物に使うことが多いです。</td>
-</tr>
-<tr class="odd">
-<td>ぬるぬる</td>
-<td>なめこはなぜヌルヌルしているんですか？</td>
-<td>ちょっと光っていて、光沢があって、つやつやしていて、ぬめぬめ、ねばねばするもの。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる">✨食べる✨</h1>
-<blockquote>
-<p>こってり</p>
-<p>あっさり</p>
-<p>さっぱり</p>
-<p>ひりひり</p>
-<p>ツーン</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 43%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>こってり</td>
-<td>こってりしたラーメンは大好きだけど、次の日が大変だからね。</td>
-<td>油が多くて、味も濃い、どろどろ。</td>
-</tr>
-<tr class="even">
-<td>あっさり</td>
-<td>でもラーメンは食べたいから、今日はあっさりしたラーメンにしとこう。</td>
-<td>「こってり」の正反対。</td>
-</tr>
-<tr class="odd">
-<td>さっぱり</td>
-<td>夏場でもレモンをかけることでさっぱりといただけます。</td>
-<td>すっきりしていて重たくなくてちょっと酸味のあるもの。冷たいものが多い。</td>
-</tr>
-<tr class="even">
-<td>ひりひり・ぴりぴり</td>
-<td>辛い物を食べたら舌がひりひりしてしょうがない。水が欲しい！</td>
-<td>熱い状態。表面が痛い、浅い痛み。やけど、日焼けの時も「ひりひり」という。</td>
-</tr>
-<tr class="odd">
-<td>ツーン</td>
-<td>わさびが入ったお寿司を食べたら、鼻がツーンと痛くなった。</td>
-<td>わさび。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる-２回目">✨食べる　２回目✨</h1>
-<blockquote>
-<p>しこしこ</p>
-<p>もちもち</p>
-<p>しゃきしゃき</p>
-<p>ほかほか</p>
-<p>かりかり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>しこしこ</td>
-<td>この麵はしこしこしていてとても美味しかったです。</td>
-<td>弾力がある。嚙み応えがある。太くていっぱい嚙ないといけない。こしがある。</td>
-</tr>
-<tr class="even">
-<td>もちもち</td>
-<td>この大福すごくもちもちだよ。</td>
-<td>弾力がある。</td>
-</tr>
-<tr class="odd">
-<td>しゃきしゃき</td>
-<td>このサラダ、レタスがとてもしゃきしゃきしていておいしいです。</td>
-<td>フレッシュで水分も多い。野菜に使われることが多い。</td>
-</tr>
-<tr class="even">
-<td>ほかほか</td>
-<td>炊き立てのほかほかご飯で幸せいっぱい。</td>
-<td>あったかくて、やわらかくて、</td>
-</tr>
-<tr class="odd">
-<td>かりかり</td>
-<td>ベーコンはカリカリに焼いたほうがおいしい。</td>
-<td>しっかりと長い時間焼いて、水分が抜けた状態。かたい状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる-３回目">✨食べる　３回目✨</h1>
-<blockquote>
-<p>がつがつ</p>
-<p>ぱくぱく</p>
-<p>もぐもぐ</p>
-<p>もりもり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 44%" />
-<col style="width: 49%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がつがつ</td>
-<td>フレンチレストランでがつがつ食べるのはやめてください。</td>
-<td>すごい勢いで食べている。欲張りなようす。</td>
-</tr>
-<tr class="even">
-<td>ぱくぱく</td>
-<td>野菜嫌いのケントも、カレーに入れるとぱくぱく食べる。</td>
-<td>元気に、嫌がらずに食べている。</td>
-</tr>
-<tr class="odd">
-<td>もぐもぐ</td>
-<td>口をもぐもぐさせてる。</td>
-<td>口に物を入れて動かしている（嚙んでいる）状態。口の中にたくさん入れているような感じ！</td>
-</tr>
-<tr class="even">
-<td>もりもり</td>
-<td>モリモリ食べて暑さを吹き飛ばしましょう！</td>
-<td>元気よくたくさん食べている状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="飲む">✨飲む✨</h1>
-<blockquote>
-<p>ぐっと</p>
-<p>ごくごく</p>
-<p>ちびちび</p>
-<p>がぶがぶ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぐっと</td>
-<td>皆：はい！一気！一気！一気！<br />部長：君もぐっと飲んで。ぐっとぐっと！</td>
-<td>勢いがあって一気に。</td>
-</tr>
-<tr class="even">
-<td>ごくごく</td>
-<td>ごくごくとおいしそうに飲むね。私も飲みたくなっちゃったよ。</td>
-<td>のどを鳴らしておいしそうに飲む様子。</td>
-</tr>
-<tr class="odd">
-<td>ちびちび</td>
-<td>のりこ：けんとくん！ちびちび飲んでないで、男らしくぐっとね！<br />けんと：あ、お酒に弱いので。</td>
-<td>酒などを少しずつ飲む様子。少しずつ楽しみながら飲む。</td>
-</tr>
-<tr class="even">
-<td>がぶがぶ</td>
-<td>試合後、シン選手は水をがぶがぶと飲み始めた。</td>
-<td>水を大量に飲む感じ（カバのように）。<br />口を大きく開けてたくさん入れる。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="言う">✨言う✨</h1>
-<blockquote>
-<p>おずおず</p>
-<p>がんがん</p>
-<p>ぶつぶつ</p>
-<p>べらべら</p>
-<p>ぼそぼそ</p>
-<p>くどくど</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>おずおず</td>
-<td>「あの、すみません。私がこのパソコン壊しました。」と彼はおずおず言った。</td>
-<td>言い難そうな様子。申し訳なさそうな感じ。</td>
-</tr>
-<tr class="even">
-<td>がんがん</td>
-<td>そんなにガンガン言われたら、やる気もなくなっちゃうよ。</td>
-<td>ずっと続けて、何度も強く言う。</td>
-</tr>
-<tr class="odd">
-<td>ぶつぶつ</td>
-<td>彼はいつも仕事中ぶつぶつと独り言を言っている。</td>
-<td>周りに聞こえないような感じ。<br />文句や不満を言う。</td>
-</tr>
-<tr class="even">
-<td>べらべら</td>
-<td>秘密をベラベラしゃべる人は、信用できません。</td>
-<td>何でもいっぱいしゃべる人。</td>
-</tr>
-<tr class="odd">
-<td>ぼそぼそ</td>
-<td>下を向いてぼそぼそ話していると、何が言いたいのか、わかりません。</td>
-<td>音が小さいだけ。</td>
-</tr>
-<tr class="even">
-<td>くどくど</td>
-<td>くどくどと何回もしつこいわよ！</td>
-<td>何回もしつこく言うこと。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="寝る">✨寝る✨</h1>
-<blockquote>
-<p>うとうと</p>
-<p>ぐうぐう</p>
-<p>すやすや</p>
-<p>ぐっすり</p>
-<p>こっくりこっくり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 50%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>うとうと</td>
-<td>授業中にうとうとしていると体がビクッとなってしまった。</td>
-<td>ちょっとの間浅く寝るさま。浅い。</td>
-</tr>
-<tr class="even">
-<td>ぐうぐう</td>
-<td>猫ってぐうぐう寝るの？あまり音出さない気がするけど。</td>
-<td>寝ているときの音。<br />お腹が空いたとき。</td>
-</tr>
-<tr class="odd">
-<td>すやすや</td>
-<td>子供がすやすやと寝る姿を見ると育児の疲れも吹っ飛びます。</td>
-<td>静かで穏やかな眠り。</td>
-</tr>
-<tr class="even">
-<td>ぐっすり</td>
-<td>最近、寝ても疲れが取れないのです。ぐっすり寝る方法を教えてください。</td>
-<td>深い。</td>
-</tr>
-<tr class="odd">
-<td>こっくりこっくり</td>
-<td>彼は夜の電車のつり革にぶら下がりながらこっくりこっくりしている。</td>
-<td>頭が揺れながら寝ている状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き１早い">✨動き１早い✨</h1>
-<blockquote>
-<p>さっさと</p>
-<p>すらすら</p>
-<p>てきぱき</p>
-<p>はきはき</p>
-<p>きびきび</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>さっさと</td>
-<td>明日は試験だよ！いつまでも寝てないでさっさと勉強しなさい！</td>
-<td>時間を無駄にせずに早く動く様子。</td>
-</tr>
-<tr class="even">
-<td>すらすら</td>
-<td>日本語を勉強し、思ったことをすらすら言えるようになりたい。</td>
-<td>話し方が流暢。ぺらぺら。<br />止まらず、スムーズにこなすこと。</td>
-</tr>
-<tr class="odd">
-<td>てきぱき</td>
-<td>仕事がテキパキ出来る人ってうらやましい。私もそうなりたいな。</td>
-<td>効率的に仕事をする様子動作やものごと。</td>
-</tr>
-<tr class="even">
-<td>はきはき</td>
-<td>のりこさんはいつもはきはきしていますね。</td>
-<td>はっきりして、元気な。</td>
-</tr>
-<tr class="odd">
-<td>きびきび</td>
-<td>店長に怒られないようにきびきび働く。</td>
-<td>すごく元気でいきいきしていて、きもちがよいさま、動作や態度。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き２遅い">✨動き２遅い✨</h1>
-<blockquote>
-<p>のろのろ</p>
-<p>ゆっくり</p>
-<p>のんびり</p>
-<p>だらだら</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>のろのろ</td>
-<td>最近駅でのろのろ歩きながらスマホをしている人が多くて、よく人ぶつかります。</td>
-<td>遅い状態。動きが鈍い様子。</td>
-</tr>
-<tr class="even">
-<td>ゆっくり</td>
-<td>慌てないで。落ち着いて、ゆっくり話して。</td>
-<td>遅くてゆとり、余裕があるさま。</td>
-</tr>
-<tr class="odd">
-<td>のんびり</td>
-<td>今日は日曜日だし、ベランダ日差しでも浴びながらのんびり、まったりと時間を過ごそうと～</td>
-<td>時間に余裕があってゆっくりすることができる。</td>
-</tr>
-<tr class="even">
-<td>だらだら</td>
-<td>だらだらした生活から抜け出し、充実した生活を送りたい。</td>
-<td>適当にという感じ。生活リズムが乱れているような様子。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き３歩く">✨動き３歩く✨</h1>
-<blockquote>
-<p>ぶらぶら</p>
-<p>よたよた</p>
-<p>とぼとぼ</p>
-<p>よちよち</p>
-<p>すたすた</p>
-<p>てくてく</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぶらぶら</td>
-<td>家の近くでぶらぶらしていたら、ケント君にばったりあった。</td>
-<td>別の目的がなくのんびりと歩くさま。<br />ぶらぶら遊ぶ（悪い意味）<br />ふらふら→力が入らなかったりして体が揺れ動くさま。</td>
-</tr>
-<tr class="even">
-<td>よたよた</td>
-<td>赤ちゃんがよたよたと歩いている。可愛い！</td>
-<td>足がふらふらして危ないさま。<br />お年寄り<br />疲れている人にも使う。</td>
-</tr>
-<tr class="odd">
-<td>とぼとぼ</td>
-<td>彼は好きな人に告白したが、きっぱり断わられ、とぼとぼと家まで歩いて行った。</td>
-<td>元気がなく寂しそうに歩くさま。</td>
-</tr>
-<tr class="even">
-<td>よちよち</td>
-<td>赤ちゃんがよちよち歩く姿はとてもかわいい。</td>
-<td>小股で歩く様子。</td>
-</tr>
-<tr class="odd">
-<td>すたすた</td>
-<td>田舎の人はのろのろと歩くが、東京の人はすたすたと歩く。</td>
-<td>わき目もふらず、早く歩くさま。</td>
-</tr>
-<tr class="even">
-<td>てくてく</td>
-<td>学校終わりの小学生が帰り道をテクテク歩いている。</td>
-<td>乗り物に乗らずひたすら歩くさま。<br />歩いている時以外には使わない。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の動き４">✨人の動き４✨</h1>
-<blockquote>
-<p>うろうろ</p>
-<p>こそこそ</p>
-<p>こつこつ</p>
-<p>せっせと</p>
-<p>ぺこぺこ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>うろうろ</td>
-<td>知らない男の人が家の前をうろうろしていて、なんだか気味が悪い。</td>
-<td>歩き回る様子。怪しい、怖い。<br />目的は無い。意味も無く、理由も無く。</td>
-</tr>
-<tr class="even">
-<td>こそこそ</td>
-<td>親に隠れて、コソコソとゲームをやっていたがばれてしまった。</td>
-<td>人に知られないようにひそかに物事をするさま。<br />こそこそと話す。</td>
-</tr>
-<tr class="odd">
-<td>こつこつ</td>
-<td>コツコツ練習したら、上手になるよ。</td>
-<td>地道に、ちょっとずつ、毎日続ける。努力する様子。</td>
-</tr>
-<tr class="even">
-<td>せっせと</td>
-<td>日曜日も休まず、せっせと働く。</td>
-<td>休まずに一生懸命に事を行うさま。</td>
-</tr>
-<tr class="odd">
-<td>ぺこぺこ</td>
-<td>彼は出世のため、いつも上司にも部下にもぺこぺこしている。</td>
-<td>頭を何度も下げる様子。<br />お腹ぺこぺこ。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の動き５落ち着かない">✨人の動き５落ち着かない✨</h1>
-<blockquote>
-<p>あたふた</p>
-<p>ばたばた</p>
-<p>そわそわ</p>
-<p>そそくさ</p>
-<p>ぐずぐず</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>あたふた</td>
-<td>「5分後にお客さん来るよ。」と聞いた紀子先生は、あたふたしながら掃除を始めた。</td>
-<td>慌てているが急いで行動しているさま。</td>
-</tr>
-<tr class="even">
-<td>ばたばた</td>
-<td>やっと仕事が終わった。今日は朝からずっとばたばたしていた。</td>
-<td>歩き回りながら忙しくて慌てている様子。</td>
-</tr>
-<tr class="odd">
-<td>そわそわ</td>
-<td>授業の終わりが近づくと、学生たちは授業に集中せず、そわそわし始めた。</td>
-<td>落ち着かない様子。<br />他のことが気になって、心が落ち着かないさま。<br />ドキドキ似ている。</td>
-</tr>
-<tr class="even">
-<td>そそくさ</td>
-<td>友達がいない彼は、大学の授業が終わったとたんそそくさと帰った。</td>
-<td>すぐに。硬い表現。</td>
-</tr>
-<tr class="odd">
-<td>ぐずぐず</td>
-<td>母：ぐずぐずしているとおいていくよ！</td>
-<td>動きがのろくてあまり物事が進まないさま。<br />子供に使うことが多い。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情１驚き">✨人の感情１驚き✨</h1>
-<blockquote>
-<p>どきっとする</p>
-<p>はっとする</p>
-<p>どきどきする</p>
-<p>ぽかんとする</p>
-<p>ぎょっとする</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>どきっとする</td>
-<td>男性は髪の長い女性にドキッとすることが多い。</td>
-<td>興奮しらり、驚いたりしていきなり心臓を打つさま。<br />どっきり</td>
-</tr>
-<tr class="even">
-<td>はっとする</td>
-<td>バスでうとうとしていたけど、アナウンスではっと目覚めたらちょうど目的地だった。</td>
-<td>何かを急に気づいて驚くさま。<br />「ハッ」は息の音</td>
-</tr>
-<tr class="odd">
-<td>どきどきする</td>
-<td>何回も練習したけど、人前に立って話し始めたらどきどきして大変だった。</td>
-<td>緊張、運動、不安で、心臓が早く強く打つ様子。</td>
-</tr>
-<tr class="even">
-<td>ぽかんとする</td>
-<td>いつも口をぽかんと開けていたら、だらしないよ。</td>
-<td>驚いて口が開いている様子。</td>
-</tr>
-<tr class="odd">
-<td>ぎょっとする</td>
-<td>鏡を見ながら髪を直していたら、後ろに紀子先生がいてぎょっとした。</td>
-<td>考えてもなかったことがいきなり起こって驚いたり怖いがる様。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情２怖い">✨人の感情２怖い✨</h1>
-<blockquote>
-<p>ぞっとする</p>
-<p>びくびくする</p>
-<p>ひやひやする</p>
-<p>おどおどする</p>
-<p>ぶるぶるする</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぞっとする</td>
-<td>私は高いところが怖いので、12階から見下ろすとぞっとする。</td>
-<td>寒さや恐怖で背筋が寒くなるさま。<br />「かんがえだけで」、「想像しただけで」と一緒に使うことが多い。</td>
-</tr>
-<tr class="even">
-<td>びくびくする</td>
-<td>ボールを投げたら父の車に当たってひびが入ってしまった。<br />父が気付くまでびくびくしながら部屋に隠れていた。</td>
-<td>悪いことが起こると思って、常に怖がっている様子。<br />体を震える。</td>
-</tr>
-<tr class="odd">
-<td>ひやひやする</td>
-<td>落ちてしまいそうで、背中が汗でびっしょりするぐらいひやひやした。</td>
-<td>怖い、冷たい、寒い。<br />悪いことが起こると思って不安がる様子。</td>
-</tr>
-<tr class="even">
-<td>おどおどする</td>
-<td>いつもおどおどしていないで、はきはき話しましょう。</td>
-<td>怖くて自信を無くし、落ち着かないさま。</td>
-</tr>
-<tr class="odd">
-<td>ぶるぶるする</td>
-<td>紀子先生の顔を見た子犬が、ぶるぶる震えだした。</td>
-<td>寒さや恐怖などのために震えるさま。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情３怒り">✨人の感情３怒り✨</h1>
-<blockquote>
-<p>いらいら</p>
-<p>むかむか</p>
-<p>かっ</p>
-<p>むっ</p>
-<p>ぷんぷん</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>いらいら</td>
-<td>20分待っても、注文した料理が出てこないので、イライラしてきた。</td>
-<td>思いどおりにいかなくて、神経が高ぶること。<br />いらっとする。</td>
-</tr>
-<tr class="even">
-<td>むかむか</td>
-<td>今朝、親に怒られてむかむかしている。</td>
-<td>後になってからも腹が立つ気持ち。<br />心の奥底から怒りがこみ上げてくるさま。<br />吐き気がして気持ちの悪いさま。</td>
-</tr>
-<tr class="odd">
-<td>かっ</td>
-<td>彼女は短気ですぐかっとなってしまう。</td>
-<td>急に怒り出す。<br />キレる。</td>
-</tr>
-<tr class="even">
-<td>むっ</td>
-<td>私のミスで彼女はムッとしているけど、どこが悪かったのかを教えてほしい。</td>
-<td>心の中で怒るさま。</td>
-</tr>
-<tr class="odd">
-<td>ぷんぷん</td>
-<td>もぅ。プンプンだよ。プンプン。</td>
-<td>口を膨らませながら怒っているような。<br />女の子が言う。<br />激おこぷんぷん丸。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情４いい気持ち">✨人の感情４いい気持ち✨</h1>
-<blockquote>
-<p>いきいき</p>
-<p>うきうき</p>
-<p>わくわく</p>
-<p>すっきり</p>
-<p>ほっと</p>
-</blockquote>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 47%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>いきいき</td>
-<td>彼はアニメの話になると、とてもイキイキした顔になる。</td>
-<td>明るくて元気なさま。</td>
-</tr>
-<tr class="even">
-<td>うきうき</td>
-<td>春休みの旅行のことを考えただけウキウキする。</td>
-<td>足が地面から離れてしまいそうなくらい楽しい感覚。</td>
-</tr>
-<tr class="odd">
-<td>わくわく</td>
-<td>ワクワクしながら宝くじの当選結果を確認した。</td>
-<td>これから起こることに対し期待するさま。</td>
-</tr>
-<tr class="even">
-<td>すっきり</td>
-<td>ずっと胸にためていたことを全部言葉に出せてすっきりした。</td>
-<td>余計なものがくなり、気持ちの良いさま。<br />ぐっすり寝た後とかしっかり掃除した後もよく使う。</td>
-</tr>
-<tr class="odd">
-<td>ほっと</td>
-<td>迷子になったと思っていた息子が無事に帰ってきてほっとした。</td>
-<td>よかった、胸をなでおろす感じ。<br />安心する。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情５愛">✨人の感情５愛✨</h1>
-<blockquote>
-<p>めろめろ</p>
-<p>いちゃいちゃ</p>
-<p>でれでれ</p>
-<p>ベタベタ</p>
-<p>キュン</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>めろめろ</td>
-<td>私はもう彼にメロメロなの。毎日会っても全然飽きないぐらい。</td>
-<td>愛に酔って理性を失ったさま。</td>
-</tr>
-<tr class="even">
-<td>いちゃいちゃ</td>
-<td>高校生が朝から公園でいちゃいちゃしているのを見て嫌な気持ちになった。</td>
-<td>カップル同士が人前でスキンシップをしているさま。<br />いちゃつく。</td>
-</tr>
-<tr class="odd">
-<td>でれでれ</td>
-<td>けんと先生は好きな女性の前でデレデレになるらしい。</td>
-<td>彼女、彼氏の前でだらしなくなるさま。<br />甘くなる。何でも許す。</td>
-</tr>
-<tr class="even">
-<td>ベタベタ</td>
-<td>いくら新婚でも、公共の場でベタベタ触りあうのはだめだ。</td>
-<td>主にカップルがくっつきあうさま。<br />ベタつく。</td>
-</tr>
-<tr class="odd">
-<td>キュン</td>
-<td>あなたに「愛してる」と言われるたびにキュンとするの。</td>
-<td>ときめく感情。<br />胸キュン。<br />キュンキュン</td>
-</tr>
-</tbody>
-</table>
-<h1 id="空間１余裕がない">✨空間１余裕がない✨</h1>
-<blockquote>
-<p>ぎっしり</p>
-<p>ぎゅうぎゅう</p>
-<p>ぴちぴち</p>
-<p>ぴったり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぎっしり</td>
-<td>予定がぎっしり詰まっていまして、空いているのは月曜の午前だけです。</td>
-<td>すきまなく詰まっているさま。<br />予定、荷物、知識。</td>
-</tr>
-<tr class="even">
-<td>ぎゅうぎゅう</td>
-<td>朝の地下鉄はぎゅうぎゅうでもう息も出来ないぐらいだ。</td>
-<td>無理に詰め込むさま。<br />荷物、建物、乗り物。</td>
-</tr>
-<tr class="odd">
-<td>ぴちぴち</td>
-<td>太り過ぎてシャツがぴちぴちだ。</td>
-<td>余裕がない。<br />体のラインがわかるくらい。<br />ぴったりよりきつい。<br />服によく使う。<br />新鮮さを表すときも使う。</td>
-</tr>
-<tr class="even">
-<td>ぴったり</td>
-<td>このサイズはぶかぶかです。25㎝の靴がぴったりだと思います。</td>
-<td>大きくも、小さくもなく、多くも、少ない、ちょうどいいさま。<br />時間、服、量、サイズなどに使う。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="空間２余裕がある">✨空間２余裕がある✨</h1>
-<blockquote>
-<p>がらがら</p>
-<p>すかすか</p>
-<p>ぶかぶか</p>
-<p>だぶだぶ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がらがら</td>
-<td>このサッカースタジアムはいつもガラガラだ。</td>
-<td>乗り物、建物に人がほとんどいない様子。<br />がらがらの音。<br />のどがガラガラ。</td>
-</tr>
-<tr class="even">
-<td>すかすか</td>
-<td>私のかばんは、いつもすかすかで筆箱しか入っていない。</td>
-<td>結構空間が残っていて、まだ人／物が入る。<br />本棚、箱など。</td>
-</tr>
-<tr class="odd">
-<td>ぶかぶか</td>
-<td>この子供はぶかぶかの服を着ている。</td>
-<td>身に着けている服や靴が大きすぎるてあまっているようす。<br />ちょっとだらしない。</td>
-</tr>
-<tr class="even">
-<td>だぶだぶ</td>
-<td>去年までは、ぴったりの服が流行っていたけど、最近はだぶだぶの服が人気だ。</td>
-<td>靴には使えない。<br />服が長すぎる。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="からだ１太っている">✨からだ１太っている✨</h1>
-<blockquote>
-<p>ぶよぶよ</p>
-<p>ぱんぱん</p>
-<p>ぷにぷに</p>
-<p>ぶくぶく</p>
-<p>ぽっちゃり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 49%" />
-<col style="width: 42%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぶよぶよ</td>
-<td>もうすぐ夏だから、ぷよぷよしているお腹をなくさないと。</td>
-<td>太り過ぎて肉がたるんでいる様子。</td>
-</tr>
-<tr class="even">
-<td>ぱんぱん</td>
-<td>おなかがパンパンになるあで食べ過ぎるのはあまり良くない。腹八分目がちょうど良い。</td>
-<td>お腹が破裂しそうなくらい。</td>
-</tr>
-<tr class="odd">
-<td>ぷにぷに</td>
-<td>赤ちゃんのほっぺたはぷにぷにしていて、触り心地がいい。</td>
-<td>柔らかく、弾力があるさま。</td>
-</tr>
-<tr class="even">
-<td>ぶくぶく</td>
-<td>お正月、食べ過ぎてぶくぶく太ってしまった。</td>
-<td>短い間に太っていく様子。<br />歯を磨いた後ぶくぶく。</td>
-</tr>
-<tr class="odd">
-<td>ぽっちゃり</td>
-<td>やせている女の人より、ぽっちゃりしている方が好きなんだよね。</td>
-<td>少し太っている人のことをかわいく表す言葉。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="からだ２瘦せている">✨からだ２瘦せている✨</h1>
-<blockquote>
-<p>がりがり</p>
-<p>ひょろひょろ</p>
-<p>げっそり</p>
-<p>すらっと</p>
-<p>ほっそり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がりがり</td>
-<td>あの人はがりがりだけど、たくさん食べる。</td>
-<td>骨が見えるぐらい瘦せている様子。<br />硬いものをかみ砕いた時にでる音。</td>
-</tr>
-<tr class="even">
-<td>ひょろひょろ</td>
-<td>ひょろひょろした男は筋トレをしよう。</td>
-<td>体が細長くて、力が弱い感じ。<br />もやしのような食べ物にも使う。</td>
-</tr>
-<tr class="odd">
-<td>げっそり</td>
-<td>一週間あまり食べなかったからげっそりした。</td>
-<td>疲れて顔が瘦せた感じ。<br />顔に使う表現。<br />良くない意味。</td>
-</tr>
-<tr class="even">
-<td>すらっと</td>
-<td>この人はモデルみたいにすらりとしている。うらやましい。</td>
-<td>背が高くて細い。<br />褒め言葉。<br />すらっと／すらりと。</td>
-</tr>
-<tr class="odd">
-<td>ほっそり</td>
-<td>二重あごをどうにかしたいです。顔をほっそりさせる方法を教えてください。</td>
-<td>ただスリムで細いという意味。<br />顔、足などによく使う。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="疲れ１">✨疲れ１✨</h1>
-<blockquote>
-<p>へとへと</p>
-<p>くたくた</p>
-<p>ふらふら</p>
-<p>くらくら</p>
-<p>がくがく</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>へとへと</td>
-<td>立って10時間働いた。もうへとへとで歩けないほどだ。</td>
-<td>かなり疲れた状態。<br />基本的には人に対して使う。</td>
-</tr>
-<tr class="even">
-<td>くたくた</td>
-<td>毎日残業でくたくただ。</td>
-<td>かなり疲れ状態＝へとへと<br />くたくた＜くたばる</td>
-</tr>
-<tr class="odd">
-<td>ふらふら</td>
-<td>昨日から何も食べてなくて、もうふらふらだよ。</td>
-<td>不安定に揺れるさま。<br />しっかり立っていられない。</td>
-</tr>
-<tr class="even">
-<td>くらくら</td>
-<td>最近くらくらして、吐き気がします。まるで目が回っている感じです。</td>
-<td>目まいがするさま。<br />頭がくらくらする。</td>
-</tr>
-<tr class="odd">
-<td>がくがく</td>
-<td>富士山の頂上に登った。気持ちいいが、膝ががくがくする。</td>
-<td>恐怖や疲労などで体の一部分が強く小刻み震えるさま。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="疲れ２">✨疲れ２✨</h1>
-<blockquote>
-<p>へろへろ</p>
-<p>ばたん</p>
-<p>ぐったり</p>
-<p>ばったり</p>
-<p>ぼろぼろ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>へろへろ</td>
-<td>難しい中国語の講義を3時間聞いた。もうへろへろ。</td>
-<td>見るからに弱いさま。<br />力のないさま。</td>
-</tr>
-<tr class="even">
-<td>ばたん</td>
-<td>大変です！あの人、いきなりバタンと倒れました。</td>
-<td>人や物が音を立てて倒れるさま。<br />ドアにも使える。</td>
-</tr>
-<tr class="odd">
-<td>ぐったり</td>
-<td>今日は暑すぎて、もうぐったり。これ以上動けない。</td>
-<td>疲れたり弱ったりして、力が抜けたさま。</td>
-</tr>
-<tr class="even">
-<td>ばったり</td>
-<td>今日一日中ずっと歩き回っていたので家に着いたとたんばったり倒れた。</td>
-<td>いきなり倒れたり落ちたりするさま。<br />偶然会う→ばったり会う</td>
-</tr>
-<tr class="odd">
-<td>ぼろぼろ</td>
-<td>夜勤を一ヶ月続けたら体がぼろぼろになってしまった。</td>
-<td>心身とも疲れ切っているさま。<br />車や服など物にもよく使う。</td>
 </tr>
 </tbody>
 </table>
@@ -7505,6 +6127,1220 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
+    <title>N1擬声語と擬態語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%93%AC%E5%A3%B0%E8%AA%9E%E3%81%A8%E6%93%AC%E6%85%8B%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<h1 id="擬声語擬態語">✨擬声語&amp;擬態語✨</h1>
+<hr />
+<h2 id="擬声語">擬声語</h2>
+<h3 id="聞こえる物音を表す言葉">聞こえる物音を表す言葉</h3>
+<h2 id="擬態語">擬態語</h2>
+<h3
+id="聞こえないものや身振りなどの状態を表す言葉">聞こえないものや身振りなどの状態を表す言葉</h3>
+<hr />
+<h1 id="見る">✨見る✨</h1>
+<blockquote>
+<p>きょろきょろ</p>
+<p>じっと</p>
+<p>じろじろ</p>
+<p>ちらちら</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 56%" />
+<col style="width: 32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>きょろきょろ</td>
+<td>東京に初めて来たとき、きょろきょろしていたら変な人だと思われた。</td>
+<td>いろんなところを見る様子。</td>
+</tr>
+<tr class="even">
+<td>じっと</td>
+<td>話した事もないのにじっと見てくる男の子がいます。私のことが好きなのかしら。</td>
+<td>ずっと一つのものを見ていること。</td>
+</tr>
+<tr class="odd">
+<td>じろじろ</td>
+<td>何さっきからじろじろ見ているの？本当に失礼ね。</td>
+<td>一つのもののいろんなところを見る。</td>
+</tr>
+<tr class="even">
+<td>ちらちら</td>
+<td>おい！ちらちらどこを見ているんだ！まだ授業は終わってないぞ。</td>
+<td>時々違う場所を見る。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="感じる">✨感じる✨</h1>
+<blockquote>
+<p>さらさら</p>
+<p>つるつる</p>
+<p>ふわふわ</p>
+<p>すべすべ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 54%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>さらさら</td>
+<td>美容室帰りのサラサラ髪。</td>
+<td>スムーズに指が髪の毛に通る感じ。</td>
+</tr>
+<tr class="even">
+<td>つるつる</td>
+<td>温泉に入ると肌がツルツルになりますよね！</td>
+<td>滑りやすいこと。</td>
+</tr>
+<tr class="odd">
+<td>ふわふわ</td>
+<td>干したばかりの布団はふわふわしていてとて気持ちいい。</td>
+<td>空気をいっぱい含むんで、やわらかい。</td>
+</tr>
+<tr class="even">
+<td>すべすべ</td>
+<td>赤ちゃんの肌ってほんとすべすべだよね。</td>
+<td>肌が良い状態のこと。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="感じる-２回目">✨感じる ２回目✨</h1>
+<blockquote>
+<p>ざらざら</p>
+<p>かさかさ</p>
+<p>べたべた</p>
+<p>ねばねば</p>
+<p>ぬるぬる</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ざらざら</td>
+<td>もう夏になるし、かかとのザラザラをなくしたい。</td>
+<td>硬いしなんかごそごそするし。</td>
+</tr>
+<tr class="even">
+<td>かさかさ</td>
+<td>肌が乾燥する季節突入。毎年この時期になると肌がカサカサになる。</td>
+<td>水分不足が原因の肌荒れ。落ち葉。</td>
+</tr>
+<tr class="odd">
+<td>べたべた</td>
+<td>汗でベタベタだから早くシャワーを浴びたい。</td>
+<td>気持ち悪いくらいの粘着感。<br />カップルとか人がいちゃついている時。</td>
+</tr>
+<tr class="even">
+<td>ねばねば</td>
+<td>とろろ丼とか納豆は、ねばねばしているけど健康にいいしとてもおいしい。</td>
+<td>食べ物に使うことが多いです。</td>
+</tr>
+<tr class="odd">
+<td>ぬるぬる</td>
+<td>なめこはなぜヌルヌルしているんですか？</td>
+<td>ちょっと光っていて、光沢があって、つやつやしていて、ぬめぬめ、ねばねばするもの。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="食べる">✨食べる✨</h1>
+<blockquote>
+<p>こってり</p>
+<p>あっさり</p>
+<p>さっぱり</p>
+<p>ひりひり</p>
+<p>ツーン</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 43%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>こってり</td>
+<td>こってりしたラーメンは大好きだけど、次の日が大変だからね。</td>
+<td>油が多くて、味も濃い、どろどろ。</td>
+</tr>
+<tr class="even">
+<td>あっさり</td>
+<td>でもラーメンは食べたいから、今日はあっさりしたラーメンにしとこう。</td>
+<td>「こってり」の正反対。</td>
+</tr>
+<tr class="odd">
+<td>さっぱり</td>
+<td>夏場でもレモンをかけることでさっぱりといただけます。</td>
+<td>すっきりしていて重たくなくてちょっと酸味のあるもの。冷たいものが多い。</td>
+</tr>
+<tr class="even">
+<td>ひりひり・ぴりぴり</td>
+<td>辛い物を食べたら舌がひりひりしてしょうがない。水が欲しい！</td>
+<td>熱い状態。表面が痛い、浅い痛み。やけど、日焼けの時も「ひりひり」という。</td>
+</tr>
+<tr class="odd">
+<td>ツーン</td>
+<td>わさびが入ったお寿司を食べたら、鼻がツーンと痛くなった。</td>
+<td>わさび。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="食べる-２回目">✨食べる　２回目✨</h1>
+<blockquote>
+<p>しこしこ</p>
+<p>もちもち</p>
+<p>しゃきしゃき</p>
+<p>ほかほか</p>
+<p>かりかり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>しこしこ</td>
+<td>この麵はしこしこしていてとても美味しかったです。</td>
+<td>弾力がある。嚙み応えがある。太くていっぱい嚙ないといけない。こしがある。</td>
+</tr>
+<tr class="even">
+<td>もちもち</td>
+<td>この大福すごくもちもちだよ。</td>
+<td>弾力がある。</td>
+</tr>
+<tr class="odd">
+<td>しゃきしゃき</td>
+<td>このサラダ、レタスがとてもしゃきしゃきしていておいしいです。</td>
+<td>フレッシュで水分も多い。野菜に使われることが多い。</td>
+</tr>
+<tr class="even">
+<td>ほかほか</td>
+<td>炊き立てのほかほかご飯で幸せいっぱい。</td>
+<td>あったかくて、やわらかくて、</td>
+</tr>
+<tr class="odd">
+<td>かりかり</td>
+<td>ベーコンはカリカリに焼いたほうがおいしい。</td>
+<td>しっかりと長い時間焼いて、水分が抜けた状態。かたい状態。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="食べる-３回目">✨食べる　３回目✨</h1>
+<blockquote>
+<p>がつがつ</p>
+<p>ぱくぱく</p>
+<p>もぐもぐ</p>
+<p>もりもり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 44%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>がつがつ</td>
+<td>フレンチレストランでがつがつ食べるのはやめてください。</td>
+<td>すごい勢いで食べている。欲張りなようす。</td>
+</tr>
+<tr class="even">
+<td>ぱくぱく</td>
+<td>野菜嫌いのケントも、カレーに入れるとぱくぱく食べる。</td>
+<td>元気に、嫌がらずに食べている。</td>
+</tr>
+<tr class="odd">
+<td>もぐもぐ</td>
+<td>口をもぐもぐさせてる。</td>
+<td>口に物を入れて動かしている（嚙んでいる）状態。口の中にたくさん入れているような感じ！</td>
+</tr>
+<tr class="even">
+<td>もりもり</td>
+<td>モリモリ食べて暑さを吹き飛ばしましょう！</td>
+<td>元気よくたくさん食べている状態。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="飲む">✨飲む✨</h1>
+<blockquote>
+<p>ぐっと</p>
+<p>ごくごく</p>
+<p>ちびちび</p>
+<p>がぶがぶ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぐっと</td>
+<td>皆：はい！一気！一気！一気！<br />部長：君もぐっと飲んで。ぐっとぐっと！</td>
+<td>勢いがあって一気に。</td>
+</tr>
+<tr class="even">
+<td>ごくごく</td>
+<td>ごくごくとおいしそうに飲むね。私も飲みたくなっちゃったよ。</td>
+<td>のどを鳴らしておいしそうに飲む様子。</td>
+</tr>
+<tr class="odd">
+<td>ちびちび</td>
+<td>のりこ：けんとくん！ちびちび飲んでないで、男らしくぐっとね！<br />けんと：あ、お酒に弱いので。</td>
+<td>酒などを少しずつ飲む様子。少しずつ楽しみながら飲む。</td>
+</tr>
+<tr class="even">
+<td>がぶがぶ</td>
+<td>試合後、シン選手は水をがぶがぶと飲み始めた。</td>
+<td>水を大量に飲む感じ（カバのように）。<br />口を大きく開けてたくさん入れる。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="言う">✨言う✨</h1>
+<blockquote>
+<p>おずおず</p>
+<p>がんがん</p>
+<p>ぶつぶつ</p>
+<p>べらべら</p>
+<p>ぼそぼそ</p>
+<p>くどくど</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>おずおず</td>
+<td>「あの、すみません。私がこのパソコン壊しました。」と彼はおずおず言った。</td>
+<td>言い難そうな様子。申し訳なさそうな感じ。</td>
+</tr>
+<tr class="even">
+<td>がんがん</td>
+<td>そんなにガンガン言われたら、やる気もなくなっちゃうよ。</td>
+<td>ずっと続けて、何度も強く言う。</td>
+</tr>
+<tr class="odd">
+<td>ぶつぶつ</td>
+<td>彼はいつも仕事中ぶつぶつと独り言を言っている。</td>
+<td>周りに聞こえないような感じ。<br />文句や不満を言う。</td>
+</tr>
+<tr class="even">
+<td>べらべら</td>
+<td>秘密をベラベラしゃべる人は、信用できません。</td>
+<td>何でもいっぱいしゃべる人。</td>
+</tr>
+<tr class="odd">
+<td>ぼそぼそ</td>
+<td>下を向いてぼそぼそ話していると、何が言いたいのか、わかりません。</td>
+<td>音が小さいだけ。</td>
+</tr>
+<tr class="even">
+<td>くどくど</td>
+<td>くどくどと何回もしつこいわよ！</td>
+<td>何回もしつこく言うこと。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="寝る">✨寝る✨</h1>
+<blockquote>
+<p>うとうと</p>
+<p>ぐうぐう</p>
+<p>すやすや</p>
+<p>ぐっすり</p>
+<p>こっくりこっくり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 50%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>うとうと</td>
+<td>授業中にうとうとしていると体がビクッとなってしまった。</td>
+<td>ちょっとの間浅く寝るさま。浅い。</td>
+</tr>
+<tr class="even">
+<td>ぐうぐう</td>
+<td>猫ってぐうぐう寝るの？あまり音出さない気がするけど。</td>
+<td>寝ているときの音。<br />お腹が空いたとき。</td>
+</tr>
+<tr class="odd">
+<td>すやすや</td>
+<td>子供がすやすやと寝る姿を見ると育児の疲れも吹っ飛びます。</td>
+<td>静かで穏やかな眠り。</td>
+</tr>
+<tr class="even">
+<td>ぐっすり</td>
+<td>最近、寝ても疲れが取れないのです。ぐっすり寝る方法を教えてください。</td>
+<td>深い。</td>
+</tr>
+<tr class="odd">
+<td>こっくりこっくり</td>
+<td>彼は夜の電車のつり革にぶら下がりながらこっくりこっくりしている。</td>
+<td>頭が揺れながら寝ている状態。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き１早い">✨動き１早い✨</h1>
+<blockquote>
+<p>さっさと</p>
+<p>すらすら</p>
+<p>てきぱき</p>
+<p>はきはき</p>
+<p>きびきび</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>さっさと</td>
+<td>明日は試験だよ！いつまでも寝てないでさっさと勉強しなさい！</td>
+<td>時間を無駄にせずに早く動く様子。</td>
+</tr>
+<tr class="even">
+<td>すらすら</td>
+<td>日本語を勉強し、思ったことをすらすら言えるようになりたい。</td>
+<td>話し方が流暢。ぺらぺら。<br />止まらず、スムーズにこなすこと。</td>
+</tr>
+<tr class="odd">
+<td>てきぱき</td>
+<td>仕事がテキパキ出来る人ってうらやましい。私もそうなりたいな。</td>
+<td>効率的に仕事をする様子動作やものごと。</td>
+</tr>
+<tr class="even">
+<td>はきはき</td>
+<td>のりこさんはいつもはきはきしていますね。</td>
+<td>はっきりして、元気な。</td>
+</tr>
+<tr class="odd">
+<td>きびきび</td>
+<td>店長に怒られないようにきびきび働く。</td>
+<td>すごく元気でいきいきしていて、きもちがよいさま、動作や態度。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き２遅い">✨動き２遅い✨</h1>
+<blockquote>
+<p>のろのろ</p>
+<p>ゆっくり</p>
+<p>のんびり</p>
+<p>だらだら</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>のろのろ</td>
+<td>最近駅でのろのろ歩きながらスマホをしている人が多くて、よく人ぶつかります。</td>
+<td>遅い状態。動きが鈍い様子。</td>
+</tr>
+<tr class="even">
+<td>ゆっくり</td>
+<td>慌てないで。落ち着いて、ゆっくり話して。</td>
+<td>遅くてゆとり、余裕があるさま。</td>
+</tr>
+<tr class="odd">
+<td>のんびり</td>
+<td>今日は日曜日だし、ベランダ日差しでも浴びながらのんびり、まったりと時間を過ごそうと～</td>
+<td>時間に余裕があってゆっくりすることができる。</td>
+</tr>
+<tr class="even">
+<td>だらだら</td>
+<td>だらだらした生活から抜け出し、充実した生活を送りたい。</td>
+<td>適当にという感じ。生活リズムが乱れているような様子。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き３歩く">✨動き３歩く✨</h1>
+<blockquote>
+<p>ぶらぶら</p>
+<p>よたよた</p>
+<p>とぼとぼ</p>
+<p>よちよち</p>
+<p>すたすた</p>
+<p>てくてく</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぶらぶら</td>
+<td>家の近くでぶらぶらしていたら、ケント君にばったりあった。</td>
+<td>別の目的がなくのんびりと歩くさま。<br />ぶらぶら遊ぶ（悪い意味）<br />ふらふら→力が入らなかったりして体が揺れ動くさま。</td>
+</tr>
+<tr class="even">
+<td>よたよた</td>
+<td>赤ちゃんがよたよたと歩いている。可愛い！</td>
+<td>足がふらふらして危ないさま。<br />お年寄り<br />疲れている人にも使う。</td>
+</tr>
+<tr class="odd">
+<td>とぼとぼ</td>
+<td>彼は好きな人に告白したが、きっぱり断わられ、とぼとぼと家まで歩いて行った。</td>
+<td>元気がなく寂しそうに歩くさま。</td>
+</tr>
+<tr class="even">
+<td>よちよち</td>
+<td>赤ちゃんがよちよち歩く姿はとてもかわいい。</td>
+<td>小股で歩く様子。</td>
+</tr>
+<tr class="odd">
+<td>すたすた</td>
+<td>田舎の人はのろのろと歩くが、東京の人はすたすたと歩く。</td>
+<td>わき目もふらず、早く歩くさま。</td>
+</tr>
+<tr class="even">
+<td>てくてく</td>
+<td>学校終わりの小学生が帰り道をテクテク歩いている。</td>
+<td>乗り物に乗らずひたすら歩くさま。<br />歩いている時以外には使わない。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の動き４">✨人の動き４✨</h1>
+<blockquote>
+<p>うろうろ</p>
+<p>こそこそ</p>
+<p>こつこつ</p>
+<p>せっせと</p>
+<p>ぺこぺこ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>うろうろ</td>
+<td>知らない男の人が家の前をうろうろしていて、なんだか気味が悪い。</td>
+<td>歩き回る様子。怪しい、怖い。<br />目的は無い。意味も無く、理由も無く。</td>
+</tr>
+<tr class="even">
+<td>こそこそ</td>
+<td>親に隠れて、コソコソとゲームをやっていたがばれてしまった。</td>
+<td>人に知られないようにひそかに物事をするさま。<br />こそこそと話す。</td>
+</tr>
+<tr class="odd">
+<td>こつこつ</td>
+<td>コツコツ練習したら、上手になるよ。</td>
+<td>地道に、ちょっとずつ、毎日続ける。努力する様子。</td>
+</tr>
+<tr class="even">
+<td>せっせと</td>
+<td>日曜日も休まず、せっせと働く。</td>
+<td>休まずに一生懸命に事を行うさま。</td>
+</tr>
+<tr class="odd">
+<td>ぺこぺこ</td>
+<td>彼は出世のため、いつも上司にも部下にもぺこぺこしている。</td>
+<td>頭を何度も下げる様子。<br />お腹ぺこぺこ。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の動き５落ち着かない">✨人の動き５落ち着かない✨</h1>
+<blockquote>
+<p>あたふた</p>
+<p>ばたばた</p>
+<p>そわそわ</p>
+<p>そそくさ</p>
+<p>ぐずぐず</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>あたふた</td>
+<td>「5分後にお客さん来るよ。」と聞いた紀子先生は、あたふたしながら掃除を始めた。</td>
+<td>慌てているが急いで行動しているさま。</td>
+</tr>
+<tr class="even">
+<td>ばたばた</td>
+<td>やっと仕事が終わった。今日は朝からずっとばたばたしていた。</td>
+<td>歩き回りながら忙しくて慌てている様子。</td>
+</tr>
+<tr class="odd">
+<td>そわそわ</td>
+<td>授業の終わりが近づくと、学生たちは授業に集中せず、そわそわし始めた。</td>
+<td>落ち着かない様子。<br />他のことが気になって、心が落ち着かないさま。<br />ドキドキ似ている。</td>
+</tr>
+<tr class="even">
+<td>そそくさ</td>
+<td>友達がいない彼は、大学の授業が終わったとたんそそくさと帰った。</td>
+<td>すぐに。硬い表現。</td>
+</tr>
+<tr class="odd">
+<td>ぐずぐず</td>
+<td>母：ぐずぐずしているとおいていくよ！</td>
+<td>動きがのろくてあまり物事が進まないさま。<br />子供に使うことが多い。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情１驚き">✨人の感情１驚き✨</h1>
+<blockquote>
+<p>どきっとする</p>
+<p>はっとする</p>
+<p>どきどきする</p>
+<p>ぽかんとする</p>
+<p>ぎょっとする</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>どきっとする</td>
+<td>男性は髪の長い女性にドキッとすることが多い。</td>
+<td>興奮しらり、驚いたりしていきなり心臓を打つさま。<br />どっきり</td>
+</tr>
+<tr class="even">
+<td>はっとする</td>
+<td>バスでうとうとしていたけど、アナウンスではっと目覚めたらちょうど目的地だった。</td>
+<td>何かを急に気づいて驚くさま。<br />「ハッ」は息の音</td>
+</tr>
+<tr class="odd">
+<td>どきどきする</td>
+<td>何回も練習したけど、人前に立って話し始めたらどきどきして大変だった。</td>
+<td>緊張、運動、不安で、心臓が早く強く打つ様子。</td>
+</tr>
+<tr class="even">
+<td>ぽかんとする</td>
+<td>いつも口をぽかんと開けていたら、だらしないよ。</td>
+<td>驚いて口が開いている様子。</td>
+</tr>
+<tr class="odd">
+<td>ぎょっとする</td>
+<td>鏡を見ながら髪を直していたら、後ろに紀子先生がいてぎょっとした。</td>
+<td>考えてもなかったことがいきなり起こって驚いたり怖いがる様。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情２怖い">✨人の感情２怖い✨</h1>
+<blockquote>
+<p>ぞっとする</p>
+<p>びくびくする</p>
+<p>ひやひやする</p>
+<p>おどおどする</p>
+<p>ぶるぶるする</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぞっとする</td>
+<td>私は高いところが怖いので、12階から見下ろすとぞっとする。</td>
+<td>寒さや恐怖で背筋が寒くなるさま。<br />「かんがえだけで」、「想像しただけで」と一緒に使うことが多い。</td>
+</tr>
+<tr class="even">
+<td>びくびくする</td>
+<td>ボールを投げたら父の車に当たってひびが入ってしまった。<br />父が気付くまでびくびくしながら部屋に隠れていた。</td>
+<td>悪いことが起こると思って、常に怖がっている様子。<br />体を震える。</td>
+</tr>
+<tr class="odd">
+<td>ひやひやする</td>
+<td>落ちてしまいそうで、背中が汗でびっしょりするぐらいひやひやした。</td>
+<td>怖い、冷たい、寒い。<br />悪いことが起こると思って不安がる様子。</td>
+</tr>
+<tr class="even">
+<td>おどおどする</td>
+<td>いつもおどおどしていないで、はきはき話しましょう。</td>
+<td>怖くて自信を無くし、落ち着かないさま。</td>
+</tr>
+<tr class="odd">
+<td>ぶるぶるする</td>
+<td>紀子先生の顔を見た子犬が、ぶるぶる震えだした。</td>
+<td>寒さや恐怖などのために震えるさま。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情３怒り">✨人の感情３怒り✨</h1>
+<blockquote>
+<p>いらいら</p>
+<p>むかむか</p>
+<p>かっ</p>
+<p>むっ</p>
+<p>ぷんぷん</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>いらいら</td>
+<td>20分待っても、注文した料理が出てこないので、イライラしてきた。</td>
+<td>思いどおりにいかなくて、神経が高ぶること。<br />いらっとする。</td>
+</tr>
+<tr class="even">
+<td>むかむか</td>
+<td>今朝、親に怒られてむかむかしている。</td>
+<td>後になってからも腹が立つ気持ち。<br />心の奥底から怒りがこみ上げてくるさま。<br />吐き気がして気持ちの悪いさま。</td>
+</tr>
+<tr class="odd">
+<td>かっ</td>
+<td>彼女は短気ですぐかっとなってしまう。</td>
+<td>急に怒り出す。<br />キレる。</td>
+</tr>
+<tr class="even">
+<td>むっ</td>
+<td>私のミスで彼女はムッとしているけど、どこが悪かったのかを教えてほしい。</td>
+<td>心の中で怒るさま。</td>
+</tr>
+<tr class="odd">
+<td>ぷんぷん</td>
+<td>もぅ。プンプンだよ。プンプン。</td>
+<td>口を膨らませながら怒っているような。<br />女の子が言う。<br />激おこぷんぷん丸。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情４いい気持ち">✨人の感情４いい気持ち✨</h1>
+<blockquote>
+<p>いきいき</p>
+<p>うきうき</p>
+<p>わくわく</p>
+<p>すっきり</p>
+<p>ほっと</p>
+</blockquote>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>いきいき</td>
+<td>彼はアニメの話になると、とてもイキイキした顔になる。</td>
+<td>明るくて元気なさま。</td>
+</tr>
+<tr class="even">
+<td>うきうき</td>
+<td>春休みの旅行のことを考えただけウキウキする。</td>
+<td>足が地面から離れてしまいそうなくらい楽しい感覚。</td>
+</tr>
+<tr class="odd">
+<td>わくわく</td>
+<td>ワクワクしながら宝くじの当選結果を確認した。</td>
+<td>これから起こることに対し期待するさま。</td>
+</tr>
+<tr class="even">
+<td>すっきり</td>
+<td>ずっと胸にためていたことを全部言葉に出せてすっきりした。</td>
+<td>余計なものがくなり、気持ちの良いさま。<br />ぐっすり寝た後とかしっかり掃除した後もよく使う。</td>
+</tr>
+<tr class="odd">
+<td>ほっと</td>
+<td>迷子になったと思っていた息子が無事に帰ってきてほっとした。</td>
+<td>よかった、胸をなでおろす感じ。<br />安心する。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情５愛">✨人の感情５愛✨</h1>
+<blockquote>
+<p>めろめろ</p>
+<p>いちゃいちゃ</p>
+<p>でれでれ</p>
+<p>ベタベタ</p>
+<p>キュン</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>めろめろ</td>
+<td>私はもう彼にメロメロなの。毎日会っても全然飽きないぐらい。</td>
+<td>愛に酔って理性を失ったさま。</td>
+</tr>
+<tr class="even">
+<td>いちゃいちゃ</td>
+<td>高校生が朝から公園でいちゃいちゃしているのを見て嫌な気持ちになった。</td>
+<td>カップル同士が人前でスキンシップをしているさま。<br />いちゃつく。</td>
+</tr>
+<tr class="odd">
+<td>でれでれ</td>
+<td>けんと先生は好きな女性の前でデレデレになるらしい。</td>
+<td>彼女、彼氏の前でだらしなくなるさま。<br />甘くなる。何でも許す。</td>
+</tr>
+<tr class="even">
+<td>ベタベタ</td>
+<td>いくら新婚でも、公共の場でベタベタ触りあうのはだめだ。</td>
+<td>主にカップルがくっつきあうさま。<br />ベタつく。</td>
+</tr>
+<tr class="odd">
+<td>キュン</td>
+<td>あなたに「愛してる」と言われるたびにキュンとするの。</td>
+<td>ときめく感情。<br />胸キュン。<br />キュンキュン</td>
+</tr>
+</tbody>
+</table>
+<h1 id="空間１余裕がない">✨空間１余裕がない✨</h1>
+<blockquote>
+<p>ぎっしり</p>
+<p>ぎゅうぎゅう</p>
+<p>ぴちぴち</p>
+<p>ぴったり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぎっしり</td>
+<td>予定がぎっしり詰まっていまして、空いているのは月曜の午前だけです。</td>
+<td>すきまなく詰まっているさま。<br />予定、荷物、知識。</td>
+</tr>
+<tr class="even">
+<td>ぎゅうぎゅう</td>
+<td>朝の地下鉄はぎゅうぎゅうでもう息も出来ないぐらいだ。</td>
+<td>無理に詰め込むさま。<br />荷物、建物、乗り物。</td>
+</tr>
+<tr class="odd">
+<td>ぴちぴち</td>
+<td>太り過ぎてシャツがぴちぴちだ。</td>
+<td>余裕がない。<br />体のラインがわかるくらい。<br />ぴったりよりきつい。<br />服によく使う。<br />新鮮さを表すときも使う。</td>
+</tr>
+<tr class="even">
+<td>ぴったり</td>
+<td>このサイズはぶかぶかです。25㎝の靴がぴったりだと思います。</td>
+<td>大きくも、小さくもなく、多くも、少ない、ちょうどいいさま。<br />時間、服、量、サイズなどに使う。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="空間２余裕がある">✨空間２余裕がある✨</h1>
+<blockquote>
+<p>がらがら</p>
+<p>すかすか</p>
+<p>ぶかぶか</p>
+<p>だぶだぶ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>がらがら</td>
+<td>このサッカースタジアムはいつもガラガラだ。</td>
+<td>乗り物、建物に人がほとんどいない様子。<br />がらがらの音。<br />のどがガラガラ。</td>
+</tr>
+<tr class="even">
+<td>すかすか</td>
+<td>私のかばんは、いつもすかすかで筆箱しか入っていない。</td>
+<td>結構空間が残っていて、まだ人／物が入る。<br />本棚、箱など。</td>
+</tr>
+<tr class="odd">
+<td>ぶかぶか</td>
+<td>この子供はぶかぶかの服を着ている。</td>
+<td>身に着けている服や靴が大きすぎるてあまっているようす。<br />ちょっとだらしない。</td>
+</tr>
+<tr class="even">
+<td>だぶだぶ</td>
+<td>去年までは、ぴったりの服が流行っていたけど、最近はだぶだぶの服が人気だ。</td>
+<td>靴には使えない。<br />服が長すぎる。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="からだ１太っている">✨からだ１太っている✨</h1>
+<blockquote>
+<p>ぶよぶよ</p>
+<p>ぱんぱん</p>
+<p>ぷにぷに</p>
+<p>ぶくぶく</p>
+<p>ぽっちゃり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 49%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぶよぶよ</td>
+<td>もうすぐ夏だから、ぷよぷよしているお腹をなくさないと。</td>
+<td>太り過ぎて肉がたるんでいる様子。</td>
+</tr>
+<tr class="even">
+<td>ぱんぱん</td>
+<td>おなかがパンパンになるあで食べ過ぎるのはあまり良くない。腹八分目がちょうど良い。</td>
+<td>お腹が破裂しそうなくらい。</td>
+</tr>
+<tr class="odd">
+<td>ぷにぷに</td>
+<td>赤ちゃんのほっぺたはぷにぷにしていて、触り心地がいい。</td>
+<td>柔らかく、弾力があるさま。</td>
+</tr>
+<tr class="even">
+<td>ぶくぶく</td>
+<td>お正月、食べ過ぎてぶくぶく太ってしまった。</td>
+<td>短い間に太っていく様子。<br />歯を磨いた後ぶくぶく。</td>
+</tr>
+<tr class="odd">
+<td>ぽっちゃり</td>
+<td>やせている女の人より、ぽっちゃりしている方が好きなんだよね。</td>
+<td>少し太っている人のことをかわいく表す言葉。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="からだ２瘦せている">✨からだ２瘦せている✨</h1>
+<blockquote>
+<p>がりがり</p>
+<p>ひょろひょろ</p>
+<p>げっそり</p>
+<p>すらっと</p>
+<p>ほっそり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>がりがり</td>
+<td>あの人はがりがりだけど、たくさん食べる。</td>
+<td>骨が見えるぐらい瘦せている様子。<br />硬いものをかみ砕いた時にでる音。</td>
+</tr>
+<tr class="even">
+<td>ひょろひょろ</td>
+<td>ひょろひょろした男は筋トレをしよう。</td>
+<td>体が細長くて、力が弱い感じ。<br />もやしのような食べ物にも使う。</td>
+</tr>
+<tr class="odd">
+<td>げっそり</td>
+<td>一週間あまり食べなかったからげっそりした。</td>
+<td>疲れて顔が瘦せた感じ。<br />顔に使う表現。<br />良くない意味。</td>
+</tr>
+<tr class="even">
+<td>すらっと</td>
+<td>この人はモデルみたいにすらりとしている。うらやましい。</td>
+<td>背が高くて細い。<br />褒め言葉。<br />すらっと／すらりと。</td>
+</tr>
+<tr class="odd">
+<td>ほっそり</td>
+<td>二重あごをどうにかしたいです。顔をほっそりさせる方法を教えてください。</td>
+<td>ただスリムで細いという意味。<br />顔、足などによく使う。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="疲れ１">✨疲れ１✨</h1>
+<blockquote>
+<p>へとへと</p>
+<p>くたくた</p>
+<p>ふらふら</p>
+<p>くらくら</p>
+<p>がくがく</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>へとへと</td>
+<td>立って10時間働いた。もうへとへとで歩けないほどだ。</td>
+<td>かなり疲れた状態。<br />基本的には人に対して使う。</td>
+</tr>
+<tr class="even">
+<td>くたくた</td>
+<td>毎日残業でくたくただ。</td>
+<td>かなり疲れ状態＝へとへと<br />くたくた＜くたばる</td>
+</tr>
+<tr class="odd">
+<td>ふらふら</td>
+<td>昨日から何も食べてなくて、もうふらふらだよ。</td>
+<td>不安定に揺れるさま。<br />しっかり立っていられない。</td>
+</tr>
+<tr class="even">
+<td>くらくら</td>
+<td>最近くらくらして、吐き気がします。まるで目が回っている感じです。</td>
+<td>目まいがするさま。<br />頭がくらくらする。</td>
+</tr>
+<tr class="odd">
+<td>がくがく</td>
+<td>富士山の頂上に登った。気持ちいいが、膝ががくがくする。</td>
+<td>恐怖や疲労などで体の一部分が強く小刻み震えるさま。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="疲れ２">✨疲れ２✨</h1>
+<blockquote>
+<p>へろへろ</p>
+<p>ばたん</p>
+<p>ぐったり</p>
+<p>ばったり</p>
+<p>ぼろぼろ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>へろへろ</td>
+<td>難しい中国語の講義を3時間聞いた。もうへろへろ。</td>
+<td>見るからに弱いさま。<br />力のないさま。</td>
+</tr>
+<tr class="even">
+<td>ばたん</td>
+<td>大変です！あの人、いきなりバタンと倒れました。</td>
+<td>人や物が音を立てて倒れるさま。<br />ドアにも使える。</td>
+</tr>
+<tr class="odd">
+<td>ぐったり</td>
+<td>今日は暑すぎて、もうぐったり。これ以上動けない。</td>
+<td>疲れたり弱ったりして、力が抜けたさま。</td>
+</tr>
+<tr class="even">
+<td>ばったり</td>
+<td>今日一日中ずっと歩き回っていたので家に着いたとたんばったり倒れた。</td>
+<td>いきなり倒れたり落ちたりするさま。<br />偶然会う→ばったり会う</td>
+</tr>
+<tr class="odd">
+<td>ぼろぼろ</td>
+<td>夜勤を一ヶ月続けたら体がぼろぼろになってしまった。</td>
+<td>心身とも疲れ切っているさま。<br />車や服など物にもよく使う。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>N2動詞</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
     <content><![CDATA[<hr />
@@ -8667,6 +8503,155 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
 資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
 <h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
 ドアのところに私の傘を置かせていただいてもいいですか。</h3>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>省略語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<h1 id="文末的省略">① 文末的省略</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>どちらへ（おでかけですか）?/您去哪儿？</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>どうぞこちらへ（来てください）。/请到这边来。</td>
+</tr>
+<tr class="even">
+<td>お先に（失礼します）。/我先告辞了。</td>
+</tr>
+<tr class="odd">
+<td>李さんと食事したら（いいですか）/和小李一起吃饭（怎么样）</td>
+</tr>
+<tr class="even">
+<td>つまらないものですが…（どうぞお受け取りください）/小小意思不成敬意，（请您收下）。</td>
+</tr>
+<tr class="odd">
+<td>买いたいことは买いたいですけど…（お金がない）/买是想买，（就是没有钱）。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="结合前后文和助词">结合前后文和助词</h2>
+<hr />
+<h1 id="语法的省略">② 语法的省略</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 20%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>もとの形</th>
+<th>会話の形</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>～てください</td>
+<td>～て</td>
+<td>请（做）……</td>
+</tr>
+<tr class="even">
+<td>～たらどう？</td>
+<td>～たら？</td>
+<td>做……的话怎么样</td>
+</tr>
+<tr class="odd">
+<td>～といい／ならいい／ばいい。</td>
+<td>～と／なら／ば</td>
+<td>如果……的话就好了/就可以了</td>
+</tr>
+<tr class="even">
+<td>～ないといけない。</td>
+<td>～ないと</td>
+<td>不……的话就……</td>
+</tr>
+<tr class="odd">
+<td>～なくてもいい</td>
+<td>～なくても</td>
+<td>不……也可以</td>
+</tr>
+<tr class="even">
+<td>～てもしかたがない</td>
+<td>～ても</td>
+<td>就算……也没有用</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="以副词结句的省略">③ 以副词结句的省略</h1>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>否定</th>
+<th>なかなか、ぜんぜん、どうしても、別に、特に...</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>時間</td>
+<td>今すぐ、直ちに、そろそろ...</td>
+</tr>
+<tr class="even">
+<td>意志</td>
+<td>ぜひ、必ず、絶対...</td>
+</tr>
+<tr class="odd">
+<td>その他</td>
+<td>大体、確かに、ちょっと...</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="補充">④ 補充</h1>
+<hr />
+<h1 id="きゃじゃちゃ">「きゃ」「じゃ」「ちゃ」</h1>
+<p>【１】</p>
+<p>ちゃ・じゃ・きゃ</p>
+<p>～てはいけない → ～ちゃいけない</p>
+<p>～ではいけない → ～じゃいけない</p>
+<p>例：</p>
+<p>食べてはいけない → 食べちゃいけない</p>
+<p>【２】</p>
+<p>～てしまう → ～ちゃう</p>
+<p>～でしまう → ～じゃう</p>
+<p>例：</p>
+<p>食べてしまう → 食べちゃう</p>
+<p>【３】</p>
+<p>～なくてはいけない → ～なくちゃいけない</p>
+<p>～なければならない → ～なきゃならない</p>
+<p>例：</p>
+<p>食べなくてはいけない → 食べなくちゃ（いけない）</p>
+<p>食べなければならない → 食べなきゃ（ならない）</p>
+<h1 id="しといた">「しといた」</h1>
+<p>「しといた」は「しておいた」が縮まった口語かと思います。</p>
+<p>「しておいた」は「しておく」の過去形</p>
+<p>「～ておく」は、後に予定されている何かのために、あらかじめ準備する場合に使います。</p>
+<p>「昨日しといた」は「昨日のうちに、(おそらく今日以降発生する何かのために)準備のためにやりました」ということです。</p>
+<p>たとえば</p>
+<p>「レストランを予約しておいたよ(予約しといたよ)」</p>
+<p>「お昼ごはん作っておいたから(作っといたから)、あとで食べてね」</p>
+<h1 id="だって">「だって」</h1>
+<p>だって</p>
+<p>放在句首，相当于 なぜなら</p>
+<p>放在句中，相当于 でも</p>
+<p>放在句尾，相当于 という</p>
 <hr />
 ]]></content>
       <categories>
@@ -13000,155 +12985,6 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
-    <title>省略語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<h1 id="文末的省略">① 文末的省略</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>どちらへ（おでかけですか）?/您去哪儿？</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>どうぞこちらへ（来てください）。/请到这边来。</td>
-</tr>
-<tr class="even">
-<td>お先に（失礼します）。/我先告辞了。</td>
-</tr>
-<tr class="odd">
-<td>李さんと食事したら（いいですか）/和小李一起吃饭（怎么样）</td>
-</tr>
-<tr class="even">
-<td>つまらないものですが…（どうぞお受け取りください）/小小意思不成敬意，（请您收下）。</td>
-</tr>
-<tr class="odd">
-<td>买いたいことは买いたいですけど…（お金がない）/买是想买，（就是没有钱）。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="结合前后文和助词">结合前后文和助词</h2>
-<hr />
-<h1 id="语法的省略">② 语法的省略</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 41%" />
-<col style="width: 20%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>もとの形</th>
-<th>会話の形</th>
-<th>意味</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>～てください</td>
-<td>～て</td>
-<td>请（做）……</td>
-</tr>
-<tr class="even">
-<td>～たらどう？</td>
-<td>～たら？</td>
-<td>做……的话怎么样</td>
-</tr>
-<tr class="odd">
-<td>～といい／ならいい／ばいい。</td>
-<td>～と／なら／ば</td>
-<td>如果……的话就好了/就可以了</td>
-</tr>
-<tr class="even">
-<td>～ないといけない。</td>
-<td>～ないと</td>
-<td>不……的话就……</td>
-</tr>
-<tr class="odd">
-<td>～なくてもいい</td>
-<td>～なくても</td>
-<td>不……也可以</td>
-</tr>
-<tr class="even">
-<td>～てもしかたがない</td>
-<td>～ても</td>
-<td>就算……也没有用</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="以副词结句的省略">③ 以副词结句的省略</h1>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>否定</th>
-<th>なかなか、ぜんぜん、どうしても、別に、特に...</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>時間</td>
-<td>今すぐ、直ちに、そろそろ...</td>
-</tr>
-<tr class="even">
-<td>意志</td>
-<td>ぜひ、必ず、絶対...</td>
-</tr>
-<tr class="odd">
-<td>その他</td>
-<td>大体、確かに、ちょっと...</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="補充">④ 補充</h1>
-<hr />
-<h1 id="きゃじゃちゃ">「きゃ」「じゃ」「ちゃ」</h1>
-<p>【１】</p>
-<p>ちゃ・じゃ・きゃ</p>
-<p>～てはいけない → ～ちゃいけない</p>
-<p>～ではいけない → ～じゃいけない</p>
-<p>例：</p>
-<p>食べてはいけない → 食べちゃいけない</p>
-<p>【２】</p>
-<p>～てしまう → ～ちゃう</p>
-<p>～でしまう → ～じゃう</p>
-<p>例：</p>
-<p>食べてしまう → 食べちゃう</p>
-<p>【３】</p>
-<p>～なくてはいけない → ～なくちゃいけない</p>
-<p>～なければならない → ～なきゃならない</p>
-<p>例：</p>
-<p>食べなくてはいけない → 食べなくちゃ（いけない）</p>
-<p>食べなければならない → 食べなきゃ（ならない）</p>
-<h1 id="しといた">「しといた」</h1>
-<p>「しといた」は「しておいた」が縮まった口語かと思います。</p>
-<p>「しておいた」は「しておく」の過去形</p>
-<p>「～ておく」は、後に予定されている何かのために、あらかじめ準備する場合に使います。</p>
-<p>「昨日しといた」は「昨日のうちに、(おそらく今日以降発生する何かのために)準備のためにやりました」ということです。</p>
-<p>たとえば</p>
-<p>「レストランを予約しておいたよ(予約しといたよ)」</p>
-<p>「お昼ごはん作っておいたから(作っといたから)、あとで食べてね」</p>
-<h1 id="だって">「だって」</h1>
-<p>だって</p>
-<p>放在句首，相当于 なぜなら</p>
-<p>放在句中，相当于 でも</p>
-<p>放在句尾，相当于 という</p>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
     <title>連濁と促音と半濁音</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%80%A3%E6%BF%81%E3%81%A8%E4%BF%83%E9%9F%B3%E3%81%A8%E5%8D%8A%E6%BF%81%E9%9F%B3/</url>
     <content><![CDATA[<h1 id="section"></h1>
@@ -14147,6 +13983,168 @@ id="つは行くっは行ぱ行">「つ」＋「は行」、「く」→「っ�
       <categories>
         <category>日本語</category>
         <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>通情過去問の解答A-1</title>
+    <url>/%E9%81%8E%E5%8E%BB%E5%95%8F/%E5%B0%82%E9%96%80%E5%9F%BA%E7%A4%8EA/%E9%80%9A%E6%83%85%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94A-1/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">2020問題</h1>
+<p>下記のすべての問に答えよ．</p>
+<p>（１）下記の問に答えよ．</p>
+<p>​ （a）次の極限を求めよ．</p>
+<p><span class="math display">\[
+\lim _{x \rightarrow 0}\frac{\sin x}{x}
+\]</span> ​ （ｂ）次の極限を求めよ．</p>
+<p><span class="math display">\[
+\lim _{x \rightarrow 0}\left(\frac{1}{\sin ^2 x}-\frac{1}{x^2}\right)
+\]</span> ​
+（ｃ）次の極方程式で表される直交座標系での曲線を図示せよ．</p>
+<p><span class="math display">\[
+r = 1 + \cos \theta
+\]</span> ​ （ｄ）問（ｃ）の曲線で囲まれる面積を求めよ．</p>
+<p>（2）下記の問に答えよ．ただし,行列<span
+class="math inline">\(A_3,A_4\)</span>は次式で与えられる．</p>
+<p><span class="math display">\[
+\begin{align}
+A_3=
+\begin{bmatrix}
+1 &amp; a &amp; a^2 \\
+1 &amp; b &amp; b^2 \\
+1 &amp; c &amp; c^2
+\end{bmatrix}
+\qquad
+A_4=
+\begin{bmatrix}
+1 &amp; a &amp; a^2 &amp;a^3\\
+1 &amp; b &amp; b^2 &amp;b^3\\
+1 &amp; c &amp; c^2 &amp;c^3\\
+1 &amp; d &amp; d^2 &amp;d^3
+\end{bmatrix}
+\end{align}
+\]</span> ​ （a）<span
+class="math inline">\({A_3}^{-1}\)</span>を求めよ．</p>
+<p>​ （ｂ）行列式<span
+class="math inline">\(\det(A_4)\)</span>を求めよ．因数分解した形にすること．</p>
+<hr />
+<h1 id="解答">2020解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\lim _{x \rightarrow 0}\frac{\sin x}{x}=\lim _{x \rightarrow
+0}\frac{(\sin x)^{&#39;}}{x^{&#39;}}=\lim _{x \rightarrow 0}\frac{\cos
+x}{1}=\lim _{x \rightarrow 0}{\cos x}=1
+\]</span> ​ （ｂ） <span class="math display">\[
+\begin{align}
+f(x)&amp;=\lim _{x \rightarrow 0}\left(\frac{1}{\sin ^2
+x}-\frac{1}{x^2}\right)\\
+&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x - x^2}{x^2\sin ^2
+x}\right)\frac{x^2}{x^2}\\
+&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
+x^2}{x^4}\right)\frac{x^2}{\sin ^2 x}\\
+&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
+x^2}{x^4}\right)\left(\frac{x}{\sin x}\right)^2\\
+&amp;=\lim _{x \rightarrow 0}\frac{\sin ^2 x - x^2}{x^4}\\
+&amp;=\lim _{x \rightarrow 0}\frac{(\sin ^2 x -
+x^2)^{&#39;}}{(x^4)^{&#39;}}\\
+&amp;=\lim _{x \rightarrow 0}\frac{2\sin x \cos x- 2x}{4x^3}\\
+&amp;=\lim _{x \rightarrow 0}\frac{(2\sin x \cos x-
+2x)^{&#39;}}{(4x^3)^{&#39;}}\\
+&amp;=\lim _{x \rightarrow 0}\frac{2(\cos ^2 x - \sin ^2 x)-2}{12x^2}\\
+&amp;=\lim _{x \rightarrow 0}\frac{\cos 2x-1}{6x^2}\\
+&amp;=\lim _{x \rightarrow 0}\frac{(\cos
+2x-1)^{&#39;}}{(6x^2)^{&#39;}}\\
+&amp;=\lim _{x \rightarrow 0}\frac{-2\sin 2x}{12x}\\
+&amp;=\lim _{x \rightarrow 0}-\frac{1}{3}\left(\frac{\sin
+2x}{2x}\right)\\
+&amp;=-\frac{1}{3}
+\end{align}
+\]</span> ​ （ｃ）</p>
+<p>​ カージオイド</p>
+<p><img src="https://p.ipic.vip/dgdauq.svg" /></p>
+<p>​ （ｄ）</p>
+<p>​ カージオイド:<span class="math inline">\(r=1+\cos \theta \ (0 \leq
+\theta \leq 2
+\pi)\)</span>で囲まれる図形の面積Sを求めよう。図形の対称性から、<span
+class="math inline">\(0 \leq \theta \leq \pi\)</span>の範囲の曲線と<span
+class="math inline">\(x\)</span>軸とで囲まれる図形の面積を<span
+class="math inline">\(S_1\)</span>とおくと， <span
+class="math display">\[
+\begin{align}
+S&amp;=2S_1\\
+&amp;=2 \cdot \frac{1}{2}\int _0^{\pi}r^2\, {\rm d} \theta\\
+&amp;=\int _0^{\pi}(1+\cos \theta)^2\, {\rm d} \theta\\
+&amp;=\int _0^{\pi}(1+2\cos \theta + \cos^2 \theta)\, {\rm d} \theta\\
+&amp;=\int _0^{\pi}\left(1+2\cos \theta + \frac{\cos 2 \theta +
+1}{2}\right)\, {\rm d} \theta\\
+&amp;=\left[\frac{3}{2}\theta+2\sin \theta + \frac{\sin 2
+\theta}{4}\right] _0^{\pi}\\
+&amp;=\frac{3}{2}\pi
+\end{align}
+\]</span> （２）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+{A_3}^{-1}&amp;=\frac{\widetilde A_3}{\left| A_3 \right|}\\
+\\
+&amp;= \frac{\begin{bmatrix}
+A_{11} &amp; A_{21} &amp; A_{31} \\
+A_{12} &amp; A_{22} &amp; A_{32} \\
+A_{13} &amp; A_{23} &amp; A_{33}
+\end{bmatrix}}{\prod_{1\leq j &lt; i \leq 3}(x_i-x_j)}\\
+\\
+&amp;= \begin{bmatrix}
+\frac{bc}{(b-a)(c-a)} &amp; -\frac{ac}{(b-a)(c-b)} &amp;
+\frac{ab}{(c-b)(c-a)} \\
+-\frac{b+c}{(b-a)(c-a)} &amp; \frac{a+c}{(b-a)(c-b)} &amp;
+-\frac{a+b}{(c-b)(c-a)}\\
+\frac{1}{(b-a)(c-a)} &amp; -\frac{1}{(b-a)(c-b)} &amp;
+\frac{1}{(c-b)(c-a)}
+\end{bmatrix}\\
+\end{align}
+\]</span> ​ （ｂ） <span class="math display">\[
+\begin{align}
+\det(A_4)&amp;=\prod_{1\leq j &lt; i \leq 4}(x_i-x_j)\\
+&amp;=(b-a)(c-b)(c-a)(d-c)(d-b)(d-a)
+\end{align}
+\]</span></p>
+<hr />
+<h1 id="問題-1">2019問題</h1>
+<p>下記のすべての問に答えよ．</p>
+<p>（１）下記の問に答えよ．ただし，関数<span
+class="math inline">\(B(x,y)\)</span>は次式で与えられる． <span
+class="math display">\[
+B(x,y)=\int _0^1 t^{x-1}(1-t)^{y-1} \, {\rm d} t,x &gt; 0,y &gt; 0
+\]</span> （a）次の等式が成り立つことを示せ． <span
+class="math display">\[
+xB(x,y+1)=yB(x+1,y)
+\]</span> （b）次の等式が成り立つことを示せ． <span
+class="math display">\[
+B(x,y)=2\int_0^{\pi/2}\sin ^{2x-1}\theta\cos^{2y-1}\theta\,{\rm d}\theta
+\]</span> （c）次の等式が成り立つことを示せ． <span
+class="math display">\[
+\frac{1}{a}B\left(1-\frac{b}{a},\frac{b}{a}\right)=\int_0^\infty\frac{t^{b-1}}{1+t^a}\,{\rm
+d}t
+\]</span> （２）下記の問に答えよ．ただし，行列<span
+class="math inline">\(A\)</span>は次式で与えられる． <span
+class="math display">\[
+A=
+\begin{pmatrix}
+1-p &amp; p\\
+q &amp; 1-q
+\end{pmatrix},0&lt;p&lt;1,0&lt;q&lt;1
+\]</span> （a）<span
+class="math inline">\(n\)</span>を正整数とする．<span
+class="math inline">\(A^n\)</span>を求めよ．</p>
+<p>（b）$_{n }A^n $ を求めよ．</p>
+<p>（c）次式で定義される<span
+class="math inline">\(\exp(A)\)</span>を求めよ． <span
+class="math display">\[
+\exp(A)=\sum_{n=0}^\infty\frac{1}{n!}A^n    
+\]</span> ​ ただし，<span
+class="math inline">\(A^0\)</span>は単位行列である．</p>
+]]></content>
+      <categories>
+        <category>過去問</category>
+        <category>専門基礎A</category>
       </categories>
   </entry>
 </search>
