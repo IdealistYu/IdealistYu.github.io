@@ -30,7 +30,7 @@
 <meta property="og:description" content="修考群每日一题 Day 12">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-01-11T13:55:47.000Z">
-<meta property="article:modified_time" content="2023-01-12T14:04:30.958Z">
+<meta property="article:modified_time" content="2023-01-12T16:12:29.656Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -254,7 +254,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-12 22:04:30" itemprop="dateModified" datetime="2023-01-12T22:04:30+08:00">2023-01-12</time>
+      <time title="Modified: 2023-01-13 00:12:29" itemprop="dateModified" datetime="2023-01-13T00:12:29+08:00">2023-01-13</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -273,14 +273,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>335</span>
+      <span>489</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -303,12 +303,6 @@ class="math inline">\(dz\)</span>を求めよ。ただし,ただし,<span
 class="math inline">\(x&gt;0,y&gt;0\)</span>とする。 <span
 class="math display">\[
 z＝x^3+y^3+\log_xy
-\]</span> （３）次の複素変数<span
-class="math inline">\(z\)</span>についての複素積分を求めよ.ただし積分路<span
-class="math inline">\(C\)</span>は,複素平面上の<span
-class="math inline">\(|z|=2\)</span>で表される円周上を反時計回りに一周する経路とする。
-<span class="math display">\[
-\int_C\frac{e^z}{z(z+1)}dz
 \]</span> 問２</p>
 <p>３次元空間に直交座標系<span
 class="math inline">\(xyz\)</span>をとる。<span
@@ -339,12 +333,41 @@ f_y(x,y)&amp;=3y^2+\frac{1}{y\log x}
 dz&amp;=f_x(x,y)dx+f_y(x,y)dy=\left(x^3+y^3+\frac{\log y}{\log
 x}\right)dx+\left(3y^2+\frac{1}{y\log x}\right)dy
 \end{align}
-\]</span> （３） $$ <span class="math display">\[\begin{align}
-
-\end{align}\]</span> <span class="math display">\[
-問２
-\]</span> <span class="math display">\[\begin{align}
-\end{align}\]</span> $$</p>
+\]</span> 問２ <span class="math display">\[
+\begin{align}
+z\geq0のとき,\\
+z&amp;=f(x,y)=\sqrt{a^2-x^2-y^2}
+\\
+領域D&amp;:x^2+y^2\leq ax\Rightarrow \left(x-\frac a
+2\right)^2+y^2\leq\frac {a^2} 4
+\\
+V&amp;=2\iint_Df(x,y)dxdy=2\iint_D\sqrt{a^2-x^2-y^2}dxdy
+\\
+x,yを極座標に変換すると,
+\\
+x&amp;=r\cos\theta,y=r\sin\thetaより,|J|=r\\
+D&#39;&amp;:-\frac \pi 2\leq\theta\leq \frac\pi 2,0\leq r\leq
+a\cos\theta\\
+V&amp;=2\int_{-\frac \pi 2}^{\frac\pi
+2}\int_0^{a\cos\theta}\sqrt{a^2-r^2}rdrd\theta
+\\
+&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\left[-\frac 1 3(a^2-r^2)^{\frac
+3 2}\right]_0^{a\cos\theta}
+\\
+&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\frac {a^3}
+3(1-\sin^3\theta)d\theta
+\\
+&amp;=4\int_0^{\frac\pi 2}\frac {a^3} 3(1-\sin^3\theta)d\theta
+\\
+&amp;=\frac{4a^3} 3\left(\int _0^{\frac{\pi }{2}}1dθ-\int _0^{\frac{\pi
+}{2}}\sin ^3\left(θ\right)dθ\right)
+\\
+&amp;=\frac{4a^3} 3\left(\frac \pi 2-\left[u-\frac{u^3}
+3\right]_1^0\right)\quad(u=\cos\theta)
+\\
+&amp;=\frac{2\pi a^3} 3-\frac {8a^3} 9
+\end{align}
+\]</span></p>
 
     </div>
 
@@ -425,7 +448,7 @@ x}\right)dx+\left(3y^2+\frac{1}{y\log x}\right)dy
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:41</span>
+    <span title="Reading time total">2:42</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
