@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/oidyvt.png">
 <meta property="article:published_time" content="2023-01-08T13:55:47.000Z">
-<meta property="article:modified_time" content="2023-01-11T14:27:42.156Z">
+<meta property="article:modified_time" content="2023-01-13T09:45:23.681Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/oidyvt.png">
@@ -158,7 +158,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">38</span>
+          <span class="site-state-item-count">39</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -256,7 +256,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-11 22:27:42" itemprop="dateModified" datetime="2023-01-11T22:27:42+08:00">2023-01-11</time>
+      <time title="Modified: 2023-01-13 17:45:23" itemprop="dateModified" datetime="2023-01-13T17:45:23+08:00">2023-01-13</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -275,14 +275,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>461</span>
+      <span>851</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -340,22 +340,131 @@ class="math inline">\(Y^TY\)</span>を求めよ。</p>
 <p>問１</p>
 <p>（１） <span class="math display">\[
 \begin{align}
+|T|=|A-\lambda
+E|=\left|\begin{matrix}2-\lambda&amp;1\\1&amp;2-\lambda\end{matrix}\right|
+=(3-\lambda)(1-\lambda)=0
+\\
+\lambda_1=1 \quad \lambda_2=3
+\\
+\lambda_1=1のとき,
+\\
+\begin{bmatrix}
+1&amp;1\\
+1&amp;1
+\end{bmatrix}
+x_1=0
+\Rightarrow
+x_1=\begin{bmatrix}-\frac 1 {\sqrt 2}\\\frac 1 {\sqrt 2}\end{bmatrix}
+\\
+\lambda_2=3のとき,\\
+\begin{bmatrix}
+-1&amp;1\\
+1&amp;-1
+\end{bmatrix}x_2=0
+\Rightarrow x_2=\begin{bmatrix}\frac 1 {\sqrt 2}\\\frac 1 {\sqrt
+2}\end{bmatrix}
+\\
 \end{align}
 \]</span> （２）</p>
 <p><span class="math display">\[
 \begin{align}
+P=\begin{bmatrix}
+-\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}\\
+\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}
+\end{bmatrix}
+\\
+P^{-1}AP=\begin{bmatrix}\lambda_1&amp;0\\0&amp;\lambda_2\end{bmatrix}
+\\
+A^n=P\begin{bmatrix}\lambda_1^n&amp;0\\0&amp;\lambda_2^n\end{bmatrix}P^{-1}
+\\
+=\begin{bmatrix}
+-\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}\\
+\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}
+\end{bmatrix}
+\begin{bmatrix}1^n&amp;0\\0&amp;3^n\end{bmatrix}
+\begin{bmatrix}
+-\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}\\
+\frac 1 {\sqrt 2}&amp;\frac 1 {\sqrt 2}
+\end{bmatrix}
+\\
+=\begin{bmatrix}
+\frac{3^n+1} {2}&amp;\frac{3^n-1} {2}\\
+\frac{3^n-1} {2}&amp;\frac{3^n+1} {2}
+\end{bmatrix}
 \end{align}
-\]</span> 問２ <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> 問３</p>
+\]</span> 問２ $$ <span class="math display">\[\begin{align}
+
+\end{align}\]</span> $$ 問３</p>
 <p>（１） <span class="math display">\[
 \begin{align}
+\exp(X)&amp;=\sum_{n=0}^{\infty}\frac 1 {n!}X^n
+=S\left[\sum_{n=0}^{\infty}\frac 1 {n!}\Lambda^n\right]S^{-1}
+\\
+\det(Y)&amp;=\det(S)\det\left(\sum_{n=0}^{\infty}\frac 1
+{n!}\Lambda^n\right)\det(S^{-1})
+\\
+&amp;=\det\left(\sum_{n=0}^{\infty}\frac 1 {n!}\Lambda^n\right)
+\\
+&amp;=\left|
+\begin{matrix}
+{e^{\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{e^{-\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{e^{\lambda_2}}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{e^{-\lambda_2}}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{\ddots}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{e^{-\lambda_k}}\\
+\end{matrix}
+\right|
+\\
+&amp;=e^{\lambda_1}e^{-\lambda_1}e^{\lambda_2}e^{-\lambda_2}\cdots
+e^{-\lambda_k}
+\\
+&amp;=e^{\sum\limits_{i=1}^k\lambda_i}\\
+&amp;=1
 \end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span></p>
+\]</span> （２） $$ <span class="math display">\[\begin{align}
+YY^T&amp;=\sum_{n=0}^{\infty}\frac 1 {n!}X^n\sum_{n=0}^{\infty}\frac 1
+{n!}(X^T)^n
+\\
+&amp;=\sum_{n=0}^{\infty}\frac 1 {n!}X^n\sum_{n=0}^{\infty}\frac 1
+{n!}(-X)^n
+\\
+&amp;=S
+\begin{bmatrix}
+{e^{\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{e^{-\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{e^{\lambda_2}}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{e^{-\lambda_2}}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{\ddots}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{e^{-\lambda_k}}\\
+\end{bmatrix}
+S^{-1}
+S
+\begin{bmatrix}
+{e^{-\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{e^{\lambda_1}}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{e^{-\lambda_2}}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{e^{\lambda_2}}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{\ddots}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{e^{\lambda_k}}\\
+\end{bmatrix}
+\\
+&amp;=
+S\begin{bmatrix}
+{1}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{1}&amp;{}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{1}&amp;{}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{1}&amp;{}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{\ddots}&amp;{}\\
+{}&amp;{}&amp;{}&amp;{}&amp;{}&amp;{1}\\
+\end{bmatrix}
+S^{-1}
+\\
+&amp;=E
+\\同様に,\\
+
+Y^TY&amp;=E
+\end{align}\]</span> $$</p>
 <hr />
 
     </div>
@@ -430,14 +539,14 @@ class="math inline">\(Y^TY\)</span>を求めよ。</p>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Word count total: </span>
-    <span title="Word count total">44k</span>
+    <span title="Word count total">45k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:42</span>
+    <span title="Reading time total">2:43</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
