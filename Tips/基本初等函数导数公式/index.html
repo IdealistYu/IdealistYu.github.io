@@ -30,7 +30,7 @@
 <meta property="og:description" content="基本初等函数导数公式及部分证明">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-01-15T12:13:19.000Z">
-<meta property="article:modified_time" content="2023-01-15T12:24:42.509Z">
+<meta property="article:modified_time" content="2023-01-15T13:31:48.882Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -128,7 +128,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -141,6 +141,8 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E6%B1%82%E5%AF%BC%E5%85%AC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">常用求导公式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AF%81%E6%98%8Earcsin-xfrac-1-sqrt-1-x2"><span class="nav-number">2.</span> <span class="nav-text">证明\((\arcsin x)&#39;&#x3D;\frac 1 {\sqrt
+{1-x^2}}\)</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -247,7 +249,7 @@ setInterval("createtime()",250);
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-01-15 20:13:19 / Modified: 20:24:42" itemprop="dateCreated datePublished" datetime="2023-01-15T20:13:19+08:00">2023-01-15</time>
+      <time title="Created: 2023-01-15 20:13:19 / Modified: 21:31:48" itemprop="dateCreated datePublished" datetime="2023-01-15T20:13:19+08:00">2023-01-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -266,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>26</span>
+      <span>163</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -286,14 +288,42 @@ setInterval("createtime()",250);
     
     <div class="post-body" itemprop="articleBody">
         <hr />
-<p>$$ <span class="math display">\[\begin{align}
+<h1 id="常用求导公式">常用求导公式</h1>
+<p><span class="math display">\[
+\begin{align}
 (C)&#39;&amp;=0\\
 (x^{\mu})&#39;&amp;=\mu x^{\mu-1}\\
 (\sin x)&#39;&amp;=\cos x\\
 (\cos x)&#39;&amp;=-\sin x\\
+(\tan x)&#39;&amp;=\sec^2x\\
+(\cot x)&#39;&amp;=-\csc^2x\\
 (\sec x)&#39;&amp;=\sec x\tan x\\
-
-\end{align}\]</span> $$</p>
+(\csc x)&#39;&amp;=-\csc x\cot x\\
+(a^x)&#39;&amp;=a^x\ln a\quad(a&gt;0,a\neq 1)\\
+(\mathrm e^x)&#39;&amp;=\mathrm e^x\\
+(\log_ax)&#39;&amp;=\frac 1{x\ln a}\quad(a&gt;0,a\neq 1)\\
+(\ln x)&amp;=\frac 1 x\\
+(\arcsin x)&#39;&amp;=\frac 1 {\sqrt {1-x^2}}\\
+(\arccos x)&#39;&amp;=-\frac 1 {\sqrt {1-x^2}}\\
+(\arctan x)&#39;&amp;=\frac 1 {1+x^2}\\
+(\arccot x)&#39;&amp;=-\frac 1 {1+x^2}\\
+\end{align}
+\]</span></p>
+<h1 id="证明arcsin-xfrac-1-sqrt-1-x2">证明<span
+class="math inline">\((\arcsin x)&#39;=\frac 1 {\sqrt
+{1-x^2}}\)</span></h1>
+<p><span class="math display">\[
+\begin{align}
+\arcsin x=y
+&amp;\Rightarrow x=\sin y\\
+&amp;\Rightarrow x&#39;=(\sin y)&#39;\\
+&amp;\Rightarrow 1=y&#39;\cos y\\
+&amp;\Rightarrow y&#39;=\frac 1{\cos y}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-\sin ^2y}}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-x^2}}
+\end{align}
+\]</span></p>
+<hr />
 
     </div>
 
@@ -371,7 +401,7 @@ setInterval("createtime()",250);
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">2:46</span>
+    <span title="Reading time total">2:47</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
