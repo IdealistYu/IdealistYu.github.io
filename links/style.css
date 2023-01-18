@@ -41,16 +41,6 @@ font-style: italic;
 overflow: hidden;
 width: 100%;
 }
-.card .card-header a {
-font-style: normal;
-color: #2bbc8a;
-font-weight: bold;
-text-decoration: none;
-}
-.card .card-header a:hover {
-color: #d480aa;
-text-decoration: none;
-}
 .card .card-header .info {
 font-style:normal;
 color:#a3a3a3;
