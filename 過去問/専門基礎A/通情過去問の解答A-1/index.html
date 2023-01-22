@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/dgdauq.svg">
 <meta property="article:published_time" content="2022-12-19T13:26:27.000Z">
-<meta property="article:modified_time" content="2023-01-21T06:04:06.940Z">
+<meta property="article:modified_time" content="2023-01-22T17:38:53.511Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/dgdauq.svg">
@@ -268,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-21 14:04:06" itemprop="dateModified" datetime="2023-01-21T14:04:06+08:00">2023-01-21</time>
+      <time title="Modified: 2023-01-23 01:38:53" itemprop="dateModified" datetime="2023-01-23T01:38:53+08:00">2023-01-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2.1k</span>
+      <span>2.4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>8 mins.</span>
+      <span>9 mins.</span>
     </span>
 </div>
 
@@ -358,12 +358,7 @@ x}{1}=\lim _{x \rightarrow 0}{\cos x}=1
 \begin{align}
 f(x)&amp;=\lim _{x \rightarrow 0}\left(\frac{1}{\sin ^2
 x}-\frac{1}{x^2}\right)\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x - x^2}{x^2\sin ^2
-x}\right)\frac{x^2}{x^2}\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
-x^2}{x^4}\right)\frac{x^2}{\sin ^2 x}\\
-&amp;=\lim _{x \rightarrow 0}\left(\frac{\sin ^2 x -
-x^2}{x^4}\right)\left(\frac{x}{\sin x}\right)^2\\
+&amp;=\lim _{x \rightarrow 0}\frac{\sin ^2 x - x^2}{x^2\sin ^2 x}\\
 &amp;=\lim _{x \rightarrow 0}\frac{\sin ^2 x - x^2}{x^4}\\
 &amp;=\lim _{x \rightarrow 0}\frac{(\sin ^2 x -
 x^2)^{&#39;}}{(x^4)^{&#39;}}\\
@@ -459,7 +454,7 @@ class="math inline">\(A^n\)</span>を求めよ．</p>
 <p>（c）次式で定義される<span
 class="math inline">\(\exp(A)\)</span>を求めよ． <span
 class="math display">\[
-\exp(A)=\sum_{n=0}^\infty\frac{1}{n!}A^n    
+\exp(A)=\sum_{n=0}^\infty\frac{1}{n!}A^n
 \]</span> ​ ただし，<span
 class="math inline">\(A^0\)</span>は単位行列である．</p>
 <hr />
@@ -500,18 +495,73 @@ d\theta
 \]</span> （２）</p>
 <p>​ （a） <span class="math display">\[
 \begin{align}
-A=E+B\\
-B=
+A&amp;=E+B\\
+B&amp;=
 \begin{pmatrix}
 -p &amp; p\\
 q &amp; -q
 \end{pmatrix}
 \\
-r(B)=1\\
-B^n=[tr(B)]^{n-1}B=(-p-q)^{n-1}B
+r(B)&amp;=1\\
+B^n&amp;=[tr(B)]^{n-1}B=(-p-q)^{n-1}B
 \\
-A^n=E+nB+\frac{n(n-1)}{2!}B^2+\cdots+B^n
+A^n&amp;=(E+B)^n=E+nB+\frac{n(n-1)}{2!}B^2+\cdots+B^n
 \\
+&amp;=
+\begin{bmatrix}
+1+n(-p)+\frac{n(n-1)}{2!}(-p-q)^{1}(-p)+\cdots+(-p-q)^{n-1}(-p)&amp;\left(n+\frac{n(n-1)}{2!}(-p-q)^{1}+\cdots+(-p-q)^{n-1}\right)p\\
+\left(n+\frac{n(n-1)}{2!}(-p-q)^{1}+\cdots+(-p-q)^{n-1}\right)q&amp;1+n(-q)+\frac{n(n-1)}{2!}(-p-q)^{1}(-q)+\cdots+(-p-q)^{n-1}(-q)
+\end{bmatrix}
+\\
+&amp;=
+\begin{bmatrix}
+\frac{(-p)}{(-p-q)}(1-p-q)^n+\frac{q}{p+q}&amp;\frac{p}{(-p-q)}(1-p-q)^n+\frac
+p {p+q}\\
+\frac{q}{(-p-q)}(1-p-q)^n+\frac q
+{p+q}&amp;\frac{(-q)}{(-p-q)}(1-p-q)^n+\frac{p}{p+q}
+\end{bmatrix}
+\\
+&amp;=
+\frac 1{(p+q)}
+\begin{bmatrix}
+{p}(1-p-q)^n+q&amp;{-p}(1-p-q)^n+p\\
+{-q}(1-p-q)^n+q&amp;{q}(1-p-q)^n+p
+\end{bmatrix}
+\end{align}
+\]</span></p>
+<p>​ （b） <span class="math display">\[
+\begin{align}
+\lim\limits _{n \rightarrow \infty}A^n &amp;=
+\begin{bmatrix}
+\frac{q}{p+q}&amp;\frac p {p+q}\\
+\frac q {p+q}&amp;\frac{p}{p+q}
+\end{bmatrix}
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\exp(A)&amp;=\sum_{n=0}^\infty\frac{1}{n!}A^n
+\\
+&amp;=\frac 1 {p+q}\sum_{n=0}^\infty
+\frac{1}{n!}
+\begin{bmatrix}
+{p}(1-p-q)^n+q&amp;{-p}(1-p-q)^n+p\\
+{-q}(1-p-q)^n+q&amp;{q}(1-p-q)^n+p
+\end{bmatrix}
+\\
+&amp;=
+\frac 1 {p+q}
+\begin{bmatrix}
+\sum\limits_{n=0}^\infty\frac
+{p(1-p-q)^n+q}{n!}&amp;\sum\limits_{n=0}^\infty\frac{-p(1-p-q)^n+p}{n!}\\
+\sum\limits_{n=0}^\infty\frac{-q(1-p-q)^n+q}{n!}&amp;\sum\limits_{n=0}^\infty\frac{q(1-p-q)^n+p}{n!}
+\end{bmatrix}
+\\
+&amp;=
+\frac 1 {p+q}
+\begin{bmatrix}
+p\mathrm e^{1-p-q}+q\mathrm e&amp;-p\mathrm e^{1-p-q}+p\mathrm e\\
+-q\mathrm e^{1-p-q}+q\mathrm e&amp;q\mathrm e^{1-p-q}+p\mathrm e
+\end{bmatrix}
 \end{align}
 \]</span></p>
 <hr />
@@ -713,7 +763,7 @@ class="math inline">\(A^n\)</span>を求めよ.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">2:55</span>
+    <span title="Reading time total">2:56</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
