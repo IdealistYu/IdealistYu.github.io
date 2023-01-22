@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/dgdauq.svg">
 <meta property="article:published_time" content="2022-12-19T13:26:27.000Z">
-<meta property="article:modified_time" content="2023-01-19T17:12:48.928Z">
+<meta property="article:modified_time" content="2023-01-21T06:04:06.940Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/dgdauq.svg">
@@ -158,7 +158,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">49</span>
+          <span class="site-state-item-count">50</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -268,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-20 01:12:48" itemprop="dateModified" datetime="2023-01-20T01:12:48+08:00">2023-01-20</time>
+      <time title="Modified: 2023-01-21 14:04:06" itemprop="dateModified" datetime="2023-01-21T14:04:06+08:00">2023-01-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.9k</span>
+      <span>2.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>7 mins.</span>
+      <span>8 mins.</span>
     </span>
 </div>
 
@@ -464,6 +464,56 @@ class="math display">\[
 class="math inline">\(A^0\)</span>は単位行列である．</p>
 <hr />
 <h1 id="解答-1">2019解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+xB(x,y+1)
+&amp;=x\int_0^1t^{x-1}(1-t)^y\,\mathrm dt
+\\
+&amp;=\int_0^1(t^x)&#39;(1-t)^y\,\mathrm dt
+\\
+&amp;=[t^x(1-t)^y]_0^1-\int_0^1t^x((1-t)^y)&#39;\,\mathrm dt
+\\
+&amp;=y\int_0^1t^x(1-t)^{y-1}\,\mathrm dt
+\\
+&amp;=yB(x+1,y)
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+t&amp;=\sin^{2}\theta
+\\
+\mathrm dt&amp;=2\sin\theta\cos\theta\mathrm \,d\theta
+\\
+1-t&amp;=\cos^2\theta\\
+B(x,y)&amp;=\int _0^1 t^{x-1}(1-t)^{y-1} \, {\rm d} t\\
+&amp;=\int
+_0^{\pi/2}\sin^{2(x-1)}\theta\cos^{2(y-1)}\theta\cdot2\sin\theta\cos\theta\,\mathrm
+d\theta
+\\
+&amp;=2\int_0^{\pi/2}\sin ^{2x-1}\theta\cos^{2y-1}\theta\,{\rm d}\theta
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\frac{1}{a}B\left(1-\frac{b}{a},\frac{b}{a}\right)
+&amp;=\frac{1}{a}\int_0^1t^{-\frac b a}(1-t)^{\frac b a -1}\,\mathrm dt
+\end{align}
+\]</span> （２）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+A=E+B\\
+B=
+\begin{pmatrix}
+-p &amp; p\\
+q &amp; -q
+\end{pmatrix}
+\\
+r(B)=1\\
+B^n=[tr(B)]^{n-1}B=(-p-q)^{n-1}B
+\\
+A^n=E+nB+\frac{n(n-1)}{2!}B^2+\cdots+B^n
+\\
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
 <p>下記のすべての問に答えよ.</p>
@@ -657,13 +707,13 @@ class="math inline">\(A^n\)</span>を求めよ.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">48k</span>
+    <span title="Word count total">49k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">2:55</span>
+    <span title="Reading time total">2:57</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
