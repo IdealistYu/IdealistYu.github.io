@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/dgdauq.svg">
 <meta property="article:published_time" content="2022-12-19T13:26:27.000Z">
-<meta property="article:modified_time" content="2023-01-22T17:38:53.511Z">
+<meta property="article:modified_time" content="2023-01-23T10:00:17.701Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/dgdauq.svg">
@@ -158,7 +158,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">50</span>
+          <span class="site-state-item-count">51</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -268,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-23 01:38:53" itemprop="dateModified" datetime="2023-01-23T01:38:53+08:00">2023-01-23</time>
+      <time title="Modified: 2023-01-23 18:00:17" itemprop="dateModified" datetime="2023-01-23T18:00:17+08:00">2023-01-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2.4k</span>
+      <span>2.7k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>9 mins.</span>
+      <span>10 mins.</span>
     </span>
 </div>
 
@@ -572,7 +572,7 @@ p\mathrm e^{1-p-q}+q\mathrm e&amp;-p\mathrm e^{1-p-q}+p\mathrm e\\
 class="math inline">\(x=r\cos\theta,y=r\sin\theta\)</span>のヤコビ行列およびその行列式を求めよ.</p>
 <p>​ （b）積分<span class="math inline">\(I\)</span>の結果を求めよ. <span
 class="math display">\[
-I=\iint_D\mathrm e^{-(x^2+y^2)}\mathrm dx\,\mathrm dy,\quad
+I=\iint_D\mathrm e^{-(x^2+y^2)}\,\mathrm dx\,\mathrm dy,\quad
 D=\{(x,y)\,|\,x^2+y^2\leq R\},\quad R&gt;0
 \]</span> ​ （c）問（b）の<span
 class="math inline">\(I\)</span>について,次の極限を求めよ. <span
@@ -600,6 +600,85 @@ class="math inline">\(A\)</span>の固有値と固有ベクトルを求めよ.</
 class="math inline">\(A^n\)</span>を求めよ.</p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+J=
+\begin{bmatrix}
+\frac {\partial x}{\partial r}&amp;\frac {\partial x}{\partial \theta}\\
+\frac {\partial y}{\partial r}&amp;\frac {\partial y}{\partial \theta}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\cos \theta&amp;-r\sin\theta\\
+\sin \theta&amp;r\cos\theta
+\end{bmatrix}
+\\
+|J|=r\cos^2\theta+r\sin^2\theta=r
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+D&#39;:&amp;0\leq\theta\leq2 \pi ,0\leq r\leq \sqrt R\\
+I&amp;=\iint_D\mathrm e^{-(x^2+y^2)}\,\mathrm dx\,\mathrm dy
+\\
+&amp;=
+\iint_{D&#39;}\mathrm e^{-r^2}r\,\mathrm dr\,\mathrm d\theta,\quad
+\\
+&amp;=
+\int_0^{2\pi}\int_0^{\sqrt R}\mathrm e^{-r^2}r\,\mathrm dr\,\mathrm
+d\theta
+\\
+&amp;=
+\int_0^{2\pi}\,\mathrm d\theta\int_0^{\sqrt R}r\mathrm e^{-r^2}\,\mathrm
+dr
+\\
+&amp;=
+2\pi\left[-\frac 1 2\mathrm e^{-r^2}\right]_0^{\sqrt R}
+\\
+&amp;=
+\pi(1-\mathrm e^{-R})
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\lim_{R\to\infty}I
+&amp;=\lim_{p\to\infty}\int_0^{2\pi}\int_0^p\mathrm e^{-r^2}r\,\mathrm
+dr\,\mathrm d\theta
+\\
+&amp;=\lim_{p\to\infty}\int_0^{2\pi}\,\mathrm d\theta\int_0^pr\mathrm
+e^{-r^2}\,\mathrm dr
+\\
+&amp;=\lim_{p\to\infty}2\pi\left[-\frac 1 2\mathrm e^{-r^2}\right]_0^p
+\\
+&amp;=\lim_{p\to\infty}\pi(1-\mathrm e^{-p^2})
+\\
+&amp;=\pi
+\end{align}
+\]</span></p>
+<p>​ （d） <span class="math display">\[
+\begin{align}
+\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\mathrm
+e^{-(x^2+y^2)}\,\mathrm dx\,\mathrm dy
+=
+\int_{-\infty}^{\infty}\mathrm e^{-x^2}\,\mathrm
+dx\int_{-\infty}^{\infty}\mathrm e^{-y^2}\,\mathrm dy
+=\left(\int_{-\infty}^{\infty}\mathrm e^{-x^2}\,\mathrm dx\right)^2
+\\
+\int_{-\infty}^{\infty}\mathrm e^{-x^2}\,\mathrm dx=\sqrt
+{\lim_{R\to\infty}I}=\sqrt \pi
+\end{align}
+\]</span> ​ （e） <span class="math display">\[
+\begin{align}
+t=r^2
+\\
+\mathrm dt=2r\mathrm dr\\
+{\mit\Gamma}(\frac 1 2)=\int_0^\infty t^{-\frac 1 2}{\rm e}^{-t}\,{\rm
+d}t
+\\
+=\int_0^\infty r^{-1}{\rm e}^{-r^2}2r\,{\rm d}r
+\\
+=
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p>下記のすべての問に答えよ.</p>
@@ -757,13 +836,13 @@ class="math inline">\(A^n\)</span>を求めよ.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">48k</span>
+    <span title="Word count total">49k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">2:56</span>
+    <span title="Reading time total">2:59</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
