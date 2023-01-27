@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/dgdauq.svg">
 <meta property="article:published_time" content="2022-12-19T13:26:27.000Z">
-<meta property="article:modified_time" content="2023-01-26T15:40:20.575Z">
+<meta property="article:modified_time" content="2023-01-27T08:53:40.265Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/dgdauq.svg">
@@ -268,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-26 23:40:20" itemprop="dateModified" datetime="2023-01-26T23:40:20+08:00">2023-01-26</time>
+      <time title="Modified: 2023-01-27 16:53:40" itemprop="dateModified" datetime="2023-01-27T16:53:40+08:00">2023-01-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>3.4k</span>
+      <span>4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>12 mins.</span>
+      <span>15 mins.</span>
     </span>
 </div>
 
@@ -838,6 +838,164 @@ A=
 class="math inline">\(\det(A),\det(A^{-1}),\det(A^2)\)</span>をそれぞれ求めよ.</p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+f(s)&amp;=\int_0^1\mathrm e^{-sx}\,\mathrm dx
+\\
+&amp;=\left[\frac {\mathrm e^{-sx}}{-s}\right]_0^1
+\\
+&amp;=\frac {1-\mathrm e^{-s}}{s}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\lim_{s\to0}\frac{\mathrm df(s)}{\mathrm ds}
+&amp;=\lim_{s\to0}\frac{\mathrm e^{-s}s-(1-\mathrm e^{-s})}{s^2}
+\\
+&amp;=\lim_{s\to0}\frac{\mathrm e^{-s}s-(1-\mathrm e^{-s})}{s^2}
+\\
+&amp;=\lim_{s\to0}\frac{\mathrm -e^{-s}}{2}
+\\
+&amp;=-\frac 1 2
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+f(s)&amp;=(s^{-1})(1-\mathrm e^{-s})
+\\
+&amp;=(s^{-1})\left(\sum_{k=1}^m\frac{(-1)^{k-1}s^k}{k!}+o(s^m)\right)
+\\
+&amp;=\sum_{k=1}^m\frac{(-1)^{k-1}s^{k-1}}{k!}+o(s^{m-1})
+\\
+k&amp;=n+1とおくと,
+\frac {f^{(n)}(0)}{n!}=\frac{(-1)^{n}}{(n+1)!}
+\\
+\lim_{s\to0}\frac{\mathrm d^nf(s)}{\mathrm
+ds^n}&amp;={f^{(n)}(0)}=\frac{(-1)^{n}n!}{(n+1)!}
+\end{align}
+\]</span> （２）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+{\mit\Gamma}(x)&amp;=\int_0^\infty t^{x-1}\mathrm e^{-t}\mathrm dt,\quad
+x&gt;0
+\\
+{\mit\Gamma}(x+1)&amp;=\int_0^\infty t^{x}\mathrm e^{-t}\mathrm dt,\quad
+x&gt;0
+\\
+&amp;=\left[-\frac{t^x}{e^t} \right]_0^\infty+x\int_0^\infty\mathrm
+t^{x-1}e^{-t}\,\mathrm dt
+\\
+&amp;=x\int_0^\infty\mathrm t^{x-1}e^{-t}\,\mathrm dt
+\\
+&amp;=x{\mit\Gamma}(x)
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （３）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\begin{vmatrix}
+2a^2&amp;a&amp;3&amp;a&amp;2\\
+a&amp;1&amp;2&amp;2&amp;3a\\
+3a&amp;2a&amp;a&amp;2a&amp;5\\
+a&amp;a&amp;3&amp;a&amp;2\\
+4&amp;a&amp;1&amp;a&amp;a
+\end{vmatrix}
+&amp;=
+\begin{vmatrix}
+2a^2&amp;a&amp;3&amp;0&amp;2\\
+a&amp;1&amp;2&amp;1&amp;3a\\
+3a&amp;2a&amp;a&amp;0&amp;5\\
+a&amp;a&amp;3&amp;0&amp;2\\
+4&amp;a&amp;1&amp;0&amp;a
+\end{vmatrix}
+=
+\begin{vmatrix}
+2a^2&amp;a&amp;3&amp;2\\
+3a&amp;2a&amp;a&amp;5\\
+a&amp;a&amp;3&amp;2\\
+4&amp;a&amp;1&amp;a
+\end{vmatrix}
+\\
+&amp;=
+\begin{vmatrix}
+2a^2-a&amp;0&amp;0&amp;0\\
+3a&amp;2a&amp;a&amp;5\\
+a&amp;a&amp;3&amp;2\\
+4&amp;a&amp;1&amp;a
+\end{vmatrix}
+=
+(2a^2-a)\begin{vmatrix}
+2a&amp;a&amp;5\\
+a&amp;3&amp;2\\
+a&amp;1&amp;a
+\end{vmatrix}
+\\
+&amp;=
+(2a^2-a)(8a^2-14a-a^3)
+\end{align}
+\]</span> ​ （b） $$ <span class="math display">\[\begin{align}
+
+x&amp;=r\sin\theta\cos\phi,y=r\sin\theta\sin\phi,z=r\cos\theta
+\\
+A&amp;=
+\begin{bmatrix}
+\frac{\partial x}{\partial r}&amp;\frac{\partial x}{\partial
+\theta}&amp;\frac{\partial x}{\partial \phi}\\
+\frac{\partial y}{\partial r}&amp;\frac{\partial y}{\partial
+\theta}&amp;\frac{\partial y}{\partial \phi}\\
+\frac{\partial z}{\partial r}&amp;\frac{\partial z}{\partial
+\theta}&amp;\frac{\partial z}{\partial \phi}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\sin\theta\cos\phi&amp;r\cos\theta\cos\phi&amp;-r\sin\theta\sin\phi\\
+\sin\theta\sin\phi&amp;r\cos\theta\sin\phi&amp;r\sin\theta\cos\phi\\
+\cos\theta&amp;-r\sin\theta&amp;0
+\end{bmatrix}
+\\
+\det(A)&amp;=
+\begin{vmatrix}
+\sin\theta\cos\phi&amp;r\cos\theta\cos\phi&amp;-r\sin\theta\sin\phi\\
+\sin\theta\sin\phi&amp;r\cos\theta\sin\phi&amp;r\sin\theta\cos\phi\\
+\cos\theta&amp;-r\sin\theta&amp;0
+\end{vmatrix}
+\\
+&amp;=
+\cos\theta
+\begin{vmatrix}
+r\cos\theta\cos\phi&amp;-r\sin\theta\sin\phi\\
+r\cos\theta\sin\phi&amp;r\sin\theta\cos\phi\\
+\end{vmatrix}
++
+r\sin\theta
+\begin{vmatrix}
+\sin\theta\cos\phi&amp;-r\sin\theta\sin\phi\\
+\sin\theta\sin\phi&amp;r\sin\theta\cos\phi\\
+\end{vmatrix}
+\\
+&amp;=
+r^2\cos^2\theta\sin\theta
+\begin{vmatrix}
+\cos\phi&amp;-\sin\phi\\
+\sin\phi&amp;\cos\phi\\
+\end{vmatrix}
++
+r^2\sin^3\theta
+\begin{vmatrix}
+\cos\phi&amp;-\sin\phi\\
+\sin\phi&amp;\cos\phi\\
+\end{vmatrix}
+\\
+&amp;=
+r^2\cos^2\theta\sin\theta+r^2\sin^3\theta
+\\
+&amp;=r^2\sin\theta
+\\
+\det(A^{-1})&amp;=\frac 1 {\det(A)}=\frac 1 {r^2\sin\theta}
+\\
+\det(A^2)&amp;=\det(A)\det(A)=r^4\sin^2\theta
+\end{align}\]</span> $$</p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
 <p>下記のすべての問に答えよ.</p>
@@ -1058,7 +1216,7 @@ A^n&amp;=P\Lambda^n P^{-1}
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:04</span>
+    <span title="Reading time total">3:07</span>
   </span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
