@@ -31,7 +31,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/dgdauq.svg">
 <meta property="article:published_time" content="2022-12-19T13:26:27.000Z">
-<meta property="article:modified_time" content="2023-01-27T14:02:18.054Z">
+<meta property="article:modified_time" content="2023-01-30T13:27:53.561Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/dgdauq.svg">
@@ -268,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-01-27 22:02:18" itemprop="dateModified" datetime="2023-01-27T22:02:18+08:00">2023-01-27</time>
+      <time title="Modified: 2023-01-30 21:27:53" itemprop="dateModified" datetime="2023-01-30T21:27:53+08:00">2023-01-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>4k</span>
+      <span>4.5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>15 mins.</span>
+      <span>16 mins.</span>
     </span>
 </div>
 
@@ -888,9 +888,62 @@ t^{x-1}e^{-t}\,\mathrm dt
 \\
 &amp;=x{\mit\Gamma}(x)
 \end{align}
-\]</span> ​ （b） $$ <span class="math display">\[\begin{align}
-
-\end{align}\]</span> $$ （３）</p>
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+J_{m-1}(x)&amp;=\sum_{n=0}^{\infty}\frac{(-1)^n}{n!{\mit\Gamma}(m+n)}\left(\frac
+x 2\right)^{m+2n-1}
+\\&amp;=
+\sum_{n=0}^{\infty}\frac{(-1)^n}{n!(m+n-1)!}\left(\frac x
+2\right)^{m+2n-1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=1}^\infty\frac{(-1)^n}{n!(m+n-1)!}\left(\frac x
+2\right)^{m+2n-1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=0}^\infty\frac{(-1)^{n+1}}{(n+1)!(m+n)!}\left(\frac
+x 2\right)^{m+2n+1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=0}^\infty\left(-\frac
+{m+n+1}{n+1}\right)\cdot\frac{(-1)^{n}}{n!(m+n+1)!}\left(\frac x
+2\right)^{m+2n+1}
+\\
+J_{m+1}(x)&amp;=\sum_{n=0}^{\infty}\frac{(-1)^n}{n!{\mit\Gamma}(m+n+2)}\left(\frac
+x 2\right)^{m+2n+1}
+\\&amp;=
+\sum_{n=0}^{\infty}\frac{(-1)^n}{n!(m+n+1)!}\left(\frac x
+2\right)^{m+2n+1}
+\\
+J_{m-1}(x)-J_{m+1}(x)&amp;=\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=0}^{\infty}\left(-\frac{m+n+1}{n+1}-1\right)\frac{(-1)^n}{n!(m+n+1)!}\left(\frac
+x 2\right)^{m+2n+1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=0}^{\infty}\frac{(m+2n+2)(-1)^{n+1}}{(n+1)!(m+n+1)!}\left(\frac
+x 2\right)^{m+2n+1}
+\\
+J_m(x)&amp;=\sum_{n=0}^{\infty}\frac{(-1)^n}{n!{\mit\Gamma}(m+n+1)}\left(\frac
+x 2\right)^{m+2n}
+\\&amp;=
+\sum_{n=0}^{\infty}\frac{(-1)^n}{n!(m+n)!}\left(\frac x 2\right)^{m+2n}
+\\
+2\frac{\mathrm dJ_m(x)}{\mathrm
+dx}&amp;=\sum_{n=0}^{\infty}\frac{(m+2n)(-1)^n}{n!(m+n)!}\left(\frac x
+2\right)^{m+2n-1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=1}^{\infty}\frac{(m+2n)(-1)^n}{n!(m+n)!}\left(\frac
+x 2\right)^{m+2n-1}
+\\&amp;=
+\frac 1 {(m-1)!}\left(\frac x
+2\right)^{m-1}+\sum_{n=0}^{\infty}\frac{(m+2n+2)(-1)^{n+1}}{(n+1)!(m+n+1)!}\left(\frac
+x 2\right)^{m+2n+1}
+\\
+&amp;\therefore J_{m-1}(x)-J_{m+1}(x)=2\frac{\mathrm dJ_m(x)}{\mathrm
+dx}
+\end{align}
+\]</span> （３）</p>
 <p>​ （a） <span class="math display">\[
 \begin{align}
 \begin{vmatrix}
@@ -1209,13 +1262,13 @@ A^n&amp;=P\Lambda^n P^{-1}
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">51k</span>
+    <span title="Word count total">52k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:07</span>
+    <span title="Reading time total">3:08</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
