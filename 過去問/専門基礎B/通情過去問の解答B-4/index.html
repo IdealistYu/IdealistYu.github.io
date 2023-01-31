@@ -30,7 +30,7 @@
 <meta property="og:description" content="過去問の解答">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-01-31T10:39:04.000Z">
-<meta property="article:modified_time" content="2023-01-31T10:41:44.084Z">
+<meta property="article:modified_time" content="2023-01-31T13:12:12.032Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -156,7 +156,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">56</span>
+          <span class="site-state-item-count">57</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -260,7 +260,7 @@ setInterval("createtime()",250);
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-01-31 18:39:04 / Modified: 18:41:44" itemprop="dateCreated datePublished" datetime="2023-01-31T18:39:04+08:00">2023-01-31</time>
+      <time title="Created: 2023-01-31 18:39:04 / Modified: 21:12:12" itemprop="dateCreated datePublished" datetime="2023-01-31T18:39:04+08:00">2023-01-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -282,14 +282,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>30</span>
+      <span>730</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -303,8 +303,70 @@ setInterval("createtime()",250);
     <div class="post-body" itemprop="articleBody">
         <hr />
 <h1 id="問題">2020問題</h1>
+<p>下記のすべての問に答えよ。</p>
+<p>（１）２組の２ビット入力<span
+class="math inline">\((a_1,a_0)\)</span>と<span
+class="math inline">\((b_1,b_0)\)</span>により表現される２桁の２進整数<span
+class="math inline">\(A=(a_1a_0)_2\)</span>と<span
+class="math inline">\(B=(b_1b_0)_2\)</span>を比較し、<span
+class="math inline">\(A&gt;B\)</span>のときには１を、<span
+class="math inline">\(A\leq
+B\)</span>のときには０を出力する比較回路を設計する。出力の論理変数を<span
+class="math inline">\(x\)</span>として、以下の問に答えよ。</p>
+<p>​ （a）出力<span
+class="math inline">\(x\)</span>を表す論理式の最小積和形表現を求めよ。</p>
+<p>​ （b）出力<span
+class="math inline">\(x\)</span>を表す論理式の最小和積形表現を求めよ。</p>
+<p>​ （c）３入力NANDゲートのみを用いて、出力<span
+class="math inline">\(x\)</span>を求めるゲート数最小の論理回路を示せ。なお、入力として、<span
+class="math inline">\(a_1,a_0,b_1,b_0\)</span>およびそれらの否定<span
+class="math inline">\(\overline {a_1},\overline {a_0},\overline
+{b_1},\overline
+{b_0}\)</span>と論理値１、論理値０が与えられるものとする。</p>
+<p>（２）１ビットの信号<span
+class="math inline">\(x\)</span>を入力とし、１ビットの信号<span
+class="math inline">\(y\)</span>を出力するMealy同型式順序回路を設計する。この回路は、現在の入力値が１クロック前の入力値と異なっている場合には１を出力し、現在の入力値が１クロック前の入力値と同じ場合には０を出力する。動作開始時には、１クロック前の入力値は０であったと仮定する。例えば、010110が入力された場合の出力は011101となる。以下の問に答えよ。</p>
+<p>​ （a）この回路の状態遷移図を示せ。</p>
+<p>​
+（b）状態数を最小化した状態遷移表と出力表を求めよ。状態数が最小であることをどのようにして確認したかを説明せよ。</p>
+<p>​
+（c）この回路を最小数のDフリップフロップを用いて実現する。フリップフロップの入力を与える論理関数の最小積和形表現を求めよ。なお、Dフリップフロップの初期値は０であり、入力と出力を表す論理変数をそれぞれ<span
+class="math inline">\(d\)</span>と<span
+class="math inline">\(q\)</span>とせよ。複数のフリップフロップを用いる場合は添字で区別せよ。</p>
+<p>​ （d）出力<span
+class="math inline">\(y\)</span>の最小積和形表現を求めよ。</p>
+<p>（３）問（２）の順序回路の出力<span
+class="math inline">\(y\)</span>より、元の信号<span
+class="math inline">\(x\)</span>を復元するMealy型同期式順序回路を設計する。以下の問に答えよ。</p>
+<p>​ （a）この回路の状態遷移図を示せ。</p>
+<p>​
+（b）状態数を最小化した状態遷移表と出力表を求めよ。011101の入力に対する状態遷移と出力の様子を説明せよ。</p>
 <hr />
 <h1 id="解答">2020解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （d） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-1">2019問題</h1>
 <hr />
@@ -357,6 +419,9 @@ setInterval("createtime()",250);
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/LaTeX/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/" rel="next" title="LaTeX字母上方符号">
+                  LaTeX字母上方符号 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -388,13 +453,13 @@ setInterval("createtime()",250);
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">53k</span>
+    <span title="Word count total">54k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:13</span>
+    <span title="Reading time total">3:15</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
