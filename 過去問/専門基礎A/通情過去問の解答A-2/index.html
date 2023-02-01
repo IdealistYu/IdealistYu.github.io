@@ -30,8 +30,9 @@
 <meta property="og:description" content="「論理回路」過去問の解答">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/0wc4l3.png">
+<meta property="og:image" content="https://p.ipic.vip/258xul.png">
 <meta property="article:published_time" content="2023-01-31T10:39:04.000Z">
-<meta property="article:modified_time" content="2023-02-01T04:13:53.019Z">
+<meta property="article:modified_time" content="2023-02-01T07:45:00.995Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/0wc4l3.png">
@@ -268,7 +269,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-01 12:13:53" itemprop="dateModified" datetime="2023-02-01T12:13:53+08:00">2023-02-01</time>
+      <time title="Modified: 2023-02-01 15:45:00" itemprop="dateModified" datetime="2023-02-01T15:45:00+08:00">2023-02-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -290,14 +291,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2.8k</span>
+      <span>3.5k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>10 mins.</span>
+      <span>13 mins.</span>
     </span>
 </div>
 
@@ -497,7 +498,10 @@ class="math inline">\(L\)</span>を<span
 class="math inline">\(x_1、x_2、y_1、y_2\)</span>の関数として、最小和積形で表せ。</p>
 <p>​ （c）問（a）で定義した<span class="math inline">\(g\)</span>と<span
 class="math inline">\(l\)</span>を用いて<span
-class="math inline">\(g_1=g(x_1,y_1)、g_2=(x_2,y_2)、l_1=(x_1,y_1)、l_2=(x_2,y_2)\)</span>とする。問（b）で定義した<span
+class="math inline">\(g_1=g(x_1,y_1)\)</span>、<span
+class="math inline">\(g_2=(x_2,y_2)\)</span>、<span
+class="math inline">\(l_1=(x_1,y_1)\)</span>、<span
+class="math inline">\(l_2=(x_2,y_2)\)</span>とする。問（b）で定義した<span
 class="math inline">\(G\)</span>と<span
 class="math inline">\(L\)</span>を、<span
 class="math inline">\(g_1、g_2、l_1、l_2\)</span>の関数として、最小積和形で表せ。ドントケアを考慮すること。</p>
@@ -612,6 +616,51 @@ class="math inline">\(g_2,g_1,g_0\)</span>の論理関数として最小和積�
 \]</span></p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
+<p>下記のすべての設問に答えよ。</p>
+<p>（１）以下に示す論理関数<span
+class="math inline">\(f\)</span>について、以下の問に答えよ。 <span
+class="math display">\[
+f=(\overline a+c+d)\cdot(b+c+d)\cdot(a+b+\overline d)\cdot(\overline
+a+b+\overline c)\cdot(b+\overline c+d)
+\]</span> ​ （a）論理関数<span
+class="math inline">\(f\)</span>の最小積和形表現を求めよ。</p>
+<p>​ （b）論理関数<span
+class="math inline">\(f\)</span>の最小和積表現を求めよ。</p>
+<p>​ （c）入力として、<span
+class="math inline">\(a、b、c、d\)</span>およびそれらの否定<span
+class="math inline">\(\overline a、\overline b、\overline c、\overline
+d\)</span>が与えられるものとする。３入力NANDゲートのみを用いて、論理関数<span
+class="math inline">\(f\)</span>を出力とするゲート数が最も少ない論理回路を示せ。</p>
+<p>​ （d）<span class="math inline">\(f(a,b,c,d)\)</span>の<span
+class="math inline">\(b\)</span>による微分を<span
+class="math inline">\(\frac {\partial f}{\partial b}=f(a,0,c,d)\oplus
+f(a,1,c,d)\)</span>と定義する。<span class="math inline">\(\frac
+{\partial f}{\partial b}\)</span>の最小積和形表現を求めよ。</p>
+<p>​ （e）論理関数<span class="math inline">\(g=a+b、r=b\cdot
+c\)</span>とする。<span class="math inline">\(f=g\oplus
+h+r\)</span>を満足する全ての論理関数<span
+class="math inline">\(h\)</span>の中から、積項数が最小でリテラル数が最も少ない積和形論理式を持つ論理関数の最小積和形表現を求めよ。</p>
+<p>（２）２個の１ビット信号<span
+class="math inline">\(X\)</span>および<span
+class="math inline">\(Y\)</span>を入力とし、１個の１ビット信号<span
+class="math inline">\(Z\)</span>を出力とするMealy型同期式順序回路を設計する。この回路は、現在の時刻を含む直近の３時刻において、２回以上<span
+class="math inline">\(X\neq Y\)</span>である場合に<span
+class="math inline">\(Z\)</span>に１を出力し、それ以外の場合に<span
+class="math inline">\(Z\)</span>に０を出力する。なお、回路の動作開始時には、過去の時刻において<span
+class="math inline">\(X=Y\)</span>であったものと仮定する。この回路の動作例を表（a）に示す。以下の問に答えよ。</p>
+<p>​ （a）この回路の状態遷移図を示せ。</p>
+<p>​
+（b）状態数を最小化した状態遷移表と出力表を求めよ。状態数が最小であることをどのようにして確認したかを説明せよ。また、表（a）の入力<span
+class="math inline">\(X、Y\)</span>に対する状態遷移と出力の様子を説明せよ。</p>
+<p>​
+（c）この回路を最小数のdフリップフロップを用いて実現する。各Dフリップフロップの入力を与える論理関数の最小積和形表現を求めよ。なお、Dフリップフロップの初期値は０とする。Dフリップフロップの出力と入力を表す論理変数それぞれ<span
+class="math inline">\(Q\)</span>と<span
+class="math inline">\(D\)</span>で表し、各Dフリップフロップは添字<span
+class="math inline">\(1,2,\dots\)</span>で区別する。添字は状態に割り当てた符号の左端ビットから<span
+class="math inline">\(1,2,\dots\)</span>と振るものとする。状態割り当てを明記すること。</p>
+<p>​ （d）出力<span
+class="math inline">\(Z\)</span>を表す論理関数の最小積和形表現を求めよ。</p>
+<p><img src="https://p.ipic.vip/258xul.png" style="zoom:50%;" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
 <hr />
@@ -690,7 +739,7 @@ class="math inline">\(g_2,g_1,g_0\)</span>の論理関数として最小和積�
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:23</span>
+    <span title="Reading time total">3:25</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
