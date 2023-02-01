@@ -29,10 +29,12 @@
 <meta property="og:site_name" content="Yu&#39;s Site">
 <meta property="og:description" content="「論理回路」過去問の解答">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://p.ipic.vip/0wc4l3.png">
 <meta property="article:published_time" content="2023-01-31T10:39:04.000Z">
-<meta property="article:modified_time" content="2023-02-01T02:20:06.101Z">
+<meta property="article:modified_time" content="2023-02-01T04:13:53.019Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p.ipic.vip/0wc4l3.png">
 
 
 <link rel="canonical" href="https://idealistyu.github.io/%E9%81%8E%E5%8E%BB%E5%95%8F/%E5%B0%82%E9%96%80%E5%9F%BA%E7%A4%8EA/%E9%80%9A%E6%83%85%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94A-2/">
@@ -266,7 +268,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-01 10:20:06" itemprop="dateModified" datetime="2023-02-01T10:20:06+08:00">2023-02-01</time>
+      <time title="Modified: 2023-02-01 12:13:53" itemprop="dateModified" datetime="2023-02-01T12:13:53+08:00">2023-02-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -288,14 +290,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.5k</span>
+      <span>2.8k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>10 mins.</span>
     </span>
 </div>
 
@@ -454,12 +456,160 @@ class="math inline">\(z\)</span>の最小積和形表現を求めよ。</p>
 \]</span></p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
+<p>下記のすべての問に答えよ。</p>
+<p>（１）符号無し２進整数の大小比較をする回路に関する以下の問に答えよ。</p>
+<p>​ （a）２つの１ビット入力<span class="math inline">\(x\)</span>と<span
+class="math inline">\(y\)</span>により表現される１桁の２進整数<span
+class="math inline">\(X=(x)_2\)</span>と<span
+class="math inline">\(Y=(y)_2\)</span>の大小比較を行う論理関数<span
+class="math inline">\(g(x,y)\)</span>と<span
+class="math inline">\(l(x,y)\)</span>を考える。<span
+class="math inline">\(X&gt;Y\)</span>のとき、<span
+class="math inline">\(G=1\)</span>で<span
+class="math inline">\(L=0\)</span>である。<span
+class="math inline">\(X&lt;Y\)</span>のとき、<span
+class="math inline">\(g=0\)</span>で<span
+class="math inline">\(l=1\)</span>である。<span
+class="math inline">\(X=Y\)</span>のとき、<span
+class="math inline">\(g=0\)</span>で<span
+class="math inline">\(l=0\)</span>である。<span
+class="math inline">\(g(x,y)\)</span>と<span
+class="math inline">\(l(x,y)\)</span>の最小積和形表現を求めよ。</p>
+<p>​ （b）２つの２ビット入力<span
+class="math inline">\((x_1,x_2)\)</span>と<span
+class="math inline">\((y_1,y_2)\)</span>により表現される２桁の２進整数<span
+class="math inline">\(X=(x_1,x_2)_2\)</span>と<span
+class="math inline">\(Y=(y_1,y_2)_2\)</span>の大小比較を行う論理関数<span
+class="math inline">\(G\)</span>と<span
+class="math inline">\(L\)</span>を考える。<span
+class="math inline">\(X&gt;Y\)</span>のとき、<span
+class="math inline">\(G=1\)</span>で<span
+class="math inline">\(L=0\)</span>である。<span
+class="math inline">\(X&lt;Y\)</span>のとき、<span
+class="math inline">\(G=0\)</span>で<span
+class="math inline">\(L=1\)</span>である。<span
+class="math inline">\(X=Y\)</span>のとき、<span
+class="math inline">\(G=0\)</span>で<span
+class="math inline">\(L=0\)</span>である。<span
+class="math inline">\(G\)</span>を<span
+class="math inline">\(x_1、x_2、y_1、y_2\)</span>の関数として、最小積和形で表せ。また、<span
+class="math inline">\(L\)</span>を<span
+class="math inline">\(x_1、x_2、y_1、y_2\)</span>の関数として、最小和積形で表せ。</p>
+<p>​ （c）問（a）で定義した<span class="math inline">\(g\)</span>と<span
+class="math inline">\(l\)</span>を用いて<span
+class="math inline">\(g_1=g(x_1,y_1)、g_2=(x_2,y_2)、l_1=(x_1,y_1)、l_2=(x_2,y_2)\)</span>とする。問（b）で定義した<span
+class="math inline">\(G\)</span>と<span
+class="math inline">\(L\)</span>を、<span
+class="math inline">\(g_1、g_2、l_1、l_2\)</span>の関数として、最小積和形で表せ。ドントケアを考慮すること。</p>
+<p>（２）１ビットの信号<span
+class="math inline">\(x\)</span>を入力とし、１ビットの信号<span
+class="math inline">\(z\)</span>を出力とするMealy型同期式順序回路を設計する。この回路は、入力されるバイナリの信号系列の中から11および101という部分系列を検出する。すなわち、検出すべき部分系列の最後の入力が加えられた時刻にのみ１を出力し、他の時刻では０を出力する。例えば、101100という入力系列に対する出力は001100である。以下の問に答えよ。</p>
+<p>​
+（a）状態数を最小化した状態遷移表と出力表を求めよ。状態数が最小であることをどのようにして確認したかを説明せよ。</p>
+<p>​
+（b）この回路を最小個数Dフリップフロップを用いて実現する。各Dフリップフロップの入力を与える論理関数および出力<span
+class="math inline">\(z\)</span>を表す論理関数の最小積和形表現を求めよ。なお、Dフリップフロップの初期値は０とする。Dフリップフロップの出力と入力を表す論理変数をそれぞれ<span
+class="math inline">\(q\)</span>と<span
+class="math inline">\(d\)</span>で表し、各Dフリップフロップは添字<span
+class="math inline">\(1,2,\dots\)</span>で区別する。添字は状態に割り当てた符号の左端ビットから<span
+class="math inline">\(1,2,\dots\)</span>と振るものとする。状態割り当てを明記すること。</p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （c） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
+<p>​ <span class="math inline">\(n+1\)</span>桁の２進数<span
+class="math inline">\(B=(b_n,\cdots,b_2,b_1,b_0)\)</span>からグレイ符号<span
+class="math inline">\(G=(g_n,\cdots,g_2,g_1,g_0)\)</span>へ変換する規則は以下のように表される。
+<span class="math display">\[
+\begin{align}
+g_i&amp;=b_i\oplus b_{i+1},\quad 0\leq i\leq n-1,
+\\
+g_n&amp;=b_n,
+\end{align}
+\]</span> ここで、<span
+class="math inline">\(\oplus\)</span>は排他的論理和を表す。例えば、２進数10110に対応するグレイ符号は、以下に示すように11101となる。</p>
+<p><img src="https://p.ipic.vip/0wc4l3.png" style="zoom: 67%;" /></p>
+<p>以下の問に答えよ。</p>
+<p>（１）２進数11011をグレイ符号に変換せよ。</p>
+<p>（２）グレイ符号11011に変換される２進数を求めよ。</p>
+<p>（３）<span class="math inline">\(G\)</span>から<span
+class="math inline">\(B\)</span>への逆変換において、<span
+class="math inline">\(B\)</span>の最上位桁<span
+class="math inline">\(b_n\)</span>を表す論理式を示せ。</p>
+<p>（４）<span class="math inline">\(G\)</span>から<span
+class="math inline">\(B\)</span>への逆変換において、<span
+class="math inline">\(B\)</span>の<span
+class="math inline">\(i\)</span>桁目<span
+class="math inline">\(b_i(0\leq i\leq n-1)\)</span>を<span
+class="math inline">\(g_i\)</span>と<span
+class="math inline">\(b_{i+1}\)</span>の論理関数として表せ。</p>
+<p>（５）<span class="math inline">\(G\)</span>から<span
+class="math inline">\(B\)</span>への逆変換を、最上位桁から最下位桁まで１ビットずつ順番に行うMealy型同期式順序回路を考える。各時刻の入力は１ビットの信号<span
+class="math inline">\(g\)</span>であり、出力は１ビットの信号<span
+class="math inline">\(b\)</span>である。この回路は１個のDフリップフロップと適当な論理ゲートを用いて構成することができる。この同期式順序回路に関する以下の問に答えよ。</p>
+<p>​ （a）状態数を最小化した状態遷移表と出力表を求めよ。</p>
+<p>​
+（b）Dフリップフロップの初期値を0とする。Dフリップフロップの励起関数<span
+class="math inline">\(d\)</span>と順序回路の出力<span
+class="math inline">\(b\)</span>を表す論理関数の最小積和形表現を求めよ。なお、Dフリップフロップの出力を<span
+class="math inline">\(q\)</span>とせよ。</p>
+<p>（６）<span class="math inline">\(G\)</span>から<span
+class="math inline">\(B\)</span>への逆変換は、組み合せ回路でも実現できる。３ビットのグレイ符号<span
+class="math inline">\((g_2,g_1,g_0)\)</span>から対応する３ビットの２進数<span
+class="math inline">\((b_2,b_1,b_0)\)</span>を生成する組み合せ回路に関する以下の問に答えよ。</p>
+<p>​ （a）<span
+class="math inline">\(b_2,b_1,b_0\)</span>それぞれを、<span
+class="math inline">\(g_2,g_1,g_0\)</span>の論理関数として最小積和形表現で示せ。</p>
+<p>​ （b）<span
+class="math inline">\(b_2,b_1,b_0\)</span>それぞれを、<span
+class="math inline">\(g_2,g_1,g_0\)</span>の論理関数として最小和積形表現で示せ。</p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （４） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （５）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （６）</p>
+<p>​ （a） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> ​ （b） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
 <hr />
@@ -534,13 +684,13 @@ class="math inline">\(z\)</span>の最小積和形表現を求めよ。</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">54k</span>
+    <span title="Word count total">56k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:18</span>
+    <span title="Reading time total">3:23</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
