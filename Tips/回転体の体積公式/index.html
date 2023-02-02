@@ -30,7 +30,7 @@
 <meta property="og:description" content="回転体の体積公式">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-02-02T13:15:59.000Z">
-<meta property="article:modified_time" content="2023-02-02T13:28:01.794Z">
+<meta property="article:modified_time" content="2023-02-02T13:42:48.465Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -141,7 +141,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#x%E8%BB%B8%E3%81%AE%E3%81%BE%E3%82%8A%E3%81%AB%E5%9B%9E%E8%BB%A2"><span class="nav-number">1.</span> <span class="nav-text">\(x\)軸のまりに回転</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#x%E8%BB%B8%E3%81%AE%E3%81%BE%E3%82%8A%E3%81%AB%E5%9B%9E%E8%BB%A2"><span class="nav-number">1.</span> <span class="nav-text">\(x\)軸のまりに回転</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">例</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -260,7 +260,7 @@ setInterval("createtime()",250);
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2023-02-02 21:15:59 / Modified: 21:28:01" itemprop="dateCreated datePublished" datetime="2023-02-02T21:15:59+08:00">2023-02-02</time>
+      <time title="Created: 2023-02-02 21:15:59 / Modified: 21:42:48" itemprop="dateCreated datePublished" datetime="2023-02-02T21:15:59+08:00">2023-02-02</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -278,7 +278,7 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>179</span>
+      <span>347</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -322,6 +322,25 @@ class="math inline">\(x\)</span>軸とで挟まれる図形を<span
 class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
 class="math inline">\(V\)</span>は, <span class="math display">\[
 V=2\pi\int_a^bx\cdot f(x)\,\mathrm dx
+\]</span></p>
+<h1 id="例">例</h1>
+<p><span class="math inline">\(y=\tan^{-1}x\)</span>と<span
+class="math inline">\(x\)</span>軸と直線<span
+class="math inline">\(x=1\)</span>で囲まれる図形を<span
+class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
+class="math inline">\(V\)</span>を,バウムクーヘン型積分により求めておこう。
+<span class="math display">\[
+\begin{align}
+V&amp;=2\pi\int_0^1x\cdot \tan^{-1}x\,\mathrm dx=2\pi\int_0^1\left(\frac
+1 2 x^2\right)&#39;\cdot \tan^{-1}x\,\mathrm dx
+\\&amp;=
+2\pi \left\{\left[\frac 1 2 x^2\cdot\tan^{-1}x\right]_0^1-\int_0^1\frac
+1 2\cdot x^2\cdot \frac 1{1+x^2}\,\mathrm dx\right\}
+\\&amp;=2\pi\left\{\frac 1 2\tan^{-1}1-\frac 1
+2[x-\tan^{-1}x]_0^1\right\}
+\\&amp;=2\pi\left\{\frac \pi 8-\frac 1 2(1-\tan^{-1}1)\right\}
+\\&amp;=2\pi\left(\frac \pi 4-\frac 1 2\right)=\frac{\pi^2}{2}-\pi
+\end{align}
 \]</span></p>
 <hr />
 
@@ -396,7 +415,7 @@ V=2\pi\int_a^bx\cdot f(x)\,\mathrm dx
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:35</span>
+    <span title="Reading time total">3:36</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
