@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LaTeX字母上方符号</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="section">^</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\hat A
+\]</span></p>
+<h1 id="section-1">-</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\overline A
+\]</span></p>
+<h1 id="section-2">~</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\widetilde A
+\]</span></p>
+<h1 id="section-3">・</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\dot A
+\quad
+\ddot A
+\quad
+\dddot A
+\quad
+\ddddot A
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母加粗</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="常规表示">常规表示</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+m\quad \beta
+\]</span></p>
+<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol m
+\]</span></p>
+<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\mathbf m
+\]</span></p>
+<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol \beta
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
     <title>树莓派安装conky监控运行状态</title>
     <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
     <content><![CDATA[<hr />
@@ -1982,679 +2087,6 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
-    <title>オイラーの公式</title>
-    <url>/Tips/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-\mathrm
-e^{i\theta}&amp;=1+\frac{i\theta}{1!}+\frac{(i\theta)^2}{2!}+\frac{(i\theta)^3}{3!}+\frac{(i\theta)^4}{4!}+\frac{(i\theta)^5}{5!}+\frac{(i\theta)^6}{6!}+\frac{(i\theta)^7}{7!}+\cdots
-\\&amp;=
-1+\frac{i\theta}{1!}-\frac{\theta^2}{2!}-\frac{i\theta^3}{3!}+\frac{\theta^4}{4!}+\frac{i\theta^5}{5!}-\frac{i\theta^6}{6!}-\frac{i\theta^7}{7!}+\cdots
-\\&amp;=
-\left(1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\frac{i\theta^6}{6!}+\cdots\right)+i\left(\frac{i\theta}{1!}-\frac{i\theta^3}{3!}+\frac{i\theta^5}{5!}-\frac{i\theta^7}{7!}+\cdots\right)
-\\&amp;=
-\cos\theta+i\sin\theta
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>主な曲線</title>
-    <url>/Tips/%E4%B8%BB%E3%81%AA%E6%9B%B2%E7%B7%9A/</url>
-    <content><![CDATA[<hr />
-<h1 id="アステロイド曲線">アステロイド曲線</h1>
-<p><span class="math display">\[
-\begin{align}
-&amp;x^{\frac 2 3}+y^{\frac 2 3}=a^{\frac 2 3}
-\\
-&amp;または
-\\
-&amp;
-\begin{cases}
-x=a\cos^3\theta\\
-y=a\sin^3\theta\quad(a&gt;0)
-\end{cases}
-\end{align}
-\]</span></p>
-<p><img src="https://p.ipic.vip/32pzo0.jpg" style="zoom:50%;" /></p>
-<h1 id="放物線">放物線</h1>
-<p><span class="math display">\[
-\begin{align}
-&amp;\sqrt x+\sqrt y=\sqrt a\quad(a&gt;0)
-\\
-&amp;または
-\\
-&amp;
-\begin{cases}
-x=a\cos^4\theta
-\\
-y=a\sin^4\theta\quad(0\leq\theta\leq\frac \pi 2)
-\end{cases}
-\end{align}
-\]</span></p>
-<p><img src="https://p.ipic.vip/oiy9th.jpg" style="zoom:25%;" /></p>
-<h1 id="サイクロイド曲線">サイクロイド曲線</h1>
-<p><span class="math display">\[
-\begin{align}
-\begin{cases}
-x=a(\theta-\sin\theta)\\
-y=a(1-\cos\theta)\quad(a&gt;0)
-\end{cases}
-\end{align}
-\]</span></p>
-<p><img src="https://p.ipic.vip/8g2r96.jpg" style="zoom:25%;" /></p>
-<h1 id="らせん">らせん</h1>
-<p><span class="math display">\[
-\begin{align}
-&amp;\begin{cases}
-x=\mathrm e^{a\theta}\cos\theta\\
-y=\mathrm e^{a\theta}\sin\theta
-\end{cases}
-\\
-&amp;または
-\\
-&amp;r=\mathrm e^{a\theta}（極方程式）
-\end{align}
-\]</span></p>
-<p><img src="https://p.ipic.vip/73w7s6.jpg" style="zoom:25%;" /></p>
-<h1 id="極方程式">極方程式</h1>
-<p>（i）三葉線 <span class="math display">\[
-\begin{align}
-r=a\sin3\theta
-\end{align}
-\]</span>
-<img src="https://p.ipic.vip/j0rsce.jpg" style="zoom:25%;" /></p>
-<p>（ii）四葉線 <span class="math display">\[
-\begin{align}
-r=a\cos2\theta
-\end{align}
-\]</span>
-<img src="https://p.ipic.vip/07dy7f.jpg" style="zoom:25%;" /></p>
-<p>（iii）かージオイド（心臓線） <span class="math display">\[
-\begin{align}
-r=a(1+\cos\theta)
-\end{align}
-\]</span>
-<img src="https://p.ipic.vip/jz0g18.jpg" style="zoom:25%;" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>倍角公式与半角公式</title>
-    <url>/Tips/%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F%E4%B8%8E%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="二倍角公式">二倍角公式</h1>
-<p><span class="math display">\[
-\sin 2\theta=2\sin\theta\cos\theta
-\]</span></p>
-<p><span class="math display">\[
-\cos2\theta=2\cos^2\theta-1=1-2\sin^2\theta
-\]</span></p>
-<h1 id="三倍角公式">三倍角公式</h1>
-<p><span class="math display">\[
-\sin3\theta=3\sin\theta-4\sin^3\theta
-\]</span></p>
-<p><span class="math display">\[
-\cos3\theta=4\cos^3\theta-3\cos\theta
-\]</span></p>
-<h1 id="半角公式">半角公式</h1>
-<p><span class="math display">\[
-\sin^2\theta=\frac{1-\cos2\theta}{2}
-\]</span></p>
-<p><span class="math display">\[
-\cos^2\theta=\frac{1+\cos2\theta}{2}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>双曲线函数</title>
-    <url>/Tips/%E5%8F%8C%E6%9B%B2%E7%BA%BF%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<hr />
-<h1 id="双曲线函数">双曲线函数</h1>
-<p><span class="math display">\[
-\cosh x=\frac{\mathrm e^x+\mathrm e^{-x}}{2}
-\]</span></p>
-<p><span class="math display">\[
-\sinh x=\frac{\mathrm e^x-\mathrm e^{-x}}{2}
-\]</span></p>
-<p><span class="math display">\[
-\tanh x=\frac{\mathrm e^x-\mathrm e^{-x}}{\mathrm e^x+\mathrm e^{-x}}
-\]</span></p>
-<h1 id="双曲线函数加法定理">双曲线函数加法定理</h1>
-<p><span class="math display">\[
-\cosh(x\pm y)=\cosh x\cdot\cosh y\pm\sinh x\cdot\sinh y
-\]</span></p>
-<p><span class="math display">\[
-\sinh(x\pm y)=\sinh x\cdot\cosh y\pm\cosh x\cdot\cosh y
-\]</span></p>
-<p><span class="math display">\[
-\tanh (x\pm y)=\frac{\tanh x\pm\tanh y}{1\pm\tanh x\cdot\tanh y}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>和差化积与积化和差</title>
-    <url>/Tips/%E5%92%8C%E5%B7%AE%E5%8C%96%E7%A7%AF%E4%B8%8E%E7%A7%AF%E5%8C%96%E5%92%8C%E5%B7%AE/</url>
-    <content><![CDATA[<hr />
-<h1 id="和差化积">和差化积</h1>
-<p><span class="math display">\[
-\begin{align}
-\sin\alpha+\sin\beta&amp;=2\sin{\frac{\alpha+\beta}{2}}\cos{\frac{\alpha-\beta}{2}}
-\\
-\sin \alpha-\sin
-\beta&amp;=2\cos{\frac{\alpha+\beta}{2}}\sin{\frac{\alpha-\beta}{2}}
-\\
-\cos \alpha+\cos
-\beta&amp;=2\cos{\frac{\alpha+\beta}{2}}\cos{\frac{\alpha-\beta}{2}}
-\\
-\cos \alpha-\cos
-\alpha&amp;=-2\sin{\frac{\alpha+\beta}{2}}\sin{\frac{\alpha-\beta}{2}}
-\end{align}
-\]</span></p>
-<h1 id="积化和差">积化和差</h1>
-<p><span class="math display">\[
-\begin{align}
-\sin\alpha\cos\beta&amp;=\frac 1
-2[\sin(\alpha+\beta)+\sin(\alpha-\beta)]
-\\
-\cos \alpha\sin\beta&amp;=\frac 1
-2[\sin(\alpha+\beta)-\sin(\alpha-\beta)]
-\\
-\cos \alpha\cos \beta&amp;=\frac 1
-2[\cos(\alpha+\beta)+\cos(\alpha-\beta)]
-\\
-\sin\alpha\sin\beta&amp;=-\frac 1
-2[\cos(\alpha+\beta)-\cos(\alpha-\beta)]
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>回転体の体積公式</title>
-    <url>/Tips/%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%81%AE%E4%BD%93%E7%A9%8D%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="x軸のまりに回転"><span
-class="math inline">\(x\)</span>軸のまりに回転</h1>
-<p>区間<span class="math inline">\([a,b]\)</span>の範囲で,<span
-class="math inline">\(y=f(x)\)</span>と<span
-class="math inline">\(x\)</span>軸とで挟まれる図形を<span
-class="math inline">\(x\)</span>軸のまりに回転してできる回転体の体積<span
-class="math inline">\(V_x\)</span>は, <span class="math display">\[
-V_x=\pi\int_a^bf(x)^2\,\mathrm dx
-\]</span></p>
-<p>#　<span class="math inline">\(y\)</span>軸のまりに回転</p>
-<p>区間<span class="math inline">\([c,d]\)</span>の範囲で,<span
-class="math inline">\(x=g(x)\)</span>と<span
-class="math inline">\(y\)</span>軸とで挟まれる図形を<span
-class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
-class="math inline">\(V_y\)</span>は, <span class="math display">\[
-V_y=\pi\int_c^dg(y)^2\,\mathrm dy
-\]</span></p>
-<p>#　バウムクーヘン型積分</p>
-<p>区間<span class="math inline">\([a,b]\)</span>の範囲で,<span
-class="math inline">\(y=f(x)\ (\geq0)\ \)</span>と<span
-class="math inline">\(x\)</span>軸とで挟まれる図形を<span
-class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
-class="math inline">\(V\)</span>は, <span class="math display">\[
-V=2\pi\int_a^bx\cdot f(x)\,\mathrm dx
-\]</span></p>
-<h1 id="例">例</h1>
-<p><span class="math inline">\(y=\tan^{-1}x\)</span>と<span
-class="math inline">\(x\)</span>軸と直線<span
-class="math inline">\(x=1\)</span>で囲まれる図形を<span
-class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
-class="math inline">\(V\)</span>を,バウムクーヘン型積分により求めておこう。
-<span class="math display">\[
-\begin{align}
-V&amp;=2\pi\int_0^1x\cdot \tan^{-1}x\,\mathrm dx=2\pi\int_0^1\left(\frac
-1 2 x^2\right)&#39;\cdot \tan^{-1}x\,\mathrm dx
-\\&amp;=
-2\pi \left\{\left[\frac 1 2 x^2\cdot\tan^{-1}x\right]_0^1-\int_0^1\frac
-1 2\cdot x^2\cdot \frac 1{1+x^2}\,\mathrm dx\right\}
-\\&amp;=2\pi\left\{\frac 1 2\tan^{-1}1-\frac 1
-2[x-\tan^{-1}x]_0^1\right\}
-\\&amp;=2\pi\left\{\frac \pi 8-\frac 1 2(1-\tan^{-1}1)\right\}
-\\&amp;=2\pi\left(\frac \pi 4-\frac 1 2\right)=\frac{\pi^2}{2}-\pi
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>基本初等函数导数公式</title>
-    <url>/Tips/%E5%9F%BA%E6%9C%AC%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0%E5%AF%BC%E6%95%B0%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="常用求导公式">常用求导公式</h1>
-<p><span class="math display">\[
-\begin{align}
-(C)&#39;&amp;=0\\
-(x^{\mu})&#39;&amp;=\mu x^{\mu-1}\\
-(\sin x)&#39;&amp;=\cos x\\
-(\cos x)&#39;&amp;=-\sin x\\
-(\tan x)&#39;&amp;=\sec^2x\\
-(\cot x)&#39;&amp;=-\csc^2x\\
-(\sec x)&#39;&amp;=\sec x\tan x\\
-(\csc x)&#39;&amp;=-\csc x\cot x\\
-(a^x)&#39;&amp;=a^x\ln a\quad(a&gt;0,a\neq 1)\\
-(\mathrm e^x)&#39;&amp;=\mathrm e^x\\
-(\log_ax)&#39;&amp;=\frac 1{x\ln a}\quad(a&gt;0,a\neq 1)\\
-(\ln x)&amp;=\frac 1 x\\
-(\arcsin x)&#39;&amp;=\frac 1 {\sqrt {1-x^2}}\\
-(\arccos x)&#39;&amp;=-\frac 1 {\sqrt {1-x^2}}\\
-(\arctan x)&#39;&amp;=\frac 1 {1+x^2}\\
-\end{align}
-\]</span></p>
-<h1 id="证明arcsin-xfrac-1-sqrt-1-x2">证明<span
-class="math inline">\((\arcsin x)&#39;=\frac 1 {\sqrt
-{1-x^2}}\)</span></h1>
-<p><span class="math display">\[
-\begin{align}
-\arcsin x=y
-&amp;\Rightarrow x=\sin y\\
-&amp;\Rightarrow x&#39;=(\sin y)&#39;\\
-&amp;\Rightarrow 1=y&#39;\cos y\\
-&amp;\Rightarrow y&#39;=\frac 1{\cos y}\\
-&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-\sin ^2y}}\\
-&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-x^2}}
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>拉普拉斯展开式</title>
-    <url>/Tips/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%B1%95%E5%BC%80%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<p>设A为m阶矩阵,B为n阶矩阵,则</p>
-<p><span class="math display">\[
-\begin{vmatrix}
-A&amp;O\\
-O&amp;B
-\end{vmatrix}
-=
-\begin{vmatrix}
-A&amp;C\\
-O&amp;B
-\end{vmatrix}
-=
-\begin{vmatrix}
-A&amp;O\\
-C&amp;B
-\end{vmatrix}
-=
-\begin{vmatrix}
-A
-\end{vmatrix}
-\begin{vmatrix}
-B
-\end{vmatrix}
-\]</span></p>
-<p><span class="math display">\[
-\begin{vmatrix}
-O&amp;A\\
-B&amp;O
-\end{vmatrix}
-=
-\begin{vmatrix}
-C&amp;A\\
-B&amp;O
-\end{vmatrix}
-=
-\begin{vmatrix}
-O&amp;A\\
-B&amp;C
-\end{vmatrix}
-=
-(-1)^{mn}
-\begin{vmatrix}
-A
-\end{vmatrix}
-\begin{vmatrix}
-B
-\end{vmatrix}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>特別な積分公式</title>
-    <url>/Tips/%E7%89%B9%E5%88%A5%E3%81%AA%E7%A9%8D%E5%88%86%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="sinn-xとcosn-xの積分公式"><span class="math inline">\(\sin^n
-x\)</span>と<span class="math inline">\(\cos^n x\)</span>の積分公式</h1>
-<p><span class="math display">\[
-\begin{align}
-I_n=\int_0^{\frac \pi 2}\sin^n x\,\mathrm dxとおくと,I_n=\frac {n-1}{n}
-I_{n-2}\quad(n=2,3,4,\cdots)
-\\
-J_n=\int_0^{\frac \pi 2}\cos^n x\,\mathrm
-dxとおくと,J_n=\frac{n-1}{n}J_{n-2}\quad(n=2,3,4,\cdots)
-\end{align}
-\]</span></p>
-<h1 id="例">例</h1>
-<p><span class="math display">\[
-\begin{align}
-\int_0^{\frac \pi 2}x\cdot\sin^3 x\cdot\cos x\,\mathrm dx&amp;=
-\int_0^{\frac \pi 2}x\cdot\left(\frac 1 4\sin^4x\right)&#39;\,\mathrm dx
-\\&amp;=
-\left[\frac 1 4x\cdot\sin^4x\right]_0^{\frac \pi 2}-\int_0^{\frac \pi
-2}1\cdot\frac 1 4\sin^4x\,\mathrm dx
-\\&amp;=
-\frac \pi 8-\frac 1 4I_4
-\\&amp;=
-\frac \pi 8-\frac 1 4\cdot\frac 3 4\cdot\frac 1 2I_0\quad(I_0=\frac \pi
-2)
-\\&amp;=
-\frac \pi 8-\frac{3\pi}{64}
-\\&amp;=
-\frac {5\pi}{64}
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>積分計算の応用公式</title>
-    <url>/Tips/%E7%A9%8D%E5%88%86%E8%A8%88%E7%AE%97%E3%81%AE%E5%BF%9C%E7%94%A8%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-(1)&amp;\int\frac 1{a^2+x^2}\,\mathrm dx=\frac 1 a\tan^{-1}\frac x
-a\quad(a\neq 0)\\
-(2)&amp;\int\frac 1{\sqrt {a^2-x^2}}\,\mathrm dx=\sin^{-1}\frac x
-a\quad(-a&lt;x&lt;a,\ a:正の定数) \\
-(3)&amp;\int\frac 1{\sqrt{x^2+\alpha^2}}\,\mathrm
-dx=\log|x+\sqrt{x^2+\alpha}|\quad(\alpha\neq 0)\quad(x^2+\alpha&gt;0)\\
-(4)&amp;\int\sqrt{x^2+\alpha}\,\mathrm dx=\frac 1
-2(x\sqrt{x^2+\alpha}+\alpha\log|x+\sqrt{x^2+\alpha}|)\quad(x^2+\alpha\geq
-0)
-\end{align}
-\]</span></p>
-<p><span class="math display">\[
-(積分定数\,C\,は省略した。)
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>等价无穷小</title>
-    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-when\quad x &amp;\rightarrow0,
-\\
-\sin x &amp;\sim x
-\\
-1-\cos x &amp;\sim \frac 1 2 x^2
-\\
-\tan x &amp;\sim x
-\\
-\arctan x &amp;\sim x
-\\
-\arcsin x &amp;\sim x
-\\
-a^x-1 &amp;\sim x\ln a
-\\
-\ln(1+x) &amp;\sim x
-\\
-(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
-\\
-\log_a(1+x) &amp;\sim \frac x {\ln a}
-\\
-x-\sin x &amp;\sim \frac 1 6 x^3
-\\
-\mathrm e^x-1 &amp;\sim x
-\\
-x-\ln(1+x) &amp;\sim \frac 1 2 x^2
-\\
-\ln(x+\sqrt{1+x^2}) &amp;\sim x
-\\
-\tan x-x &amp;\sim \frac 1 3 x^3
-\\
-\arcsin x-x &amp;\sim \frac 1 6 x^3
-\\
-x-\arctan x &amp;\sim \frac 1 3 x^3
-\\
-\tan x-\sin x &amp;\sim \frac 1 2 x^3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>置換積分の典型的な置き換えパターン</title>
-    <url>/Tips/%E7%BD%AE%E6%8F%9B%E7%A9%8D%E5%88%86%E3%81%AE%E5%85%B8%E5%9E%8B%E7%9A%84%E3%81%AA%E7%BD%AE%E3%81%8D%E6%8F%9B%E3%81%88%E3%83%8F%E3%82%9A%E3%82%BF%E3%83%BC%E3%83%B3/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-(1)&amp;\int f(\sin x)\cdot\cos xの場合,\sin x=tとおく。
-\\
-(2)&amp;\int f(\cos x)\cdot\sin xの場合,\cos x=tとおく。
-\\
-(3)&amp;\int \sqrt{a^2-x^2}\mathrm dxの場合,x=a\sin\theta\
-(またはa\cos\theta)とおく。
-\\
-(4)&amp;\int f(\sin x,\cos x)\mathrm dxの場合,\tan\frac x 2=tとおく。
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>高阶导数题常见解法</title>
-    <url>/Tips/%E9%AB%98%E9%98%B6%E5%AF%BC%E6%95%B0%E9%A2%98%E5%B8%B8%E8%A7%81%E8%A7%A3%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<ul>
-<li>四公式法</li>
-<li>莱布尼茨公式法</li>
-<li>泰勒公式法</li>
-<li>观察规律法</li>
-</ul>
-<hr />
-<h2
-id="四公式幂函数指数函数对数函数三角函数">四公式(幂函数、指数函数、对数函数、三角函数)</h2>
-<p><span class="math display">\[
-\begin{align}
-(x^m)^{(n)}&amp;=m(m-1)(m-2)\cdots(m-n+1)x^{m-n}\quad(m\geq n)
-\\
-\\
-(a^x)^{(n)}&amp;=(\ln a)^na^x
-\\
-\\
-(\ln x)^{(n)}&amp;=\frac {(-1)^{n-1}(n-1)!}{x^n}\quad or\quad
-\left(\frac 1 x\right)^{(n)}=\frac {(-1)^{n}(n)!}{x^{n+1}}
-\\
-\\
-(\sin x)^{(n)}&amp;=\sin(x+\frac {n\pi}{2})\quad or \quad(\cos
-x)^{(n)}=\cos(x+\frac{n\pi}{2})
-\end{align}
-\]</span></p>
-<hr />
-<h2 id="四公式法">四公式法</h2>
-<h3 id="例题">例题</h3>
-<p><span class="math display">\[
-已知函数f(x)=\ln\frac{1-3x}{1+2x},求f^{(n)}(0)
-\]</span></p>
-<h3 id="解答">解答</h3>
-<p><span class="math display">\[
-f(x)=\ln\frac{1-3x}{1+2x}=\ln(1-3x)-\ln(1+2x)
-\\
-[\ln(1+ax)]^{(n)}=\frac{(-1)^{n-1}a^n(n-1)!}{(1+ax)^n}
-\\
-f^{(n)}(x)=(-1)^{n-1}(n-1)!\left[\frac {(-3)^n}{(1-3x)^n}-\frac
-{2^n}{(1+2x)^n}\right]
-\\
-f^{(n)}(0)=(-1)^{n-1}(n-1)!\left[ (-3)^n-2^n\right]
-\]</span></p>
-<hr />
-<h2 id="莱布尼茨公式法">莱布尼茨公式法</h2>
-<h3 id="适用范围">适用范围</h3>
-<ul>
-<li>两个函数相乘</li>
-<li>其中一个函数在求高阶导数后会变为0</li>
-</ul>
-<h3 id="例题-1">例题</h3>
-<p><span class="math display">\[
-已知函数f(x)=x^2\ln(1-x),当n\geq3时,求f^{(n)}(0)
-\]</span></p>
-<h3 id="解答-1">解答</h3>
-<p><span class="math display">\[
-f^{(n)}(x)=\begin{pmatrix}n\\0\end{pmatrix}x^2[\ln(1-x)]^{(n)}+\begin{pmatrix}n\\1\end{pmatrix}(x^2)&#39;[\ln(1-x)]^{(n-1)}+\begin{pmatrix}n\\2\end{pmatrix}(x^2)&#39;&#39;[\ln(1-x)]^{(n-2)}
-\\
-(x^2)&#39;=2x
-\\
-(x^2)&#39;&#39;=2
-\\
-[\ln(1-x)]^{(n)}=\frac {(-1)^{n-1}(n-1)!(-1)^{n}}{(1-x)^{n}}=\frac
-{(-1)(n-1)!}{(1-x)^{n}}
-\\
-[\ln(1-x)]^{(n-1)}=\frac {(-1)^{n-2}(n-2)!(-1)^{n-1}}{(1-x)^{n-1}}=\frac
-{(-1)(n-2)!}{(1-x)^{n-1}}
-\\
-[\ln(1-x)]^{(n-2)}=\frac {(-1)^{n-3}(n-3)!(-1)^{n-2}}{(1-x)^{n-2}}=\frac
-{(-1)(n-3)!}{(1-x)^{n-2}}
-\\
-f^{(n)}(x)=x^2\frac {(-1)(n-1)!}{(1-x)^{n}}+n\cdot2x\frac
-{(-1)(n-2)!}{(1-x)^{n-1}}+\frac {n!}{2!(n-2)!}\cdot2\frac
-{(-1)(n-3)!}{(1-x)^{n-2}}
-\\
-f^{(n)}(0)=-\frac {n!}{n-2}
-\]</span></p>
-<hr />
-<h2 id="泰勒公式法">泰勒公式法</h2>
-<h3 id="适用范围-1">适用范围</h3>
-<p>同莱布尼茨公式法</p>
-<h3 id="例题-2">例题</h3>
-<p><span class="math display">\[
-已知函数f(x)=x^{100}\mathrm e^{x^2},求f^{(200)}(0)
-\]</span></p>
-<h3 id="解答-2">解答</h3>
-<p><span class="math display">\[
-f(x)=x^{100}\left(\sum_{k=0}^n\frac
-{x^{2k}}{k!}+o(x^{2n})\right)=\sum_{k=0}^n\frac
-{x^{2k+100}}{k!}+o(x^{2n+100})
-\\
-k=50
-\\
-\frac {f^{(200)}(0)}{200!}x^{200}=\frac 1 {50!}x^{200}
-\\
-f^{(200)}(0)=\frac {200!}{50!}
-\]</span></p>
-<h2 id="观察规律法">观察规律法</h2>
-<h3 id="例题-3">例题</h3>
-<p><span class="math display">\[
-已知函数f(x)在(-\infty,+\infty)上连续,且f(x)=(x+1)^2+2\int_0^xf(t)\,\mathrm
-dt,当n\geq2时,求f^{(n)}(0).
-\]</span></p>
-<h3 id="解答-3">解答</h3>
-<p><span class="math display">\[
-f&#39;(x)=2(x+1)+2f(x)
-\\
-f&#39;&#39;(x)=2+2f&#39;(x)
-\\
-f&#39;&#39;&#39;(x)=2f&#39;&#39;(x)
-\\
-f^{(n)}(x)=2f^{(n-1)}(x)=2^2f^{(n-1)}(x)=\cdots=2^{n-2}f&#39;&#39;(x)\quad(m\geq2)
-\\
-f(0)=1\\
-f&#39;(0)=4
-\\f&#39;&#39;(0)=10
-\\
-f^{(n)}(0)=5\cdot2^{n-1}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>麦克劳林公式</title>
-    <url>/Tips/%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1
-id="常用的带有佩亚诺余项的麦克劳林公式">常用的带有佩亚诺余项的麦克劳林公式</h1>
-<p><span class="math display">\[
-\begin{align}
-\mathrm{e}^x&amp;=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+o(x^3)\\
-\ln(1+x)&amp;=x-\frac{x^2}2+\frac{x^3}3+o(x^3)\\
-\ln(1-x)&amp;=-x-\frac{x^2}2-\frac{x^3}3+o(x^3)\\
-(1+x)^\alpha&amp;=1+\alpha
-x+\frac{\alpha(\alpha-1)}{2!}x^2+\frac{\alpha(\alpha-1)(\alpha-2)}{3!}x^3+o(x^3)\\
-\frac 1{1-x}&amp;=1+x+x^2+x^3+o(x^3)\\
-\frac 1{1+x}&amp;=1-x+x^2-x^3+o(x^3)\\
-\sin x&amp;=x-\frac{x^3}{3!}+\frac{x^5}{5!}+o(x^5)\\
-\arcsin x&amp;=x+\frac1 2\times\frac{x^3}3+\frac{1\times3}
-{2\times4}\times\frac{x^5}5+\frac{1\times3\times5}
-{2\times4\times6}\times\frac{x^7}7+o(x^7)\\
-\cos x&amp;=1-\frac{x^2}{2!}+\frac{x^4}{4!}+o(x^4)\\
-\sqrt{1+x}&amp;=1+\frac x 2-\frac {x^2} 8 +\frac {x^3}{16}+o(x^3)\\
-\tan x&amp;=x+\frac{x^3}3+\frac{2x^5}{15}+o(x^5)\\
-\arctan x&amp;=x-\frac{x^3}3+\frac{x^5}5+o(x^5)
-\end{align}
-\]</span></p>
-<h1 id="佩亚诺余项的麦克劳林公式">佩亚诺余项的麦克劳林公式</h1>
-<p><span class="math display">\[
-f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x^n+o(x^n)
-\]</span></p>
-<h1 id="拉格朗日余项的麦克劳林公式">拉格朗日余项的麦克劳林公式</h1>
-<p><span class="math display">\[
-f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x^n+\frac{f^{(n+1)}(\theta
-x)}{(n+1)!}x^{n+1}\quad(0&lt;\theta&lt;1)
-\]</span></p>
-<h1 id="误差估计式">误差估计式</h1>
-<p><span class="math display">\[
-|R_n(x)|\leq\frac M {(n+1)!}(x)^{n+1}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Tips</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day1</title>
     <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day1/</url>
     <content><![CDATA[<hr />
@@ -3387,98 +2819,6 @@ D&#39;:r&amp;\in[1,4],\theta\in[0,2\pi]となる.
       </categories>
   </entry>
   <entry>
-    <title>Day3</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day3/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>ベクトル<span
-class="math inline">\(\alpha=\begin{bmatrix}1\\1\\2\end{bmatrix}\in\mathbb
-R^3\)</span>に対し,線形変換<span class="math inline">\(f:\mathbb
-R^3\rightarrow\mathbb R^3\)</span>を <span class="math display">\[
-f(x)=x-\frac{2(x,\alpha)}{(\alpha,\alpha)}\alpha\quad(x\in\mathbb R^3)
-\]</span> で定義する,ただし,<span
-class="math inline">\((x,y)\)</span>は<span
-class="math inline">\(x,y\in\mathbb R^3\)</span>の標準内積を表す.</p>
-<p>また,<span
-class="math inline">\(\mathscr{E}=(e_1,e_2,e_3)\)</span>を<span
-class="math inline">\(\mathbb R^3\)</span>の標準基底とする.</p>
-<p>このとき,以下の問いに答えよ.</p>
-<p>（１）<span class="math inline">\(f(e_1)\)</span>および<span
-class="math inline">\(f(\alpha)\)</span>を求めよ.</p>
-<p>（２）<span class="math inline">\(\mathscr{E}\)</span>に関する<span
-class="math inline">\(f\)</span>の表現行列<span
-class="math inline">\(A\)</span>を求めよ.</p>
-<p>（３）<span
-class="math inline">\(A\)</span>の固有値をすべて求めよ.</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
-\begin{align}
-e_1&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}
-\\
-f(e_1)&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}-\frac{2(1+0+0)}{1+1+4}\begin{bmatrix}1\\1\\2\end{bmatrix}=\begin{bmatrix}\frac2
-3\\-\frac1 3\\-\frac2 3\end{bmatrix}
-\\
-f(a)&amp;=-a=\begin{bmatrix}-1\\-1\\-2\end{bmatrix}
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-f(e_2)&amp;=\begin{bmatrix}-\frac1 3\\\frac2 3\\-\frac2 3\end{bmatrix}
-\quad
-f(e_3)=\begin{bmatrix}-\frac2 3\\-\frac2 3\\-\frac1 3\end{bmatrix}
-\\
-表現行列A&amp;=\begin{bmatrix}
-\frac2 3 &amp; -\frac1 3 &amp;-\frac2 3\\
--\frac1 3 &amp; \frac2 3 &amp;-\frac2 3\\
--\frac2 3 &amp; -\frac2 3 &amp;-\frac1 3
-\end{bmatrix}
-=\frac1 3\begin{bmatrix}
-2 &amp; -1 &amp;-2\\
--1  &amp; 2  &amp;-2 \\
--2  &amp; -2  &amp;-1
-\end{bmatrix}
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-\because
-\left|
-T
-\right|
-&amp;=
-\left|
-A-\lambda E
-\right|
-=0\\
-\therefore
-\left|
-3T
-\right|
-&amp;=
-\left|
-3A-3\lambda E
-\right|
-=0\\
-3\lambda&amp;=aとおくと,\\
-\left|
-\begin{matrix}
-2-a &amp; -1 &amp;-2\\
--1  &amp; 2-a  &amp;-2 \\
--2  &amp; -2  &amp;-1-a
-\end{matrix}
-\right|
-&amp;=(a-3)^2(3+a)=0\\
-a_1&amp;=a_2=3 \quad a_3=-3\\
-\therefore
-\lambda_1&amp;=\lambda_2=1\quad\lambda_3=-1
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Day4</title>
     <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day4/</url>
     <content><![CDATA[<hr />
@@ -3552,6 +2892,73 @@ D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
 {3}\cdot\frac 1 rdr
 \\&amp;=\frac{16}{3}\log2-\left[\frac 2 9r^3\right]_1^2
 \\&amp;=\frac{16}{3}\log2-\frac {14} 9
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day6</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day6/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>以下の各問いに答えよ.</p>
+<p>（１）関数<span
+class="math inline">\(f(x,y)=2x^3-y^3+4xy+1\)</span>に対して,次の問いに答えよ.</p>
+<p>​ （i）<span
+class="math inline">\(f_x(1,-1),f_y(1,-1)\)</span>の値を求めよ.</p>
+<p>​ （ii）<span class="math inline">\(f(x,y)=0\)</span>上の点<span
+class="math inline">\((1,-1)\)</span>の近くでは,<span
+class="math inline">\(f(x,y)=0\)</span>の陰関数<span
+class="math inline">\(y=\varphi(x)\)</span>が存在する.このとき,<span
+class="math inline">\(\varphi(1),\varphi&#39;(1),\varphi&#39;&#39;(1)\)</span>の値を求めよ.</p>
+<p>（２）次の重積分<span class="math inline">\(I\)</span>を求めよ. <span
+class="math display">\[
+I=\iint_D\frac y {\sqrt{1+x^3}}dxdy,\quad D=\{(x,y):0\leq x \leq 1,0\leq
+y\leq x\}
+\]</span></p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１）</p>
+<p>（i） <span class="math display">\[
+\begin{align}
+f_x&amp;=6x^2+4y
+\\
+f_y&amp;=-3y^2+4x
+\\
+f_x(1,-1)&amp;=2
+\\
+f_y(1,-1)&amp;=1
+\end{align}
+\]</span> （ii） <span class="math display">\[
+\begin{align}
+\because\varphi(1)&amp;=y=-1
+\\
+0&amp;=6x^2-3y^2y&#39;+4y+4xy&#39;
+\\
+y&#39;&amp;=-\frac{6x^2+4y}{4x-3y^2}
+\\
+\therefore\varphi&#39;(1)&amp;=-2
+\\
+\because
+y&#39;&#39;&amp;=-\frac{(12x+4y&#39;)(4x-3y^2)-(4-6yy&#39;)(6x^2+4y)}{(4x-3y^2)^2}
+\\
+\therefore\varphi&#39;&#39;(1)&amp;=-20
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+I
+&amp;=\iint_D\frac y {\sqrt{1+x^3}}dxdy\\
+&amp;=\int_0^1\int_0^x\frac y {\sqrt{1+x^3}}dydx\\
+&amp;=\int_0^1\left[\frac {y^2} {2\sqrt{1+x^3}}\right]_0^xdx\\
+&amp;=\int_0^1\frac {x^2} {2\sqrt{1+x^3}}dx\\
+&amp;=\frac 1 6\int_0^1\frac {3x^2} {\sqrt{1+x^3}}dx\\
+&amp;=\frac 1 6\int_1^2\frac 1 {\sqrt{u}}du\quad (u=1+x^3\in[1,2])\\
+&amp;=\frac 1 6\left[2\sqrt u\right]_1^2\\
+&amp;=\frac 1 3(\sqrt 2 -1)
 \end{align}
 \]</span></p>
 <hr />
@@ -3731,73 +3138,6 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
 =(\lambda+1)(\lambda+2)(\lambda+3)=0
 \\
 &amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>備考練習</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Day6</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day6/</url>
-    <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p>以下の各問いに答えよ.</p>
-<p>（１）関数<span
-class="math inline">\(f(x,y)=2x^3-y^3+4xy+1\)</span>に対して,次の問いに答えよ.</p>
-<p>​ （i）<span
-class="math inline">\(f_x(1,-1),f_y(1,-1)\)</span>の値を求めよ.</p>
-<p>​ （ii）<span class="math inline">\(f(x,y)=0\)</span>上の点<span
-class="math inline">\((1,-1)\)</span>の近くでは,<span
-class="math inline">\(f(x,y)=0\)</span>の陰関数<span
-class="math inline">\(y=\varphi(x)\)</span>が存在する.このとき,<span
-class="math inline">\(\varphi(1),\varphi&#39;(1),\varphi&#39;&#39;(1)\)</span>の値を求めよ.</p>
-<p>（２）次の重積分<span class="math inline">\(I\)</span>を求めよ. <span
-class="math display">\[
-I=\iint_D\frac y {\sqrt{1+x^3}}dxdy,\quad D=\{(x,y):0\leq x \leq 1,0\leq
-y\leq x\}
-\]</span></p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１）</p>
-<p>（i） <span class="math display">\[
-\begin{align}
-f_x&amp;=6x^2+4y
-\\
-f_y&amp;=-3y^2+4x
-\\
-f_x(1,-1)&amp;=2
-\\
-f_y(1,-1)&amp;=1
-\end{align}
-\]</span> （ii） <span class="math display">\[
-\begin{align}
-\because\varphi(1)&amp;=y=-1
-\\
-0&amp;=6x^2-3y^2y&#39;+4y+4xy&#39;
-\\
-y&#39;&amp;=-\frac{6x^2+4y}{4x-3y^2}
-\\
-\therefore\varphi&#39;(1)&amp;=-2
-\\
-\because
-y&#39;&#39;&amp;=-\frac{(12x+4y&#39;)(4x-3y^2)-(4-6yy&#39;)(6x^2+4y)}{(4x-3y^2)^2}
-\\
-\therefore\varphi&#39;&#39;(1)&amp;=-20
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-I
-&amp;=\iint_D\frac y {\sqrt{1+x^3}}dxdy\\
-&amp;=\int_0^1\int_0^x\frac y {\sqrt{1+x^3}}dydx\\
-&amp;=\int_0^1\left[\frac {y^2} {2\sqrt{1+x^3}}\right]_0^xdx\\
-&amp;=\int_0^1\frac {x^2} {2\sqrt{1+x^3}}dx\\
-&amp;=\frac 1 6\int_0^1\frac {3x^2} {\sqrt{1+x^3}}dx\\
-&amp;=\frac 1 6\int_1^2\frac 1 {\sqrt{u}}du\quad (u=1+x^3\in[1,2])\\
-&amp;=\frac 1 6\left[2\sqrt u\right]_1^2\\
-&amp;=\frac 1 3(\sqrt 2 -1)
 \end{align}
 \]</span></p>
 <hr />
@@ -4500,6 +3840,827 @@ x^2&amp;3&amp;2
       </categories>
   </entry>
   <entry>
+    <title>オイラーの公式</title>
+    <url>/Tips/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+\mathrm
+e^{i\theta}&amp;=1+\frac{i\theta}{1!}+\frac{(i\theta)^2}{2!}+\frac{(i\theta)^3}{3!}+\frac{(i\theta)^4}{4!}+\frac{(i\theta)^5}{5!}+\frac{(i\theta)^6}{6!}+\frac{(i\theta)^7}{7!}+\cdots
+\\&amp;=
+1+\frac{i\theta}{1!}-\frac{\theta^2}{2!}-\frac{i\theta^3}{3!}+\frac{\theta^4}{4!}+\frac{i\theta^5}{5!}-\frac{i\theta^6}{6!}-\frac{i\theta^7}{7!}+\cdots
+\\&amp;=
+\left(1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\frac{i\theta^6}{6!}+\cdots\right)+i\left(\frac{i\theta}{1!}-\frac{i\theta^3}{3!}+\frac{i\theta^5}{5!}-\frac{i\theta^7}{7!}+\cdots\right)
+\\&amp;=
+\cos\theta+i\sin\theta
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>主な曲線</title>
+    <url>/Tips/%E4%B8%BB%E3%81%AA%E6%9B%B2%E7%B7%9A/</url>
+    <content><![CDATA[<hr />
+<h1 id="アステロイド曲線">アステロイド曲線</h1>
+<p><span class="math display">\[
+\begin{align}
+&amp;x^{\frac 2 3}+y^{\frac 2 3}=a^{\frac 2 3}
+\\
+&amp;または
+\\
+&amp;
+\begin{cases}
+x=a\cos^3\theta\\
+y=a\sin^3\theta\quad(a&gt;0)
+\end{cases}
+\end{align}
+\]</span></p>
+<p><img src="https://p.ipic.vip/32pzo0.jpg" style="zoom:50%;" /></p>
+<h1 id="放物線">放物線</h1>
+<p><span class="math display">\[
+\begin{align}
+&amp;\sqrt x+\sqrt y=\sqrt a\quad(a&gt;0)
+\\
+&amp;または
+\\
+&amp;
+\begin{cases}
+x=a\cos^4\theta
+\\
+y=a\sin^4\theta\quad(0\leq\theta\leq\frac \pi 2)
+\end{cases}
+\end{align}
+\]</span></p>
+<p><img src="https://p.ipic.vip/oiy9th.jpg" style="zoom:25%;" /></p>
+<h1 id="サイクロイド曲線">サイクロイド曲線</h1>
+<p><span class="math display">\[
+\begin{align}
+\begin{cases}
+x=a(\theta-\sin\theta)\\
+y=a(1-\cos\theta)\quad(a&gt;0)
+\end{cases}
+\end{align}
+\]</span></p>
+<p><img src="https://p.ipic.vip/8g2r96.jpg" style="zoom:25%;" /></p>
+<h1 id="らせん">らせん</h1>
+<p><span class="math display">\[
+\begin{align}
+&amp;\begin{cases}
+x=\mathrm e^{a\theta}\cos\theta\\
+y=\mathrm e^{a\theta}\sin\theta
+\end{cases}
+\\
+&amp;または
+\\
+&amp;r=\mathrm e^{a\theta}（極方程式）
+\end{align}
+\]</span></p>
+<p><img src="https://p.ipic.vip/73w7s6.jpg" style="zoom:25%;" /></p>
+<h1 id="極方程式">極方程式</h1>
+<p>（i）三葉線 <span class="math display">\[
+\begin{align}
+r=a\sin3\theta
+\end{align}
+\]</span>
+<img src="https://p.ipic.vip/j0rsce.jpg" style="zoom:25%;" /></p>
+<p>（ii）四葉線 <span class="math display">\[
+\begin{align}
+r=a\cos2\theta
+\end{align}
+\]</span>
+<img src="https://p.ipic.vip/07dy7f.jpg" style="zoom:25%;" /></p>
+<p>（iii）かージオイド（心臓線） <span class="math display">\[
+\begin{align}
+r=a(1+\cos\theta)
+\end{align}
+\]</span>
+<img src="https://p.ipic.vip/jz0g18.jpg" style="zoom:25%;" /></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day3</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day3/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>ベクトル<span
+class="math inline">\(\alpha=\begin{bmatrix}1\\1\\2\end{bmatrix}\in\mathbb
+R^3\)</span>に対し,線形変換<span class="math inline">\(f:\mathbb
+R^3\rightarrow\mathbb R^3\)</span>を <span class="math display">\[
+f(x)=x-\frac{2(x,\alpha)}{(\alpha,\alpha)}\alpha\quad(x\in\mathbb R^3)
+\]</span> で定義する,ただし,<span
+class="math inline">\((x,y)\)</span>は<span
+class="math inline">\(x,y\in\mathbb R^3\)</span>の標準内積を表す.</p>
+<p>また,<span
+class="math inline">\(\mathscr{E}=(e_1,e_2,e_3)\)</span>を<span
+class="math inline">\(\mathbb R^3\)</span>の標準基底とする.</p>
+<p>このとき,以下の問いに答えよ.</p>
+<p>（１）<span class="math inline">\(f(e_1)\)</span>および<span
+class="math inline">\(f(\alpha)\)</span>を求めよ.</p>
+<p>（２）<span class="math inline">\(\mathscr{E}\)</span>に関する<span
+class="math inline">\(f\)</span>の表現行列<span
+class="math inline">\(A\)</span>を求めよ.</p>
+<p>（３）<span
+class="math inline">\(A\)</span>の固有値をすべて求めよ.</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+e_1&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}
+\\
+f(e_1)&amp;=\begin{bmatrix}1\\0\\0\end{bmatrix}-\frac{2(1+0+0)}{1+1+4}\begin{bmatrix}1\\1\\2\end{bmatrix}=\begin{bmatrix}\frac2
+3\\-\frac1 3\\-\frac2 3\end{bmatrix}
+\\
+f(a)&amp;=-a=\begin{bmatrix}-1\\-1\\-2\end{bmatrix}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+f(e_2)&amp;=\begin{bmatrix}-\frac1 3\\\frac2 3\\-\frac2 3\end{bmatrix}
+\quad
+f(e_3)=\begin{bmatrix}-\frac2 3\\-\frac2 3\\-\frac1 3\end{bmatrix}
+\\
+表現行列A&amp;=\begin{bmatrix}
+\frac2 3 &amp; -\frac1 3 &amp;-\frac2 3\\
+-\frac1 3 &amp; \frac2 3 &amp;-\frac2 3\\
+-\frac2 3 &amp; -\frac2 3 &amp;-\frac1 3
+\end{bmatrix}
+=\frac1 3\begin{bmatrix}
+2 &amp; -1 &amp;-2\\
+-1  &amp; 2  &amp;-2 \\
+-2  &amp; -2  &amp;-1
+\end{bmatrix}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+\because
+\left|
+T
+\right|
+&amp;=
+\left|
+A-\lambda E
+\right|
+=0\\
+\therefore
+\left|
+3T
+\right|
+&amp;=
+\left|
+3A-3\lambda E
+\right|
+=0\\
+3\lambda&amp;=aとおくと,\\
+\left|
+\begin{matrix}
+2-a &amp; -1 &amp;-2\\
+-1  &amp; 2-a  &amp;-2 \\
+-2  &amp; -2  &amp;-1-a
+\end{matrix}
+\right|
+&amp;=(a-3)^2(3+a)=0\\
+a_1&amp;=a_2=3 \quad a_3=-3\\
+\therefore
+\lambda_1&amp;=\lambda_2=1\quad\lambda_3=-1
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>双曲线函数</title>
+    <url>/Tips/%E5%8F%8C%E6%9B%B2%E7%BA%BF%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<hr />
+<h1 id="双曲线函数">双曲线函数</h1>
+<p><span class="math display">\[
+\cosh x=\frac{\mathrm e^x+\mathrm e^{-x}}{2}
+\]</span></p>
+<p><span class="math display">\[
+\sinh x=\frac{\mathrm e^x-\mathrm e^{-x}}{2}
+\]</span></p>
+<p><span class="math display">\[
+\tanh x=\frac{\mathrm e^x-\mathrm e^{-x}}{\mathrm e^x+\mathrm e^{-x}}
+\]</span></p>
+<h1 id="双曲线函数加法定理">双曲线函数加法定理</h1>
+<p><span class="math display">\[
+\cosh(x\pm y)=\cosh x\cdot\cosh y\pm\sinh x\cdot\sinh y
+\]</span></p>
+<p><span class="math display">\[
+\sinh(x\pm y)=\sinh x\cdot\cosh y\pm\cosh x\cdot\cosh y
+\]</span></p>
+<p><span class="math display">\[
+\tanh (x\pm y)=\frac{\tanh x\pm\tanh y}{1\pm\tanh x\cdot\tanh y}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>倍角公式与半角公式</title>
+    <url>/Tips/%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F%E4%B8%8E%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="二倍角公式">二倍角公式</h1>
+<p><span class="math display">\[
+\sin 2\theta=2\sin\theta\cos\theta
+\]</span></p>
+<p><span class="math display">\[
+\cos2\theta=2\cos^2\theta-1=1-2\sin^2\theta
+\]</span></p>
+<h1 id="三倍角公式">三倍角公式</h1>
+<p><span class="math display">\[
+\sin3\theta=3\sin\theta-4\sin^3\theta
+\]</span></p>
+<p><span class="math display">\[
+\cos3\theta=4\cos^3\theta-3\cos\theta
+\]</span></p>
+<h1 id="半角公式">半角公式</h1>
+<p><span class="math display">\[
+\sin^2\theta=\frac{1-\cos2\theta}{2}
+\]</span></p>
+<p><span class="math display">\[
+\cos^2\theta=\frac{1+\cos2\theta}{2}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>和差化积与积化和差</title>
+    <url>/Tips/%E5%92%8C%E5%B7%AE%E5%8C%96%E7%A7%AF%E4%B8%8E%E7%A7%AF%E5%8C%96%E5%92%8C%E5%B7%AE/</url>
+    <content><![CDATA[<hr />
+<h1 id="和差化积">和差化积</h1>
+<p><span class="math display">\[
+\begin{align}
+\sin\alpha+\sin\beta&amp;=2\sin{\frac{\alpha+\beta}{2}}\cos{\frac{\alpha-\beta}{2}}
+\\
+\sin \alpha-\sin
+\beta&amp;=2\cos{\frac{\alpha+\beta}{2}}\sin{\frac{\alpha-\beta}{2}}
+\\
+\cos \alpha+\cos
+\beta&amp;=2\cos{\frac{\alpha+\beta}{2}}\cos{\frac{\alpha-\beta}{2}}
+\\
+\cos \alpha-\cos
+\alpha&amp;=-2\sin{\frac{\alpha+\beta}{2}}\sin{\frac{\alpha-\beta}{2}}
+\end{align}
+\]</span></p>
+<h1 id="积化和差">积化和差</h1>
+<p><span class="math display">\[
+\begin{align}
+\sin\alpha\cos\beta&amp;=\frac 1
+2[\sin(\alpha+\beta)+\sin(\alpha-\beta)]
+\\
+\cos \alpha\sin\beta&amp;=\frac 1
+2[\sin(\alpha+\beta)-\sin(\alpha-\beta)]
+\\
+\cos \alpha\cos \beta&amp;=\frac 1
+2[\cos(\alpha+\beta)+\cos(\alpha-\beta)]
+\\
+\sin\alpha\sin\beta&amp;=-\frac 1
+2[\cos(\alpha+\beta)-\cos(\alpha-\beta)]
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>回転体の体積公式</title>
+    <url>/Tips/%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%81%AE%E4%BD%93%E7%A9%8D%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="x軸のまりに回転"><span
+class="math inline">\(x\)</span>軸のまりに回転</h1>
+<p>区間<span class="math inline">\([a,b]\)</span>の範囲で,<span
+class="math inline">\(y=f(x)\)</span>と<span
+class="math inline">\(x\)</span>軸とで挟まれる図形を<span
+class="math inline">\(x\)</span>軸のまりに回転してできる回転体の体積<span
+class="math inline">\(V_x\)</span>は, <span class="math display">\[
+V_x=\pi\int_a^bf(x)^2\,\mathrm dx
+\]</span></p>
+<p>#　<span class="math inline">\(y\)</span>軸のまりに回転</p>
+<p>区間<span class="math inline">\([c,d]\)</span>の範囲で,<span
+class="math inline">\(x=g(x)\)</span>と<span
+class="math inline">\(y\)</span>軸とで挟まれる図形を<span
+class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
+class="math inline">\(V_y\)</span>は, <span class="math display">\[
+V_y=\pi\int_c^dg(y)^2\,\mathrm dy
+\]</span></p>
+<p>#　バウムクーヘン型積分</p>
+<p>区間<span class="math inline">\([a,b]\)</span>の範囲で,<span
+class="math inline">\(y=f(x)\ (\geq0)\ \)</span>と<span
+class="math inline">\(x\)</span>軸とで挟まれる図形を<span
+class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
+class="math inline">\(V\)</span>は, <span class="math display">\[
+V=2\pi\int_a^bx\cdot f(x)\,\mathrm dx
+\]</span></p>
+<h1 id="例">例</h1>
+<p><span class="math inline">\(y=\tan^{-1}x\)</span>と<span
+class="math inline">\(x\)</span>軸と直線<span
+class="math inline">\(x=1\)</span>で囲まれる図形を<span
+class="math inline">\(y\)</span>軸のまりに回転してできる回転体の体積<span
+class="math inline">\(V\)</span>を,バウムクーヘン型積分により求めよ。
+<span class="math display">\[
+\begin{align}
+V&amp;=2\pi\int_0^1x\cdot \tan^{-1}x\,\mathrm dx=2\pi\int_0^1\left(\frac
+1 2 x^2\right)&#39;\cdot \tan^{-1}x\,\mathrm dx
+\\&amp;=
+2\pi \left\{\left[\frac 1 2 x^2\cdot\tan^{-1}x\right]_0^1-\int_0^1\frac
+1 2\cdot x^2\cdot \frac 1{1+x^2}\,\mathrm dx\right\}
+\\&amp;=2\pi\left\{\frac 1 2\tan^{-1}1-\frac 1
+2[x-\tan^{-1}x]_0^1\right\}
+\\&amp;=2\pi\left\{\frac \pi 8-\frac 1 2(1-\tan^{-1}1)\right\}
+\\&amp;=2\pi\left(\frac \pi 4-\frac 1 2\right)=\frac{\pi^2}{2}-\pi
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>基本初等函数导数公式</title>
+    <url>/Tips/%E5%9F%BA%E6%9C%AC%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0%E5%AF%BC%E6%95%B0%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="常用求导公式">常用求导公式</h1>
+<p><span class="math display">\[
+\begin{align}
+(C)&#39;&amp;=0\\
+(x^{\mu})&#39;&amp;=\mu x^{\mu-1}\\
+(\sin x)&#39;&amp;=\cos x\\
+(\cos x)&#39;&amp;=-\sin x\\
+(\tan x)&#39;&amp;=\sec^2x\\
+(\cot x)&#39;&amp;=-\csc^2x\\
+(\sec x)&#39;&amp;=\sec x\tan x\\
+(\csc x)&#39;&amp;=-\csc x\cot x\\
+(a^x)&#39;&amp;=a^x\ln a\quad(a&gt;0,a\neq 1)\\
+(\mathrm e^x)&#39;&amp;=\mathrm e^x\\
+(\log_ax)&#39;&amp;=\frac 1{x\ln a}\quad(a&gt;0,a\neq 1)\\
+(\ln x)&amp;=\frac 1 x\\
+(\arcsin x)&#39;&amp;=\frac 1 {\sqrt {1-x^2}}\\
+(\arccos x)&#39;&amp;=-\frac 1 {\sqrt {1-x^2}}\\
+(\arctan x)&#39;&amp;=\frac 1 {1+x^2}\\
+\end{align}
+\]</span></p>
+<h1 id="证明arcsin-xfrac-1-sqrt-1-x2">证明<span
+class="math inline">\((\arcsin x)&#39;=\frac 1 {\sqrt
+{1-x^2}}\)</span></h1>
+<p><span class="math display">\[
+\begin{align}
+\arcsin x=y
+&amp;\Rightarrow x=\sin y\\
+&amp;\Rightarrow x&#39;=(\sin y)&#39;\\
+&amp;\Rightarrow 1=y&#39;\cos y\\
+&amp;\Rightarrow y&#39;=\frac 1{\cos y}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-\sin ^2y}}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-x^2}}
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>拉普拉斯展开式</title>
+    <url>/Tips/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%B1%95%E5%BC%80%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<p>设A为m阶矩阵,B为n阶矩阵,则</p>
+<p><span class="math display">\[
+\begin{vmatrix}
+A&amp;O\\
+O&amp;B
+\end{vmatrix}
+=
+\begin{vmatrix}
+A&amp;C\\
+O&amp;B
+\end{vmatrix}
+=
+\begin{vmatrix}
+A&amp;O\\
+C&amp;B
+\end{vmatrix}
+=
+\begin{vmatrix}
+A
+\end{vmatrix}
+\begin{vmatrix}
+B
+\end{vmatrix}
+\]</span></p>
+<p><span class="math display">\[
+\begin{vmatrix}
+O&amp;A\\
+B&amp;O
+\end{vmatrix}
+=
+\begin{vmatrix}
+C&amp;A\\
+B&amp;O
+\end{vmatrix}
+=
+\begin{vmatrix}
+O&amp;A\\
+B&amp;C
+\end{vmatrix}
+=
+(-1)^{mn}
+\begin{vmatrix}
+A
+\end{vmatrix}
+\begin{vmatrix}
+B
+\end{vmatrix}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>曲線の長さの公式</title>
+    <url>/Tips/%E6%9B%B2%E7%B7%9A%E3%81%AE%E9%95%B7%E3%81%95%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="普通関数">普通関数</h1>
+<p>微分可能な曲線<span class="math inline">\(y=f(x)\)</span>の,区間<span
+class="math inline">\([a,b]\)</span>における曲線の長さ<span
+class="math inline">\(L\)</span>は <span class="math display">\[
+L=\int_a^b\sqrt{1+f&#39;(x)^2}\,\mathrm dx
+\]</span></p>
+<h1 id="媒介変数">媒介変数</h1>
+<p>微分可能な媒介変数表示の曲線<span
+class="math inline">\(x=f(\theta)\)</span>,<span
+class="math inline">\(y=g(\theta)\)</span>の,<span
+class="math inline">\(\alpha\leq\theta\leq\beta\)</span>における曲線の長さ<span
+class="math inline">\(L\)</span>は <span class="math display">\[
+L＝\int_\alpha^\beta\sqrt{\left(\frac {\mathrm dx}{\mathrm
+d\theta}\right)^2+\left(\frac{\mathrm dy}{\mathrm
+d\theta}\right)^2}\,\mathrm d\theta
+\]</span></p>
+<h1 id="極方程式">極方程式</h1>
+<p>微分可能な極方程式<span
+class="math inline">\(r=f(\theta)\)</span>で表される曲線の,<span
+class="math inline">\(\alpha\leq\theta\leq\beta\)</span>における曲線の長さ<span
+class="math inline">\(L\)</span>は <span class="math display">\[
+L=\int_\alpha^\beta\sqrt{r^2+\left(\frac{\mathrm dr}{\mathrm
+d\theta}\right)^2}\,\mathrm d\theta
+\]</span></p>
+<h1 id="例">例</h1>
+<p>カージオイド<span
+class="math inline">\(r=1+\cos\theta\)</span>（極方程式）の<span
+class="math inline">\(0\leq\theta\leq\pi\)</span>における曲線の長さ<span
+class="math inline">\(L\)</span>を求めよ。 <span class="math display">\[
+\begin{align}
+r^2+\left(\frac{\mathrm dr}{\mathrm
+d\theta}\right)^2&amp;=(1+\cos\theta)^2+(-\sin\theta)^2
+\\&amp;=1+2\cos\theta+\cos^2\theta+\sin^2\theta
+\\&amp;=2(1+\cos\theta)
+\\&amp;=4\cos^2\frac \theta 2
+\\
+L&amp;=\int_0^\pi\sqrt{r^2+\left(\frac{\mathrm dr}{\mathrm
+d\theta}\right)^2}\,\mathrm d\theta
+\\&amp;=
+\int_0^\pi\sqrt{4\cos^2\frac \theta 2}\,\mathrm d\theta
+\\&amp;=2\int_0^\pi|\cos^2\frac \theta 2|\,\mathrm d\theta
+\\&amp;=2\int_0^\pi\cos^2\frac \theta 2\,\mathrm d\theta
+\\&amp;=2\left[2\sin\frac \theta 2\right]_0^\pi
+\\&amp;=4
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>特別な積分公式</title>
+    <url>/Tips/%E7%89%B9%E5%88%A5%E3%81%AA%E7%A9%8D%E5%88%86%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="sinn-xとcosn-xの積分公式"><span class="math inline">\(\sin^n
+x\)</span>と<span class="math inline">\(\cos^n x\)</span>の積分公式</h1>
+<p><span class="math display">\[
+\begin{align}
+I_n=\int_0^{\frac \pi 2}\sin^n x\,\mathrm dxとおくと,I_n=\frac {n-1}{n}
+I_{n-2}\quad(n=2,3,4,\cdots)
+\\
+J_n=\int_0^{\frac \pi 2}\cos^n x\,\mathrm
+dxとおくと,J_n=\frac{n-1}{n}J_{n-2}\quad(n=2,3,4,\cdots)
+\end{align}
+\]</span></p>
+<h1 id="例">例</h1>
+<p><span class="math display">\[
+\begin{align}
+\int_0^{\frac \pi 2}x\cdot\sin^3 x\cdot\cos x\,\mathrm dx&amp;=
+\int_0^{\frac \pi 2}x\cdot\left(\frac 1 4\sin^4x\right)&#39;\,\mathrm dx
+\\&amp;=
+\left[\frac 1 4x\cdot\sin^4x\right]_0^{\frac \pi 2}-\int_0^{\frac \pi
+2}1\cdot\frac 1 4\sin^4x\,\mathrm dx
+\\&amp;=
+\frac \pi 8-\frac 1 4I_4
+\\&amp;=
+\frac \pi 8-\frac 1 4\cdot\frac 3 4\cdot\frac 1 2I_0\quad(I_0=\frac \pi
+2)
+\\&amp;=
+\frac \pi 8-\frac{3\pi}{64}
+\\&amp;=
+\frac {5\pi}{64}
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>積分計算の応用公式</title>
+    <url>/Tips/%E7%A9%8D%E5%88%86%E8%A8%88%E7%AE%97%E3%81%AE%E5%BF%9C%E7%94%A8%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+(1)&amp;\int\frac 1{a^2+x^2}\,\mathrm dx=\frac 1 a\tan^{-1}\frac x
+a\quad(a\neq 0)\\
+(2)&amp;\int\frac 1{\sqrt {a^2-x^2}}\,\mathrm dx=\sin^{-1}\frac x
+a\quad(-a&lt;x&lt;a,\ a:正の定数) \\
+(3)&amp;\int\frac 1{\sqrt{x^2+\alpha^2}}\,\mathrm
+dx=\log|x+\sqrt{x^2+\alpha}|\quad(\alpha\neq 0)\quad(x^2+\alpha&gt;0)\\
+(4)&amp;\int\sqrt{x^2+\alpha}\,\mathrm dx=\frac 1
+2(x\sqrt{x^2+\alpha}+\alpha\log|x+\sqrt{x^2+\alpha}|)\quad(x^2+\alpha\geq
+0)
+\end{align}
+\]</span></p>
+<p><span class="math display">\[
+(積分定数\,C\,は省略した。)
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>等价无穷小</title>
+    <url>/Tips/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+when\quad x &amp;\rightarrow0,
+\\
+\sin x &amp;\sim x
+\\
+1-\cos x &amp;\sim \frac 1 2 x^2
+\\
+\tan x &amp;\sim x
+\\
+\arctan x &amp;\sim x
+\\
+\arcsin x &amp;\sim x
+\\
+a^x-1 &amp;\sim x\ln a
+\\
+\ln(1+x) &amp;\sim x
+\\
+(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
+\\
+\log_a(1+x) &amp;\sim \frac x {\ln a}
+\\
+x-\sin x &amp;\sim \frac 1 6 x^3
+\\
+\mathrm e^x-1 &amp;\sim x
+\\
+x-\ln(1+x) &amp;\sim \frac 1 2 x^2
+\\
+\ln(x+\sqrt{1+x^2}) &amp;\sim x
+\\
+\tan x-x &amp;\sim \frac 1 3 x^3
+\\
+\arcsin x-x &amp;\sim \frac 1 6 x^3
+\\
+x-\arctan x &amp;\sim \frac 1 3 x^3
+\\
+\tan x-\sin x &amp;\sim \frac 1 2 x^3
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>置換積分の典型的な置き換えパターン</title>
+    <url>/Tips/%E7%BD%AE%E6%8F%9B%E7%A9%8D%E5%88%86%E3%81%AE%E5%85%B8%E5%9E%8B%E7%9A%84%E3%81%AA%E7%BD%AE%E3%81%8D%E6%8F%9B%E3%81%88%E3%83%8F%E3%82%9A%E3%82%BF%E3%83%BC%E3%83%B3/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+(1)&amp;\int f(\sin x)\cdot\cos xの場合,\sin x=tとおく。
+\\
+(2)&amp;\int f(\cos x)\cdot\sin xの場合,\cos x=tとおく。
+\\
+(3)&amp;\int \sqrt{a^2-x^2}\mathrm dxの場合,x=a\sin\theta\
+(またはa\cos\theta)とおく。
+\\
+(4)&amp;\int f(\sin x,\cos x)\mathrm dxの場合,\tan\frac x 2=tとおく。
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>高阶导数题常见解法</title>
+    <url>/Tips/%E9%AB%98%E9%98%B6%E5%AF%BC%E6%95%B0%E9%A2%98%E5%B8%B8%E8%A7%81%E8%A7%A3%E6%B3%95/</url>
+    <content><![CDATA[<hr />
+<ul>
+<li>四公式法</li>
+<li>莱布尼茨公式法</li>
+<li>泰勒公式法</li>
+<li>观察规律法</li>
+</ul>
+<hr />
+<h2
+id="四公式幂函数指数函数对数函数三角函数">四公式(幂函数、指数函数、对数函数、三角函数)</h2>
+<p><span class="math display">\[
+\begin{align}
+(x^m)^{(n)}&amp;=m(m-1)(m-2)\cdots(m-n+1)x^{m-n}\quad(m\geq n)
+\\
+\\
+(a^x)^{(n)}&amp;=(\ln a)^na^x
+\\
+\\
+(\ln x)^{(n)}&amp;=\frac {(-1)^{n-1}(n-1)!}{x^n}\quad or\quad
+\left(\frac 1 x\right)^{(n)}=\frac {(-1)^{n}(n)!}{x^{n+1}}
+\\
+\\
+(\sin x)^{(n)}&amp;=\sin(x+\frac {n\pi}{2})\quad or \quad(\cos
+x)^{(n)}=\cos(x+\frac{n\pi}{2})
+\end{align}
+\]</span></p>
+<hr />
+<h2 id="四公式法">四公式法</h2>
+<h3 id="例题">例题</h3>
+<p><span class="math display">\[
+已知函数f(x)=\ln\frac{1-3x}{1+2x},求f^{(n)}(0)
+\]</span></p>
+<h3 id="解答">解答</h3>
+<p><span class="math display">\[
+f(x)=\ln\frac{1-3x}{1+2x}=\ln(1-3x)-\ln(1+2x)
+\\
+[\ln(1+ax)]^{(n)}=\frac{(-1)^{n-1}a^n(n-1)!}{(1+ax)^n}
+\\
+f^{(n)}(x)=(-1)^{n-1}(n-1)!\left[\frac {(-3)^n}{(1-3x)^n}-\frac
+{2^n}{(1+2x)^n}\right]
+\\
+f^{(n)}(0)=(-1)^{n-1}(n-1)!\left[ (-3)^n-2^n\right]
+\]</span></p>
+<hr />
+<h2 id="莱布尼茨公式法">莱布尼茨公式法</h2>
+<h3 id="适用范围">适用范围</h3>
+<ul>
+<li>两个函数相乘</li>
+<li>其中一个函数在求高阶导数后会变为0</li>
+</ul>
+<h3 id="例题-1">例题</h3>
+<p><span class="math display">\[
+已知函数f(x)=x^2\ln(1-x),当n\geq3时,求f^{(n)}(0)
+\]</span></p>
+<h3 id="解答-1">解答</h3>
+<p><span class="math display">\[
+f^{(n)}(x)=\begin{pmatrix}n\\0\end{pmatrix}x^2[\ln(1-x)]^{(n)}+\begin{pmatrix}n\\1\end{pmatrix}(x^2)&#39;[\ln(1-x)]^{(n-1)}+\begin{pmatrix}n\\2\end{pmatrix}(x^2)&#39;&#39;[\ln(1-x)]^{(n-2)}
+\\
+(x^2)&#39;=2x
+\\
+(x^2)&#39;&#39;=2
+\\
+[\ln(1-x)]^{(n)}=\frac {(-1)^{n-1}(n-1)!(-1)^{n}}{(1-x)^{n}}=\frac
+{(-1)(n-1)!}{(1-x)^{n}}
+\\
+[\ln(1-x)]^{(n-1)}=\frac {(-1)^{n-2}(n-2)!(-1)^{n-1}}{(1-x)^{n-1}}=\frac
+{(-1)(n-2)!}{(1-x)^{n-1}}
+\\
+[\ln(1-x)]^{(n-2)}=\frac {(-1)^{n-3}(n-3)!(-1)^{n-2}}{(1-x)^{n-2}}=\frac
+{(-1)(n-3)!}{(1-x)^{n-2}}
+\\
+f^{(n)}(x)=x^2\frac {(-1)(n-1)!}{(1-x)^{n}}+n\cdot2x\frac
+{(-1)(n-2)!}{(1-x)^{n-1}}+\frac {n!}{2!(n-2)!}\cdot2\frac
+{(-1)(n-3)!}{(1-x)^{n-2}}
+\\
+f^{(n)}(0)=-\frac {n!}{n-2}
+\]</span></p>
+<hr />
+<h2 id="泰勒公式法">泰勒公式法</h2>
+<h3 id="适用范围-1">适用范围</h3>
+<p>同莱布尼茨公式法</p>
+<h3 id="例题-2">例题</h3>
+<p><span class="math display">\[
+已知函数f(x)=x^{100}\mathrm e^{x^2},求f^{(200)}(0)
+\]</span></p>
+<h3 id="解答-2">解答</h3>
+<p><span class="math display">\[
+f(x)=x^{100}\left(\sum_{k=0}^n\frac
+{x^{2k}}{k!}+o(x^{2n})\right)=\sum_{k=0}^n\frac
+{x^{2k+100}}{k!}+o(x^{2n+100})
+\\
+k=50
+\\
+\frac {f^{(200)}(0)}{200!}x^{200}=\frac 1 {50!}x^{200}
+\\
+f^{(200)}(0)=\frac {200!}{50!}
+\]</span></p>
+<h2 id="观察规律法">观察规律法</h2>
+<h3 id="例题-3">例题</h3>
+<p><span class="math display">\[
+已知函数f(x)在(-\infty,+\infty)上连续,且f(x)=(x+1)^2+2\int_0^xf(t)\,\mathrm
+dt,当n\geq2时,求f^{(n)}(0).
+\]</span></p>
+<h3 id="解答-3">解答</h3>
+<p><span class="math display">\[
+f&#39;(x)=2(x+1)+2f(x)
+\\
+f&#39;&#39;(x)=2+2f&#39;(x)
+\\
+f&#39;&#39;&#39;(x)=2f&#39;&#39;(x)
+\\
+f^{(n)}(x)=2f^{(n-1)}(x)=2^2f^{(n-1)}(x)=\cdots=2^{n-2}f&#39;&#39;(x)\quad(m\geq2)
+\\
+f(0)=1\\
+f&#39;(0)=4
+\\f&#39;&#39;(0)=10
+\\
+f^{(n)}(0)=5\cdot2^{n-1}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>麦克劳林公式</title>
+    <url>/Tips/%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1
+id="常用的带有佩亚诺余项的麦克劳林公式">常用的带有佩亚诺余项的麦克劳林公式</h1>
+<p><span class="math display">\[
+\begin{align}
+\mathrm{e}^x&amp;=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+o(x^3)\\
+\ln(1+x)&amp;=x-\frac{x^2}2+\frac{x^3}3+o(x^3)\\
+\ln(1-x)&amp;=-x-\frac{x^2}2-\frac{x^3}3+o(x^3)\\
+(1+x)^\alpha&amp;=1+\alpha
+x+\frac{\alpha(\alpha-1)}{2!}x^2+\frac{\alpha(\alpha-1)(\alpha-2)}{3!}x^3+o(x^3)\\
+\frac 1{1-x}&amp;=1+x+x^2+x^3+o(x^3)\\
+\frac 1{1+x}&amp;=1-x+x^2-x^3+o(x^3)\\
+\sin x&amp;=x-\frac{x^3}{3!}+\frac{x^5}{5!}+o(x^5)\\
+\arcsin x&amp;=x+\frac1 2\times\frac{x^3}3+\frac{1\times3}
+{2\times4}\times\frac{x^5}5+\frac{1\times3\times5}
+{2\times4\times6}\times\frac{x^7}7+o(x^7)\\
+\cos x&amp;=1-\frac{x^2}{2!}+\frac{x^4}{4!}+o(x^4)\\
+\sqrt{1+x}&amp;=1+\frac x 2-\frac {x^2} 8 +\frac {x^3}{16}+o(x^3)\\
+\tan x&amp;=x+\frac{x^3}3+\frac{2x^5}{15}+o(x^5)\\
+\arctan x&amp;=x-\frac{x^3}3+\frac{x^5}5+o(x^5)
+\end{align}
+\]</span></p>
+<h1 id="佩亚诺余项的麦克劳林公式">佩亚诺余项的麦克劳林公式</h1>
+<p><span class="math display">\[
+f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x^n+o(x^n)
+\]</span></p>
+<h1 id="拉格朗日余项的麦克劳林公式">拉格朗日余项的麦克劳林公式</h1>
+<p><span class="math display">\[
+f(x)=f(0)+f&#39;(0)x+\frac{f&#39;&#39;(0)}{2!}x^2+\cdots+\frac{f^{(n)}(0)}{n!}x^n+\frac{f^{(n+1)}(\theta
+x)}{(n+1)!}x^{n+1}\quad(0&lt;\theta&lt;1)
+\]</span></p>
+<h1 id="误差估计式">误差估计式</h1>
+<p><span class="math display">\[
+|R_n(x)|\leq\frac M {(n+1)!}(x)^{n+1}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+  </entry>
+  <entry>
     <title>LilaS</title>
     <url>/Lyrics/LilaS/</url>
     <content><![CDATA[<hr />
@@ -4636,6 +4797,57 @@ x^2&amp;3&amp;2
 <p>心だけ連れてゆかないで</p>
 <p>私を置いてゆかないで</p>
 <p>ひとりが好きなわけじゃないのよ</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>すずめ feat.十明</title>
+    <url>/Lyrics/%E3%81%99%E3%81%9A%E3%82%81/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=690634501&amp;bvid=BV1w24y1y7xP&amp;cid=908204446&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>君の中にある　赤と青き線</p>
+<p>それらが結ばれるのは　心の臓</p>
+<p><br></p>
+<p>風の中でも負けないような声で</p>
+<p>届ける言葉を今は育ててる</p>
+<p><br></p>
+<p>時はまくらぎ　風はにきはだ　星はうぶすな　人はかげろう</p>
+<p><br></p>
+<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
+<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
+<p><br></p>
+<p>この身ひとつじゃ　足りない叫び</p>
+<p><br></p>
+<p>君の手に触れた時にだけ震えた　心があったよ</p>
+<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
+<p><br></p>
+<p>愚かさでいい　醜さでいい　正しさのその先で　君と手を取りたい</p>
+<p><br></p>
+<p>思い出せない　大切な記憶</p>
+<p>言葉にならない　ここにある想い</p>
+<p><br></p>
+<p>もしかしたら　もしかしたら</p>
+<p>それだけでこの心はできてる</p>
+<p><br></p>
+<p>もしかしたら　もしかしたら</p>
+<p>君に「気づいて」と今もその胸を</p>
+<p>打ち鳴らす</p>
+<p><br></p>
+<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
+<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
+<p><br></p>
+<p>この身ひとつじゃ　足りない叫び</p>
+<p><br></p>
+<p>君の手に触れた時にだけ震えた　心があったよ</p>
+<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
+<p><br></p>
+<p>愚かさでいい　醜さでいい　正しさのその先で　君と生きてきたい</p>
 <hr />
 ]]></content>
       <categories>
@@ -4863,61 +5075,6 @@ x^2&amp;3&amp;2
       </categories>
   </entry>
   <entry>
-    <title>余命3日少女</title>
-    <url>/Lyrics/%E4%BD%99%E5%91%BD3%E6%97%A5%E5%B0%91%E5%A5%B3/</url>
-    <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=35600953&amp;bvid=BV1Ub411c7dv&amp;cid=62429249&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<hr />
-<p><br></p>
-<p>白く脆く崩れる　思いを繋ぐの</p>
-<p>風を吹いてる　入り込んでく</p>
-<p>今になって思うの</p>
-<p>光は沈む</p>
-<p>灰色　水色</p>
-<p><br></p>
-<p>誰かに気づいて欲しくて</p>
-<p>ただ　ただ　歩きまわるの</p>
-<p>そんな嘘ばっか</p>
-<p>実らせていくけど</p>
-<p><br></p>
-<p>君に見つけて欲しくて</p>
-<p>夢のなかを歩きまわる</p>
-<p>夜空を仰いて　星になるの</p>
-<p><br></p>
-<p>海を見てたの　ユラユラユラ</p>
-<p><br></p>
-<p>深く潜る乱れる　私を壊すの</p>
-<p>色褪せてゆく　灰になってく</p>
-<p>暗く重く沈むの　記憶は消える</p>
-<p>灰色　水色</p>
-<p><br></p>
-<p>貴方に気づいて欲しくて</p>
-<p>ただ　ただ　歩きまわるの</p>
-<p>そんな嘘ばっか募らせていくけど</p>
-<p><br></p>
-<p>君に見つけて欲しくて</p>
-<p>夢のなかを歩きまわる</p>
-<p>夜空を見上げて　星になるの</p>
-<p><br></p>
-<p>祈りの消えた街　夢のなかで</p>
-<p>光の赤い夜寂れた心障</p>
-<p>記憶の奥底で開いた壁　夢見て殺して</p>
-<p><br></p>
-<p>誰かに気づいて欲しくて</p>
-<p>ただ　ただ　歩きまわるの</p>
-<p>そんな嘘ばっか</p>
-<p>実らせていくけど</p>
-<p>君に気づいて欲しくて</p>
-<p>夢のなかを歩きまわる</p>
-<p>夜空の星になるの</p>
-<hr />
-]]></content>
-      <categories>
-        <category>Lyrics</category>
-      </categories>
-  </entry>
-  <entry>
     <title>和楽千本桜</title>
     <url>/Lyrics/%E5%92%8C%E6%A5%BD%E5%8D%83%E6%9C%AC%E6%A1%9C/</url>
     <content><![CDATA[<hr />
@@ -4986,6 +5143,108 @@ x^2&amp;3&amp;2
       </categories>
   </entry>
   <entry>
+    <title>余命3日少女</title>
+    <url>/Lyrics/%E4%BD%99%E5%91%BD3%E6%97%A5%E5%B0%91%E5%A5%B3/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=35600953&amp;bvid=BV1Ub411c7dv&amp;cid=62429249&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>白く脆く崩れる　思いを繋ぐの</p>
+<p>風を吹いてる　入り込んでく</p>
+<p>今になって思うの</p>
+<p>光は沈む</p>
+<p>灰色　水色</p>
+<p><br></p>
+<p>誰かに気づいて欲しくて</p>
+<p>ただ　ただ　歩きまわるの</p>
+<p>そんな嘘ばっか</p>
+<p>実らせていくけど</p>
+<p><br></p>
+<p>君に見つけて欲しくて</p>
+<p>夢のなかを歩きまわる</p>
+<p>夜空を仰いて　星になるの</p>
+<p><br></p>
+<p>海を見てたの　ユラユラユラ</p>
+<p><br></p>
+<p>深く潜る乱れる　私を壊すの</p>
+<p>色褪せてゆく　灰になってく</p>
+<p>暗く重く沈むの　記憶は消える</p>
+<p>灰色　水色</p>
+<p><br></p>
+<p>貴方に気づいて欲しくて</p>
+<p>ただ　ただ　歩きまわるの</p>
+<p>そんな嘘ばっか募らせていくけど</p>
+<p><br></p>
+<p>君に見つけて欲しくて</p>
+<p>夢のなかを歩きまわる</p>
+<p>夜空を見上げて　星になるの</p>
+<p><br></p>
+<p>祈りの消えた街　夢のなかで</p>
+<p>光の赤い夜寂れた心障</p>
+<p>記憶の奥底で開いた壁　夢見て殺して</p>
+<p><br></p>
+<p>誰かに気づいて欲しくて</p>
+<p>ただ　ただ　歩きまわるの</p>
+<p>そんな嘘ばっか</p>
+<p>実らせていくけど</p>
+<p>君に気づいて欲しくて</p>
+<p>夢のなかを歩きまわる</p>
+<p>夜空の星になるの</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>夢と葉桜</title>
+    <url>/Lyrics/%E5%A4%A2%E3%81%A8%E8%91%89%E6%A1%9C/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=116223&amp;bvid=BV1Dx411c7Q9&amp;cid=1010217&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<p>この川の流れるが如く</p>
+<p>穏やかに音色が聞こえる</p>
+<p>吹く風が頬を撫でていく</p>
+<p>懐かしい思い出が滲む</p>
+<p><br></p>
+<p>遙かなる空は</p>
+<p>胸を裂くように</p>
+<p>忘れかけた記憶を醒ます</p>
+<p>溢れるは涙</p>
+<p><br></p>
+<p>白い桜の花の季節は</p>
+<p>遠く夢の中にだけ</p>
+<p>舞い散る花びらの囁いた</p>
+<p>忘れられない言葉</p>
+<p><br></p>
+<p>眠れない夜を一人きり</p>
+<p>歩き出すぬるい風の中</p>
+<p>いたずらにはしゃいでいたまま</p>
+<p>気がつけば思い出に変わる</p>
+<p><br></p>
+<p>月葉も雲隠れ</p>
+<p>蒸し暑い日々の</p>
+<p>消したい記憶も儚くは</p>
+<p>止まらない涙</p>
+<p><br></p>
+<p>刻まれる時間は残酷に</p>
+<p>人を縛り付け遊ぶ</p>
+<p>青々と茂る桜の葉は</p>
+<p>何も語りはしない</p>
+<p><br></p>
+<p>白い桜の花の季節は</p>
+<p>遠く夢の中にだけ</p>
+<p>舞い散る花びらの囁いた</p>
+<p>忘れられない言葉</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
     <title>无梦之梦【不插电 ver.】</title>
     <url>/Lyrics/%E6%97%A0%E6%A2%A6%E4%B9%8B%E6%A2%A6/</url>
     <content><![CDATA[<hr />
@@ -5046,53 +5305,6 @@ x^2&amp;3&amp;2
 <p>あれがあなたの未来</p>
 <p>未来へ向かって</p>
 <p>ゆっくりと歩いて行こう</p>
-<hr />
-]]></content>
-      <categories>
-        <category>Lyrics</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>夢と葉桜</title>
-    <url>/Lyrics/%E5%A4%A2%E3%81%A8%E8%91%89%E6%A1%9C/</url>
-    <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=116223&amp;bvid=BV1Dx411c7Q9&amp;cid=1010217&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<p>この川の流れるが如く</p>
-<p>穏やかに音色が聞こえる</p>
-<p>吹く風が頬を撫でていく</p>
-<p>懐かしい思い出が滲む</p>
-<p><br></p>
-<p>遙かなる空は</p>
-<p>胸を裂くように</p>
-<p>忘れかけた記憶を醒ます</p>
-<p>溢れるは涙</p>
-<p><br></p>
-<p>白い桜の花の季節は</p>
-<p>遠く夢の中にだけ</p>
-<p>舞い散る花びらの囁いた</p>
-<p>忘れられない言葉</p>
-<p><br></p>
-<p>眠れない夜を一人きり</p>
-<p>歩き出すぬるい風の中</p>
-<p>いたずらにはしゃいでいたまま</p>
-<p>気がつけば思い出に変わる</p>
-<p><br></p>
-<p>月葉も雲隠れ</p>
-<p>蒸し暑い日々の</p>
-<p>消したい記憶も儚くは</p>
-<p>止まらない涙</p>
-<p><br></p>
-<p>刻まれる時間は残酷に</p>
-<p>人を縛り付け遊ぶ</p>
-<p>青々と茂る桜の葉は</p>
-<p>何も語りはしない</p>
-<p><br></p>
-<p>白い桜の花の季節は</p>
-<p>遠く夢の中にだけ</p>
-<p>舞い散る花びらの囁いた</p>
-<p>忘れられない言葉</p>
 <hr />
 ]]></content>
       <categories>
@@ -5223,57 +5435,6 @@ id="b-12プログラミング言語処理系とｏｓ">B-12「プログラミン
       </categories>
   </entry>
   <entry>
-    <title>すずめ feat.十明</title>
-    <url>/Lyrics/%E3%81%99%E3%81%9A%E3%82%81/</url>
-    <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=690634501&amp;bvid=BV1w24y1y7xP&amp;cid=908204446&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<hr />
-<p><br></p>
-<p>君の中にある　赤と青き線</p>
-<p>それらが結ばれるのは　心の臓</p>
-<p><br></p>
-<p>風の中でも負けないような声で</p>
-<p>届ける言葉を今は育ててる</p>
-<p><br></p>
-<p>時はまくらぎ　風はにきはだ　星はうぶすな　人はかげろう</p>
-<p><br></p>
-<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
-<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
-<p><br></p>
-<p>この身ひとつじゃ　足りない叫び</p>
-<p><br></p>
-<p>君の手に触れた時にだけ震えた　心があったよ</p>
-<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
-<p><br></p>
-<p>愚かさでいい　醜さでいい　正しさのその先で　君と手を取りたい</p>
-<p><br></p>
-<p>思い出せない　大切な記憶</p>
-<p>言葉にならない　ここにある想い</p>
-<p><br></p>
-<p>もしかしたら　もしかしたら</p>
-<p>それだけでこの心はできてる</p>
-<p><br></p>
-<p>もしかしたら　もしかしたら</p>
-<p>君に「気づいて」と今もその胸を</p>
-<p>打ち鳴らす</p>
-<p><br></p>
-<p>なんで泣いてるのと聞かれ答えれる　涙なんかじゃ</p>
-<p>僕ら出逢えたことの意味にはまるで　追いつかない</p>
-<p><br></p>
-<p>この身ひとつじゃ　足りない叫び</p>
-<p><br></p>
-<p>君の手に触れた時にだけ震えた　心があったよ</p>
-<p>意味をいくつ越えれば僕らは辿り　つけるのかな</p>
-<p><br></p>
-<p>愚かさでいい　醜さでいい　正しさのその先で　君と生きてきたい</p>
-<hr />
-]]></content>
-      <categories>
-        <category>Lyrics</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
     <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
@@ -5341,111 +5502,6 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
 ]]></content>
       <categories>
         <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母上方符号</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="section">^</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\hat A
-\]</span></p>
-<h1 id="section-1">-</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\overline A
-\]</span></p>
-<h1 id="section-2">~</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\widetilde A
-\]</span></p>
-<h1 id="section-3">・</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\dot A
-\quad
-\ddot A
-\quad
-\dddot A
-\quad
-\ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母加粗</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="常规表示">常规表示</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-m\quad \beta
-\]</span></p>
-<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol m
-\]</span></p>
-<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\mathbf m
-\]</span></p>
-<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol \beta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
       </categories>
   </entry>
   <entry>
@@ -9717,6 +9773,230 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 </tr>
 </tbody>
 </table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>授受</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
+    <content><![CDATA[<hr />
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
+<hr />
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>
@@ -14047,230 +14327,6 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       <categories>
         <category>日本語</category>
         <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
       </categories>
   </entry>
   <entry>
