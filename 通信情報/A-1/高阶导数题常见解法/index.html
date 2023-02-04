@@ -30,7 +30,7 @@
 <meta property="og:description" content="求高阶导数方法总结">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-01-31T01:18:16.000Z">
-<meta property="article:modified_time" content="2023-02-04T06:44:33.389Z">
+<meta property="article:modified_time" content="2023-02-04T08:07:37.824Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 
@@ -266,7 +266,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-04 14:44:33" itemprop="dateModified" datetime="2023-02-04T14:44:33+08:00">2023-02-04</time>
+      <time title="Modified: 2023-02-04 16:07:37" itemprop="dateModified" datetime="2023-02-04T16:07:37+08:00">2023-02-04</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -288,7 +288,7 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>608</span>
+      <span>624</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -341,14 +341,16 @@ x)^{(n)}=\cos(x+\frac{n\pi}{2})
 \]</span></p>
 <h3 id="解答">解答</h3>
 <p><span class="math display">\[
-f(x)=\ln\frac{1-3x}{1+2x}=\ln(1-3x)-\ln(1+2x)
+\begin{align}
+f(x)&amp;=\ln\frac{1-3x}{1+2x}=\ln(1-3x)-\ln(1+2x)
 \\
-[\ln(1+ax)]^{(n)}=\frac{(-1)^{n-1}a^n(n-1)!}{(1+ax)^n}
+[\ln(1+ax)]^{(n)}&amp;=\frac{(-1)^{n-1}a^n(n-1)!}{(1+ax)^n}
 \\
-f^{(n)}(x)=(-1)^{n-1}(n-1)!\left[\frac {(-3)^n}{(1-3x)^n}-\frac
+f^{(n)}(x)&amp;=(-1)^{n-1}(n-1)!\left[\frac {(-3)^n}{(1-3x)^n}-\frac
 {2^n}{(1+2x)^n}\right]
 \\
-f^{(n)}(0)=(-1)^{n-1}(n-1)!\left[ (-3)^n-2^n\right]
+f^{(n)}(0)&amp;=(-1)^{n-1}(n-1)!\left[ (-3)^n-2^n\right]
+\end{align}
 \]</span></p>
 <hr />
 <h2 id="莱布尼茨公式法">莱布尼茨公式法</h2>
@@ -363,26 +365,30 @@ f^{(n)}(0)=(-1)^{n-1}(n-1)!\left[ (-3)^n-2^n\right]
 \]</span></p>
 <h3 id="解答-1">解答</h3>
 <p><span class="math display">\[
-f^{(n)}(x)=\begin{pmatrix}n\\0\end{pmatrix}x^2[\ln(1-x)]^{(n)}+\begin{pmatrix}n\\1\end{pmatrix}(x^2)&#39;[\ln(1-x)]^{(n-1)}+\begin{pmatrix}n\\2\end{pmatrix}(x^2)&#39;&#39;[\ln(1-x)]^{(n-2)}
+\begin{align}
+f^{(n)}(x)&amp;=\begin{pmatrix}n\\0\end{pmatrix}x^2[\ln(1-x)]^{(n)}+\begin{pmatrix}n\\1\end{pmatrix}(x^2)&#39;[\ln(1-x)]^{(n-1)}+\begin{pmatrix}n\\2\end{pmatrix}(x^2)&#39;&#39;[\ln(1-x)]^{(n-2)}
 \\
-(x^2)&#39;=2x
+(x^2)&#39;&amp;=2x
 \\
-(x^2)&#39;&#39;=2
+(x^2)&#39;&#39;&amp;=2
 \\
-[\ln(1-x)]^{(n)}=\frac {(-1)^{n-1}(n-1)!(-1)^{n}}{(1-x)^{n}}=\frac
+[\ln(1-x)]^{(n)}&amp;=\frac {(-1)^{n-1}(n-1)!(-1)^{n}}{(1-x)^{n}}=\frac
 {(-1)(n-1)!}{(1-x)^{n}}
 \\
-[\ln(1-x)]^{(n-1)}=\frac {(-1)^{n-2}(n-2)!(-1)^{n-1}}{(1-x)^{n-1}}=\frac
+[\ln(1-x)]^{(n-1)}&amp;=\frac
+{(-1)^{n-2}(n-2)!(-1)^{n-1}}{(1-x)^{n-1}}=\frac
 {(-1)(n-2)!}{(1-x)^{n-1}}
 \\
-[\ln(1-x)]^{(n-2)}=\frac {(-1)^{n-3}(n-3)!(-1)^{n-2}}{(1-x)^{n-2}}=\frac
+[\ln(1-x)]^{(n-2)}&amp;=\frac
+{(-1)^{n-3}(n-3)!(-1)^{n-2}}{(1-x)^{n-2}}=\frac
 {(-1)(n-3)!}{(1-x)^{n-2}}
 \\
-f^{(n)}(x)=x^2\frac {(-1)(n-1)!}{(1-x)^{n}}+n\cdot2x\frac
+f^{(n)}(x)&amp;=x^2\frac {(-1)(n-1)!}{(1-x)^{n}}+n\cdot2x\frac
 {(-1)(n-2)!}{(1-x)^{n-1}}+\frac {n!}{2!(n-2)!}\cdot2\frac
 {(-1)(n-3)!}{(1-x)^{n-2}}
 \\
-f^{(n)}(0)=-\frac {n!}{n-2}
+f^{(n)}(0)&amp;=-\frac {n!}{n-2}
+\end{align}
 \]</span></p>
 <hr />
 <h2 id="泰勒公式法">泰勒公式法</h2>
@@ -394,15 +400,17 @@ f^{(n)}(0)=-\frac {n!}{n-2}
 \]</span></p>
 <h3 id="解答-2">解答</h3>
 <p><span class="math display">\[
-f(x)=x^{100}\left(\sum_{k=0}^n\frac
+\begin{align}
+f(x)&amp;=x^{100}\left(\sum_{k=0}^n\frac
 {x^{2k}}{k!}+o(x^{2n})\right)=\sum_{k=0}^n\frac
 {x^{2k+100}}{k!}+o(x^{2n+100})
 \\
-k=50
+k&amp;=50
 \\
-\frac {f^{(200)}(0)}{200!}x^{200}=\frac 1 {50!}x^{200}
+\frac {f^{(200)}(0)}{200!}x^{200}&amp;=\frac 1 {50!}x^{200}
 \\
-f^{(200)}(0)=\frac {200!}{50!}
+f^{(200)}(0)&amp;=\frac {200!}{50!}
+\end{align}
 \]</span></p>
 <h2 id="观察规律法">观察规律法</h2>
 <h3 id="例题-3">例题</h3>
@@ -412,19 +420,21 @@ dt,当n\geq2时,求f^{(n)}(0).
 \]</span></p>
 <h3 id="解答-3">解答</h3>
 <p><span class="math display">\[
-f&#39;(x)=2(x+1)+2f(x)
+\begin{align}
+f&#39;(x)&amp;=2(x+1)+2f(x)
 \\
-f&#39;&#39;(x)=2+2f&#39;(x)
+f&#39;&#39;(x)&amp;=2+2f&#39;(x)
 \\
-f&#39;&#39;&#39;(x)=2f&#39;&#39;(x)
+f&#39;&#39;&#39;(x)&amp;=2f&#39;&#39;(x)
 \\
-f^{(n)}(x)=2f^{(n-1)}(x)=2^2f^{(n-1)}(x)=\cdots=2^{n-2}f&#39;&#39;(x)\quad(m\geq2)
+f^{(n)}(x)&amp;=2f^{(n-1)}(x)=2^2f^{(n-1)}(x)=\cdots=2^{n-2}f&#39;&#39;(x)\quad(m\geq2)
 \\
-f(0)=1\\
-f&#39;(0)=4
-\\f&#39;&#39;(0)=10
+f(0)&amp;=1\\
+f&#39;(0)&amp;=4
+\\f&#39;&#39;(0)&amp;=10
 \\
-f^{(n)}(0)=5\cdot2^{n-1}
+f^{(n)}(0)&amp;=5\cdot2^{n-1}
+\end{align}
 \]</span></p>
 <hr />
 
