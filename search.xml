@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LaTeX字母上方符号</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="section">^</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\hat A
+\]</span></p>
+<h1 id="section-1">-</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\overline A
+\]</span></p>
+<h1 id="section-2">~</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\widetilde A
+\]</span></p>
+<h1 id="section-3">・</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\dot A
+\quad
+\ddot A
+\quad
+\dddot A
+\quad
+\ddddot A
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母加粗</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="常规表示">常规表示</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+m\quad \beta
+\]</span></p>
+<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol m
+\]</span></p>
+<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\mathbf m
+\]</span></p>
+<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol \beta
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
     <title>树莓派安装conky监控运行状态</title>
     <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
     <content><![CDATA[<hr />
@@ -57,18 +162,6 @@ CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，�
 ]]></content>
       <categories>
         <category>Raspberry Pi</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>正则表达式可视化</title>
-    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
-    <content><![CDATA[<hr />
-<p><a
-href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Regular expression</category>
       </categories>
   </entry>
   <entry>
@@ -840,6 +933,213 @@ href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式�
 ]]></content>
       <categories>
         <category>Regular expression</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>正则表达式可视化</title>
+    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+    <content><![CDATA[<hr />
+<p><a
+href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Regular expression</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Day1</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day1/</url>
+    <content><![CDATA[<hr />
+<h1 id="問題">問題</h1>
+<p>行列<span class="math inline">\(A\)</span>を次で定義する. <span
+class="math display">\[
+A=
+\begin{bmatrix}
+1 &amp; 2 &amp; 0\\
+2 &amp; -1 &amp; 2\\
+0 &amp; 2 &amp; 1\\
+\end{bmatrix}
+\]</span> 以下の問いに答えよ.ただし,<span
+class="math inline">\(E\)</span>は単位行列,<span
+class="math inline">\(O\)</span>は零行列とする.</p>
+<p>（１）<span
+class="math inline">\(A\)</span>の固有値をすべて求め,最大の固有値に対応する固有ベクトルを求めよ.</p>
+<p>（２）<span class="math inline">\(a,b,c\)</span>を実数とする.<span
+class="math inline">\(aA^2+bA+cE=O\)</span>ならば<span
+class="math inline">\(a=b=c=0\)</span>であることを示せ.</p>
+<p>（３）<span
+class="math inline">\(A^3+sA^2+tA+uE=O\)</span>をみたす実数<span
+class="math inline">\(s,t,u\)</span>を求めよ.</p>
+<hr />
+<h1 id="解答">解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+&amp;\because
+\left|
+T
+\right|
+=
+\left|
+A-\lambda E
+\right|
+=
+\left|
+\begin{matrix}
+1-\lambda &amp; 2 &amp; 0\\
+2 &amp; -1-\lambda &amp; 2\\
+0 &amp; 2 &amp; 1-\lambda
+\end{matrix}
+\right|
+=(1-\lambda)(\lambda+3)(\lambda-3)=0\\
+&amp;\therefore
+\lambda_1=1 \quad \lambda_2=-3 \quad \lambda_3=3\\
+\\
+&amp;\lambda_3=3のとき,T_3x_3=0,そして,x_3=
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}
+とおくと,\\
+\\&amp;
+\begin{bmatrix}
+-2 &amp; 2 &amp; 0\\
+2 &amp; -4 &amp; 2\\
+0 &amp; 2 &amp; -2
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=
+\begin{bmatrix}
+-1 &amp; 1 &amp; 0\\
+0 &amp; -1 &amp; 1\\
+0 &amp; 0 &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_1\\
+\alpha_2\\
+\alpha_3
+\end{bmatrix}=0\\
+\\&amp;これから,
+\begin{cases}
+-\alpha_1+\alpha_2=0\\
+-\alpha_2+\alpha_3=0
+\end{cases}
+\\
+\\&amp;
+\alpha_1=k_1とおくと,\alpha_2=k_1,\alpha_3=k_1\\
+&amp;
+\therefore 最大の固有値に対応する固有ベクトルx_3=
+\begin{bmatrix}
+k_1\\
+k_1\\
+k_1
+\end{bmatrix}=k_1
+\begin{bmatrix}
+1\\
+1\\
+1
+\end{bmatrix}
+\quad
+(k_1 \neq 0)
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+&amp;f(A)=aA^2+bA+cEとおく\\
+&amp;フロべニウスの定理によって,行列f(A)の固有値は\\
+&amp;\begin{cases}
+f(\lambda_1)=a\lambda_1+b\lambda_1+c=a+b+c\\
+f(\lambda_2)=a\lambda_2+b\lambda_2+c=9a-3b+c\\
+f(\lambda_3)=a\lambda_3+b\lambda_3+c=9a+3b+c
+\end{cases}
+\\&amp;f(A)=Oならば,f(A)の固有値はすべて0である\\
+&amp;
+B\begin{bmatrix}
+a\\
+b\\
+c
+\end{bmatrix}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+a\\
+b\\
+c
+\end{bmatrix}=0とおくと,\\
+&amp;\because
+\left|B\right|\neq0
+\\
+&amp;\therefore a=b=c=0（自明な解）
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
+(2)も同様に
+\\
+&amp;\because f(A)=A^3+sA^2+tA+uA=O\\
+&amp;\therefore
+\begin{cases}
+f(\lambda_1)=1+s+t+u=0\\
+f(\lambda_2)=-27+9s-3t+u=0\\
+f(\lambda_3)=27+9s+3t+u=0
+\end{cases}\\
+&amp;\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+s\\
+t\\
+u
+\end{bmatrix}=\begin{bmatrix}
+-1\\
+27\\
+-27
+\end{bmatrix}\\
+&amp;
+\left [
+\begin{array}{c:c}
+\begin{matrix}
+1 &amp; 1 &amp; 1\\
+9 &amp; -3 &amp; 1\\
+9 &amp; 3 &amp; 1
+\end{matrix}&amp;
+\begin{matrix}
+-1\\
+27\\
+-27
+\end{matrix}
+\end{array}
+\right ]
+\rightarrow
+\left [
+\begin{array}{c:c}
+\begin{matrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1
+\end{matrix}&amp;
+\begin{matrix}
+-1\\
+-9\\
+9
+\end{matrix}
+\end{array}
+\right ]
+\\
+&amp;\therefore s=-1,t=-9,u=9
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>備考練習</category>
       </categories>
   </entry>
   <entry>
@@ -2061,195 +2361,84 @@ class="math inline">\(-1&lt;x&lt;1\)</span>とする.</p>
       </categories>
   </entry>
   <entry>
-    <title>Day1</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day1/</url>
+    <title>Day12</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day12/</url>
     <content><![CDATA[<hr />
 <h1 id="問題">問題</h1>
-<p>行列<span class="math inline">\(A\)</span>を次で定義する. <span
+<p>問１</p>
+<p>（１）次の極限値を求めよ。 <span class="math display">\[
+\lim\limits_{x\rightarrow\infty}(\sqrt{x^2+x}-x)
+\]</span> （２）次の<span class="math inline">\(x,y\)</span>の関数<span
+class="math inline">\(z\)</span>の全微分<span
+class="math inline">\(dz\)</span>を求めよ。ただし,ただし,<span
+class="math inline">\(x&gt;0,y&gt;0\)</span>とする。 <span
 class="math display">\[
-A=
-\begin{bmatrix}
-1 &amp; 2 &amp; 0\\
-2 &amp; -1 &amp; 2\\
-0 &amp; 2 &amp; 1\\
-\end{bmatrix}
-\]</span> 以下の問いに答えよ.ただし,<span
-class="math inline">\(E\)</span>は単位行列,<span
-class="math inline">\(O\)</span>は零行列とする.</p>
-<p>（１）<span
-class="math inline">\(A\)</span>の固有値をすべて求め,最大の固有値に対応する固有ベクトルを求めよ.</p>
-<p>（２）<span class="math inline">\(a,b,c\)</span>を実数とする.<span
-class="math inline">\(aA^2+bA+cE=O\)</span>ならば<span
-class="math inline">\(a=b=c=0\)</span>であることを示せ.</p>
-<p>（３）<span
-class="math inline">\(A^3+sA^2+tA+uE=O\)</span>をみたす実数<span
-class="math inline">\(s,t,u\)</span>を求めよ.</p>
+z＝x^3+y^3+\log_xy
+\]</span> 問２</p>
+<p>３次元空間に直交座標系<span
+class="math inline">\(xyz\)</span>をとる。<span
+class="math inline">\(x^2+y^2+z^2\leq a^2\)</span>で表される球体<span
+class="math inline">\(S\)</span>と<span
+class="math inline">\(x^2+y^2\leq ax\)</span>で表される円柱体<span
+class="math inline">\(P\)</span>を考える。ただし,<span
+class="math inline">\(a&gt;0\)</span>とする。円柱体<span
+class="math inline">\(P\)</span>うち,球体<span
+class="math inline">\(S\)</span>の内部にある部分の体積を求めよ。</p>
 <hr />
 <h1 id="解答">解答</h1>
+<hr />
+<p>問１</p>
 <p>（１） <span class="math display">\[
 \begin{align}
-&amp;\because
-\left|
-T
-\right|
-=
-\left|
-A-\lambda E
-\right|
-=
-\left|
-\begin{matrix}
-1-\lambda &amp; 2 &amp; 0\\
-2 &amp; -1-\lambda &amp; 2\\
-0 &amp; 2 &amp; 1-\lambda
-\end{matrix}
-\right|
-=(1-\lambda)(\lambda+3)(\lambda-3)=0\\
-&amp;\therefore
-\lambda_1=1 \quad \lambda_2=-3 \quad \lambda_3=3\\
-\\
-&amp;\lambda_3=3のとき,T_3x_3=0,そして,x_3=
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}
-とおくと,\\
-\\&amp;
-\begin{bmatrix}
--2 &amp; 2 &amp; 0\\
-2 &amp; -4 &amp; 2\\
-0 &amp; 2 &amp; -2
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}=
-\begin{bmatrix}
--1 &amp; 1 &amp; 0\\
-0 &amp; -1 &amp; 1\\
-0 &amp; 0 &amp; 0
-\end{bmatrix}
-\begin{bmatrix}
-\alpha_1\\
-\alpha_2\\
-\alpha_3
-\end{bmatrix}=0\\
-\\&amp;これから,
-\begin{cases}
--\alpha_1+\alpha_2=0\\
--\alpha_2+\alpha_3=0
-\end{cases}
-\\
-\\&amp;
-\alpha_1=k_1とおくと,\alpha_2=k_1,\alpha_3=k_1\\
-&amp;
-\therefore 最大の固有値に対応する固有ベクトルx_3=
-\begin{bmatrix}
-k_1\\
-k_1\\
-k_1
-\end{bmatrix}=k_1
-\begin{bmatrix}
-1\\
-1\\
-1
-\end{bmatrix}
-\quad
-(k_1 \neq 0)
+\lim\limits_{x\rightarrow\infty}(\sqrt{x^2+x}-x)=\lim\limits_{x\rightarrow\infty}\frac{x^2+x-x^2}{\sqrt{x^2+x}+x}=\frac
+1 2
 \end{align}
 \]</span> （２） <span class="math display">\[
 \begin{align}
-&amp;f(A)=aA^2+bA+cEとおく\\
-&amp;フロべニウスの定理によって,行列f(A)の固有値は\\
-&amp;\begin{cases}
-f(\lambda_1)=a\lambda_1+b\lambda_1+c=a+b+c\\
-f(\lambda_2)=a\lambda_2+b\lambda_2+c=9a-3b+c\\
-f(\lambda_3)=a\lambda_3+b\lambda_3+c=9a+3b+c
-\end{cases}
-\\&amp;f(A)=Oならば,f(A)の固有値はすべて0である\\
-&amp;
-B\begin{bmatrix}
-a\\
-b\\
-c
-\end{bmatrix}=
-\begin{bmatrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-a\\
-b\\
-c
-\end{bmatrix}=0とおくと,\\
-&amp;\because
-\left|B\right|\neq0
+z&amp;=f(x,y)=x^3+y^3+\frac{\log y}{\log x}
 \\
-&amp;\therefore a=b=c=0（自明な解）
+f_x(x,y)&amp;=3x^2-\frac{\log y}{(\log x)^2x}
+\\
+f_y(x,y)&amp;=3y^2+\frac{1}{y\log x}
+\\
+dz&amp;=f_x(x,y)dx+f_y(x,y)dy=\left(x^3+y^3+\frac{\log y}{\log
+x}\right)dx+\left(3y^2+\frac{1}{y\log x}\right)dy
 \end{align}
-\]</span> （３） <span class="math display">\[
+\]</span> 問２ <span class="math display">\[
 \begin{align}
-(2)も同様に
+z\geq0のとき,\\
+z&amp;=f(x,y)=\sqrt{a^2-x^2-y^2}
 \\
-&amp;\because f(A)=A^3+sA^2+tA+uA=O\\
-&amp;\therefore
-\begin{cases}
-f(\lambda_1)=1+s+t+u=0\\
-f(\lambda_2)=-27+9s-3t+u=0\\
-f(\lambda_3)=27+9s+3t+u=0
-\end{cases}\\
-&amp;\begin{bmatrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{bmatrix}
-\begin{bmatrix}
-s\\
-t\\
-u
-\end{bmatrix}=\begin{bmatrix}
--1\\
-27\\
--27
-\end{bmatrix}\\
-&amp;
-\left [
-\begin{array}{c:c}
-\begin{matrix}
-1 &amp; 1 &amp; 1\\
-9 &amp; -3 &amp; 1\\
-9 &amp; 3 &amp; 1
-\end{matrix}&amp;
-\begin{matrix}
--1\\
-27\\
--27
-\end{matrix}
-\end{array}
-\right ]
-\rightarrow
-\left [
-\begin{array}{c:c}
-\begin{matrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1
-\end{matrix}&amp;
-\begin{matrix}
--1\\
--9\\
-9
-\end{matrix}
-\end{array}
-\right ]
+領域D&amp;:x^2+y^2\leq ax\Rightarrow \left(x-\frac a
+2\right)^2+y^2\leq\frac {a^2} 4
 \\
-&amp;\therefore s=-1,t=-9,u=9
+V&amp;=2\iint_Df(x,y)dxdy=2\iint_D\sqrt{a^2-x^2-y^2}dxdy
+\\
+x,yを極座標に変換すると,
+\\
+x&amp;=r\cos\theta,y=r\sin\thetaより,|J|=r\\
+D&#39;&amp;:-\frac \pi 2\leq\theta\leq \frac\pi 2,0\leq r\leq
+a\cos\theta\\
+V&amp;=2\int_{-\frac \pi 2}^{\frac\pi
+2}\int_0^{a\cos\theta}\sqrt{a^2-r^2}rdrd\theta
+\\
+&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\left[-\frac 1 3(a^2-r^2)^{\frac
+3 2}\right]_0^{a\cos\theta}
+\\
+&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\frac {a^3}
+3(1-\sin^3\theta)d\theta
+\\
+&amp;=4\int_0^{\frac\pi 2}\frac {a^3} 3(1-\sin^3\theta)d\theta
+\\
+&amp;=\frac{4a^3} 3\left(\int _0^{\frac{\pi }{2}}1dθ-\int _0^{\frac{\pi
+}{2}}\sin ^3\left(θ\right)dθ\right)
+\\
+&amp;=\frac{4a^3} 3\left(\frac \pi 2-\left[u-\frac{u^3}
+3\right]_1^0\right)\quad(u=\cos\theta)
+\\
+&amp;=\frac{2\pi a^3} 3-\frac {8a^3} 9
 \end{align}
 \]</span></p>
-<hr />
 ]]></content>
       <categories>
         <category>備考練習</category>
@@ -2472,84 +2661,74 @@ Y^TY&amp;=E
       </categories>
   </entry>
   <entry>
-    <title>Day12</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day12/</url>
+    <title>Day13</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day13/</url>
     <content><![CDATA[<hr />
 <h1 id="問題">問題</h1>
 <p>問１</p>
-<p>（１）次の極限値を求めよ。 <span class="math display">\[
-\lim\limits_{x\rightarrow\infty}(\sqrt{x^2+x}-x)
-\]</span> （２）次の<span class="math inline">\(x,y\)</span>の関数<span
-class="math inline">\(z\)</span>の全微分<span
-class="math inline">\(dz\)</span>を求めよ。ただし,ただし,<span
-class="math inline">\(x&gt;0,y&gt;0\)</span>とする。 <span
-class="math display">\[
-z＝x^3+y^3+\log_xy
-\]</span> 問２</p>
-<p>３次元空間に直交座標系<span
-class="math inline">\(xyz\)</span>をとる。<span
-class="math inline">\(x^2+y^2+z^2\leq a^2\)</span>で表される球体<span
-class="math inline">\(S\)</span>と<span
-class="math inline">\(x^2+y^2\leq ax\)</span>で表される円柱体<span
-class="math inline">\(P\)</span>を考える。ただし,<span
-class="math inline">\(a&gt;0\)</span>とする。円柱体<span
-class="math inline">\(P\)</span>うち,球体<span
-class="math inline">\(S\)</span>の内部にある部分の体積を求めよ。</p>
+<p>行列<span class="math inline">\(A\in\mathbb R^{n\times
+m}\)</span>,ベクトル<span class="math inline">\(b\in\mathbb
+R^n\)</span>に対して,<span
+class="math inline">\(f(x)=||Ax-b||\)</span>をベクトル<span
+class="math inline">\(x\in\mathbb
+R^m\)</span>に関して最小化することを考える。ただし,<span
+class="math inline">\(||\cdot||\)</span>はユークリッドノルムを表す。また,<span
+class="math inline">\(f(x)\)</span>が最小となる<span
+class="math inline">\(x\)</span>を<span
+class="math inline">\(x^*\)</span>と表す。</p>
+<p>（１）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;2\\1&amp;3\end{bmatrix},b=\begin{bmatrix}1\\0\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>（２）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;1\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\2\\1\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>（３）<span
+class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;0\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span>のとき<span
+class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
+class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
+<p>問２</p>
+<p>（１）巡回行列<span
+class="math inline">\(A_1=\begin{bmatrix}0&amp;1&amp;0\\0&amp;0&amp;1\\1&amp;0&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は,ある<span
+class="math inline">\(r\geq0\)</span>および<span
+class="math inline">\(\theta\in[0,2\pi)\)</span>を用いて,極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。なお,<span
+class="math inline">\(i=\sqrt {-1}\)</span>とする。</p>
+<p>（２）巡回行列<span
+class="math inline">\(A_2=\begin{bmatrix}0&amp;1&amp;-1\\-1&amp;0&amp;1\\1&amp;-1&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
+<p>（３）<span
+class="math inline">\(a,b,c\)</span>を定数とする。巡回行列<span
+class="math inline">\(A_3=\begin{bmatrix}a&amp;b&amp;c\\c&amp;a&amp;b\\b&amp;c&amp;a\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
+class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
+class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
 <hr />
 <h1 id="解答">解答</h1>
-<hr />
 <p>問１</p>
 <p>（１） <span class="math display">\[
 \begin{align}
-\lim\limits_{x\rightarrow\infty}(\sqrt{x^2+x}-x)=\lim\limits_{x\rightarrow\infty}\frac{x^2+x-x^2}{\sqrt{x^2+x}+x}=\frac
-1 2
 \end{align}
 \]</span> （２） <span class="math display">\[
 \begin{align}
-z&amp;=f(x,y)=x^3+y^3+\frac{\log y}{\log x}
-\\
-f_x(x,y)&amp;=3x^2-\frac{\log y}{(\log x)^2x}
-\\
-f_y(x,y)&amp;=3y^2+\frac{1}{y\log x}
-\\
-dz&amp;=f_x(x,y)dx+f_y(x,y)dy=\left(x^3+y^3+\frac{\log y}{\log
-x}\right)dx+\left(3y^2+\frac{1}{y\log x}\right)dy
 \end{align}
-\]</span> 問２ <span class="math display">\[
+\]</span> （３） <span class="math display">\[
 \begin{align}
-z\geq0のとき,\\
-z&amp;=f(x,y)=\sqrt{a^2-x^2-y^2}
-\\
-領域D&amp;:x^2+y^2\leq ax\Rightarrow \left(x-\frac a
-2\right)^2+y^2\leq\frac {a^2} 4
-\\
-V&amp;=2\iint_Df(x,y)dxdy=2\iint_D\sqrt{a^2-x^2-y^2}dxdy
-\\
-x,yを極座標に変換すると,
-\\
-x&amp;=r\cos\theta,y=r\sin\thetaより,|J|=r\\
-D&#39;&amp;:-\frac \pi 2\leq\theta\leq \frac\pi 2,0\leq r\leq
-a\cos\theta\\
-V&amp;=2\int_{-\frac \pi 2}^{\frac\pi
-2}\int_0^{a\cos\theta}\sqrt{a^2-r^2}rdrd\theta
-\\
-&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\left[-\frac 1 3(a^2-r^2)^{\frac
-3 2}\right]_0^{a\cos\theta}
-\\
-&amp;=2\int_{-\frac \pi 2}^{\frac\pi 2}\frac {a^3}
-3(1-\sin^3\theta)d\theta
-\\
-&amp;=4\int_0^{\frac\pi 2}\frac {a^3} 3(1-\sin^3\theta)d\theta
-\\
-&amp;=\frac{4a^3} 3\left(\int _0^{\frac{\pi }{2}}1dθ-\int _0^{\frac{\pi
-}{2}}\sin ^3\left(θ\right)dθ\right)
-\\
-&amp;=\frac{4a^3} 3\left(\frac \pi 2-\left[u-\frac{u^3}
-3\right]_1^0\right)\quad(u=\cos\theta)
-\\
-&amp;=\frac{2\pi a^3} 3-\frac {8a^3} 9
+\end{align}
+\]</span> 問２</p>
+<p>（１） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span> （３） <span class="math display">\[
+\begin{align}
 \end{align}
 \]</span></p>
+<hr />
 ]]></content>
       <categories>
         <category>備考練習</category>
@@ -2814,71 +2993,176 @@ D&#39;:r&amp;\in[1,2],\theta\in[0,\frac\pi2]となる.
       </categories>
   </entry>
   <entry>
-    <title>Day13</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day13/</url>
+    <title>Day5</title>
+    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day5/</url>
     <content><![CDATA[<hr />
 <h1 id="問題">問題</h1>
-<p>問１</p>
-<p>行列<span class="math inline">\(A\in\mathbb R^{n\times
-m}\)</span>,ベクトル<span class="math inline">\(b\in\mathbb
-R^n\)</span>に対して,<span
-class="math inline">\(f(x)=||Ax-b||\)</span>をベクトル<span
-class="math inline">\(x\in\mathbb
-R^m\)</span>に関して最小化することを考える。ただし,<span
-class="math inline">\(||\cdot||\)</span>はユークリッドノルムを表す。また,<span
-class="math inline">\(f(x)\)</span>が最小となる<span
-class="math inline">\(x\)</span>を<span
-class="math inline">\(x^*\)</span>と表す。</p>
-<p>（１）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;2\\1&amp;3\end{bmatrix},b=\begin{bmatrix}1\\0\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>（２）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;1\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\2\\1\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>（３）<span
-class="math inline">\(A=\begin{bmatrix}1&amp;0\\1&amp;0\\0&amp;1\end{bmatrix},b=\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span>のとき<span
-class="math inline">\(x^*\)</span>を求めよ。また,そのときの<span
-class="math inline">\(f(x^*)\)</span>の値を求めよ。</p>
-<p>問２</p>
-<p>（１）巡回行列<span
-class="math inline">\(A_1=\begin{bmatrix}0&amp;1&amp;0\\0&amp;0&amp;1\\1&amp;0&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は,ある<span
-class="math inline">\(r\geq0\)</span>および<span
-class="math inline">\(\theta\in[0,2\pi)\)</span>を用いて,極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。なお,<span
-class="math inline">\(i=\sqrt {-1}\)</span>とする。</p>
-<p>（２）巡回行列<span
-class="math inline">\(A_2=\begin{bmatrix}0&amp;1&amp;-1\\-1&amp;0&amp;1\\1&amp;-1&amp;0\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
-<p>（３）<span
-class="math inline">\(a,b,c\)</span>を定数とする。巡回行列<span
-class="math inline">\(A_3=\begin{bmatrix}a&amp;b&amp;c\\c&amp;a&amp;b\\b&amp;c&amp;a\end{bmatrix}\)</span>の３つの固有値とそれらに対応する固有ベクトルを求めよ。ただし,（１）と同様に,固有ベクトルの第一要素は<span
-class="math inline">\(1\)</span>とし,第二要素と第三要素は極形式<span
-class="math inline">\(re^{i\theta}\)</span>で表すこと。</p>
+<p><span class="math inline">\(a\)</span>を実数とし,3次正方行列<span
+class="math inline">\(A,E\)</span>と<span class="math inline">\(\mathbb
+R^3\)</span>のベクトル<span class="math inline">\(v_1,v_2\)</span>を
+<span class="math display">\[
+A＝
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+,\quad
+E＝
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+,\quad
+v_1=
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+,\quad
+v_2=
+\begin{bmatrix}
+2\\
+3\\
+1\\
+\end{bmatrix}
+\]</span> とする.さらに,<span class="math inline">\(\mathbb
+R^3\)</span>の部分空間<span class="math inline">\(\langle v_1,v_2
+\rangle\)</span>を <span class="math display">\[
+\langle v_1,v_2\rangle=\{c_1v_1+c_2v_2\in\mathbb R^3|c_1,c_2\in\mathbb
+R\}
+\]</span> で定義し,線形変換<span class="math inline">\(f:\mathbb
+R^3\rightarrow \mathbb R^3\)</span>を<span
+class="math inline">\(f(v)=Av(v\in\mathbb R^3)\)</span>と定める.</p>
+<p>このとき,以下の問いに答えよ.</p>
+<p>（１）<span class="math inline">\(f(v)\in\langle
+v_1,v_2\rangle\)</span>となるように<span
+class="math inline">\(a\)</span>の値を定めよ.</p>
+<p>（２）行列式<span class="math inline">\(\det A\)</span>の値が<span
+class="math inline">\(-6\)</span>となるときの<span
+class="math inline">\(a\)</span>の値を求めよ.</p>
+<p>以下では,<span
+class="math inline">\(a\)</span>は（２）で求めた値とする.</p>
+<p>（３）線形変換<span class="math inline">\(g:\mathbb
+R^3\rightarrow\mathbb R^3\)</span>を<span
+class="math inline">\(g(v)＝(A+E)v \quad (v\in\mathbb
+R^3)\)</span>と定めるとき,<span
+class="math inline">\(g\)</span>の核<span class="math inline">\({\rm
+Ker}\, g\)</span>の基底を求めよ.</p>
+<p>（４）<span
+class="math inline">\(f\)</span>の固有値をすべて求めよ.</p>
 <hr />
 <h1 id="解答">解答</h1>
-<p>問１</p>
 <p>（１） <span class="math display">\[
 \begin{align}
+f(v_1)
+&amp;=Av_1
+=
+\begin{bmatrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\begin{bmatrix}
+1\\
+1\\
+0\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+a-2\\
+-3\\
+0\\
+\end{bmatrix}
+\\
+&amp;\because f(v)\in\langle v_1,v_2\rangle\\
+&amp;\therefore|v_1,v_2,f(v_1)|=
+\left|
+\begin{matrix}
+1 &amp; 2 &amp; a-2\\
+1 &amp; 3 &amp; -3\\
+0 &amp; 1 &amp; 0\\
+\end{matrix}
+\right|=
+0\\
+&amp;\therefore a=-1
 \end{align}
 \]</span> （２） <span class="math display">\[
 \begin{align}
+&amp;\because
+\left|
+\begin{matrix}
+a &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1
+\end{matrix}
+\right|
+=
+a(-6+18)+2(3-18)+4(-9+18)
+=12a+6
+=-6
+\\
+&amp;\therefore a=-1
 \end{align}
 \]</span> （３） <span class="math display">\[
 \begin{align}
+A+E&amp;=
+\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
++
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\\
+&amp;\rightarrow
+\begin{bmatrix}
+0&amp;-2&amp;4\\
+3&amp;-5&amp;-6\\
+3&amp;-3&amp;2
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+3&amp;-3&amp;2\\
+0&amp;-1&amp;2\\
+0&amp;0&amp;0
+\end{bmatrix}
+\\
+g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
+基底v&amp;=k\begin{bmatrix} \frac{4}{3}\\2\\1\end{bmatrix}\quad(k \in
+\mathbf R)
 \end{align}
-\]</span> 問２</p>
-<p>（１） <span class="math display">\[
+\]</span> （４） <span class="math display">\[
 \begin{align}
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
+&amp;f=A=\begin{bmatrix}
+-1 &amp; -2 &amp; 4\\
+3 &amp; -6 &amp; 6\\
+3 &amp; -3 &amp; 1\\
+\end{bmatrix}
+\\
+&amp;\because|T|=|A-\lambda E|=
+\left|
+\begin{matrix}
+\lambda+1 &amp;2 &amp; 4\\
+-3&amp;\lambda+6 &amp;-6\\
+-3 &amp;3&amp;\lambda-1=0
+\end{matrix}
+\right|
+=(\lambda+1)(\lambda+2)(\lambda+3)=0
+\\
+&amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
 \end{align}
 \]</span></p>
 <hr />
@@ -3648,226 +3932,73 @@ x^2&amp;3&amp;2
       </categories>
   </entry>
   <entry>
-    <title>Day5</title>
-    <url>/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/Day5/</url>
+    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
+    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
-<h1 id="問題">問題</h1>
-<p><span class="math inline">\(a\)</span>を実数とし,3次正方行列<span
-class="math inline">\(A,E\)</span>と<span class="math inline">\(\mathbb
-R^3\)</span>のベクトル<span class="math inline">\(v_1,v_2\)</span>を
-<span class="math display">\[
-A＝
-\begin{bmatrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-,\quad
-E＝
-\begin{bmatrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1\\
-\end{bmatrix}
-,\quad
-v_1=
-\begin{bmatrix}
-1\\
-1\\
-0\\
-\end{bmatrix}
-,\quad
-v_2=
-\begin{bmatrix}
-2\\
-3\\
-1\\
-\end{bmatrix}
-\]</span> とする.さらに,<span class="math inline">\(\mathbb
-R^3\)</span>の部分空間<span class="math inline">\(\langle v_1,v_2
-\rangle\)</span>を <span class="math display">\[
-\langle v_1,v_2\rangle=\{c_1v_1+c_2v_2\in\mathbb R^3|c_1,c_2\in\mathbb
-R\}
-\]</span> で定義し,線形変換<span class="math inline">\(f:\mathbb
-R^3\rightarrow \mathbb R^3\)</span>を<span
-class="math inline">\(f(v)=Av(v\in\mathbb R^3)\)</span>と定める.</p>
-<p>このとき,以下の問いに答えよ.</p>
-<p>（１）<span class="math inline">\(f(v)\in\langle
-v_1,v_2\rangle\)</span>となるように<span
-class="math inline">\(a\)</span>の値を定めよ.</p>
-<p>（２）行列式<span class="math inline">\(\det A\)</span>の値が<span
-class="math inline">\(-6\)</span>となるときの<span
-class="math inline">\(a\)</span>の値を求めよ.</p>
-<p>以下では,<span
-class="math inline">\(a\)</span>は（２）で求めた値とする.</p>
-<p>（３）線形変換<span class="math inline">\(g:\mathbb
-R^3\rightarrow\mathbb R^3\)</span>を<span
-class="math inline">\(g(v)＝(A+E)v \quad (v\in\mathbb
-R^3)\)</span>と定めるとき,<span
-class="math inline">\(g\)</span>の核<span class="math inline">\({\rm
-Ker}\, g\)</span>の基底を求めよ.</p>
-<p>（４）<span
-class="math inline">\(f\)</span>の固有値をすべて求めよ.</p>
-<hr />
-<h1 id="解答">解答</h1>
-<p>（１） <span class="math display">\[
-\begin{align}
-f(v_1)
-&amp;=Av_1
-=
-\begin{bmatrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-\begin{bmatrix}
-1\\
-1\\
-0\\
-\end{bmatrix}
-=
-\begin{bmatrix}
-a-2\\
--3\\
-0\\
-\end{bmatrix}
-\\
-&amp;\because f(v)\in\langle v_1,v_2\rangle\\
-&amp;\therefore|v_1,v_2,f(v_1)|=
-\left|
-\begin{matrix}
-1 &amp; 2 &amp; a-2\\
-1 &amp; 3 &amp; -3\\
-0 &amp; 1 &amp; 0\\
-\end{matrix}
-\right|=
-0\\
-&amp;\therefore a=-1
-\end{align}
-\]</span> （２） <span class="math display">\[
-\begin{align}
-&amp;\because
-\left|
-\begin{matrix}
-a &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1
-\end{matrix}
-\right|
-=
-a(-6+18)+2(3-18)+4(-9+18)
-=12a+6
-=-6
-\\
-&amp;\therefore a=-1
-\end{align}
-\]</span> （３） <span class="math display">\[
-\begin{align}
-A+E&amp;=
-\begin{bmatrix}
--1 &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-+
-\begin{bmatrix}
-1 &amp; 0 &amp; 0\\
-0 &amp; 1 &amp; 0\\
-0 &amp; 0 &amp; 1\\
-\end{bmatrix}
-=
-\begin{bmatrix}
-0&amp;-2&amp;4\\
-3&amp;-5&amp;6\\
-3&amp;-3&amp;2
-\end{bmatrix}
-\\
-&amp;\rightarrow
-\begin{bmatrix}
-0&amp;-2&amp;4\\
-3&amp;-5&amp;-6\\
-3&amp;-3&amp;2
-\end{bmatrix}
-\rightarrow
-\begin{bmatrix}
-3&amp;-3&amp;2\\
-0&amp;-1&amp;2\\
-0&amp;0&amp;0
-\end{bmatrix}
-\\
-g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
-基底v&amp;=k\begin{bmatrix} \frac{4}{3}\\2\\1\end{bmatrix}\quad(k \in
-\mathbf R)
-\end{align}
-\]</span> （４） <span class="math display">\[
-\begin{align}
-&amp;f=A=\begin{bmatrix}
--1 &amp; -2 &amp; 4\\
-3 &amp; -6 &amp; 6\\
-3 &amp; -3 &amp; 1\\
-\end{bmatrix}
-\\
-&amp;\because|T|=|A-\lambda E|=
-\left|
-\begin{matrix}
-\lambda+1 &amp;2 &amp; 4\\
--3&amp;\lambda+6 &amp;-6\\
--3 &amp;3&amp;\lambda-1=0
-\end{matrix}
-\right|
-=(\lambda+1)(\lambda+2)(\lambda+3)=0
-\\
-&amp;\therefore \lambda_1=-1 \quad \lambda_2=-2 \quad \lambda_3=-3
-\end{align}
-\]</span></p>
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="问题描述">问题描述</h1>
+<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
+<h1 id="解决方法">解决方法</h1>
+<ol type="1">
+<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
+<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
+<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
+<ol start="4" type="1">
+<li>重新部署</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <hr />
 ]]></content>
       <categories>
-        <category>備考練習</category>
+        <category>Site</category>
       </categories>
   </entry>
   <entry>
-    <title>LilaS</title>
-    <url>/Lyrics/LilaS/</url>
+    <title>img与a标签行内对齐</title>
+    <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
     <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=305090718&amp;bvid=BV12P411c7sx&amp;cid=890458970&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<hr />
-<p><br></p>
-<p>耳に落ちた　あなたの話し方胸に</p>
-<p>道を歩いてきた　摘んだ花束かかえて</p>
-<p><br></p>
-<p>今、会えた空で、君が笑っていた</p>
-<p>胸が叫び出したんだ。瞼がしまいこんだ</p>
-<p><br></p>
-<p>耳塞いだ　日々を変えられた記憶に</p>
-<p>咲いた笑顔の皺　震える足を支えた</p>
-<p><br></p>
-<p>今、会えた空は、息が届く距離で。</p>
-<p>胸が叫び出したんだ。瞼からあふれた</p>
-<p><br></p>
-<p>吐き出すルールは君が決めた</p>
-<p>吐き出すルールあなたが決めた</p>
-<p>そんな勇気贈り物だよ。僕は僕で歩いて行くよ。</p>
-<p><br></p>
-<p>今、会えた空で、君が笑っていた。</p>
-<p>胸が叫び出したんだ。瞼からあふれた。</p>
-<p><br></p>
-<p>今、会えた空は、息が届く距離で。</p>
-<p>言葉叫ばなかった。目と目見つめ返した。</p>
-<p><br></p>
-<p>吐き出すルールは君が決めた</p>
-<p>吐き出すルールあなたが決めた</p>
-<p>そんな勇気贈り物だよ。僕は僕で歩いてきた</p>
-<p><br></p>
-<p>咲いた生きた足跡の上</p>
-<p>咲いた息をやめない場所で</p>
-<p>抱え切れない花束分けて</p>
-<p>二人、歌を続けるんだね。</p>
+<h1 id="未对齐">未对齐</h1>
+<h2 id="代码">代码</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="效果">效果</h2>
+<p><img src="https://p.ipic.vip/crcfh4.png" /></p>
+<h1
+id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align: middle</code>）</h1>
+<h2 id="代码-1">代码</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;vertical-align: middle;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">style</span>=<span class="string">&quot;vertical-align: middle;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="效果-1">效果</h2>
+<p><img src="https://p.ipic.vip/1tas37.png" /></p>
 <hr />
 ]]></content>
       <categories>
-        <category>Lyrics</category>
+        <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<hr />
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Site</category>
       </categories>
   </entry>
   <entry>
@@ -3973,6 +4104,50 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
       </categories>
   </entry>
   <entry>
+    <title>LilaS</title>
+    <url>/Lyrics/LilaS/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=305090718&amp;bvid=BV12P411c7sx&amp;cid=890458970&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>耳に落ちた　あなたの話し方胸に</p>
+<p>道を歩いてきた　摘んだ花束かかえて</p>
+<p><br></p>
+<p>今、会えた空で、君が笑っていた</p>
+<p>胸が叫び出したんだ。瞼がしまいこんだ</p>
+<p><br></p>
+<p>耳塞いだ　日々を変えられた記憶に</p>
+<p>咲いた笑顔の皺　震える足を支えた</p>
+<p><br></p>
+<p>今、会えた空は、息が届く距離で。</p>
+<p>胸が叫び出したんだ。瞼からあふれた</p>
+<p><br></p>
+<p>吐き出すルールは君が決めた</p>
+<p>吐き出すルールあなたが決めた</p>
+<p>そんな勇気贈り物だよ。僕は僕で歩いて行くよ。</p>
+<p><br></p>
+<p>今、会えた空で、君が笑っていた。</p>
+<p>胸が叫び出したんだ。瞼からあふれた。</p>
+<p><br></p>
+<p>今、会えた空は、息が届く距離で。</p>
+<p>言葉叫ばなかった。目と目見つめ返した。</p>
+<p><br></p>
+<p>吐き出すルールは君が決めた</p>
+<p>吐き出すルールあなたが決めた</p>
+<p>そんな勇気贈り物だよ。僕は僕で歩いてきた</p>
+<p><br></p>
+<p>咲いた生きた足跡の上</p>
+<p>咲いた息をやめない場所で</p>
+<p>抱え切れない花束分けて</p>
+<p>二人、歌を続けるんだね。</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
     <title>リテラチュア</title>
     <url>/Lyrics/%E3%83%AA%E3%83%86%E3%83%A9%E3%83%81%E3%83%A5%E3%82%A2/</url>
     <content><![CDATA[<hr />
@@ -4042,47 +4217,57 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
       </categories>
   </entry>
   <entry>
-    <title>ひとり上手</title>
-    <url>/Lyrics/%E3%81%B2%E3%81%A8%E3%82%8A%E4%B8%8A%E6%89%8B/</url>
+    <title>ミカヅキ</title>
+    <url>/Lyrics/%E4%B8%89%E6%97%A5%E6%9C%88/</url>
     <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=841414544&amp;bvid=BV1C54y1q7QU&amp;cid=215222372&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=3287363&amp;bvid=BV11s411d7ow&amp;cid=5193266&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <hr />
 <p><br></p>
-<p>私の帰る家は</p>
-<p>あなたの声のする街角</p>
-<p>冬の雨に打たれて</p>
-<p>あなたの足音を探すのよ</p>
-<p>あなたの帰る家は</p>
-<p>私を忘れたい街角</p>
-<p>肩を抱いているのは</p>
-<p>私と似ていない長い髪</p>
-<p>心が街角で泣いている</p>
-<p>ひとりはキライだとすねる</p>
-<p>ひとり上手と呼ばないで</p>
-<p>心だけ連れてゆかないで</p>
-<p>私を置いてゆかないで</p>
-<p>ひとりが好きなわけじゃないのよ</p>
+<p>今宵も頭上では 綺麗な満月がキラキラ</p>
+<p>幸せそうに世界を照らしている</p>
+<p>当の私は 出来損ないでどうしようも無くて</p>
+<p>夜明け夢見ては 地べた這いずり回ってる</p>
 <p><br></p>
-<p>雨のようにすなおに</p>
-<p>あの人と私は流れて</p>
-<p>雨のように愛して</p>
-<p>サヨナラの海へ流れついた</p>
-<p>手紙なんてよしてね</p>
-<p>なんどもくり返し泣くから</p>
-<p>電話だけで捨ててね</p>
-<p>僕もひとりだよとだましてね</p>
-<p>心が街角で泣いている</p>
-<p>ひとりはキライだとすねる</p>
-<p>ひとり上手とよばないで</p>
-<p>心だけ連れてゆかないで</p>
-<p>私を置いてゆかないで</p>
-<p>ひとりが好きなわけじゃないのよ</p>
+<p>それでも 誰かに見つけて欲しくて</p>
+<p>夜空見上げて叫んでいる</p>
+<p>逃げ出したいなぁ 逃げ出せない</p>
+<p>明るい未来は見えない ねぇ</p>
+<p>それでも あなたに見つけて欲しくて</p>
+<p>蝶のように舞い上がるの</p>
+<p>欠けた翼で飛んだ 醜い星の子ミカヅキ</p>
 <p><br></p>
-<p>ひとり上手とよばないで</p>
-<p>心だけ連れてゆかないで</p>
-<p>私を置いてゆかないで</p>
-<p>ひとりが好きなわけじゃないのよ</p>
+<p>今宵も頭上では 綺麗な満月がゆらゆら</p>
+<p>誰かの腕に抱かれて 眠っている</p>
+<p>当の私は ひとりの夜に押し潰されては</p>
+<p>誰にも見えない 夜闇這いずり回ってる</p>
+<p><br></p>
+<p>それでも 誰にも負けたくなくて</p>
+<p>宇宙の隅で藻掻いている</p>
+<p>追いつきたいや、追い越したい ああ</p>
+<p>夢に見たような世界 ねぇ</p>
+<p>それでも 誰かと比べてばっか</p>
+<p>周りを見ては立ち止まって</p>
+<p>欠けたものを探した そんな自分を変えたい</p>
+<p><br></p>
+<p>それでも あなたとおんなじ景色がまた見たいから</p>
+<p>泣き出したくても 投げ出したくても</p>
+<p>諦めたりはできない</p>
+<p>それでも あなたに見つかるように</p>
+<p>サナギは強く手を伸ばすの</p>
+<p>欠けたもの抱きしめて 願いを放つよミカヅキ</p>
+<p><br></p>
+<p>それでも 誰かに見つけて欲しくて</p>
+<p>夜空見上げて叫んでいる</p>
+<p>泣き出したいけど 泣き出さない</p>
+<p>もう後戻りなどできない ねぇ</p>
+<p>それでも あなたに見つけて欲しくて</p>
+<p>蝶のように舞い上がるの</p>
+<p>欠けた翼で飛ぶよ 醜い星の子ミカヅキ</p>
+<p>光を放ったミカヅキ</p>
+<p><br></p>
+<p>今宵も頭上では 綺麗な満月がキラキラ</p>
+<p>次は君の番だと笑っている</p>
 <hr />
 ]]></content>
       <categories>
@@ -4353,6 +4538,47 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
       </categories>
   </entry>
   <entry>
+    <title>我愛你-上海蟹-</title>
+    <url>/Lyrics/%E6%88%91%E6%84%9B%E4%BD%A0%E4%B8%8A%E6%B5%B7%E8%9F%B9/</url>
+    <content><![CDATA[<hr />
+<iframe src="//player.bilibili.com/player.html?aid=861260034&amp;bvid=BV1ZV4y1w7Jy&amp;cid=923860178&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<hr />
+<p><br></p>
+<p>我愛你</p>
+<p>君は気にづいてないでしょ</p>
+<p>我愛你</p>
+<p>君は気付いてないでしょ（你好，我是kani酱！）</p>
+<p><br></p>
+<p>我愛你</p>
+<p>君は気づいてないでしょ</p>
+<p>我愛你</p>
+<p>君は気づいてないでしょ</p>
+<p><br></p>
+<p>学校までロケット</p>
+<p>君から乗ってった</p>
+<p>まさかの小テスト</p>
+<p>泡になっちゃって消えたけど</p>
+<p>君は上海蟹</p>
+<p>香港蟹</p>
+<p>高級蟹そればっかり</p>
+<p>みてる</p>
+<p><br></p>
+<p>我愛你</p>
+<p>君は気づいてないでしょ</p>
+<p>我愛你</p>
+<p>君は気づいてないでしょ</p>
+<p>我愛你</p>
+<p>我愛你</p>
+<p>我愛你</p>
+<p>君は気づいてないでしょ（你好！我是kani酱˶╹ꇴ╹˶！）</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Lyrics</category>
+      </categories>
+  </entry>
+  <entry>
     <title>无梦之梦【不插电 ver.】</title>
     <url>/Lyrics/%E6%97%A0%E6%A2%A6%E4%B9%8B%E6%A2%A6/</url>
     <content><![CDATA[<hr />
@@ -4477,863 +4703,51 @@ g(v)&amp;=(A+E)v=\begin{bmatrix} 0\\0\\0\end{bmatrix}とおくと,\\
       </categories>
   </entry>
   <entry>
-    <title>我愛你-上海蟹-</title>
-    <url>/Lyrics/%E6%88%91%E6%84%9B%E4%BD%A0%E4%B8%8A%E6%B5%B7%E8%9F%B9/</url>
+    <title>ひとり上手</title>
+    <url>/Lyrics/%E3%81%B2%E3%81%A8%E3%82%8A%E4%B8%8A%E6%89%8B/</url>
     <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=861260034&amp;bvid=BV1ZV4y1w7Jy&amp;cid=923860178&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=841414544&amp;bvid=BV1C54y1q7QU&amp;cid=215222372&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <hr />
 <p><br></p>
-<p>我愛你</p>
-<p>君は気にづいてないでしょ</p>
-<p>我愛你</p>
-<p>君は気付いてないでしょ（你好，我是kani酱！）</p>
+<p>私の帰る家は</p>
+<p>あなたの声のする街角</p>
+<p>冬の雨に打たれて</p>
+<p>あなたの足音を探すのよ</p>
+<p>あなたの帰る家は</p>
+<p>私を忘れたい街角</p>
+<p>肩を抱いているのは</p>
+<p>私と似ていない長い髪</p>
+<p>心が街角で泣いている</p>
+<p>ひとりはキライだとすねる</p>
+<p>ひとり上手と呼ばないで</p>
+<p>心だけ連れてゆかないで</p>
+<p>私を置いてゆかないで</p>
+<p>ひとりが好きなわけじゃないのよ</p>
 <p><br></p>
-<p>我愛你</p>
-<p>君は気づいてないでしょ</p>
-<p>我愛你</p>
-<p>君は気づいてないでしょ</p>
+<p>雨のようにすなおに</p>
+<p>あの人と私は流れて</p>
+<p>雨のように愛して</p>
+<p>サヨナラの海へ流れついた</p>
+<p>手紙なんてよしてね</p>
+<p>なんどもくり返し泣くから</p>
+<p>電話だけで捨ててね</p>
+<p>僕もひとりだよとだましてね</p>
+<p>心が街角で泣いている</p>
+<p>ひとりはキライだとすねる</p>
+<p>ひとり上手とよばないで</p>
+<p>心だけ連れてゆかないで</p>
+<p>私を置いてゆかないで</p>
+<p>ひとりが好きなわけじゃないのよ</p>
 <p><br></p>
-<p>学校までロケット</p>
-<p>君から乗ってった</p>
-<p>まさかの小テスト</p>
-<p>泡になっちゃって消えたけど</p>
-<p>君は上海蟹</p>
-<p>香港蟹</p>
-<p>高級蟹そればっかり</p>
-<p>みてる</p>
-<p><br></p>
-<p>我愛你</p>
-<p>君は気づいてないでしょ</p>
-<p>我愛你</p>
-<p>君は気づいてないでしょ</p>
-<p>我愛你</p>
-<p>我愛你</p>
-<p>我愛你</p>
-<p>君は気づいてないでしょ（你好！我是kani酱˶╹ꇴ╹˶！）</p>
+<p>ひとり上手とよばないで</p>
+<p>心だけ連れてゆかないで</p>
+<p>私を置いてゆかないで</p>
+<p>ひとりが好きなわけじゃないのよ</p>
 <hr />
 ]]></content>
       <categories>
         <category>Lyrics</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ミカヅキ</title>
-    <url>/Lyrics/%E4%B8%89%E6%97%A5%E6%9C%88/</url>
-    <content><![CDATA[<hr />
-<iframe src="//player.bilibili.com/player.html?aid=3287363&amp;bvid=BV11s411d7ow&amp;cid=5193266&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<hr />
-<p><br></p>
-<p>今宵も頭上では 綺麗な満月がキラキラ</p>
-<p>幸せそうに世界を照らしている</p>
-<p>当の私は 出来損ないでどうしようも無くて</p>
-<p>夜明け夢見ては 地べた這いずり回ってる</p>
-<p><br></p>
-<p>それでも 誰かに見つけて欲しくて</p>
-<p>夜空見上げて叫んでいる</p>
-<p>逃げ出したいなぁ 逃げ出せない</p>
-<p>明るい未来は見えない ねぇ</p>
-<p>それでも あなたに見つけて欲しくて</p>
-<p>蝶のように舞い上がるの</p>
-<p>欠けた翼で飛んだ 醜い星の子ミカヅキ</p>
-<p><br></p>
-<p>今宵も頭上では 綺麗な満月がゆらゆら</p>
-<p>誰かの腕に抱かれて 眠っている</p>
-<p>当の私は ひとりの夜に押し潰されては</p>
-<p>誰にも見えない 夜闇這いずり回ってる</p>
-<p><br></p>
-<p>それでも 誰にも負けたくなくて</p>
-<p>宇宙の隅で藻掻いている</p>
-<p>追いつきたいや、追い越したい ああ</p>
-<p>夢に見たような世界 ねぇ</p>
-<p>それでも 誰かと比べてばっか</p>
-<p>周りを見ては立ち止まって</p>
-<p>欠けたものを探した そんな自分を変えたい</p>
-<p><br></p>
-<p>それでも あなたとおんなじ景色がまた見たいから</p>
-<p>泣き出したくても 投げ出したくても</p>
-<p>諦めたりはできない</p>
-<p>それでも あなたに見つかるように</p>
-<p>サナギは強く手を伸ばすの</p>
-<p>欠けたもの抱きしめて 願いを放つよミカヅキ</p>
-<p><br></p>
-<p>それでも 誰かに見つけて欲しくて</p>
-<p>夜空見上げて叫んでいる</p>
-<p>泣き出したいけど 泣き出さない</p>
-<p>もう後戻りなどできない ねぇ</p>
-<p>それでも あなたに見つけて欲しくて</p>
-<p>蝶のように舞い上がるの</p>
-<p>欠けた翼で飛ぶよ 醜い星の子ミカヅキ</p>
-<p>光を放ったミカヅキ</p>
-<p><br></p>
-<p>今宵も頭上では 綺麗な満月がキラキラ</p>
-<p>次は君の番だと笑っている</p>
-<hr />
-]]></content>
-      <categories>
-        <category>Lyrics</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>img与a标签行内对齐</title>
-    <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
-    <content><![CDATA[<hr />
-<h1 id="未对齐">未对齐</h1>
-<h2 id="代码">代码</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="效果">效果</h2>
-<p><img src="https://p.ipic.vip/crcfh4.png" /></p>
-<h1
-id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align: middle</code>）</h1>
-<h2 id="代码-1">代码</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;vertical-align: middle;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">style</span>=<span class="string">&quot;vertical-align: middle;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="效果-1">效果</h2>
-<p><img src="https://p.ipic.vip/1tas37.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
-    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="问题描述">问题描述</h1>
-<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
-<h1 id="解决方法">解决方法</h1>
-<ol type="1">
-<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
-<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
-<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
-</ol>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
-<ol start="4" type="1">
-<li>重新部署</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
-    <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2020&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p><img src="https://p.ipic.vip/wne7hu.png" style="zoom:50%;" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母上方符号</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="section">^</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\hat A
-\]</span></p>
-<h1 id="section-1">-</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\overline A
-\]</span></p>
-<h1 id="section-2">~</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\widetilde A
-\]</span></p>
-<h1 id="section-3">・</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\dot A
-\quad
-\ddot A
-\quad
-\dddot A
-\quad
-\ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母加粗</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="常规表示">常规表示</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-m\quad \beta
-\]</span></p>
-<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol m
-\]</span></p>
-<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\mathbf m
-\]</span></p>
-<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol \beta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N1文法</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<h2 id="第１課-時間">第１課　時間</h2>
-<blockquote>
-<p>や否や</p>
-<p>や</p>
-<p>が早いか</p>
-<p>なり</p>
-<p>そばから</p>
-<p>がてら</p>
-<p>かたがた</p>
-<p>かたわら</p>
-<p>てからというもの</p>
-<p>を限りに</p>
-<p>を皮切りに</p>
-</blockquote>
-<h3 id="を皮切りに">1. を皮切りに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～为开端</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
-<blockquote>
-<p>とあって</p>
-<p>こととて</p>
-<p>ことだし</p>
-<p>こともあって</p>
-<p>ゆえに</p>
-<p>からこそ·ばこそ</p>
-<p>ではあるまいし</p>
-<p>始末だ</p>
-<p>た手前</p>
-<p>はずみに</p>
-<p>すじまい</p>
-</blockquote>
-<h3 id="とあって">2. とあって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、简体句</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为，由于特殊情况而出现了后项的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ゆえに">3. ゆえに</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第３課-逆接">第３課　逆接</h2>
-<blockquote>
-<p>には～が～</p>
-<p>とはいえ</p>
-<p>といえども</p>
-<p>であれ</p>
-<p>ものを</p>
-<p>ないまでも</p>
-<p>ならまだしも</p>
-<p>たら～たで</p>
-<p>そうかと言って～ない</p>
-</blockquote>
-<h3 id="ものを">4. ものを</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（伴有不满）本来...可是...</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
-<blockquote>
-<p>ものなら</p>
-<p>ものとして</p>
-<p>としたって</p>
-<p>にしたって</p>
-<p>としたところで</p>
-<p>にしたところで</p>
-<p>とあれば</p>
-<p>たが·ら最後</p>
-<p>ともなると·ともなれば</p>
-<p>ようと（が）～ようと（が）</p>
-</blockquote>
-<h3 id="ものなら">5. ものなら</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>如果能～的话（可能性很低但期待实现）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>こられるものなら、もちろん来てほしいですが...</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ようとがようとがようとがまいとが">7.
-ようと·が～ようと·が、ようと·が～まいと·が</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>意向形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论、不管</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第５課-対象関係">第５課　対象、関係</h2>
-<blockquote>
-<p>に即して</p>
-<p>にひきかえ</p>
-<p>にかかわる</p>
-<p>に関わりなく</p>
-<p>にかけては</p>
-<p>と相まって</p>
-<p>にもまして</p>
-<p>をもって</p>
-<p>をよそに</p>
-<p>をしりめに</p>
-<p>をものともせずに</p>
-<p>をこめて</p>
-<p>をひかえて</p>
-<p>あっての</p>
-<p>から～に至るまで</p>
-<p>いかんだ·いかんによっては</p>
-<p>いかんによらず</p>
-<p>によるところ</p>
-</blockquote>
-<h3 id="をもって">8. をもって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～，用～；表示时间的起止点；原因；据说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第６課-強調限定">第６課　強調、限定</h2>
-<blockquote>
-<p>はおろか</p>
-<p>もさることながら</p>
-<p>言うに及ばず</p>
-<p>ならではの</p>
-<p>ともあろう</p>
-<p>に至って</p>
-<p>にして</p>
-<p>に～を重ねる</p>
-<p>をおいて～ない</p>
-<p>てやまない</p>
-<p>たりとも</p>
-<p>なり</p>
-<p>てまで</p>
-<p>からある</p>
-<p>だに</p>
-<p>すら</p>
-<p>ですら</p>
-<p>だけ</p>
-<p>ただ～のみ</p>
-</blockquote>
-<h3 id="もさることながら">9. もさることながら</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>～是当然的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ならではの">10. ならではの</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>只有～才有的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このような細かい心遣いは恋人ならではですね。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第7課-並列">第7課　並列</h2>
-<blockquote>
-<p>あるかと思えば～もある</p>
-<p>だの～だの</p>
-<p>なり～なり</p>
-<p>といい～といい</p>
-<p>であれ～であれ</p>
-<p>つ～つ</p>
-</blockquote>
-<h3 id="といいといい">1１. といい～といい</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论从～来说还是从～来说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>学歴といい、実力といい、向こうの方が勝っている。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="であれであれ">1２. であれ～であれ</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、形容词词干</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论～还是～</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第８課-話題提出">第８課　話題提出</h2>
-<blockquote>
-<p>ときたら</p>
-<p>に至っては</p>
-<p>たるもの</p>
-<p>とは</p>
-<p>～はいざしらず·ならいざしらず</p>
-<p>はともあれ</p>
-<p>はさておき</p>
-</blockquote>
-<h3 id="はさておき">1３. はさておき</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词或短语</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>暂且不提</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第９課-判断評価">第９課　判断、評価</h2>
-<blockquote>
-<p>までもない</p>
-<p>にあたらない</p>
-<p>にかたくない</p>
-<p>に限ったことではない</p>
-<p>ないとも限らない</p>
-<p>といったらありゃしない·といったらない</p>
-<p>なんと～だろう·なんという～だろう</p>
-<p>くらいなら～方がいい</p>
-<p>に越したことはない</p>
-<p>ないものでもない</p>
-<p>といって～ない</p>
-<p>という～ない</p>
-<p>までだ</p>
-<p>までのことだ</p>
-<p>ばそれまでだ</p>
-<p>てしかるべきだ</p>
-<p>限りだ</p>
-<p>極まる·極まりない</p>
-<p>の至り</p>
-<p>きらいがある</p>
-<p>に足る</p>
-<p>あるまじき</p>
-<p>というところだ</p>
-</blockquote>
-<h3 id="までもない">1４. までもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>基本型</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>没必要</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="なんとだろう">1５. なんと～だろう</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>一般修饰动词/形容词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>多么～啊</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>なんと優しい人だろう。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ないものでもないないでもない">1６.
-ないものでもない／ないでもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>ない形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>也不是不～（不情愿的妥协）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>どうしても知りたいなら、教えないものでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="までだ">1７. までだ</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第10課-可能">第10課　可能</h2>
-<blockquote>
-<p>ないものか</p>
-<p>ずにすむ</p>
-<p>を禁じ得ない</p>
-<p>を余儀なくされる·を余儀なくさせる</p>
-<p>にたえる</p>
-<p>にたえない</p>
-<p>べくもない</p>
-</blockquote>
-<h3 id="を余儀なくされるを余儀なくさせる">1８.
-を余儀なくされる·を余儀なくさせる</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>被迫；迫使</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第11課-状態">第11課　状態</h2>
-<blockquote>
-<p>ずにはおかない</p>
-<p>てかなわない</p>
-<p>ともなく·ともなしに</p>
-<p>ことなく·ことなしに</p>
-<p>ごとき</p>
-<p>ながらに</p>
-<p>なりに</p>
-<p>ばかりになっている</p>
-<p>とばかりに</p>
-<p>んばかりに</p>
-<p>んがために</p>
-<p>んとする</p>
-<p>べく</p>
-<p>べくして</p>
-<p>にあって</p>
-</blockquote>
-<h3 id="なりに">1９. なりに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>与～相称的，相适应的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>子供には子供なりの考えがある。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第12課-接尾語">第12課　接尾語</h2>
-<blockquote>
-<p>そこなう</p>
-<p>こなす</p>
-<p>あげる</p>
-</blockquote>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
       </categories>
   </entry>
   <entry>
@@ -6094,6 +5508,592 @@ A\cdots
 </tr>
 </tbody>
 </table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N1文法</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
+    <content><![CDATA[<hr />
+<h2 id="第１課-時間">第１課　時間</h2>
+<blockquote>
+<p>や否や</p>
+<p>や</p>
+<p>が早いか</p>
+<p>なり</p>
+<p>そばから</p>
+<p>がてら</p>
+<p>かたがた</p>
+<p>かたわら</p>
+<p>てからというもの</p>
+<p>を限りに</p>
+<p>を皮切りに</p>
+</blockquote>
+<h3 id="を皮切りに">1. を皮切りに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～为开端</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
+<blockquote>
+<p>とあって</p>
+<p>こととて</p>
+<p>ことだし</p>
+<p>こともあって</p>
+<p>ゆえに</p>
+<p>からこそ·ばこそ</p>
+<p>ではあるまいし</p>
+<p>始末だ</p>
+<p>た手前</p>
+<p>はずみに</p>
+<p>すじまい</p>
+</blockquote>
+<h3 id="とあって">2. とあって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、简体句</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为，由于特殊情况而出现了后项的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ゆえに">3. ゆえに</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第３課-逆接">第３課　逆接</h2>
+<blockquote>
+<p>には～が～</p>
+<p>とはいえ</p>
+<p>といえども</p>
+<p>であれ</p>
+<p>ものを</p>
+<p>ないまでも</p>
+<p>ならまだしも</p>
+<p>たら～たで</p>
+<p>そうかと言って～ない</p>
+</blockquote>
+<h3 id="ものを">4. ものを</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（伴有不满）本来...可是...</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
+<blockquote>
+<p>ものなら</p>
+<p>ものとして</p>
+<p>としたって</p>
+<p>にしたって</p>
+<p>としたところで</p>
+<p>にしたところで</p>
+<p>とあれば</p>
+<p>たが·ら最後</p>
+<p>ともなると·ともなれば</p>
+<p>ようと（が）～ようと（が）</p>
+</blockquote>
+<h3 id="ものなら">5. ものなら</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>如果能～的话（可能性很低但期待实现）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>こられるものなら、もちろん来てほしいですが...</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ようとがようとがようとがまいとが">7.
+ようと·が～ようと·が、ようと·が～まいと·が</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>意向形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论、不管</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第５課-対象関係">第５課　対象、関係</h2>
+<blockquote>
+<p>に即して</p>
+<p>にひきかえ</p>
+<p>にかかわる</p>
+<p>に関わりなく</p>
+<p>にかけては</p>
+<p>と相まって</p>
+<p>にもまして</p>
+<p>をもって</p>
+<p>をよそに</p>
+<p>をしりめに</p>
+<p>をものともせずに</p>
+<p>をこめて</p>
+<p>をひかえて</p>
+<p>あっての</p>
+<p>から～に至るまで</p>
+<p>いかんだ·いかんによっては</p>
+<p>いかんによらず</p>
+<p>によるところ</p>
+</blockquote>
+<h3 id="をもって">8. をもって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～，用～；表示时间的起止点；原因；据说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第６課-強調限定">第６課　強調、限定</h2>
+<blockquote>
+<p>はおろか</p>
+<p>もさることながら</p>
+<p>言うに及ばず</p>
+<p>ならではの</p>
+<p>ともあろう</p>
+<p>に至って</p>
+<p>にして</p>
+<p>に～を重ねる</p>
+<p>をおいて～ない</p>
+<p>てやまない</p>
+<p>たりとも</p>
+<p>なり</p>
+<p>てまで</p>
+<p>からある</p>
+<p>だに</p>
+<p>すら</p>
+<p>ですら</p>
+<p>だけ</p>
+<p>ただ～のみ</p>
+</blockquote>
+<h3 id="もさることながら">9. もさることながら</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>～是当然的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ならではの">10. ならではの</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>只有～才有的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このような細かい心遣いは恋人ならではですね。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第7課-並列">第7課　並列</h2>
+<blockquote>
+<p>あるかと思えば～もある</p>
+<p>だの～だの</p>
+<p>なり～なり</p>
+<p>といい～といい</p>
+<p>であれ～であれ</p>
+<p>つ～つ</p>
+</blockquote>
+<h3 id="といいといい">1１. といい～といい</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论从～来说还是从～来说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>学歴といい、実力といい、向こうの方が勝っている。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="であれであれ">1２. であれ～であれ</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、形容词词干</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论～还是～</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第８課-話題提出">第８課　話題提出</h2>
+<blockquote>
+<p>ときたら</p>
+<p>に至っては</p>
+<p>たるもの</p>
+<p>とは</p>
+<p>～はいざしらず·ならいざしらず</p>
+<p>はともあれ</p>
+<p>はさておき</p>
+</blockquote>
+<h3 id="はさておき">1３. はさておき</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词或短语</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>暂且不提</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第９課-判断評価">第９課　判断、評価</h2>
+<blockquote>
+<p>までもない</p>
+<p>にあたらない</p>
+<p>にかたくない</p>
+<p>に限ったことではない</p>
+<p>ないとも限らない</p>
+<p>といったらありゃしない·といったらない</p>
+<p>なんと～だろう·なんという～だろう</p>
+<p>くらいなら～方がいい</p>
+<p>に越したことはない</p>
+<p>ないものでもない</p>
+<p>といって～ない</p>
+<p>という～ない</p>
+<p>までだ</p>
+<p>までのことだ</p>
+<p>ばそれまでだ</p>
+<p>てしかるべきだ</p>
+<p>限りだ</p>
+<p>極まる·極まりない</p>
+<p>の至り</p>
+<p>きらいがある</p>
+<p>に足る</p>
+<p>あるまじき</p>
+<p>というところだ</p>
+</blockquote>
+<h3 id="までもない">1４. までもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>基本型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>没必要</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="なんとだろう">1５. なんと～だろう</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>一般修饰动词/形容词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>多么～啊</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>なんと優しい人だろう。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ないものでもないないでもない">1６.
+ないものでもない／ないでもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>ない形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>也不是不～（不情愿的妥协）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>どうしても知りたいなら、教えないものでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="までだ">1７. までだ</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第10課-可能">第10課　可能</h2>
+<blockquote>
+<p>ないものか</p>
+<p>ずにすむ</p>
+<p>を禁じ得ない</p>
+<p>を余儀なくされる·を余儀なくさせる</p>
+<p>にたえる</p>
+<p>にたえない</p>
+<p>べくもない</p>
+</blockquote>
+<h3 id="を余儀なくされるを余儀なくさせる">1８.
+を余儀なくされる·を余儀なくさせる</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>被迫；迫使</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第11課-状態">第11課　状態</h2>
+<blockquote>
+<p>ずにはおかない</p>
+<p>てかなわない</p>
+<p>ともなく·ともなしに</p>
+<p>ことなく·ことなしに</p>
+<p>ごとき</p>
+<p>ながらに</p>
+<p>なりに</p>
+<p>ばかりになっている</p>
+<p>とばかりに</p>
+<p>んばかりに</p>
+<p>んがために</p>
+<p>んとする</p>
+<p>べく</p>
+<p>べくして</p>
+<p>にあって</p>
+</blockquote>
+<h3 id="なりに">1９. なりに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>与～相称的，相适应的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>子供には子供なりの考えがある。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第12課-接尾語">第12課　接尾語</h2>
+<blockquote>
+<p>そこなう</p>
+<p>こなす</p>
+<p>あげる</p>
+</blockquote>
 <hr />
 ]]></content>
       <categories>
@@ -8799,6 +8799,230 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       <categories>
         <category>日本語</category>
         <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>授受</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
+    <content><![CDATA[<hr />
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
+<hr />
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -13127,855 +13351,6 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
-    <title>動詞の形</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
-    <content><![CDATA[<hr />
-<h1 id="まとめ">まとめ</h1>
-<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
-<h1 id="練習">練習</h1>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 10%" />
-<col style="width: 6%" />
-<col style="width: 17%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h1 id="解答">解答</h1>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td>洗う</td>
-<td>洗った</td>
-<td>洗って</td>
-<td>洗わない</td>
-<td>洗えば</td>
-<td>洗おう</td>
-<td>洗える</td>
-<td>洗われる</td>
-<td>洗わせる</td>
-<td>洗わされる</td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td>待つ</td>
-<td>待った</td>
-<td>待って</td>
-<td>待たない</td>
-<td>待てば</td>
-<td>待とう</td>
-<td>待てる</td>
-<td>待たれる</td>
-<td>待たせる</td>
-<td>待たされる</td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td>帰る</td>
-<td>帰った</td>
-<td>帰って</td>
-<td>帰らない</td>
-<td>帰れば</td>
-<td>帰ろう</td>
-<td>帰れる</td>
-<td>帰られる</td>
-<td>帰らせる</td>
-<td>帰らされる</td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td>休む</td>
-<td>休んだ</td>
-<td>休んで</td>
-<td>休まない</td>
-<td>休めば</td>
-<td>休もう</td>
-<td>休める</td>
-<td>休まれる</td>
-<td>休ませる</td>
-<td>休まされる</td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td>遊ぶ</td>
-<td>遊んだ</td>
-<td>遊んで</td>
-<td>遊ばない</td>
-<td>遊べば</td>
-<td>遊ぼう</td>
-<td>遊べる</td>
-<td>遊ばれる</td>
-<td>遊ばせる</td>
-<td>遊ばされる</td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td>死ぬ</td>
-<td>死んだ</td>
-<td>死んで</td>
-<td>死なない</td>
-<td>死ねば</td>
-<td>死のう</td>
-<td>死ねる</td>
-<td>死なれる</td>
-<td>死なせる</td>
-<td>死なされる</td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td>急ぐ</td>
-<td>急いだ</td>
-<td>急いで</td>
-<td>急いがない</td>
-<td>急げば</td>
-<td>急ごう</td>
-<td>急げる</td>
-<td>急がれる</td>
-<td>急がせる</td>
-<td>急がされる</td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td>降る</td>
-<td>降った</td>
-<td>降って</td>
-<td>降らない</td>
-<td>降れば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td>飲む</td>
-<td>飲んだ</td>
-<td>飲んで</td>
-<td>飲まない</td>
-<td>飲めば</td>
-<td>飲もう</td>
-<td>飲める</td>
-<td>飲まれる</td>
-<td>飲ませる</td>
-<td>飲まされる</td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td>行く</td>
-<td>行った</td>
-<td>行って</td>
-<td>行かない</td>
-<td>行けば</td>
-<td>行こう</td>
-<td>行ける</td>
-<td>行かれる</td>
-<td>行かせる</td>
-<td>行かされる</td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td>切る</td>
-<td>切った</td>
-<td>切って</td>
-<td>切らない</td>
-<td>切れば</td>
-<td>切ろう</td>
-<td>切れる</td>
-<td>切られる</td>
-<td>切らせる</td>
-<td>切らされる</td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td>出る</td>
-<td>出た</td>
-<td>出て</td>
-<td>出ない</td>
-<td>出れば</td>
-<td>出よう</td>
-<td>出られる</td>
-<td>出られる</td>
-<td>出させる</td>
-<td>出させらせる</td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td>迎える</td>
-<td>迎えた</td>
-<td>迎えて</td>
-<td>迎えない</td>
-<td>迎えれば</td>
-<td>迎えよう</td>
-<td>迎えられる</td>
-<td>迎えられる</td>
-<td>迎えさせる</td>
-<td>迎えさせられる</td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td>食べる</td>
-<td>食べた</td>
-<td>食べて</td>
-<td>食べない</td>
-<td>食べれば</td>
-<td>食べよう</td>
-<td>食べられる</td>
-<td>食べられる</td>
-<td>食べさせる</td>
-<td>食べさせられる</td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td>降りる</td>
-<td>降りた</td>
-<td>降りて</td>
-<td>降りない</td>
-<td>降りれば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td>足りる</td>
-<td>足りた</td>
-<td>足りて</td>
-<td>足りない</td>
-<td>足りれば</td>
-<td>足りよう</td>
-<td>足りられる</td>
-<td>足りられる</td>
-<td>足りさせる</td>
-<td>足りさせられる</td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td>止める</td>
-<td>止めた</td>
-<td>止めて</td>
-<td>止めない</td>
-<td>止めれば</td>
-<td>止めよう</td>
-<td>止められる</td>
-<td>止められる</td>
-<td>止めさせる</td>
-<td>止めさせられる</td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td>できる</td>
-<td>できた</td>
-<td>できて</td>
-<td>できない</td>
-<td>できれば</td>
-<td>できよう</td>
-<td>できる</td>
-<td>できられる</td>
-<td>できさせる</td>
-<td>できさせられる</td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td>くる</td>
-<td>きた</td>
-<td>きて</td>
-<td>こない</td>
-<td>くれば</td>
-<td>こよう</td>
-<td>こられる</td>
-<td>こられる</td>
-<td>こさせる</td>
-<td>こさせられる</td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td>食事する</td>
-<td>食事した</td>
-<td>食事して</td>
-<td>食事しない</td>
-<td>食事すれば</td>
-<td>食事しよう</td>
-<td>食事できる</td>
-<td>食事される</td>
-<td>食事させる</td>
-<td>食事させられる</td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td>する</td>
-<td>した</td>
-<td>して</td>
-<td>しない</td>
-<td>すれば</td>
-<td>しよう</td>
-<td>できる</td>
-<td>される</td>
-<td>させる</td>
-<td>させられる</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
     <title>省略語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -15350,186 +14725,6 @@ id="つは行くっは行ぱ行">「つ」＋「は行」、「く」→「っ�
       </categories>
   </entry>
   <entry>
-    <title>フリップフロップ</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/flip-flop/</url>
-    <content><![CDATA[<hr />
-<h1 id="srフリップフロップ">SRフリップフロップ</h1>
-<h2 id="回路図">回路図</h2>
-<p><img src="https://p.ipic.vip/xuhvw7.jpg" /></p>
-<h2 id="特性式">特性式</h2>
-<p><span class="math display">\[
-_{next}Q=S+\overline R\cdot Q\quadかつ\quad R\cdot S=0
-\]</span></p>
-<h1 id="dフリップフロップ">Dフリップフロップ</h1>
-<h2 id="回路図-1">回路図</h2>
-<p><img src="https://p.ipic.vip/3f1dzl.jpg" /></p>
-<h2 id="回路記号">回路記号</h2>
-<p><img src="https://p.ipic.vip/s3jukz.jpg" /></p>
-<h2 id="特性式-1">特性式</h2>
-<p><span class="math display">\[
-_{next}Q=D
-\]</span></p>
-<h1 id="jkフリップフロップ">JKフリップフロップ</h1>
-<h2 id="回路図-2">回路図</h2>
-<p><img src="https://p.ipic.vip/uyaw4d.jpg" /></p>
-<h2 id="回路記号-1">回路記号</h2>
-<p><img src="https://p.ipic.vip/d8wgqs.jpg" /></p>
-<h2 id="特性式-2">特性式</h2>
-<p><span class="math display">\[
-_{next}Q=J\cdot \overline Q+\overline K\cdot Q
-\]</span></p>
-<h1 id="tフリップフロップ">Tフリップフロップ</h1>
-<h2 id="回路図-3">回路図</h2>
-<p><img src="https://p.ipic.vip/xz7jum.jpg" /></p>
-<h2 id="回路記号-2">回路記号</h2>
-<p><img src="https://p.ipic.vip/jqr4r9.jpg" /></p>
-<h2 id="特性式-3">特性式</h2>
-<p><span class="math display">\[
-_{next}Q=\overline T\cdot Q+T\cdot\overline Q=T\oplus Q
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>２進数の演算</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/%EF%BC%92%E9%80%B2%E6%95%B0%E3%81%AE%E6%BC%94%E7%AE%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="進数の乗算">２進数の乗算</h1>
-<p>（１）被乗数を<span
-class="math inline">\(2n\)</span>ビットに符号拡張する。すなわち，<span
-class="math inline">\(2n\sim n+1\)</span>ビット目までに，下から<span
-class="math inline">\(n\)</span>ビット目の値を入れる。</p>
-<p>（２）<span class="math inline">\(1\)</span>ビット目から<span
-class="math inline">\(n-1\)</span>ビット目まで，ふつうに被乗数<span
-class="math inline">\(\times\)</span>乗数の数算をする。</p>
-<p>（３）(2)の値から<span
-class="math inline">\(n\)</span>ビット目の乗算結果を引く（乗算が正の場合は(2)で終わりになる）。</p>
-<h1 id="例">例</h1>
-<p><span class="math display">\[
-\begin{align}
-負数\times負数:(-5)\times(-3)=15
-\\
-\\
-1011\\
-\times\qquad1101
-\\
-\rule[3pt]{3cm}{0.05em}
-\\
-111011
-\\
-0000\,\,\,
-\\
-+\quad1011\,\,\,\,\,\,
-\\
-\rule[3pt]{3cm}{0.05em}
-\\
-1100111
-\\
--\quad1011\,\,\,\,\,\,\,\,\,
-\\
-\rule[3pt]{3cm}{0.05em}
-\\
-00001111
-\end{align}
-\]</span></p>
-<h1 id="進数の除算引き放し法">２進数の除算(引き放し法)</h1>
-<p>（１）被除数を<span
-class="math inline">\(2n-1\)</span>ビットに符号拡張する。すなわち，<span
-class="math inline">\(2n-1\sim n+1\)</span>ビット目までに，下から<span
-class="math inline">\(n\)</span>ビット目の値を入れる。これを<span
-class="math inline">\(D_0\)</span>とする。</p>
-<p>（２）除数を<span
-class="math inline">\(n-1\)</span>ビット左シフトする。すなわち，除数に<span
-class="math inline">\(2^{n-1}\)</span>をかける。これを<span
-class="math inline">\(D_1\)</span>とする。</p>
-<p>（３）<span
-class="math inline">\(Q=0\)</span>とする(商の初期値の設定)。</p>
-<p>（４）<span class="math inline">\(D_0\)</span>と<span
-class="math inline">\(D_1\)</span>の符号が同じか，または<span
-class="math inline">\(D_0=0\)</span>のとき<span
-class="math inline">\(D_0=D_0-D_1\)</span>，そうでないとき<span
-class="math inline">\(D_0=D_0+D_1\)</span>とする。</p>
-<p>（５）新しい<span class="math inline">\(D_0\)</span>と<span
-class="math inline">\(D_1\)</span>の符号が同じか，または新しい<span
-class="math inline">\(D_0=0\)</span>のとき，<span
-class="math inline">\(Q\)</span>の一番右のビットを<span
-class="math inline">\(1\)</span>にする。そうでないとき，<span
-class="math inline">\(Q\)</span>の一番右のビットを<span
-class="math inline">\(0\)</span>とする。</p>
-<p>（６）<span class="math inline">\(D_1\)</span>を<span
-class="math inline">\(1\)</span>ビット右シフトする。<span
-class="math inline">\(Q\)</span>を<span
-class="math inline">\(1\)</span>ビット左シフトする。</p>
-<p>（７）(4)~(6)を<span
-class="math inline">\(n-1\)</span>回繰り返す。最後に(4)(5)をもう一度行う。</p>
-<p>（８）<span class="math inline">\(Q\)</span>の一番右のビットが<span
-class="math inline">\(0\)</span>のとき，<span
-class="math inline">\(D_0=D_0+D_1\)</span>とする。</p>
-<p>（９）商は<span class="math inline">\(Q\)</span>，余りは<span
-class="math inline">\(D_0\)</span>となる。なお，このとき余りの符号は除数の符号に合わせてある。</p>
-<h1 id="例-1">例</h1>
-<p><span class="math display">\[
-\begin{align}
-負数\div正数:(-5)\div3=-2\cdots1
-\\
-Q
-\\
-1111011\quad D_0\qquad\qquad0
-\\
-+\quad0011000\quad D_1\qquad\qquad\,\,\,
-\\
-\rule[3pt]{4cm}{0.05em}\qquad\qquad
-\\
-0010011\quad D_0\longrightarrow\quad\,\,\,\,\,1
-\\
-\downarrow\quadシフト\quad
-\\
--\quad0001100\quad D_1\qquad\quad\,\,\,10
-\\
-\rule[3pt]{4cm}{0.05em}\qquad\qquad
-\\
-0000111\quad D_0\longrightarrow\quad\,\,11
-\\
-\downarrow\quadシフト\quad
-\\
--\quad0000110\quad D_1\qquad\quad110
-\\
-\rule[3pt]{4cm}{0.05em}\qquad\qquad
-\\
-0000001\quad D_0\longrightarrow\,\,\,\,\,111
-\\
-\downarrow\quadシフト\quad
-\\
--\quad0000011\quad D_1\qquad\,\,\,1110
-\\
-\rule[3pt]{4cm}{0.05em}\qquad\qquad
-\\
-1111110\quad D_0\longrightarrow\,\,1110
-\\
-+\quad0000011\quad D_1\qquad\,\,\,\qquad
-\\
-\rule[3pt]{4cm}{0.05em}\qquad\qquad
-\\
-0000001\qquad\qquad\quad\,\,\,\,\,\,\,\,\,\,
-\\
-\\
-商:1110\qquad
-\\
-余り:00000001
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-2</category>
-      </categories>
-  </entry>
-  <entry>
     <title>オイラーの公式</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<hr />
@@ -15550,125 +14745,6 @@ e^{i\theta}&amp;=1+\frac{i\theta}{1!}+\frac{(i\theta)^2}{2!}+\frac{(i\theta)^3}{
       <categories>
         <category>通信情報</category>
         <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>論理回路の簡単化</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/%E8%AB%96%E7%90%86%E5%9B%9E%E8%B7%AF%E3%81%AE%E7%B0%A1%E5%8D%98%E5%8C%96/</url>
-    <content><![CDATA[<hr />
-<h1 id="基本公式">基本公式</h1>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 4%" />
-<col style="width: 47%" />
-<col style="width: 47%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>名称</th>
-<th>基于与运算的公式</th>
-<th>基于或运算的公式</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>01律</td>
-<td><span class="math inline">\(A\cdot1=A\)</span><br /><span
-class="math inline">\(A\cdot0=0\)</span></td>
-<td><span class="math inline">\(A+0=0\)</span><br /><span
-class="math inline">\(A+1=1\)</span></td>
-</tr>
-<tr class="even">
-<td>互补律</td>
-<td><span class="math inline">\(A\overline A=0\)</span></td>
-<td><span class="math inline">\(A+\overline A=1\)</span></td>
-</tr>
-<tr class="odd">
-<td>重叠率</td>
-<td><span class="math inline">\(AA=A\)</span></td>
-<td><span class="math inline">\(A+A=A\)</span></td>
-</tr>
-<tr class="even">
-<td>交换律</td>
-<td><span class="math inline">\(AB=BA\)</span></td>
-<td><span class="math inline">\(A+B=B+A\)</span></td>
-</tr>
-<tr class="odd">
-<td>结合律</td>
-<td><span class="math inline">\(A(BC)=(AB)C\)</span></td>
-<td><span class="math inline">\(A+(B+C)=(A+B)+C\)</span></td>
-</tr>
-<tr class="even">
-<td>分配律</td>
-<td><span class="math inline">\((A+B)C=AC+BC\)</span></td>
-<td><span class="math inline">\(A+BC=(A+B)(A+C)\)</span></td>
-</tr>
-<tr class="odd">
-<td>反演律</td>
-<td><span class="math inline">\(\overline {AB}=\overline A+\overline
-B\)</span></td>
-<td><span class="math inline">\(\overline{A+B}=\overline A\,\overline
-B\)</span></td>
-</tr>
-<tr class="even">
-<td>吸收律</td>
-<td><span class="math inline">\(A(A+B)=A\)</span><br/><span
-class="math inline">\(A(\overline A+B)=AB\)</span><br/><span
-class="math inline">\((A+B)(\overline A+C)(B+C)=(A+B)(\overline
-A+C)\)</span></td>
-<td><span class="math inline">\(A+AB=A\)</span><br/><span
-class="math inline">\(A+\overline AB=A+B\)</span><br/><span
-class="math inline">\(AB+\overline AC+BC=AB+\overline AC\)</span></td>
-</tr>
-</tbody>
-</table>
-<h1 id="吸收律推导">吸收律推导</h1>
-<p><span class="math display">\[
-\begin{align}
-A(A+B)&amp;=(A+0)(A+B)\\
-&amp;=A+(0\cdot B)\quad(分配律)\\
-&amp;=A
-\\
-\\
-\\
-A+AB&amp;=A\cdot1+AB\\
-&amp;=A(1+B)\\
-&amp;=A
-\\
-\\
-\\
-A(\overline A+B)&amp;=A\overline A+AB\\
-&amp;=AB
-\\
-\\
-\\
-A+\overline AB&amp;=(A+\overline A)(A+B)\quad(分配律)\\
-&amp;=A+B
-\\
-\\
-\\
-(A+B)(\overline A+C)(B+C)&amp;=(A+B)(\overline A+C)(0+(B+C))\\
-&amp;=(A+B)(\overline A+C)(A\overline A+(B+C))\\
-&amp;=(A+B)(\overline A+C)(A+(B+C))(\overline A+(B+C))\\
-&amp;=(A+B)(\overline A+C)((A+B)+C)((\overline A+B)+C)\\
-&amp;=((A+B)+0)((A+B)+C)((\overline A+C)+0)((\overline A+C)+B)\\
-&amp;=(A+B)(\overline A+C)
-\\
-\\
-\\
-AB+\overline AC+BC&amp;=AB+\overline AC+1\cdot BC\\
-&amp;=AB+\overline AC+(A+\overline A)BC\\
-&amp;=AB+\overline AC+(AB)C+(\overline AB)C\\
-&amp;=AB\cdot1+(AB)C+\overline AC\cdot1+(\overline AC)B\\
-&amp;=AB(1+C)+\overline AC(1+B)\\
-&amp;=AB+\overline AC
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-2</category>
       </categories>
   </entry>
   <entry>
@@ -15757,6 +14833,38 @@ r=a(1+\cos\theta)
       </categories>
   </entry>
   <entry>
+    <title>倍角公式与半角公式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F%E4%B8%8E%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="二倍角公式">二倍角公式</h1>
+<p><span class="math display">\[
+\sin 2\theta=2\sin\theta\cos\theta
+\]</span></p>
+<p><span class="math display">\[
+\cos2\theta=2\cos^2\theta-1=1-2\sin^2\theta
+\]</span></p>
+<h1 id="三倍角公式">三倍角公式</h1>
+<p><span class="math display">\[
+\sin3\theta=3\sin\theta-4\sin^3\theta
+\]</span></p>
+<p><span class="math display">\[
+\cos3\theta=4\cos^3\theta-3\cos\theta
+\]</span></p>
+<h1 id="半角公式">半角公式</h1>
+<p><span class="math display">\[
+\sin^2\theta=\frac{1-\cos2\theta}{2}
+\]</span></p>
+<p><span class="math display">\[
+\cos^2\theta=\frac{1+\cos2\theta}{2}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>全微分の変数変換公式</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%85%A8%E5%BE%AE%E5%88%86%E3%81%AE%E5%A4%89%E6%95%B0%E5%A4%89%E6%8F%9B%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<hr />
@@ -15782,38 +14890,6 @@ y}\cdot\frac{\partial y}{\partial u}\\
 x}\cdot\frac{\partial x}{\partial v}+\frac{\partial z}{\partial
 y}\cdot\frac{\partial y}{\partial v}
 \end{cases}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>倍角公式与半角公式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F%E4%B8%8E%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="二倍角公式">二倍角公式</h1>
-<p><span class="math display">\[
-\sin 2\theta=2\sin\theta\cos\theta
-\]</span></p>
-<p><span class="math display">\[
-\cos2\theta=2\cos^2\theta-1=1-2\sin^2\theta
-\]</span></p>
-<h1 id="三倍角公式">三倍角公式</h1>
-<p><span class="math display">\[
-\sin3\theta=3\sin\theta-4\sin^3\theta
-\]</span></p>
-<p><span class="math display">\[
-\cos3\theta=4\cos^3\theta-3\cos\theta
-\]</span></p>
-<h1 id="半角公式">半角公式</h1>
-<p><span class="math display">\[
-\sin^2\theta=\frac{1-\cos2\theta}{2}
-\]</span></p>
-<p><span class="math display">\[
-\cos^2\theta=\frac{1+\cos2\theta}{2}
 \]</span></p>
 <hr />
 ]]></content>
@@ -15896,6 +14972,103 @@ y}\cdot\frac{\partial y}{\partial v}
       </categories>
   </entry>
   <entry>
+    <title>回転体の表面積の公式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%81%AE%E8%A1%A8%E9%9D%A2%E7%A9%8D%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="x軸のまりに回転"><span
+class="math inline">\(x\)</span>軸のまりに回転</h1>
+<p>区間<span class="math inline">\([a,b]\)</span>で連続,区間<span
+class="math inline">\((a,b)\)</span>で微分可能な曲線<span
+class="math inline">\(y=f(x)\)</span>と<span
+class="math inline">\(x\)</span>軸とで挟まれる図形を<span
+class="math inline">\(x\)</span>軸のまりに回転してできる回転体の曲面の表面積<span
+class="math inline">\(S\)</span>は,次式で計算できる。 <span
+class="math display">\[
+\begin{align}
+S=2\pi\int_a^by\sqrt{1+\left(\frac{\mathrm dy}{\mathrm
+dx}\right)^2}\,\mathrm dx
+\\
+実際の計算では,
+\\
+S=2\pi\int_a^b\sqrt{y^2+(yy&#39;)^2}\,\mathrm dx
+\\として,
+\\
+y^2+(yy&#39;)^2を求めることが多い。
+\end{align}
+\]</span></p>
+<h1 id="y軸のまりに回転"><span
+class="math inline">\(y\)</span>軸のまりに回転</h1>
+<p>区間<span class="math inline">\([c,d]\)</span>で連続,区間<span
+class="math inline">\((c,d)\)</span>で微分可能な曲線<span
+class="math inline">\(x=g(x)\)</span>と<span
+class="math inline">\(y\)</span>軸とで挟まれる図形を<span
+class="math inline">\(y\)</span>軸のまりに回転してできる回転体の曲面の表面積<span
+class="math inline">\(S\)</span>は,次式で計算できる。 <span
+class="math display">\[
+\begin{align}
+S=2\pi\int_c^dx\sqrt{1+\left(\frac{\mathrm dx}{\mathrm
+dy}\right)^2}\,\mathrm dy
+実際の計算では,
+\\
+S=2\pi\int_c^d\sqrt{x^2+(xx&#39;)^2}\,\mathrm dy
+\\として,
+\\
+x^2+(xx&#39;)^2を求めることが多い。
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>基本初等函数导数公式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%9F%BA%E6%9C%AC%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0%E5%AF%BC%E6%95%B0%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="常用求导公式">常用求导公式</h1>
+<p><span class="math display">\[
+\begin{align}
+(C)&#39;&amp;=0\\
+(x^{\mu})&#39;&amp;=\mu x^{\mu-1}\\
+(\sin x)&#39;&amp;=\cos x\\
+(\cos x)&#39;&amp;=-\sin x\\
+(\tan x)&#39;&amp;=\sec^2x\\
+(\cot x)&#39;&amp;=-\csc^2x\\
+(\sec x)&#39;&amp;=\sec x\tan x\\
+(\csc x)&#39;&amp;=-\csc x\cot x\\
+(a^x)&#39;&amp;=a^x\ln a\quad(a&gt;0,a\neq 1)\\
+(\mathrm e^x)&#39;&amp;=\mathrm e^x\\
+(\log_ax)&#39;&amp;=\frac 1{x\ln a}\quad(a&gt;0,a\neq 1)\\
+(\ln x)&amp;=\frac 1 x\\
+(\arcsin x)&#39;&amp;=\frac 1 {\sqrt {1-x^2}}\\
+(\arccos x)&#39;&amp;=-\frac 1 {\sqrt {1-x^2}}\\
+(\arctan x)&#39;&amp;=\frac 1 {1+x^2}\\
+\end{align}
+\]</span></p>
+<h1 id="证明arcsin-xfrac-1-sqrt-1-x2">证明<span
+class="math inline">\((\arcsin x)&#39;=\frac 1 {\sqrt
+{1-x^2}}\)</span></h1>
+<p><span class="math display">\[
+\begin{align}
+\arcsin x=y
+&amp;\Rightarrow x=\sin y\\
+&amp;\Rightarrow x&#39;=(\sin y)&#39;\\
+&amp;\Rightarrow 1=y&#39;\cos y\\
+&amp;\Rightarrow y&#39;=\frac 1{\cos y}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-\sin ^2y}}\\
+&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-x^2}}
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>回転体の体積公式</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%81%AE%E4%BD%93%E7%A9%8D%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<hr />
@@ -15946,58 +15119,6 @@ V&amp;=2\pi\int_0^1x\cdot \tan^{-1}x\,\mathrm dx=2\pi\int_0^1\left(\frac
 2[x-\tan^{-1}x]_0^1\right\}
 \\&amp;=2\pi\left\{\frac \pi 8-\frac 1 2(1-\tan^{-1}1)\right\}
 \\&amp;=2\pi\left(\frac \pi 4-\frac 1 2\right)=\frac{\pi^2}{2}-\pi
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>回転体の表面積の公式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%9B%9E%E8%BB%A2%E4%BD%93%E3%81%AE%E8%A1%A8%E9%9D%A2%E7%A9%8D%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="x軸のまりに回転"><span
-class="math inline">\(x\)</span>軸のまりに回転</h1>
-<p>区間<span class="math inline">\([a,b]\)</span>で連続,区間<span
-class="math inline">\((a,b)\)</span>で微分可能な曲線<span
-class="math inline">\(y=f(x)\)</span>と<span
-class="math inline">\(x\)</span>軸とで挟まれる図形を<span
-class="math inline">\(x\)</span>軸のまりに回転してできる回転体の曲面の表面積<span
-class="math inline">\(S\)</span>は,次式で計算できる。 <span
-class="math display">\[
-\begin{align}
-S=2\pi\int_a^by\sqrt{1+\left(\frac{\mathrm dy}{\mathrm
-dx}\right)^2}\,\mathrm dx
-\\
-実際の計算では,
-\\
-S=2\pi\int_a^b\sqrt{y^2+(yy&#39;)^2}\,\mathrm dx
-\\として,
-\\
-y^2+(yy&#39;)^2を求めることが多い。
-\end{align}
-\]</span></p>
-<h1 id="y軸のまりに回転"><span
-class="math inline">\(y\)</span>軸のまりに回転</h1>
-<p>区間<span class="math inline">\([c,d]\)</span>で連続,区間<span
-class="math inline">\((c,d)\)</span>で微分可能な曲線<span
-class="math inline">\(x=g(x)\)</span>と<span
-class="math inline">\(y\)</span>軸とで挟まれる図形を<span
-class="math inline">\(y\)</span>軸のまりに回転してできる回転体の曲面の表面積<span
-class="math inline">\(S\)</span>は,次式で計算できる。 <span
-class="math display">\[
-\begin{align}
-S=2\pi\int_c^dx\sqrt{1+\left(\frac{\mathrm dx}{\mathrm
-dy}\right)^2}\,\mathrm dy
-実際の計算では,
-\\
-S=2\pi\int_c^d\sqrt{x^2+(xx&#39;)^2}\,\mathrm dy
-\\として,
-\\
-x^2+(xx&#39;)^2を求めることが多い。
 \end{align}
 \]</span></p>
 <hr />
@@ -16067,109 +15188,6 @@ B
       </categories>
   </entry>
   <entry>
-    <title>接平面の方程式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%8E%A5%E5%B9%B3%E9%9D%A2%E3%81%AE%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math inline">\(2\)</span>変数関数<span
-class="math inline">\(z=f(x,y)\)</span>が,点<span
-class="math inline">\((x_1,y_1)\)</span>で全微分可能のとき,曲面上の点<span
-class="math inline">\(A(x_1,y_1,z_1)\)</span>における接平面の方程式は次式で表される。
-<span class="math display">\[
-z-z_1=f_x(x_1,y_1)\cdot(x-x_1)+f_y(x_1,y_1)\cdot(y-y_1)
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>基本初等函数导数公式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E5%9F%BA%E6%9C%AC%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0%E5%AF%BC%E6%95%B0%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="常用求导公式">常用求导公式</h1>
-<p><span class="math display">\[
-\begin{align}
-(C)&#39;&amp;=0\\
-(x^{\mu})&#39;&amp;=\mu x^{\mu-1}\\
-(\sin x)&#39;&amp;=\cos x\\
-(\cos x)&#39;&amp;=-\sin x\\
-(\tan x)&#39;&amp;=\sec^2x\\
-(\cot x)&#39;&amp;=-\csc^2x\\
-(\sec x)&#39;&amp;=\sec x\tan x\\
-(\csc x)&#39;&amp;=-\csc x\cot x\\
-(a^x)&#39;&amp;=a^x\ln a\quad(a&gt;0,a\neq 1)\\
-(\mathrm e^x)&#39;&amp;=\mathrm e^x\\
-(\log_ax)&#39;&amp;=\frac 1{x\ln a}\quad(a&gt;0,a\neq 1)\\
-(\ln x)&amp;=\frac 1 x\\
-(\arcsin x)&#39;&amp;=\frac 1 {\sqrt {1-x^2}}\\
-(\arccos x)&#39;&amp;=-\frac 1 {\sqrt {1-x^2}}\\
-(\arctan x)&#39;&amp;=\frac 1 {1+x^2}\\
-\end{align}
-\]</span></p>
-<h1 id="证明arcsin-xfrac-1-sqrt-1-x2">证明<span
-class="math inline">\((\arcsin x)&#39;=\frac 1 {\sqrt
-{1-x^2}}\)</span></h1>
-<p><span class="math display">\[
-\begin{align}
-\arcsin x=y
-&amp;\Rightarrow x=\sin y\\
-&amp;\Rightarrow x&#39;=(\sin y)&#39;\\
-&amp;\Rightarrow 1=y&#39;\cos y\\
-&amp;\Rightarrow y&#39;=\frac 1{\cos y}\\
-&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-\sin ^2y}}\\
-&amp;\Rightarrow y&#39;=\frac 1{\sqrt{1-x^2}}
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>曲面の面積</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%9B%B2%E9%9D%A2%E3%81%AE%E9%9D%A2%E7%A9%8D/</url>
-    <content><![CDATA[<hr />
-<p><span class="math inline">\(xyz\)</span>座標空間上に,曲面<span
-class="math inline">\(z=f(x,y)\)</span>が与えられているとき,<span
-class="math inline">\(xy\)</span>座標平面上の領域<span
-class="math inline">\(D\)</span>に対応するこの曲面の部分の面積<span
-class="math inline">\(S\)</span>は,次の式で計算できる。 <span
-class="math display">\[
-S=\iint_{D}\sqrt{f_x^2+f_y^2+1}\,\mathrm
-{d}x\mathrm{d}y=\iint_{D}\sqrt{\left(\frac{\partial f}{\partial
-x}\right)^2+\left(\frac{\partial f}{\partial y}^2\right)+1}\,\mathrm
-{d}x\mathrm {d}y
-\]</span></p>
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ラグランジュの未定乗数法</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%9C%AA%E5%AE%9A%E4%B9%97%E6%95%B0%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<p>曲線<span class="math inline">\(z=f(x,y)\)</span>,<span
-class="math inline">\(g(x,y)=0\)</span>が点<span
-class="math inline">\((a,b)\)</span>で極値をもつならば, <span
-class="math display">\[
-g(a,b)=0\ かつ\
-\frac{f_x(a,b)}{g_x(a,b)}=\frac{f_y(a,b)}{g_y(a,b)}[=\lambda]\
-が成り立つ。
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
     <title>曲線の長さの公式</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%9B%B2%E7%B7%9A%E3%81%AE%E9%95%B7%E3%81%95%E3%81%AE%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<hr />
@@ -16228,24 +15246,34 @@ d\theta}\right)^2}\,\mathrm d\theta
       </categories>
   </entry>
   <entry>
-    <title>積分計算の応用公式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E7%A9%8D%E5%88%86%E8%A8%88%E7%AE%97%E3%81%AE%E5%BF%9C%E7%94%A8%E5%85%AC%E5%BC%8F/</url>
+    <title>ラグランジュの未定乗数法</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%9C%AA%E5%AE%9A%E4%B9%97%E6%95%B0%E6%B3%95/</url>
     <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-(1)&amp;\int\frac 1{a^2+x^2}\,\mathrm dx=\frac 1 a\tan^{-1}\frac x
-a\quad(a\neq 0)\\
-(2)&amp;\int\frac 1{\sqrt {a^2-x^2}}\,\mathrm dx=\sin^{-1}\frac x
-a\quad(-a&lt;x&lt;a,\ a:正の定数) \\
-(3)&amp;\int\frac 1{\sqrt{x^2+\alpha}}\,\mathrm
-dx=\log|x+\sqrt{x^2+\alpha}|\quad(\alpha\neq 0)\quad(x^2+\alpha&gt;0)\\
-(4)&amp;\int\sqrt{x^2+\alpha}\,\mathrm dx=\frac 1
-2(x\sqrt{x^2+\alpha}+\alpha\log|x+\sqrt{x^2+\alpha}|)\quad(x^2+\alpha\geq
-0)
-\end{align}
+<p>曲線<span class="math inline">\(z=f(x,y)\)</span>,<span
+class="math inline">\(g(x,y)=0\)</span>が点<span
+class="math inline">\((a,b)\)</span>で極値をもつならば, <span
+class="math display">\[
+g(a,b)=0\ かつ\
+\frac{f_x(a,b)}{g_x(a,b)}=\frac{f_y(a,b)}{g_y(a,b)}[=\lambda]\
+が成り立つ。
 \]</span></p>
-<p><span class="math display">\[
-(積分定数\,C\,は省略した。)
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>接平面の方程式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%8E%A5%E5%B9%B3%E9%9D%A2%E3%81%AE%E6%96%B9%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math inline">\(2\)</span>変数関数<span
+class="math inline">\(z=f(x,y)\)</span>が,点<span
+class="math inline">\((x_1,y_1)\)</span>で全微分可能のとき,曲面上の点<span
+class="math inline">\(A(x_1,y_1,z_1)\)</span>における接平面の方程式は次式で表される。
+<span class="math display">\[
+z-z_1=f_x(x_1,y_1)\cdot(x-x_1)+f_y(x_1,y_1)\cdot(y-y_1)
 \]</span></p>
 <hr />
 ]]></content>
@@ -16296,6 +15324,83 @@ dxとおくと,J_n=\frac{n-1}{n}J_{n-2}\quad(n=2,3,4,\cdots)
       </categories>
   </entry>
   <entry>
+    <title>等价无穷小</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+when\quad x &amp;\rightarrow0,
+\\
+\sin x &amp;\sim x
+\\
+1-\cos x &amp;\sim \frac 1 2 x^2
+\\
+\tan x &amp;\sim x
+\\
+\arctan x &amp;\sim x
+\\
+\arcsin x &amp;\sim x
+\\
+a^x-1 &amp;\sim x\ln a
+\\
+\ln(1+x) &amp;\sim x
+\\
+(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
+\\
+\log_a(1+x) &amp;\sim \frac x {\ln a}
+\\
+x-\sin x &amp;\sim \frac 1 6 x^3
+\\
+\mathrm e^x-1 &amp;\sim x
+\\
+x-\ln(1+x) &amp;\sim \frac 1 2 x^2
+\\
+\ln(x+\sqrt{1+x^2}) &amp;\sim x
+\\
+\tan x-x &amp;\sim \frac 1 3 x^3
+\\
+\arcsin x-x &amp;\sim \frac 1 6 x^3
+\\
+x-\arctan x &amp;\sim \frac 1 3 x^3
+\\
+\tan x-\sin x &amp;\sim \frac 1 2 x^3
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>積分計算の応用公式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E7%A9%8D%E5%88%86%E8%A8%88%E7%AE%97%E3%81%AE%E5%BF%9C%E7%94%A8%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\begin{align}
+(1)&amp;\int\frac 1{a^2+x^2}\,\mathrm dx=\frac 1 a\tan^{-1}\frac x
+a\quad(a\neq 0)\\
+(2)&amp;\int\frac 1{\sqrt {a^2-x^2}}\,\mathrm dx=\sin^{-1}\frac x
+a\quad(-a&lt;x&lt;a,\ a:正の定数) \\
+(3)&amp;\int\frac 1{\sqrt{x^2+\alpha}}\,\mathrm
+dx=\log|x+\sqrt{x^2+\alpha}|\quad(\alpha\neq 0)\quad(x^2+\alpha&gt;0)\\
+(4)&amp;\int\sqrt{x^2+\alpha}\,\mathrm dx=\frac 1
+2(x\sqrt{x^2+\alpha}+\alpha\log|x+\sqrt{x^2+\alpha}|)\quad(x^2+\alpha\geq
+0)
+\end{align}
+\]</span></p>
+<p><span class="math display">\[
+(積分定数\,C\,は省略した。)
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>置換積分の典型的な置き換えパターン</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E7%BD%AE%E6%8F%9B%E7%A9%8D%E5%88%86%E3%81%AE%E5%85%B8%E5%9E%8B%E7%9A%84%E3%81%AA%E7%BD%AE%E3%81%8D%E6%8F%9B%E3%81%88%E3%83%8F%E3%82%9A%E3%82%BF%E3%83%BC%E3%83%B3/</url>
     <content><![CDATA[<hr />
@@ -16310,6 +15415,48 @@ dxとおくと,J_n=\frac{n-1}{n}J_{n-2}\quad(n=2,3,4,\cdots)
 \\
 (4)&amp;\int f(\sin x,\cos x)\mathrm dxの場合,\tan\frac x 2=tとおく。
 \end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>曲面の面積</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E6%9B%B2%E9%9D%A2%E3%81%AE%E9%9D%A2%E7%A9%8D/</url>
+    <content><![CDATA[<hr />
+<p><span class="math inline">\(xyz\)</span>座標空間上に,曲面<span
+class="math inline">\(z=f(x,y)\)</span>が与えられているとき,<span
+class="math inline">\(xy\)</span>座標平面上の領域<span
+class="math inline">\(D\)</span>に対応するこの曲面の部分の面積<span
+class="math inline">\(S\)</span>は,次の式で計算できる。 <span
+class="math display">\[
+S=\iint_{D}\sqrt{f_x^2+f_y^2+1}\,\mathrm
+{d}x\mathrm{d}y=\iint_{D}\sqrt{\left(\frac{\partial f}{\partial
+x}\right)^2+\left(\frac{\partial f}{\partial y}^2\right)+1}\,\mathrm
+{d}x\mathrm {d}y
+\]</span></p>
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>面積公式</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F/</url>
+    <content><![CDATA[<hr />
+<h1 id="xy座標系"><span class="math inline">\(xy\)</span>座標系</h1>
+<p><span class="math display">\[
+S＝\int_a^b\{f(x)-g{x}\}\,\mathrm dx
+\\
+(ただし,a\leq x\leq b でf(x)\geq g(x))
+\]</span></p>
+<h1 id="極座標系">極座標系</h1>
+<p><span class="math display">\[
+S=\frac 1 2\int_\alpha^\beta r^2\,\mathrm d\theta
 \]</span></p>
 <hr />
 ]]></content>
@@ -16503,27 +15650,6 @@ x)}{(n+1)!}x^{n+1}\quad(0&lt;\theta&lt;1)
       </categories>
   </entry>
   <entry>
-    <title>面積公式</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<hr />
-<h1 id="xy座標系"><span class="math inline">\(xy\)</span>座標系</h1>
-<p><span class="math display">\[
-S＝\int_a^b\{f(x)-g{x}\}\,\mathrm dx
-\\
-(ただし,a\leq x\leq b でf(x)\geq g(x))
-\]</span></p>
-<h1 id="極座標系">極座標系</h1>
-<p><span class="math display">\[
-S=\frac 1 2\int_\alpha^\beta r^2\,\mathrm d\theta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
     <title>２変関数のマクローリン・テイラー展開</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%EF%BC%92%E5%A4%89%E9%96%A2%E6%95%B0%E3%81%AE%E3%83%9E%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%83%BB%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E5%B1%95%E9%96%8B/</url>
     <content><![CDATA[<hr />
@@ -16567,6 +15693,40 @@ y}\right)^{n+1}f(a+x\theta,b+y\theta)\quad(0&lt;\theta&lt;1))
       </categories>
   </entry>
   <entry>
+    <title>２変関数の極値の決定法</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%EF%BC%92%E5%A4%89%E9%96%A2%E6%95%B0%E3%81%AE%E6%A5%B5%E5%80%A4%E3%81%AE%E6%B1%BA%E5%AE%9A%E6%B3%95/</url>
+    <content><![CDATA[<hr />
+<p>全微分可能な関数<span
+class="math inline">\(z=f(x,y)\)</span>について,<span
+class="math inline">\(f_x(a,b)=0\)</span>かつ<span
+class="math inline">\(f_y(a,b)=0\)</span>であるとする。ここで,さらに,<span
+class="math inline">\(f_{xx}(a,b)=A\)</span>,<span
+class="math inline">\(f_{xy}(a,b)=B\)</span>,<span
+class="math inline">\(f_{yy}(a,b)=C\)</span>とおく。 <span
+class="math display">\[
+\begin{align}
+&amp;(I)\ B^2-AC&lt;0の場合\\\\
+&amp;\quad(i)A&lt;0ならば,z=f(x,y)は点(a,b)で極大となる。
+\\
+\\
+&amp;\quad(ii)A&gt;0ならば,z=f(x,y)は点(a,b)で極小となる。
+\\
+\\
+&amp;(II)\ B^2-AC&gt;0の場合\\\\
+&amp;\quad z=f(x,y)は点(a,b)で極値をとらない\\\\
+&amp;(III)\ B^2-AC=0の場合\\\\
+&amp;\quad
+これだけでは,z=f(x,y)が点(x,y)で極値を取るかどうか判定できない。
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>復習進度</title>
     <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/%E9%80%B2%E5%BA%A6/%E5%BE%A9%E7%BF%92%E9%80%B2%E5%BA%A6/</url>
     <content><![CDATA[<hr />
@@ -16596,7 +15756,8 @@ checked="" />論理回路入門（坂井修一）</li>
 </ul>
 <h1 id="a-3情報理論">A-3「情報理論」</h1>
 <ul class="task-list">
-<li><input type="checkbox" disabled="" />情報理論（今井秀樹）</li>
+<li><input type="checkbox" disabled=""
+checked="" />情報理論（今井秀樹）</li>
 <li><input type="checkbox" disabled=""
 checked="" />スライド＆ノート（西田豊明）</li>
 <li><input type="checkbox" disabled="" />過去問</li>
@@ -16632,40 +15793,6 @@ id="b-12プログラミング言語処理系とｏｓ">B-12「プログラミン
       <categories>
         <category>通信情報</category>
         <category>進度</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>２変関数の極値の決定法</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%EF%BC%92%E5%A4%89%E9%96%A2%E6%95%B0%E3%81%AE%E6%A5%B5%E5%80%A4%E3%81%AE%E6%B1%BA%E5%AE%9A%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<p>全微分可能な関数<span
-class="math inline">\(z=f(x,y)\)</span>について,<span
-class="math inline">\(f_x(a,b)=0\)</span>かつ<span
-class="math inline">\(f_y(a,b)=0\)</span>であるとする。ここで,さらに,<span
-class="math inline">\(f_{xx}(a,b)=A\)</span>,<span
-class="math inline">\(f_{xy}(a,b)=B\)</span>,<span
-class="math inline">\(f_{yy}(a,b)=C\)</span>とおく。 <span
-class="math display">\[
-\begin{align}
-&amp;(I)\ B^2-AC&lt;0の場合\\\\
-&amp;\quad(i)A&lt;0ならば,z=f(x,y)は点(a,b)で極大となる。
-\\
-\\
-&amp;\quad(ii)A&gt;0ならば,z=f(x,y)は点(a,b)で極小となる。
-\\
-\\
-&amp;(II)\ B^2-AC&gt;0の場合\\\\
-&amp;\quad z=f(x,y)は点(a,b)で極値をとらない\\\\
-&amp;(III)\ B^2-AC=0の場合\\\\
-&amp;\quad
-これだけでは,z=f(x,y)が点(x,y)で極値を取るかどうか判定できない。
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
       </categories>
   </entry>
   <entry>
@@ -17596,56 +16723,6 @@ A^n&amp;=P\Lambda^n P^{-1}
       </categories>
   </entry>
   <entry>
-    <title>等价无穷小</title>
-    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-1/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\begin{align}
-when\quad x &amp;\rightarrow0,
-\\
-\sin x &amp;\sim x
-\\
-1-\cos x &amp;\sim \frac 1 2 x^2
-\\
-\tan x &amp;\sim x
-\\
-\arctan x &amp;\sim x
-\\
-\arcsin x &amp;\sim x
-\\
-a^x-1 &amp;\sim x\ln a
-\\
-\ln(1+x) &amp;\sim x
-\\
-(1+\beta x)^\alpha-1 &amp;\sim \alpha\beta x
-\\
-\log_a(1+x) &amp;\sim \frac x {\ln a}
-\\
-x-\sin x &amp;\sim \frac 1 6 x^3
-\\
-\mathrm e^x-1 &amp;\sim x
-\\
-x-\ln(1+x) &amp;\sim \frac 1 2 x^2
-\\
-\ln(x+\sqrt{1+x^2}) &amp;\sim x
-\\
-\tan x-x &amp;\sim \frac 1 3 x^3
-\\
-\arcsin x-x &amp;\sim \frac 1 6 x^3
-\\
-x-\arctan x &amp;\sim \frac 1 3 x^3
-\\
-\tan x-\sin x &amp;\sim \frac 1 2 x^3
-\end{align}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>通信情報</category>
-        <category>A-1</category>
-      </categories>
-  </entry>
-  <entry>
     <title>通情過去問の解答A-2</title>
     <url>/%E9%81%8E%E5%8E%BB%E5%95%8F/%E5%B0%82%E9%96%80%E5%9F%BA%E7%A4%8EA/%E9%80%9A%E6%83%85%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94A-2/</url>
     <content><![CDATA[<hr />
@@ -17949,6 +17026,930 @@ class="math inline">\(Z\)</span>を表す論理関数の最小積和形表現を
       <categories>
         <category>過去問</category>
         <category>専門基礎A</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>動詞の形</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
+    <content><![CDATA[<hr />
+<h1 id="まとめ">まとめ</h1>
+<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
+<h1 id="練習">練習</h1>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>洗います</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>待ちます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>帰ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>休みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>遊びます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>死にます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>急ぎます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="解答">解答</h1>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>洗います</td>
+<td>洗う</td>
+<td>洗った</td>
+<td>洗って</td>
+<td>洗わない</td>
+<td>洗えば</td>
+<td>洗おう</td>
+<td>洗える</td>
+<td>洗われる</td>
+<td>洗わせる</td>
+<td>洗わされる</td>
+</tr>
+<tr class="even">
+<td>待ちます</td>
+<td>待つ</td>
+<td>待った</td>
+<td>待って</td>
+<td>待たない</td>
+<td>待てば</td>
+<td>待とう</td>
+<td>待てる</td>
+<td>待たれる</td>
+<td>待たせる</td>
+<td>待たされる</td>
+</tr>
+<tr class="odd">
+<td>帰ります</td>
+<td>帰る</td>
+<td>帰った</td>
+<td>帰って</td>
+<td>帰らない</td>
+<td>帰れば</td>
+<td>帰ろう</td>
+<td>帰れる</td>
+<td>帰られる</td>
+<td>帰らせる</td>
+<td>帰らされる</td>
+</tr>
+<tr class="even">
+<td>休みます</td>
+<td>休む</td>
+<td>休んだ</td>
+<td>休んで</td>
+<td>休まない</td>
+<td>休めば</td>
+<td>休もう</td>
+<td>休める</td>
+<td>休まれる</td>
+<td>休ませる</td>
+<td>休まされる</td>
+</tr>
+<tr class="odd">
+<td>遊びます</td>
+<td>遊ぶ</td>
+<td>遊んだ</td>
+<td>遊んで</td>
+<td>遊ばない</td>
+<td>遊べば</td>
+<td>遊ぼう</td>
+<td>遊べる</td>
+<td>遊ばれる</td>
+<td>遊ばせる</td>
+<td>遊ばされる</td>
+</tr>
+<tr class="even">
+<td>死にます</td>
+<td>死ぬ</td>
+<td>死んだ</td>
+<td>死んで</td>
+<td>死なない</td>
+<td>死ねば</td>
+<td>死のう</td>
+<td>死ねる</td>
+<td>死なれる</td>
+<td>死なせる</td>
+<td>死なされる</td>
+</tr>
+<tr class="odd">
+<td>急ぎます</td>
+<td>急ぐ</td>
+<td>急いだ</td>
+<td>急いで</td>
+<td>急いがない</td>
+<td>急げば</td>
+<td>急ごう</td>
+<td>急げる</td>
+<td>急がれる</td>
+<td>急がせる</td>
+<td>急がされる</td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td>降る</td>
+<td>降った</td>
+<td>降って</td>
+<td>降らない</td>
+<td>降れば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td>飲む</td>
+<td>飲んだ</td>
+<td>飲んで</td>
+<td>飲まない</td>
+<td>飲めば</td>
+<td>飲もう</td>
+<td>飲める</td>
+<td>飲まれる</td>
+<td>飲ませる</td>
+<td>飲まされる</td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td>行く</td>
+<td>行った</td>
+<td>行って</td>
+<td>行かない</td>
+<td>行けば</td>
+<td>行こう</td>
+<td>行ける</td>
+<td>行かれる</td>
+<td>行かせる</td>
+<td>行かされる</td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td>切る</td>
+<td>切った</td>
+<td>切って</td>
+<td>切らない</td>
+<td>切れば</td>
+<td>切ろう</td>
+<td>切れる</td>
+<td>切られる</td>
+<td>切らせる</td>
+<td>切らされる</td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td>出る</td>
+<td>出た</td>
+<td>出て</td>
+<td>出ない</td>
+<td>出れば</td>
+<td>出よう</td>
+<td>出られる</td>
+<td>出られる</td>
+<td>出させる</td>
+<td>出させらせる</td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td>迎える</td>
+<td>迎えた</td>
+<td>迎えて</td>
+<td>迎えない</td>
+<td>迎えれば</td>
+<td>迎えよう</td>
+<td>迎えられる</td>
+<td>迎えられる</td>
+<td>迎えさせる</td>
+<td>迎えさせられる</td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td>食べる</td>
+<td>食べた</td>
+<td>食べて</td>
+<td>食べない</td>
+<td>食べれば</td>
+<td>食べよう</td>
+<td>食べられる</td>
+<td>食べられる</td>
+<td>食べさせる</td>
+<td>食べさせられる</td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td>降りる</td>
+<td>降りた</td>
+<td>降りて</td>
+<td>降りない</td>
+<td>降りれば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td>足りる</td>
+<td>足りた</td>
+<td>足りて</td>
+<td>足りない</td>
+<td>足りれば</td>
+<td>足りよう</td>
+<td>足りられる</td>
+<td>足りられる</td>
+<td>足りさせる</td>
+<td>足りさせられる</td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td>止める</td>
+<td>止めた</td>
+<td>止めて</td>
+<td>止めない</td>
+<td>止めれば</td>
+<td>止めよう</td>
+<td>止められる</td>
+<td>止められる</td>
+<td>止めさせる</td>
+<td>止めさせられる</td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td>できる</td>
+<td>できた</td>
+<td>できて</td>
+<td>できない</td>
+<td>できれば</td>
+<td>できよう</td>
+<td>できる</td>
+<td>できられる</td>
+<td>できさせる</td>
+<td>できさせられる</td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td>くる</td>
+<td>きた</td>
+<td>きて</td>
+<td>こない</td>
+<td>くれば</td>
+<td>こよう</td>
+<td>こられる</td>
+<td>こられる</td>
+<td>こさせる</td>
+<td>こさせられる</td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td>食事する</td>
+<td>食事した</td>
+<td>食事して</td>
+<td>食事しない</td>
+<td>食事すれば</td>
+<td>食事しよう</td>
+<td>食事できる</td>
+<td>食事される</td>
+<td>食事させる</td>
+<td>食事させられる</td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td>する</td>
+<td>した</td>
+<td>して</td>
+<td>しない</td>
+<td>すれば</td>
+<td>しよう</td>
+<td>できる</td>
+<td>される</td>
+<td>させる</td>
+<td>させられる</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>フリップフロップ</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/flip-flop/</url>
+    <content><![CDATA[<hr />
+<h1 id="srフリップフロップ">SRフリップフロップ</h1>
+<h2 id="回路図">回路図</h2>
+<p><img src="https://p.ipic.vip/xuhvw7.jpg" /></p>
+<h2 id="特性式">特性式</h2>
+<p><span class="math display">\[
+_{next}Q=S+\overline R\cdot Q\quadかつ\quad R\cdot S=0
+\]</span></p>
+<h1 id="dフリップフロップ">Dフリップフロップ</h1>
+<h2 id="回路図-1">回路図</h2>
+<p><img src="https://p.ipic.vip/3f1dzl.jpg" /></p>
+<h2 id="回路記号">回路記号</h2>
+<p><img src="https://p.ipic.vip/s3jukz.jpg" /></p>
+<h2 id="特性式-1">特性式</h2>
+<p><span class="math display">\[
+_{next}Q=D
+\]</span></p>
+<h1 id="jkフリップフロップ">JKフリップフロップ</h1>
+<h2 id="回路図-2">回路図</h2>
+<p><img src="https://p.ipic.vip/uyaw4d.jpg" /></p>
+<h2 id="回路記号-1">回路記号</h2>
+<p><img src="https://p.ipic.vip/d8wgqs.jpg" /></p>
+<h2 id="特性式-2">特性式</h2>
+<p><span class="math display">\[
+_{next}Q=J\cdot \overline Q+\overline K\cdot Q
+\]</span></p>
+<h1 id="tフリップフロップ">Tフリップフロップ</h1>
+<h2 id="回路図-3">回路図</h2>
+<p><img src="https://p.ipic.vip/xz7jum.jpg" /></p>
+<h2 id="回路記号-2">回路記号</h2>
+<p><img src="https://p.ipic.vip/jqr4r9.jpg" /></p>
+<h2 id="特性式-3">特性式</h2>
+<p><span class="math display">\[
+_{next}Q=\overline T\cdot Q+T\cdot\overline Q=T\oplus Q
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>論理回路の簡単化</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/%E8%AB%96%E7%90%86%E5%9B%9E%E8%B7%AF%E3%81%AE%E7%B0%A1%E5%8D%98%E5%8C%96/</url>
+    <content><![CDATA[<hr />
+<h1 id="基本公式">基本公式</h1>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 47%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>名称</th>
+<th>基于与运算的公式</th>
+<th>基于或运算的公式</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01律</td>
+<td><span class="math inline">\(A\cdot1=A\)</span><br /><span
+class="math inline">\(A\cdot0=0\)</span></td>
+<td><span class="math inline">\(A+0=0\)</span><br /><span
+class="math inline">\(A+1=1\)</span></td>
+</tr>
+<tr class="even">
+<td>互补律</td>
+<td><span class="math inline">\(A\overline A=0\)</span></td>
+<td><span class="math inline">\(A+\overline A=1\)</span></td>
+</tr>
+<tr class="odd">
+<td>重叠率</td>
+<td><span class="math inline">\(AA=A\)</span></td>
+<td><span class="math inline">\(A+A=A\)</span></td>
+</tr>
+<tr class="even">
+<td>交换律</td>
+<td><span class="math inline">\(AB=BA\)</span></td>
+<td><span class="math inline">\(A+B=B+A\)</span></td>
+</tr>
+<tr class="odd">
+<td>结合律</td>
+<td><span class="math inline">\(A(BC)=(AB)C\)</span></td>
+<td><span class="math inline">\(A+(B+C)=(A+B)+C\)</span></td>
+</tr>
+<tr class="even">
+<td>分配律</td>
+<td><span class="math inline">\((A+B)C=AC+BC\)</span></td>
+<td><span class="math inline">\(A+BC=(A+B)(A+C)\)</span></td>
+</tr>
+<tr class="odd">
+<td>反演律</td>
+<td><span class="math inline">\(\overline {AB}=\overline A+\overline
+B\)</span></td>
+<td><span class="math inline">\(\overline{A+B}=\overline A\,\overline
+B\)</span></td>
+</tr>
+<tr class="even">
+<td>吸收律</td>
+<td><span class="math inline">\(A(A+B)=A\)</span><br/><span
+class="math inline">\(A(\overline A+B)=AB\)</span><br/><span
+class="math inline">\((A+B)(\overline A+C)(B+C)=(A+B)(\overline
+A+C)\)</span></td>
+<td><span class="math inline">\(A+AB=A\)</span><br/><span
+class="math inline">\(A+\overline AB=A+B\)</span><br/><span
+class="math inline">\(AB+\overline AC+BC=AB+\overline AC\)</span></td>
+</tr>
+</tbody>
+</table>
+<h1 id="吸收律推导">吸收律推导</h1>
+<p><span class="math display">\[
+\begin{align}
+A(A+B)&amp;=(A+0)(A+B)\\
+&amp;=A+(0\cdot B)\quad(分配律)\\
+&amp;=A
+\\
+\\
+\\
+A+AB&amp;=A\cdot1+AB\\
+&amp;=A(1+B)\\
+&amp;=A
+\\
+\\
+\\
+A(\overline A+B)&amp;=A\overline A+AB\\
+&amp;=AB
+\\
+\\
+\\
+A+\overline AB&amp;=(A+\overline A)(A+B)\quad(分配律)\\
+&amp;=A+B
+\\
+\\
+\\
+(A+B)(\overline A+C)(B+C)&amp;=(A+B)(\overline A+C)(0+(B+C))\\
+&amp;=(A+B)(\overline A+C)(A\overline A+(B+C))\\
+&amp;=(A+B)(\overline A+C)(A+(B+C))(\overline A+(B+C))\\
+&amp;=(A+B)(\overline A+C)((A+B)+C)((\overline A+B)+C)\\
+&amp;=((A+B)+0)((A+B)+C)((\overline A+C)+0)((\overline A+C)+B)\\
+&amp;=(A+B)(\overline A+C)
+\\
+\\
+\\
+AB+\overline AC+BC&amp;=AB+\overline AC+1\cdot BC\\
+&amp;=AB+\overline AC+(A+\overline A)BC\\
+&amp;=AB+\overline AC+(AB)C+(\overline AB)C\\
+&amp;=AB\cdot1+(AB)C+\overline AC\cdot1+(\overline AC)B\\
+&amp;=AB(1+C)+\overline AC(1+B)\\
+&amp;=AB+\overline AC
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>２進数の演算</title>
+    <url>/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/%EF%BC%92%E9%80%B2%E6%95%B0%E3%81%AE%E6%BC%94%E7%AE%97/</url>
+    <content><![CDATA[<hr />
+<h1 id="進数の乗算">２進数の乗算</h1>
+<p>（１）被乗数を<span
+class="math inline">\(2n\)</span>ビットに符号拡張する。すなわち，<span
+class="math inline">\(2n\sim n+1\)</span>ビット目までに，下から<span
+class="math inline">\(n\)</span>ビット目の値を入れる。</p>
+<p>（２）<span class="math inline">\(1\)</span>ビット目から<span
+class="math inline">\(n-1\)</span>ビット目まで，ふつうに被乗数<span
+class="math inline">\(\times\)</span>乗数の数算をする。</p>
+<p>（３）(2)の値から<span
+class="math inline">\(n\)</span>ビット目の乗算結果を引く（乗算が正の場合は(2)で終わりになる）。</p>
+<h1 id="例">例</h1>
+<p><span class="math display">\[
+\begin{align}
+負数\times負数:(-5)\times(-3)=15
+\\
+\\
+1011\\
+\times\qquad1101
+\\
+\rule[3pt]{3cm}{0.05em}
+\\
+111011
+\\
+0000\,\,\,
+\\
++\quad1011\,\,\,\,\,\,
+\\
+\rule[3pt]{3cm}{0.05em}
+\\
+1100111
+\\
+-\quad1011\,\,\,\,\,\,\,\,\,
+\\
+\rule[3pt]{3cm}{0.05em}
+\\
+00001111
+\end{align}
+\]</span></p>
+<h1 id="進数の除算引き放し法">２進数の除算(引き放し法)</h1>
+<p>（１）被除数を<span
+class="math inline">\(2n-1\)</span>ビットに符号拡張する。すなわち，<span
+class="math inline">\(2n-1\sim n+1\)</span>ビット目までに，下から<span
+class="math inline">\(n\)</span>ビット目の値を入れる。これを<span
+class="math inline">\(D_0\)</span>とする。</p>
+<p>（２）除数を<span
+class="math inline">\(n-1\)</span>ビット左シフトする。すなわち，除数に<span
+class="math inline">\(2^{n-1}\)</span>をかける。これを<span
+class="math inline">\(D_1\)</span>とする。</p>
+<p>（３）<span
+class="math inline">\(Q=0\)</span>とする(商の初期値の設定)。</p>
+<p>（４）<span class="math inline">\(D_0\)</span>と<span
+class="math inline">\(D_1\)</span>の符号が同じか，または<span
+class="math inline">\(D_0=0\)</span>のとき<span
+class="math inline">\(D_0=D_0-D_1\)</span>，そうでないとき<span
+class="math inline">\(D_0=D_0+D_1\)</span>とする。</p>
+<p>（５）新しい<span class="math inline">\(D_0\)</span>と<span
+class="math inline">\(D_1\)</span>の符号が同じか，または新しい<span
+class="math inline">\(D_0=0\)</span>のとき，<span
+class="math inline">\(Q\)</span>の一番右のビットを<span
+class="math inline">\(1\)</span>にする。そうでないとき，<span
+class="math inline">\(Q\)</span>の一番右のビットを<span
+class="math inline">\(0\)</span>とする。</p>
+<p>（６）<span class="math inline">\(D_1\)</span>を<span
+class="math inline">\(1\)</span>ビット右シフトする。<span
+class="math inline">\(Q\)</span>を<span
+class="math inline">\(1\)</span>ビット左シフトする。</p>
+<p>（７）(4)~(6)を<span
+class="math inline">\(n-1\)</span>回繰り返す。最後に(4)(5)をもう一度行う。</p>
+<p>（８）<span class="math inline">\(Q\)</span>の一番右のビットが<span
+class="math inline">\(0\)</span>のとき，<span
+class="math inline">\(D_0=D_0+D_1\)</span>とする。</p>
+<p>（９）商は<span class="math inline">\(Q\)</span>，余りは<span
+class="math inline">\(D_0\)</span>となる。なお，このとき余りの符号は除数の符号に合わせてある。</p>
+<h1 id="例-1">例</h1>
+<p><span class="math display">\[
+\begin{align}
+負数\div正数:(-5)\div3=-2\cdots1
+\\
+Q
+\\
+1111011\quad D_0\qquad\qquad0
+\\
++\quad0011000\quad D_1\qquad\qquad\,\,\,
+\\
+\rule[3pt]{4cm}{0.05em}\qquad\qquad
+\\
+0010011\quad D_0\longrightarrow\quad\,\,\,\,\,1
+\\
+\downarrow\quadシフト\quad
+\\
+-\quad0001100\quad D_1\qquad\quad\,\,\,10
+\\
+\rule[3pt]{4cm}{0.05em}\qquad\qquad
+\\
+0000111\quad D_0\longrightarrow\quad\,\,11
+\\
+\downarrow\quadシフト\quad
+\\
+-\quad0000110\quad D_1\qquad\quad110
+\\
+\rule[3pt]{4cm}{0.05em}\qquad\qquad
+\\
+0000001\quad D_0\longrightarrow\,\,\,\,\,111
+\\
+\downarrow\quadシフト\quad
+\\
+-\quad0000011\quad D_1\qquad\,\,\,1110
+\\
+\rule[3pt]{4cm}{0.05em}\qquad\qquad
+\\
+1111110\quad D_0\longrightarrow\,\,1110
+\\
++\quad0000011\quad D_1\qquad\,\,\,\qquad
+\\
+\rule[3pt]{4cm}{0.05em}\qquad\qquad
+\\
+0000001\qquad\qquad\quad\,\,\,\,\,\,\,\,\,\,
+\\
+\\
+商:1110\qquad
+\\
+余り:00000001
+\end{align}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>通信情報</category>
+        <category>A-2</category>
       </categories>
   </entry>
 </search>
