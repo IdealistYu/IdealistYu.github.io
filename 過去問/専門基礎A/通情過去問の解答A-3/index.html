@@ -30,12 +30,13 @@
 <meta property="og:description" content="「情報理論」過去問の解答">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/wvgysk.png">
+<meta property="og:image" content="https://p.ipic.vip/dr6820.png">
 <meta property="og:image" content="https://p.ipic.vip/ker29y.png">
 <meta property="og:image" content="https://p.ipic.vip/4tj9mm.png">
 <meta property="og:image" content="https://p.ipic.vip/ets373.png">
 <meta property="og:image" content="https://p.ipic.vip/q52csm.png">
 <meta property="article:published_time" content="2023-02-24T07:08:28.000Z">
-<meta property="article:modified_time" content="2023-02-28T11:23:24.801Z">
+<meta property="article:modified_time" content="2023-02-28T13:26:08.006Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/wvgysk.png">
@@ -276,7 +277,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-28 19:23:24" itemprop="dateModified" datetime="2023-02-28T19:23:24+08:00">2023-02-28</time>
+      <time title="Modified: 2023-02-28 21:26:08" itemprop="dateModified" datetime="2023-02-28T21:26:08+08:00">2023-02-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +299,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>249</span>
+      <span>545</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -327,8 +328,101 @@ setInterval("createtime()",250);
 </ol>
 <p>​ (a) <span class="math display">\[
 \begin{align}
+H(S_A)&amp;=\mathscr H(0.3)
+\\
+&amp;=-0.3\log_2(0.3)-0.7\log_2(0.7)
+\\
+&amp;=-0.3(\log_23-\log_22-\log_25)-0.7(\log_27-\log_22-\log_25)
+\\
+&amp;=-0.3(1.6-1-2.3)-0.7(2.8-1-2.3)
+\\
+&amp;=0.86
 \end{align}
-\]</span> (2)</p>
+\]</span> ​ (b)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>00</td>
+<td>0.49</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>01</td>
+<td>0.21</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>0.21</td>
+<td>111</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>0.09</td>
+<td>110</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline n&amp;=2
+\\
+\overline L&amp;=0.49+0.21\times2+0.21\times3+0.09\times3=1.81
+\\
+L&amp;=\frac {\overline L}{\overline n}=0.905
+\end{align}
+\]</span></p>
+<ol start="3" type="a">
+<li><p><span class="math display">\[
+\begin{align}
+H(S_A)&lt; L
+\end{align}
+\]</span> 情報源符号化定理によって,<span
+class="math inline">\(n=2\)</span>のとき,平均符号長を理論的下限<span
+class="math inline">\(H(S)\)</span>に近づけることはできない</p></li>
+<li><p><span class="math display">\[
+\begin{align}
+&amp;減少する\\
+&amp;H(S_A)\leq L&lt;H(S_A)+\frac 1 n\\
+&amp;情報源符号化定理によって,nを大きくする,平均符号長を𝐻(𝑆_A)に近づけられる
+\end{align}
+\]</span></p></li>
+<li></li>
+</ol>
+<p><img src="https://p.ipic.vip/dr6820.png" style="zoom:25%;" /></p>
+<ol start="6" type="a">
+<li><span class="math display">\[
+\begin{align}
+遷移確率行列\begin{bmatrix}0.7&amp;0.3\\0.4&amp;0.6\end{bmatrix}\\
+S_Xの状態の定常分布(w_0,w_1)とおくと\\
+(w_0,w_1)\begin{bmatrix}0.7&amp;0.3\\0.4&amp;0.6\end{bmatrix}=(w_0,w_1)\,及び\,w_0+w_1=1より\\
+w_0=\frac 4 7\quad w_1=\frac 3 7
+\end{align}
+\]</span></li>
+<li><span class="math display">\[
+\begin{align}
+H(S_X)&amp;=w_0H_{S_A}(S_X)+w_1H_{S_B}(S_X)\\
+&amp;=\frac4 7\mathscr H(0.3)+\frac 3 7\mathscr H(0.6)
+\\
+&amp;=\frac 4 7\times0.86+\frac 3
+7\times[-0.6(\log_23-\log_25)-0.4(\log_22-\log_25)]
+\\
+&amp;=\frac 4 7\times0.86+\frac 3 7\times0.94
+\\
+&amp;\simeq0.9
+\end{align}
+\]</span></li>
+</ol>
+<ol start="2" type="1">
+<li></li>
+</ol>
 <p>​ (a) <span class="math display">\[
 \begin{align}
 W(x)&amp;=x^{10}+x^7+x^4+x^3+x^2+1\\
@@ -356,14 +450,17 @@ t=\lfloor\frac {d_{min}-1}2\rfloor=1
 \begin{align}
 P_e&amp;=1-P_c=1-(1-p)^{15}-15p(1-p)^{14}
 \end{align}
-\]</span> ​ (f) <span class="math display">\[
+\]</span> ​ (f)</p>
+<p>与えられた通信路の通信容量を<span
+class="math inline">\(C\)</span>とする.このとき,<span
+class="math inline">\(R&lt;C\)</span>であれば,任意の正数<span
+class="math inline">\(\varepsilon\)</span>に対し,復号誤り率<span
+class="math inline">\(P_e\)</span>が <span class="math display">\[
 \begin{align}
-与えられた通信路の通信容量をCとする.このとき,R&lt;Cであれば,任意の正数\varepsilonに対し,復号誤り率P_eが\\
 P_e&lt;\varepsilon
-\\
-を満たす情報速度Rの符号が存在する.しかし,R&gt;Cであれば,そのような符号は存在しない.
 \end{align}
-\]</span></p>
+\]</span> を満たす情報速度Rの符号が存在する.しかし,<span
+class="math inline">\(R&gt;C\)</span>であれば,そのような符号は存在しない.</p>
 <hr />
 <h1 id="問題-1">2019問題</h1>
 <p><img src="https://p.ipic.vip/ker29y.png" /></p>
@@ -457,7 +554,7 @@ P_e&lt;\varepsilon
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:46</span>
+    <span title="Reading time total">3:47</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
