@@ -32,11 +32,13 @@
 <meta property="og:image" content="https://p.ipic.vip/wvgysk.png">
 <meta property="og:image" content="https://p.ipic.vip/dr6820.png">
 <meta property="og:image" content="https://p.ipic.vip/ker29y.png">
+<meta property="og:image" content="https://p.ipic.vip/g1sdd5.png">
 <meta property="og:image" content="https://p.ipic.vip/4tj9mm.png">
+<meta property="og:image" content="https://p.ipic.vip/dre5iv.png">
 <meta property="og:image" content="https://p.ipic.vip/ets373.png">
 <meta property="og:image" content="https://p.ipic.vip/q52csm.png">
 <meta property="article:published_time" content="2023-02-24T07:08:28.000Z">
-<meta property="article:modified_time" content="2023-02-28T13:52:49.939Z">
+<meta property="article:modified_time" content="2023-03-01T14:44:08.989Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/wvgysk.png">
@@ -277,7 +279,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-02-28 21:52:49" itemprop="dateModified" datetime="2023-02-28T21:52:49+08:00">2023-02-28</time>
+      <time title="Modified: 2023-03-01 22:44:08" itemprop="dateModified" datetime="2023-03-01T22:44:08+08:00">2023-03-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -299,14 +301,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>545</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -323,18 +325,16 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/wvgysk.png" /></p>
 <hr />
 <h1 id="解答">2020解答</h1>
-<ol type="1">
-<li></li>
-</ol>
+<p>（１）</p>
 <p>​ (a) <span class="math display">\[
 \begin{align}
 H(S_A)&amp;=\mathscr H(0.3)
 \\
-&amp;=-0.3\log_2(0.3)-0.7\log_2(0.7)
+&amp;=-0.3\times\log_2(0.3)-0.7\times\log_2(0.7)
 \\
-&amp;=-0.3(\log_23-\log_22-\log_25)-0.7(\log_27-\log_22-\log_25)
+&amp;=-0.3\times(\log_23-\log_22-\log_25)-0.7\times(\log_27-\log_22-\log_25)
 \\
-&amp;=-0.3(1.6-1-2.3)-0.7(2.8-1-2.3)
+&amp;=-0.3\times(1.6-1-2.3)-0.7\times(2.8-1-2.3)
 \\
 &amp;=0.86
 \end{align}
@@ -351,22 +351,22 @@ H(S_A)&amp;=\mathscr H(0.3)
 <tr class="odd">
 <td>00</td>
 <td>0.49</td>
-<td>0</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>01</td>
 <td>0.21</td>
-<td>10</td>
+<td>01</td>
 </tr>
 <tr class="odd">
 <td>10</td>
 <td>0.21</td>
-<td>111</td>
+<td>000</td>
 </tr>
 <tr class="even">
 <td>11</td>
 <td>0.09</td>
-<td>110</td>
+<td>001</td>
 </tr>
 </tbody>
 </table>
@@ -412,21 +412,139 @@ H(S_X)&amp;=w_0H_{S_A}(S_X)+w_1H_{S_B}(S_X)\\
 \\
 &amp;\simeq0.9
 \end{align}
-\]</span> (2)</p>
+\]</span> （２）</p>
 <p>​ (a) <span class="math display">\[
 \begin{align}
-W(x)&amp;=x^{10}+x^7+x^4+x^3+x^2+1\\
-A(x)&amp;=(x^6+x^2+1)とおくと\\
+W(x)&amp;=x^{10}+x^7+x^4+x^3+x^2+1=(x^6+x^2+1)(x^4+x+1)\\
 W(x)&amp;=A(x)G(x)\\
+G(x)&amp;=x^4+x+1\\
+A(x)&amp;=x^6+x^2+1\\
 \therefore \,W(x)&amp;はCの符号語
 \\
 \end{align}
 \]</span> ​ (b) <span class="math display">\[
 \begin{align}
 X(x)&amp;=x^5+x^3+xとおくと\\
-C(x)&amp;=x^2+x+1
+C(x)&amp;=x^2+x+1\\
+W(x)&amp;=X(x)x^4+C(x)=x^9+x^7+x^5+x^2+x+1\\
+組織符号&amp;\quad000001010100111
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+d_{min}=3
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+t=\lfloor\frac {d_{min}-1}2\rfloor=1
+\end{align}
+\]</span> ​ (e) <span class="math display">\[
+\begin{align}
+P_e=1-P_c=1-(1-p)^{15}-15p(1-p)^{14}
+\end{align}
+\]</span> ​ (f)</p>
+<p><span class="math display">\[
+\begin{align}
+&amp;与えられた通信路の通信容量をCとする.このとき,R&lt;Cであれば,任意の正数\varepsilonに対し,復号誤り率P_eが\\
+&amp;P_e&lt;\varepsilon\\
+&amp;を満たす情報速度Rの符号が存在する.しかし,R&gt;Cであれば,そのような符号は存在しない.
+\end{align}
+\]</span></p>
+<hr />
+<h1 id="問題-1">2019問題</h1>
+<p><img src="https://p.ipic.vip/ker29y.png" /></p>
+<hr />
+<h1 id="解答-1">2019解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+H(S_A)&amp;=\mathscr H(0.25)
 \\
-W(x)&amp;=X(x)x^4+C(x)=x^{10}+x^8+x^6+x^2+x+1
+&amp;=-0.25\times\log_2(0.25)-0.75\times\log_2(0.75)
+\\
+&amp;=-0.25\times(-\log_24)-0.75\times(\log_23-\log_24)
+\\
+&amp;=-0.25\times(-2)-0.75(1.6-2)
+\\
+&amp;=0.8
+\end{align}
+\]</span> ​ (b)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>00</td>
+<td>0.5625</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>01</td>
+<td>0.1875</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>0.1875</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>0.0625</td>
+<td>101</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline n&amp;=2
+\\
+\overline L&amp;=0.5625+0.1875\times2+0.1875\times3+0.0625\times3=1.6875
+\\
+L&amp;=\frac {\overline L}{\overline n}=0.84375
+\end{align}
+\]</span></p>
+<p>​ (c)</p>
+<p><img src="https://p.ipic.vip/g1sdd5.png" style="zoom:25%;" /></p>
+<p>​ (d) <span class="math display">\[
+\begin{align}
+遷移確率行列\begin{bmatrix}0.75&amp;0.25\\0.2&amp;0.8\end{bmatrix}\\
+S_Xの状態の定常分布(w_0,w_1)とおくと\\
+(w_0,w_1)\begin{bmatrix}0.75&amp;0.25\\0.2&amp;0.8\end{bmatrix}=(w_0,w_1)\,及び\,w_0+w_1=1より\\
+w_0=\frac 4 9\quad w_1=\frac 5 9
+\end{align}
+\]</span> ​ (e) <span class="math display">\[
+\begin{align}
+H(S_X)&amp;=w_0H_{S_A}(S_X)+w_1H_{S_B}(S_X)\\
+&amp;=\frac4 9\mathscr H(0.25)+\frac 5 9\mathscr H(0.2)
+\\
+&amp;=\frac4 9\times0.8+\frac 5
+9\times[-0.2(-\log_25)-0.8(\log_24-\log_25)]
+\\
+&amp;=\frac 4 9\times0.8+\frac 5 9\times0.7
+\\
+&amp;\simeq0.7
+\end{align}
+\]</span> （２）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+W(x)&amp;=x^9+x^7+x^6+x^5+x^3+x+1=(x^5+x^3+1)(x^4+x+1)\\
+W(x)&amp;=A(x)G(x)\\
+G(x)&amp;=x^4+x+1\\
+A(x)&amp;=x^5+x^3+1\\
+\therefore \,W(x)&amp;はCの符号語
+\\
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+X(x)&amp;=x^3+x+1とおくと\\
+C(x)&amp;=x^3+x^2+x+1\\
+W(x)&amp;=X(x)x^4+C(x)=x^7+x^5+x^4+x^3+x^2+x\\
+組織符号&amp;\quad000000010111110
 \end{align}
 \]</span> ​ (c) <span class="math display">\[
 \begin{align}
@@ -440,23 +558,146 @@ t=\lfloor\frac {d_{min}-1}2\rfloor=1
 \begin{align}
 P_e&amp;=1-P_c=1-(1-p)^{15}-15p(1-p)^{14}
 \end{align}
-\]</span> ​ (f)</p>
-<p><span class="math display">\[
+\]</span> ​ (f) <span class="math display">\[
 \begin{align}
-&amp;与えられた通信路の通信容量をCとする.このとき,R&lt;Cであれば,任意の正数\varepsilonに対し,復号誤り率P_eが\\
-&amp;P_e&lt;\varepsilon\\
-&amp;を満たす情報速度Rの符号が存在する.しかし,R&gt;Cであれば,そのような符号は存在しない.
+d_{min}=3
 \end{align}
-\]</span> ---</p>
-<h1 id="問題-1">2019問題</h1>
-<p><img src="https://p.ipic.vip/ker29y.png" /></p>
-<hr />
-<h1 id="解答-1">2019解答</h1>
+\]</span></p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
 <p><img src="https://p.ipic.vip/4tj9mm.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）</p>
+<p>​ (a)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>0.4</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>0.2</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>0.2</td>
+<td>111</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>0.1</td>
+<td>1101</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>0.05</td>
+<td>11001</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>0.05</td>
+<td>11000</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline
+L_{S_\alpha}&amp;=0.4+0.2\times2+0.2\times3+0.1\times4+0.05\times5+0.05\times5=2.3
+\end{align}
+\]</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>0.4</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>0.2</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>0.2</td>
+<td>111</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>0.1</td>
+<td>1101</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>0.1</td>
+<td>1100</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline
+L_{S_\beta}&amp;=0.4+0.2\times2+0.2\times3+0.1\times4+0.1\times4=2.2
+\end{align}
+\]</span></p>
+<p><span class="math display">\[
+\begin{align}
+L_{S_\alpha}&amp;&gt;L_{S_\beta}
+\\
+\\
+H(S_\alpha)&amp;=-0.4\times\log_2(0.4)-0.2\times\log_2(0.2)-0.2\times\log_2(0.2)-0.1\times\log_2(0.1)-0.05\times\log_2(0.05)-0.05\times\log_2(0.05)\\
+&amp;=2.2\\
+\\
+H(S_\beta)&amp;=-0.4\times\log_2(0.4)-0.2\times\log_2(0.2)-0.2\times\log_2(0.2)-0.1\times\log_2(0.1)-0.1\times\log_2(0.1)\\
+&amp;=2.1\\
+\\
+H(S_\alpha)&amp;&gt;H(S_\beta)
+\end{align}
+\]</span></p>
+<p>​ (b) <span class="math display">\[
+\begin{align}
+&amp;遷移確率行列\begin{bmatrix}0.4&amp;0.6\\0.4&amp;0.6\end{bmatrix}\\
+&amp;S_\gammaの状態の定常分布(w_0,w_1)とおくと\\
+&amp;(w_0,w_1)\begin{bmatrix}0.4&amp;0.6\\0.4&amp;0.6\end{bmatrix}=(w_0,w_1)\,及び\,w_0+w_1=1より\\
+w_0&amp;=0.5\quad w_1=0.5
+\\
+\\
+H(S_\gamma)&amp;=w_0H(S_0)+w_1H(S_1)\\&amp;=0.5\mathscr
+H(0.4)+0.5\mathscr H(0.4)\\&amp;=\mathscr H(0.4)=0.94
+\end{align}
+\]</span> （２）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+T=\begin{bmatrix}1-p&amp;p\\p&amp;1-p\end{bmatrix}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+C=1-\mathscr H(p)
+\end{align}
+\]</span>
+<img src="https://p.ipic.vip/dre5iv.png" style="zoom:25%;" /></p>
+<ol start="3" type="a">
+<li></li>
+</ol>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p><img src="https://p.ipic.vip/ets373.png" /></p>
@@ -534,13 +775,13 @@ P_e&amp;=1-P_c=1-(1-p)^{15}-15p(1-p)^{14}
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">62k</span>
+    <span title="Word count total">63k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:47</span>
+    <span title="Reading time total">3:49</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
