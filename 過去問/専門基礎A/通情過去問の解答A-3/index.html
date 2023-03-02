@@ -36,9 +36,10 @@
 <meta property="og:image" content="https://p.ipic.vip/4tj9mm.png">
 <meta property="og:image" content="https://p.ipic.vip/dre5iv.png">
 <meta property="og:image" content="https://p.ipic.vip/ets373.png">
+<meta property="og:image" content="https://p.ipic.vip/suwck4.png">
 <meta property="og:image" content="https://p.ipic.vip/q52csm.png">
 <meta property="article:published_time" content="2023-02-24T07:08:28.000Z">
-<meta property="article:modified_time" content="2023-03-01T15:00:24.584Z">
+<meta property="article:modified_time" content="2023-03-02T08:22:19.237Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/wvgysk.png">
@@ -279,7 +280,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-01 23:00:24" itemprop="dateModified" datetime="2023-03-01T23:00:24+08:00">2023-03-01</time>
+      <time title="Modified: 2023-03-02 16:22:19" itemprop="dateModified" datetime="2023-03-02T16:22:19+08:00">2023-03-02</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -301,14 +302,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.3k</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>7 mins.</span>
     </span>
 </div>
 
@@ -700,8 +701,9 @@ C=1-\mathscr H(p)
 T&amp;=\begin{bmatrix}1-p&amp;p\\p&amp;1-p\end{bmatrix}\begin{bmatrix}1-q&amp;q\\q&amp;1-q\end{bmatrix}
 =\begin{bmatrix}1-p-q+2pq&amp;p+q-2pq\\p+q-2pq&amp;1-p-q+2pq\end{bmatrix}\Rightarrow
 BSC\\
+\\
 &amp;誤り率pのBSC通信路容量は1−\mathscr H(p)であるので\\
-C&amp;=1-\mathscr H(p+q-2pq)
+\\C&amp;=1-\mathscr H(p+q-2pq)
 \end{align}
 \]</span></p>
 <hr />
@@ -709,11 +711,224 @@ C&amp;=1-\mathscr H(p+q-2pq)
 <p><img src="https://p.ipic.vip/ets373.png" /></p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+&amp;ある与えられた情報源Sに対し,
+\\&amp;情報源記号を一つずつ一意復号可能な符号に符号化するとき,
+\\&amp;平均符号長を最小とする符号をコンパクト符号という.
+\end{align}
+\]</span> ​ (b)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>00</td>
+<td>0.5625</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>01</td>
+<td>0.1875</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>0.1875</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>0.0625</td>
+<td>101</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline n&amp;=2
+\\
+\overline L&amp;=0.5625+0.1875\times2+0.1875\times3+0.0625\times3=1.6875
+\\
+L&amp;=\frac {\overline L}{\overline n}=0.84375
+\end{align}
+\]</span></p>
+<p>​ (c) <span class="math display">\[
+\begin{align}
+H(S_A)&amp;=\mathscr H(0.25)\\
+&amp;=-0.25\times\log_2(0.25)-0.75\times\log_2(0.75)\\
+&amp;=-0.25\times(-\log_24)-0.75\times(\log_23-\log_24)\\
+&amp;=-0.25\times(-2)-0.75\times(1.6-2)\\
+&amp;=0.8
+\end{align}
+\]</span> ​ (d)</p>
+<p><img src="https://p.ipic.vip/suwck4.png" style="zoom: 50%;" /></p>
+<p>​ (e) <span class="math display">\[
+\begin{align}
+&amp;遷移確率行列\begin{bmatrix}0.75&amp;0.25\\0.375&amp;0.625\end{bmatrix}\\
+&amp;S_\gammaの状態の定常分布(w_0,w_1)とおくと\\
+&amp;(w_0,w_1)\begin{bmatrix}0.75&amp;0.25\\0.375&amp;0.625\end{bmatrix}=(w_0,w_1)\,及び\,w_0+w_1=1より\\
+w_0&amp;=0.6\quad w_1=0.4
+\end{align}
+\]</span> ​ (f) <span class="math display">\[
+\begin{align}
+P_{S_X}(1)&amp;=w_0P_{S_A}(1)+w_1P_{S_B}(1)\\
+&amp;=0.6\times0.25+0.4\times0.375\\
+&amp;=0.3
+\end{align}
+\]</span> （２） <span class="math display">\[
+\begin{align}
+&amp;c\in Cであるようなある符号語について、\\
+&amp;cを中心とする半径tの球を考える。\\
+&amp;このような球の範囲内なら誤り訂正が正しく行われる。\\
+&amp;符号語を構成するn個の要素のうちt個まで誤りがあっても正しく復号できるため、\\
+&amp;それぞれの球には以下の符号語が含まれる\\
+&amp;（つまり、中心にある真の符号語の一部を変更した符号語群の数）。\\
+&amp;符号語の一桁はq進数であるから、とりうる値は(q-1)種類になる。\\
+&amp;\quad \quad \sum_{i=0}^t{_nC_i}(q-1)^i
+\\
+&amp;Cに存在する符号語の総数を M とする。\\
+&amp;全ての符号語から球の和集合をとると、\\
+&amp;結果として得られる符号語の総数は {\mathbb  {F}}_{q}^{n}
+以内となる。\\
+&amp;それぞれの球は重ならないので、それぞれの要素数の総和をとると、\\
+&amp;次が成り立つといえる。\\
+&amp;\quad \quad
+M\times\sum_{i=0}^t{_nC_i}(q-1)^i\leq{\mathbb  {F}}_{q}^{n} =q^n\\
+&amp;q=2より,\\
+&amp;\quad\quad M\leq\frac{2^n}{\sum_{i=0}^t{_nC_i}}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
 <p><img src="https://p.ipic.vip/q52csm.png" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+一意復号可能な符号:\quad C1\quad C4\\
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+瞬時符号:&amp;\quad C4
+\end{align}
+\]</span> ​ (c)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>X</td>
+<td>0.5</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>Y</td>
+<td>0.3</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>Z</td>
+<td>0.2</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline L&amp;=0.5+0.3\times2+0.2\times2=1.5
+\end{align}
+\]</span></p>
+<p>​ (d)</p>
+<table>
+<thead>
+<tr class="header">
+<th>情報源系列</th>
+<th>確率</th>
+<th>ハフマン符号</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XX</td>
+<td>0.25</td>
+<td>01</td>
+</tr>
+<tr class="even">
+<td>XY</td>
+<td>0.15</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>XZ</td>
+<td>0.1</td>
+<td>101</td>
+</tr>
+<tr class="even">
+<td>YX</td>
+<td>0.15</td>
+<td>001</td>
+</tr>
+<tr class="odd">
+<td>YY</td>
+<td>0.09</td>
+<td>1000</td>
+</tr>
+<tr class="even">
+<td>YZ</td>
+<td>0.06</td>
+<td>1001</td>
+</tr>
+<tr class="odd">
+<td>ZX</td>
+<td>0.1</td>
+<td>101</td>
+</tr>
+<tr class="even">
+<td>ZY</td>
+<td>0.06</td>
+<td>00010</td>
+</tr>
+<tr class="odd">
+<td>ZZ</td>
+<td>0.04</td>
+<td>00011</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+\overline n&amp;=2
+\\
+\overline
+L&amp;=0.25\times2+0.15\times2+0.1\times3+0.15\times3+0.09\times4+0.06\times4+0.1\times3+0.06\times5+0.04\times5=2.95
+\\
+L&amp;=\frac {\overline L}{\overline n}=1.475
+\end{align}
+\]</span></p>
+<p>​ (e) <span class="math display">\[
+\begin{align}
+L_{min}&amp;=H(S)=-0.5\times\log_2(0.5)-0.3\times\log_2(0.3)-0.2\times\log_2(0.2)\\
+&amp;=-0.5\times(-\log_22)-0.3\times(\log_23-\log_22-\log_25)-0.2\times(-\log_25)\\
+&amp;=-0.5\times(-1)-0.3\times(1.6-1-2.3)-0.2\times(-2.3)\\
+&amp;=1.47
+\end{align}
+\]</span> （２）</p>
+<p>​ (a)</p>
+<p>​ (b)</p>
+<p>​ (c)</p>
 <hr />
 
     </div>
@@ -781,13 +996,13 @@ C&amp;=1-\mathscr H(p+q-2pq)
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">63k</span>
+    <span title="Word count total">64k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:49</span>
+    <span title="Reading time total">3:52</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
