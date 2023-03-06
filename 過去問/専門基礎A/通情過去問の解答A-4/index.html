@@ -33,8 +33,9 @@
 <meta property="og:image" content="https://p.ipic.vip/w815wf.png">
 <meta property="og:image" content="https://p.ipic.vip/k6v67l.png">
 <meta property="og:image" content="https://p.ipic.vip/3kr5f0.png">
+<meta property="og:image" content="https://p.ipic.vip/x1zzxe.png">
 <meta property="article:published_time" content="2023-03-02T13:31:52.000Z">
-<meta property="article:modified_time" content="2023-03-02T14:17:04.964Z">
+<meta property="article:modified_time" content="2023-03-06T15:16:57.252Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/fos9sm.png">
@@ -267,9 +268,15 @@ setInterval("createtime()",250);
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-03-02 21:31:52 / Modified: 22:17:04" itemprop="dateCreated datePublished" datetime="2023-03-02T21:31:52+08:00">2023-03-02</time>
+      <time title="Created: 2023-03-02 21:31:52" itemprop="dateCreated datePublished" datetime="2023-03-02T21:31:52+08:00">2023-03-02</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-03-06 23:16:57" itemprop="dateModified" datetime="2023-03-06T23:16:57+08:00">2023-03-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -291,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>36</span>
+      <span>628</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -314,30 +321,159 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/fos9sm.png" /></p>
 <hr />
 <h1 id="解答">2020解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+(i)01011000\quad(ii)10111000
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+(i)11010110\quad(ii)10101011
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+(i)10000001\quad(ii)11010100\\
+(iii)overflow\quad(iv)11010101
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+1100 1000 0011 1000
+\end{align}
+\]</span> （２）</p>
+<ul>
+<li>Make sure both numbers are normalised</li>
+<li>Make smaller exponent match the larger exponent</li>
+<li>Add mantissas together</li>
+<li>Normalise result if necessary</li>
+</ul>
+<p>（３）</p>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 33%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>アドレシング方式</th>
+<th>命令の例（アセンブリ言語）</th>
+<th>生成されるアドレス</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>即値アドレシング</td>
+<td>addi rt, rs, imm</td>
+<td>(直接値immを生成)</td>
+</tr>
+<tr class="even">
+<td>ベース相対アドレシング</td>
+<td>lw rt, dpl (rs)</td>
+<td>(rs) + dpl</td>
+</tr>
+<tr class="odd">
+<td>レジスタアドレシング</td>
+<td>j rs</td>
+<td>(rs)</td>
+</tr>
+<tr class="even">
+<td>PC相対アドレシング</td>
+<td>beq rs, rt, dpl</td>
+<td>(pc) + 4 + dpl (分岐するとき)</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h1 id="問題-1">2019問題</h1>
 <p><img src="https://p.ipic.vip/w815wf.png" /></p>
 <hr />
 <h1 id="解答-1">2019解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+(i)01001100\quad(ii)11001010
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+(i)11001000\quad(ii)10111001
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+(i)overflow\quad(ii)10001110\\
+(iii)11110001\quad(iv)0000 1111
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+11110001
+\end{align}
+\]</span> （２）</p>
+<p>（３）</p>
+<p>​ (a)</p>
+<p>​ (b)</p>
+<p>​ (c)</p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
 <p><img src="https://p.ipic.vip/k6v67l.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+(i)00100100\quad(ii)11101000
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+(i)11010001\quad(ii)1001000
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+(i)10011111\quad(ii)overflow\\
+(iii)1011 1111\quad(iv)0100 0001
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+11101011
+\end{align}
+\]</span> （２）</p>
+<p>（３）</p>
+<p>In computer engineering, a load/store architecture is an instruction
+set architecture that divides instructions into two categories: memory
+access (load and store between memory and registers) and ALU operations
+(which only occur between registers).</p>
+<p>ロード／ストア・アーキテクチャでは、各演算命令ではオペランドとして常にレジスタだけを指定すればよく、複雑なアドレッシング・モードを用意する必要がない。そのため命令コード長が常に同じとなり、演算もレジスタ同士しかないので、実行時間も同じになる。このため、命令のフェッチ（取り出し）や解釈、実行、結果のレジスタへの格納などにかかる時間は命令によらず同じとなり、プロセッサの実行制御回路が簡単になる。回路が簡単になればそれだけクロックを上げやすくなり、結果としてプロセッサのパフォーマンスが向上する。これがRISCアーキテクチャの目指すところである。ただし、あらかじめオペランドをレジスタに用意しなければならないので、RISCアーキテクチャでは、CISCアーキテクチャよりも多くのレジスタを持つことが多い。</p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p><img src="https://p.ipic.vip/3kr5f0.png" /></p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+(i)00011100\quad(ii)11011000
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+(i)11000000\quad(ii)11000001
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+(i)10000000\quad(ii)overflow\\
+(iii)00000001\quad(iv)11111111
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+11101111
+\end{align}
+\]</span> （２）</p>
+<p>（３）</p>
+<p>​ (a)命令中に指定された定数をオペランドとする</p>
+<p>​ (b)レジスタをオペランドとする</p>
+<p>​ (c)命令中に指定した定数とレジスタの和によって，オペランドが記憶され
+ているデータのメモリ番地を表す</p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
-<figure>
-<img
-src="/Users/idealist/Desktop/Screenshot%202023-03-02%20at%2022.16.02.png"
-alt="Screenshot 2023-03-02 at 22.16.02" />
-<figcaption aria-hidden="true">Screenshot 2023-03-02 at
-22.16.02</figcaption>
-</figure>
+<p><img src="https://p.ipic.vip/x1zzxe.png" /> <img
+src="https://p.ipic.vip/f3bkkj.png" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
 <hr />
@@ -410,13 +546,13 @@ alt="Screenshot 2023-03-02 at 22.16.02" />
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">64k</span>
+    <span title="Word count total">65k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:54</span>
+    <span title="Reading time total">3:56</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
