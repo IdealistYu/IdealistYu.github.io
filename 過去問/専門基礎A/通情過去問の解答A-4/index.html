@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/3kr5f0.png">
 <meta property="og:image" content="https://p.ipic.vip/x1zzxe.png">
 <meta property="article:published_time" content="2023-03-02T13:31:52.000Z">
-<meta property="article:modified_time" content="2023-03-06T15:16:57.252Z">
+<meta property="article:modified_time" content="2023-03-08T14:00:40.784Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/fos9sm.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-06 23:16:57" itemprop="dateModified" datetime="2023-03-06T23:16:57+08:00">2023-03-06</time>
+      <time title="Modified: 2023-03-08 22:00:40" itemprop="dateModified" datetime="2023-03-08T22:00:40+08:00">2023-03-08</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>628</span>
+      <span>1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>4 mins.</span>
     </span>
 </div>
 
@@ -407,10 +407,35 @@ setInterval("createtime()",250);
 11110001
 \end{align}
 \]</span> （２）</p>
+<p>The carry-select adder generally consists of ripple-carry adders and
+a multiplexer. Adding two n-bit numbers with a carry-select adder is
+done with two adders (therefore two ripple-carry adders), in order to
+perform the calculation twice, one time with the assumption of the
+carry-in being zero and the other assuming it will be one. After the two
+results are calculated, the correct sum, as well as the correct
+carry-out, is then selected with the multiplexer once the correct
+carry-in is known.</p>
 <p>（３）</p>
-<p>​ (a)</p>
-<p>​ (b)</p>
-<p>​ (c)</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+\rm {CPI}=1\\
+T=1000000\times\rm{CPI}\times2\,\rm{ns}=2\times10^{-3}\,\rm{s}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+T&amp;=(k+n-1+0.2\times0.3\times n)\times500\,\rm{ps}\\
+&amp;=(5+1000000-1+0.2\times0.3\times 1000000)\times500\,\rm{ps}\\
+&amp;=5.30002\times10^{-4}\,\rm{s}
+\end{align}
+\]</span> ​ (c)</p>
+<p><span class="math display">\[
+\begin{align}
+T&amp;=(k+n-1+0.2\times0.3\times n\times2)\times300\,\rm{ps}\\
+&amp;=(10+1000000-1+0.2\times0.3\times
+1000000\times2)\times300\,\rm{ps}\\
+&amp;=3.360027\times10^{-4}\,\rm{s}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
 <p><img src="https://p.ipic.vip/k6v67l.png" /></p>
@@ -465,6 +490,46 @@ access (load and store between memory and registers) and ALU operations
 11101111
 \end{align}
 \]</span> （２）</p>
+<ul>
+<li>X=No change</li>
+<li>-X=(Bits of X inverted +1)</li>
+<li>2X=X shifted left by one bit only</li>
+<li>-2X=(Bits of X inverted +1) and then shifted left by one bit</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Input</th>
+<th>Partial Products</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>100</td>
+<td>-2X</td>
+</tr>
+<tr class="even">
+<td>011</td>
+<td>+2X</td>
+</tr>
+<tr class="odd">
+<td>010</td>
+<td>+X</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+011101\\
+010110\\
+\\
+-2X\quad 1111000110\\
++2X\quad 00111010\,\,\,\,\,\,\\
++X\,\,\,\quad011101\,\,\,\,\,\,\,\,\,\,\,\,\\
+\rule[3pt]{4cm}{0.05em}\\
+(1)1001111110
+\end{align}
+\]</span></p>
 <p>（３）</p>
 <p>​ (a)命令中に指定された定数をオペランドとする</p>
 <p>​ (b)レジスタをオペランドとする</p>
@@ -476,6 +541,64 @@ access (load and store between memory and registers) and ALU operations
 src="https://p.ipic.vip/f3bkkj.png" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+(i)00011000\quad(ii)11101000
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+(i)01110000\quad(ii)10010000
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+(i)11100000\quad(ii)01100000\quad(iii)overflow
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+11111000
+\end{align}
+\]</span> （２）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+-9.375&amp;=(-1001.011)_2=(-1.001011\times2^3)_2\\
+sign&amp;:1\\
+exponent&amp;:3+127=130=(10000010)_2\\
+mantissa&amp;:00101100000000000000000\\
+\\
+1\_10000010&amp;\_00101100000000000000000
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+x&amp;=1.1101\times2^{33}\\
+y&amp;=1.01011\times2^{13}
+\\
+\\
+y&amp;\Rightarrow0\_10100000\_00000000000000000001010(11)
+\\
+\\&amp;0\_10100000\_11010000000000000000000\\
++\,\,&amp;0\_10100000\_00000000000000000001010(11)\\
+&amp;\rule[3pt]{8cm}{0.05em}\\
+&amp;0\_10100000\_11010000000000000001011
+\end{align}
+\]</span> （３）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+\rm{CPI}=1
+\\
+T=\frac{1000000\times \rm{CPI}}{500\rm {MHz}}=2\times10^{-3}\,\rm {s}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+\rm{CPI}=3\times0.5+4\times0.3+5\times0.1+3\times0.1=3.5\\
+T=\frac{1000000\times\rm{CPI}}{2\rm{GHz}}=1.75\times10^{-3}\,\rm{s}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+T=\frac {k+n-1+0.1\times n}{2\rm{GHz}}=\frac {5+1000000-1+0.1\times
+1000000}{2\rm{GHz}}=5.50002\times10^{-4}\,\rm{s}
+\end{align}
+\]</span></p>
 <hr />
 
     </div>
@@ -552,7 +675,7 @@ src="https://p.ipic.vip/f3bkkj.png" /></p>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">3:56</span>
+    <span title="Reading time total">3:57</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
