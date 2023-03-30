@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/dlicy6.png">
 <meta property="og:image" content="https://p.ipic.vip/j9ei6q.png">
 <meta property="article:published_time" content="2023-03-28T12:46:31.000Z">
-<meta property="article:modified_time" content="2023-03-28T13:18:49.325Z">
+<meta property="article:modified_time" content="2023-03-30T08:10:57.241Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/uw7ht6.png">
@@ -268,9 +268,15 @@ setInterval("createtime()",250);
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-03-28 20:46:31 / Modified: 21:18:49" itemprop="dateCreated datePublished" datetime="2023-03-28T20:46:31+08:00">2023-03-28</time>
+      <time title="Created: 2023-03-28 20:46:31" itemprop="dateCreated datePublished" datetime="2023-03-28T20:46:31+08:00">2023-03-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-03-30 16:10:57" itemprop="dateModified" datetime="2023-03-30T16:10:57+08:00">2023-03-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -292,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>50</span>
+      <span>825</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>3 mins.</span>
     </span>
 </div>
 
@@ -316,8 +322,27 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/uw7ht6.png" /></p>
 <hr />
 <h1 id="解答">2020解答</h1>
-<p><span class="math display">\[
+<p>（３） <span class="math display">\[
 \begin{align}
+z&amp;={\mathrm e}^{i
+\theta}とおき,\cos\theta=\frac{z+z^{-1}}{2},\mathrm
+d\theta=\frac{\mathrm dz}{iz}を与式に代入すると\\
+\\
+I&amp;=\int_0^{2\pi}\frac{1}{(3+\cos\theta)^2}\mathrm d\theta\\
+&amp;=\oint_{|z|=1}\frac{1}{\left(3+\frac{z+z^{-1}}{2}\right)^2}\frac{\mathrm
+dz}{iz}\\
+&amp;=\frac{4}{i}\oint_{|z|=1}\frac{z}{(z^2+6z+1)^2}\mathrm dz\\
+&amp;=\frac{4}{i}\oint_{|z|=1}\frac{z}{(z-z_1)^2(z-z_2)^2}\mathrm dz\\
+\\
+&amp;ただし,z_1=-3+2\sqrt 2,z_2=-3-2\sqrt 2である.\\
+&amp;|z_2|&gt;1,z_1は|z|&lt;1内での2位の極であるから\\
+\\
+\mathrm {Res}(z_1)&amp;=\left.\frac{1}{1!}\frac{\mathrm d}{\mathrm
+dz}\left[\frac{4}{i}\frac{z}{(z-z_2)^2}\right]\right |_{z=z_1}\\
+&amp;=\frac{3\sqrt 2}{32i}\\
+したがって\\
+I&amp;=\int_0^{2\pi}\frac{1}{(3+\cos\theta)^2}\mathrm d\theta=2\pi
+i\,{\mathrm {Res}(z_1)}=\frac{3\sqrt 2\pi}{16}
 \end{align}
 \]</span></p>
 <hr />
@@ -325,6 +350,37 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/s1n34v.png" /></p>
 <hr />
 <h1 id="解答-1">2019解答</h1>
+<p>（３） <span class="math display">\[
+\begin{align}
+(a)\\
+z&amp;={\mathrm e}^{i\theta}とおき,\cos\theta=\frac{z+z^{-1}}{2},\mathrm
+d\theta=\frac{\mathrm dz}{iz}を与式に代入すると\\
+\\
+I&amp;=\int_0^{2\pi}\frac{\cos^2\theta}{1-2a\cos\theta+a^2}\mathrm
+d\theta\\
+&amp;=\oint_{|z|=1}\frac{\left(\frac{z+z^{-1}}{2}\right)^2}{1-2a\left(\frac{z+z^{-1}}{2}\right)+a^2}\frac{\mathrm
+dz}{iz}\\
+&amp;=-\frac{1}{4ai}\oint_{|z|=1}\frac{(z^2+1)^2}{z^2\left(z-\frac{1}{a}\right)\left(z-a\right)}\frac{\mathrm
+dz}{iz}\\
+\\
+(b)\\
+&amp;ただし,z_1=0,z_2=\frac{1}{a},z_3=aである.\\
+&amp;|z_2|&gt;1,z_1は|z|&lt;1内での2位の極,z_3は|z|&lt;1内での1位の極であるから\\
+\\
+\mathrm {Res}(z_1)&amp;=\left.\frac{1}{1!}\frac{\mathrm d}{\mathrm
+dz}\left[-\frac{1}{4ai}\frac{(z^2+1)^2}{\left(z-\frac{1}{a}\right)\left(z-a\right)}\right]\right
+|_{z=z_1}\\
+&amp;=-\frac{1}{4ai}\frac{1+a^2}{a}\\
+\mathrm
+{Res}(z_3)&amp;=\left.-\frac{1}{4ai}\frac{(z^2+1)^2}{z^2\left(z-\frac{1}{a}\right)}\right
+|_{z=z_3}\\
+&amp;=-\frac{1}{4ai}\frac{(a^2+1)^2}{a(a^2-1)}\\
+したがって\\
+I&amp;=\int_0^{2\pi}\frac{\cos^2\theta}{1-2a\cos\theta+a^2}\mathrm
+d\theta=2\pi i\,\{\mathrm {Res}(z_1)+\mathrm
+{Res}(z_3)\}=\frac{(1+a^2)\pi}{1-a^2}
+\end{align}
+\]</span></p>
 <p><span class="math display">\[
 \begin{align}
 \end{align}
@@ -344,6 +400,42 @@ src="https://p.ipic.vip/b7426w.png" /></p>
 <p><img src="https://p.ipic.vip/dlicy6.png" /></p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（３） <span class="math display">\[
+\begin{align}
+(a)\\
+z&amp;={\mathrm
+e}^{i\theta}とおき,\cos\theta=\frac{z+z^{-1}}{2},\sin\theta=\frac{z-z^{-1}}{2i},\mathrm
+d\theta=\frac{\mathrm dz}{iz}を与式に代入すると\\
+\\
+I&amp;=\int_0^{2\pi}\frac{\sin^2\theta}{a+b\cos\theta}\mathrm d\theta\\
+&amp;=\oint_{|z|=1}\frac{\left(\frac{z-z^{-1}}{2i}\right)^2}{a+b\left(\frac{z+z^{-1}}{2}\right)}\frac{\mathrm
+dz}{iz}\\
+&amp;=\frac{i}{2b}\oint_{|z|=1}\frac{(z^2-1)^2}{z^2\left(z^2+\frac{2a}{b}z+1\right)}\mathrm
+dz\\
+\\
+(b)\\
+I&amp;=\frac{i}{2b}\oint_{|z|=1}\frac{(z^2-1)^2}{z^2\left(z^2+\frac{2a}{b}z+1\right)}\mathrm
+dz\\
+&amp;=\frac{i}{2b}\oint_{|z|=1}\frac{(z^2-1)^2}{z^2(z-\alpha)(z-\beta)}\mathrm
+dz\\
+\\
+&amp;ただし,z_1=0,z_2=\alpha=\frac{-a+\sqrt{a^2-b^2}}{b},z_3=\beta=\frac{-a-\sqrt{a^2-b^2}}{b}である.\\
+&amp;|z_3|&gt;1,z_1は|z|&lt;1内での2位の極,z_2は|z|&lt;1内での1位の極であるから\\
+\\
+\mathrm {Res}(z_1)&amp;=\left.\frac{1}{1!}\frac{\mathrm d}{\mathrm
+dz}\left[\frac{i}{2b}\frac{(z^2-1)^2}{(z-\alpha)(z-\beta)}\right]\right
+|_{z=z_1}\\
+&amp;=\frac{i}{2b}\left(-\frac{2a}{b}\right)\\
+\mathrm
+{Res}(z_2)&amp;=\left.\frac{i}{2b}\frac{(z^2-1)^2}{z^2(z-\beta)}\right
+|_{z=z_2}\\
+&amp;=\frac{i}{2b}\frac{2\sqrt{a^2-b^2}}{b}\\
+したがって\\
+I&amp;=\int_0^{2\pi}\frac{\sin^2\theta}{a+b\cos\theta}\mathrm
+d\theta=2\pi i\,\{\mathrm {Res}(z_1)+\mathrm
+{Res}(z_2)\}=\frac{2\pi}{b^2}(a^2-\sqrt{a^2-b^2})
+\end{align}
+\]</span></p>
 <p><span class="math display">\[
 \begin{align}
 \end{align}
@@ -430,7 +522,7 @@ src="https://p.ipic.vip/b7426w.png" /></p>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4:02</span>
+    <span title="Reading time total">4:05</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
