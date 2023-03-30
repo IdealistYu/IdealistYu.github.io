@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/dlicy6.png">
 <meta property="og:image" content="https://p.ipic.vip/j9ei6q.png">
 <meta property="article:published_time" content="2023-03-28T12:46:31.000Z">
-<meta property="article:modified_time" content="2023-03-30T13:36:58.606Z">
+<meta property="article:modified_time" content="2023-03-30T17:52:26.905Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/uw7ht6.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-30 21:36:58" itemprop="dateModified" datetime="2023-03-30T21:36:58+08:00">2023-03-30</time>
+      <time title="Modified: 2023-03-31 01:52:26" itemprop="dateModified" datetime="2023-03-31T01:52:26+08:00">2023-03-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1k</span>
+      <span>1.3k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>4 mins.</span>
+      <span>5 mins.</span>
     </span>
 </div>
 
@@ -391,8 +391,38 @@ d\theta=2\pi i\,\{\mathrm {Res}(z_1)+\mathrm
 src="https://p.ipic.vip/b7426w.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
-<p><span class="math display">\[
+<p>（３） <span class="math display">\[
 \begin{align}
+f(x)&amp;=\frac{x}{1+x^4}とおくと\\
+I&amp;=\int_{-\infty}^{\infty}\frac{x\sin x}{1+x^4}\,\mathrm dx\\
+&amp;=\int_{-\infty}^{\infty}f(x)\sin x\,\mathrm dx\\
+&amp;=\mathrm{Im}\int_{-\infty}^{\infty}f(x)\mathrm e^{ix}\,\mathrm dx\\
+ただし,z_1&amp;=\mathrm e^{\frac{i\pi}{4}}=\frac{1+i}{\sqrt
+2},z_2=\mathrm e^{\frac{i3\pi}{4}}=\frac{-1+i}{\sqrt
+2}は\,\mathrm{Im}z&gt;0\,内の1位の極であるから\\
+\\
+\oint_Cf(z)\mathrm e^{iz}\,\mathrm dz&amp;=\int_{-R}^Rf(x)\mathrm
+e^{ix}\,\mathrm dx+\int_{C_R}f(z)\mathrm e^{iz}\,\mathrm dz\\
+&amp;=2\pi i\{\mathrm{Res}(z_1)+\mathrm{Res}(z_2)\}\\
+\\
+\mathrm{Res}(z_1)&amp;=\mathrm{Res}\left\{\frac{z\mathrm
+e^{iz}}{1+x^4}\right\}\\
+&amp;=\left.\frac{z\mathrm e^{iz}}{4z^3}\right|_{z=z_1}\\
+&amp;=\frac{\mathrm e^{(-1+i)/\sqrt 2}}{4i}\\
+\mathrm{Res}(z_2)&amp;=\mathrm{Res}\left\{\frac{z\mathrm
+e^{iz}}{1+x^4}\right\}\\
+&amp;=\left.\frac{z\mathrm e^{iz}}{4z^3}\right|_{z=z_2}\\
+&amp;=\frac{\mathrm e^{(-1-i)/\sqrt 2}}{-4i}\\
+\\
+&amp;\int_{-R}^Rf(x)\mathrm e^{ix}\,\mathrm dx+\int_{C_R}f(z)\mathrm
+e^{iz}\,\mathrm dz=\pi i\mathrm e^{-1/{\sqrt 2}}\sin\frac{1}{\sqrt 2}\\
+\because&amp; \lim _{R\to \infty}\int_{C_R}f(z)\mathrm e^{iz}\,\mathrm
+dz=0\\
+\therefore&amp; \int_{-\infty}^\infty f(x)\mathrm e^{ix}\,\mathrm dx=\pi
+i\mathrm e^{-1/{\sqrt 2}}\sin\frac{1}{\sqrt 2}\\
+\therefore&amp; I=\mathrm{Im}(\pi i\mathrm e^{-1/{\sqrt
+2}}\sin\frac{1}{\sqrt 2})=\pi \mathrm e^{-1/{\sqrt 2}}\sin\frac{1}{\sqrt
+2}
 \end{align}
 \]</span></p>
 <hr />
@@ -546,7 +576,7 @@ i\,\mathrm {Res}(z_1)=\frac{2\pi}{\sqrt{a^2-b^2}}
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4:06</span>
+    <span title="Reading time total">4:07</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
