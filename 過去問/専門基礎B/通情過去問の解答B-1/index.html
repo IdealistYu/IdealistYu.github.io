@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/dlicy6.png">
 <meta property="og:image" content="https://p.ipic.vip/j9ei6q.png">
 <meta property="article:published_time" content="2023-03-28T12:46:31.000Z">
-<meta property="article:modified_time" content="2023-03-30T17:52:26.905Z">
+<meta property="article:modified_time" content="2023-04-02T07:51:39.056Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/uw7ht6.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-03-31 01:52:26" itemprop="dateModified" datetime="2023-03-31T01:52:26+08:00">2023-03-31</time>
+      <time title="Modified: 2023-04-02 15:51:39" itemprop="dateModified" datetime="2023-04-02T15:51:39+08:00">2023-04-02</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>1.3k</span>
+      <span>2.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>5 mins.</span>
+      <span>8 mins.</span>
     </span>
 </div>
 
@@ -322,7 +322,21 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/uw7ht6.png" /></p>
 <hr />
 <h1 id="解答">2020解答</h1>
-<p>（３） <span class="math display">\[
+<p>（１） <span class="math display">\[
+\begin{align}
+F(w)&amp;=
+\begin{cases}
+1-w&amp;(0\leq w\leq1)\\
+0&amp;(w&gt;1)
+\end{cases}
+\\
+f(t)&amp;=\frac{2}{\pi}\int_0^{\infty}F(w)\cos\omega t\,\mathrm dw\\
+&amp;=\frac{2}{\pi}\int_0^{1}(1-w)\cos\omega t\,\mathrm dw\\
+&amp;=\frac{2}{\pi}\left[\int_0^1\cos\omega t\,\mathrm
+d\omega-\int_0^1\omega\cos\omega t\,\mathrm d\omega\right]\\
+&amp;=\frac{2(1-\cos t)}{\pi t^2}
+\end{align}
+\]</span> （３） <span class="math display">\[
 \begin{align}
 z&amp;={\mathrm e}^{i
 \theta}とおき,\cos\theta=\frac{z+z^{-1}}{2},\mathrm
@@ -350,7 +364,25 @@ i\,{\mathrm {Res}(z_1)}=\frac{3\sqrt 2\pi}{16}
 <p><img src="https://p.ipic.vip/s1n34v.png" /></p>
 <hr />
 <h1 id="解答-1">2019解答</h1>
-<p>（３） <span class="math display">\[
+<p>（１） <span class="math display">\[
+\begin{align}
+F_1(\omega)&amp;=\int_{-\infty}^{\infty}f_1(t)\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=\int_{-a_1}^{a_1}\frac{1}{2a_1}\mathrm e^{-i\omega t}\,\mathrm
+dt\\
+&amp;=\frac{\sin a_1\omega}{a_1\omega}
+\\
+F_2(\omega)&amp;=\int_{-\infty}^{\infty}f_2(t)\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=\int_{-a_2}^{a_2}\left(\frac{1}{a_1}-\frac{|t|}{a_2^2}\right)\mathrm
+e^{-i\omega t}\,\mathrm dt\\
+&amp;=\int_{-a_2}^{0}\left(\frac{1}{a_1}+\frac{t}{a_2^2}\right)\mathrm
+e^{-i\omega t}\,\mathrm
+dt+\int_{0}^{a_2}\left(\frac{1}{a_1}-\frac{t}{a_2^2}\right)\mathrm
+e^{-i\omega t}\,\mathrm dt\\
+&amp;=
+\end{align}
+\]</span> （３） <span class="math display">\[
 \begin{align}
 (a)\\
 z&amp;={\mathrm e}^{i\theta}とおき,\cos\theta=\frac{z+z^{-1}}{2},\mathrm
@@ -430,7 +462,32 @@ i\mathrm e^{-1/{\sqrt 2}}\sin\frac{1}{\sqrt 2}\\
 <p><img src="https://p.ipic.vip/dlicy6.png" /></p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
-<p>（３） <span class="math display">\[
+<p>（１） <span class="math display">\[
+\begin{align}
+(a)\\
+F(\omega)&amp;=\int_{-\infty}^{\infty}f(t)\mathrm e^{-i\omega t}\mathrm
+dt\\
+&amp;=\int_{-a}^a\mathrm e^{-i\omega t}\,\mathrm dt\\
+&amp;=\frac{2\sin a\omega }{\omega}\\
+\\
+(b)\\
+f(t)&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)\mathrm
+e^{i\omega t}\,\mathrm d\omega\\
+&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{2\sin
+a\omega}{\omega}(\cos\omega t+i\sin\omega t)\,\mathrm d\omega\\
+&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{2\sin
+a\omega}{\omega}(\cos\omega t+i\sin\omega t)\,\mathrm d\omega\\
+&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{2\sin a\omega\cos\omega
+t}{\omega}\,\mathrm d\omega\\
+&amp;=\frac{2}{\pi}\int_{0}^{\infty}\frac{2\sin a\omega\cos\omega
+t}{\omega}\,\mathrm d\omega\\
+\\
+I&amp;=\int_{0}^{\infty}\frac{2\sin a\omega\cos\omega
+t}{\omega}\,\mathrm d\omega\\
+&amp;=f(t)\frac{\pi}{2}\\
+&amp;=\begin{cases}0&amp;(|t|&gt;a&gt;0)\\\frac{\pi}{2}&amp;(|t|&lt;a)\end{cases}
+\end{align}
+\]</span> （３） <span class="math display">\[
 \begin{align}
 (a)\\
 z&amp;={\mathrm
@@ -475,6 +532,52 @@ d\theta=2\pi i\,\{\mathrm {Res}(z_1)+\mathrm
 <p><img src="https://p.ipic.vip/j9ei6q.png" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
+<p>（１） <span class="math display">\[
+\begin{align}
+(a)\\
+F_1(\omega)&amp;=\int_{-\infty}^{\infty}f_1(t)\,\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\cos t\,\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\frac{\mathrm e^{it}+\mathrm
+e^{-it}}{2}\,\mathrm e^{-i\omega t}\,\mathrm dt\\
+&amp;=\frac{1}{2}\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\left[\mathrm
+e^{(1-\omega)it}+\mathrm e^{-(1+\omega)it}\right]\,\mathrm dt\\
+&amp;=\frac{1}{2}\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\mathrm
+e^{(1-\omega)it}\,\mathrm
+dt+\frac{1}{2}\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\mathrm
+e^{-(1+\omega)it}\,\mathrm dt\\
+&amp;=\frac{1}{2}\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\cos((1-\omega)t)\,\mathrm
+dt+\frac{1}{2}\int^{\frac{\pi}{2}}_{-\frac{\pi}{2}}\cos((1+\omega)t)\,\mathrm
+dt\\
+&amp;=\int^{\frac{\pi}{2}}_{0}\cos((1-\omega)t)\,\mathrm
+dt+\int^{\frac{\pi}{2}}_{0}\cos((1+\omega)t)\,\mathrm dt\\
+&amp;=\left.\left[\frac{\sin((1-\omega)t)}{1-\omega}\right]\right|_0^{\frac{\pi}{2}}+\left.\left[\frac{\sin((1+\omega)t)}{1+\omega}\right]\right|_0^{\frac{\pi}{2}}\\
+&amp;=\frac{\cos\frac{\pi\omega}{2}}{1-\omega}+\frac{\cos\frac{\pi\omega}{2}}{1+\omega}\\
+&amp;=\frac{2\cos\frac{\pi\omega}{2}}{1-\omega^2}\\
+\end{align}
+\]</span></p>
+<p><span class="math display">\[
+\begin{align}
+(b)\\
+f_1(t)&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}F_1(\omega)\mathrm
+e^{i\omega t}\,\mathrm d\omega\\
+&amp;=\frac{1}{2\pi}\int_{-\infty}^{\infty}\frac{2\cos\frac{\pi\omega}{2}}{1-\omega^2}\mathrm
+e^{i\omega t}\,\mathrm d\omega\\
+&amp;=\int_{-\infty}^{\infty}\frac{1}{\pi(1-\omega^2)}\left(\frac{\mathrm
+e^{\frac{\pi i\omega}{2}}+\mathrm e^{-\frac{\pi
+i\omega}{2}}}{2}\right)\mathrm e^{i\omega t}\,\mathrm d\omega\\
+&amp;=\frac{1}{2}\int_{-\infty}^{\infty}\frac{1}{\pi(1-\omega^2)}\left\{\mathrm
+e^{i\omega (t+\frac{\pi}{2})}+\mathrm e^{i\omega
+(t-\frac{\pi}{2})}\right\}\,\mathrm d\omega\\
+&amp;=\int_{0}^{\infty}\frac{1}{\pi(1-\omega^2)}\left\{\mathrm
+e^{i\omega (t+\frac{\pi}{2})}+\mathrm e^{i\omega
+(t-\frac{\pi}{2})}\right\}\,\mathrm d\omega\\
+&amp;=\int_{0}^{\infty}\frac{1}{\pi(1-\omega^2)}\left\{\cos(t+\frac{\pi}{2})\omega+\cos(t-\frac{\pi}{2})\omega\right\}\,\mathrm
+d\omega\\
+&amp;=f_2(t)
+\end{align}
+\]</span></p>
 <p>（３） <span class="math display">\[
 \begin{align}
 (a)\\
@@ -570,13 +673,13 @@ i\,\mathrm {Res}(z_1)=\frac{2\pi}{\sqrt{a^2-b^2}}
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">68k</span>
+    <span title="Word count total">69k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4:07</span>
+    <span title="Reading time total">4:10</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
