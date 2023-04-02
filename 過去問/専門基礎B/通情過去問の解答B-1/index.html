@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/dlicy6.png">
 <meta property="og:image" content="https://p.ipic.vip/j9ei6q.png">
 <meta property="article:published_time" content="2023-03-28T12:46:31.000Z">
-<meta property="article:modified_time" content="2023-04-02T07:51:39.056Z">
+<meta property="article:modified_time" content="2023-04-02T14:30:23.179Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/uw7ht6.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-04-02 15:51:39" itemprop="dateModified" datetime="2023-04-02T15:51:39+08:00">2023-04-02</time>
+      <time title="Modified: 2023-04-02 22:30:23" itemprop="dateModified" datetime="2023-04-02T22:30:23+08:00">2023-04-02</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2.1k</span>
+      <span>2.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>8 mins.</span>
+      <span>9 mins.</span>
     </span>
 </div>
 
@@ -372,15 +372,42 @@ t}\,\mathrm dt\\
 dt\\
 &amp;=\frac{\sin a_1\omega}{a_1\omega}
 \\
+\\
 F_2(\omega)&amp;=\int_{-\infty}^{\infty}f_2(t)\mathrm e^{-i\omega
 t}\,\mathrm dt\\
-&amp;=\int_{-a_2}^{a_2}\left(\frac{1}{a_1}-\frac{|t|}{a_2^2}\right)\mathrm
+&amp;=\int_{-a_2}^{a_2}\left(\frac{1}{a_2}-\frac{|t|}{a_2^2}\right)\mathrm
 e^{-i\omega t}\,\mathrm dt\\
-&amp;=\int_{-a_2}^{0}\left(\frac{1}{a_1}+\frac{t}{a_2^2}\right)\mathrm
-e^{-i\omega t}\,\mathrm
-dt+\int_{0}^{a_2}\left(\frac{1}{a_1}-\frac{t}{a_2^2}\right)\mathrm
-e^{-i\omega t}\,\mathrm dt\\
-&amp;=
+&amp;=\int_{-a_2}^{a_2}\frac{1}{a_2}\mathrm e^{-i\omega t}\,\mathrm
+dt-\int_{-a_2}^{a_2}\frac{|t|}{a_2^2}\mathrm e^{-i\omega t}\,\mathrm
+dt\\
+&amp;=\frac{2\sin
+a_2\omega}{a_2\omega}-\frac{1}{a_2^2}\int_{-a_2}^{a_2}| t|\cos\omega
+t\,\mathrm dt\\
+&amp;=\frac{2\sin
+a_2\omega}{a_2\omega}-\frac{2}{a_2^2}\int_{0}^{a_2}t\cos\omega
+t\,\mathrm dt\\
+&amp;=\frac{2\sin a_2\omega}{a_2\omega}-\frac{2}{a_2^2}\left[\left.
+\frac{t\sin\omega
+t}{\omega}\right|_0^{a_2}-\int_{0}^{a_2}\frac{\sin\omega
+t}{\omega}\,\mathrm dt\right]\\
+&amp;=\frac{2\sin
+a_2\omega}{a_2\omega}-\frac{2}{a_2^2}\left[\frac{a_2\sin
+a_2\omega}{\omega}+\left.\frac{\cos\omega
+t}{\omega^2}\right|_0^{a_2}\right]\\
+&amp;=\frac{2(1-\cos a_2\omega)}{a_2^2\omega^2}\\
+\\
+F(t)&amp;=\frac{\sin at}{at}\\
+f(-\omega)&amp;=\begin{cases}0&amp;(|\omega|&gt;a&gt;0)\\\frac{1}{2a}&amp;(|\omega|\leq
+a)\end{cases}\quadとおくと\\
+\mathscr F[F(t)]&amp;=2\pi f(-\omega)によって\\
+\mathscr F[F(t)]&amp;=2\pi
+f(-\omega)=\begin{cases}0&amp;(|\omega|&gt;a&gt;0)\\\frac{\pi}{a}&amp;(|\omega|\leq
+a)\end{cases}\\
+\\
+F_3(\omega)&amp;=\mathscr F[f_3(t)]\\
+&amp;=\mathscr F[F_3(t)]\\
+&amp;=\begin{cases}0&amp;(|\omega|&gt;a_3&gt;0)\\\frac{\pi}{a_3}&amp;(|\omega|\leq
+a_3)\end{cases}\\
 \end{align}
 \]</span> （３） <span class="math display">\[
 \begin{align}
@@ -423,7 +450,46 @@ d\theta=2\pi i\,\{\mathrm {Res}(z_1)+\mathrm
 src="https://p.ipic.vip/b7426w.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
-<p>（３） <span class="math display">\[
+<p>（１） <span class="math display">\[
+\begin{align}
+(a)\\
+F(\omega)&amp;=\int_{-\infty}^{\infty}f(t)\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=\int_{-\infty}^{\infty}\mathrm e^{-a|t|}\mathrm e^{-i\omega
+t}\,\mathrm dt\\
+&amp;=2\int_0^{\infty}\mathrm e^{-at}\cos\omega t\,\mathrm dt\\
+&amp;=2\left.\left[\mathrm e^{-at}\frac{\omega\sin \omega t-a\cos\omega
+t}{a^2+\omega^2}\right]\right|_0^{\infty}\\
+&amp;=\frac{2a}{a^2+\omega^2}\\
+\\
+(b)\\
+\mathscr F[F(t)]&amp;=2\pi f(-\omega)=2\pi\mathrm
+e^{-a|\omega|}\quad(a&gt;0)\\
+\\
+(c)\\
+\mathscr
+F[h(t)]&amp;=\int_{-\infty}^{\infty}\left(\int_{-\infty}^{\infty}f(u)g(t-u)\,\mathrm
+du\right)\mathrm e^{-i\omega t}\,\mathrm dt\\
+&amp;=\int_{-\infty}^{\infty}f(u)\left(\int_{-\infty}^{\infty}g(t-u)\mathrm
+e^{-i\omega t}\,\mathrm dt\right)\,\mathrm du\\
+&amp;=\int_{-\infty}^{\infty}f(u)F(\omega)\mathrm e^{-i\omega
+u}\,\mathrm du\\
+&amp;=F(\omega)G(\omega)\\
+\\
+(d)\\
+f_1(t)&amp;=\mathrm e^{-2|t|}とおくと\\
+F_1(\omega)&amp;=\frac{4}{\omega^2+4}\\
+g(t)&amp;=\frac{1}{t^2+1}とおくと\\
+G(\omega)&amp;=\int_{-\infty}^{\infty}\frac{1}{t^2+1}\mathrm e^{-i\omega
+t}\,\mathrm dt=\frac{\pi}{\mathrm e^{\omega}}\\
+\mathscr F\left[\int_{-\infty}^{\infty}\frac{2f(u)}{(t-u)^2+1}\,\mathrm
+du\right]&amp;=\mathscr F[F_1(t)]=2\pi f_1(-\omega)\\
+2F(\omega)G(\omega)&amp;=2\pi\mathrm e^{-2\omega}\\
+2F(\omega)\frac{\pi}{\mathrm e^\omega}&amp;=2\pi\mathrm e^{-2\omega}\\
+F(\omega)&amp;=\mathrm e^{-\omega}=\frac{1}{\pi}G(\omega)\\
+f(t)&amp;=\frac{1}{\pi}g(t)=\frac{1}{\pi(t^2+1)}
+\end{align}
+\]</span> （３） <span class="math display">\[
 \begin{align}
 f(x)&amp;=\frac{x}{1+x^4}とおくと\\
 I&amp;=\int_{-\infty}^{\infty}\frac{x\sin x}{1+x^4}\,\mathrm dx\\
@@ -679,7 +745,7 @@ i\,\mathrm {Res}(z_1)=\frac{2\pi}{\sqrt{a^2-b^2}}
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4:10</span>
+    <span title="Reading time total">4:11</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
