@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons8-hiragana-yu-100.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons8-hiragana-yu-ios-16-filled-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons8-hiragana-yu-ios-16-filled-16.png">
+  <link rel="mask-icon" href="/images/icons8-hiragana-yu-100.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/black/pace-theme-material.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"idealistyu.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.14.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":true,"style":"flat"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="「グラフの理論」のまとめ">
+<meta property="og:type" content="article">
+<meta property="og:title" content="まとめ">
+<meta property="og:url" content="https://idealistyu.github.io/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/GraphTheory/index.html">
+<meta property="og:site_name" content="Yu&#39;s Site">
+<meta property="og:description" content="「グラフの理論」のまとめ">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-04-27T17:27:26.000Z">
+<meta property="article:modified_time" content="2023-04-27T17:23:35.097Z">
+<meta property="article:author" content="Yu">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://idealistyu.github.io/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/GraphTheory/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":"","permalink":"https://idealistyu.github.io/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/GraphTheory/","path":"通信情報/B-6/GraphTheory/","title":"まとめ"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>まとめ | Yu's Site</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-nav-right">
+    <a style="all:unset;" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html"><i class="fa fa-subway fa-fw fa-lg"></i></a>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Yu's Site</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-download"><a href="/download/" rel="section"><i class="fa fa-download fa-fw"></i>Download</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>Links</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#shortest-path%E6%9C%80%E7%9F%AD%E7%B5%8C%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">Shortest Path（最短経路）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#finding-shortest-path-in-unweighted-graphs%E5%B9%85%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2"><span class="nav-number">1.1.</span> <span class="nav-text">Finding
+Shortest-Path in Unweighted Graphs（幅優先探索）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#finding-shortest-path-in-weighted-graphs%E3%83%80%E3%82%A4%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0"><span class="nav-number">1.2.</span> <span class="nav-text">Finding
+Shortest-Path in Weighted Graphs（ダイクストラのアルゴリズム）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#minimum-spanning-trees%E6%9C%80%E5%B0%8F%E5%85%A8%E5%9F%9F%E6%9C%A8"><span class="nav-number">2.</span> <span class="nav-text">Minimum Spanning
+Trees（最小全域木）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#prims-algorithm%E3%83%97%E3%83%AA%E3%83%A0%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0"><span class="nav-number">2.1.</span> <span class="nav-text">Prim&#39;s
+Algorithm（プリムのアルゴリズム）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kruskals-algorithm%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AB%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0"><span class="nav-number">2.2.</span> <span class="nav-text">Kruskal&#39;s
+Algorithm（クラスカルのアルゴリズム）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#maximum-flow-problem%E6%9C%80%E5%A4%A7%E6%B5%81%E5%95%8F%E9%A1%8C"><span class="nav-number">3.</span> <span class="nav-text">Maximum Flow
+Problem（最大流問題）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ford-fulkerson-algorithm%E3%83%95%E3%82%A9%E3%83%BC%E3%83%89-%E3%83%95%E3%82%A1%E3%83%AB%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%B3%E6%B3%95"><span class="nav-number">3.1.</span> <span class="nav-text">Ford-Fulkerson
+Algorithm（フォード-ファルカーソン法）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#maximum-cardinality-bipartite-matching%E4%BA%8C%E9%83%A8%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E6%9C%80%E5%A4%A7%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0"><span class="nav-number">4.</span> <span class="nav-text">Maximum-Cardinality
+Bipartite Matching（二部グラフの最大マッチング）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#hungrian-algorithm-%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BC%E6%B3%95"><span class="nav-number">4.1.</span> <span class="nav-text">Hungrian Algorithm（
+ハンガリー法）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#reduce-mcbm-to-the-max-flow-problem%E6%9C%80%E5%A4%A7%E3%83%95%E3%83%AD%E3%83%BC%E5%95%8F%E9%A1%8C%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E8%A7%A3%E6%B3%95"><span class="nav-number">4.2.</span> <span class="nav-text">Reduce
+MCBM to the max-flow problem（最大フロー問題を使った解法）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#stable-marriage-problem%E5%AE%89%E5%AE%9A%E7%B5%90%E5%A9%9A%E5%95%8F%E9%A1%8C"><span class="nav-number">5.</span> <span class="nav-text">Stable Marriage
+Problem（安定結婚問題）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#gale-shapley-algorithm%E3%82%B2%E3%83%BC%E3%83%AB-%E3%82%B7%E3%83%A3%E3%83%97%E3%83%AC%E3%82%A4-%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0"><span class="nav-number">5.1.</span> <span class="nav-text">Gale-Shapley
+Algorithm（ゲール-シャプレイ アルゴリズム）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#euler-circuit-hamiltonian-cycle%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E5%9B%9E%E8%B7%AF%E3%81%A8%E3%83%8F%E3%83%9F%E3%83%AB%E3%83%88%E3%83%B3%E9%96%89%E8%B7%AF"><span class="nav-number">6.</span> <span class="nav-text">Euler
+circuit &amp; Hamiltonian cycle（オイラー回路とハミルトン閉路）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#euler-circuit%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E5%9B%9E%E8%B7%AF"><span class="nav-number">6.1.</span> <span class="nav-text">Euler circuit（オイラー回路）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hamiltonian-cycle%E3%83%8F%E3%83%9F%E3%83%AB%E3%83%88%E3%83%B3%E9%96%89%E8%B7%AF"><span class="nav-number">6.2.</span> <span class="nav-text">Hamiltonian
+cycle（ハミルトン閉路）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note%E6%B3%A8%E6%84%8F"><span class="nav-number">6.3.</span> <span class="nav-text">Note（注意）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#graph-coloring%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E5%BD%A9%E8%89%B2"><span class="nav-number">7.</span> <span class="nav-text">Graph Coloring（グラフの彩色）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#vertex-coloring%E9%A0%82%E7%82%B9%E5%BD%A9%E8%89%B2"><span class="nav-number">7.1.</span> <span class="nav-text">vertex coloring（頂点彩色）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#edge-coloring%E8%BE%BA%E5%BD%A9%E8%89%B2"><span class="nav-number">7.2.</span> <span class="nav-text">edge coloring（辺彩色）</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Yu"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Yu</p>
+  <div class="site-description" itemprop="description">Stay hungry, stay foolish.</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">101</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">23</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/IdealistYu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;IdealistYu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:harveyzhang@vip.qq.com" title="E-Mail → mailto:harveyzhang@vip.qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+<!-- 网站运行时间的设置 -->
+<div class="site-state-wrap animated">
+<i class="fa fa-circle-notch fa-spin" style="color:green;"></i> Running
+<span id="timeDate">Loading...</span>
+<script>
+    var now = new Date();
+    function createtime() 
+    {
+        var grt= new Date("09/03/2021");//此处修改为你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        document.getElementById("timeDate").innerHTML = dnum+" days.";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-subway fa-fw"></i>
+          Links
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="https://www.travellings.cn/go.html" title="https:&#x2F;&#x2F;www.travellings.cn&#x2F;go.html" rel="noopener" target="_blank">Travelling</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://idealistyu.github.io/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/GraphTheory/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yu's Site">
+      <meta itemprop="description" content="Stay hungry, stay foolish.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="まとめ | Yu's Site">
+      <meta itemprop="description" content="「グラフの理論」のまとめ">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          まとめ
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-04-28 01:27:26 / Modified: 01:23:35" itemprop="dateCreated datePublished" datetime="2023-04-28T01:27:26+08:00">2023-04-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/" itemprop="url" rel="index"><span itemprop="name">通信情報</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/" itemprop="url" rel="index"><span itemprop="name">B-6</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="Word count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Word count in article: </span>
+      <span>7.6k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>28 mins.</span>
+    </span>
+</div>
+
+            <div class="post-description">「グラフの理論」のまとめ</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>[toc]</p>
+<h1 id="shortest-path最短経路">Shortest Path（最短経路）</h1>
+<h2 id="finding-shortest-path-in-unweighted-graphs幅優先探索">Finding
+Shortest-Path in Unweighted Graphs（幅優先探索）</h2>
+<blockquote>
+<p>广度优先搜索（BFS）是一种用于无权图的最短路径算法。它是一种基于队列的算法，用于从图中的一个起始顶点开始遍历，找到到达所有其他顶点的最短路径。</p>
+<p>BFS算法的基本思想是从起始顶点开始，先将其加入队列中，然后从队列中取出一个顶点并遍历它的所有邻居顶点，将未被访问的邻居顶点加入队列中。然后重复这个过程，直到队列为空为止。在遍历过程中，需要记录每个顶点的距离和它的前驱节点，以便计算出到达每个顶点的最短路径。</p>
+<p>BFS算法的流程如下：</p>
+<ol type="1">
+<li>从起始顶点开始，将其加入队列中，并标记为已访问。</li>
+<li>从队列中取出一个顶点，并遍历它的所有邻居顶点。对于每个未被访问过的邻居顶点，将其加入队列中，并标记为已访问。同时记录它的距离和前驱节点。</li>
+<li>重复步骤2，直到队列为空。</li>
+</ol>
+<p>BFS算法的时间复杂度为 <span
+class="math inline">\(O(V+E)\)</span>，其中 <span
+class="math inline">\(V\)</span> 是顶点数，<span
+class="math inline">\(E\)</span>
+是边数。因为算法需要遍历每个顶点和每条边。</p>
+<p>需要注意的是，BFS算法仅适用于无权图。如果图中存在边的权重，那么应该使用其他算法，如Dijkstra算法或A*算法，来计算最短路径。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> deque</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">shortest_path</span>(<span class="params">graph, start, end</span>):</span><br><span class="line">    <span class="comment"># 创建一个队列并将起始节点添加到队列中</span></span><br><span class="line">    queue = deque()</span><br><span class="line">    queue.append(start)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 创建一个字典用于存储节点和它们的前一个节点</span></span><br><span class="line">    previous = &#123;&#125;</span><br><span class="line">    previous[start] = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 进行 BFS 直到找到终点或队列为空</span></span><br><span class="line">    <span class="keyword">while</span> queue:</span><br><span class="line">        current = queue.popleft()</span><br><span class="line">        <span class="keyword">if</span> current == end:</span><br><span class="line">            path = []</span><br><span class="line">            <span class="keyword">while</span> current:</span><br><span class="line">                path.append(current)</span><br><span class="line">                current = previous[current]</span><br><span class="line">            <span class="keyword">return</span> path[::-<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[current]:</span><br><span class="line">            <span class="keyword">if</span> neighbor <span class="keyword">not</span> <span class="keyword">in</span> previous:</span><br><span class="line">                previous[neighbor] = current</span><br><span class="line">                queue.append(neighbor)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 如果未找到路径，则返回 None</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">graph = &#123;</span><br><span class="line">    <span class="string">&#x27;A&#x27;</span>: [<span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;B&#x27;</span>: [<span class="string">&#x27;D&#x27;</span>, <span class="string">&#x27;E&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;C&#x27;</span>: [<span class="string">&#x27;E&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;D&#x27;</span>: [<span class="string">&#x27;F&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;E&#x27;</span>: [<span class="string">&#x27;F&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;F&#x27;</span>: []</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">start = <span class="string">&#x27;A&#x27;</span></span><br><span class="line">end = <span class="string">&#x27;F&#x27;</span></span><br><span class="line">path=shortest_path(graph, start, end)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(path)</span><br></pre></td></tr></table></figure>
+<h2
+id="finding-shortest-path-in-weighted-graphsダイクストラのアルゴリズム">Finding
+Shortest-Path in Weighted Graphs（ダイクストラのアルゴリズム）</h2>
+<blockquote>
+<p>Dijkstra算法是一种用于有权图的最短路径算法。它是一种贪心算法，用于从图中的一个起始顶点开始遍历，找到到达所有其他顶点的最短路径。</p>
+<p>Dijkstra算法的基本思想是维护一个距离表，用于记录从起始顶点到每个顶点的距离。起始时，距离表中除了起始顶点，其他所有顶点的距离均设为无穷大。然后从距离表中选择距离最小的顶点，并将其标记为已访问。然后更新距离表，将所有从该顶点出发的边所连接的顶点的距离更新为从起始顶点到该顶点的距离与该边的权重之和的最小值。然后重复这个过程，直到所有顶点都被标记为已访问。</p>
+<p>Dijkstra算法的流程如下：</p>
+<ol type="1">
+<li>初始化距离表，将起始顶点的距离设为0，其他顶点的距离设为无穷大。</li>
+<li>从距离表中选择距离最小的顶点，并将其标记为已访问。</li>
+<li>遍历所有从该顶点出发的边，对于每条边，将连接的顶点的距离更新为从起始顶点到该顶点的距离与该边的权重之和的最小值。</li>
+<li>重复步骤2和3，直到所有顶点都被标记为已访问。</li>
+</ol>
+<p>Dijkstra算法的时间复杂度为 <span
+class="math inline">\(O(V^2)\)</span>，其中 <span
+class="math inline">\(V\)</span>
+是顶点数。如果使用堆来实现距离表，可以将时间复杂度优化到 <span
+class="math inline">\(O(E\log V)\)</span>，其中 <span
+class="math inline">\(E\)</span> 是边数。</p>
+<p>需要注意的是，Dijkstra算法仅适用于没有负权边的图。如果图中存在负权边，那么应该使用其他算法，如Bellman-Ford算法或A*算法，来计算最短路径。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> heapq</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">dijkstra</span>(<span class="params">graph, start</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    实现狄杰斯特拉算法，用于找到加权图中起始节点到所有其他节点的最短路径。</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    参数：</span></span><br><span class="line"><span class="string">    graph (dict)：表示加权图的字典。</span></span><br><span class="line"><span class="string">    start (str)：起始节点。</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    返回：</span></span><br><span class="line"><span class="string">    字典，表示从起始节点到每个节点的最短路径。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    distances = &#123;v: <span class="built_in">float</span>(<span class="string">&#x27;inf&#x27;</span>) <span class="keyword">for</span> v <span class="keyword">in</span> graph&#125;  <span class="comment"># 将所有距离初始化为无限大</span></span><br><span class="line">    distances[start] = <span class="number">0</span>  <span class="comment"># 将起始节点的距离设置为0</span></span><br><span class="line">    queue = [(<span class="number">0</span>, start)]  <span class="comment"># 创建一个包含起始节点的优先队列</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> queue:</span><br><span class="line">        (current_dist, current_vertex) = heapq.heappop(queue)  <span class="comment"># 从队列中弹出当前距离最短的节点</span></span><br><span class="line">        <span class="keyword">if</span> current_dist &gt; distances[current_vertex]:  <span class="comment"># 如果当前节点已经被访问过，则跳过</span></span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line">        <span class="keyword">for</span> neighbor, weight <span class="keyword">in</span> graph[current_vertex].items():  <span class="comment"># 遍历当前节点的所有邻居节点</span></span><br><span class="line">            distance = current_dist + weight  <span class="comment"># 计算从起始节点到邻居节点的距离</span></span><br><span class="line">            <span class="keyword">if</span> distance &lt; distances[neighbor]:  <span class="comment"># 如果新的距离比已知的距离更短，则更新距离</span></span><br><span class="line">                distances[neighbor] = distance</span><br><span class="line">                heapq.heappush(queue, (distance, neighbor))  <span class="comment"># 将邻居节点和新的距离加入队列</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> distances</span><br><span class="line"></span><br><span class="line"><span class="comment"># 构建加权图，使用邻接表表示</span></span><br><span class="line">graph = &#123;</span><br><span class="line">    <span class="string">&#x27;A&#x27;</span>: &#123;<span class="string">&#x27;B&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;C&#x27;</span>: <span class="number">1</span>&#125;,</span><br><span class="line">    <span class="string">&#x27;B&#x27;</span>: &#123;<span class="string">&#x27;A&#x27;</span>: <span class="number">5</span>, <span class="string">&#x27;C&#x27;</span>: <span class="number">2</span>, <span class="string">&#x27;D&#x27;</span>: <span class="number">1</span>&#125;,</span><br><span class="line">    <span class="string">&#x27;C&#x27;</span>: &#123;<span class="string">&#x27;A&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;B&#x27;</span>: <span class="number">2</span>, <span class="string">&#x27;D&#x27;</span>: <span class="number">4</span>, <span class="string">&#x27;E&#x27;</span>: <span class="number">8</span>&#125;,</span><br><span class="line">    <span class="string">&#x27;D&#x27;</span>: &#123;<span class="string">&#x27;B&#x27;</span>: <span class="number">1</span>, <span class="string">&#x27;C&#x27;</span>: <span class="number">4</span>, <span class="string">&#x27;E&#x27;</span>: <span class="number">3</span>, <span class="string">&#x27;F&#x27;</span>: <span class="number">6</span>&#125;,</span><br><span class="line">    <span class="string">&#x27;E&#x27;</span>: &#123;<span class="string">&#x27;C&#x27;</span>: <span class="number">8</span>, <span class="string">&#x27;D&#x27;</span>: <span class="number">3</span>&#125;,</span><br><span class="line">    <span class="string">&#x27;F&#x27;</span>: &#123;<span class="string">&#x27;D&#x27;</span>: <span class="number">6</span>&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">start = <span class="string">&#x27;A&#x27;</span>  <span class="comment"># 起始节点为&#x27;A&#x27;</span></span><br><span class="line">distances = dijkstra(graph, start)  <span class="comment"># 使用狄杰斯特拉算法计算最短路径</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(distances)</span><br></pre></td></tr></table></figure>
+<h1 id="minimum-spanning-trees最小全域木">Minimum Spanning
+Trees（最小全域木）</h1>
+<h2 id="prims-algorithmプリムのアルゴリズム">Prim's
+Algorithm（プリムのアルゴリズム）</h2>
+<blockquote>
+<p>Prim算法是一种用于无向加权图的最小生成树算法，它的基本思想是从一个顶点开始，逐步扩展生成树，直到所有顶点都被包含在生成树中为止。</p>
+<p>Prim算法的流程如下：</p>
+<ol type="1">
+<li>选取任意一个顶点作为起始顶点，并将它加入生成树中。</li>
+<li>从生成树中的所有顶点出发，遍历它们的所有邻居顶点，找到连接生成树和非生成树顶点之间权重最小的边。</li>
+<li>将权重最小的边所连接的顶点加入生成树中，并将该边加入最小生成树的边集合中。</li>
+<li>重复步骤2和3，直到生成树中包含所有顶点。</li>
+</ol>
+<p>Prim算法的时间复杂度为 <span class="math inline">\(O(E\log
+V)\)</span>，其中 <span class="math inline">\(V\)</span> 是顶点数，<span
+class="math inline">\(E\)</span>
+是边数。因为算法需要遍历所有边并在每次遍历时对堆进行一次操作，堆的操作次数为
+<span class="math inline">\(E\log V\)</span>。</p>
+<p>需要注意的是，Prim算法仅适用于无向加权图。如果图中存在负权边，那么应该使用其他算法，如Kruskal算法，来计算最小生成树。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Graph</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, vertices</span>):</span><br><span class="line">        self.V = vertices  <span class="comment"># 图的顶点数</span></span><br><span class="line">        self.graph = [[<span class="number">0</span> <span class="keyword">for</span> column <span class="keyword">in</span> <span class="built_in">range</span>(vertices)] <span class="keyword">for</span> row <span class="keyword">in</span> <span class="built_in">range</span>(vertices)]  <span class="comment"># 初始化邻接矩阵</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 打印最小生成树</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">printMST</span>(<span class="params">self, parent</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;边    权重&quot;</span>)</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, self.V):</span><br><span class="line">            <span class="built_in">print</span>(parent[i], <span class="string">&quot;-&quot;</span>, i, <span class="string">&quot;  &quot;</span>, self.graph[i][parent[i]])</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 在未包含的顶点中找到最小的距离</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">minKey</span>(<span class="params">self, key, mstSet</span>):</span><br><span class="line">        <span class="built_in">min</span> = sys.maxsize</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> v <span class="keyword">in</span> <span class="built_in">range</span>(self.V):</span><br><span class="line">            <span class="keyword">if</span> key[v] &lt; <span class="built_in">min</span> <span class="keyword">and</span> mstSet[v] == <span class="literal">False</span>:</span><br><span class="line">                <span class="built_in">min</span> = key[v]</span><br><span class="line">                min_index = v</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> min_index</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计算Prim算法</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">primMST</span>(<span class="params">self</span>):</span><br><span class="line">        key = [sys.maxsize] * self.V</span><br><span class="line">        parent = [<span class="literal">None</span>] * self.V  <span class="comment"># 存储生成树</span></span><br><span class="line">        key[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">        mstSet = [<span class="literal">False</span>] * self.V</span><br><span class="line"></span><br><span class="line">        parent[<span class="number">0</span>] = -<span class="number">1</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> cout <span class="keyword">in</span> <span class="built_in">range</span>(self.V):</span><br><span class="line">            u = self.minKey(key, mstSet)</span><br><span class="line">            mstSet[u] = <span class="literal">True</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> v <span class="keyword">in</span> <span class="built_in">range</span>(self.V):</span><br><span class="line">                <span class="keyword">if</span> self.graph[u][v] &gt; <span class="number">0</span> <span class="keyword">and</span> mstSet[v] == <span class="literal">False</span> <span class="keyword">and</span> key[v] &gt; self.graph[u][v]:</span><br><span class="line">                    key[v] = self.graph[u][v]</span><br><span class="line">                    parent[v] = u</span><br><span class="line"></span><br><span class="line">        self.printMST(parent)</span><br><span class="line"></span><br><span class="line">g = Graph(<span class="number">5</span>)</span><br><span class="line">g.graph = [[<span class="number">0</span>, <span class="number">2</span>, <span class="number">0</span>, <span class="number">6</span>, <span class="number">0</span>],</span><br><span class="line">           [<span class="number">2</span>, <span class="number">0</span>, <span class="number">3</span>, <span class="number">8</span>, <span class="number">5</span>],</span><br><span class="line">           [<span class="number">0</span>, <span class="number">3</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">7</span>],</span><br><span class="line">           [<span class="number">6</span>, <span class="number">8</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">9</span>],</span><br><span class="line">           [<span class="number">0</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>, <span class="number">0</span>]]</span><br><span class="line"></span><br><span class="line">g.primMST()</span><br></pre></td></tr></table></figure>
+<h2 id="kruskals-algorithmクラスカルのアルゴリズム">Kruskal's
+Algorithm（クラスカルのアルゴリズム）</h2>
+<blockquote>
+<p>Kruskal算法是一种用于无向加权图的最小生成树算法，它的基本思想是从所有边中按照权重从小到大的顺序选取边，依次将其加入生成树中，如果加入该边不会形成环，则将其加入最小生成树的边集合中。</p>
+<p>Kruskal算法的流程如下：</p>
+<ol type="1">
+<li>将图中所有边按照权重从小到大的顺序排序。</li>
+<li>从权重最小的边开始遍历，如果加入该边不会形成环，则将该边加入最小生成树的边集合中。</li>
+<li>判断加入该边后是否会形成环，可以使用并查集来实现。如果加入该边后形成了环，则不加入该边。</li>
+<li>重复步骤2和3，直到最小生成树包含了所有顶点。</li>
+</ol>
+<p>Kruskal算法的时间复杂度为 <span class="math inline">\(O(E\log
+E)\)</span>，其中 <span class="math inline">\(E\)</span>
+是边数。因为算法需要对所有边进行排序，并在每次加入边时进行一次并查集的操作，因此时间复杂度为
+<span class="math inline">\(O(E\log E)\)</span>。</p>
+<p>需要注意的是，Kruskal算法仅适用于无向加权图。如果图中存在负权边，那么应该使用其他算法，如Prim算法，来计算最小生成树。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> typing <span class="keyword">import</span> <span class="type">List</span>, <span class="type">Tuple</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义并查集类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">UnionFind</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, n</span>):</span><br><span class="line">        <span class="comment"># 初始化每个节点的父节点为自己，初始秩(rank)为0</span></span><br><span class="line">        self.parent = <span class="built_in">list</span>(<span class="built_in">range</span>(n))</span><br><span class="line">        self.rank = [<span class="number">0</span>] * n</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 查找节点i所在的集合的根节点</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">find</span>(<span class="params">self, i</span>):</span><br><span class="line">        <span class="keyword">if</span> self.parent[i] != i:</span><br><span class="line">            <span class="comment"># 如果节点i的父节点不是它本身，就递归向上找父节点</span></span><br><span class="line">            self.parent[i] = self.find(self.parent[i])</span><br><span class="line">        <span class="keyword">return</span> self.parent[i]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 合并两个集合</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">union</span>(<span class="params">self, i, j</span>):</span><br><span class="line">        <span class="comment"># 找到节点i和节点j所在的集合的根节点</span></span><br><span class="line">        pi, pj = self.find(i), self.find(j)</span><br><span class="line">        <span class="keyword">if</span> pi != pj:</span><br><span class="line">            <span class="comment"># 如果根节点不同，就按秩合并，即将rank较小的集合合并到rank较大的集合中</span></span><br><span class="line">            <span class="keyword">if</span> self.rank[pi] &lt; self.rank[pj]:</span><br><span class="line">                pi, pj = pj, pi</span><br><span class="line">            self.parent[pj] = pi</span><br><span class="line">            <span class="keyword">if</span> self.rank[pi] == self.rank[pj]:</span><br><span class="line">                self.rank[pi] += <span class="number">1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 定义Kruskal算法函数</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">kruskal</span>(<span class="params">n: <span class="built_in">int</span>, edges: <span class="type">List</span>[<span class="type">Tuple</span>[<span class="built_in">int</span>, <span class="built_in">int</span>, <span class="built_in">int</span>]]</span>) -&gt; <span class="type">List</span>[<span class="type">Tuple</span>[<span class="built_in">int</span>, <span class="built_in">int</span>, <span class="built_in">int</span>]]:</span><br><span class="line">    <span class="comment"># 初始化并查集</span></span><br><span class="line">    uf = UnionFind(n)</span><br><span class="line">    <span class="comment"># 将边按照权重从小到大排序</span></span><br><span class="line">    edges.sort(key=<span class="keyword">lambda</span> e: e[<span class="number">2</span>])</span><br><span class="line">    <span class="comment"># 用于保存最小生成树的边的列表</span></span><br><span class="line">    res = []</span><br><span class="line">    <span class="keyword">for</span> u, v, w <span class="keyword">in</span> edges:</span><br><span class="line">        <span class="comment"># 如果u和v不在同一个集合中，即加入该边不会形成环</span></span><br><span class="line">        <span class="keyword">if</span> uf.find(u) != uf.find(v):</span><br><span class="line">            <span class="comment"># 合并u和v所在的集合</span></span><br><span class="line">            uf.union(u, v)</span><br><span class="line">            <span class="comment"># 将该边加入最小生成树的边集合中</span></span><br><span class="line">            res.append((u, v, w))</span><br><span class="line">            <span class="comment"># 如果已经找到n-1条边，即包含了所有的顶点，退出循环</span></span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">len</span>(res) == n - <span class="number">1</span>:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">    <span class="comment"># 返回最小生成树的边集合</span></span><br><span class="line">    <span class="keyword">return</span> res</span><br><span class="line">  </span><br><span class="line">n = <span class="number">5</span></span><br><span class="line">edges = [(<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>), (<span class="number">0</span>, <span class="number">2</span>, <span class="number">3</span>), (<span class="number">0</span>, <span class="number">3</span>, <span class="number">1</span>), (<span class="number">1</span>, <span class="number">2</span>, <span class="number">4</span>), (<span class="number">1</span>, <span class="number">4</span>, <span class="number">5</span>), (<span class="number">2</span>, <span class="number">3</span>, <span class="number">6</span>), (<span class="number">3</span>, <span class="number">4</span>, <span class="number">3</span>)]</span><br><span class="line">result = kruskal(n, edges)</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure>
+<h1 id="maximum-flow-problem最大流問題">Maximum Flow
+Problem（最大流問題）</h1>
+<h2
+id="ford-fulkerson-algorithmフォード-ファルカーソン法">Ford-Fulkerson
+Algorithm（フォード-ファルカーソン法）</h2>
+<blockquote>
+<p>Ford-Fulkerson算法是求解最大流问题的一种基本方法。该算法通过不断寻找增广路径，并沿着增广路径更新网络流，直到不存在增广路径为止。下面是一般情况下的算法流程：</p>
+<ol type="1">
+<li>初始化网络流为0。</li>
+<li>在残留网络中寻找一条增广路径（可以使用深度优先搜索或广度优先搜索），如果能找到增广路径，则计算增广路径上的最小容量（也称为瓶颈容量）。</li>
+<li>沿着增广路径更新网络流，将增广路径上的每一条边的流量增加最小容量，同时将反向边的流量减少相同的值。</li>
+<li>重复步骤2和步骤3，直到没有增广路径为止。此时，网络流的值就是最大流的值。</li>
+</ol>
+<p>在该算法中，残留网络是一个与原网络具有相同的拓扑结构，但是每条边的容量是当前流和最大容量的差值。如果某个边的容量为0，说明该边不能再传输流量，因此在增广路径的选择过程中，需要排除容量为0的边。</p>
+<p>Ford-Fulkerson算法的时间复杂度取决于增广路径的选择方式。如果使用深度优先搜索，最坏情况下时间复杂度可以达到
+<span class="math inline">\(O(Ef)\)</span>，其中 <span
+class="math inline">\(E\)</span> 是边的数量，<span
+class="math inline">\(f\)</span>
+是最大流的值。需要注意的是，Ford-Fulkerson算法本身不是一个具体的算法，而是一种解决最大流问题的基本思想。实际上，Ford-Fulkerson算法的具体实现方法有很多种，比较常见的有Edmonds-Karp算法和Dinic算法。</p>
+</blockquote>
+<blockquote>
+<p>Edmonds-Karp算法和Dinic算法都是Ford-Fulkerson算法的优化版本。</p>
+<p>Edmonds-Karp算法通过使用广度优先搜索来找到增广路径，而不是深度优先搜索。这样做可以保证在找到增广路径时，路径的长度最短，因此算法的时间复杂度是O(VE^2)，其中V是节点数，E是边数。</p>
+<p>Dinic算法则使用一种叫做层次图的数据结构来寻找增广路径，它通过对图进行分层，使得在每次寻找增广路径时只需要在同一层次内进行搜索。这样做可以显著减少搜索的次数，从而使算法的时间复杂度为O(V^2E)，其中V是节点数，E是边数。</p>
+<p>相比之下，Ford-Fulkerson算法并没有明确的增广路径寻找策略，而是依靠深度优先搜索来寻找增广路径。这种方法的时间复杂度并不好估计，因为它取决于寻找增广路径的方式和具体的输入数据。</p>
+<p>因此，尽管三种算法都是求解最大流问题的经典算法，但它们的具体实现和时间复杂度上存在差异。选择哪一种算法应该根据具体情况而定。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> defaultdict</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Graph</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="comment"># 用一个默认字典来存储图的边权重</span></span><br><span class="line">        self.graph = defaultdict(<span class="built_in">dict</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add_edge</span>(<span class="params">self, u, v, w</span>):</span><br><span class="line">        <span class="comment"># 添加一条从u到v的边，边的权重为w</span></span><br><span class="line">        self.graph[u][v] = w</span><br><span class="line">        self.graph[v][u] = <span class="number">0</span>  <span class="comment"># 添加反向边，容量为 0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">dfs</span>(<span class="params">self, u, t, visited, path</span>):</span><br><span class="line">        <span class="comment"># 深度优先搜索寻找增广路径</span></span><br><span class="line">        visited[u] = <span class="literal">True</span></span><br><span class="line">        path.append(u)</span><br><span class="line">        <span class="comment"># 如果当前节点为汇点，则找到一条增广路径</span></span><br><span class="line">        <span class="keyword">if</span> u == t:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="comment"># 对于每个与u相邻的节点v，如果v没有被访问过且(u, v)的边的权重大于0，</span></span><br><span class="line">        <span class="comment"># 则继续寻找增广路径</span></span><br><span class="line">        <span class="keyword">for</span> v <span class="keyword">in</span> self.graph[u]:</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> visited[v] <span class="keyword">and</span> self.graph[u][v] &gt; <span class="number">0</span>:</span><br><span class="line">                <span class="keyword">if</span> self.dfs(v, t, visited, path):</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="comment"># 如果没有找到增广路径，则从当前路径中删除u</span></span><br><span class="line">        path.pop()</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">ford_fulkerson</span>(<span class="params">self, source, sink</span>):</span><br><span class="line">        max_flow = <span class="number">0</span></span><br><span class="line">        <span class="comment"># 只要存在增广路径，就一直找增广路径</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="comment"># 用一个默认字典来记录节点是否已经被访问过</span></span><br><span class="line">            visited = defaultdict(<span class="built_in">bool</span>)</span><br><span class="line">            <span class="comment"># 用一个列表来记录当前增广路径</span></span><br><span class="line">            path = []</span><br><span class="line">            <span class="comment"># 在未访问的节点中寻找增广路径</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">not</span> self.dfs(source, sink, visited, path):</span><br><span class="line">                <span class="comment"># 如果没有找到增广路径，则结束查找</span></span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">            <span class="comment"># 如果找到增广路径，计算路径上的最小权重</span></span><br><span class="line">            flow = <span class="built_in">float</span>(<span class="string">&quot;inf&quot;</span>)</span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(path) - <span class="number">1</span>):</span><br><span class="line">                u, v = path[i], path[i + <span class="number">1</span>]</span><br><span class="line">                flow = <span class="built_in">min</span>(flow, self.graph[u][v])</span><br><span class="line">            <span class="comment"># 根据最小权重更新路径上的边的权重</span></span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(path) - <span class="number">1</span>):</span><br><span class="line">                u, v = path[i], path[i + <span class="number">1</span>]</span><br><span class="line">                self.graph[u][v] -= flow</span><br><span class="line">                self.graph[v][u] += flow</span><br><span class="line">            <span class="comment"># 增加流量</span></span><br><span class="line">            max_flow += flow</span><br><span class="line">        <span class="comment"># 返回最大流</span></span><br><span class="line">        <span class="keyword">return</span> max_flow</span><br><span class="line"> </span><br><span class="line">g = Graph()</span><br><span class="line">g.add_edge(<span class="string">&#x27;s&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="number">10</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;s&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="number">8</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="number">2</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="number">5</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;D&#x27;</span>, <span class="number">2</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;D&#x27;</span>, <span class="number">6</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;t&#x27;</span>, <span class="number">7</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;D&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="number">1</span>)</span><br><span class="line">g.add_edge(<span class="string">&#x27;D&#x27;</span>, <span class="string">&#x27;t&#x27;</span>, <span class="number">10</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Max flow:&quot;</span>, g.ford_fulkerson(<span class="string">&#x27;s&#x27;</span>, <span class="string">&#x27;t&#x27;</span>))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1
+id="maximum-cardinality-bipartite-matching二部グラフの最大マッチング">Maximum-Cardinality
+Bipartite Matching（二部グラフの最大マッチング）</h1>
+<h2 id="hungrian-algorithm-ハンガリー法">Hungrian Algorithm（
+ハンガリー法）</h2>
+<blockquote>
+<p>匈牙利算法是一种解决二分图最大匹配问题的经典算法。二分图是指一个图的所有顶点可以分为两部分，使得每条边的两个端点分别属于不同的部分。而匈牙利算法的目标就是在一个二分图中找到一个最大匹配，即最大的边集合，其中每个顶点最多与一条边相连。</p>
+<p>下面是匈牙利算法的步骤：</p>
+<ol type="1">
+<li><p>对于二分图中的每个未匹配点，尝试从该点出发找到增广路，即一条交替经过未匹配边和已匹配边的路径，路径的起点和终点都是未匹配点。</p></li>
+<li><p>如果存在增广路，则将该路径上的已匹配边和未匹配边交换，即可得到一个新的匹配。</p></li>
+<li><p>如果不存在增广路，则当前匹配就是最大匹配，算法结束。</p></li>
+<li><p>重复步骤1-3，直到找到所有增广路或者确定了最大匹配。</p></li>
+</ol>
+<p>匈牙利算法的时间复杂度为 O(mn)，其中 m 和 n
+分别为二分图的左右两部分的顶点数，因此该算法适用于小规模的二分图。如果需要处理大规模的图，则需要使用更高效的算法。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hungarian_algorithm</span>(<span class="params">matrix</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    实现匈牙利算法，计算二分图最大匹配</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">    matrix: 一个numpy数组，表示二分图的邻接矩阵。matrix[i,j]=1表示左侧第i个节点和右侧第j个节点之间有一条边。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">    max_match: 一个整数，表示最大匹配数。</span></span><br><span class="line"><span class="string">    match: 一个字典，表示最大匹配。match[i]=j表示左侧第i个节点和右侧第j个节点匹配。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    n, m = matrix.shape</span><br><span class="line">    <span class="comment"># 初始化match字典，用于存储最大匹配，初始时所有节点都没有匹配</span></span><br><span class="line">    <span class="keyword">match</span> = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">        <span class="keyword">match</span>[i] = -<span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 寻找增广路径</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">dfs</span>(<span class="params">u</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        在二分图中从节点u出发寻找增广路径</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Args:</span></span><br><span class="line"><span class="string">        u: 一个整数，表示从左侧第u个节点开始寻找增广路径。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">        如果找到增广路径，返回True，否则返回False。</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">for</span> v <span class="keyword">in</span> <span class="built_in">range</span>(m):</span><br><span class="line">            <span class="comment"># 如果从节点u到节点v存在一条边，并且节点v没有被使用过</span></span><br><span class="line">            <span class="keyword">if</span> matrix[u][v] <span class="keyword">and</span> <span class="keyword">not</span> used[v]:</span><br><span class="line">                <span class="comment"># 标记节点v已经被使用过了</span></span><br><span class="line">                used[v] = <span class="literal">True</span></span><br><span class="line">                <span class="comment"># 如果节点v没有匹配或者从节点v的匹配节点出发可以找到增广路径</span></span><br><span class="line">                <span class="keyword">if</span> <span class="keyword">match</span>[v] == -<span class="number">1</span> <span class="keyword">or</span> dfs(<span class="keyword">match</span>[v]):</span><br><span class="line">                    <span class="comment"># 将节点u和节点v匹配</span></span><br><span class="line">                    <span class="keyword">match</span>[v] = u</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="comment"># 如果从节点u出发无法找到增广路径，则返回False</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计算最大匹配</span></span><br><span class="line">    max_match = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">        <span class="comment"># 初始化used列表，用于标记节点是否被使用过</span></span><br><span class="line">        used = [<span class="literal">False</span>] * m</span><br><span class="line">        <span class="comment"># 从左侧第i个节点出发寻找增广路径</span></span><br><span class="line">        <span class="keyword">if</span> dfs(i):</span><br><span class="line">            <span class="comment"># 如果找到增广路径，则最大匹配数加1</span></span><br><span class="line">            max_match += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 返回最大匹配数和最大匹配字典</span></span><br><span class="line">    <span class="keyword">return</span> max_match, <span class="keyword">match</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 示例邻接矩阵</span></span><br><span class="line">matrix = np.array([</span><br><span class="line">    [<span class="number">1</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>],</span><br><span class="line">    [<span class="number">1</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>],</span><br><span class="line">    [<span class="number">0</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>],</span><br><span class="line">    [<span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">1</span>]</span><br><span class="line">])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用匈牙利算法</span></span><br><span class="line">max_match, <span class="keyword">match</span> = hungarian_algorithm(matrix)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出结果</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;最大匹配数:&quot;</span>, max_match)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;最大匹配:&quot;</span>, <span class="keyword">match</span>)</span><br></pre></td></tr></table></figure>
+<h2
+id="reduce-mcbm-to-the-max-flow-problem最大フロー問題を使った解法">Reduce
+MCBM to the max-flow problem（最大フロー問題を使った解法）</h2>
+<blockquote>
+<p>最大流问题算法可以用来解决二分图最大匹配问题，其中最经典的算法是Ford-Fulkerson算法和Edmonds-Karp算法。这里介绍一下使用Ford-Fulkerson算法解决二分图最大匹配问题的流程：</p>
+<ol type="1">
+<li><p>将二分图转化为网络流图：将二分图的左侧顶点设为源点S，右侧顶点设为汇点T，每条边的容量设为1，得到一个网络流图。</p></li>
+<li><p>在网络流图上运行Ford-Fulkerson算法，求出最大流量。</p></li>
+<li><p>根据最大流的值，构造一个最大匹配：对于每条从左侧顶点到右侧顶点的边，如果这条边的流量为1，那么就说明这是一个匹配边。将所有的匹配边集合起来，就构成了一个最大匹配。</p></li>
+</ol>
+<p>Ford-Fulkerson算法的时间复杂度为O(f *
+E)，其中f表示最大流量，E表示网络流图的边数。在二分图最大匹配问题中，f的值最大为n，即左侧顶点数，因此算法的时间复杂度为O(nE)。</p>
+<p>需要注意的是，最大流算法可以解决一般的网络流问题，因此当二分图不是完全二分图（即有左侧顶点和右侧顶点之间的边）时，最大流算法仍然可以求解，但得到的最大流不一定是最大匹配。此时需要对得到的最大流进行调整，才能得到一个最大匹配。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> networkx <span class="keyword">as</span> nx</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">max_matching_bipartite</span>(<span class="params">graph</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    使用最大流算法求解二分图最大匹配问题</span></span><br><span class="line"><span class="string">    参数：</span></span><br><span class="line"><span class="string">    graph: 无向图，表示二分图，使用NetworkX库中的Graph对象表示</span></span><br><span class="line"><span class="string">           二分图中的左侧节点标记为&#x27;A&#x27;，右侧节点标记为&#x27;B&#x27;</span></span><br><span class="line"><span class="string">    返回值：</span></span><br><span class="line"><span class="string">    匹配结果，使用字典表示，键为左侧节点，值为右侧节点</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 为每个节点分配一个唯一的ID，以便在网络流算法中使用</span></span><br><span class="line">    mapping = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> i, node <span class="keyword">in</span> <span class="built_in">enumerate</span>(graph.nodes):</span><br><span class="line">        mapping[node] = i</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 构建网络流图</span></span><br><span class="line">    flow_graph = nx.DiGraph()</span><br><span class="line">    <span class="comment"># 添加源节点和汇节点</span></span><br><span class="line">    flow_graph.add_node(<span class="string">&#x27;s&#x27;</span>)</span><br><span class="line">    flow_graph.add_node(<span class="string">&#x27;t&#x27;</span>)</span><br><span class="line">    <span class="comment"># 添加二分图中的节点</span></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.nodes:</span><br><span class="line">        <span class="keyword">if</span> node.startswith(<span class="string">&#x27;A&#x27;</span>):</span><br><span class="line">            <span class="comment"># 如果是左侧节点，则从源节点连一条容量为1的边</span></span><br><span class="line">            flow_graph.add_edge(<span class="string">&#x27;s&#x27;</span>, mapping[node], capacity=<span class="number">1</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 如果是右侧节点，则连向汇节点的容量为1的边</span></span><br><span class="line">            flow_graph.add_edge(mapping[node], <span class="string">&#x27;t&#x27;</span>, capacity=<span class="number">1</span>)</span><br><span class="line">    <span class="comment"># 添加二分图中的边</span></span><br><span class="line">    <span class="keyword">for</span> u, v <span class="keyword">in</span> graph.edges:</span><br><span class="line">        <span class="comment"># 在网络流图中添加u到v的容量为1的边</span></span><br><span class="line">        flow_graph.add_edge(mapping[u], mapping[v], capacity=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 使用最大流算法求解网络流图中的最大流</span></span><br><span class="line">    flow_value, flow_dict = nx.maximum_flow(flow_graph, <span class="string">&#x27;s&#x27;</span>, <span class="string">&#x27;t&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 从最大流中获取匹配结果</span></span><br><span class="line">    matching = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> u, neighbors <span class="keyword">in</span> flow_dict.items():</span><br><span class="line">        <span class="keyword">for</span> v, flow <span class="keyword">in</span> neighbors.items():</span><br><span class="line">            <span class="comment"># 如果边的流量为1，说明这条边被选中作为匹配边</span></span><br><span class="line">            <span class="keyword">if</span> flow == <span class="number">1</span> <span class="keyword">and</span> u != <span class="string">&#x27;s&#x27;</span> <span class="keyword">and</span> v != <span class="string">&#x27;t&#x27;</span>:</span><br><span class="line">                <span class="comment"># 将左侧节点u和右侧节点v添加到匹配结果中</span></span><br><span class="line">                matching[<span class="built_in">list</span>(mapping.keys())[<span class="built_in">list</span>(mapping.values()).index(u)]] = <span class="built_in">list</span>(mapping.keys())[<span class="built_in">list</span>(mapping.values()).index(v)]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> matching</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建一个简单的二分图</span></span><br><span class="line">graph = nx.Graph()</span><br><span class="line">graph.add_nodes_from([<span class="string">&#x27;A1&#x27;</span>, <span class="string">&#x27;A2&#x27;</span>, <span class="string">&#x27;A3&#x27;</span>, <span class="string">&#x27;B1&#x27;</span>, <span class="string">&#x27;B2&#x27;</span>, <span class="string">&#x27;B3&#x27;</span>])</span><br><span class="line">graph.add_edges_from([(<span class="string">&#x27;A1&#x27;</span>, <span class="string">&#x27;B1&#x27;</span>), (<span class="string">&#x27;A1&#x27;</span>, <span class="string">&#x27;B2&#x27;</span>), (<span class="string">&#x27;A2&#x27;</span>, <span class="string">&#x27;B1&#x27;</span>), (<span class="string">&#x27;A3&#x27;</span>, <span class="string">&#x27;B2&#x27;</span>), (<span class="string">&#x27;A3&#x27;</span>, <span class="string">&#x27;B3&#x27;</span>)])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 求解最大匹配</span></span><br><span class="line">matching = max_matching_bipartite(graph)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出匹配结果</span></span><br><span class="line"><span class="built_in">print</span>(matching)</span><br><span class="line"><span class="comment"># &#123;&#x27;A1&#x27;: &#x27;B2&#x27;, &#x27;A2&#x27;: &#x27;B1&#x27;, &#x27;A3&#x27;: &#x27;B3&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
+<h1 id="stable-marriage-problem安定結婚問題">Stable Marriage
+Problem（安定結婚問題）</h1>
+<h2
+id="gale-shapley-algorithmゲール-シャプレイ-アルゴリズム">Gale-Shapley
+Algorithm（ゲール-シャプレイ アルゴリズム）</h2>
+<blockquote>
+<p>稳定婚姻问题的背景是这样的：有n个男人和n个女人，每个人都有一个偏好列表，其中男人对女人的偏好按照从高到低的顺序排序，女人对男人的偏好也是如此。现在需要进行匹配，每个男人只能与一个女人结婚，每个女人也只能与一个男人结婚。如果存在一对男女，他们之间有更高的偏好关系，但是目前却没有匹配在一起，那么就称这个匹配是不稳定的。</p>
+<p>Gale-Shapley算法的核心思想是：让每个男人按照自己的偏好列表依次向自己最喜欢的女人求婚，同时让每个女人选择自己最喜欢的求婚者。如果一个女人已经有了婚约，她会比较自己的现任丈夫和新的求婚者，如果新的求婚者更好，她会拒绝现任丈夫，选择新的求婚者。如果一个男人被拒绝了，他就会去向自己的次喜欢女人求婚，直到他找到了一个女人愿意和他结婚。使用Gale-Shapley
+Algorithm计算稳定婚配问题的步骤如下：</p>
+<ol type="1">
+<li><p>每个男性向他最喜欢的女性求婚，每个女性先暂时保留她最喜欢的男性的求婚。</p></li>
+<li><p>对于每个女性，如果她已经被求婚，那么她会比较自己当前的男性和新的求婚者，选择她更喜欢的男性，并将之前的男性归还到未婚状态。</p></li>
+<li><p>重复步骤2，直到所有女性都有一个男性。</p></li>
+<li><p>对于每个男性，如果他被拒绝了，那么他向下一个最喜欢的女性求婚，并重复步骤2和3，直到他找到一个女性接受他的求婚。</p></li>
+<li><p>当所有男性都有一个女性时，算法结束。</p></li>
+</ol>
+<p>通过这个过程，每个男性和女性都会得到一个稳定的婚配，也就是说，不存在两个人，其中一个更喜欢另一个，但是被配对到了不喜欢的人身上。Gale-Shapley
+Algorithm的时间复杂度为O(n^2)，其中n是男女数量的总和。</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">gale_shapley</span>(<span class="params">men_prefs, women_prefs</span>):</span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">    实现Gale-Shapley算法解决稳定婚姻匹配问题。</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    参数:</span></span><br><span class="line"><span class="string">    - men_prefs: 男性偏好的字典，其中键为男性姓名，值为按偏好排序的女性姓名列表。</span></span><br><span class="line"><span class="string">    - women_prefs: 女性偏好的字典，其中键为女性姓名，值为按偏好排序的男性姓名列表。</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    返回:</span></span><br><span class="line"><span class="string">    - 表示稳定匹配的字典，其中键为男性姓名，值为他们匹配的女性姓名。</span></span><br><span class="line"><span class="string">    &#x27;&#x27;&#x27;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 初始化所有男性未匹配，并将每个男性的“下一个选择”索引设为0</span></span><br><span class="line">    <span class="comment"># 记录每个男性的当前匹配和他的偏好列表</span></span><br><span class="line">    unmatched_men = <span class="built_in">set</span>(men_prefs.keys())</span><br><span class="line">    next_choice = &#123;man: <span class="number">0</span> <span class="keyword">for</span> man <span class="keyword">in</span> unmatched_men&#125;</span><br><span class="line">    current_match = &#123;man: <span class="literal">None</span> <span class="keyword">for</span> man <span class="keyword">in</span> unmatched_men&#125;</span><br><span class="line">    men_pref_lists = &#123;man: prefs <span class="keyword">for</span> man, prefs <span class="keyword">in</span> men_prefs.items()&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 初始化所有女性未匹配，并记录每个女性的当前匹配和她的偏好列表</span></span><br><span class="line">    unmatched_women = <span class="built_in">set</span>(women_prefs.keys())</span><br><span class="line">    current_match_rev = &#123;woman: <span class="literal">None</span> <span class="keyword">for</span> woman <span class="keyword">in</span> unmatched_women&#125;</span><br><span class="line">    women_pref_lists = &#123;woman: prefs <span class="keyword">for</span> woman, prefs <span class="keyword">in</span> women_prefs.items()&#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 迭代过程，直到所有男性都匹配成功为止</span></span><br><span class="line">    <span class="keyword">while</span> unmatched_men:</span><br><span class="line">        <span class="comment"># 选择一个未匹配的男性</span></span><br><span class="line">        man = unmatched_men.pop()</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 获取这个男性的偏好列表和他当前的“下一个选择”</span></span><br><span class="line">        prefs = men_pref_lists[man]</span><br><span class="line">        idx = next_choice[man]</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 尝试与他的首选女性匹配</span></span><br><span class="line">        woman = prefs[idx]</span><br><span class="line">        </span><br><span class="line">        <span class="comment"># 如果这个女性还未匹配，将男性与女性匹配</span></span><br><span class="line">        <span class="keyword">if</span> current_match_rev[woman] <span class="keyword">is</span> <span class="literal">None</span>:</span><br><span class="line">            current_match[man] = woman</span><br><span class="line">            current_match_rev[woman] = man</span><br><span class="line">            </span><br><span class="line">        <span class="comment"># 如果这个女性已经与其他男性匹配，检查她是否更喜欢当前男性</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            other_man = current_match_rev[woman]</span><br><span class="line">            other_idx = women_pref_lists[woman].index(other_man)</span><br><span class="line">            current_idx = women_pref_lists[woman].index(man)</span><br><span class="line">            </span><br><span class="line">            <span class="comment"># 如果这个女性更喜欢当前男性，则解除她与原男性的匹配，并将当前男性与她匹配</span></span><br><span class="line">            <span class="keyword">if</span> current_idx &lt; other_idx:</span><br><span class="line">                current_match[man] = woman</span><br><span class="line">                current_match_rev[woman] = man</span><br><span class="line">                current_match[other_man] = <span class="literal">None</span></span><br><span class="line">                unmatched_men.add(other_man)</span><br><span class="line">                </span><br><span class="line">        <span class="comment"># 更新男性的“下一个选择”索引</span></span><br><span class="line">        next_choice[man] += <span class="number">1</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> current_match</span><br><span class="line"></span><br><span class="line">men_prefs = &#123;</span><br><span class="line">    <span class="string">&#x27;John&#x27;</span>: [<span class="string">&#x27;Mary&#x27;</span>, <span class="string">&#x27;Jane&#x27;</span>, <span class="string">&#x27;Alice&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Bob&#x27;</span>: [<span class="string">&#x27;Alice&#x27;</span>, <span class="string">&#x27;Mary&#x27;</span>, <span class="string">&#x27;Jane&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Tom&#x27;</span>: [<span class="string">&#x27;Jane&#x27;</span>, <span class="string">&#x27;Alice&#x27;</span>, <span class="string">&#x27;Mary&#x27;</span>]</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">women_prefs = &#123;</span><br><span class="line">    <span class="string">&#x27;Mary&#x27;</span>: [<span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;John&#x27;</span>, <span class="string">&#x27;Tom&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Jane&#x27;</span>: [<span class="string">&#x27;Tom&#x27;</span>, <span class="string">&#x27;John&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>],</span><br><span class="line">    <span class="string">&#x27;Alice&#x27;</span>: [<span class="string">&#x27;John&#x27;</span>, <span class="string">&#x27;Bob&#x27;</span>, <span class="string">&#x27;Tom&#x27;</span>]</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">stable_matching = gale_shapley(men_prefs, women_prefs)</span><br><span class="line"><span class="built_in">print</span>(stable_matching)</span><br></pre></td></tr></table></figure>
+<h1
+id="euler-circuit-hamiltonian-cycleオイラー回路とハミルトン閉路">Euler
+circuit &amp; Hamiltonian cycle（オイラー回路とハミルトン閉路）</h1>
+<blockquote>
+<p>欧拉回路是指一条经过所有边恰好一次的回路。注意，欧拉回路不需要经过所有的节点，只需要经过所有的边即可。如果图中存在欧拉回路，那么这个图被称为欧拉图。</p>
+<p>相比之下，哈密顿闭路则是指一条经过所有节点恰好一次的回路。也就是说，哈密顿闭路必须经过所有节点，但不需要经过所有边。如果图中存在哈密顿闭路，那么这个图被称为哈密顿图。</p>
+<p>在实际应用中，欧拉回路和哈密顿闭路都具有一定的意义。比如说，在城市旅游规划中，欧拉回路可以帮助规划出一条游览所有景点的最短路径；而哈密顿闭路可以帮助规划出一条游览所有景点的路径，且不需要重复经过某个景点。</p>
+<p>需要注意的是，判断一个图是否存在欧拉回路或哈密顿闭路是一个NP完全问题，即当前不存在有效的多项式时间算法。因此，只能使用一些启发式算法或近似算法进行求解。</p>
+</blockquote>
+<h2 id="euler-circuitオイラー回路">Euler circuit（オイラー回路）</h2>
+<blockquote>
+<p>欧拉回路相关定理：</p>
+<ol type="1">
+<li><p>偶度节点定理：一个无向图存在欧拉回路，当且仅当该图的所有节点度数均为偶数。</p></li>
+<li><p>费马定理：一个无向图存在欧拉回路，当且仅当该图的所有节点度数均为偶数或者有且仅有两个节点的度数为奇数。</p></li>
+<li><p>东京-底特律定理：一个无向图存在欧拉回路，当且仅当该图的任意两个顶点之间都存在偶数条路径。</p></li>
+<li><p>奥雷定理：一个有向图存在欧拉回路，当且仅当该图的所有节点的入度和出度相等。</p></li>
+</ol>
+</blockquote>
+<h2 id="hamiltonian-cycleハミルトン閉路">Hamiltonian
+cycle（ハミルトン閉路）</h2>
+<blockquote>
+<p>哈密顿闭路相关定理：</p>
+<ol type="1">
+<li>Dirac（ディラック）定理：设<span
+class="math inline">\(G\)</span>是一个有<span
+class="math inline">\(n\)</span>个节点的简单图，如果对于任意一个节点<span
+class="math inline">\(v\in G\)</span>，其度数<span
+class="math inline">\(d(v)\geq
+\frac{n}{2}\)</span>，那么该图存在哈密顿闭路。</li>
+<li>Ore（オア）定理：设<span
+class="math inline">\(G\)</span>是一个有<span
+class="math inline">\(n\)</span>个节点的简单图，如果对于任意两个不相邻的节点<span
+class="math inline">\(u,v\in G\)</span>，都满足<span
+class="math inline">\(d(u)+d(v)\geq
+n\)</span>，那么该图存在哈密顿闭路。</li>
+</ol>
+</blockquote>
+<h2 id="note注意">Note（注意）</h2>
+<blockquote>
+<p>需要注意的是，这些定理只是判断欧拉回路或哈密顿闭路是否存在的充分条件，并不是必要条件。在实际求解问题时，我们需要综合考虑这些定理以及具体的算法实现。</p>
+</blockquote>
+<h1 id="graph-coloringグラフの彩色">Graph Coloring（グラフの彩色）</h1>
+<blockquote>
+<p>图的着色是指在给定的图中为每个顶点分配颜色，使得相邻的顶点颜色不同的问题。可以把图的着色问题看成一种优化问题，即在最小的颜色数的前提下，使得图的每个顶点都拥有一种不同的颜色。</p>
+<p>图的着色是图论中的一个重要问题，被广泛应用于调度、分配、排程等问题中。与此相关的还有很多定理和算法，例如著名的四色定理，以及Welsh-Powell算法和DSATUR算法等启发式算法。由于图的着色问题通常是一个NP难问题，因此在实际应用中通常需要使用近似算法。</p>
+</blockquote>
+<h2 id="vertex-coloring頂点彩色">vertex coloring（頂点彩色）</h2>
+<blockquote>
+<ol type="1">
+<li>ブルックス（Brooks）の定理：連結グラフ<span
+class="math inline">\(G\)</span>が完全グラフでもなく奇数長閉路でもないならば,<span
+class="math inline">\(G\)</span>は<span
+class="math inline">\(\Delta(G)\)</span>-頂点彩色可能である。</li>
+<li>正則でない連結グラフ<span class="math inline">\(G\)</span>は,<span
+class="math inline">\(\Delta(G)\)</span>-頂点彩色可能である。</li>
+<li><span class="math inline">\(G\)</span>が<span
+class="math inline">\(2\)</span>-頂点彩色可能であるための必要十分条件は,<span
+class="math inline">\(G\)</span>が<span
+class="math inline">\(2\)</span>部ブラフであることである。</li>
+<li><span class="math inline">\(G\)</span>が<span
+class="math inline">\(2\)</span>-頂点彩色可能であるための必要十分条件は,<span
+class="math inline">\(G\)</span>が奇数長閉路を持たないことである。</li>
+<li>任意の平面グラフは<span
+class="math inline">\(5\)</span>-頂点彩色可能である。</li>
+</ol>
+</blockquote>
+<h2 id="edge-coloring辺彩色">edge coloring（辺彩色）</h2>
+<ol type="1">
+<li>ビジング（Vizing）の定理：任意のグラフ<span
+class="math inline">\(G\)</span>に対して<span
+class="math inline">\(\chi^{\prime}(G)\leq\Delta(G)+1\)</span>が成り立つ。</li>
+<li>ケーニッヒ（König）の定理：任意の<span
+class="math inline">\(2\)</span>部グラフ<span
+class="math inline">\(G\)</span>に対して<span
+class="math inline">\(\chi^{\prime}(G)\leq\Delta(G)\)</span>が成り立つ。</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Yu
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="https://idealistyu.github.io/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/B-6/GraphTheory/" title="まとめ">https://idealistyu.github.io/通信情報/B-6/GraphTheory/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/%E9%80%9A%E4%BF%A1%E6%83%85%E5%A0%B1/A-2/%E5%90%8D%E8%A9%9E%E5%AF%BE%E7%85%A7%E8%A1%A8/" rel="prev" title="名詞対照表">
+                  <i class="fa fa-chevron-left"></i> 名詞対照表
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright" style="text-align: center;">
+  &copy; 2021 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yu</span>
+</div>
+<div class="wordcount" style="text-align: center;">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="Word count total">80k</span>
+  </span>
+  <span class="post-meta-item" style="text-align: center;">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">4:50</span>
+  </span>
+</div>
+  <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
+  </div>
+
+<div style="text-align: center;">    
+<a target="_blank" href="https://icons8.com/icon/59469/%E5%B9%B3%E5%81%87%E5%90%8Dyu">平假名Yu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+</div>
+
+<div style="text-align: center;">
+<img alt="" style="width:20px;height:20px;display:inline-block;vertical-align: middle;" src="https://icp.gov.moe/images/ico64.png">
+<a href="https://icp.gov.moe/?keyword=20236696" style="vertical-align: middle;" target="_blank">萌ICP备20236696号</a>
+</div>
+
+<div style="text-align: center;">
+<img alt="" style="width:20px;height:20px;display:inline-block;vertical-align: middle;" src="https://p.ipic.vip/dx7zrl.png">
+<a href="https://myssl.com/seal/detail?domain=idealistyu.github.io" style="vertical-align: middle;" target="_blank">MySSL安全认证签章</a>
+</div>
+
+<div style="text-align: center;">
+<a style="all:unset;" href="https://ipw.cn/ipv6webcheck/?site=idealistyu.github.io" target='_blank'><img style='border:0;display:inline-block;vertical-align:middle' alt="" src="https://static.ipw.cn/icon/ipv6-s1.svg"></a>
+</div>
+
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/IdealistYu" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+
+
+
+<!-- https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.css -->
+<!-- https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.js -->
+<!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.4.1/sakana.min.css -->
+<!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.4.1/sakana.min.js -->
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.css"
+/>
+<div id="sakana-widget" style="position:fixed;bottom:0px;right:10px;"></div>
+<script>
+  function initSakanaWidget() {
+    new SakanaWidget().mount('#sakana-widget');
+  }
+</script>
+<script
+  async
+  onload="initSakanaWidget()"
+  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.4.1/lib/sakana.min.js"
+></script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.8/pdfobject.min.js","integrity":"sha256-tu9j5pBilBQrWSDePOOajCUdz6hWsid/lBNzK4KgEPM="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"IdealistYu","repo":"idealistyu.github.io","client_id":"6d8dc21cc13225558100","client_secret":"067dad059d8dc7dc664bbe97bdeb4d576242e9b4","admin_user":"IdealistYu","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"d1e2db570bdff3e80909ac4f6259318d"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
+</body>
+</html>
