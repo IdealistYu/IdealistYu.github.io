@@ -30,9 +30,12 @@
 <meta property="og:description" content="「グラフ理論」過去問の解答">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p.ipic.vip/o66su0.png">
+<meta property="og:image" content="https://p.ipic.vip/1rg2yl.png">
+<meta property="og:image" content="https://p.ipic.vip/gwcgfc.png">
+<meta property="og:image" content="https://p.ipic.vip/lp4rf5.jpg">
 <meta property="og:image" content="https://p.ipic.vip/nroilp.jpg">
 <meta property="article:published_time" content="2023-04-12T07:59:46.000Z">
-<meta property="article:modified_time" content="2023-04-12T08:50:32.813Z">
+<meta property="article:modified_time" content="2023-05-01T10:47:33.681Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/o66su0.png">
@@ -265,9 +268,15 @@ setInterval("createtime()",250);
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-04-12 15:59:46 / Modified: 16:50:32" itemprop="dateCreated datePublished" datetime="2023-04-12T15:59:46+08:00">2023-04-12</time>
+      <time title="Created: 2023-04-12 15:59:46" itemprop="dateCreated datePublished" datetime="2023-04-12T15:59:46+08:00">2023-04-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-05-01 18:47:33" itemprop="dateModified" datetime="2023-05-01T18:47:33+08:00">2023-05-01</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -289,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>12</span>
+      <span>606</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -313,6 +322,107 @@ setInterval("createtime()",250);
 <p><img src="https://p.ipic.vip/o66su0.png" /></p>
 <hr />
 <h1 id="解答">2020解答</h1>
+<p>（１）</p>
+<p><img src="https://p.ipic.vip/1rg2yl.png" style="zoom:25%;" /></p>
+<p>（２）</p>
+<p><img src="https://p.ipic.vip/gwcgfc.png" style="zoom:25%;" /></p>
+<p>（３）</p>
+<p>​ (a)</p>
+<p><span class="math inline">\(T\)</span>に<span
+class="math inline">\(e_i\)</span>を加えても閉路ができない</p>
+<p>​ (b)</p>
+<p>In Kruskal's algorithm, a common method for determining whether
+adding a new edge will create a cycle is to use the Union-Find data
+structure. Specifically, we maintain a Union-Find set where each set
+represents a connected component. Initially, each vertex is in a
+separate set. For each edge, we use the Find and Union operations of the
+Union-Find data structure to determine whether the two vertices it
+connects belong to the same connected component. If they do, adding the
+edge would create a cycle and the edge should be discarded. Otherwise,
+the edge is added to the minimum spanning tree and the two vertices are
+merged into the same connected component.</p>
+<p>​ (c)</p>
+<p><img src="https://p.ipic.vip/lp4rf5.jpg" /> <img
+src="https://p.ipic.vip/3m5rht.png" /></p>
+<p>（４）</p>
+<p>​ (a)</p>
+<p>To prove that the graph <span class="math inline">\((V,T
+\cup\{e\})\)</span> has exactly one cycle, we need to show that it
+satisfies the two conditions for a graph to be a cycle:</p>
+<ol type="1">
+<li>The graph has no more than one cycle.</li>
+<li>The graph has at least one cycle.</li>
+</ol>
+<p>First, let's prove that <span class="math inline">\((V,T
+\cup\{e\})\)</span> has no more than one cycle. Since <span
+class="math inline">\(T\)</span> is a spanning tree of <span
+class="math inline">\(G\)</span>, it is acyclic, which means it has no
+cycles. When we add the edge <span class="math inline">\(e\)</span> to
+<span class="math inline">\(T\)</span>, we create exactly one cycle,
+because there is exactly one path from one endpoint of <span
+class="math inline">\(e\)</span> to the other in <span
+class="math inline">\(T\)</span>. Adding <span
+class="math inline">\(e\)</span> to <span
+class="math inline">\(T\)</span> creates a unique cycle, which means
+<span class="math inline">\((V,T \cup\{e\})\)</span> has no more than
+one cycle.</p>
+<p>Now, let's prove that <span class="math inline">\((V,T
+\cup\{e\})\)</span> has at least one cycle. Since <span
+class="math inline">\(T\)</span> is a spanning tree of <span
+class="math inline">\(G\)</span>, it contains all vertices in <span
+class="math inline">\(V\)</span> and has <span class="math inline">\(|V|
+- 1\)</span> edges. When we add the edge e to <span
+class="math inline">\(T\)</span>, we get a connected graph with <span
+class="math inline">\(|V|\)</span> vertices and <span
+class="math inline">\(|V|\)</span> edges. Since the graph has one more
+edge than a tree, it must contain a cycle. Therefore, <span
+class="math inline">\((V,T \cup\{e\})\)</span> has at least one
+cycle.</p>
+<p>Combining these two proofs, we can conclude that <span
+class="math inline">\((V,T \cup\{e\})\)</span> has exactly one
+cycle.</p>
+<p>​ (b)</p>
+<p>The two propositions (i) and (ii) are equivalent.</p>
+<p>To prove that (i) implies (ii), suppose that <span
+class="math inline">\(T\)</span> is a spanning tree of <span
+class="math inline">\(G\)</span> with minimum weight. Let <span
+class="math inline">\(f\)</span> be an edge of <span
+class="math inline">\(E\)</span> that is not included in <span
+class="math inline">\(T\)</span>. By adding <span
+class="math inline">\(f\)</span> to <span
+class="math inline">\(T\)</span>, we obtain a unique cycle <span
+class="math inline">\(C = F(T, f)\)</span>. Assuming there exists an
+edge <span class="math inline">\(e&#39;\)</span> in cycle <span
+class="math inline">\(C\)</span> such that <span
+class="math inline">\(w(e&#39;) &gt; w(f)\)</span>, then there exists a
+spanning tree <span class="math inline">\(T&#39;\)</span> (containing
+edge <span class="math inline">\(f\)</span> but not <span
+class="math inline">\(e&#39;\)</span>) such that <span
+class="math inline">\(w(T&#39;) &lt; w(T)\)</span>, which contradicts
+the assumption that <span class="math inline">\(T\)</span> is a minimum
+weight spanning tree. Therefore,we mush have <span
+class="math inline">\(w(e&#39;) ≤ w(f)\)</span> for every edge <span
+class="math inline">\(e&#39;\)</span> in <span class="math inline">\(C =
+F(T&#39;, f)\)</span>, which proves (ii).</p>
+<p>To prove that (ii) implies (i), suppose that (ii) holds. suppose that
+<span class="math inline">\(T\)</span> is a spanning tree of <span
+class="math inline">\(G\)</span>. Let <span
+class="math inline">\(f\)</span> be an edge of <span
+class="math inline">\(E\)</span> that is not included in <span
+class="math inline">\(T\)</span>. By adding <span
+class="math inline">\(f\)</span> to <span
+class="math inline">\(T\)</span>, we obtain a unique cycle <span
+class="math inline">\(C = F(T, f)\)</span>. For every cycle <span
+class="math inline">\(C\)</span>, we have <span
+class="math inline">\(w(e&#39;) ≤ w(f)\)</span>. Assuming the spanning
+tree <span class="math inline">\(T&#39;\)</span> contains <span
+class="math inline">\(f\)</span>, then <span
+class="math inline">\(w(T&#39;) ≥ w(T)\)</span>, so the minimum weight
+spanning tree <span class="math inline">\(T\)</span> that does not
+contain <span class="math inline">\(f\)</span>. Therefore, <span
+class="math inline">\(T\)</span> must be a minimum weight spanning tree,
+which proves (i).</p>
+<p>Hence, we have shown that (i) and (ii) are equivalent.</p>
 <hr />
 <h1 id="問題-1">2019問題</h1>
 <p><img src="https://p.ipic.vip/nroilp.jpg" /></p>
@@ -394,7 +504,7 @@ setInterval("createtime()",250);
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">4:50</span>
+    <span title="Reading time total">4:53</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
