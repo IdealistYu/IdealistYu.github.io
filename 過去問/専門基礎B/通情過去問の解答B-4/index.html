@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/7o1ah5.jpg">
 <meta property="og:image" content="https://p.ipic.vip/rdw8t6.png">
 <meta property="article:published_time" content="2023-04-11T13:55:20.000Z">
-<meta property="article:modified_time" content="2023-05-10T16:52:59.749Z">
+<meta property="article:modified_time" content="2023-05-10T16:55:29.336Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/vlghta.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-11 00:52:59" itemprop="dateModified" datetime="2023-05-11T00:52:59+08:00">2023-05-11</time>
+      <time title="Modified: 2023-05-11 00:55:29" itemprop="dateModified" datetime="2023-05-11T00:55:29+08:00">2023-05-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -533,15 +533,19 @@ significant digit (or the leftmost digit).</p></li>
 <li><p>At this point, the input array will be sorted in increasing order
 based on all the digits.</p></li>
 </ol>
-<p>The time complexity of radix sort algorithm is O(d<em>(n+b)), where n
-is the number of elements in the input array, d is the maximum number of
-digits, and b is the base of the numbers (for example, for decimal
-numbers, b=10). The time complexity is dominated by the number of passes
-required to sort all the digits of each element. The stable sorting
-algorithm used to sort the elements based on each digit has a time
-complexity of O(n+b). Therefore, the total time complexity is
-O(d</em>(n+b)). In practice, radix sort is efficient for sorting numbers
-with a small range of values and a large number of digits.</p>
+<p>The time complexity of radix sort algorithm is <span
+class="math inline">\(O(d*(n+b))\)</span>, where n is the number of
+elements in the input array, d is the maximum number of digits, and b is
+the base of the numbers (for example, for decimal numbers, b=10). The
+time complexity is dominated by the number of passes required to sort
+all the digits of each element. The stable sorting algorithm used to
+sort the elements based on each digit has a time complexity of <span
+class="math inline">\(O(n+b)\)</span>. Therefore, the total time
+complexity is <span class="math inline">\(O(d*(n+b))\)</span>. In
+practical applications, b is usually a small constant, so the time
+complexity of radix sort can be simplified to <span
+class="math inline">\(O(d*n)\)</span>, where d depends on the number of
+digits of the largest number, and n is the number of elements.</p>
 <hr />
 <h1 id="問題-1">2018問題</h1>
 <p><img src="https://p.ipic.vip/jku4wa.jpg" /> <img
