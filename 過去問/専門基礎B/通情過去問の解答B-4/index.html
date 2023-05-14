@@ -34,8 +34,12 @@
 <meta property="og:image" content="https://p.ipic.vip/jku4wa.jpg">
 <meta property="og:image" content="https://p.ipic.vip/7o1ah5.jpg">
 <meta property="og:image" content="https://p.ipic.vip/rdw8t6.png">
+<meta property="og:image" content="https://p.ipic.vip/5oicj5.jpg">
+<meta property="og:image" content="https://p.ipic.vip/ssmuta.jpg">
+<meta property="og:image" content="https://p.ipic.vip/fj9zvl.png">
+<meta property="og:image" content="https://p.ipic.vip/h11b59.jpg">
 <meta property="article:published_time" content="2023-04-11T13:55:20.000Z">
-<meta property="article:modified_time" content="2023-05-10T16:59:31.579Z">
+<meta property="article:modified_time" content="2023-05-14T11:26:49.129Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/vlghta.png">
@@ -276,7 +280,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-05-11 00:59:31" itemprop="dateModified" datetime="2023-05-11T00:59:31+08:00">2023-05-11</time>
+      <time title="Modified: 2023-05-14 19:26:49" itemprop="dateModified" datetime="2023-05-14T19:26:49+08:00">2023-05-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +302,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2.4k</span>
+      <span>5.6k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>9 mins.</span>
+      <span>20 mins.</span>
     </span>
 </div>
 
@@ -552,16 +556,504 @@ digits of the largest number, and n is the number of elements.</p>
 src="https://p.ipic.vip/3ibmu2.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）①②⑤③⑥④</p>
+<p>（２）①②⑤</p>
+<p>① To see why, consider the ratio of the two functions:</p>
+<p><span class="math inline">\(\lim_{n \to \infty} \frac{n! -
+100n^{100}}{p(n)}\)</span></p>
+<p>where <span class="math inline">\(p(n)\)</span> is any polynomial
+function of degree <span class="math inline">\(k\)</span>.</p>
+<p>Using Stirling's approximation, we have <span
+class="math inline">\(n! \sim \sqrt{2 \pi n}
+\left(\frac{n}{e}\right)^n\)</span>, so we can rewrite the above
+expression as:</p>
+<p><span class="math inline">\(\lim_{n \to \infty} \frac{\sqrt{2 \pi n}
+\left(\frac{n}{e}\right)^n - 100n^{100}}{p(n)}\)</span></p>
+<p>Now, let's divide both the numerator and denominator by <span
+class="math inline">\(n^k\)</span>:</p>
+<p><span class="math inline">\(\lim_{n \to \infty} \frac{\sqrt{2 \pi n}
+\left(\frac{n}{e}\right)^{n-k} -
+100n^{100-k}}{\frac{p(n)}{n^k}}\)</span></p>
+<p>As <span class="math inline">\(n\)</span> goes to infinity, the first
+term in the numerator dominates, since <span
+class="math inline">\(\left(\frac{n}{e}\right)^{n-k}\)</span> grows
+faster than any polynomial of degree <span
+class="math inline">\(k\)</span>, while the second term in the numerator
+and the denominator are both polynomial functions of degree <span
+class="math inline">\(100-k\)</span> and <span
+class="math inline">\(k\)</span>, respectively. Therefore, the limit
+goes to infinity, and <span class="math inline">\(n! -
+100n^{100}\)</span> grows asymptotically faster than any polynomial
+function of any large degree.</p>
+<p>In other words, the factorial function grows faster than any
+polynomial function, and subtracting a polynomial of degree less than
+the factorial function still leaves a function that grows faster than
+any polynomial function.</p>
+<p>② To show that <span class="math inline">\(n^{\log n}\)</span> grows
+asymptotically faster than any polynomial function of any large degree,
+we need to compare the growth rates of <span
+class="math inline">\(n^{\log n}\)</span> and <span
+class="math inline">\(p(n)\)</span>, where <span
+class="math inline">\(p(n)\)</span> is any polynomial function of degree
+<span class="math inline">\(d\)</span>.</p>
+<p>First, we can use the fact that <span class="math inline">\(\log
+n\)</span> grows slower than any positive power of <span
+class="math inline">\(n\)</span> to rewrite <span
+class="math inline">\(n^{\log n}\)</span> as <span
+class="math inline">\((2^{\log n})^{\log n} = 2^{(\log
+n)^2}\)</span>.</p>
+<p>Now let's compare the growth rates of <span
+class="math inline">\(2^{(\log n)^2}\)</span> and <span
+class="math inline">\(n^d\)</span>. Taking the logarithm of both
+functions, we get:</p>
+<p><span class="math inline">\(\log(2^{(\log n)^2}) = (\log
+n)^2\)</span></p>
+<p><span class="math inline">\(\log(n^d) = d\log n\)</span></p>
+<p>Now, let's consider the limit as <span
+class="math inline">\(n\)</span> approaches infinity of the ratio of
+these two functions:</p>
+<p><span class="math display">\[
+\begin{align}
+\lim_{n\to\infty} \frac{(\log n)^2}{d\log n} = \lim_{n\to\infty}
+\frac{2\log n}{d} = \infty
+\end{align}
+\]</span></p>
+<p>Since the limit is infinity, we can conclude that <span
+class="math inline">\((\log n)^2\)</span> grows faster than <span
+class="math inline">\(d\log n\)</span>, which means that <span
+class="math inline">\(2^{(\log n)^2}\)</span> grows faster than <span
+class="math inline">\(n^d\)</span> for any polynomial function of degree
+<span class="math inline">\(d\)</span>.</p>
+<p>Therefore, we can conclude that <span class="math inline">\(n^{\log
+n}\)</span> grows asymptotically faster than any polynomial function of
+any large degree.</p>
+<p>⑤ To show that <span class="math inline">\(n^{100}/{\log n}\)</span>
+grows asymptotically faster than any polynomial function of any large
+degree, we can use the limit comparison test. Let <span
+class="math inline">\(f(n)\)</span> be any polynomial function of degree
+<span class="math inline">\(d\)</span>, where <span
+class="math inline">\(d\)</span> is some large constant. Then we can
+write:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\lim_{n\to\infty} \frac{n^{100}/\log n}{f(n)} = \lim_{n\to\infty}
+\frac{n^{100}}{f(n)\log n}
+\end{aligned}
+\]</span></p>
+<p>We want to show that this limit is infinity. We can use L'Hopital's
+rule to compute the limit of the ratio of the derivatives of the
+numerator and denominator:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\lim_{n\to\infty} \frac{n^{100}}{f(n)\log n} &amp;= \lim_{n\to\infty}
+\frac{100n^{99}}{f&#39;(n)\log n + f(n)/n} \\
+&amp;= \lim_{n\to\infty} \frac{100n^{99}}{d\cdot n^{d-1}\log n +
+f(n)/n^2} \\
+&amp;= \lim_{n\to\infty} \frac{100n^{101}}{d\cdot n^{d}\log n + f(n)/n}
+\\
+&amp;= \infty
+\end{aligned}
+\]</span></p>
+<p>The last step follows because <span
+class="math inline">\(n^{101}\)</span> grows faster than <span
+class="math inline">\(d\cdot n^d\log n + f(n)/n\)</span> as <span
+class="math inline">\(n\)</span> goes to infinity, since <span
+class="math inline">\(\log n\)</span> grows slower than any polynomial
+function of degree <span class="math inline">\(d\)</span>. Therefore, we
+have shown that <span class="math inline">\(n^{100}/{\log n}\)</span>
+grows asymptotically faster than any polynomial function of degree <span
+class="math inline">\(d\)</span>, for any large constant <span
+class="math inline">\(d\)</span>.</p>
+<p>（３）なし</p>
+<p>To answer this question, we need to determine the limit of the ratio
+of these two functions as n approaches infinity:</p>
+<p><span class="math display">\[
+\begin{align*}
+\lim_{n\to\infty} \frac{n! - 100n^{100}}{2^{cn}} &amp;=
+\lim_{n\to\infty} \frac{n(n-1)\cdots 3\cdot 2\cdot 1 -
+100n^{100}}{2^{cn}}\\
+&amp;= \lim_{n\to\infty} \frac{n(n-1)\cdots 3\cdot 2\cdot 1}{2^{cn}} -
+\lim_{n\to\infty}\frac{100n^{100}}{2^{cn}}\\
+&amp;= \lim_{n\to\infty} \frac{n^n}{2^{cn}} -
+\lim_{n\to\infty}\frac{100n^{100}}{2^{cn}}\\
+&amp;= \lim_{n\to\infty} \left(\frac{n}{2^c}\right)^n -
+\lim_{n\to\infty}\left(\frac{100}{2^c}\right)n^{100}\\
+&amp;= 0 - 0\\
+&amp;= 0
+\end{align*}
+\]</span> Since the limit is zero, we know that <span
+class="math inline">\(n! - 100n^{100}\)</span> grows asymptotically
+slower than any exponential function <span
+class="math inline">\(2^{cn}\)</span> for a constant <span
+class="math inline">\(c&gt;0\)</span>. In other words, <span
+class="math inline">\(2^{cn}\)</span> grows faster than <span
+class="math inline">\(n! - 100n^{100}\)</span> as <span
+class="math inline">\(n\)</span> approaches infinity.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">gcd</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">while</span> b != <span class="number">0</span>:</span><br><span class="line">        r = a</span><br><span class="line">        <span class="keyword">while</span> r &gt;= b:</span><br><span class="line">            r = r - b</span><br><span class="line">        a = b</span><br><span class="line">        b = r</span><br><span class="line">    <span class="keyword">return</span> a</span><br></pre></td></tr></table></figure>
+<p>（４）Output: 1</p>
+<p>（５）</p>
+<p>This procedure computes the greatest common divisor (GCD) of two
+positive integers <code>a</code> and <code>b</code>. The GCD is the
+largest positive integer that divides both <code>a</code> and
+<code>b</code> without leaving a remainder.</p>
+<p>The procedure works by repeatedly subtracting the smaller of the two
+numbers from the larger, until one of them becomes zero. The GCD is then
+the remaining non-zero number.</p>
+<p>The arithmetic relation between the input and the output is that the
+GCD of <code>a</code> and <code>b</code> is returned as the output of
+the function. In other words, the output is a positive integer that is a
+divisor of both <code>a</code> and <code>b</code>, and it is the largest
+such divisor.</p>
+<p>（６）</p>
+<p>Yes, this procedure terminates in a finite number of steps for any
+pair of positive integers.</p>
+<p>The procedure is an implementation of the Euclidean algorithm for
+finding the greatest common divisor (gcd) of two positive integers a and
+b. The algorithm is based on the observation that the gcd of two
+integers does not change if the larger integer is replaced by its
+remainder when divided by the smaller integer. The procedure repeatedly
+applies this observation until the remainder becomes 0, at which point
+the gcd is the last non-zero remainder.</p>
+<p>In each iteration of loop, the value of r is guaranteed to decrease
+strictly because it is being subtracted by a positive integer b, which
+is smaller than or equal to r. This means that the value of r must
+eventually become smaller than b, and the loop will exit. Furthermore,
+since each iteration reduces the value of b or r by at least one, the
+number of iterations is bounded by the sum of a and b.</p>
+<p>Therefore, the procedure terminates in a finite number of steps for
+any pair of positive integers.</p>
+<p>（７）</p>
+<p>If at least one of <code>a</code> and <code>b</code> is equal to 0
+and the other value is non-negative, the program will immediately return
+the non-negative value.</p>
+<p>If at least one of <code>a</code> and <code>b</code> is less than 0,
+the program will enter an infinite loop.</p>
+<p>Therefore, it is important to ensure that both <code>a</code> and
+<code>b</code> are positive integers before calling this procedure.</p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p><img src="https://p.ipic.vip/7o1ah5.jpg" /></p>
 <hr />
 <p>#　2017解答</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">qsort(a,l,h)</span><br><span class="line">if l&lt;h</span><br><span class="line">	then</span><br><span class="line">		b:=l;</span><br><span class="line">		p:=a[l];</span><br><span class="line">		for i:=l+1 to h step 1 do</span><br><span class="line">			if (p&gt;a[i]) then b:=b+1; swap(a,i,b); fi od</span><br><span class="line">		swap(a,l,b);</span><br><span class="line">		qsort(a,l,b-1);</span><br><span class="line">		qsort(a,b+1,h); fi</span><br></pre></td></tr></table></figure>
+<p>（１）</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">swap(a,i,b)</span><br></pre></td></tr></table></figure>
+<p>（２）</p>
+<p>The <code>qsort</code> function implements the quicksort algorithm to
+sort an array <code>a</code> in ascending order. Here is an explanation
+of the relationship between the variables and elements at the beginning
+of each iteration of the for-loop in <code>qsort</code>:</p>
+<ul>
+<li><p><code>a</code>: is the array that is being sorted.</p></li>
+<li><p><code>l</code> and <code>h</code>: are the indices of the first
+and last elements of the subarray that is being sorted in the current
+recursive call. Initially, <code>l</code> is the index of the first
+element of the entire array <code>a</code>, and <code>h</code> is the
+index of the last element of the array.</p></li>
+<li><p><code>p</code>: is the pivot element chosen from the subarray
+<code>a[l..h]</code>. It is initially set to the value of
+<code>a[l]</code>.</p></li>
+<li><p><code>b</code>: is an index variable that starts at
+<code>l</code>. It is used to keep track of the position where elements
+less than or equal to <code>p</code> should be placed in the subarray.
+Initially, <code>b</code> is set to <code>l</code>.</p></li>
+<li><p><code>i</code>: is the loop variable that iterates over the
+subarray <code>a[l+1..h]</code>, starting from the second element. At
+the beginning of each iteration of the loop, <code>i</code> is set to
+<code>l+1</code>.</p></li>
+</ul>
+<p>At the beginning of the first iteration of the for-loop, we have:</p>
+<ul>
+<li><p><code>a</code>: the original unsorted array.</p></li>
+<li><p><code>l</code> and <code>h</code>: the indices of the entire
+array.</p></li>
+<li><p><code>p</code>: the first element of the subarray,
+<code>a[l]</code>.</p></li>
+<li><p><code>b</code>: <code>l</code>.</p></li>
+<li><p><code>i</code>: <code>l+1</code>.</p></li>
+</ul>
+<p>During each iteration of the for-loop, we compare the current element
+<code>a[i]</code> with the pivot element <code>p</code>. If
+<code>a[i]</code> is less than or equal to <code>p</code>, we swap
+<code>a[i]</code> with the element at position <code>b</code> and
+increment <code>b</code>. This ensures that all elements less than or
+equal to <code>p</code> are placed before the element at position
+<code>b</code> in the subarray.</p>
+<p>At the beginning of each subsequent iteration of the for-loop, we
+have:</p>
+<ul>
+<li><p><code>a</code>: the partially sorted subarray.</p></li>
+<li><p><code>l</code> and <code>h</code>: the same indices as
+before.</p></li>
+<li><p><code>p</code>: the same pivot element as before.</p></li>
+<li><p><code>b</code>: the updated position of the last element less
+than or equal to <code>p</code>.</p></li>
+<li><p><code>i</code>: the index of the current element being considered
+in the subarray.</p></li>
+</ul>
+<p>After the for-loop completes, we swap the pivot element
+<code>p</code> with the element at position <code>b</code>. This ensures
+that the pivot element is in its final sorted position. We then
+recursively call <code>qsort</code> on the subarrays
+<code>a[l..b-1]</code> and <code>a[b+1..h]</code>.</p>
+<p>In summary, at the beginning of each iteration of the for-loop in
+<code>qsort</code>, the variables <code>l</code>, <code>h</code>,
+<code>p</code>, <code>b</code>, and <code>i</code> represent the current
+state of the subarray being sorted, and their values are updated as we
+compare and swap elements during the execution of the algorithm.</p>
+<p>（３）</p>
+<p>To make qsort perform the largest number of comparisons among array
+elements, we can choose an array that is already sorted in reverse
+order. For example, if we set a to be
+<code>[6, 5, 4, 3, 2, 1, 0]</code>, then <code>qsort(a, 0, 6)</code>
+will perform the maximum number of comparisons.</p>
+<p>In general, the worst-case number of comparisons performed by
+qsort(a, l, h) is <span class="math inline">\(O(n^2)\)</span>, where n
+is the length of the array a. This occurs when the array is already
+sorted in reverse order or when all the elements are equal. However, in
+practice, qsort typically performs much better than <span
+class="math inline">\(O(n^2)\)</span>, especially for arrays with random
+or nearly-random order.</p>
+<p>（４）</p>
+<p>The modification of inserting <code>swap(a, rand(l, h), l)</code>
+before the assignment <code>b := l;</code> introduces a random element
+in the array a as the pivot element instead of always using the first
+element <code>a[l]</code> as the pivot. This modification can have the
+following merits:</p>
+<ol type="1">
+<li><p>Improved average case performance: In the original
+implementation, if the input array is already sorted or almost sorted,
+the partitioning process will always select the first element as the
+pivot, resulting in worst-case performance of <span
+class="math inline">\(O(n^2)\)</span>. By introducing randomness in the
+choice of the pivot, the chances of selecting a bad pivot are reduced,
+resulting in an improved average case performance.</p></li>
+<li><p>Reduced susceptibility to malicious input: The original
+implementation is susceptible to malicious input that is specifically
+crafted to exploit the use of the first element as the pivot. For
+example, an adversary can feed in an input array that is already sorted
+in reverse order to force the partitioning process to always select the
+first element as the pivot, resulting in a worst-case performance of
+<span class="math inline">\(O(n^2)\)</span>. By introducing randomness
+in the choice of the pivot, the susceptibility to such attacks is
+reduced.</p></li>
+<li><p>Increased robustness: By introducing randomness in the choice of
+the pivot, the algorithm becomes more robust to small variations in the
+input data. For example, if two input arrays are almost identical, but
+one has a slightly different first element, the original implementation
+may exhibit very different performance on the two inputs, while the
+modified implementation is likely to behave similarly on both
+inputs.</p></li>
+</ol>
+<p>Overall, introducing randomness in the choice of the pivot can
+improve the average case performance, reduce susceptibility to malicious
+input, and increase the robustness of the algorithm.</p>
+<p>（５）</p>
+<p>Mergesort and Quicksort are two popular sorting algorithms used to
+sort arrays or lists. Both have their advantages and disadvantages, and
+the best algorithm to use depends on the specific context of the
+problem.</p>
+<p>Mergesort: Mergesort is a divide-and-conquer algorithm that works by
+dividing the input array into two halves, sorting each half recursively,
+and then merging the two sorted halves into a single sorted output
+array. The merge operation is the key step in the algorithm, and it
+involves comparing the first element of each sorted half and selecting
+the smaller one to be placed in the output array. This process is
+repeated until all elements are merged.</p>
+<p>Comparison with Quicksort: 1. Time complexity: Mergesort and
+Quicksort have the same average time complexity of <span
+class="math inline">\(O(n log n)\)</span> but their worst-case time
+complexities differ. Mergesort has a worst-case time complexity of <span
+class="math inline">\(O(n log n)\)</span> which is also its best-case
+time complexity. Quicksort, on the other hand, has a worst-case time
+complexity of <span class="math inline">\(O(n^2)\)</span> when the pivot
+selected is either the smallest or largest element in the array.</p>
+<ol start="2" type="1">
+<li><p>Space complexity: Mergesort requires additional space to store
+the two halves of the input array during the recursion process. This
+additional space requirement makes mergesort less efficient in terms of
+space than quicksort.</p></li>
+<li><p>Stability: Mergesort is a stable sorting algorithm, meaning that
+the relative order of equal elements is preserved after sorting.
+Quicksort, on the other hand, is an unstable sorting algorithm, meaning
+that the relative order of equal elements is not preserved after
+sorting.</p></li>
+<li><p>Implementation complexity: Quicksort is easier to implement than
+mergesort since it has fewer steps and requires less additional memory.
+Mergesort requires additional memory to store the two halves of the
+input array during the recursion process.</p></li>
+<li><p>Applications: Mergesort is a good choice when stability is
+required or when the input array is too large to fit in memory.
+Quicksort is a good choice when the input array is small enough to fit
+in memory and when the worst-case time complexity is not a
+concern.</p></li>
+</ol>
+<p>In summary, Mergesort and Quicksort are both efficient sorting
+algorithms with their own strengths and weaknesses. The choice of
+algorithm depends on the specific context of the problem, including the
+size of the input array, the stability requirement, and the worst-case
+time complexity constraint.</p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
 <p><img src="https://p.ipic.vip/rdw8t6.png" /></p>
 <hr />
 <h1 id="解答-3">2016解答</h1>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">SEARCH(t,i)</span><br><span class="line">if (t==NIL) return false;</span><br><span class="line">else if (i==t-›value) return true;</span><br><span class="line">else if (i&lt;t-&gt;value) return SEARCH(t-&gt;lert,i);</span><br><span class="line">else return SEARCH(t-›right,i); </span><br></pre></td></tr></table></figure>
+<p>（１）</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">INSERI(t, i)</span><br><span class="line">    <span class="keyword">if</span> (t == NIL)  <span class="comment">// empty tree</span></span><br><span class="line">        t = new Node(i) <span class="comment">// create a new node with i and add to the tree</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (i &lt; t-&gt;value) <span class="comment">// i is smaller than current node&#x27;s value</span></span><br><span class="line">        t-&gt;left = INSERI(t-&gt;left, i) <span class="comment">// recursively insert to the left subtree</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (i &gt; t-&gt;value) <span class="comment">// i is greater than current node&#x27;s value</span></span><br><span class="line">        t-&gt;right = INSERI(t-&gt;right, i) <span class="comment">// recursively insert to the right subtree</span></span><br><span class="line">    <span class="comment">// if i is already in the tree, do nothing</span></span><br><span class="line">    <span class="keyword">return</span> t <span class="comment">// return the modified tree</span></span><br></pre></td></tr></table></figure>
+<p>（２）</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">INSERT(t, i)</span><br><span class="line">    <span class="comment">// create a new node for i</span></span><br><span class="line">    node = new Node(i)</span><br><span class="line"></span><br><span class="line">    <span class="comment">// special case: t is empty, so node becomes the root of t</span></span><br><span class="line">    <span class="keyword">if</span> t == NIL:</span><br><span class="line">        t = node</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// search for the position to insert node</span></span><br><span class="line">    curr = t</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">true</span>:</span><br><span class="line">        <span class="keyword">if</span> i == curr-&gt;value:</span><br><span class="line">            <span class="comment">// i is already in the tree, so we don&#x27;t need to insert it</span></span><br><span class="line">            <span class="keyword">return</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> i &lt; curr-&gt;value:</span><br><span class="line">            <span class="keyword">if</span> curr-&gt;left == NIL:</span><br><span class="line">                <span class="comment">// insert node as the left child of curr</span></span><br><span class="line">                curr-&gt;left = node</span><br><span class="line">                <span class="keyword">return</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="comment">// continue searching in the left subtree</span></span><br><span class="line">                curr = curr-&gt;left</span><br><span class="line">        <span class="keyword">else</span>: <span class="comment">// i &gt; curr-&gt;value</span></span><br><span class="line">            <span class="keyword">if</span> curr-&gt;right == NIL:</span><br><span class="line">                <span class="comment">// insert node as the right child of curr</span></span><br><span class="line">                curr-&gt;right = node</span><br><span class="line">                <span class="keyword">return</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="comment">// continue searching in the right subtree</span></span><br><span class="line">                curr = curr-&gt;right</span><br></pre></td></tr></table></figure>
+<p>（３）</p>
+<p><img src="https://p.ipic.vip/5oicj5.jpg" style="zoom:50%;" /></p>
+<p>（４）</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">DELETE(t,i)</span><br><span class="line"><span class="keyword">if</span> (t == NIL) <span class="keyword">return</span> t; <span class="comment">// i not found</span></span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span> (i &lt; t-&gt;value) t-&gt;left = DELETE(t-&gt;left, i);</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span> (i &gt; t-&gt;value) t-&gt;right = DELETE(t-&gt;right, i);</span><br><span class="line"><span class="keyword">else</span> &#123; <span class="comment">// i found</span></span><br><span class="line">    <span class="keyword">if</span> (t-&gt;left == NIL &amp;&amp; t-&gt;right == NIL) &#123; <span class="comment">// Case 1: t has no children</span></span><br><span class="line">        <span class="built_in">free</span>(t);</span><br><span class="line">        t = NIL;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (t-&gt;left == NIL) &#123; <span class="comment">// Case 2: t has one child (right)</span></span><br><span class="line">        Node* temp = t;</span><br><span class="line">        t = t-&gt;right;</span><br><span class="line">        <span class="built_in">free</span>(temp);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (t-&gt;right == NIL) &#123; <span class="comment">// Case 2: t has one child (left)</span></span><br><span class="line">        Node* temp = t;</span><br><span class="line">        t = t-&gt;left;</span><br><span class="line">        <span class="built_in">free</span>(temp);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123; <span class="comment">// Case 3: t has two children</span></span><br><span class="line">        Node* temp = FindMin(t-&gt;right); <span class="comment">// Find the smallest node in t&#x27;s right subtree</span></span><br><span class="line">        t-&gt;value = temp-&gt;value; <span class="comment">// Copy the value of the smallest node into t</span></span><br><span class="line">        t-&gt;right = DELETE(t-&gt;right, temp-&gt;value); <span class="comment">// Delete the smallest node</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> t;</span><br></pre></td></tr></table></figure>
+<p><img src="https://p.ipic.vip/ssmuta.jpg" style="zoom:50%;" /></p>
+<p>（５） <span class="math display">\[
+\begin{align}
+cost &amp;= P(i=7)+2\times
+[P(i=1)+P(i=2)+P(i=8)+P(i=9)+P(i=10)]+3\times[P(i=3)+P(i=4)+P(i=5)+P(i=6)]
+\\
+&amp;=2.45
+\end{align}
+\]</span> （６）</p>
+<p><img src="https://p.ipic.vip/fj9zvl.png" style="zoom:50%;" /></p>
+<p>or</p>
+<p><img src="https://p.ipic.vip/h11b59.jpg" style="zoom:50%;" /></p>
+<table>
+<thead>
+<tr class="header">
+<th><span class="math inline">\(i\)</span></th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(key\)</span></td>
+<td></td>
+<td>2</td>
+<td>5</td>
+<td>7</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(p_i\)</span></td>
+<td></td>
+<td>0.05</td>
+<td>0.15</td>
+<td>0.05</td>
+<td>0.15</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(q_i\)</span></td>
+<td>0.05</td>
+<td>0.15</td>
+<td>0.2</td>
+<td>0.2</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 20%" />
+<col style="width: 19%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span class="math inline">\(j\)</span></th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(j-i=0\)</span></td>
+<td><span class="math inline">\(w_{00}=0.05\)</span><br /><span
+class="math inline">\(c_{00}=0\)</span><br /><span
+class="math inline">\(r_{00}=0\)</span></td>
+<td><span class="math inline">\(w_{11}=0.15\)</span><br /><span
+class="math inline">\(c_{11}=0\)</span><br /><span
+class="math inline">\(r_{11}=0\)</span></td>
+<td><span class="math inline">\(w_{22}=0.2\)</span><br /><span
+class="math inline">\(c_{22}=0\)</span><br /><span
+class="math inline">\(r_{22}=0\)</span></td>
+<td><span class="math inline">\(w_{33}=0.2\)</span><br /><span
+class="math inline">\(c_{33}=0\)</span><br /><span
+class="math inline">\(r_{33}=0\)</span></td>
+<td><span class="math inline">\(w_{44}=0\)</span><br /><span
+class="math inline">\(c_{44}=0\)</span><br /><span
+class="math inline">\(r_{44}=0\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(j-i=1\)</span></td>
+<td><span class="math inline">\(w_{01}=0.25\)</span><br /><span
+class="math inline">\(c_{01}=0.25\)</span><br /><span
+class="math inline">\(r_{01}=1\)</span></td>
+<td><span class="math inline">\(w_{12}=0.5\)</span><br /><span
+class="math inline">\(c_{12}=0.5\)</span><br /><span
+class="math inline">\(r_{12}=2\)</span></td>
+<td><span class="math inline">\(w_{23}=0.45\)</span><br /><span
+class="math inline">\(c_{23}=0.45\)</span><br /><span
+class="math inline">\(r_{23}=3\)</span></td>
+<td><span class="math inline">\(w_{34}=0.35\)</span><br /><span
+class="math inline">\(c_{34}=0.35\)</span><br /><span
+class="math inline">\(r_{34}=4\)</span></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(j-i=2\)</span></td>
+<td><span class="math inline">\(w_{02}=0.6\)</span><br /><span
+class="math inline">\(c_{02}=0.85\)</span><br /><span
+class="math inline">\(r_{02}=2\)</span></td>
+<td><span class="math inline">\(w_{13}=0.75\)</span><br /><span
+class="math inline">\(c_{13}=1.2\)</span><br /><span
+class="math inline">\(r_{13}=2\)</span></td>
+<td><span class="math inline">\(w_{24}=0.6\)</span><br /><span
+class="math inline">\(c_{24}=0.95\)</span><br /><span
+class="math inline">\(r_{24}=3\)</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(j-i=3\)</span></td>
+<td><span class="math inline">\(w_{03}=0.85\)</span><br /><span
+class="math inline">\(c_{03}=1.55\)</span><br /><span
+class="math inline">\(r_{03}=2\)</span></td>
+<td><span class="math inline">\(w_{14}=0.9\)</span><br /><span
+class="math inline">\(c_{14}=1.75\)</span><br /><span
+class="math inline">\(r_{14}=3\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(j-i=4\)</span></td>
+<td><span class="math inline">\(w_{04}=1\)</span><br /><span
+class="math inline">\(c_{04}=2.2\)</span><br /><span
+class="math inline">\(r_{04}=2,3\)</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[
+\begin{align}
+cost=2.2
+\end{align}
+\]</span></p>
 <hr />
 
     </div>
@@ -632,13 +1124,13 @@ src="https://p.ipic.vip/3ibmu2.png" /></p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">84k</span>
+    <span title="Word count total">87k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:04</span>
+    <span title="Reading time total">5:15</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
