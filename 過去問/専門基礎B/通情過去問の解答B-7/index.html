@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/iz6wp7.png">
 <meta property="og:image" content="https://p.ipic.vip/hslzs4.png">
 <meta property="article:published_time" content="2023-05-30T16:12:02.000Z">
-<meta property="article:modified_time" content="2023-06-11T14:47:22.980Z">
+<meta property="article:modified_time" content="2023-06-11T17:05:20.767Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/rzo7t7.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-11 22:47:22" itemprop="dateModified" datetime="2023-06-11T22:47:22+08:00">2023-06-11</time>
+      <time title="Modified: 2023-06-12 01:05:20" itemprop="dateModified" datetime="2023-06-12T01:05:20+08:00">2023-06-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>53</span>
+      <span>653</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -325,11 +325,94 @@ setInterval("createtime()",250);
 <p>（１）</p>
 <p>​ (a) <span class="math display">\[
 \begin{align}
-\text{Required bit rate} &amp;= f_s \times n\\
+R&amp;= f_s \times n\\
+&amp;=2\times f_{max}\times n\quad(\text{Nyquist–Shannon sampling
+theorem})\\
 &amp;=40 \text{kHz} \times 16\text{bits}\\
 &amp;=640 \text{kbps}
 \end{align}
-\]</span></p>
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+Rs &amp;= \frac{R}  {\log_2M}\\
+&amp;=\frac{640\text{k}}{\log_21024}\text{Bd}\\
+&amp;=64 \text{kBd}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+G(\omega) = e^{-j\omega\tau}
+\quad (\tau=20\mu \text{s})
+\end{align}
+\]</span> ​ (d) $$ <span class="math display">\[\begin{align}
+
+\end{align}\]</span> $$ (a) Find the required bit rate of Pulse Code
+Modulation (PCM) transmissions using 16-bit quantization to transmit an
+audio signal with frequency up to 20 kHz. (c) Find the frequency
+transter function of the channel with two paths of 20 us delay time
+difterence. (d) Suppose Orthogonal Frequency Division Multiplexing
+(OFDM) transimssions with 1024QAM subcarrier modulation of the bit
+stream in Question (a) over the channel in Question (c). Find the
+minimum number of subcarriers in order for the guard interval to be less
+than or equal to 20% of the OFDM symbol. Note that an OFDM symbol
+consists of guard interval and eftective symbols.</p>
+<ol type="a">
+<li>To find the required bit rate for PCM transmission using 16-bit
+quantization, we need to consider the Nyquist-Shannon sampling theorem.
+According to the theorem, the minimum sampling rate should be at least
+twice the maximum frequency of the audio signal to avoid aliasing.</li>
+</ol>
+<p>Given: Maximum frequency (f_max) = 20 kHz</p>
+<p>Using the Nyquist-Shannon sampling theorem, we can calculate the
+minimum sampling rate (f_s) as follows:</p>
+<p>f_s = 2 * f_max = 2 * 20 kHz = 40 kHz</p>
+<p>Since we are using 16-bit quantization, each sample requires 16 bits.
+Therefore, the required bit rate can be calculated by multiplying the
+sampling rate by the number of bits per sample:</p>
+<p>Required bit rate = f_s * number of bits per sample = 40 kHz * 16
+bits = 640 kbps</p>
+<p>Therefore, the required bit rate for PCM transmission using 16-bit
+quantization to transmit an audio signal with a frequency up to 20 kHz
+is 640 kbps.</p>
+<ol start="3" type="a">
+<li>To find the frequency transfer function of the channel with two
+paths of 20 µs delay time difference, we can use the concept of
+multipath interference. Assuming the two paths have equal amplitudes and
+experience a 180-degree phase difference due to reflection or other
+factors, we can model the channel as a simple delay with
+attenuation.</li>
+</ol>
+<p>The frequency transfer function (H(f)) can be represented as:</p>
+<p>H(f) = e^(-j2πfτ)</p>
+<p>Where: H(f) = Frequency transfer function f = Frequency τ = Delay
+time difference (20 µs = 20 * 10^(-6) s)</p>
+<p>Substituting the given value, we have:</p>
+<p>H(f) = e^(-j2πf * 20 * 10^(-6))</p>
+<ol start="4" type="a">
+<li>To determine the minimum number of subcarriers in OFDM transmissions
+with 1024QAM modulation, we need to consider the guard interval and the
+effective symbols.</li>
+</ol>
+<p>Given: Guard interval ≤ 20% of the OFDM symbol</p>
+<p>Let's assume the duration of an OFDM symbol (T_OFDM) is known. The
+guard interval is typically a portion of the OFDM symbol used to
+mitigate inter-symbol interference caused by multipath effects.</p>
+<p>Guard interval duration (T_GI) can be calculated as a percentage of
+the OFDM symbol duration:</p>
+<p>T_GI = (20/100) * T_OFDM</p>
+<p>The effective symbol duration (T_eff) is the remaining portion of the
+OFDM symbol after excluding the guard interval:</p>
+<p>T_eff = T_OFDM - T_GI</p>
+<p>To ensure orthogonality between the subcarriers and avoid
+inter-symbol interference, the effective symbol duration should be an
+integer multiple of the subcarrier spacing (Δf).</p>
+<p>T_eff = N_subcarriers * (1/Δf)</p>
+<p>Rearranging the equation, we can solve for the minimum number of
+subcarriers (N_subcarriers):</p>
+<p>N_subcarriers = T_eff * Δf</p>
+<p>Substituting the given values, we have:</p>
+<p>N_subcarriers = (T_OFDM - T_GI) * Δf</p>
+<p>Therefore, to determine the minimum number of subcarriers, we need to
+know the duration of the OFDM symbol (T_OFDM) and the subcarrier spacing
+(Δf) in addition to the guard interval duration.</p>
 <hr />
 <h1 id="問題-1">2019問題</h1>
 <p><img src="https://p.ipic.vip/wz0kxg.png" /></p>
@@ -426,7 +509,7 @@ setInterval("createtime()",250);
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:16</span>
+    <span title="Reading time total">5:18</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
