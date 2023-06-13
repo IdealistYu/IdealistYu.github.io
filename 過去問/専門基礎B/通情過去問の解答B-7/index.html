@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/iz6wp7.png">
 <meta property="og:image" content="https://p.ipic.vip/hslzs4.png">
 <meta property="article:published_time" content="2023-05-30T16:12:02.000Z">
-<meta property="article:modified_time" content="2023-06-13T17:58:28.519Z">
+<meta property="article:modified_time" content="2023-06-13T18:18:50.537Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/rzo7t7.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-14 01:58:28" itemprop="dateModified" datetime="2023-06-14T01:58:28+08:00">2023-06-14</time>
+      <time title="Modified: 2023-06-14 02:18:50" itemprop="dateModified" datetime="2023-06-14T02:18:50+08:00">2023-06-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>3.2k</span>
+      <span>4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>12 mins.</span>
+      <span>15 mins.</span>
     </span>
 </div>
 
@@ -489,7 +489,105 @@ OFDMは、マルチパス伝播による影響を軽減することができま�
 <p>（２） <span class="math display">\[
 \begin{align}
 \end{align}
-\]</span></p>
+\]</span> （３）</p>
+<p>​ (a)</p>
+<ol type="1">
+<li><p>Physical layer: The Physical layer is responsible for the
+transmission and reception of raw bit streams over a physical medium. It
+deals with the physical aspects of data transmission, such as voltage
+levels, cables, connectors, and network interface cards.</p></li>
+<li><p>Data Link layer: The Data Link layer provides reliable and
+error-free point-to-point data transmission between two directly
+connected nodes over a network. It ensures that data packets are
+delivered without errors, through mechanisms like framing, error
+detection, and flow control. Ethernet switches and Wi-Fi access points
+operate at this layer.</p></li>
+<li><p>Network layer: The Network layer handles the routing and
+forwarding of data packets across multiple networks or subnetworks. It
+provides logical addressing and determines the best path for data
+delivery. The Internet Protocol (IP) operates at this layer, and routers
+are the devices commonly associated with network layer
+functions.</p></li>
+<li><p>Transport layer: The Transport layer ensures reliable and
+efficient end-to-end communication between hosts on a network. It breaks
+down large data streams into smaller segments and ensures that they are
+delivered correctly and in the correct order. The most common protocols
+at this layer are Transmission Control Protocol (TCP) and User Datagram
+Protocol (UDP).</p></li>
+</ol>
+<p>Please note that the OSI model has a total of seven layers, and the
+remaining layers are:</p>
+<ol start="5" type="1">
+<li>Session layer</li>
+<li>Presentation layer</li>
+<li>Application layer</li>
+</ol>
+<p>​ (b)</p>
+<p>The Internet Protocol (IP) belongs to the network layer of the OSI
+(Open Systems Interconnection) model. The network layer, also known as
+Layer 3, is responsible for addressing, routing, and delivering data
+packets across different networks. IP provides the necessary addressing
+and routing functions to enable communication between devices on
+different networks, making it a key protocol at the network layer.</p>
+<p>​ (c)</p>
+<p>The Media Access Control (MAC) sublayer is part of the Data Link
+Layer of the OSI (Open Systems Interconnection) model. The Data Link
+Layer is the second layer in the OSI model and is responsible for the
+reliable transfer of data between directly connected network nodes. The
+MAC sublayer within the Data Link Layer is specifically responsible for
+controlling access to the physical transmission medium, such as Ethernet
+or Wi-Fi, and for addressing and error detection within the data
+frames.</p>
+<p>​ (d)</p>
+<p>The Media Access Control (MAC) is a sublayer of the Data Link Layer
+in the IEEE 802.3 Ethernet standard. It defines the rules and procedures
+for accessing the physical media (such as copper or fiber optic cables)
+in a shared Ethernet network. The MAC sublayer is responsible for
+addressing, framing, and medium access control.</p>
+<p>The procedure of MAC in IEEE 802.3 involves the following steps:</p>
+<ol type="1">
+<li><p>Frame Delimiting: The MAC sublayer identifies the boundaries of
+Ethernet frames by using specific bit patterns known as frame
+delimiters. These delimiters mark the start and end of each frame and
+allow the receiver to synchronize its operation with the incoming data
+stream.</p></li>
+<li><p>Addressing: The MAC sublayer assigns a unique 48-bit MAC address
+to each network interface card (NIC) connected to the Ethernet network.
+The source and destination MAC addresses are included in the frame
+header, enabling devices to identify the intended recipient of the
+frame.</p></li>
+<li><p>Frame Type Identification: The MAC sublayer examines the Type
+field within the frame header to determine the protocol used in the
+payload of the frame. The Type field indicates which higher-level
+protocol the frame carries, such as IP, ARP, or VLAN tagging.</p></li>
+<li><p>Error Checking: The MAC sublayer performs error checking to
+ensure data integrity. It uses a cyclic redundancy check (CRC) algorithm
+to calculate a checksum based on the frame's contents. The checksum is
+appended to the frame as a frame check sequence (FCS).</p></li>
+<li><p>Medium Access Control: The MAC sublayer implements a medium
+access control mechanism to control how devices access the shared
+Ethernet medium. In IEEE 802.3, the Carrier Sense Multiple Access with
+Collision Detection (CSMA/CD) algorithm is used.</p>
+<ul>
+<li><p>Carrier Sense: Before transmitting, a device listens to the
+medium to check if it is already in use. If the medium is idle, the
+device proceeds with the transmission. If the medium is busy, the device
+waits until it becomes idle.</p></li>
+<li><p>Collision Detection: While transmitting, a device continuously
+monitors the medium for collisions. If a collision is detected (two or
+more devices transmitting at the same time), the devices stop
+transmitting and enter a backoff algorithm to retry transmission after a
+random time interval.</p></li>
+</ul></li>
+<li><p>Interframe Spacing: After a frame is transmitted, the MAC
+sublayer enforces an interframe spacing period to provide a gap between
+consecutive frames. This gap allows other devices on the network to gain
+access to the medium and helps avoid collisions.</p></li>
+</ol>
+<p>These steps outline the general procedure of the MAC sublayer in IEEE
+802.3 Ethernet. They ensure proper addressing, framing, error checking,
+and medium access control in a shared Ethernet network, facilitating
+reliable and efficient communication between devices.</p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p><img src="https://p.ipic.vip/iz6wp7.png" /></p>
@@ -775,13 +873,13 @@ data is delivered to the intended devices on a local network.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">90k</span>
+    <span title="Word count total">91k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:27</span>
+    <span title="Reading time total">5:30</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
