@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/iz6wp7.png">
 <meta property="og:image" content="https://p.ipic.vip/hslzs4.png">
 <meta property="article:published_time" content="2023-05-30T16:12:02.000Z">
-<meta property="article:modified_time" content="2023-06-13T14:54:50.520Z">
+<meta property="article:modified_time" content="2023-06-13T17:58:28.519Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/rzo7t7.png">
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-13 22:54:50" itemprop="dateModified" datetime="2023-06-13T22:54:50+08:00">2023-06-13</time>
+      <time title="Modified: 2023-06-14 01:58:28" itemprop="dateModified" datetime="2023-06-14T01:58:28+08:00">2023-06-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>2k</span>
+      <span>3.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>7 mins.</span>
+      <span>12 mins.</span>
     </span>
 </div>
 
@@ -555,7 +555,156 @@ N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
 N&amp;\geq \frac{2304 \text{kbps}\times 200\mu s}{\log_2256}\\
 N&amp;\geq \lceil5.76\rceil=6
 \end{align}
-\]</span></p>
+\]</span> （２）</p>
+<p>​ (a)</p>
+<p>Network Address Translation (NAT) is a technology used in computer
+networks to translate IP addresses from one network to another. It plays
+two primary roles: providing global address translation and enabling the
+use of private addresses.</p>
+<ol type="1">
+<li><p>Global Address: NAT allows a network to use a single public or
+global IP address to communicate with devices outside the network. This
+global address is the public IP address assigned by an Internet Service
+Provider (ISP) and is unique on the internet. NAT translates the private
+IP addresses of devices within the network into the global address when
+sending data outside the network.</p></li>
+<li><p>Private Address: Within a local network, devices are assigned
+private IP addresses that are not globally unique. These private
+addresses are used for internal communication within the network and are
+not routable on the internet. NAT assigns and manages these private
+addresses, allowing multiple devices to share a single public IP
+address. This conserves the limited pool of global IP addresses and
+facilitates communication between private network devices and the
+internet.</p></li>
+</ol>
+<p>Benefits of NAT: - Address Conservation: NAT allows many devices to
+share a single public IP address, reducing the need for unique global IP
+addresses. This is particularly important as the demand for IP addresses
+exceeds the available pool of IPv4 addresses. - Security and Privacy: By
+using private IP addresses, NAT helps shield internal devices from
+direct exposure to the internet, enhancing network security. It acts as
+a barrier that obscures the specific addresses of devices behind the NAT
+router. - Network Flexibility: NAT allows organizations to implement and
+manage their own private IP addressing schemes within their networks
+without needing globally unique addresses. This simplifies network
+design and configuration, especially in large-scale deployments. -
+Seamless Internet Connectivity: NAT enables devices with private IP
+addresses to access the internet without requiring each device to have a
+globally unique IP address. This facilitates internet connectivity for
+home networks, small businesses, and large enterprises with multiple
+internal devices.</p>
+<p>In summary, NAT translates private IP addresses to a single global IP
+address, providing address conservation, network security, flexibility,
+and seamless internet connectivity for devices within a local
+network.</p>
+<p>​ (b) 192.168.2.0</p>
+<p>​ (c)</p>
+<p>In general, the equipment that works as a node to interconnect two
+networks, such as networks A and B, is called a network gateway or
+router. A network gateway acts as a communication hub between different
+networks, facilitating the exchange of data packets between them.</p>
+<p>The primary function of a network gateway is to route traffic between
+networks based on the destination address of the data packets. It
+examines the source and destination IP (Internet Protocol) addresses of
+the packets and determines the most efficient path for forwarding the
+data. This process is known as routing.</p>
+<p>​ (d)</p>
+<p>To enable IP communication between networks A and B, each node in
+both networks needs to be assigned a unique IP address. Additionally,
+the IP addresses should be assigned based on the network they belong to.
+Here's a step-by-step explanation of how IP addresses should be assigned
+to the nodes in networks A and B, including the router:</p>
+<ol type="1">
+<li>Determine the IP address range for each network:
+<ul>
+<li>Network A: Choose an IP address range that is not overlapping with
+Network B. For example, let's use the range 192.168.1.0/24 for Network
+A.</li>
+<li>Network B: Choose another IP address range that is also not
+overlapping with Network A. For this example, let's use the range
+192.168.2.0/24 for Network B.</li>
+</ul></li>
+<li>Assign IP addresses to the nodes in Network A:
+<ul>
+<li>Host 1 in Network A: Assign an IP address within the Network A
+range, such as 192.168.1.1.</li>
+<li>Host 2 in Network A: Assign another IP address within the Network A
+range, such as 192.168.1.2.</li>
+</ul></li>
+<li>Assign IP addresses to the nodes in Network B:
+<ul>
+<li>Host 1 in Network B: Assign an IP address within the Network B
+range, such as 192.168.2.1.</li>
+<li>Host 2 in Network B: Assign another IP address within the Network B
+range, such as 192.168.2.2.</li>
+</ul></li>
+<li>Assign an IP address to the router:
+<ul>
+<li>The router needs to have an IP address on each network to facilitate
+communication between them. Assign an IP address from each network range
+to the router's interfaces.
+<ul>
+<li>Router interface for Network A: Assign an IP address, such as
+192.168.1.254.</li>
+<li>Router interface for Network B: Assign another IP address, such as
+192.168.2.254.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>With this assignment, the nodes in Network A can communicate with
+each other using their assigned IP addresses (e.g., Host 1 can
+communicate with Host 2 using their respective IP addresses). Similarly,
+the nodes in Network B can communicate with each other using their
+assigned IP addresses.</p>
+<p>Furthermore, communication between Network A and Network B can occur
+through the router. For example, Host 1 in Network A can send data to
+Host 1 in Network B by addressing it as 192.168.2.1, and the router will
+route the traffic between the networks.</p>
+<p>Example of IP address assignment:</p>
+<p>Network A: - Host 1: 192.168.1.1 - Host 2: 192.168.1.2</p>
+<p>Network B: - Host 1: 192.168.2.1 - Host 2: 192.168.2.2</p>
+<p>Router: - Interface for Network A: 192.168.1.254 - Interface for
+Network B: 192.168.2.254</p>
+<p>​ (e)</p>
+<p>The Address Resolution Protocol (ARP) is a protocol used in computer
+networks to map an IP address to a physical (MAC) address. It plays a
+crucial role in facilitating communication between devices on a local
+network. Here are the main roles of ARP:</p>
+<ol type="1">
+<li><p>Resolving IP to MAC addresses: When a device wants to send data
+to another device on the same network, it needs to know the MAC address
+of the destination device. The ARP protocol helps in this process by
+resolving the IP address of the target device to its corresponding MAC
+address. The requesting device sends an ARP request packet containing
+the IP address it wants to resolve, and the device with that IP address
+replies with its MAC address in an ARP reply packet.</p></li>
+<li><p>Building and updating ARP cache: Each device maintains an ARP
+cache, also known as the ARP table or ARP cache table. This cache stores
+the mappings of IP addresses to MAC addresses for devices on the local
+network. When a device successfully resolves an IP address, it stores
+the IP-to-MAC mapping in its ARP cache for future reference. The cache
+entries have a limited lifetime and expire after a certain period of
+inactivity.</p></li>
+<li><p>ARP spoofing detection: ARP spoofing is a malicious technique in
+which an attacker impersonates another device on the network by sending
+fake ARP replies. This can lead to traffic interception, data
+manipulation, or denial-of-service attacks. Some network security
+mechanisms involve monitoring ARP traffic and detecting anomalies or
+inconsistencies in the ARP mappings to identify and mitigate ARP
+spoofing attempts.</p></li>
+<li><p>Proxy ARP: In certain network configurations, a device acts as a
+proxy to help other devices communicate with devices on different
+networks or subnets. When a device receives an ARP request for an IP
+address outside its local network, it can respond with its own MAC
+address, acting as a proxy for the destination device. This allows the
+requesting device to send packets to the proxy, which will then forward
+them to the appropriate destination.</p></li>
+</ol>
+<p>Overall, the Address Resolution Protocol (ARP) provides the necessary
+mechanisms for IP-to-MAC address resolution, maintaining ARP caches,
+detecting ARP spoofing, and enabling proxy ARP when needed. These
+functions are essential for proper network communication and ensure that
+data is delivered to the intended devices on a local network.</p>
 <hr />
 
     </div>
@@ -626,13 +775,13 @@ N&amp;\geq \lceil5.76\rceil=6
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">89k</span>
+    <span title="Word count total">90k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:23</span>
+    <span title="Reading time total">5:27</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
