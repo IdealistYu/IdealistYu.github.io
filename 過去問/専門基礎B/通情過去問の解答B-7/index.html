@@ -35,7 +35,7 @@
 <meta property="og:image" content="https://p.ipic.vip/iz6wp7.png">
 <meta property="og:image" content="https://p.ipic.vip/hslzs4.png">
 <meta property="article:published_time" content="2023-05-30T16:12:02.000Z">
-<meta property="article:modified_time" content="2023-06-12T19:14:50.390Z">
+<meta property="article:modified_time" content="2023-06-13T14:54:50.520Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/rzo7t7.png">
@@ -100,7 +100,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-download"><a href="/download/" rel="section"><i class="fa fa-download fa-fw"></i>Download</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>Links</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-download"><a href="/download/" rel="section"><i class="fa fa-download fa-fw"></i>Download</a></li><li class="menu-item menu-item-list"><a href="/bangumis/" rel="section"><i class="fa fa-list fa-fw"></i>List</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>Links</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
         </a>
@@ -276,7 +276,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-13 03:14:50" itemprop="dateModified" datetime="2023-06-13T03:14:50+08:00">2023-06-13</time>
+      <time title="Modified: 2023-06-13 22:54:50" itemprop="dateModified" datetime="2023-06-13T22:54:50+08:00">2023-06-13</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +298,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>650</span>
+      <span>2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
+      <span>7 mins.</span>
     </span>
 </div>
 
@@ -328,7 +328,7 @@ setInterval("createtime()",250);
 R_b&amp;= f_s \times n\\
 &amp;=2\times f_{max}\times n\quad(\text{Nyquist–Shannon sampling
 theorem})\\
-&amp;=40 \text{kHz} \times 16\text{bits}\\
+&amp;=40 \text{kHz} \times 16\text{bit}\\
 &amp;=640 \text{kbps}
 \end{align}
 \]</span> ​ (b) <span class="math display">\[
@@ -339,8 +339,14 @@ Rs &amp;= \frac{R}  {\log_2M}\\
 \end{align}
 \]</span> ​ (c) <span class="math display">\[
 \begin{align}
-G(\omega) = e^{-j\omega\tau}
-\quad (\tau=20\mu \text{s})
+&amp;\text{2波それぞれは周波数特性が平たん（単位インパルスを入力したた単位インパルスが出てくる）とする}\\
+&amp;\text{インパルスを入力したときの出力は、（一つ目の出力が出てきた時をt=0とすると）}\\
+&amp;y(t)=\delta(t)+\delta(t-\tau)\quad(\tau=20\mu \text{s})\\
+&amp;\text{これをフーリエ変換すると（積分後の係数で何通りかあるけどはとりあえず１とする）}\\
+&amp;Y(\omega)=1+e^{-j\omega\tau}\quad (\tau=20\mu \text{s})\\
+&amp;周波数伝達関数とインパルス応答のフーリエ変換は一致するので\\
+&amp;G(\omega) = Y(\omega)= 1+e^{-j\omega\tau}\quad (\tau=20\mu
+\text{s})\\
 \end{align}
 \]</span> ​ (d) <span class="math display">\[
 \begin{align}
@@ -364,13 +370,19 @@ N&amp;\geq\lceil6.4\rceil=7
 R_b&amp;= f_s \times n\\
 &amp;=2\times f_{max}\times n\quad(\text{Nyquist–Shannon sampling
 theorem})\\
-&amp;=40 \text{kHz} \times 24\text{bits}\\
+&amp;=40 \text{kHz} \times 24\text{bit}\\
 &amp;=960 \text{kbps}
 \end{align}
 \]</span> ​ (b) <span class="math display">\[
 \begin{align}
-G(\omega) = e^{-j\omega\tau}
-\quad (\tau=20\mu \text{s})
+&amp;\text{2波それぞれは周波数特性が平たん（単位インパルスを入力したた単位インパルスが出てくる）とする}\\
+&amp;\text{インパルスを入力したときの出力は、（一つ目の出力が出てきた時をt=0とすると）}\\
+&amp;y(t)=\delta(t)+\delta(t-\tau)\quad(\tau=20\mu \text{s})\\
+&amp;\text{これをフーリエ変換すると（積分後の係数で何通りかあるけどはとりあえず１とする）}\\
+&amp;Y(\omega)=1+e^{-j\omega\tau}\quad (\tau=20\mu \text{s})\\
+&amp;周波数伝達関数とインパルス応答のフーリエ変換は一致するので\\
+&amp;G(\omega) = Y(\omega)= 1+e^{-j\omega\tau}\quad (\tau=20\mu
+\text{s})\\
 \end{align}
 \]</span> ​ (c) <span class="math display">\[
 \begin{align}
@@ -384,10 +396,6 @@ N&amp;\geq \frac{960 \text{kbps}\times 100\mu s}{\log_216}\\
 N&amp;\geq 24
 \end{align}
 \]</span> ​ (d)</p>
-<p>OFDM (Orthogonal Frequency Division Multiplexing) is a modulation
-technique commonly used in modern communication systems, including
-wireless and wired communication. It is particularly effective in coping
-with frequency selective fading channels due to several key reasons:</p>
 <ol type="1">
 <li><p>Frequency Diversity: OFDM provides inherent frequency diversity
 by dividing the available frequency spectrum into multiple narrow
@@ -433,16 +441,121 @@ multipath propagation and other environmental factors.</p>
 <p><img src="https://p.ipic.vip/14lwgr.png" /></p>
 <hr />
 <h1 id="解答-2">2018解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+R_b&amp;= f_s \times n\\
+&amp;=2\times f_{max}\times n\quad(\text{Nyquist–Shannon sampling
+theorem})\\
+&amp;=40 \text{kHz} \times 16\text{bit}\\
+&amp;=640 \text{kbps}
+\\
+\\
+\frac{T_{GI}}{T_{OFDM}} &amp;\leq 0.2 \\
+T_{OFDM}&amp;\geq5\times T_{GI}\geq5\times 20\mu s=100\mu s\\
+\\
+R&amp;\geq R_b\\
+N\times \frac{1}{T_{OFDM}}\times\log_2M&amp;\geq R_b\\
+N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
+N&amp;\geq \frac{640 \text{kbps}\times 100\mu s}{\log_264}\\
+N&amp;\geq \lceil\frac{32}{3}\rceil=11
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+&amp;\text{2波それぞれは周波数特性が平たん（単位インパルスを入力したた単位インパルスが出てくる）とする}\\
+&amp;\text{インパルスを入力したときの出力は、（一つ目の出力が出てきた時をt=0とすると）}\\
+&amp;y(t)=\delta(t)+\delta(t-\tau)\quad(\tau=20\mu \text{s})\\
+&amp;\text{これをフーリエ変換すると（積分後の係数で何通りかあるけどはとりあえず１とする）}\\
+&amp;Y(\omega)=1+e^{-j\omega\tau}\quad (\tau=20\mu \text{s})\\
+&amp;周波数伝達関数とインパルス応答のフーリエ変換は一致するので\\
+&amp;G(\omega) = Y(\omega)= 1+e^{-j\omega\tau}\quad (\tau=20\mu
+\text{s})\\
+&amp;伝搬路が周波数選択性フェージング伝搬路である
+\end{align}
+\]</span>
+周波数選択性フェージング伝搬路では、伝送される信号が周波数によって異なる程度のフェージング（信号の減衰や位相の変化）を経験します。このような伝搬路では、OFDM（Orthogonal
+Frequency Division
+Multiplexing）伝送が利点を持ちます。OFDMは、高速データ伝送を実現するための変調方式であり、以下のような利点があります。</p>
+<ol type="1">
+<li><p>周波数多様性の利用:
+OFDMは、周波数領域を多くの独立したサブキャリア（個別の周波数帯域）に分割します。これにより、異なる周波数帯域でフェージングが発生しても、他の周波数帯域では影響を受けずに信号が伝送されます。つまり、一部のサブキャリアがフェージングによって影響を受けても、他のサブキャリアが引き続き正常に伝送されるため、伝送の信頼性が向上します。</p></li>
+<li><p>インターシンボルインターフェアレンスの軽減:
+インターシンボルインターフェアレンス（ISI）は、伝搬路の遅延やマルチパス伝播によって発生する問題です。OFDMでは、シンボル時間を短くし、それぞれのサブキャリアが独立しているため、ISIの影響を軽減することができます。各サブキャリアは短い時間幅で送信されるため、遅延の影響を最小限に抑えることができます。</p></li>
+<li><p>高いスペクトル効率:
+OFDMは、周波数帯域を効果的に利用することができます。サブキャリアは互いに直交しているため、サブキャリア間の干渉を最小限に抑えながら、高いデータレートを実現することができます。これにより、限られた周波数帯域で高速なデータ伝送を行うことが可能となります。</p></li>
+<li><p>高い耐マルチパス性能:
+OFDMは、マルチパス伝播による影響を軽減することができます。各サブキャリアの周波数幅は狭く、遅延の異なるマルチパス信号に対しても</p></li>
+</ol>
+<p>（２） <span class="math display">\[
+\begin{align}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-3">2017問題</h1>
 <p><img src="https://p.ipic.vip/iz6wp7.png" /></p>
 <hr />
 <h1 id="解答-3">2017解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+R_b&amp;= f_s \times n\\
+&amp;=2\times f_{max}\times n\quad(\text{Nyquist–Shannon sampling
+theorem})\\
+&amp;=40 \text{kHz} \times 16\text{bit}\\
+&amp;=640 \text{kbps}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+Rs &amp;= \frac{R}  {\log_2M}\\
+&amp;=\frac{640\text{k}}{\log_216}\text{Bd}\\
+&amp;=160 \text{kBd}\\
+R_s&amp;=1\times W\,\text{Baud}\\
+W&amp;=160\text{kHz}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+\frac{T_{GI}}{T_{OFDM}} &amp;\leq 0.2 \\
+T_{OFDM}&amp;\geq5\times T_{GI}\geq5\times 20\mu s=100\mu s\\
+\\
+R&amp;\geq R_b\\
+N\times \frac{1}{T_{OFDM}}\times\log_2M&amp;\geq R_b\\
+N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
+N&amp;\geq \frac{640 \text{kbps}\times 100\mu s}{\log_216}\\
+N&amp;\geq 16
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-4">2016問題</h1>
 <p><img src="https://p.ipic.vip/hslzs4.png" /></p>
 <hr />
 <h1 id="解答-4">2016解答</h1>
+<p>（１）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+R_b&amp;= f_s \times n\\
+&amp;=96 \text{kHz} \times 24\text{bit}\\
+&amp;=2304 \text{kbps}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+Rs &amp;= \frac{R}  {\log_2M}\\
+&amp;=\frac{2304\text{k}}{\log_2256}\text{Bd}\\
+&amp;=288 \text{kBd}\\
+R_s&amp;=1\times W\,\text{Baud}\\
+W&amp;=288\text{kHz}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+\frac{T_{GI}}{T_{OFDM}} &amp;\leq 0.1 \\
+T_{OFDM}&amp;\geq10\times T_{GI}\geq10\times 20\mu s=200\mu s\\
+\\
+R&amp;\geq R_b\\
+N\times \frac{1}{T_{OFDM}}\times\log_2M&amp;\geq R_b\\
+N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
+N&amp;\geq \frac{2304 \text{kbps}\times 200\mu s}{\log_2256}\\
+N&amp;\geq \lceil5.76\rceil=6
+\end{align}
+\]</span></p>
 <hr />
 
     </div>
@@ -513,13 +626,13 @@ multipath propagation and other environmental factors.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">87k</span>
+    <span title="Word count total">89k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:18</span>
+    <span title="Reading time total">5:23</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
