@@ -32,10 +32,11 @@
 <meta property="og:image" content="https://p.ipic.vip/rzo7t7.png">
 <meta property="og:image" content="https://p.ipic.vip/wz0kxg.png">
 <meta property="og:image" content="https://p.ipic.vip/14lwgr.png">
+<meta property="og:image" content="https://p.ipic.vip/d8a9th.svg">
 <meta property="og:image" content="https://p.ipic.vip/iz6wp7.png">
 <meta property="og:image" content="https://p.ipic.vip/hslzs4.png">
 <meta property="article:published_time" content="2023-05-30T16:12:02.000Z">
-<meta property="article:modified_time" content="2023-06-13T18:23:23.207Z">
+<meta property="article:modified_time" content="2023-06-15T12:38:59.879Z">
 <meta property="article:author" content="Yu">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://p.ipic.vip/rzo7t7.png">
@@ -276,7 +277,7 @@ setInterval("createtime()",250);
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-06-14 02:23:23" itemprop="dateModified" datetime="2023-06-14T02:23:23+08:00">2023-06-14</time>
+      <time title="Modified: 2023-06-15 20:38:59" itemprop="dateModified" datetime="2023-06-15T20:38:59+08:00">2023-06-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,14 +299,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>4k</span>
+      <span>5.1k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>15 mins.</span>
+      <span>19 mins.</span>
     </span>
 </div>
 
@@ -358,6 +359,46 @@ N\times \frac{1}{T_{OFDM}}\times\log_2M&amp;\geq R_b\\
 N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
 N&amp;\geq \frac{640 \text{kbps}\times 100\mu s}{\log_21024}\\
 N&amp;\geq\lceil6.4\rceil=7
+\end{align}
+\]</span></p>
+<p>（２）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+\sum_{k=0}^{\infty}\frac{(\lambda t)^k}{k!}e^{-\lambda t}&amp;=1\\
+\\
+\sum_{k=0}^{\infty}kP(k,t)&amp;=\sum_{k=0}^{\infty}k\frac{(\lambda
+t)^k}{k!}e^{-\lambda t}\\
+&amp;=\lambda t\sum_{k=1}^{\infty}\frac{(\lambda
+t)^{k-1}}{(k-1)!}e^{-\lambda t}\\
+&amp;=\lambda t\sum_{i=0}^{\infty}\frac{(\lambda t)^i}{i!}e^{-\lambda
+t}\\
+&amp;=\lambda t
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+k&amp;=0\\
+\\
+P(k,t)&amp;=P(0,t)\\
+&amp;=\frac{(\lambda t)^0}{0!}e^{-\lambda t}\\
+&amp;=e^{-\lambda t}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+p(t)&amp;=(1-P(0,t))&#39;\\
+&amp;=(1-e^{-\lambda t})&#39;\\
+&amp;=\lambda e^{-\lambda t}
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+P(k&#39;,t)&amp;=\sum_{k=0}^{k&#39;}P(k,t)P(k&#39;-k,t)\\
+&amp;=\sum_{k=0}^{k&#39;}\frac{(\lambda_1 t)^k}{k!}e^{-\lambda_1
+t}\cdot\frac{(\lambda_2 t)^{k&#39;-k}}{(k&#39;-k)!}e^{-\lambda_2 t}\\
+&amp;=\frac{e^{-(\lambda_1+\lambda_2)t}}{k&#39;!}\sum_{k=0}^{k&#39;}\frac{k&#39;!}{k!(k&#39;-k)!}(\lambda_1
+t)^k(\lambda_2 t)^{k&#39;-k}\\
+&amp;=\frac{e^{-(\lambda_1+\lambda_2)t}}{k&#39;!}\cdot(\lambda_1
+t+\lambda_2 t)^{k&#39;}\\
+&amp;=\frac{((\lambda_1+\lambda_2)t)^{k&#39;}}{k&#39;!}
+e^{-(\lambda_1+\lambda_2)t}
 \end{align}
 \]</span></p>
 <hr />
@@ -437,6 +478,45 @@ suitable choice for coping with frequency selective fading channels. It
 enables reliable data transmission in wireless communication systems,
 such as mobile networks, where fading is a common occurrence due to
 multipath propagation and other environmental factors.</p>
+<p>（２）</p>
+<p>​ (a) <span class="math display">\[
+\begin{align}
+k&amp;=0,t=4\\
+\\
+P(k,t)&amp;=P(0,4)=\frac{(4\times4)^0}{0!}e^{-4\times4}=e^{-16}
+\end{align}
+\]</span> ​ (b) <span class="math display">\[
+\begin{align}
+k&amp;\geq3,t=3\\
+\\
+P(k,t)&amp;=1-P(0,3)-P(1,3)-P(2,3)
+\\
+&amp;=1-\frac{(4\times3)^0}{0!}e^{-4\times3}-\frac{(4\times3)^1}{1!}e^{-4\times3}-\frac{(4\times3)^2}{2!}e^{-4\times3}\\
+&amp;=1-85e^{-12}
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+p(t)=\begin{cases}
+\lambda e^{-\lambda t}&amp;t\geq 0\\
+0&amp;t&lt;0
+\end{cases}
+\\
+E(t)&amp;=\int_{-\infty}^{+\infty}tp(t)\,\mathrm dt\\
+&amp;=\int_{0}^{+\infty}t\lambda e^{-\lambda t}\,\mathrm dt\\
+&amp;=\left. -te^{-\lambda t}\right
+|_0^{+\infty}+\int_{0}^{+\infty}e^{-\lambda t}\,\mathrm dt\\
+&amp;=\frac{1}{\lambda}\\
+&amp;=\frac{1}{4}\text{min}
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+P(T_{internal}\leq t)=
+\begin{cases}
+1-e^{-\lambda t} &amp;t\geq0\\
+0 &amp;t&lt;0
+\end{cases}
+\end{align}
+\]</span></p>
 <hr />
 <h1 id="問題-2">2018問題</h1>
 <p><img src="https://p.ipic.vip/14lwgr.png" /></p>
@@ -487,8 +567,37 @@ OFDMは、周波数帯域を効果的に利用することができます。サ�
 <li><p>高い耐マルチパス性能:
 OFDMは、マルチパス伝播による影響を軽減することができます。各サブキャリアの周波数幅は狭く、遅延の異なるマルチパス信号に対しても</p></li>
 </ol>
-<p>（２） <span class="math display">\[
+<p>（２）</p>
+<p>​ (a) <img src="https://p.ipic.vip/d8a9th.svg" /></p>
+<p>​ (b) <span class="math display">\[
 \begin{align}
+P_1\mu=P_0\lambda\quad\rightarrow&amp;\quad
+P_1=\frac{\lambda}{\mu}P_0=\rho P_0\\
+P_0\lambda+P_2\mu=P_1\mu+P_1\lambda\quad\rightarrow&amp;\quad
+P_2=\frac{\lambda^2}{\mu^2}P_0=\rho^2 P_0\\
+\vdots\\
+P_{n-1}\lambda+P_{n+1}\mu=P_n\mu+P_n\lambda\quad\rightarrow&amp;\quad
+P_n=\frac{\lambda^n}{\mu^n}P_0=\rho^nP_0\\
+\\
+P_0+\rho P_0+\rho^2 P_0+\cdots+\rho^n P_0=&amp;1\\
+\\
+\lim_{n\to\infty}\frac{P_0(1-\rho^n)}{1-\rho}=\frac{P_0}{1-\rho}=&amp;1\\
+P_0=&amp;1-\rho\\
+\\
+p(n)=&amp;P_n=\rho^nP_0=(1-\rho)\rho^n
+\end{align}
+\]</span> ​ (c) <span class="math display">\[
+\begin{align}
+L&amp;=\sum_{i=0}^{\infty}ip(i)\\
+&amp;=\sum_{i=0}^{\infty}i(1-\rho)\rho^i\\
+&amp;=\sum_{i=0}^{\infty}(1-\rho)\rho+2(1-\rho)\rho^2+3(1-\rho)\rho^3+\cdots+(i-1)(1-\rho)\rho^{i-1}+i(1-\rho)\rho^{i}+\cdots\\
+&amp;=\sum_{i=0}^{\infty}\rho+\rho^2+\rho^3+\cdots+\rho^{i+1}+\cdots\\
+&amp;=\rho\sum_{i=0}^{\infty}1+\rho+\rho^2+\cdots+\rho^i+\cdots\\
+&amp;=\frac{\rho}{1-\rho}
+\end{align}
+\]</span> ​ (d) <span class="math display">\[
+\begin{align}
+W=\frac{L}{\lambda}=\frac{\rho}{(1-\rho)\lambda}=\frac{1}{\mu-\lambda}
 \end{align}
 \]</span> （３）</p>
 <p>​ (a)</p>
@@ -621,6 +730,77 @@ N\times \frac{1}{T_{OFDM}}\times\log_2M&amp;\geq R_b\\
 N&amp;\geq \frac{R_b\times T_{OFDM}}{\log_2M}\\
 N&amp;\geq \frac{640 \text{kbps}\times 100\mu s}{\log_216}\\
 N&amp;\geq 16
+\end{align}
+\]</span> （２）</p>
+<p>​ (a)</p>
+<p>Calls that arrive based on a Poisson distribution possess certain
+characteristics. Here are the main features:</p>
+<ol type="1">
+<li><p>Randomness: Calls arriving according to a Poisson distribution
+are inherently random. The timing and frequency of calls are independent
+of each other and do not follow any discernible pattern or regular
+intervals.</p></li>
+<li><p>Memoryless property: The Poisson distribution has the memoryless
+property, which means that the arrival of a call is not influenced by
+previous calls or the time since the last call. Each call is treated as
+an independent event.</p></li>
+<li><p>Constant call rate: The Poisson distribution assumes a constant
+average call rate over a given time period. For example, if the average
+call rate is λ calls per minute, the number of calls arriving in a given
+minute will follow the Poisson distribution with a mean of λ.</p></li>
+<li><p>Rare occurrence of multiple calls: The probability of multiple
+calls arriving at exactly the same instant is extremely low in a Poisson
+distribution. This is because the events are considered to be
+independent and random, and the intervals between calls are
+exponentially distributed.</p></li>
+<li><p>Clustering effect: Although the timing of individual calls is
+random, there can be clustering or bursts of calls over shorter time
+intervals. However, when observed over a longer time period, the overall
+average call rate remains constant.</p></li>
+<li><p>Predictability of long-term behavior: While the arrival of
+individual calls may be unpredictable, the long-term behavior of the
+call arrival process can be modeled accurately using a Poisson
+distribution. This allows for statistical analysis and forecasting of
+call traffic patterns.</p></li>
+</ol>
+<p>Poisson distribution is commonly used to model various
+telecommunication networks and systems, such as telephone call centers,
+network traffic, and packet arrival in data networks. By understanding
+the characteristics of calls based on Poisson distribution, network
+operators can design and optimize their systems to handle call traffic
+effectively, allocate appropriate resources, and manage network
+congestion.</p>
+<p>​ (b) <span class="math display">\[
+\begin{align}
+P(T_{internal}\leq T)=
+\begin{cases}
+1-e^{-\lambda t} &amp;T\geq0\\
+0 &amp;T&lt;0
+\end{cases}
+\end{align}
+\]</span> ​ (c)</p>
+<ol type="1">
+<li><p>Arrival Distribution (M/M/1): The arrival process follows a
+Poisson distribution, which means that the inter-arrival times between
+packets are exponentially distributed. The arrival rate is denoted by λ
+(lambda) and represents the average number of packets arriving per unit
+of time. The Poisson distribution assumes that arrivals occur
+independently and at a constant rate.</p></li>
+<li><p>Service Time Distribution (M/M/1): The service time also follows
+an exponential distribution, indicating that the time taken to process
+each packet is exponentially distributed. The service rate is denoted by
+μ (mu) and represents the average number of packets that can be serviced
+per unit of time. Like the arrival process, the service time assumes
+that processing occurs independently and at a constant rate.</p></li>
+</ol>
+<p>​ (d) <span class="math display">\[
+\begin{align}
+L&amp;=\sum_{i=0}^{\infty}ip(i)\\
+&amp;=\sum_{i=0}^{\infty}i(1-\rho)\rho^i\\
+&amp;=\sum_{i=0}^{\infty}(1-\rho)\rho+2(1-\rho)\rho^2+3(1-\rho)\rho^3+\cdots+(i-1)(1-\rho)\rho^{i-1}+i(1-\rho)\rho^{i}+\cdots\\
+&amp;=\sum_{i=0}^{\infty}\rho+\rho^2+\rho^3+\cdots+\rho^{i+1}+\cdots\\
+&amp;=\rho\sum_{i=0}^{\infty}1+\rho+\rho^2+\cdots+\rho^i+\cdots\\
+&amp;=\frac{\rho}{1-\rho}
 \end{align}
 \]</span></p>
 <hr />
@@ -874,13 +1054,13 @@ data is delivered to the intended devices on a local network.</p>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">91k</span>
+    <span title="Word count total">92k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">5:30</span>
+    <span title="Reading time total">5:34</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
