@@ -285,6 +285,14 @@ setInterval("createtime()",250);
     </span>
 
   
+    <span id="/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/" class="post-meta-item twikoo_visitors" data-flag-title="NexT侧边栏添加网站运行时间" title="Views">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="twikoo_visitors"></span>
+    </span>
+  
     <span class="post-meta-item" title="Word count in article">
       <span class="post-meta-item-icon">
         <i class="far fa-file-word"></i>
@@ -498,6 +506,27 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
 <script src="/js/third-party/math/mathjax.js"></script>
 
 
+<script class="next-config" data-name="twikoo" type="application/json">{"enable":true,"visitor":true,"envId":"https://comment.loveyou.moe/","el":"#twikoo-comments"}</script>
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.twikoo.el)
+    .then(() => NexT.utils.getScript(
+      CONFIG.twikoo.jsUrl || 'https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js',
+      { condition: window.twikoo }
+    ))
+    .then(() => {
+      twikoo.init(CONFIG.twikoo);
+    });
+});
+</script>
+<style>
+.post-block, .comments {
+  overflow: visible;
+}
+.tk-owo-emotion {
+  display: inline-block;
+}
+</style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
 <script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"IdealistYu","repo":"idealistyu.github.io","client_id":"6d8dc21cc13225558100","client_secret":"067dad059d8dc7dc664bbe97bdeb4d576242e9b4","admin_user":"IdealistYu","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"7b4062ad62202afa1bbabdf209c9d688"}</script>
