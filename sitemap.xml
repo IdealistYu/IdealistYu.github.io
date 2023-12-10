@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.loveyou.moe/test/</loc>
-    
-    <lastmod>2023-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/links/index.html</loc>
     
     <lastmod>2023-12-03</lastmod>
@@ -605,14 +596,14 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
+    <loc>https://blog.loveyou.moe/categories/Lyrics/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Lyrics/</loc>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -647,28 +638,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
-    <lastmod>2023-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
-    <lastmod>2023-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
-    <lastmod>2023-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -682,7 +652,28 @@
   </url>
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

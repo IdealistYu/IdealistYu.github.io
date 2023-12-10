@@ -1,4 +1,3 @@
-https://blog.loveyou.moe/test/
 https://blog.loveyou.moe/links/index.html
 https://blog.loveyou.moe/Lyrics/%E6%88%91%E6%84%9B%E4%BD%A0%E4%B8%8A%E6%B5%B7%E8%9F%B9/
 https://blog.loveyou.moe/owo.json
@@ -65,15 +64,15 @@ https://blog.loveyou.moe/categories/index.html
 https://blog.loveyou.moe/download/index.html
 https://blog.loveyou.moe/
 https://blog.loveyou.moe/categories/LaTex/
-https://blog.loveyou.moe/categories/Linux/
 https://blog.loveyou.moe/categories/Lyrics/
+https://blog.loveyou.moe/categories/Linux/
 https://blog.loveyou.moe/categories/Raspberry-Pi/
 https://blog.loveyou.moe/categories/Regular-expression/
 https://blog.loveyou.moe/categories/Site/
 https://blog.loveyou.moe/categories/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/
-https://blog.loveyou.moe/categories/Literature/
 https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/
-https://blog.loveyou.moe/categories/Literature/Translate/
-https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/
 https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N2/
+https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/
 https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/
+https://blog.loveyou.moe/categories/Literature/
+https://blog.loveyou.moe/categories/Literature/Translate/
