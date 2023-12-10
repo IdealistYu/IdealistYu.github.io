@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.loveyou.moe/test/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/links/index.html</loc>
     
     <lastmod>2023-12-03</lastmod>
@@ -589,13 +598,6 @@
 
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
-    <lastmod>2023-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -603,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -617,6 +619,13 @@
   </url>
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
+    <lastmod>2023-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/Regular-expression/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -624,14 +633,14 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/</loc>
+    <loc>https://blog.loveyou.moe/categories/Site/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Site/</loc>
+    <loc>https://blog.loveyou.moe/categories/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/</loc>
     <lastmod>2023-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
