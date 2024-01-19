@@ -598,20 +598,6 @@
 
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Aseprite/</loc>
-    <lastmod>2024-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
-    <lastmod>2024-01-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
     <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -619,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Lyrics/</loc>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
     <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -640,6 +626,13 @@
   </url>
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/Lyrics/</loc>
+    <lastmod>2024-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/Site/</loc>
     <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -648,6 +641,13 @@
   
   <url>
     <loc>https://blog.loveyou.moe/categories/%E5%82%99%E8%80%83%E7%B7%B4%E7%BF%92/</loc>
+    <lastmod>2024-01-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Aseprite/</loc>
     <lastmod>2024-01-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
