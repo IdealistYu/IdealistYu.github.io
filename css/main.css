@@ -2109,6 +2109,9 @@ header.header {
 .post-meta-item-icon {
   margin-right: 3px;
 }
+.post-meta-item-text {
+  display: none;
+}
 @media (max-width: 991px) {
   .post-meta-item-text {
     display: none;
@@ -2871,7 +2874,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff05a1;
+  background: #32ffff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
