@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2024-02-08T07:29:59.882Z</updated>
+  <updated>2024-03-10T16:12:41.644Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>九大情報理工学過去問の解答</title>
+    <link href="https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/"/>
+    <id>https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</id>
+    <published>2024-03-10T15:00:00.000Z</published>
+    <updated>2024-03-10T16:12:41.644Z</updated>
+    
+    
+    <summary type="html">九州大学　大学院システム情報工学府　情報理工学専攻　過去問の解答（令和元年〜五年）</summary>
+    
+    
+    
+    <category term="KU" scheme="https://blog.loveyou.moe/categories/KU/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>人生第一张像素画</title>
@@ -77,25 +94,6 @@
     <id>https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</id>
     <published>2023-03-15T15:00:00.000Z</published>
     <updated>2024-02-08T16:15:04.692Z</updated>
-    
-    
-    <summary type="html">「まとめ」</summary>
-    
-    
-    
-    <category term="日本語" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
-    
-    <category term="その他" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>色についての日本語</title>
-    <link href="https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
-    <id>https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</id>
-    <published>2023-03-14T15:00:00.000Z</published>
-    <updated>2024-02-08T16:11:23.920Z</updated>
     
     
     <summary type="html">「まとめ」</summary>
