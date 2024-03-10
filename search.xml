@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>人生第一张像素画</title>
+    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
+    <content><![CDATA[<hr />
+<h3
+id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
+<p><img src="/images/2023-12-14-1.png" /></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Aseprite</category>
+      </categories>
+  </entry>
+  <entry>
     <title>九大情報理工学過去問の解答</title>
     <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
     <content><![CDATA[<h1
@@ -23,19 +36,78 @@ style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠
 href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
 <hr />
 <h2 id="解析学微積分">解析学・微積分</h2>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/解析学・微積分.pdf](https://idealistyu.github.io/pdf/%E8%A7%A3%E6%9E%90%E5%AD%A6%E3%83%BB%E5%BE%AE%E7%A9%8D%E5%88%86.pdf)" data-height="800px"></div>
+<div class="pdf-container" data-target="https://idealistyu.github.io/pdf/解析学・微積分.pdf" data-height="800px"></div>
 <h2 id="線形代数">線形代数</h2>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/線形代数.pdf](https://idealistyu.github.io/pdf/%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0.pdf)" data-height="800px"></div>
+<div class="pdf-container" data-target="https://idealistyu.github.io/pdf/線形代数.pdf" data-height="800px"></div>
 <h2 id="ヘクトル解析">ベクトル解析</h2>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/ベクトル解析.pdf](https://idealistyu.github.io/pdf/%E3%83%98%E3%82%99%E3%82%AF%E3%83%88%E3%83%AB%E8%A7%A3%E6%9E%90.pdf)" data-height="800px"></div>
+<div class="pdf-container" data-target="https://idealistyu.github.io/pdf/ベクトル解析.pdf" data-height="800px"></div>
 <h2 id="情報理論">情報理論</h2>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/情報理論.pdf](https://idealistyu.github.io/pdf/%E6%83%85%E5%A0%B1%E7%90%86%E8%AB%96.pdf)" data-height="800px"></div>
+<div class="pdf-container" data-target="https://idealistyu.github.io/pdf/情報理論.pdf" data-height="800px"></div>
 <h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/計算機アーキテクチャ.pdf](https://idealistyu.github.io/pdf/%E8%A8%88%E7%AE%97%E6%A9%9F%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3.pdf)" data-height="800px"></div>
+<div class="pdf-container" data-target="https://idealistyu.github.io/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
 <hr />
 ]]></content>
       <categories>
         <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>树莓派安装conky监控运行状态</title>
+    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
+    <content><![CDATA[<hr />
+<h3 id="时间">时间</h3>
+<p>2022.7（请注意时效性）</p>
+<h3 id="环境及物料">环境及物料</h3>
+<table>
+<thead>
+<tr class="header">
+<th>环境及物料</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Raspberry Pi 4B(8G)</td>
+</tr>
+<tr class="even">
+<td>OS: Raspberry Pi OS(64-bit)</td>
+</tr>
+<tr class="odd">
+<td>Win11 PC(用于远程桌面连接)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conky简介">Conky简介</h3>
+<p><a
+href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
+是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
+上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
+CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
+<h3 id="conky安装">Conky安装</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky配置">Conky配置</h3>
+<ul>
+<li>创建配置文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>把下面的内容复制到新建的文件中（从conky
+1.10以来，配置文件都是用新的lua语法编写的）</li>
+</ul>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
+</ul>
+<h3 id="conky使用">Conky使用</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky效果">Conky效果</h3>
+<p><img src="/images/2022-07-25-1.jpg" /></p>
+<ul>
+<li>截图软件scrot</li>
+</ul>
+<hr />
+]]></content>
+      <categories>
+        <category>Raspberry Pi</category>
       </categories>
   </entry>
   <entry>
@@ -1178,65 +1250,6 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
-    <title>树莓派安装conky监控运行状态</title>
-    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
-    <content><![CDATA[<hr />
-<h3 id="时间">时间</h3>
-<p>2022.7（请注意时效性）</p>
-<h3 id="环境及物料">环境及物料</h3>
-<table>
-<thead>
-<tr class="header">
-<th>环境及物料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Raspberry Pi 4B(8G)</td>
-</tr>
-<tr class="even">
-<td>OS: Raspberry Pi OS(64-bit)</td>
-</tr>
-<tr class="odd">
-<td>Win11 PC(用于远程桌面连接)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="conky简介">Conky简介</h3>
-<p><a
-href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
-是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
-上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
-CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
-<h3 id="conky安装">Conky安装</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky配置">Conky配置</h3>
-<ul>
-<li>创建配置文件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>把下面的内容复制到新建的文件中（从conky
-1.10以来，配置文件都是用新的lua语法编写的）</li>
-</ul>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
-</ul>
-<h3 id="conky使用">Conky使用</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky效果">Conky效果</h3>
-<p><img src="/images/2022-07-25-1.jpg" /></p>
-<ul>
-<li>截图软件scrot</li>
-</ul>
-<hr />
-]]></content>
-      <categories>
-        <category>Raspberry Pi</category>
-      </categories>
-  </entry>
-  <entry>
     <title>基础正则表达式速查表与常用正则表达式示例</title>
     <url>/Regular%20expression/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<hr />
@@ -2020,19 +2033,6 @@ href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式�
       </categories>
   </entry>
   <entry>
-    <title>人生第一张像素画</title>
-    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
-    <content><![CDATA[<hr />
-<h3
-id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
-<p><img src="/images/2023-12-14-1.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Aseprite</category>
-      </categories>
-  </entry>
-  <entry>
     <title>LaTeX字母上方符号</title>
     <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
     <content><![CDATA[<hr />
@@ -2064,39 +2064,6 @@ id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的"
 \dddot A
 \quad
 \ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
 \]</span></p>
 <hr />
 ]]></content>
@@ -2138,6 +2105,39 @@ m\quad \beta
       </categories>
   </entry>
   <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
     <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
@@ -2166,6 +2166,27 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<hr />
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p>见本网站home页侧边栏</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
     <title>img与a标签行内对齐</title>
     <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
     <content><![CDATA[<hr />
@@ -2187,24 +2208,19 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
       </categories>
   </entry>
   <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <title>文献翻译BERT</title>
+    <url>/Literature/Translate/BERT/</url>
     <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p>见本网站home页侧边栏</p>
+<h1 id="bert">BERT</h1>
+<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/BERT.pdf](https://idealistyu.github.io/pdf/BERT.pdf)" data-height="800px"></div>
+<hr />
+<h1 id="bert_translated">BERT_translated</h1>
+<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/BERT_translated.pdf](https://idealistyu.github.io/pdf/BERT_translated.pdf)" data-height="800px"></div>
 <hr />
 ]]></content>
       <categories>
-        <category>Site</category>
+        <category>Literature</category>
+        <category>Translate</category>
       </categories>
   </entry>
   <entry>
@@ -4773,6 +4789,245 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
+    <title>N2動詞</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
+    <content><![CDATA[<hr />
+<table style="width:100%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>悩んむ</th>
+<th>悔やむ</th>
+<th>恨む</th>
+<th>憎む</th>
+<th>痛む・傷む</th>
+<th>恵む</th>
+<th>囲む</th>
+<th>包む</th>
+<th>掴む</th>
+<th>縮む</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>疑う</strong></td>
+<td><strong>育つ</strong></td>
+<td><strong>養う</strong></td>
+<td><strong>奪う</strong></td>
+<td><strong>競う　戦う</strong></td>
+<td><strong>争う</strong></td>
+<td><strong>庇う</strong></td>
+<td><strong>狙う</strong></td>
+<td><strong>揃う</strong></td>
+<td><strong>補う</strong></td>
+</tr>
+<tr class="even">
+<td><strong>除く</strong></td>
+<td><strong>省く</strong></td>
+<td><strong>暴く</strong></td>
+<td><strong>招く</strong></td>
+<td><strong>傾く　導く</strong></td>
+<td><strong>扱う</strong></td>
+<td><strong>救う</strong></td>
+<td><strong>伺う</strong></td>
+<td><strong>覆う</strong></td>
+<td><strong>占う</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>俯く</strong></td>
+<td><strong>囁く</strong></td>
+<td><strong>催す</strong></td>
+<td><strong>偏る</strong></td>
+<td><strong>謝る・誤る</strong></td>
+<td><strong>乱れる</strong></td>
+<td><strong>暴れる</strong></td>
+<td><strong>潰れる</strong></td>
+<td><strong>崩れる</strong></td>
+<td><strong>萎れる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>凍る</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>濁る</strong></td>
+<td><strong>破れる</strong></td>
+<td><strong>囲まれる</strong></td>
+<td><strong>異なる</strong></td>
+<td><strong>倒れる</strong></td>
+<td><strong>壊れる</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>含める</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>腐る</strong></td>
+<td><strong>断る</strong></td>
+<td><strong>被る</strong></td>
+<td><strong>固める</strong></td>
+<td><strong>隔てる</strong></td>
+<td><strong>憧れる</strong></td>
+<td><strong>整える</strong></td>
+<td><strong>備える</strong></td>
+<td><strong>喋る</strong></td>
+<td><strong>蓄える</strong></td>
+</tr>
+<tr class="even">
+<td><strong>頼る</strong></td>
+<td><strong>潜る</strong></td>
+<td><strong>劣る</strong></td>
+<td><strong>痺れる</strong></td>
+<td><strong>隠れる</strong></td>
+<td><strong>隠す</strong></td>
+<td><strong>定める</strong></td>
+<td><strong>握る</strong></td>
+<td><strong>畳む</strong></td>
+<td><strong>挟む</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>驚かす</strong></td>
+<td><strong>躓く</strong></td>
+<td><strong>削る</strong></td>
+<td><strong>戻す</strong></td>
+<td><strong>衰える</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>なやんむ</th>
+<th>くやむ</th>
+<th>うらむ</th>
+<th>にくむ</th>
+<th>いたむ</th>
+<th>めぐむ</th>
+<th>かこむ</th>
+<th>つつむ</th>
+<th>つかむ</th>
+<th>ちぢむ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>うたがう</strong></td>
+<td><strong>そだつ</strong></td>
+<td><strong>やしなう</strong></td>
+<td><strong>うばう</strong></td>
+<td><strong>きそう　たたかう</strong></td>
+<td><strong>あらそう</strong></td>
+<td><strong>かばう</strong></td>
+<td><strong>ねらう</strong></td>
+<td><strong>そろう</strong></td>
+<td><strong>おぎなう</strong></td>
+</tr>
+<tr class="even">
+<td><strong>のぞく</strong></td>
+<td><strong>はぶく</strong></td>
+<td><strong>あばく</strong></td>
+<td><strong>まねく</strong></td>
+<td><strong>かたむく　みちびく</strong></td>
+<td><strong>あつかう</strong></td>
+<td><strong>すくう</strong></td>
+<td><strong>うかがう</strong></td>
+<td><strong>おおう</strong></td>
+<td><strong>うらなう</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>うつむく</strong></td>
+<td><strong>ささやく</strong></td>
+<td><strong>もよおす</strong></td>
+<td><strong>かたよる</strong></td>
+<td><strong>あやまる</strong></td>
+<td><strong>みだれる</strong></td>
+<td><strong>あばれる</strong></td>
+<td><strong>つぶれる</strong></td>
+<td><strong>くずれる</strong></td>
+<td><strong>しおれる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>こおる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>にごる</strong></td>
+<td><strong>やぶれる</strong></td>
+<td><strong>かこまれる</strong></td>
+<td><strong>ことなる</strong></td>
+<td><strong>たおれる</strong></td>
+<td><strong>こわれる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>ふくめる</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>くさる</strong></td>
+<td><strong>ことわる</strong></td>
+<td><strong>こうむる</strong></td>
+<td><strong>かためる</strong></td>
+<td><strong>へだてる</strong></td>
+<td><strong>あこがれる</strong></td>
+<td><strong>ととのえる</strong></td>
+<td><strong>そなえる</strong></td>
+<td><strong>しゃべる</strong></td>
+<td><strong>たくわえる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>たよる</strong></td>
+<td><strong>もぐる</strong></td>
+<td><strong>おとる</strong></td>
+<td><strong>しびれる</strong></td>
+<td><strong>かくれる</strong></td>
+<td><strong>かくる</strong></td>
+<td><strong>さだめる</strong></td>
+<td><strong>にぎる</strong></td>
+<td><strong>たたむ</strong></td>
+<td><strong>はさむ</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>おどろかす</strong></td>
+<td><strong>つまずく</strong></td>
+<td><strong>けずる</strong></td>
+<td><strong>もどす</strong></td>
+<td><strong>おとろえる</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
     <title>N2副詞</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%89%AF%E8%A9%9E/</url>
     <content><![CDATA[<hr />
@@ -5538,245 +5793,6 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
-    <title>N2動詞</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
-    <content><![CDATA[<hr />
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 13%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>悩んむ</th>
-<th>悔やむ</th>
-<th>恨む</th>
-<th>憎む</th>
-<th>痛む・傷む</th>
-<th>恵む</th>
-<th>囲む</th>
-<th>包む</th>
-<th>掴む</th>
-<th>縮む</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>疑う</strong></td>
-<td><strong>育つ</strong></td>
-<td><strong>養う</strong></td>
-<td><strong>奪う</strong></td>
-<td><strong>競う　戦う</strong></td>
-<td><strong>争う</strong></td>
-<td><strong>庇う</strong></td>
-<td><strong>狙う</strong></td>
-<td><strong>揃う</strong></td>
-<td><strong>補う</strong></td>
-</tr>
-<tr class="even">
-<td><strong>除く</strong></td>
-<td><strong>省く</strong></td>
-<td><strong>暴く</strong></td>
-<td><strong>招く</strong></td>
-<td><strong>傾く　導く</strong></td>
-<td><strong>扱う</strong></td>
-<td><strong>救う</strong></td>
-<td><strong>伺う</strong></td>
-<td><strong>覆う</strong></td>
-<td><strong>占う</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>俯く</strong></td>
-<td><strong>囁く</strong></td>
-<td><strong>催す</strong></td>
-<td><strong>偏る</strong></td>
-<td><strong>謝る・誤る</strong></td>
-<td><strong>乱れる</strong></td>
-<td><strong>暴れる</strong></td>
-<td><strong>潰れる</strong></td>
-<td><strong>崩れる</strong></td>
-<td><strong>萎れる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>凍る</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>濁る</strong></td>
-<td><strong>破れる</strong></td>
-<td><strong>囲まれる</strong></td>
-<td><strong>異なる</strong></td>
-<td><strong>倒れる</strong></td>
-<td><strong>壊れる</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>含める</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>腐る</strong></td>
-<td><strong>断る</strong></td>
-<td><strong>被る</strong></td>
-<td><strong>固める</strong></td>
-<td><strong>隔てる</strong></td>
-<td><strong>憧れる</strong></td>
-<td><strong>整える</strong></td>
-<td><strong>備える</strong></td>
-<td><strong>喋る</strong></td>
-<td><strong>蓄える</strong></td>
-</tr>
-<tr class="even">
-<td><strong>頼る</strong></td>
-<td><strong>潜る</strong></td>
-<td><strong>劣る</strong></td>
-<td><strong>痺れる</strong></td>
-<td><strong>隠れる</strong></td>
-<td><strong>隠す</strong></td>
-<td><strong>定める</strong></td>
-<td><strong>握る</strong></td>
-<td><strong>畳む</strong></td>
-<td><strong>挟む</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>驚かす</strong></td>
-<td><strong>躓く</strong></td>
-<td><strong>削る</strong></td>
-<td><strong>戻す</strong></td>
-<td><strong>衰える</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 15%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>なやんむ</th>
-<th>くやむ</th>
-<th>うらむ</th>
-<th>にくむ</th>
-<th>いたむ</th>
-<th>めぐむ</th>
-<th>かこむ</th>
-<th>つつむ</th>
-<th>つかむ</th>
-<th>ちぢむ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>うたがう</strong></td>
-<td><strong>そだつ</strong></td>
-<td><strong>やしなう</strong></td>
-<td><strong>うばう</strong></td>
-<td><strong>きそう　たたかう</strong></td>
-<td><strong>あらそう</strong></td>
-<td><strong>かばう</strong></td>
-<td><strong>ねらう</strong></td>
-<td><strong>そろう</strong></td>
-<td><strong>おぎなう</strong></td>
-</tr>
-<tr class="even">
-<td><strong>のぞく</strong></td>
-<td><strong>はぶく</strong></td>
-<td><strong>あばく</strong></td>
-<td><strong>まねく</strong></td>
-<td><strong>かたむく　みちびく</strong></td>
-<td><strong>あつかう</strong></td>
-<td><strong>すくう</strong></td>
-<td><strong>うかがう</strong></td>
-<td><strong>おおう</strong></td>
-<td><strong>うらなう</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>うつむく</strong></td>
-<td><strong>ささやく</strong></td>
-<td><strong>もよおす</strong></td>
-<td><strong>かたよる</strong></td>
-<td><strong>あやまる</strong></td>
-<td><strong>みだれる</strong></td>
-<td><strong>あばれる</strong></td>
-<td><strong>つぶれる</strong></td>
-<td><strong>くずれる</strong></td>
-<td><strong>しおれる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>こおる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>にごる</strong></td>
-<td><strong>やぶれる</strong></td>
-<td><strong>かこまれる</strong></td>
-<td><strong>ことなる</strong></td>
-<td><strong>たおれる</strong></td>
-<td><strong>こわれる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>ふくめる</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>くさる</strong></td>
-<td><strong>ことわる</strong></td>
-<td><strong>こうむる</strong></td>
-<td><strong>かためる</strong></td>
-<td><strong>へだてる</strong></td>
-<td><strong>あこがれる</strong></td>
-<td><strong>ととのえる</strong></td>
-<td><strong>そなえる</strong></td>
-<td><strong>しゃべる</strong></td>
-<td><strong>たくわえる</strong></td>
-</tr>
-<tr class="even">
-<td><strong>たよる</strong></td>
-<td><strong>もぐる</strong></td>
-<td><strong>おとる</strong></td>
-<td><strong>しびれる</strong></td>
-<td><strong>かくれる</strong></td>
-<td><strong>かくる</strong></td>
-<td><strong>さだめる</strong></td>
-<td><strong>にぎる</strong></td>
-<td><strong>たたむ</strong></td>
-<td><strong>はさむ</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>おどろかす</strong></td>
-<td><strong>つまずく</strong></td>
-<td><strong>けずる</strong></td>
-<td><strong>もどす</strong></td>
-<td><strong>おとろえる</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
     <title>N2慣用句</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
     <content><![CDATA[<hr />
@@ -6256,6 +6272,747 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       <categories>
         <category>日本語</category>
         <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>動詞の形</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
+    <content><![CDATA[<hr />
+<h1 id="まとめ">まとめ</h1>
+<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
+<h1 id="練習">練習</h1>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>洗います</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>待ちます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>帰ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>休みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>遊びます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>死にます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>急ぎます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="解答">解答</h1>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>洗います</td>
+<td>洗う</td>
+<td>洗った</td>
+<td>洗って</td>
+<td>洗わない</td>
+<td>洗えば</td>
+<td>洗おう</td>
+<td>洗える</td>
+<td>洗われる</td>
+<td>洗わせる</td>
+<td>洗わされる</td>
+</tr>
+<tr class="even">
+<td>待ちます</td>
+<td>待つ</td>
+<td>待った</td>
+<td>待って</td>
+<td>待たない</td>
+<td>待てば</td>
+<td>待とう</td>
+<td>待てる</td>
+<td>待たれる</td>
+<td>待たせる</td>
+<td>待たされる</td>
+</tr>
+<tr class="odd">
+<td>帰ります</td>
+<td>帰る</td>
+<td>帰った</td>
+<td>帰って</td>
+<td>帰らない</td>
+<td>帰れば</td>
+<td>帰ろう</td>
+<td>帰れる</td>
+<td>帰られる</td>
+<td>帰らせる</td>
+<td>帰らされる</td>
+</tr>
+<tr class="even">
+<td>休みます</td>
+<td>休む</td>
+<td>休んだ</td>
+<td>休んで</td>
+<td>休まない</td>
+<td>休めば</td>
+<td>休もう</td>
+<td>休める</td>
+<td>休まれる</td>
+<td>休ませる</td>
+<td>休まされる</td>
+</tr>
+<tr class="odd">
+<td>遊びます</td>
+<td>遊ぶ</td>
+<td>遊んだ</td>
+<td>遊んで</td>
+<td>遊ばない</td>
+<td>遊べば</td>
+<td>遊ぼう</td>
+<td>遊べる</td>
+<td>遊ばれる</td>
+<td>遊ばせる</td>
+<td>遊ばされる</td>
+</tr>
+<tr class="even">
+<td>死にます</td>
+<td>死ぬ</td>
+<td>死んだ</td>
+<td>死んで</td>
+<td>死なない</td>
+<td>死ねば</td>
+<td>死のう</td>
+<td>死ねる</td>
+<td>死なれる</td>
+<td>死なせる</td>
+<td>死なされる</td>
+</tr>
+<tr class="odd">
+<td>急ぎます</td>
+<td>急ぐ</td>
+<td>急いだ</td>
+<td>急いで</td>
+<td>急いがない</td>
+<td>急げば</td>
+<td>急ごう</td>
+<td>急げる</td>
+<td>急がれる</td>
+<td>急がせる</td>
+<td>急がされる</td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td>降る</td>
+<td>降った</td>
+<td>降って</td>
+<td>降らない</td>
+<td>降れば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td>飲む</td>
+<td>飲んだ</td>
+<td>飲んで</td>
+<td>飲まない</td>
+<td>飲めば</td>
+<td>飲もう</td>
+<td>飲める</td>
+<td>飲まれる</td>
+<td>飲ませる</td>
+<td>飲まされる</td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td>行く</td>
+<td>行った</td>
+<td>行って</td>
+<td>行かない</td>
+<td>行けば</td>
+<td>行こう</td>
+<td>行ける</td>
+<td>行かれる</td>
+<td>行かせる</td>
+<td>行かされる</td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td>切る</td>
+<td>切った</td>
+<td>切って</td>
+<td>切らない</td>
+<td>切れば</td>
+<td>切ろう</td>
+<td>切れる</td>
+<td>切られる</td>
+<td>切らせる</td>
+<td>切らされる</td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td>出る</td>
+<td>出た</td>
+<td>出て</td>
+<td>出ない</td>
+<td>出れば</td>
+<td>出よう</td>
+<td>出られる</td>
+<td>出られる</td>
+<td>出させる</td>
+<td>出させらせる</td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td>迎える</td>
+<td>迎えた</td>
+<td>迎えて</td>
+<td>迎えない</td>
+<td>迎えれば</td>
+<td>迎えよう</td>
+<td>迎えられる</td>
+<td>迎えられる</td>
+<td>迎えさせる</td>
+<td>迎えさせられる</td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td>食べる</td>
+<td>食べた</td>
+<td>食べて</td>
+<td>食べない</td>
+<td>食べれば</td>
+<td>食べよう</td>
+<td>食べられる</td>
+<td>食べられる</td>
+<td>食べさせる</td>
+<td>食べさせられる</td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td>降りる</td>
+<td>降りた</td>
+<td>降りて</td>
+<td>降りない</td>
+<td>降りれば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td>足りる</td>
+<td>足りた</td>
+<td>足りて</td>
+<td>足りない</td>
+<td>足りれば</td>
+<td>足りよう</td>
+<td>足りられる</td>
+<td>足りられる</td>
+<td>足りさせる</td>
+<td>足りさせられる</td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td>止める</td>
+<td>止めた</td>
+<td>止めて</td>
+<td>止めない</td>
+<td>止めれば</td>
+<td>止めよう</td>
+<td>止められる</td>
+<td>止められる</td>
+<td>止めさせる</td>
+<td>止めさせられる</td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td>できる</td>
+<td>できた</td>
+<td>できて</td>
+<td>できない</td>
+<td>できれば</td>
+<td>できよう</td>
+<td>できる</td>
+<td>できられる</td>
+<td>できさせる</td>
+<td>できさせられる</td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td>くる</td>
+<td>きた</td>
+<td>きて</td>
+<td>こない</td>
+<td>くれば</td>
+<td>こよう</td>
+<td>こられる</td>
+<td>こられる</td>
+<td>こさせる</td>
+<td>こさせられる</td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td>食事する</td>
+<td>食事した</td>
+<td>食事して</td>
+<td>食事しない</td>
+<td>食事すれば</td>
+<td>食事しよう</td>
+<td>食事できる</td>
+<td>食事される</td>
+<td>食事させる</td>
+<td>食事させられる</td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td>する</td>
+<td>した</td>
+<td>して</td>
+<td>しない</td>
+<td>すれば</td>
+<td>しよう</td>
+<td>できる</td>
+<td>される</td>
+<td>させる</td>
+<td>させられる</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>味についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>すっぽい</td>
+<td>酸的</td>
+</tr>
+<tr class="even">
+<td>甘い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あまずっぽい</td>
+<td>酸甜的</td>
+</tr>
+<tr class="even">
+<td>苦い（にがい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ほろ苦い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>塩辛い（しおからい）</td>
+<td>咸的</td>
+</tr>
+<tr class="odd">
+<td>しょっぽい</td>
+<td>咸的（口语）</td>
+</tr>
+<tr class="even">
+<td>辛い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>薄い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>濃い（こい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>油つこい</td>
+<td>油腻的</td>
+</tr>
+<tr class="even">
+<td>濃厚</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あっさり</td>
+<td>清淡的</td>
+</tr>
+<tr class="even">
+<td>こってり</td>
+<td>（拉面等）浓厚的</td>
+</tr>
+<tr class="odd">
+<td>ジューシー</td>
+<td>多汁的</td>
+</tr>
+<tr class="even">
+<td>まろやか</td>
+<td>醇厚的</td>
+</tr>
+<tr class="odd">
+<td>複雑</td>
+<td>难以描述的</td>
+</tr>
+<tr class="even">
+<td>クセになる</td>
+<td>欲罢不能的</td>
+</tr>
+<tr class="odd">
+<td>硬い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>柔らかい</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>臭い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>パサパサ</td>
+<td>干巴巴</td>
+</tr>
+<tr class="even">
+<td>ネバネバ</td>
+<td>黏糊糊</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -10584,19 +11341,227 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
-    <title>文献翻译BERT</title>
-    <url>/Literature/Translate/BERT/</url>
+    <title>授受</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
     <content><![CDATA[<hr />
-<h1 id="bert">BERT</h1>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/BERT.pdf](https://idealistyu.github.io/pdf/BERT.pdf)" data-height="800px"></div>
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
 <hr />
-<h1 id="bert_translated">BERT_translated</h1>
-<div class="pdf-container" data-target="[https://idealistyu.github.io/pdf/BERT_translated.pdf](https://idealistyu.github.io/pdf/BERT_translated.pdf)" data-height="800px"></div>
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>
-        <category>Literature</category>
-        <category>Translate</category>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -10905,971 +11870,6 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
 </tr>
 </tbody>
 </table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>動詞の形</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
-    <content><![CDATA[<hr />
-<h1 id="まとめ">まとめ</h1>
-<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
-<h1 id="練習">練習</h1>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 10%" />
-<col style="width: 6%" />
-<col style="width: 17%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h1 id="解答">解答</h1>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td>洗う</td>
-<td>洗った</td>
-<td>洗って</td>
-<td>洗わない</td>
-<td>洗えば</td>
-<td>洗おう</td>
-<td>洗える</td>
-<td>洗われる</td>
-<td>洗わせる</td>
-<td>洗わされる</td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td>待つ</td>
-<td>待った</td>
-<td>待って</td>
-<td>待たない</td>
-<td>待てば</td>
-<td>待とう</td>
-<td>待てる</td>
-<td>待たれる</td>
-<td>待たせる</td>
-<td>待たされる</td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td>帰る</td>
-<td>帰った</td>
-<td>帰って</td>
-<td>帰らない</td>
-<td>帰れば</td>
-<td>帰ろう</td>
-<td>帰れる</td>
-<td>帰られる</td>
-<td>帰らせる</td>
-<td>帰らされる</td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td>休む</td>
-<td>休んだ</td>
-<td>休んで</td>
-<td>休まない</td>
-<td>休めば</td>
-<td>休もう</td>
-<td>休める</td>
-<td>休まれる</td>
-<td>休ませる</td>
-<td>休まされる</td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td>遊ぶ</td>
-<td>遊んだ</td>
-<td>遊んで</td>
-<td>遊ばない</td>
-<td>遊べば</td>
-<td>遊ぼう</td>
-<td>遊べる</td>
-<td>遊ばれる</td>
-<td>遊ばせる</td>
-<td>遊ばされる</td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td>死ぬ</td>
-<td>死んだ</td>
-<td>死んで</td>
-<td>死なない</td>
-<td>死ねば</td>
-<td>死のう</td>
-<td>死ねる</td>
-<td>死なれる</td>
-<td>死なせる</td>
-<td>死なされる</td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td>急ぐ</td>
-<td>急いだ</td>
-<td>急いで</td>
-<td>急いがない</td>
-<td>急げば</td>
-<td>急ごう</td>
-<td>急げる</td>
-<td>急がれる</td>
-<td>急がせる</td>
-<td>急がされる</td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td>降る</td>
-<td>降った</td>
-<td>降って</td>
-<td>降らない</td>
-<td>降れば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td>飲む</td>
-<td>飲んだ</td>
-<td>飲んで</td>
-<td>飲まない</td>
-<td>飲めば</td>
-<td>飲もう</td>
-<td>飲める</td>
-<td>飲まれる</td>
-<td>飲ませる</td>
-<td>飲まされる</td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td>行く</td>
-<td>行った</td>
-<td>行って</td>
-<td>行かない</td>
-<td>行けば</td>
-<td>行こう</td>
-<td>行ける</td>
-<td>行かれる</td>
-<td>行かせる</td>
-<td>行かされる</td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td>切る</td>
-<td>切った</td>
-<td>切って</td>
-<td>切らない</td>
-<td>切れば</td>
-<td>切ろう</td>
-<td>切れる</td>
-<td>切られる</td>
-<td>切らせる</td>
-<td>切らされる</td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td>出る</td>
-<td>出た</td>
-<td>出て</td>
-<td>出ない</td>
-<td>出れば</td>
-<td>出よう</td>
-<td>出られる</td>
-<td>出られる</td>
-<td>出させる</td>
-<td>出させらせる</td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td>迎える</td>
-<td>迎えた</td>
-<td>迎えて</td>
-<td>迎えない</td>
-<td>迎えれば</td>
-<td>迎えよう</td>
-<td>迎えられる</td>
-<td>迎えられる</td>
-<td>迎えさせる</td>
-<td>迎えさせられる</td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td>食べる</td>
-<td>食べた</td>
-<td>食べて</td>
-<td>食べない</td>
-<td>食べれば</td>
-<td>食べよう</td>
-<td>食べられる</td>
-<td>食べられる</td>
-<td>食べさせる</td>
-<td>食べさせられる</td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td>降りる</td>
-<td>降りた</td>
-<td>降りて</td>
-<td>降りない</td>
-<td>降りれば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td>足りる</td>
-<td>足りた</td>
-<td>足りて</td>
-<td>足りない</td>
-<td>足りれば</td>
-<td>足りよう</td>
-<td>足りられる</td>
-<td>足りられる</td>
-<td>足りさせる</td>
-<td>足りさせられる</td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td>止める</td>
-<td>止めた</td>
-<td>止めて</td>
-<td>止めない</td>
-<td>止めれば</td>
-<td>止めよう</td>
-<td>止められる</td>
-<td>止められる</td>
-<td>止めさせる</td>
-<td>止めさせられる</td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td>できる</td>
-<td>できた</td>
-<td>できて</td>
-<td>できない</td>
-<td>できれば</td>
-<td>できよう</td>
-<td>できる</td>
-<td>できられる</td>
-<td>できさせる</td>
-<td>できさせられる</td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td>くる</td>
-<td>きた</td>
-<td>きて</td>
-<td>こない</td>
-<td>くれば</td>
-<td>こよう</td>
-<td>こられる</td>
-<td>こられる</td>
-<td>こさせる</td>
-<td>こさせられる</td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td>食事する</td>
-<td>食事した</td>
-<td>食事して</td>
-<td>食事しない</td>
-<td>食事すれば</td>
-<td>食事しよう</td>
-<td>食事できる</td>
-<td>食事される</td>
-<td>食事させる</td>
-<td>食事させられる</td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td>する</td>
-<td>した</td>
-<td>して</td>
-<td>しない</td>
-<td>すれば</td>
-<td>しよう</td>
-<td>できる</td>
-<td>される</td>
-<td>させる</td>
-<td>させられる</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>味についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すっぽい</td>
-<td>酸的</td>
-</tr>
-<tr class="even">
-<td>甘い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あまずっぽい</td>
-<td>酸甜的</td>
-</tr>
-<tr class="even">
-<td>苦い（にがい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>ほろ苦い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>塩辛い（しおからい）</td>
-<td>咸的</td>
-</tr>
-<tr class="odd">
-<td>しょっぽい</td>
-<td>咸的（口语）</td>
-</tr>
-<tr class="even">
-<td>辛い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>薄い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>濃い（こい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>油つこい</td>
-<td>油腻的</td>
-</tr>
-<tr class="even">
-<td>濃厚</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あっさり</td>
-<td>清淡的</td>
-</tr>
-<tr class="even">
-<td>こってり</td>
-<td>（拉面等）浓厚的</td>
-</tr>
-<tr class="odd">
-<td>ジューシー</td>
-<td>多汁的</td>
-</tr>
-<tr class="even">
-<td>まろやか</td>
-<td>醇厚的</td>
-</tr>
-<tr class="odd">
-<td>複雑</td>
-<td>难以描述的</td>
-</tr>
-<tr class="even">
-<td>クセになる</td>
-<td>欲罢不能的</td>
-</tr>
-<tr class="odd">
-<td>硬い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>柔らかい</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>臭い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>パサパサ</td>
-<td>干巴巴</td>
-</tr>
-<tr class="even">
-<td>ネバネバ</td>
-<td>黏糊糊</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>
