@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.loveyou.moe/404.html</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/Vocabulary/Vocabulary[2024]/</loc>
     
     <lastmod>2024-03-27</lastmod>
@@ -344,13 +353,6 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
-    <lastmod>2024-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/KU/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -358,14 +360,14 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
+    <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -380,6 +382,13 @@
   
   <url>
     <loc>https://blog.loveyou.moe/categories/Site/</loc>
+    <lastmod>2024-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
