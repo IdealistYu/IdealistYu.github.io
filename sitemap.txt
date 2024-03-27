@@ -36,11 +36,11 @@ https://blog.loveyou.moe/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%
 https://blog.loveyou.moe/categories/index.html
 https://blog.loveyou.moe/
 https://blog.loveyou.moe/categories/KU/
+https://blog.loveyou.moe/categories/Vocabulary/
+https://blog.loveyou.moe/categories/Raspberry-Pi/
 https://blog.loveyou.moe/categories/LaTex/
 https://blog.loveyou.moe/categories/Linux/
 https://blog.loveyou.moe/categories/Site/
-https://blog.loveyou.moe/categories/Vocabulary/
-https://blog.loveyou.moe/categories/Raspberry-Pi/
 https://blog.loveyou.moe/categories/Regular-expression/
 https://blog.loveyou.moe/categories/Aseprite/
 https://blog.loveyou.moe/categories/Literature/
