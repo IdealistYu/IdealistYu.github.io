@@ -355,6 +355,13 @@
 
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
+    <lastmod>2024-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/Aseprite/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -369,20 +376,6 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
-    <lastmod>2024-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/Regular-expression/</loc>
-    <lastmod>2024-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -390,7 +383,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/LaTex/</loc>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -404,7 +397,21 @@
   </url>
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/Regular-expression/</loc>
+    <lastmod>2024-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/Site/</loc>
+    <lastmod>2024-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
+    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -433,13 +440,6 @@
   
   <url>
     <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N2/</loc>
-    <lastmod>2024-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
     <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
