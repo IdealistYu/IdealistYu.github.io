@@ -1,233 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>九大情報理工学過去問の解答</title>
-    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<h1
-id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
-<h1
-id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
-<hr />
-<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
-style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
-<p>因为是自己做完之后免费分享的，<span
-style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
-<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
-<hr />
-<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
-style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
-<p>無料共有にて提供されているファイルです。<span
-style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
-<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
-<hr />
-<h2 id="解析学微積分">解析学・微積分</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
-<h2 id="線形代数">線形代数</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
-<h2 id="ヘクトル解析">ベクトル解析</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
-<h2 id="情報理論">情報理論</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
-<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
-<hr />
-]]></content>
-      <categories>
-        <category>KU</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>人生第一张像素画</title>
-    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
-    <content><![CDATA[<hr />
-<h3
-id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
-<p><img src="/images/2023-12-14-1.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Aseprite</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>树莓派安装conky监控运行状态</title>
-    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
-    <content><![CDATA[<hr />
-<h3 id="时间">时间</h3>
-<p>2022.7（请注意时效性）</p>
-<h3 id="环境及物料">环境及物料</h3>
-<table>
-<thead>
-<tr class="header">
-<th>环境及物料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Raspberry Pi 4B(8G)</td>
-</tr>
-<tr class="even">
-<td>OS: Raspberry Pi OS(64-bit)</td>
-</tr>
-<tr class="odd">
-<td>Win11 PC(用于远程桌面连接)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="conky简介">Conky简介</h3>
-<p><a
-href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
-是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
-上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
-CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
-<h3 id="conky安装">Conky安装</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky配置">Conky配置</h3>
-<ul>
-<li>创建配置文件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>把下面的内容复制到新建的文件中（从conky
-1.10以来，配置文件都是用新的lua语法编写的）</li>
-</ul>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
-</ul>
-<h3 id="conky使用">Conky使用</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky效果">Conky效果</h3>
-<p><img src="/images/2022-07-25-1.jpg" /></p>
-<ul>
-<li>截图软件scrot</li>
-</ul>
-<hr />
-]]></content>
-      <categories>
-        <category>Raspberry Pi</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母上方符号</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="section">^</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\hat A
-\]</span></p>
-<h1 id="section-1">-</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\overline A
-\]</span></p>
-<h1 id="section-2">~</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\widetilde A
-\]</span></p>
-<h1 id="section-3">・</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\dot A
-\quad
-\ddot A
-\quad
-\dddot A
-\quad
-\ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母加粗</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="常规表示">常规表示</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-m\quad \beta
-\]</span></p>
-<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol m
-\]</span></p>
-<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\mathbf m
-\]</span></p>
-<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol \beta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>正则表达式可视化</title>
-    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
-    <content><![CDATA[<hr />
-<p><a
-href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Regular expression</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Linux常用命令速查表</title>
     <url>/Linux/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
     <content><![CDATA[<hr />
@@ -1367,417 +1140,75 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
-    <title>Vocabulary[2024]</title>
-    <url>/Vocabulary/Vocabulary%5B2024%5D/</url>
+    <title>人生第一张像素画</title>
+    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
     <content><![CDATA[<hr />
-<p>Last updated: April 17, 2024.</p>
+<h3
+id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
+<p><img src="/images/2023-12-14-1.png" /></p>
 <hr />
-<h1 id="april">April</h1>
-<h2 id="section">4.17</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />acyclic</li>
-<li><input type="checkbox" disabled="" />propagate</li>
-<li><input type="checkbox" disabled="" />perpendicular</li>
-</ul>
-<h2 id="section-1">4.15</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />heuristic</li>
-<li><input type="checkbox" disabled="" />steer</li>
-<li><input type="checkbox" disabled="" />rendezvous</li>
-<li><input type="checkbox" disabled="" />temporal</li>
-<li><input type="checkbox" disabled="" />surveillance</li>
-<li><input type="checkbox" disabled="" />archetypal</li>
-</ul>
-<h2 id="section-2">4.10</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />distortion</li>
-<li><input type="checkbox" disabled="" />aberration</li>
-<li><input type="checkbox" disabled="" />aperture</li>
-<li><input type="checkbox" disabled="" />proximal</li>
-</ul>
-<h2 id="section-3">4.9</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />lexicographically</li>
-<li><input type="checkbox" disabled="" />numerator</li>
-<li><input type="checkbox" disabled="" />denominator</li>
-<li><input type="checkbox" disabled="" />unheralded</li>
-<li><input type="checkbox" disabled="" />dubbed</li>
-<li><input type="checkbox" disabled="" />ultraviolet catastrophe</li>
-<li><input type="checkbox" disabled="" />ad hoc hypotheses</li>
-<li><input type="checkbox" disabled="" />convoluted</li>
-<li><input type="checkbox" disabled="" />indispensable</li>
-<li><input type="checkbox" disabled="" />turmoil</li>
-<li><input type="checkbox" disabled="" />antecedent</li>
-<li><input type="checkbox" disabled="" />platable</li>
-<li><input type="checkbox" disabled="" />no-no</li>
-<li><input type="checkbox" disabled="" />hinge</li>
-</ul>
-<h2 id="section-4">4.8</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />parenthesis</li>
-<li><input type="checkbox" disabled="" />Euclidean Norm</li>
-<li><input type="checkbox" disabled="" />dagger</li>
-</ul>
-<h2 id="section-5">4.7</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />nomenclature</li>
-<li><input type="checkbox" disabled="" />dissonance</li>
-<li><input type="checkbox" disabled="" />metaphysics</li>
-<li><input type="checkbox" disabled="" />brushstroke</li>
-<li><input type="checkbox" disabled="" />lingo</li>
-<li><input type="checkbox" disabled="" />succinct</li>
-<li><input type="checkbox" disabled="" />stochastic</li>
-</ul>
-<h2 id="section-6">4.1</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />miscellanea</li>
-</ul>
-<h1 id="march">March</h1>
-<h2 id="section-7">3.28</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />semantics</li>
-</ul>
-<h2 id="section-8">3.27</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />ethos</li>
-<li><input type="checkbox" disabled="" />canonical</li>
-<li><input type="checkbox" disabled="" />reverance</li>
-<li><input type="checkbox" disabled="" />compilation</li>
-<li><input type="checkbox" disabled="" />elucidation</li>
-<li><input type="checkbox" disabled="" />abstain</li>
-<li><input type="checkbox" disabled="" />notorious</li>
-<li><input type="checkbox" disabled="" />quirk</li>
-<li><input type="checkbox" disabled="" />circa</li>
-<li><input type="checkbox" disabled="" />threshold</li>
-</ul>
-<h2 id="section-9">3.26</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />contingent</li>
-<li><input type="checkbox" disabled="" />delve</li>
-</ul>
-<h2 id="section-10">3.25</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />transpire</li>
-<li><input type="checkbox" disabled="" />presumably</li>
-<li><input type="checkbox" disabled="" />amenable</li>
-</ul>
-<h2 id="section-11">3.24</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />buzzwords</li>
-<li><input type="checkbox" disabled="" />overhyped</li>
-<li><input type="checkbox" disabled="" />nascent</li>
-<li><input type="checkbox" disabled="" />dabble</li>
-<li><input type="checkbox" disabled="" />progenitor</li>
-<li><input type="checkbox" disabled="" />synonymous</li>
-<li><input type="checkbox" disabled="" />sparsity</li>
-<li><input type="checkbox" disabled="" />solely</li>
-<li><input type="checkbox" disabled="" />equivalent</li>
-<li><input type="checkbox" disabled="" />poetic</li>
-<li><input type="checkbox" disabled="" />eponymous</li>
-<li><input type="checkbox" disabled="" />variance</li>
-<li><input type="checkbox" disabled="" />retain</li>
-<li><input type="checkbox" disabled="" />envision</li>
-<li><input type="checkbox" disabled="" />deviation</li>
-<li><input type="checkbox" disabled="" />circuitous</li>
-</ul>
-<h2 id="section-12">3.23</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />divisor</li>
-<li><input type="checkbox" disabled="" />histogram</li>
-<li><input type="checkbox" disabled="" />hallow</li>
-<li><input type="checkbox" disabled="" />mantra</li>
-<li><input type="checkbox" disabled="" />spoiler</li>
-<li><input type="checkbox" disabled="" />stretch</li>
-<li><input type="checkbox" disabled="" />nontrivial</li>
-</ul>
-<h2 id="section-13">3.22</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />monochrome</li>
-<li><input type="checkbox" disabled="" />retro</li>
-<li><input type="checkbox" disabled="" />incorporate</li>
-<li><input type="checkbox" disabled="" />bitplanes</li>
-<li><input type="checkbox" disabled="" />mere</li>
-<li><input type="checkbox" disabled="" />encrypt</li>
-<li><input type="checkbox" disabled="" />logarithms</li>
-<li><input type="checkbox" disabled="" />isomorphism</li>
-<li><input type="checkbox" disabled="" />obscure</li>
-<li><input type="checkbox" disabled="" />ansatz</li>
-</ul>
-<h2 id="section-14">3.21</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />infancy</li>
-<li><input type="checkbox" disabled="" />whimsical</li>
-<li><input type="checkbox" disabled="" />shader</li>
-<li><input type="checkbox" disabled="" />dither</li>
-<li><input type="checkbox" disabled="" />stripe</li>
-<li><input type="checkbox" disabled="" />accumulator</li>
-<li><input type="checkbox" disabled="" />workaround</li>
-</ul>
-<h2 id="section-15">3.18</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />feline</li>
-<li><input type="checkbox" disabled="" />ancilla</li>
-</ul>
-<h2 id="section-16">3.17</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />sabotage</li>
-<li><input type="checkbox" disabled="" />par</li>
-<li><input type="checkbox" disabled="" />unitary</li>
-<li><input type="checkbox" disabled="" />molecular</li>
-<li><input type="checkbox" disabled="" />sparse</li>
-<li><input type="checkbox" disabled="" />vertex</li>
-<li><input type="checkbox" disabled="" />simplistic</li>
-<li><input type="checkbox" disabled="" />intimidate</li>
-<li><input type="checkbox" disabled="" />terminology</li>
-<li><input type="checkbox" disabled="" />allude</li>
-<li><input type="checkbox" disabled="" />concatenate</li>
-<li><input type="checkbox" disabled="" />penultimate</li>
-<li><input type="checkbox" disabled="" />kitten</li>
-<li><input type="checkbox" disabled="" />riddle</li>
-<li><input type="checkbox" disabled="" />coveted</li>
-<li><input type="checkbox" disabled="" />vicious</li>
-<li><input type="checkbox" disabled="" />clause</li>
-<li><input type="checkbox" disabled="" />gurgle</li>
-<li><input type="checkbox" disabled="" />triumph</li>
-</ul>
-<h2 id="section-17">3.16</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />scramble</li>
-<li><input type="checkbox" disabled="" />retrieve</li>
-<li><input type="checkbox" disabled="" />clumsy</li>
-<li><input type="checkbox" disabled="" />vacuum</li>
-<li><input type="checkbox" disabled="" />thereof</li>
-<li><input type="checkbox" disabled="" />mimic</li>
-<li><input type="checkbox" disabled="" />mundane</li>
-<li><input type="checkbox" disabled="" />nemesis</li>
-<li><input type="checkbox" disabled="" />ingenuity</li>
-<li><input type="checkbox" disabled="" />eschew</li>
-<li><input type="checkbox" disabled="" />pitfall</li>
-<li><input type="checkbox" disabled="" />scheme</li>
-</ul>
-<h2 id="section-18">3.15</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />fledged</li>
-<li><input type="checkbox" disabled="" />fixed point</li>
-<li><input type="checkbox" disabled="" />irrational</li>
-<li><input type="checkbox" disabled="" />fractional</li>
-</ul>
-<h2 id="section-19">3.14</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />inevitably</li>
-<li><input type="checkbox" disabled="" />judiciously</li>
-<li><input type="checkbox" disabled="" />reiterate</li>
-<li><input type="checkbox" disabled="" />erode</li>
-<li><input type="checkbox" disabled="" />contrived</li>
-<li><input type="checkbox" disabled="" />fine print</li>
-<li><input type="checkbox" disabled="" />tweak</li>
-<li><input type="checkbox" disabled="" />ruminate</li>
-</ul>
-<h2 id="section-20">3.13</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />ingeniously</li>
-<li><input type="checkbox" disabled="" />tease</li>
-<li><input type="checkbox" disabled="" />brute</li>
-<li><input type="checkbox" disabled="" />couplets</li>
-</ul>
-<h2 id="section-21">3.12</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />periodic</li>
-<li><input type="checkbox" disabled="" />recap</li>
-<li><input type="checkbox" disabled="" />tangible</li>
-<li><input type="checkbox" disabled="" />caveat</li>
-<li><input type="checkbox" disabled="" />redundancy</li>
-<li><input type="checkbox" disabled="" />vaguely</li>
-<li><input type="checkbox" disabled="" />finicky</li>
-<li><input type="checkbox" disabled="" />remiss</li>
-<li><input type="checkbox" disabled="" />sentimental</li>
-</ul>
-<h2 id="section-22">3.11</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />quadratic</li>
-<li><input type="checkbox" disabled="" />oddball</li>
-<li><input type="checkbox" disabled="" />discrete</li>
-<li><input type="checkbox" disabled="" />unveil</li>
-<li><input type="checkbox" disabled="" />fiddle</li>
-<li><input type="checkbox" disabled="" />variant</li>
-<li><input type="checkbox" disabled="" />glossary</li>
-<li><input type="checkbox" disabled="" />idiosyncrasies</li>
-<li><input type="checkbox" disabled="" />suffix</li>
-<li><input type="checkbox" disabled="" />inherently</li>
-</ul>
-<h2 id="section-23">3.10</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />sleeve</li>
-<li><input type="checkbox" disabled="" />diminish</li>
-<li><input type="checkbox" disabled="" />oscillate</li>
-<li><input type="checkbox" disabled="" />sinusoidal</li>
-</ul>
-<h2 id="section-24">3.9</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />obliterate</li>
-<li><input type="checkbox" disabled="" />constraint</li>
-<li><input type="checkbox" disabled="" />intact</li>
-</ul>
-<h2 id="section-25">3.7</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />analogous</li>
-<li><input type="checkbox" disabled="" />haphazard</li>
-<li><input type="checkbox" disabled="" />negate</li>
-<li><input type="checkbox" disabled="" />stash</li>
-<li><input type="checkbox" disabled="" />supremacy</li>
-<li><input type="checkbox" disabled="" />transistor</li>
-<li><input type="checkbox" disabled="" />particle</li>
-<li><input type="checkbox" disabled="" />molecule</li>
-<li><input type="checkbox" disabled="" />simultaneous</li>
-<li><input type="checkbox" disabled="" />vibrate</li>
-<li><input type="checkbox" disabled="" />unison</li>
-<li><input type="checkbox" disabled="" />pale</li>
-</ul>
-<h2 id="section-26">3.4</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />decipherable</li>
-<li><input type="checkbox" disabled="" />irrevocably</li>
-<li><input type="checkbox" disabled="" />circumvent</li>
-<li><input type="checkbox" disabled="" />exasperate</li>
-<li><input type="checkbox" disabled="" />feed-forward</li>
-<li><input type="checkbox" disabled="" />post-selection</li>
-<li><input type="checkbox" disabled="" />subtlety</li>
-<li><input type="checkbox" disabled="" />enumerate</li>
-<li><input type="checkbox" disabled="" />erroneously</li>
-<li><input type="checkbox" disabled="" />prone</li>
-<li><input type="checkbox" disabled="" />protagonist</li>
-<li><input type="checkbox" disabled="" />chamber</li>
-<li><input type="checkbox" disabled="" />implicit</li>
-<li><input type="checkbox" disabled="" />arsenal</li>
-<li><input type="checkbox" disabled="" />plenty</li>
-<li><input type="checkbox" disabled="" />tempt</li>
-<li><input type="checkbox" disabled="" />intricacy</li>
-</ul>
-<h2 id="section-27">3.3</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />conspire</li>
-<li><input type="checkbox" disabled="" />preclude</li>
-<li><input type="checkbox" disabled="" />hijinks</li>
-<li><input type="checkbox" disabled="" />parlor</li>
-<li><input type="checkbox" disabled="" />continuum</li>
-</ul>
-<h2 id="section-28">3.2</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />fidelity</li>
-<li><input type="checkbox" disabled="" />encapsulate</li>
-<li><input type="checkbox" disabled="" />ascertain</li>
-</ul>
-<h2 id="section-29">3.1</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />arguably</li>
-<li><input type="checkbox" disabled="" />adjacent</li>
-<li><input type="checkbox" disabled="" />sneaky</li>
-<li><input type="checkbox" disabled="" />destructive</li>
-</ul>
-<h1 id="february">February</h1>
-<h2 id="section-30">2.29</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />indulge</li>
-<li><input type="checkbox" disabled="" />coerce</li>
-<li><input type="checkbox" disabled="" />illusory</li>
-<li><input type="checkbox" disabled="" />hood</li>
-<li><input type="checkbox" disabled="" />underlie</li>
-<li><input type="checkbox" disabled="" />symmetry</li>
-</ul>
-<h2 id="section-31">2.28</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />exaggerate</li>
-</ul>
-<h1 id="january">January</h1>
-<h2 id="section-32">1.30</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />arbitrary</li>
-<li><input type="checkbox" disabled="" />cryptography</li>
-<li><input type="checkbox" disabled="" />etymological</li>
-<li><input type="checkbox" disabled="" />mind-bending</li>
-</ul>
-<h2 id="section-33">1.29</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />leverage</li>
-<li><input type="checkbox" disabled="" />conjugate</li>
-<li><input type="checkbox" disabled="" />pun</li>
-<li><input type="checkbox" disabled="" />modulus</li>
-<li><input type="checkbox" disabled="" />vanish</li>
-<li><input type="checkbox" disabled="" />ethereal</li>
-<li><input type="checkbox" disabled="" />crux</li>
-<li><input type="checkbox" disabled="" />pictorial</li>
-<li><input type="checkbox" disabled="" />entrench</li>
-<li><input type="checkbox" disabled="" />opaque</li>
-<li><input type="checkbox" disabled="" />colloquially</li>
-<li><input type="checkbox" disabled="" />astonishing</li>
-<li><input type="checkbox" disabled="" />ramification</li>
-<li><input type="checkbox" disabled="" />vice versa</li>
-</ul>
-<h2 id="section-34">1.28</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />intimidate</li>
-<li><input type="checkbox" disabled="" />pertinent</li>
-<li><input type="checkbox" disabled="" />outlet</li>
-<li><input type="checkbox" disabled="" />amperage</li>
-<li><input type="checkbox" disabled="" />uncanny</li>
-<li><input type="checkbox" disabled="" />bear in mind</li>
-<li><input type="checkbox" disabled="" />tackle</li>
-<li><input type="checkbox" disabled="" />sophisticated</li>
-<li><input type="checkbox" disabled="" />Bra-ket notation</li>
-<li><input type="checkbox" disabled="" />exotic</li>
-<li><input type="checkbox" disabled="" />bewildering</li>
-<li><input type="checkbox" disabled="" />photon</li>
-<li><input type="checkbox" disabled="" />anticlimactic</li>
-<li><input type="checkbox" disabled="" />beamsplitter</li>
-<li><input type="checkbox" disabled="" />twiddle</li>
-</ul>
-<h2 id="section-35">1.26</h2>
-<ul class="task-list">
-<li><input type="checkbox" disabled="" />poised</li>
-<li><input type="checkbox" disabled="" />intrigued</li>
-<li><input type="checkbox" disabled="" />computerphile</li>
-<li><input type="checkbox" disabled="" />trigonometric</li>
-<li><input type="checkbox" disabled="" />cursory</li>
-<li><input type="checkbox" disabled="" />ubiquity</li>
-<li><input type="checkbox" disabled="" />albeit</li>
-<li><input type="checkbox" disabled="" />pedagogical</li>
-<li><input type="checkbox" disabled="" />bespoke</li>
-<li><input type="checkbox" disabled="" />whet</li>
-<li><input type="checkbox" disabled="" />grind</li>
-<li><input type="checkbox" disabled="" />derail</li>
-<li><input type="checkbox" disabled="" />agnostic</li>
-</ul>
 ]]></content>
       <categories>
-        <category>Vocabulary</category>
+        <category>Aseprite</category>
       </categories>
   </entry>
   <entry>
-    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
-    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
+    <title>树莓派安装conky监控运行状态</title>
+    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
     <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="问题描述">问题描述</h1>
-<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
-<h1 id="解决方法">解决方法</h1>
-<ol type="1">
-<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
-<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
-<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
-</ol>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
-<ol start="4" type="1">
-<li>重新部署</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<h3 id="时间">时间</h3>
+<p>2022.7（请注意时效性）</p>
+<h3 id="环境及物料">环境及物料</h3>
+<table>
+<thead>
+<tr class="header">
+<th>环境及物料</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Raspberry Pi 4B(8G)</td>
+</tr>
+<tr class="even">
+<td>OS: Raspberry Pi OS(64-bit)</td>
+</tr>
+<tr class="odd">
+<td>Win11 PC(用于远程桌面连接)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conky简介">Conky简介</h3>
+<p><a
+href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
+是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
+上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
+CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
+<h3 id="conky安装">Conky安装</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky配置">Conky配置</h3>
+<ul>
+<li>创建配置文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>把下面的内容复制到新建的文件中（从conky
+1.10以来，配置文件都是用新的lua语法编写的）</li>
+</ul>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
+</ul>
+<h3 id="conky使用">Conky使用</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky效果">Conky效果</h3>
+<p><img src="/images/2022-07-25-1.jpg" /></p>
+<ul>
+<li>截图软件scrot</li>
+</ul>
 <hr />
 ]]></content>
       <categories>
-        <category>Site</category>
+        <category>Raspberry Pi</category>
       </categories>
   </entry>
   <entry>
@@ -2552,20 +1983,572 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <title>正则表达式可视化</title>
+    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+    <content><![CDATA[<hr />
+<p><a
+href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Regular expression</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母上方符号</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="section">^</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\hat A
+\]</span></p>
+<h1 id="section-1">-</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\overline A
+\]</span></p>
+<h1 id="section-2">~</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\widetilde A
+\]</span></p>
+<h1 id="section-3">・</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\dot A
+\quad
+\ddot A
+\quad
+\dddot A
+\quad
+\ddddot A
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Vocabulary[2024]</title>
+    <url>/Vocabulary/Vocabulary%5B2024%5D/</url>
+    <content><![CDATA[<hr />
+<p>Last updated: April 20, 2024.</p>
+<hr />
+<h1 id="april">April</h1>
+<h2 id="section">4.20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />podcast</li>
+</ul>
+<h2 id="section-1">4.17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />acyclic</li>
+<li><input type="checkbox" disabled="" />propagate</li>
+<li><input type="checkbox" disabled="" />perpendicular</li>
+</ul>
+<h2 id="section-2">4.15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />heuristic</li>
+<li><input type="checkbox" disabled="" />steer</li>
+<li><input type="checkbox" disabled="" />rendezvous</li>
+<li><input type="checkbox" disabled="" />temporal</li>
+<li><input type="checkbox" disabled="" />surveillance</li>
+<li><input type="checkbox" disabled="" />archetypal</li>
+</ul>
+<h2 id="section-3">4.10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />distortion</li>
+<li><input type="checkbox" disabled="" />aberration</li>
+<li><input type="checkbox" disabled="" />aperture</li>
+<li><input type="checkbox" disabled="" />proximal</li>
+</ul>
+<h2 id="section-4">4.9</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />lexicographically</li>
+<li><input type="checkbox" disabled="" />numerator</li>
+<li><input type="checkbox" disabled="" />denominator</li>
+<li><input type="checkbox" disabled="" />unheralded</li>
+<li><input type="checkbox" disabled="" />dubbed</li>
+<li><input type="checkbox" disabled="" />ultraviolet catastrophe</li>
+<li><input type="checkbox" disabled="" />ad hoc hypotheses</li>
+<li><input type="checkbox" disabled="" />convoluted</li>
+<li><input type="checkbox" disabled="" />indispensable</li>
+<li><input type="checkbox" disabled="" />turmoil</li>
+<li><input type="checkbox" disabled="" />antecedent</li>
+<li><input type="checkbox" disabled="" />platable</li>
+<li><input type="checkbox" disabled="" />no-no</li>
+<li><input type="checkbox" disabled="" />hinge</li>
+</ul>
+<h2 id="section-5">4.8</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />parenthesis</li>
+<li><input type="checkbox" disabled="" />Euclidean Norm</li>
+<li><input type="checkbox" disabled="" />dagger</li>
+</ul>
+<h2 id="section-6">4.7</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />nomenclature</li>
+<li><input type="checkbox" disabled="" />dissonance</li>
+<li><input type="checkbox" disabled="" />metaphysics</li>
+<li><input type="checkbox" disabled="" />brushstroke</li>
+<li><input type="checkbox" disabled="" />lingo</li>
+<li><input type="checkbox" disabled="" />succinct</li>
+<li><input type="checkbox" disabled="" />stochastic</li>
+</ul>
+<h2 id="section-7">4.1</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />miscellanea</li>
+</ul>
+<h1 id="march">March</h1>
+<h2 id="section-8">3.28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />semantics</li>
+</ul>
+<h2 id="section-9">3.27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />ethos</li>
+<li><input type="checkbox" disabled="" />canonical</li>
+<li><input type="checkbox" disabled="" />reverance</li>
+<li><input type="checkbox" disabled="" />compilation</li>
+<li><input type="checkbox" disabled="" />elucidation</li>
+<li><input type="checkbox" disabled="" />abstain</li>
+<li><input type="checkbox" disabled="" />notorious</li>
+<li><input type="checkbox" disabled="" />quirk</li>
+<li><input type="checkbox" disabled="" />circa</li>
+<li><input type="checkbox" disabled="" />threshold</li>
+</ul>
+<h2 id="section-10">3.26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />contingent</li>
+<li><input type="checkbox" disabled="" />delve</li>
+</ul>
+<h2 id="section-11">3.25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />transpire</li>
+<li><input type="checkbox" disabled="" />presumably</li>
+<li><input type="checkbox" disabled="" />amenable</li>
+</ul>
+<h2 id="section-12">3.24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />buzzwords</li>
+<li><input type="checkbox" disabled="" />overhyped</li>
+<li><input type="checkbox" disabled="" />nascent</li>
+<li><input type="checkbox" disabled="" />dabble</li>
+<li><input type="checkbox" disabled="" />progenitor</li>
+<li><input type="checkbox" disabled="" />synonymous</li>
+<li><input type="checkbox" disabled="" />sparsity</li>
+<li><input type="checkbox" disabled="" />solely</li>
+<li><input type="checkbox" disabled="" />equivalent</li>
+<li><input type="checkbox" disabled="" />poetic</li>
+<li><input type="checkbox" disabled="" />eponymous</li>
+<li><input type="checkbox" disabled="" />variance</li>
+<li><input type="checkbox" disabled="" />retain</li>
+<li><input type="checkbox" disabled="" />envision</li>
+<li><input type="checkbox" disabled="" />deviation</li>
+<li><input type="checkbox" disabled="" />circuitous</li>
+</ul>
+<h2 id="section-13">3.23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />divisor</li>
+<li><input type="checkbox" disabled="" />histogram</li>
+<li><input type="checkbox" disabled="" />hallow</li>
+<li><input type="checkbox" disabled="" />mantra</li>
+<li><input type="checkbox" disabled="" />spoiler</li>
+<li><input type="checkbox" disabled="" />stretch</li>
+<li><input type="checkbox" disabled="" />nontrivial</li>
+</ul>
+<h2 id="section-14">3.22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />monochrome</li>
+<li><input type="checkbox" disabled="" />retro</li>
+<li><input type="checkbox" disabled="" />incorporate</li>
+<li><input type="checkbox" disabled="" />bitplanes</li>
+<li><input type="checkbox" disabled="" />mere</li>
+<li><input type="checkbox" disabled="" />encrypt</li>
+<li><input type="checkbox" disabled="" />logarithms</li>
+<li><input type="checkbox" disabled="" />isomorphism</li>
+<li><input type="checkbox" disabled="" />obscure</li>
+<li><input type="checkbox" disabled="" />ansatz</li>
+</ul>
+<h2 id="section-15">3.21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />infancy</li>
+<li><input type="checkbox" disabled="" />whimsical</li>
+<li><input type="checkbox" disabled="" />shader</li>
+<li><input type="checkbox" disabled="" />dither</li>
+<li><input type="checkbox" disabled="" />stripe</li>
+<li><input type="checkbox" disabled="" />accumulator</li>
+<li><input type="checkbox" disabled="" />workaround</li>
+</ul>
+<h2 id="section-16">3.18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />feline</li>
+<li><input type="checkbox" disabled="" />ancilla</li>
+</ul>
+<h2 id="section-17">3.17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />sabotage</li>
+<li><input type="checkbox" disabled="" />par</li>
+<li><input type="checkbox" disabled="" />unitary</li>
+<li><input type="checkbox" disabled="" />molecular</li>
+<li><input type="checkbox" disabled="" />sparse</li>
+<li><input type="checkbox" disabled="" />vertex</li>
+<li><input type="checkbox" disabled="" />simplistic</li>
+<li><input type="checkbox" disabled="" />intimidate</li>
+<li><input type="checkbox" disabled="" />terminology</li>
+<li><input type="checkbox" disabled="" />allude</li>
+<li><input type="checkbox" disabled="" />concatenate</li>
+<li><input type="checkbox" disabled="" />penultimate</li>
+<li><input type="checkbox" disabled="" />kitten</li>
+<li><input type="checkbox" disabled="" />riddle</li>
+<li><input type="checkbox" disabled="" />coveted</li>
+<li><input type="checkbox" disabled="" />vicious</li>
+<li><input type="checkbox" disabled="" />clause</li>
+<li><input type="checkbox" disabled="" />gurgle</li>
+<li><input type="checkbox" disabled="" />triumph</li>
+</ul>
+<h2 id="section-18">3.16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />scramble</li>
+<li><input type="checkbox" disabled="" />retrieve</li>
+<li><input type="checkbox" disabled="" />clumsy</li>
+<li><input type="checkbox" disabled="" />vacuum</li>
+<li><input type="checkbox" disabled="" />thereof</li>
+<li><input type="checkbox" disabled="" />mimic</li>
+<li><input type="checkbox" disabled="" />mundane</li>
+<li><input type="checkbox" disabled="" />nemesis</li>
+<li><input type="checkbox" disabled="" />ingenuity</li>
+<li><input type="checkbox" disabled="" />eschew</li>
+<li><input type="checkbox" disabled="" />pitfall</li>
+<li><input type="checkbox" disabled="" />scheme</li>
+</ul>
+<h2 id="section-19">3.15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />fledged</li>
+<li><input type="checkbox" disabled="" />fixed point</li>
+<li><input type="checkbox" disabled="" />irrational</li>
+<li><input type="checkbox" disabled="" />fractional</li>
+</ul>
+<h2 id="section-20">3.14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />inevitably</li>
+<li><input type="checkbox" disabled="" />judiciously</li>
+<li><input type="checkbox" disabled="" />reiterate</li>
+<li><input type="checkbox" disabled="" />erode</li>
+<li><input type="checkbox" disabled="" />contrived</li>
+<li><input type="checkbox" disabled="" />fine print</li>
+<li><input type="checkbox" disabled="" />tweak</li>
+<li><input type="checkbox" disabled="" />ruminate</li>
+</ul>
+<h2 id="section-21">3.13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />ingeniously</li>
+<li><input type="checkbox" disabled="" />tease</li>
+<li><input type="checkbox" disabled="" />brute</li>
+<li><input type="checkbox" disabled="" />couplets</li>
+</ul>
+<h2 id="section-22">3.12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />periodic</li>
+<li><input type="checkbox" disabled="" />recap</li>
+<li><input type="checkbox" disabled="" />tangible</li>
+<li><input type="checkbox" disabled="" />caveat</li>
+<li><input type="checkbox" disabled="" />redundancy</li>
+<li><input type="checkbox" disabled="" />vaguely</li>
+<li><input type="checkbox" disabled="" />finicky</li>
+<li><input type="checkbox" disabled="" />remiss</li>
+<li><input type="checkbox" disabled="" />sentimental</li>
+</ul>
+<h2 id="section-23">3.11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />quadratic</li>
+<li><input type="checkbox" disabled="" />oddball</li>
+<li><input type="checkbox" disabled="" />discrete</li>
+<li><input type="checkbox" disabled="" />unveil</li>
+<li><input type="checkbox" disabled="" />fiddle</li>
+<li><input type="checkbox" disabled="" />variant</li>
+<li><input type="checkbox" disabled="" />glossary</li>
+<li><input type="checkbox" disabled="" />idiosyncrasies</li>
+<li><input type="checkbox" disabled="" />suffix</li>
+<li><input type="checkbox" disabled="" />inherently</li>
+</ul>
+<h2 id="section-24">3.10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />sleeve</li>
+<li><input type="checkbox" disabled="" />diminish</li>
+<li><input type="checkbox" disabled="" />oscillate</li>
+<li><input type="checkbox" disabled="" />sinusoidal</li>
+</ul>
+<h2 id="section-25">3.9</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />obliterate</li>
+<li><input type="checkbox" disabled="" />constraint</li>
+<li><input type="checkbox" disabled="" />intact</li>
+</ul>
+<h2 id="section-26">3.7</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />analogous</li>
+<li><input type="checkbox" disabled="" />haphazard</li>
+<li><input type="checkbox" disabled="" />negate</li>
+<li><input type="checkbox" disabled="" />stash</li>
+<li><input type="checkbox" disabled="" />supremacy</li>
+<li><input type="checkbox" disabled="" />transistor</li>
+<li><input type="checkbox" disabled="" />particle</li>
+<li><input type="checkbox" disabled="" />molecule</li>
+<li><input type="checkbox" disabled="" />simultaneous</li>
+<li><input type="checkbox" disabled="" />vibrate</li>
+<li><input type="checkbox" disabled="" />unison</li>
+<li><input type="checkbox" disabled="" />pale</li>
+</ul>
+<h2 id="section-27">3.4</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />decipherable</li>
+<li><input type="checkbox" disabled="" />irrevocably</li>
+<li><input type="checkbox" disabled="" />circumvent</li>
+<li><input type="checkbox" disabled="" />exasperate</li>
+<li><input type="checkbox" disabled="" />feed-forward</li>
+<li><input type="checkbox" disabled="" />post-selection</li>
+<li><input type="checkbox" disabled="" />subtlety</li>
+<li><input type="checkbox" disabled="" />enumerate</li>
+<li><input type="checkbox" disabled="" />erroneously</li>
+<li><input type="checkbox" disabled="" />prone</li>
+<li><input type="checkbox" disabled="" />protagonist</li>
+<li><input type="checkbox" disabled="" />chamber</li>
+<li><input type="checkbox" disabled="" />implicit</li>
+<li><input type="checkbox" disabled="" />arsenal</li>
+<li><input type="checkbox" disabled="" />plenty</li>
+<li><input type="checkbox" disabled="" />tempt</li>
+<li><input type="checkbox" disabled="" />intricacy</li>
+</ul>
+<h2 id="section-28">3.3</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />conspire</li>
+<li><input type="checkbox" disabled="" />preclude</li>
+<li><input type="checkbox" disabled="" />hijinks</li>
+<li><input type="checkbox" disabled="" />parlor</li>
+<li><input type="checkbox" disabled="" />continuum</li>
+</ul>
+<h2 id="section-29">3.2</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />fidelity</li>
+<li><input type="checkbox" disabled="" />encapsulate</li>
+<li><input type="checkbox" disabled="" />ascertain</li>
+</ul>
+<h2 id="section-30">3.1</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />arguably</li>
+<li><input type="checkbox" disabled="" />adjacent</li>
+<li><input type="checkbox" disabled="" />sneaky</li>
+<li><input type="checkbox" disabled="" />destructive</li>
+</ul>
+<h1 id="february">February</h1>
+<h2 id="section-31">2.29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />indulge</li>
+<li><input type="checkbox" disabled="" />coerce</li>
+<li><input type="checkbox" disabled="" />illusory</li>
+<li><input type="checkbox" disabled="" />hood</li>
+<li><input type="checkbox" disabled="" />underlie</li>
+<li><input type="checkbox" disabled="" />symmetry</li>
+</ul>
+<h2 id="section-32">2.28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />exaggerate</li>
+</ul>
+<h1 id="january">January</h1>
+<h2 id="section-33">1.30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />arbitrary</li>
+<li><input type="checkbox" disabled="" />cryptography</li>
+<li><input type="checkbox" disabled="" />etymological</li>
+<li><input type="checkbox" disabled="" />mind-bending</li>
+</ul>
+<h2 id="section-34">1.29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />leverage</li>
+<li><input type="checkbox" disabled="" />conjugate</li>
+<li><input type="checkbox" disabled="" />pun</li>
+<li><input type="checkbox" disabled="" />modulus</li>
+<li><input type="checkbox" disabled="" />vanish</li>
+<li><input type="checkbox" disabled="" />ethereal</li>
+<li><input type="checkbox" disabled="" />crux</li>
+<li><input type="checkbox" disabled="" />pictorial</li>
+<li><input type="checkbox" disabled="" />entrench</li>
+<li><input type="checkbox" disabled="" />opaque</li>
+<li><input type="checkbox" disabled="" />colloquially</li>
+<li><input type="checkbox" disabled="" />astonishing</li>
+<li><input type="checkbox" disabled="" />ramification</li>
+<li><input type="checkbox" disabled="" />vice versa</li>
+</ul>
+<h2 id="section-35">1.28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />intimidate</li>
+<li><input type="checkbox" disabled="" />pertinent</li>
+<li><input type="checkbox" disabled="" />outlet</li>
+<li><input type="checkbox" disabled="" />amperage</li>
+<li><input type="checkbox" disabled="" />uncanny</li>
+<li><input type="checkbox" disabled="" />bear in mind</li>
+<li><input type="checkbox" disabled="" />tackle</li>
+<li><input type="checkbox" disabled="" />sophisticated</li>
+<li><input type="checkbox" disabled="" />Bra-ket notation</li>
+<li><input type="checkbox" disabled="" />exotic</li>
+<li><input type="checkbox" disabled="" />bewildering</li>
+<li><input type="checkbox" disabled="" />photon</li>
+<li><input type="checkbox" disabled="" />anticlimactic</li>
+<li><input type="checkbox" disabled="" />beamsplitter</li>
+<li><input type="checkbox" disabled="" />twiddle</li>
+</ul>
+<h2 id="section-36">1.26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />poised</li>
+<li><input type="checkbox" disabled="" />intrigued</li>
+<li><input type="checkbox" disabled="" />computerphile</li>
+<li><input type="checkbox" disabled="" />trigonometric</li>
+<li><input type="checkbox" disabled="" />cursory</li>
+<li><input type="checkbox" disabled="" />ubiquity</li>
+<li><input type="checkbox" disabled="" />albeit</li>
+<li><input type="checkbox" disabled="" />pedagogical</li>
+<li><input type="checkbox" disabled="" />bespoke</li>
+<li><input type="checkbox" disabled="" />whet</li>
+<li><input type="checkbox" disabled="" />grind</li>
+<li><input type="checkbox" disabled="" />derail</li>
+<li><input type="checkbox" disabled="" />agnostic</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Vocabulary</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母加粗</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="常规表示">常规表示</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+m\quad \beta
+\]</span></p>
+<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol m
+\]</span></p>
+<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\mathbf m
+\]</span></p>
+<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol \beta
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>九大情報理工学過去問の解答</title>
+    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<h1
+id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
+<h1
+id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
+<hr />
+<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
+style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
+<p>因为是自己做完之后免费分享的，<span
+style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
+<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
+<hr />
+<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
+style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
+<p>無料共有にて提供されているファイルです。<span
+style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
+<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
+<hr />
+<h2 id="解析学微積分">解析学・微積分</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
+<h2 id="線形代数">線形代数</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
+<h2 id="ヘクトル解析">ベクトル解析</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
+<h2 id="情報理論">情報理論</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
+<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
+<hr />
+]]></content>
+      <categories>
+        <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
+    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
 <h1 id="版本">版本</h1>
 <p><a href="https://hexo.io"><img
 src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
 href="https://theme-next.js.org/"><img
 src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p>见本网站home页侧边栏</p>
+<h1 id="问题描述">问题描述</h1>
+<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
+<h1 id="解决方法">解决方法</h1>
+<ol type="1">
+<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
+<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
+<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
+<ol start="4" type="1">
+<li>重新部署</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <hr />
 ]]></content>
       <categories>
@@ -2587,6 +2570,27 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;vertical-align: middle;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">style</span>=<span class="string">&quot;vertical-align: middle;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="效果-1">效果</h2>
 <p><img src="/images/2023-01-15-2.png" /></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<hr />
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p>见本网站home页侧边栏</p>
 <hr />
 ]]></content>
       <categories>
@@ -3367,592 +3371,6 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
 </tr>
 </tbody>
 </table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N1文法</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<h2 id="第１課-時間">第１課　時間</h2>
-<blockquote>
-<p>や否や</p>
-<p>や</p>
-<p>が早いか</p>
-<p>なり</p>
-<p>そばから</p>
-<p>がてら</p>
-<p>かたがた</p>
-<p>かたわら</p>
-<p>てからというもの</p>
-<p>を限りに</p>
-<p>を皮切りに</p>
-</blockquote>
-<h3 id="を皮切りに">1. を皮切りに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～为开端</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
-<blockquote>
-<p>とあって</p>
-<p>こととて</p>
-<p>ことだし</p>
-<p>こともあって</p>
-<p>ゆえに</p>
-<p>からこそ·ばこそ</p>
-<p>ではあるまいし</p>
-<p>始末だ</p>
-<p>た手前</p>
-<p>はずみに</p>
-<p>すじまい</p>
-</blockquote>
-<h3 id="とあって">2. とあって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、简体句</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为，由于特殊情况而出现了后项的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ゆえに">3. ゆえに</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第３課-逆接">第３課　逆接</h2>
-<blockquote>
-<p>には～が～</p>
-<p>とはいえ</p>
-<p>といえども</p>
-<p>であれ</p>
-<p>ものを</p>
-<p>ないまでも</p>
-<p>ならまだしも</p>
-<p>たら～たで</p>
-<p>そうかと言って～ない</p>
-</blockquote>
-<h3 id="ものを">4. ものを</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（伴有不满）本来...可是...</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
-<blockquote>
-<p>ものなら</p>
-<p>ものとして</p>
-<p>としたって</p>
-<p>にしたって</p>
-<p>としたところで</p>
-<p>にしたところで</p>
-<p>とあれば</p>
-<p>たが·ら最後</p>
-<p>ともなると·ともなれば</p>
-<p>ようと（が）～ようと（が）</p>
-</blockquote>
-<h3 id="ものなら">5. ものなら</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>如果能～的话（可能性很低但期待实现）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>こられるものなら、もちろん来てほしいですが...</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ようとがようとがようとがまいとが">7.
-ようと·が～ようと·が、ようと·が～まいと·が</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>意向形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论、不管</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第５課-対象関係">第５課　対象、関係</h2>
-<blockquote>
-<p>に即して</p>
-<p>にひきかえ</p>
-<p>にかかわる</p>
-<p>に関わりなく</p>
-<p>にかけては</p>
-<p>と相まって</p>
-<p>にもまして</p>
-<p>をもって</p>
-<p>をよそに</p>
-<p>をしりめに</p>
-<p>をものともせずに</p>
-<p>をこめて</p>
-<p>をひかえて</p>
-<p>あっての</p>
-<p>から～に至るまで</p>
-<p>いかんだ·いかんによっては</p>
-<p>いかんによらず</p>
-<p>によるところ</p>
-</blockquote>
-<h3 id="をもって">8. をもって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～，用～；表示时间的起止点；原因；据说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第６課-強調限定">第６課　強調、限定</h2>
-<blockquote>
-<p>はおろか</p>
-<p>もさることながら</p>
-<p>言うに及ばず</p>
-<p>ならではの</p>
-<p>ともあろう</p>
-<p>に至って</p>
-<p>にして</p>
-<p>に～を重ねる</p>
-<p>をおいて～ない</p>
-<p>てやまない</p>
-<p>たりとも</p>
-<p>なり</p>
-<p>てまで</p>
-<p>からある</p>
-<p>だに</p>
-<p>すら</p>
-<p>ですら</p>
-<p>だけ</p>
-<p>ただ～のみ</p>
-</blockquote>
-<h3 id="もさることながら">9. もさることながら</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>～是当然的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ならではの">10. ならではの</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>只有～才有的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このような細かい心遣いは恋人ならではですね。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第7課-並列">第7課　並列</h2>
-<blockquote>
-<p>あるかと思えば～もある</p>
-<p>だの～だの</p>
-<p>なり～なり</p>
-<p>といい～といい</p>
-<p>であれ～であれ</p>
-<p>つ～つ</p>
-</blockquote>
-<h3 id="といいといい">1１. といい～といい</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论从～来说还是从～来说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>学歴といい、実力といい、向こうの方が勝っている。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="であれであれ">1２. であれ～であれ</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、形容词词干</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论～还是～</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第８課-話題提出">第８課　話題提出</h2>
-<blockquote>
-<p>ときたら</p>
-<p>に至っては</p>
-<p>たるもの</p>
-<p>とは</p>
-<p>～はいざしらず·ならいざしらず</p>
-<p>はともあれ</p>
-<p>はさておき</p>
-</blockquote>
-<h3 id="はさておき">1３. はさておき</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词或短语</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>暂且不提</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第９課-判断評価">第９課　判断、評価</h2>
-<blockquote>
-<p>までもない</p>
-<p>にあたらない</p>
-<p>にかたくない</p>
-<p>に限ったことではない</p>
-<p>ないとも限らない</p>
-<p>といったらありゃしない·といったらない</p>
-<p>なんと～だろう·なんという～だろう</p>
-<p>くらいなら～方がいい</p>
-<p>に越したことはない</p>
-<p>ないものでもない</p>
-<p>といって～ない</p>
-<p>という～ない</p>
-<p>までだ</p>
-<p>までのことだ</p>
-<p>ばそれまでだ</p>
-<p>てしかるべきだ</p>
-<p>限りだ</p>
-<p>極まる·極まりない</p>
-<p>の至り</p>
-<p>きらいがある</p>
-<p>に足る</p>
-<p>あるまじき</p>
-<p>というところだ</p>
-</blockquote>
-<h3 id="までもない">1４. までもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>基本型</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>没必要</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="なんとだろう">1５. なんと～だろう</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>一般修饰动词/形容词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>多么～啊</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>なんと優しい人だろう。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ないものでもないないでもない">1６.
-ないものでもない／ないでもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>ない形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>也不是不～（不情愿的妥协）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>どうしても知りたいなら、教えないものでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="までだ">1７. までだ</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第10課-可能">第10課　可能</h2>
-<blockquote>
-<p>ないものか</p>
-<p>ずにすむ</p>
-<p>を禁じ得ない</p>
-<p>を余儀なくされる·を余儀なくさせる</p>
-<p>にたえる</p>
-<p>にたえない</p>
-<p>べくもない</p>
-</blockquote>
-<h3 id="を余儀なくされるを余儀なくさせる">1８.
-を余儀なくされる·を余儀なくさせる</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>被迫；迫使</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第11課-状態">第11課　状態</h2>
-<blockquote>
-<p>ずにはおかない</p>
-<p>てかなわない</p>
-<p>ともなく·ともなしに</p>
-<p>ことなく·ことなしに</p>
-<p>ごとき</p>
-<p>ながらに</p>
-<p>なりに</p>
-<p>ばかりになっている</p>
-<p>とばかりに</p>
-<p>んばかりに</p>
-<p>んがために</p>
-<p>んとする</p>
-<p>べく</p>
-<p>べくして</p>
-<p>にあって</p>
-</blockquote>
-<h3 id="なりに">1９. なりに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>与～相称的，相适应的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>子供には子供なりの考えがある。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第12課-接尾語">第12課　接尾語</h2>
-<blockquote>
-<p>そこなう</p>
-<p>こなす</p>
-<p>あげる</p>
-</blockquote>
 <hr />
 ]]></content>
       <categories>
@@ -5167,6 +4585,592 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 </tr>
 </tbody>
 </table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N1</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N1文法</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
+    <content><![CDATA[<hr />
+<h2 id="第１課-時間">第１課　時間</h2>
+<blockquote>
+<p>や否や</p>
+<p>や</p>
+<p>が早いか</p>
+<p>なり</p>
+<p>そばから</p>
+<p>がてら</p>
+<p>かたがた</p>
+<p>かたわら</p>
+<p>てからというもの</p>
+<p>を限りに</p>
+<p>を皮切りに</p>
+</blockquote>
+<h3 id="を皮切りに">1. を皮切りに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～为开端</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
+<blockquote>
+<p>とあって</p>
+<p>こととて</p>
+<p>ことだし</p>
+<p>こともあって</p>
+<p>ゆえに</p>
+<p>からこそ·ばこそ</p>
+<p>ではあるまいし</p>
+<p>始末だ</p>
+<p>た手前</p>
+<p>はずみに</p>
+<p>すじまい</p>
+</blockquote>
+<h3 id="とあって">2. とあって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、简体句</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为，由于特殊情况而出现了后项的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ゆえに">3. ゆえに</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第３課-逆接">第３課　逆接</h2>
+<blockquote>
+<p>には～が～</p>
+<p>とはいえ</p>
+<p>といえども</p>
+<p>であれ</p>
+<p>ものを</p>
+<p>ないまでも</p>
+<p>ならまだしも</p>
+<p>たら～たで</p>
+<p>そうかと言って～ない</p>
+</blockquote>
+<h3 id="ものを">4. ものを</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（伴有不满）本来...可是...</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
+<blockquote>
+<p>ものなら</p>
+<p>ものとして</p>
+<p>としたって</p>
+<p>にしたって</p>
+<p>としたところで</p>
+<p>にしたところで</p>
+<p>とあれば</p>
+<p>たが·ら最後</p>
+<p>ともなると·ともなれば</p>
+<p>ようと（が）～ようと（が）</p>
+</blockquote>
+<h3 id="ものなら">5. ものなら</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>如果能～的话（可能性很低但期待实现）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>こられるものなら、もちろん来てほしいですが...</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ようとがようとがようとがまいとが">7.
+ようと·が～ようと·が、ようと·が～まいと·が</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>意向形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论、不管</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第５課-対象関係">第５課　対象、関係</h2>
+<blockquote>
+<p>に即して</p>
+<p>にひきかえ</p>
+<p>にかかわる</p>
+<p>に関わりなく</p>
+<p>にかけては</p>
+<p>と相まって</p>
+<p>にもまして</p>
+<p>をもって</p>
+<p>をよそに</p>
+<p>をしりめに</p>
+<p>をものともせずに</p>
+<p>をこめて</p>
+<p>をひかえて</p>
+<p>あっての</p>
+<p>から～に至るまで</p>
+<p>いかんだ·いかんによっては</p>
+<p>いかんによらず</p>
+<p>によるところ</p>
+</blockquote>
+<h3 id="をもって">8. をもって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～，用～；表示时间的起止点；原因；据说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第６課-強調限定">第６課　強調、限定</h2>
+<blockquote>
+<p>はおろか</p>
+<p>もさることながら</p>
+<p>言うに及ばず</p>
+<p>ならではの</p>
+<p>ともあろう</p>
+<p>に至って</p>
+<p>にして</p>
+<p>に～を重ねる</p>
+<p>をおいて～ない</p>
+<p>てやまない</p>
+<p>たりとも</p>
+<p>なり</p>
+<p>てまで</p>
+<p>からある</p>
+<p>だに</p>
+<p>すら</p>
+<p>ですら</p>
+<p>だけ</p>
+<p>ただ～のみ</p>
+</blockquote>
+<h3 id="もさることながら">9. もさることながら</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>～是当然的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ならではの">10. ならではの</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>只有～才有的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このような細かい心遣いは恋人ならではですね。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第7課-並列">第7課　並列</h2>
+<blockquote>
+<p>あるかと思えば～もある</p>
+<p>だの～だの</p>
+<p>なり～なり</p>
+<p>といい～といい</p>
+<p>であれ～であれ</p>
+<p>つ～つ</p>
+</blockquote>
+<h3 id="といいといい">1１. といい～といい</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论从～来说还是从～来说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>学歴といい、実力といい、向こうの方が勝っている。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="であれであれ">1２. であれ～であれ</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、形容词词干</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论～还是～</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第８課-話題提出">第８課　話題提出</h2>
+<blockquote>
+<p>ときたら</p>
+<p>に至っては</p>
+<p>たるもの</p>
+<p>とは</p>
+<p>～はいざしらず·ならいざしらず</p>
+<p>はともあれ</p>
+<p>はさておき</p>
+</blockquote>
+<h3 id="はさておき">1３. はさておき</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词或短语</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>暂且不提</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第９課-判断評価">第９課　判断、評価</h2>
+<blockquote>
+<p>までもない</p>
+<p>にあたらない</p>
+<p>にかたくない</p>
+<p>に限ったことではない</p>
+<p>ないとも限らない</p>
+<p>といったらありゃしない·といったらない</p>
+<p>なんと～だろう·なんという～だろう</p>
+<p>くらいなら～方がいい</p>
+<p>に越したことはない</p>
+<p>ないものでもない</p>
+<p>といって～ない</p>
+<p>という～ない</p>
+<p>までだ</p>
+<p>までのことだ</p>
+<p>ばそれまでだ</p>
+<p>てしかるべきだ</p>
+<p>限りだ</p>
+<p>極まる·極まりない</p>
+<p>の至り</p>
+<p>きらいがある</p>
+<p>に足る</p>
+<p>あるまじき</p>
+<p>というところだ</p>
+</blockquote>
+<h3 id="までもない">1４. までもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>基本型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>没必要</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="なんとだろう">1５. なんと～だろう</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>一般修饰动词/形容词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>多么～啊</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>なんと優しい人だろう。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ないものでもないないでもない">1６.
+ないものでもない／ないでもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>ない形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>也不是不～（不情愿的妥协）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>どうしても知りたいなら、教えないものでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="までだ">1７. までだ</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第10課-可能">第10課　可能</h2>
+<blockquote>
+<p>ないものか</p>
+<p>ずにすむ</p>
+<p>を禁じ得ない</p>
+<p>を余儀なくされる·を余儀なくさせる</p>
+<p>にたえる</p>
+<p>にたえない</p>
+<p>べくもない</p>
+</blockquote>
+<h3 id="を余儀なくされるを余儀なくさせる">1８.
+を余儀なくされる·を余儀なくさせる</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>被迫；迫使</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第11課-状態">第11課　状態</h2>
+<blockquote>
+<p>ずにはおかない</p>
+<p>てかなわない</p>
+<p>ともなく·ともなしに</p>
+<p>ことなく·ことなしに</p>
+<p>ごとき</p>
+<p>ながらに</p>
+<p>なりに</p>
+<p>ばかりになっている</p>
+<p>とばかりに</p>
+<p>んばかりに</p>
+<p>んがために</p>
+<p>んとする</p>
+<p>べく</p>
+<p>べくして</p>
+<p>にあって</p>
+</blockquote>
+<h3 id="なりに">1９. なりに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>与～相称的，相适应的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>子供には子供なりの考えがある。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第12課-接尾語">第12課　接尾語</h2>
+<blockquote>
+<p>そこなう</p>
+<p>こなす</p>
+<p>あげる</p>
+</blockquote>
 <hr />
 ]]></content>
       <categories>
@@ -11924,6 +11928,122 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
+    <title>味についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>すっぽい</td>
+<td>酸的</td>
+</tr>
+<tr class="even">
+<td>甘い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あまずっぽい</td>
+<td>酸甜的</td>
+</tr>
+<tr class="even">
+<td>苦い（にがい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ほろ苦い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>塩辛い（しおからい）</td>
+<td>咸的</td>
+</tr>
+<tr class="odd">
+<td>しょっぽい</td>
+<td>咸的（口语）</td>
+</tr>
+<tr class="even">
+<td>辛い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>薄い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>濃い（こい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>油つこい</td>
+<td>油腻的</td>
+</tr>
+<tr class="even">
+<td>濃厚</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あっさり</td>
+<td>清淡的</td>
+</tr>
+<tr class="even">
+<td>こってり</td>
+<td>（拉面等）浓厚的</td>
+</tr>
+<tr class="odd">
+<td>ジューシー</td>
+<td>多汁的</td>
+</tr>
+<tr class="even">
+<td>まろやか</td>
+<td>醇厚的</td>
+</tr>
+<tr class="odd">
+<td>複雑</td>
+<td>难以描述的</td>
+</tr>
+<tr class="even">
+<td>クセになる</td>
+<td>欲罢不能的</td>
+</tr>
+<tr class="odd">
+<td>硬い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>柔らかい</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>臭い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>パサパサ</td>
+<td>干巴巴</td>
+</tr>
+<tr class="even">
+<td>ネバネバ</td>
+<td>黏糊糊</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
     <title>授受</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
     <content><![CDATA[<hr />
@@ -12338,122 +12458,6 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
 </tbody>
 </table>
 <hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>味についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すっぽい</td>
-<td>酸的</td>
-</tr>
-<tr class="even">
-<td>甘い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あまずっぽい</td>
-<td>酸甜的</td>
-</tr>
-<tr class="even">
-<td>苦い（にがい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>ほろ苦い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>塩辛い（しおからい）</td>
-<td>咸的</td>
-</tr>
-<tr class="odd">
-<td>しょっぽい</td>
-<td>咸的（口语）</td>
-</tr>
-<tr class="even">
-<td>辛い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>薄い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>濃い（こい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>油つこい</td>
-<td>油腻的</td>
-</tr>
-<tr class="even">
-<td>濃厚</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あっさり</td>
-<td>清淡的</td>
-</tr>
-<tr class="even">
-<td>こってり</td>
-<td>（拉面等）浓厚的</td>
-</tr>
-<tr class="odd">
-<td>ジューシー</td>
-<td>多汁的</td>
-</tr>
-<tr class="even">
-<td>まろやか</td>
-<td>醇厚的</td>
-</tr>
-<tr class="odd">
-<td>複雑</td>
-<td>难以描述的</td>
-</tr>
-<tr class="even">
-<td>クセになる</td>
-<td>欲罢不能的</td>
-</tr>
-<tr class="odd">
-<td>硬い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>柔らかい</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>臭い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>パサパサ</td>
-<td>干巴巴</td>
-</tr>
-<tr class="even">
-<td>ネバネバ</td>
-<td>黏糊糊</td>
-</tr>
-</tbody>
-</table>
 ]]></content>
       <categories>
         <category>日本語</category>
