@@ -29,11 +29,14 @@
 <meta property="og:site_name" content="Yu&#39;s Site">
 <meta property="og:description" content="「まとめ」">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://p.ipic.vip/qhcote.png">
+<meta property="og:image" content="https://p.ipic.vip/y1utne.png">
 <meta property="article:published_time" content="2024-05-10T15:00:00.000Z">
-<meta property="article:modified_time" content="2024-05-11T06:25:41.850Z">
+<meta property="article:modified_time" content="2024-05-11T11:36:07.375Z">
 <meta property="article:author" content="Yu">
 <meta property="article:tag" content="Yu, Site, IdealistYu, blog, hexo, next, theme, yu, loveyou.moe, loveyou, moe, love, moe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p.ipic.vip/qhcote.png">
 
 
 <link rel="canonical" href="https://blog.loveyou.moe/KU/GameTheory/">
@@ -147,7 +150,8 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#classification"><span class="nav-number">1.</span> <span class="nav-text">Classification</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#basics"><span class="nav-number">1.</span> <span class="nav-text">Basics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#game-theory"><span class="nav-number">1.1.</span> <span class="nav-text">Game Theory</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#classification"><span class="nav-number">1.2.</span> <span class="nav-text">Classification</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#representation"><span class="nav-number">1.3.</span> <span class="nav-text">Representation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nash-equilibrium"><span class="nav-number">2.</span> <span class="nav-text">Nash Equilibrium</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#dominant-strategy"><span class="nav-number">2.1.</span> <span class="nav-text">Dominant Strategy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#dominant-strategy-equilibrium"><span class="nav-number">2.2.</span> <span class="nav-text">Dominant Strategy
+Equilibrium</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nash-equilibrium-1"><span class="nav-number">2.3.</span> <span class="nav-text">Nash Equilibrium</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cooperative-equilibrium"><span class="nav-number">2.4.</span> <span class="nav-text">Cooperative Equilibrium</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#focal-point"><span class="nav-number">2.5.</span> <span class="nav-text">Focal point</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cournot-competition"><span class="nav-number">2.6.</span> <span class="nav-text">Cournot competition</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zero-sum-game"><span class="nav-number">3.</span> <span class="nav-text">Zero-Sum Game</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#solution"><span class="nav-number">3.1.</span> <span class="nav-text">Solution</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#max-min-strategy"><span class="nav-number">3.2.</span> <span class="nav-text">Max-min strategy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#saddle-point"><span class="nav-number">3.3.</span> <span class="nav-text">Saddle point</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mixed-strategy"><span class="nav-number">3.4.</span> <span class="nav-text">Mixed Strategy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#non-zero-sum-game"><span class="nav-number">3.5.</span> <span class="nav-text">Non-Zero-Sum Game</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#oddness-theorem"><span class="nav-number">3.6.</span> <span class="nav-text">Oddness Theorem</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -283,14 +287,14 @@ setInterval("createtime()",250);
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>60</span>
+      <span>685</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>2 mins.</span>
     </span>
 </div>
 
@@ -302,7 +306,13 @@ setInterval("createtime()",250);
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="classification">Classification</h2>
+        <h2 id="basics">Basics</h2>
+<h3 id="game-theory">Game Theory</h3>
+<p>Game theory is the study of mathematical models of strategic
+interactions among rational agents. It has applications in many fields
+of social science, used extensively in economics as well as in logic,
+systems science and computer science.</p>
+<h3 id="classification">Classification</h3>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -339,6 +349,87 @@ Game</strong></td>
 </tr>
 </tbody>
 </table>
+<h3 id="representation">Representation</h3>
+<ul>
+<li>Normal form: The normal (or strategic form) game is usually
+represented by a matrix which shows the players, strategies, and payoffs
+(as pictured here).</li>
+</ul>
+<p><img src="https://p.ipic.vip/qhcote.png" style="zoom:50%;" /></p>
+<ul>
+<li>Extensive form: The extensive form can be used to formalize games
+with a time sequencing of moves. Extensive form games can be visualised
+using game trees (as pictured here). Here each vertex (or node)
+represents a point of choice for a player. The player is specified by a
+number listed by the vertex. The lines out of the vertex represent a
+possible action for that player. The payoffs are specified at the bottom
+of the tree.</li>
+</ul>
+<p><img src="https://p.ipic.vip/y1utne.png" style="zoom:10%;" /></p>
+<ul>
+<li>Characteristic function form: In games that possess removable
+utility, separate rewards are not given; rather, the characteristic
+function decides the payoff of each unity. The idea is that the unity
+that is 'empty', so to speak, does not receive a reward at all.</li>
+</ul>
+<h2 id="nash-equilibrium">Nash Equilibrium</h2>
+<h3 id="dominant-strategy">Dominant Strategy</h3>
+<p>The strategy that gives you higher (or equal) utility than any other
+strategy, regardless of the opponent’s action.</p>
+<h3 id="dominant-strategy-equilibrium">Dominant Strategy
+Equilibrium</h3>
+<p>When each player has a dominant strategy, the combination is termed a
+dominant strategy equilibrium.</p>
+<h3 id="nash-equilibrium-1">Nash Equilibrium</h3>
+<p>In game theory, the Nash equilibrium is the most commonly-used
+solution concept for non-cooperative games. A Nash equilibrium is a
+situation where no player could gain by changing their own strategy
+(holding all other players' strategies fixed).</p>
+<h3 id="cooperative-equilibrium">Cooperative Equilibrium</h3>
+<p>A cooperative equilibrium is a solution concept in game theory where
+players achieve optimal outcomes through cooperation. In this state, all
+participants adhere to consistent cooperative strategies to maximize
+their collective benefits.</p>
+<h3 id="focal-point">Focal point</h3>
+<p>In game theory, a focal point (or Schelling point) is a solution that
+people tend to choose by default in the absence of communication in
+order to avoid coordination failure.</p>
+<h3 id="cournot-competition">Cournot competition</h3>
+<p>Cournot competition is an economic model used to describe an industry
+structure in which companies compete on the amount of output they will
+produce, which they decide on independently of each other and at the
+same time.</p>
+<h2 id="zero-sum-game">Zero-Sum Game</h2>
+<h3 id="solution">Solution</h3>
+<p>For two-player finite zero-sum games, the different game theoretic
+solution concepts of Nash equilibrium, minimax, and maximin all give the
+same solution. If the players are allowed to play a mixed strategy, the
+game always has an equilibrium.</p>
+<h3 id="max-min-strategy">Max-min strategy</h3>
+<p>For each action, consider the worst-case caused by the opponent's
+action, then choose the best action among these worst cases.</p>
+<h3 id="saddle-point">Saddle point</h3>
+<ul>
+<li><p>In a zero-sum matrix game, an outcome is a saddle point if the
+outcome is a minimum in its row and maximum in its column.</p></li>
+<li><p>In a zero-sum game, if there exists a saddle point, then the
+result of the game will be that point.</p></li>
+<li><p>Not necessarily exists.</p></li>
+</ul>
+<h3 id="mixed-strategy">Mixed Strategy</h3>
+<p>A mixed strategy is an assignment of a probability to each pure
+strategy. When enlisting mixed strategy, it is often because the game
+does not allow for a rational description in specifying a pure strategy
+(choose a single action) for the game.</p>
+<h3 id="non-zero-sum-game">Non-Zero-Sum Game</h3>
+<p>A Non-Zero-Sum Game is a situation where one's win does not
+necessarily mean another's loss, and one's loss does not necessarily
+mean that the other party wins. In a Non-Zero-Sum Game, all parties
+could gain, or all parties could lose.</p>
+<h3 id="oddness-theorem">Oddness Theorem</h3>
+<p>Almost all finite games (games that can be written in a finite
+matrix) have a finite number of solutions, and that number is also
+odd.</p>
 
     </div>
 
@@ -406,13 +497,13 @@ Game</strong></td>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Word count total">38k</span>
+    <span title="Word count total">39k</span>
   </span>
   <span class="post-meta-item" style="text-align: center;">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="Reading time total">2:18</span>
+    <span title="Reading time total">2:20</span>
   </span>
 </div>
   <div class="powered-by" style="text-align: center;">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a>
