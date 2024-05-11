@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2024-05-04T15:12:29.849Z</updated>
+  <updated>2024-05-11T06:25:41.850Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Game Theory</title>
+    <link href="https://blog.loveyou.moe/KU/GameTheory/"/>
+    <id>https://blog.loveyou.moe/KU/GameTheory/</id>
+    <published>2024-05-10T15:00:00.000Z</published>
+    <updated>2024-05-11T06:25:41.850Z</updated>
+    
+    
+    <summary type="html">「まとめ」</summary>
+    
+    
+    
+    <category term="KU" scheme="https://blog.loveyou.moe/categories/KU/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Mathematical Abbreviations</title>
@@ -82,23 +99,6 @@
     
     
     <category term="KU" scheme="https://blog.loveyou.moe/categories/KU/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>人生第一张像素画</title>
-    <link href="https://blog.loveyou.moe/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/"/>
-    <id>https://blog.loveyou.moe/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</id>
-    <published>2023-12-13T15:00:00.000Z</published>
-    <updated>2024-02-08T07:29:59.882Z</updated>
-    
-    
-    <summary type="html">记录一下人生第一张像素画hhh</summary>
-    
-    
-    
-    <category term="Aseprite" scheme="https://blog.loveyou.moe/categories/Aseprite/"/>
     
     
   </entry>
