@@ -161,21 +161,187 @@ class="math inline">\(v(N)\)</span>.</li>
 class="math inline">\(a\)</span>)，<span class="math inline">\(v(S) =
 v(S\cup\{a\})\)</span> holds. Each null player obtains 0.</li>
 </ol>
+<h3 id="core">Core</h3>
+<p>In cooperative game theory, the core is the set of feasible
+allocations or imputations where no coalition of agents can benefit by
+breaking away from the grand coalition. One can think of the core
+corresponding to situations where it is possible to sustain cooperation
+among all agents. A coalition is said to improve upon or block a
+feasible allocation if the members of that coalition can generate more
+value among themselves than they are allocated in the original
+allocation. As such, that coalition is not incentivized to stay with the
+grand coalition.</p>
+<p>An allocation is said to be in the core of a game if there is no
+coalition that can improve upon it. The core is then the set of all
+feasible allocations .</p>
 <h3 id="nucleolus">Nucleolus</h3>
+<p>In cooperative game theory, the nucleolus of a cooperative game is
+the solution (i.e., allocation of payments to players) that maximizes
+the smallest excess of a coalition (where the excess is the difference
+between the payment given to the coalition and the value the coalition
+could get by deviating). Subject to that, the nucleolus satisfies the
+second-smallest excess; and so on, in the leximin order.</p>
+<p>The nucleolus is a single solution, for which the vector of excesses
+of all coalitions is largest in the leximin order. Intuitively, the
+nucleolus maximizes the stability of the solution by minimizing the
+incentives of coalitions to deviate.</p>
 <h3 id="banzhaf-power-index">Banzhaf power index</h3>
 <p>The Banzhaf power index is a power index defined by the probability
 of changing an outcome of a vote where voting rights are not necessarily
 equally divided among the voters or shareholders. <span
 class="math display">\[
-V(S)-V(S\backslash\{j\})=\begin{cases}1 \quad\text{Allied S
+V(S)=\begin{cases}1 \quad\text{Allied S
 wins}\\0\quad\text{else}\end{cases}
-\\\text{Power Index}\\c_j=\sum_{j\in S\subseteq I
+\\ \text{Power Index}\\c_j=\sum_{j\in S\subseteq I
 }[V(S)-V(S\backslash\{j\})]
-\\\text{Power index ratio}\\\Phi_j=\frac{c_j}{c_1+c_2+\cdots+c_n}
+\\ \text{Power index ratio}\\ \Phi_j=\frac{c_j}{c_1+c_2+\cdots+c_n}
 \]</span></p>
 ]]></content>
       <categories>
         <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>九大情報理工学過去問の解答</title>
+    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<h1
+id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
+<h1
+id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
+<hr />
+<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
+style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
+<p>因为是自己做完之后免费分享的，<span
+style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
+<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
+<hr />
+<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
+style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
+<p>無料共有にて提供されているファイルです。<span
+style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
+<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
+<hr />
+<h2 id="解析学微積分">解析学・微積分</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
+<h2 id="線形代数">線形代数</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
+<h2 id="ヘクトル解析">ベクトル解析</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
+<h2 id="情報理論">情報理論</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
+<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
+<hr />
+]]></content>
+      <categories>
+        <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母上方符号</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="section">^</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\hat A
+\]</span></p>
+<h1 id="section-1">-</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\overline A
+\]</span></p>
+<h1 id="section-2">~</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\widetilde A
+\]</span></p>
+<h1 id="section-3">・</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\dot A
+\quad
+\ddot A
+\quad
+\dddot A
+\quad
+\ddddot A
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母加粗</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="常规表示">常规表示</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+m\quad \beta
+\]</span></p>
+<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol m
+\]</span></p>
+<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\mathbf m
+\]</span></p>
+<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol \beta
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
       </categories>
   </entry>
   <entry>
@@ -1377,108 +1543,6 @@ CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，�
       </categories>
   </entry>
   <entry>
-    <title>人生第一张像素画</title>
-    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
-    <content><![CDATA[<hr />
-<h3
-id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
-<p><img src="/images/2023-12-14-1.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Aseprite</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>正则表达式可视化</title>
-    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
-    <content><![CDATA[<hr />
-<p><a
-href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Regular expression</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母上方符号</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="section">^</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\hat A
-\]</span></p>
-<h1 id="section-1">-</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\overline A
-\]</span></p>
-<h1 id="section-2">~</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\widetilde A
-\]</span></p>
-<h1 id="section-3">・</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\dot A
-\quad
-\ddot A
-\quad
-\dddot A
-\quad
-\ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>九大情報理工学過去問の解答</title>
-    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<h1
-id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
-<h1
-id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
-<hr />
-<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
-style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
-<p>因为是自己做完之后免费分享的，<span
-style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
-<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
-<hr />
-<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
-style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
-<p>無料共有にて提供されているファイルです。<span
-style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
-<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
-<hr />
-<h2 id="解析学微積分">解析学・微積分</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
-<h2 id="線形代数">線形代数</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
-<h2 id="ヘクトル解析">ベクトル解析</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
-<h2 id="情報理論">情報理論</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
-<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
-<hr />
-]]></content>
-      <categories>
-        <category>KU</category>
-      </categories>
-  </entry>
-  <entry>
     <title>基础正则表达式速查表与常用正则表达式示例</title>
     <url>/Regular%20expression/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<hr />
@@ -2250,118 +2314,15 @@ href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7
       </categories>
   </entry>
   <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <title>正则表达式可视化</title>
+    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
     <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
-\]</span></p>
+<p><a
+href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
 <hr />
 ]]></content>
       <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母加粗</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="常规表示">常规表示</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-m\quad \beta
-\]</span></p>
-<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol m
-\]</span></p>
-<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\mathbf m
-\]</span></p>
-<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol \beta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
-    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="问题描述">问题描述</h1>
-<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
-<h1 id="解决方法">解决方法</h1>
-<ol type="1">
-<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
-<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
-<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
-</ol>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
-<ol start="4" type="1">
-<li>重新部署</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>img与a标签行内对齐</title>
-    <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
-    <content><![CDATA[<hr />
-<h1 id="未对齐">未对齐</h1>
-<h2 id="代码">代码</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="效果">效果</h2>
-<p><img src="/images/2023-01-15-1.png" /></p>
-<h1
-id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align: middle</code>）</h1>
-<h2 id="代码-1">代码</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;vertical-align: middle;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">style</span>=<span class="string">&quot;vertical-align: middle;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="效果-1">效果</h2>
-<p><img src="/images/2023-01-15-2.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
+        <category>Regular expression</category>
       </categories>
   </entry>
   <entry>
@@ -2410,27 +2371,6 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
 ]]></content>
       <categories>
         <category>Vocabulary</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NexT侧边栏添加网站运行时间</title>
-    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
-    <content><![CDATA[<hr />
-<h1 id="版本">版本</h1>
-<p><a href="https://hexo.io"><img
-src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
-href="https://theme-next.js.org/"><img
-src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
-<h1 id="文件路径">文件路径</h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
-<h1 id="插入代码">插入代码</h1>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="效果展示">效果展示</h1>
-<p>见本网站home页侧边栏</p>
-<hr />
-]]></content>
-      <categories>
-        <category>Site</category>
       </categories>
   </entry>
   <entry>
@@ -2894,1370 +2834,86 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
-    <title>文献翻译BERT</title>
-    <url>/Literature/Translate/BERT/</url>
+    <title>人生第一张像素画</title>
+    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
     <content><![CDATA[<hr />
-<h1 id="bert">BERT</h1>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT.pdf" data-height="800px"></div>
-<hr />
-<h1 id="bert_translated">BERT_translated</h1>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT_translated.pdf" data-height="800px"></div>
+<h3
+id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
+<p><img src="/images/2023-12-14-1.png" /></p>
 <hr />
 ]]></content>
       <categories>
-        <category>Literature</category>
-        <category>Translate</category>
+        <category>Aseprite</category>
       </categories>
   </entry>
   <entry>
-    <title>N1副詞</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E5%89%AF%E8%A9%9E/</url>
+    <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
+    <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
-<table>
-<colgroup>
-<col style="width: 56%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>副詞</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すっかり</td>
-<td>完全，彻底</td>
-</tr>
-<tr class="even">
-<td>はっきりと</td>
-<td>清晰的</td>
-</tr>
-<tr class="odd">
-<td>うっかり</td>
-<td>不注意，不留神</td>
-</tr>
-<tr class="even">
-<td>しっかり</td>
-<td>好好地、完全</td>
-</tr>
-<tr class="odd">
-<td>なんて</td>
-<td>多么</td>
-</tr>
-<tr class="even">
-<td>なん（だ）か</td>
-<td>总觉得</td>
-</tr>
-<tr class="odd">
-<td>なんと</td>
-<td>竟然</td>
-</tr>
-<tr class="even">
-<td>意外と</td>
-<td>意外</td>
-</tr>
-<tr class="odd">
-<td>どんなに、どれだけ、いかに、なんて</td>
-<td>怎样，怎么</td>
-</tr>
-<tr class="even">
-<td>もうすぐ、間もなく、すぐに、すぐ、早速</td>
-<td>立即，马上</td>
-</tr>
-<tr class="odd">
-<td>かつて、むかし、以前、前に、これまで</td>
-<td>过去，以前，曾经</td>
-</tr>
-<tr class="even">
-<td>がんらい（元来）、ほんらい（本来）、もともと、もと</td>
-<td>本来</td>
-</tr>
-<tr class="odd">
-<td>たいてい（大抵）、だいたい（大体）</td>
-<td>大概，大抵，大都</td>
-</tr>
-<tr class="even">
-<td>いちおう（一応）、とりあえず</td>
-<td>姑且，暂且，先</td>
-</tr>
-<tr class="odd">
-<td>すでに（既に）、もう</td>
-<td>已经</td>
-</tr>
-<tr class="even">
-<td>どうか、どうぞ</td>
-<td>请</td>
-</tr>
-<tr class="odd">
-<td>もしかして、もしかしたら、もしかすると、もし、もしも</td>
-<td>也许</td>
-</tr>
-<tr class="even">
-<td>なかなか、とても、たいへん、だいぶ、かなり、けっこう</td>
-<td>非常，很</td>
-</tr>
-<tr class="odd">
-<td>すこしも、ちっとも</td>
-<td>一点儿（也不），毫（无）</td>
-</tr>
-<tr class="even">
-<td>ようやく、とうとう、やっと、ついに、いよいよ（愈々）</td>
-<td>终于</td>
-</tr>
-<tr class="odd">
-<td>ただ、たった，たんに（単に）</td>
-<td>仅，只</td>
-</tr>
-<tr class="even">
-<td>まんいち(万一) 、まんがいち(万が一)</td>
-<td>万一</td>
-</tr>
-<tr class="odd">
-<td>いかが、どう</td>
-<td>如何</td>
-</tr>
-<tr class="even">
-<td>どうして、なぜ</td>
-<td>为什么，为何，何故</td>
-</tr>
-<tr class="odd">
-<td>まず、先に、先ほど</td>
-<td>首先</td>
-</tr>
-<tr class="even">
-<td>ぜったいに（絶対に）、ぜったい</td>
-<td>绝对</td>
-</tr>
-<tr class="odd">
-<td>きゅうに（急に）、とつぜん（突然）</td>
-<td>突然</td>
-</tr>
-<tr class="even">
-<td>主として（しゅとして）、主に、主要に</td>
-<td>主要</td>
-</tr>
-<tr class="odd">
-<td>これまで、今まで</td>
-<td>现在为止，以前，此前</td>
-</tr>
-<tr class="even">
-<td>いちど（一度）</td>
-<td>一次，一遍，一度</td>
-</tr>
-<tr class="odd">
-<td>こんど（今度）</td>
-<td>这回，下次</td>
-</tr>
-<tr class="even">
-<td>ごく</td>
-<td>极，最，非常</td>
-</tr>
-<tr class="odd">
-<td>ちっとも</td>
-<td>一点儿（也不），毫（无）</td>
-</tr>
-<tr class="even">
-<td>たった今</td>
-<td>刚刚</td>
-</tr>
-<tr class="odd">
-<td>さっき</td>
-<td>刚才</td>
-</tr>
-<tr class="even">
-<td>もう一度</td>
-<td>再次</td>
-</tr>
-<tr class="odd">
-<td>全然</td>
-<td>根本不</td>
-</tr>
-<tr class="even">
-<td>ちょっど</td>
-<td>刚好</td>
-</tr>
-<tr class="odd">
-<td>あまり</td>
-<td>不太</td>
-</tr>
-<tr class="even">
-<td>本当に</td>
-<td>实在是，真的</td>
-</tr>
-<tr class="odd">
-<td>また</td>
-<td>还，再，由</td>
-</tr>
-<tr class="even">
-<td>たまに</td>
-<td>偶尔</td>
-</tr>
-<tr class="odd">
-<td>時々</td>
-<td>有时</td>
-</tr>
-<tr class="even">
-<td>いちばん（一番）</td>
-<td>最，第一</td>
-</tr>
-<tr class="odd">
-<td>こう</td>
-<td>这样</td>
-</tr>
-<tr class="even">
-<td>そう/ああ</td>
-<td>那样</td>
-</tr>
-<tr class="odd">
-<td>あとで（後で）</td>
-<td>过会儿</td>
-</tr>
-<tr class="even">
-<td>ゆっくり</td>
-<td>好好地，安静地</td>
-</tr>
-<tr class="odd">
-<td>もちろん（勿論）</td>
-<td>当然，不用说</td>
-</tr>
-<tr class="even">
-<td>じゅうぶん（十分）</td>
-<td>好好地，充足地</td>
-</tr>
-<tr class="odd">
-<td>ちゃんと</td>
-<td>好好地，的确，完全</td>
-</tr>
-<tr class="even">
-<td>そろそろ</td>
-<td>快要</td>
-</tr>
-<tr class="odd">
-<td>はやく</td>
-<td>早点儿</td>
-</tr>
-<tr class="even">
-<td>初めて</td>
-<td>第一次</td>
-</tr>
-<tr class="odd">
-<td>たぶん（多分）</td>
-<td>可能，大概</td>
-</tr>
-<tr class="even">
-<td>じつは（実は）</td>
-<td>其实，实际上</td>
-</tr>
-<tr class="odd">
-<td>ざっと</td>
-<td>粗略地；一下子，很快；（流水声）哗啦</td>
-</tr>
-<tr class="even">
-<td>きっと</td>
-<td>一定</td>
-</tr>
-<tr class="odd">
-<td>ずっと</td>
-<td>得多，一直</td>
-</tr>
-<tr class="even">
-<td>もっと</td>
-<td>更加</td>
-</tr>
-<tr class="odd">
-<td>やっと</td>
-<td>终于</td>
-</tr>
-<tr class="even">
-<td>ぐっと</td>
-<td>一下子、更加</td>
-</tr>
-<tr class="odd">
-<td>ほっと</td>
-<td>放松，放心</td>
-</tr>
-<tr class="even">
-<td>さっと</td>
-<td>很快，一下子；忽然，骤然</td>
-</tr>
-<tr class="odd">
-<td>まさに</td>
-<td>正是，真正是，的确，实在，确实</td>
-</tr>
-<tr class="even">
-<td>やや</td>
-<td>略显，稍微</td>
-</tr>
-<tr class="odd">
-<td>じつに（実に）</td>
-<td>实在，的确，确实</td>
-</tr>
-<tr class="even">
-<td>のちほど（後ほど）</td>
-<td>过一会儿，随后</td>
-</tr>
-<tr class="odd">
-<td>いったい</td>
-<td>到底，究竟</td>
-</tr>
-<tr class="even">
-<td>にこにこ</td>
-<td>笑眯眯，微笑</td>
-</tr>
-<tr class="odd">
-<td>いきなり</td>
-<td>突然，冷不防</td>
-</tr>
-<tr class="even">
-<td>なんとなく</td>
-<td>不由得，总觉得</td>
-</tr>
-<tr class="odd">
-<td>にっこり</td>
-<td>莞尔，微笑，嫣然一笑</td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td>轻飘飘，软绵绵</td>
-</tr>
-<tr class="odd">
-<td>ぐずぐず</td>
-<td>磨磨蹭蹭，慢腾腾</td>
-</tr>
-<tr class="even">
-<td>ぼんやり</td>
-<td>发呆，精神恍惚；模糊，不清楚</td>
-</tr>
-<tr class="odd">
-<td>いらいら</td>
-<td>焦躁不安，焦急</td>
-</tr>
-<tr class="even">
-<td>わくわく</td>
-<td>欢欣雀跃，焦急</td>
-</tr>
-<tr class="odd">
-<td>どきっと</td>
-<td>大吃一惊，震惊，吓一跳</td>
-</tr>
-<tr class="even">
-<td>どきどき</td>
-<td>七上八下，心怦怦跳；忐忑不安</td>
-</tr>
-<tr class="odd">
-<td>そのうち</td>
-<td>不久，过几天</td>
-</tr>
-<tr class="even">
-<td>のんびり</td>
-<td>放松，轻松；悠闲自在，悠然自得</td>
-</tr>
-<tr class="odd">
-<td>たまたま</td>
-<td>偶然，碰巧</td>
-</tr>
-<tr class="even">
-<td>ぴったり</td>
-<td>正合适，恰好</td>
-</tr>
-<tr class="odd">
-<td>つるつる</td>
-<td>溜滑，滑溜，光滑</td>
-</tr>
-<tr class="even">
-<td>いずれ</td>
-<td>早晚，反正</td>
-</tr>
-<tr class="odd">
-<td>いきいき</td>
-<td>栩栩如生，生动；生气勃勃</td>
-</tr>
-<tr class="even">
-<td>やがて</td>
-<td>后来，不久；大约</td>
-</tr>
-<tr class="odd">
-<td>つぎつぎ（次々）</td>
-<td>不断，接二连三，接踵而来</td>
-</tr>
-<tr class="even">
-<td>喜んで</td>
-<td>高兴地，非常愿意地</td>
-</tr>
-<tr class="odd">
-<td>どうしても</td>
-<td>无论如何也</td>
-</tr>
-<tr class="even">
-<td>せいぜい</td>
-<td>最多，充其量；尽量，尽可能</td>
-</tr>
-<tr class="odd">
-<td>いまにも（今にも）</td>
-<td>眼看就要，马上</td>
-</tr>
-<tr class="even">
-<td>徐々に</td>
-<td>渐渐，逐步</td>
-</tr>
-<tr class="odd">
-<td>はっきり、明確に</td>
-<td>清楚，明确</td>
-</tr>
-<tr class="even">
-<td>まことに（誠に）</td>
-<td>由衷，实在，诚然，的确，非常</td>
-</tr>
-<tr class="odd">
-<td>しょんぼり</td>
-<td>垂头丧气</td>
-</tr>
-<tr class="even">
-<td>ぐっすり</td>
-<td>熟睡，酣睡</td>
-</tr>
-<tr class="odd">
-<td>さっさと</td>
-<td>赶快地，麻利，快速，赶紧</td>
-</tr>
-<tr class="even">
-<td>つまり</td>
-<td>就是，即，就是说；总之，究竟</td>
-</tr>
-<tr class="odd">
-<td>むしろ（寧ろ）</td>
-<td>不如，与其，宁可，毋宁</td>
-</tr>
-<tr class="even">
-<td>おもわず（思わず）</td>
-<td>禁不住，不由得</td>
-</tr>
-<tr class="odd">
-<td>こってり</td>
-<td>味浓，油腻</td>
-</tr>
-<tr class="even">
-<td>あっさり</td>
-<td>清淡；朴素；淡泊</td>
-</tr>
-<tr class="odd">
-<td>さっぱり</td>
-<td>清爽；整洁，利落</td>
-</tr>
-<tr class="even">
-<td>すっきり</td>
-<td>爽气，畅快；流畅，整洁</td>
-</tr>
-<tr class="odd">
-<td>もっぱら（専ら）</td>
-<td>专门，完全</td>
-</tr>
-<tr class="even">
-<td>まさか</td>
-<td>绝没想到，怎能</td>
-</tr>
-<tr class="odd">
-<td>ひときわ</td>
-<td>格外，尤其</td>
-</tr>
-<tr class="even">
-<td>ぜひとも、ぜひ、必ず</td>
-<td>一定，务必</td>
-</tr>
-<tr class="odd">
-<td>いまさら（今さら）</td>
-<td>现在更（不…）</td>
-</tr>
-<tr class="even">
-<td>もうもう</td>
-<td>烟滚滚，烟蒙蒙，灰蒙蒙</td>
-</tr>
-<tr class="odd">
-<td>ちょっと</td>
-<td>哎，劳驾；有点，稍微；有点……，不太</td>
-</tr>
-<tr class="even">
-<td>よく</td>
-<td>竟能，居然；好好地；常常</td>
-</tr>
-<tr class="odd">
-<td>しばしば</td>
-<td>经常，每每，常常</td>
-</tr>
-<tr class="even">
-<td>つねに (常に)</td>
-<td>总是，常常，时常</td>
-</tr>
-<tr class="odd">
-<td>いがいと (意外と)</td>
-<td>意外地</td>
-</tr>
-<tr class="even">
-<td>むろん（無論）</td>
-<td>当然，不用说</td>
-</tr>
-<tr class="odd">
-<td>ずらりと</td>
-<td>一大排，成排地</td>
-</tr>
-<tr class="even">
-<td>かえって（却って）</td>
-<td>反倒，反而</td>
-</tr>
-<tr class="odd">
-<td>はたして(果たして)</td>
-<td>究竟，到底</td>
-</tr>
-<tr class="even">
-<td>くよくよ</td>
-<td>担心，闷闷不乐</td>
-</tr>
-<tr class="odd">
-<td>いつまでも</td>
-<td>因为，由于；无论怎样，总之</td>
-</tr>
-<tr class="even">
-<td>びっしり</td>
-<td>密密麻麻地，慢慢地，空隙</td>
-</tr>
-<tr class="odd">
-<td>いっきに(一気に)</td>
-<td>一下子，一口气</td>
-</tr>
-<tr class="even">
-<td>あくまで</td>
-<td>到底，毕竟，终究</td>
-</tr>
-<tr class="odd">
-<td>ふたたび(再び)</td>
-<td>再次，再</td>
-</tr>
-<tr class="even">
-<td>みずから(自ら)</td>
-<td>亲自；自己</td>
-</tr>
-<tr class="odd">
-<td>そわそわ</td>
-<td>慌张，心神不定，坐立不安</td>
-</tr>
-<tr class="even">
-<td>すすんで(進んで)</td>
-<td>主动地，积极地，自愿地</td>
-</tr>
-<tr class="odd">
-<td>えんえん（延々）</td>
-<td>绵延不绝，连绵不绝</td>
-</tr>
-<tr class="even">
-<td>めったに</td>
-<td>很少，不常</td>
-</tr>
-<tr class="odd">
-<td>なかよく（仲良く）</td>
-<td>亲密，友好</td>
-</tr>
-<tr class="even">
-<td>おもいきり（思い切り）</td>
-<td>彻底，痛快；决心，决意</td>
-</tr>
-<tr class="odd">
-<td>けっきょく（結局）</td>
-<td>结果，最后</td>
-</tr>
-<tr class="even">
-<td>そうとう（相当）、ずいぶん（随分）</td>
-<td>相当，很，颇</td>
-</tr>
-<tr class="odd">
-<td>まったく（全く）</td>
-<td>完全，全然</td>
-</tr>
-<tr class="even">
-<td>あらためて（改めた）</td>
-<td>再，重新</td>
-</tr>
-<tr class="odd">
-<td>おりいって（折り入って）</td>
-<td>诚恳，特意</td>
-</tr>
-<tr class="even">
-<td>ともに</td>
-<td>一起 ，一同；共同</td>
-</tr>
-<tr class="odd">
-<td>ときには（時には）</td>
-<td>有时</td>
-</tr>
-<tr class="even">
-<td>せいぜい</td>
-<td>最多，充其量；尽量，尽可能</td>
-</tr>
-<tr class="odd">
-<td>かんかん</td>
-<td>大发脾气，大怒；(太阳)火辣辣，（火）熊熊</td>
-</tr>
-<tr class="even">
-<td>わざわざ</td>
-<td>特意，故意</td>
-</tr>
-<tr class="odd">
-<td>わざと</td>
-<td>故意，特意，有意</td>
-</tr>
-<tr class="even">
-<td>いちだんと（一段と）</td>
-<td>越发，更加</td>
-</tr>
-<tr class="odd">
-<td>らくらく（楽々）</td>
-<td>简单，非常容易；安适</td>
-</tr>
-<tr class="even">
-<td>ぞくぞく（続々）</td>
-<td>源源不断，陆续</td>
-</tr>
-<tr class="odd">
-<td>だんだん（段々）</td>
-<td>渐渐地</td>
-</tr>
-<tr class="even">
-<td>いっさい (一切)</td>
-<td>一概，一切</td>
-</tr>
-<tr class="odd">
-<td>たがいに（互いに）</td>
-<td>交互，交替，相互</td>
-</tr>
-<tr class="even">
-<td>なにしろ(何しろ)</td>
-<td>因为，由于；无论怎样，总之</td>
-</tr>
-<tr class="odd">
-<td>いつも</td>
-<td>始终，总是，一直</td>
-</tr>
-<tr class="even">
-<td>まっすぐ</td>
-<td>径直</td>
-</tr>
-<tr class="odd">
-<td>たしか</td>
-<td>好像是</td>
-</tr>
-<tr class="even">
-<td>これから</td>
-<td>从今以后</td>
-</tr>
-<tr class="odd">
-<td>すごく</td>
-<td>了不起地，惊人地</td>
-</tr>
-<tr class="even">
-<td>べつに（別に）</td>
-<td>并不</td>
-</tr>
-<tr class="odd">
-<td>ほとんど</td>
-<td>大部分，几乎</td>
-</tr>
-<tr class="even">
-<td>つい</td>
-<td>不知不觉地</td>
-</tr>
-<tr class="odd">
-<td>しばらく</td>
-<td>好久，片刻</td>
-</tr>
-<tr class="even">
-<td>ほかに</td>
-<td>另外</td>
-</tr>
-<tr class="odd">
-<td>うまく</td>
-<td>高明地，很好地，好吃地</td>
-</tr>
-<tr class="even">
-<td>丁寧に</td>
-<td>礼貌地，恭敬地</td>
-</tr>
-<tr class="odd">
-<td>きちんと</td>
-<td>好好地，正经地</td>
-</tr>
-<tr class="even">
-<td>ぜんぶ</td>
-<td>全部</td>
-</tr>
-<tr class="odd">
-<td>相変わらず</td>
-<td>依然，照旧</td>
-</tr>
-<tr class="even">
-<td>とにかく</td>
-<td>特别是，总之</td>
-</tr>
-<tr class="odd">
-<td>まだまだ</td>
-<td>还，尚</td>
-</tr>
-<tr class="even">
-<td>ぺらぺら</td>
-<td>流利地</td>
-</tr>
-<tr class="odd">
-<td>ワンワン</td>
-<td>汪汪（狗叫）</td>
-</tr>
-<tr class="even">
-<td>ザーザー</td>
-<td>哗啦哗啦</td>
-</tr>
-<tr class="odd">
-<td>すやすや</td>
-<td>安静地，香甜地</td>
-</tr>
-<tr class="even">
-<td>くれくれ</td>
-<td>弯弯曲曲</td>
-</tr>
-<tr class="odd">
-<td>どんどん</td>
-<td>连续不段地，接二连三地</td>
-</tr>
-<tr class="even">
-<td>こっそり</td>
-<td>偷偷地，悄悄地</td>
-</tr>
-<tr class="odd">
-<td>さすが（流石）</td>
-<td>不愧是，果然</td>
-</tr>
-<tr class="even">
-<td>じっさいに（実際に）</td>
-<td>实际上</td>
-</tr>
-<tr class="odd">
-<td>せっかく</td>
-<td>好不容易，特意</td>
-</tr>
-<tr class="even">
-<td>もっとも（最も）</td>
-<td>最</td>
-</tr>
-<tr class="odd">
-<td>ちょくせつ（直接）</td>
-<td>直接</td>
-</tr>
-<tr class="even">
-<td>まるで</td>
-<td>好像</td>
-</tr>
-<tr class="odd">
-<td>いかにも</td>
-<td>典型地，实在，的确</td>
-</tr>
-<tr class="even">
-<td>しょうしょう（少々）</td>
-<td>稍微</td>
-</tr>
-<tr class="odd">
-<td>ただいま（只今）</td>
-<td>马上，立即</td>
-</tr>
-</tbody>
-</table>
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="问题描述">问题描述</h1>
+<p>手动在博客的网页端Github仓库中添加README与LICENSE文件，在下一次通过Git将本地Hexo生成文件推送至远程仓库后，README与LICENSE文件会被覆盖或删除。</p>
+<h1 id="解决方法">解决方法</h1>
+<ol type="1">
+<li>手动在网页端Github仓库中添加README与LICENSE文件</li>
+<li>将文件克隆到本地并拷贝至路径<code>/Blog/source</code></li>
+<li>修改Hexo的<code>_config.yml</code>中的<code>skip_render</code></li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">README.md</span></span><br><span class="line">  <span class="bullet">-</span> <span class="string">LICENSE.md</span></span><br></pre></td></tr></table></figure>
+<ol start="4" type="1">
+<li>重新部署</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <hr />
 ]]></content>
       <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
+        <category>Site</category>
       </categories>
   </entry>
   <entry>
-    <title>N1文法</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
+    <title>img与a标签行内对齐</title>
+    <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
     <content><![CDATA[<hr />
-<h2 id="第１課-時間">第１課　時間</h2>
-<blockquote>
-<p>や否や</p>
-<p>や</p>
-<p>が早いか</p>
-<p>なり</p>
-<p>そばから</p>
-<p>がてら</p>
-<p>かたがた</p>
-<p>かたわら</p>
-<p>てからというもの</p>
-<p>を限りに</p>
-<p>を皮切りに</p>
-</blockquote>
-<h3 id="を皮切りに">1. を皮切りに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～为开端</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
-<blockquote>
-<p>とあって</p>
-<p>こととて</p>
-<p>ことだし</p>
-<p>こともあって</p>
-<p>ゆえに</p>
-<p>からこそ·ばこそ</p>
-<p>ではあるまいし</p>
-<p>始末だ</p>
-<p>た手前</p>
-<p>はずみに</p>
-<p>すじまい</p>
-</blockquote>
-<h3 id="とあって">2. とあって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、简体句</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为，由于特殊情况而出现了后项的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ゆえに">3. ゆえに</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第３課-逆接">第３課　逆接</h2>
-<blockquote>
-<p>には～が～</p>
-<p>とはいえ</p>
-<p>といえども</p>
-<p>であれ</p>
-<p>ものを</p>
-<p>ないまでも</p>
-<p>ならまだしも</p>
-<p>たら～たで</p>
-<p>そうかと言って～ない</p>
-</blockquote>
-<h3 id="ものを">4. ものを</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（伴有不满）本来...可是...</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
-<blockquote>
-<p>ものなら</p>
-<p>ものとして</p>
-<p>としたって</p>
-<p>にしたって</p>
-<p>としたところで</p>
-<p>にしたところで</p>
-<p>とあれば</p>
-<p>たが·ら最後</p>
-<p>ともなると·ともなれば</p>
-<p>ようと（が）～ようと（が）</p>
-</blockquote>
-<h3 id="ものなら">5. ものなら</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>如果能～的话（可能性很低但期待实现）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>こられるものなら、もちろん来てほしいですが...</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ようとがようとがようとがまいとが">7.
-ようと·が～ようと·が、ようと·が～まいと·が</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>意向形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论、不管</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第５課-対象関係">第５課　対象、関係</h2>
-<blockquote>
-<p>に即して</p>
-<p>にひきかえ</p>
-<p>にかかわる</p>
-<p>に関わりなく</p>
-<p>にかけては</p>
-<p>と相まって</p>
-<p>にもまして</p>
-<p>をもって</p>
-<p>をよそに</p>
-<p>をしりめに</p>
-<p>をものともせずに</p>
-<p>をこめて</p>
-<p>をひかえて</p>
-<p>あっての</p>
-<p>から～に至るまで</p>
-<p>いかんだ·いかんによっては</p>
-<p>いかんによらず</p>
-<p>によるところ</p>
-</blockquote>
-<h3 id="をもって">8. をもって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～，用～；表示时间的起止点；原因；据说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第６課-強調限定">第６課　強調、限定</h2>
-<blockquote>
-<p>はおろか</p>
-<p>もさることながら</p>
-<p>言うに及ばず</p>
-<p>ならではの</p>
-<p>ともあろう</p>
-<p>に至って</p>
-<p>にして</p>
-<p>に～を重ねる</p>
-<p>をおいて～ない</p>
-<p>てやまない</p>
-<p>たりとも</p>
-<p>なり</p>
-<p>てまで</p>
-<p>からある</p>
-<p>だに</p>
-<p>すら</p>
-<p>ですら</p>
-<p>だけ</p>
-<p>ただ～のみ</p>
-</blockquote>
-<h3 id="もさることながら">9. もさることながら</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>～是当然的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ならではの">10. ならではの</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>只有～才有的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このような細かい心遣いは恋人ならではですね。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第7課-並列">第7課　並列</h2>
-<blockquote>
-<p>あるかと思えば～もある</p>
-<p>だの～だの</p>
-<p>なり～なり</p>
-<p>といい～といい</p>
-<p>であれ～であれ</p>
-<p>つ～つ</p>
-</blockquote>
-<h3 id="といいといい">1１. といい～といい</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论从～来说还是从～来说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>学歴といい、実力といい、向こうの方が勝っている。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="であれであれ">1２. であれ～であれ</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、形容词词干</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论～还是～</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第８課-話題提出">第８課　話題提出</h2>
-<blockquote>
-<p>ときたら</p>
-<p>に至っては</p>
-<p>たるもの</p>
-<p>とは</p>
-<p>～はいざしらず·ならいざしらず</p>
-<p>はともあれ</p>
-<p>はさておき</p>
-</blockquote>
-<h3 id="はさておき">1３. はさておき</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词或短语</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>暂且不提</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第９課-判断評価">第９課　判断、評価</h2>
-<blockquote>
-<p>までもない</p>
-<p>にあたらない</p>
-<p>にかたくない</p>
-<p>に限ったことではない</p>
-<p>ないとも限らない</p>
-<p>といったらありゃしない·といったらない</p>
-<p>なんと～だろう·なんという～だろう</p>
-<p>くらいなら～方がいい</p>
-<p>に越したことはない</p>
-<p>ないものでもない</p>
-<p>といって～ない</p>
-<p>という～ない</p>
-<p>までだ</p>
-<p>までのことだ</p>
-<p>ばそれまでだ</p>
-<p>てしかるべきだ</p>
-<p>限りだ</p>
-<p>極まる·極まりない</p>
-<p>の至り</p>
-<p>きらいがある</p>
-<p>に足る</p>
-<p>あるまじき</p>
-<p>というところだ</p>
-</blockquote>
-<h3 id="までもない">1４. までもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>基本型</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>没必要</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="なんとだろう">1５. なんと～だろう</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>一般修饰动词/形容词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>多么～啊</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>なんと優しい人だろう。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ないものでもないないでもない">1６.
-ないものでもない／ないでもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>ない形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>也不是不～（不情愿的妥协）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>どうしても知りたいなら、教えないものでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="までだ">1７. までだ</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第10課-可能">第10課　可能</h2>
-<blockquote>
-<p>ないものか</p>
-<p>ずにすむ</p>
-<p>を禁じ得ない</p>
-<p>を余儀なくされる·を余儀なくさせる</p>
-<p>にたえる</p>
-<p>にたえない</p>
-<p>べくもない</p>
-</blockquote>
-<h3 id="を余儀なくされるを余儀なくさせる">1８.
-を余儀なくされる·を余儀なくさせる</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>被迫；迫使</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第11課-状態">第11課　状態</h2>
-<blockquote>
-<p>ずにはおかない</p>
-<p>てかなわない</p>
-<p>ともなく·ともなしに</p>
-<p>ことなく·ことなしに</p>
-<p>ごとき</p>
-<p>ながらに</p>
-<p>なりに</p>
-<p>ばかりになっている</p>
-<p>とばかりに</p>
-<p>んばかりに</p>
-<p>んがために</p>
-<p>んとする</p>
-<p>べく</p>
-<p>べくして</p>
-<p>にあって</p>
-</blockquote>
-<h3 id="なりに">1９. なりに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>与～相称的，相适应的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>子供には子供なりの考えがある。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第12課-接尾語">第12課　接尾語</h2>
-<blockquote>
-<p>そこなう</p>
-<p>こなす</p>
-<p>あげる</p>
-</blockquote>
+<h1 id="未对齐">未对齐</h1>
+<h2 id="代码">代码</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="效果">效果</h2>
+<p><img src="/images/2023-01-15-1.png" /></p>
+<h1
+id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align: middle</code>）</h1>
+<h2 id="代码-1">代码</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">style</span>=<span class="string">&quot;width:20px;height:20px;display:inline-block;vertical-align: middle;&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://icp.gov.moe/images/ico64.png&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://icp.gov.moe/?keyword=20236696&quot;</span> <span class="attr">style</span>=<span class="string">&quot;vertical-align: middle;&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>萌ICP备20236696号<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="效果-1">效果</h2>
+<p><img src="/images/2023-01-15-2.png" /></p>
 <hr />
 ]]></content>
       <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
+        <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NexT侧边栏添加网站运行时间</title>
+    <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
+    <content><![CDATA[<hr />
+<h1 id="版本">版本</h1>
+<p><a href="https://hexo.io"><img
+src="https://img.shields.io/badge/hexo-v6.3.0-blue?logo=hexo&amp;style=flat" /></a><a
+href="https://theme-next.js.org/"><img
+src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAAN0AAADdAXBTogcAAACKUExURUxpcSIiIiIiIh4eHiQkJCIiIiIiIiIiIvf39/T09EZGRrW1ta+vryYmJiIiIiEhISEhISAgIHZ2dtzc3LOzsyQkJO7u7r+/vyIiIiIiIiIiIiMjIyEhISQkJCIiIiIiIiEhISMjI319ff39/TU1NcHBwfj4+P///97e3ufn5y8vL56eniIiIv///yHXm7AAAAAsdFJOUwB45Asg+H982dLcwLwDy4ZZL8XAvfHMvcFiS6k9Fdlyt5rD5ufH3vHGxu6/ARtwjAAAAORJREFUOMulk9kSgjAMRRWoVZStiAiKG4hb8v+/Z0ecSmvojON9Sueeh6S5GY1+lOdZbZczFrnDfuyAlFMEtJ2s4a1wS9jVEXramK0E+ww0Ga2UO/iSE39GOwCpMHkD4+59Sv2u8K+iKyY6MMW6eRULnA0AuGIkwBWAuQZwE2gRhRU4L/HiWwG44TSD5SCQw73F1ALM5R9c8GEF4CSHtQKQy2kNYKIBbKWAMQlAUw8AQi0rFTqQhPS6D56RVl27Ust7xHQ725vR9jZ9/1gRud6qVtYJfRhB4Rhp/T69iDHu/nO8hJ7YKFFM9bn+HwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==&amp;style=flat" /></a></p>
+<h1 id="文件路径">文件路径</h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/blog/node_modules/hexo-theme-next/layout/_partials/sidebar/site-overview.njk</span><br></pre></td></tr></table></figure>
+<h1 id="插入代码">插入代码</h1>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;site-state-wrap animated&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>Loading...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) </span></span><br><span class="line"><span class="language-javascript">    &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01/02/2021&quot;</span>);<span class="comment">//此处修改为你的建站时间或者网站上线时间</span></span></span><br><span class="line"><span class="language-javascript">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span><br><span class="line"><span class="language-javascript">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;Running for &quot;</span>+dnum+<span class="string">&quot; days.&quot;</span>;</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="效果展示">效果展示</h1>
+<p>见本网站home页侧边栏</p>
+<hr />
+]]></content>
+      <categories>
+        <category>Site</category>
       </categories>
   </entry>
   <entry>
@@ -4487,6 +3143,504 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
 <td></td>
 <td></td>
 <td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N2慣用句</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>首にする</td>
+<td>解雇，撤职</td>
+</tr>
+<tr class="even">
+<td>首を長くする</td>
+<td>翘首企盼</td>
+</tr>
+<tr class="odd">
+<td>首が回らない</td>
+<td>债台高筑</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>頭にくる</td>
+<td>生气，发火。</td>
+</tr>
+<tr class="even">
+<td>頭に絞る</td>
+<td>绞尽脑汁</td>
+</tr>
+<tr class="odd">
+<td>頭が下がる</td>
+<td>佩服，感服。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>目を丸くする</td>
+<td>双目圆睁</td>
+</tr>
+<tr class="even">
+<td>目が冴えて眠れない</td>
+<td>头脑清醒睡不着，兴奋</td>
+</tr>
+<tr class="odd">
+<td>目が肥えている</td>
+<td>眼力高（一般的东西看不上眼）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>口が軽い</td>
+<td>嘴不严，嘴快。喋喋不休。</td>
+</tr>
+<tr class="even">
+<td>口が重い</td>
+<td>不爱说话，话少，寡言。</td>
+</tr>
+<tr class="odd">
+<td>口が悪い</td>
+<td>嘴损，说话刻薄。</td>
+</tr>
+<tr class="even">
+<td>口が滑る</td>
+<td>不小心把不应该说出去的事情说漏嘴了。</td>
+</tr>
+<tr class="odd">
+<td>口が肥えている</td>
+<td>口味高，讲究吃。嘴刁。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>息が合う</td>
+<td>合得来，步调一致，配合默契。</td>
+</tr>
+<tr class="even">
+<td>息が切れる</td>
+<td>接不上气。呼吸困难。气喘。死，气绝。断气。</td>
+</tr>
+<tr class="odd">
+<td>息をのむほど</td>
+<td>屏息</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>気が利く</td>
+<td>顾全； 周到。有眼力。</td>
+</tr>
+<tr class="even">
+<td>気がある</td>
+<td>有意志、欲望的。有兴趣或关心。特指有爱慕的感情。</td>
+</tr>
+<tr class="odd">
+<td>気を配る</td>
+<td>注意，留心。</td>
+</tr>
+<tr class="even">
+<td>気が済む</td>
+<td>称心如意。心满意足。了却心事。舒心。心安。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 88%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>腕が立つ</td>
+<td>手艺、技术高强。</td>
+</tr>
+<tr class="even">
+<td>腕が利く</td>
+<td>有本领，能干，技艺高超。</td>
+</tr>
+<tr class="odd">
+<td>腕を組む</td>
+<td>双臂抱在胸前。旁观或者思考等的时候的动作。两人互相挽着手臂。亦指，为了合作而成为朋友。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>手を打つ</td>
+<td>采取措施，设法处理</td>
+</tr>
+<tr class="even">
+<td>手を焼く</td>
+<td>因不能很好地处理问题而感到为难。棘手、难对付。</td>
+</tr>
+<tr class="odd">
+<td>猫の手も借りたい</td>
+<td>忙得团团转。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>足を引っ張る</td>
+<td>妨碍别人成功或前进。亦指成为障碍。拖后腿。</td>
+</tr>
+<tr class="even">
+<td>足下にも及（およ）ばない</td>
+<td>望尘莫及</td>
+</tr>
+<tr class="odd">
+<td>足が速い</td>
+<td>畅销，易腐</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>文献翻译BERT</title>
+    <url>/Literature/Translate/BERT/</url>
+    <content><![CDATA[<hr />
+<h1 id="bert">BERT</h1>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT.pdf" data-height="800px"></div>
+<hr />
+<h1 id="bert_translated">BERT_translated</h1>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT_translated.pdf" data-height="800px"></div>
+<hr />
+]]></content>
+      <categories>
+        <category>Literature</category>
+        <category>Translate</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N2敬語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%95%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 20%" />
+<col style="width: 30%" />
+<col style="width: 36%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>尊敬を表す特別な動詞</th>
+<th>謙譲を表す特別な動詞</th>
+<th>謙譲を表す特別な動詞</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>A尊敬する相手にかかる行為</strong></td>
+<td><strong>B尊敬する相手にかかわらない行為</strong></td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td>いらっしゃいます</td>
+<td></td>
+<td>まいります</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>おいでになります</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>来ます</td>
+<td>いらっしゃいます</td>
+<td></td>
+<td>まいります</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>おいでになります</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>います</td>
+<td>いらっしゃいます</td>
+<td></td>
+<td>おります</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>おいでになります</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td>召し上げります</td>
+<td>いただきます</td>
+<td>いただきます</td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td>召し上げります</td>
+<td>いただきます</td>
+<td>いただきます</td>
+</tr>
+<tr class="even">
+<td>します</td>
+<td>なさいます</td>
+<td>いたします</td>
+<td>いたします</td>
+</tr>
+<tr class="odd">
+<td>言います</td>
+<td>おっしゃいます</td>
+<td>申し上げます</td>
+<td>申します</td>
+</tr>
+<tr class="even">
+<td>見ます</td>
+<td>ごらんになります</td>
+<td>拝見します</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>寝ます</td>
+<td>お休みになります</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>会います</td>
+<td></td>
+<td>お目にかかります</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>見せます</td>
+<td></td>
+<td>お目にかけます</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>ごらんにいれます</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>思います</td>
+<td></td>
+<td></td>
+<td>存じます</td>
+</tr>
+<tr class="even">
+<td>知っています</td>
+<td>ご存じです</td>
+<td></td>
+<td>存じております</td>
+</tr>
+<tr class="odd">
+<td>借ります</td>
+<td></td>
+<td>拝借します</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>聞きます</td>
+<td></td>
+<td>（先生から）うかがいます</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>質問します</td>
+<td></td>
+<td>（先生に）うかがいます</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>訪問します</td>
+<td></td>
+<td>（お宅に）うかがいます</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あげます</td>
+<td></td>
+<td>差し上げます</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>もらいます</td>
+<td></td>
+<td>いただきます</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>くれます</td>
+<td>くださいます</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>~です</td>
+<td>~でいらっしゃいます</td>
+<td></td>
+<td>~でございます</td>
+</tr>
+<tr class="odd">
+<td>あります</td>
+<td></td>
+<td></td>
+<td>ございます</td>
+</tr>
+<tr class="even">
+<td>Vています</td>
+<td>Vていらっしゃいます</td>
+<td></td>
+<td>Vております</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>おVです</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Vてください</td>
+<td>おVてください</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Vていきます</td>
+<td>Vていらっしゃいます</td>
+<td></td>
+<td>Vてまいります</td>
+</tr>
+<tr class="even">
+<td>Vてきます</td>
+<td>Vていらっしゃいます</td>
+<td></td>
+<td>Vてまいります</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>N</td>
+<td>おN · ごN</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>イA／ナA</td>
+<td>おイA／ナA</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>ごナA</td>
 <td></td>
 <td></td>
 </tr>
@@ -5265,488 +4419,6 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
-    <title>N2慣用句</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>首にする</td>
-<td>解雇，撤职</td>
-</tr>
-<tr class="even">
-<td>首を長くする</td>
-<td>翘首企盼</td>
-</tr>
-<tr class="odd">
-<td>首が回らない</td>
-<td>债台高筑</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>頭にくる</td>
-<td>生气，发火。</td>
-</tr>
-<tr class="even">
-<td>頭に絞る</td>
-<td>绞尽脑汁</td>
-</tr>
-<tr class="odd">
-<td>頭が下がる</td>
-<td>佩服，感服。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>目を丸くする</td>
-<td>双目圆睁</td>
-</tr>
-<tr class="even">
-<td>目が冴えて眠れない</td>
-<td>头脑清醒睡不着，兴奋</td>
-</tr>
-<tr class="odd">
-<td>目が肥えている</td>
-<td>眼力高（一般的东西看不上眼）</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>口が軽い</td>
-<td>嘴不严，嘴快。喋喋不休。</td>
-</tr>
-<tr class="even">
-<td>口が重い</td>
-<td>不爱说话，话少，寡言。</td>
-</tr>
-<tr class="odd">
-<td>口が悪い</td>
-<td>嘴损，说话刻薄。</td>
-</tr>
-<tr class="even">
-<td>口が滑る</td>
-<td>不小心把不应该说出去的事情说漏嘴了。</td>
-</tr>
-<tr class="odd">
-<td>口が肥えている</td>
-<td>口味高，讲究吃。嘴刁。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>息が合う</td>
-<td>合得来，步调一致，配合默契。</td>
-</tr>
-<tr class="even">
-<td>息が切れる</td>
-<td>接不上气。呼吸困难。气喘。死，气绝。断气。</td>
-</tr>
-<tr class="odd">
-<td>息をのむほど</td>
-<td>屏息</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>気が利く</td>
-<td>顾全； 周到。有眼力。</td>
-</tr>
-<tr class="even">
-<td>気がある</td>
-<td>有意志、欲望的。有兴趣或关心。特指有爱慕的感情。</td>
-</tr>
-<tr class="odd">
-<td>気を配る</td>
-<td>注意，留心。</td>
-</tr>
-<tr class="even">
-<td>気が済む</td>
-<td>称心如意。心满意足。了却心事。舒心。心安。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>腕が立つ</td>
-<td>手艺、技术高强。</td>
-</tr>
-<tr class="even">
-<td>腕が利く</td>
-<td>有本领，能干，技艺高超。</td>
-</tr>
-<tr class="odd">
-<td>腕を組む</td>
-<td>双臂抱在胸前。旁观或者思考等的时候的动作。两人互相挽着手臂。亦指，为了合作而成为朋友。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>手を打つ</td>
-<td>采取措施，设法处理</td>
-</tr>
-<tr class="even">
-<td>手を焼く</td>
-<td>因不能很好地处理问题而感到为难。棘手、难对付。</td>
-</tr>
-<tr class="odd">
-<td>猫の手も借りたい</td>
-<td>忙得团团转。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<colgroup>
-<col style="width: 36%" />
-<col style="width: 63%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>足を引っ張る</td>
-<td>妨碍别人成功或前进。亦指成为障碍。拖后腿。</td>
-</tr>
-<tr class="even">
-<td>足下にも及（およ）ばない</td>
-<td>望尘莫及</td>
-</tr>
-<tr class="odd">
-<td>足が速い</td>
-<td>畅销，易腐</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N2敬語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%95%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 20%" />
-<col style="width: 30%" />
-<col style="width: 36%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>語彙</th>
-<th>尊敬を表す特別な動詞</th>
-<th>謙譲を表す特別な動詞</th>
-<th>謙譲を表す特別な動詞</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td><strong>A尊敬する相手にかかる行為</strong></td>
-<td><strong>B尊敬する相手にかかわらない行為</strong></td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td>いらっしゃいます</td>
-<td></td>
-<td>まいります</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>おいでになります</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>来ます</td>
-<td>いらっしゃいます</td>
-<td></td>
-<td>まいります</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>おいでになります</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>います</td>
-<td>いらっしゃいます</td>
-<td></td>
-<td>おります</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>おいでになります</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td>召し上げります</td>
-<td>いただきます</td>
-<td>いただきます</td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td>召し上げります</td>
-<td>いただきます</td>
-<td>いただきます</td>
-</tr>
-<tr class="even">
-<td>します</td>
-<td>なさいます</td>
-<td>いたします</td>
-<td>いたします</td>
-</tr>
-<tr class="odd">
-<td>言います</td>
-<td>おっしゃいます</td>
-<td>申し上げます</td>
-<td>申します</td>
-</tr>
-<tr class="even">
-<td>見ます</td>
-<td>ごらんになります</td>
-<td>拝見します</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>寝ます</td>
-<td>お休みになります</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>会います</td>
-<td></td>
-<td>お目にかかります</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>見せます</td>
-<td></td>
-<td>お目にかけます</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td>ごらんにいれます</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>思います</td>
-<td></td>
-<td></td>
-<td>存じます</td>
-</tr>
-<tr class="even">
-<td>知っています</td>
-<td>ご存じです</td>
-<td></td>
-<td>存じております</td>
-</tr>
-<tr class="odd">
-<td>借ります</td>
-<td></td>
-<td>拝借します</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>聞きます</td>
-<td></td>
-<td>（先生から）うかがいます</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>質問します</td>
-<td></td>
-<td>（先生に）うかがいます</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>訪問します</td>
-<td></td>
-<td>（お宅に）うかがいます</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あげます</td>
-<td></td>
-<td>差し上げます</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>もらいます</td>
-<td></td>
-<td>いただきます</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>くれます</td>
-<td>くださいます</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>~です</td>
-<td>~でいらっしゃいます</td>
-<td></td>
-<td>~でございます</td>
-</tr>
-<tr class="odd">
-<td>あります</td>
-<td></td>
-<td></td>
-<td>ございます</td>
-</tr>
-<tr class="even">
-<td>Vています</td>
-<td>Vていらっしゃいます</td>
-<td></td>
-<td>Vております</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>おVです</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Vてください</td>
-<td>おVてください</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Vていきます</td>
-<td>Vていらっしゃいます</td>
-<td></td>
-<td>Vてまいります</td>
-</tr>
-<tr class="even">
-<td>Vてきます</td>
-<td>Vていらっしゃいます</td>
-<td></td>
-<td>Vてまいります</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>N</td>
-<td>おN · ごN</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>イA／ナA</td>
-<td>おイA／ナA</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td>ごナA</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
     <title>キーの記号の読み方</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/</url>
     <content><![CDATA[<hr />
@@ -6215,1220 +4887,6 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       <categories>
         <category>日本語</category>
         <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N1擬声語と擬態語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%93%AC%E5%A3%B0%E8%AA%9E%E3%81%A8%E6%93%AC%E6%85%8B%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<h1 id="擬声語擬態語">✨擬声語&amp;擬態語✨</h1>
-<hr />
-<h2 id="擬声語">擬声語</h2>
-<h3 id="聞こえる物音を表す言葉">聞こえる物音を表す言葉</h3>
-<h2 id="擬態語">擬態語</h2>
-<h3
-id="聞こえないものや身振りなどの状態を表す言葉">聞こえないものや身振りなどの状態を表す言葉</h3>
-<hr />
-<h1 id="見る">✨見る✨</h1>
-<blockquote>
-<p>きょろきょろ</p>
-<p>じっと</p>
-<p>じろじろ</p>
-<p>ちらちら</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 56%" />
-<col style="width: 32%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>きょろきょろ</td>
-<td>東京に初めて来たとき、きょろきょろしていたら変な人だと思われた。</td>
-<td>いろんなところを見る様子。</td>
-</tr>
-<tr class="even">
-<td>じっと</td>
-<td>話した事もないのにじっと見てくる男の子がいます。私のことが好きなのかしら。</td>
-<td>ずっと一つのものを見ていること。</td>
-</tr>
-<tr class="odd">
-<td>じろじろ</td>
-<td>何さっきからじろじろ見ているの？本当に失礼ね。</td>
-<td>一つのもののいろんなところを見る。</td>
-</tr>
-<tr class="even">
-<td>ちらちら</td>
-<td>おい！ちらちらどこを見ているんだ！まだ授業は終わってないぞ。</td>
-<td>時々違う場所を見る。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="感じる">✨感じる✨</h1>
-<blockquote>
-<p>さらさら</p>
-<p>つるつる</p>
-<p>ふわふわ</p>
-<p>すべすべ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 54%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>さらさら</td>
-<td>美容室帰りのサラサラ髪。</td>
-<td>スムーズに指が髪の毛に通る感じ。</td>
-</tr>
-<tr class="even">
-<td>つるつる</td>
-<td>温泉に入ると肌がツルツルになりますよね！</td>
-<td>滑りやすいこと。</td>
-</tr>
-<tr class="odd">
-<td>ふわふわ</td>
-<td>干したばかりの布団はふわふわしていてとて気持ちいい。</td>
-<td>空気をいっぱい含むんで、やわらかい。</td>
-</tr>
-<tr class="even">
-<td>すべすべ</td>
-<td>赤ちゃんの肌ってほんとすべすべだよね。</td>
-<td>肌が良い状態のこと。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="感じる-２回目">✨感じる ２回目✨</h1>
-<blockquote>
-<p>ざらざら</p>
-<p>かさかさ</p>
-<p>べたべた</p>
-<p>ねばねば</p>
-<p>ぬるぬる</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ざらざら</td>
-<td>もう夏になるし、かかとのザラザラをなくしたい。</td>
-<td>硬いしなんかごそごそするし。</td>
-</tr>
-<tr class="even">
-<td>かさかさ</td>
-<td>肌が乾燥する季節突入。毎年この時期になると肌がカサカサになる。</td>
-<td>水分不足が原因の肌荒れ。落ち葉。</td>
-</tr>
-<tr class="odd">
-<td>べたべた</td>
-<td>汗でベタベタだから早くシャワーを浴びたい。</td>
-<td>気持ち悪いくらいの粘着感。<br />カップルとか人がいちゃついている時。</td>
-</tr>
-<tr class="even">
-<td>ねばねば</td>
-<td>とろろ丼とか納豆は、ねばねばしているけど健康にいいしとてもおいしい。</td>
-<td>食べ物に使うことが多いです。</td>
-</tr>
-<tr class="odd">
-<td>ぬるぬる</td>
-<td>なめこはなぜヌルヌルしているんですか？</td>
-<td>ちょっと光っていて、光沢があって、つやつやしていて、ぬめぬめ、ねばねばするもの。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる">✨食べる✨</h1>
-<blockquote>
-<p>こってり</p>
-<p>あっさり</p>
-<p>さっぱり</p>
-<p>ひりひり</p>
-<p>ツーン</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 43%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>こってり</td>
-<td>こってりしたラーメンは大好きだけど、次の日が大変だからね。</td>
-<td>油が多くて、味も濃い、どろどろ。</td>
-</tr>
-<tr class="even">
-<td>あっさり</td>
-<td>でもラーメンは食べたいから、今日はあっさりしたラーメンにしとこう。</td>
-<td>「こってり」の正反対。</td>
-</tr>
-<tr class="odd">
-<td>さっぱり</td>
-<td>夏場でもレモンをかけることでさっぱりといただけます。</td>
-<td>すっきりしていて重たくなくてちょっと酸味のあるもの。冷たいものが多い。</td>
-</tr>
-<tr class="even">
-<td>ひりひり・ぴりぴり</td>
-<td>辛い物を食べたら舌がひりひりしてしょうがない。水が欲しい！</td>
-<td>熱い状態。表面が痛い、浅い痛み。やけど、日焼けの時も「ひりひり」という。</td>
-</tr>
-<tr class="odd">
-<td>ツーン</td>
-<td>わさびが入ったお寿司を食べたら、鼻がツーンと痛くなった。</td>
-<td>わさび。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる-２回目">✨食べる　２回目✨</h1>
-<blockquote>
-<p>しこしこ</p>
-<p>もちもち</p>
-<p>しゃきしゃき</p>
-<p>ほかほか</p>
-<p>かりかり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>しこしこ</td>
-<td>この麵はしこしこしていてとても美味しかったです。</td>
-<td>弾力がある。嚙み応えがある。太くていっぱい嚙ないといけない。こしがある。</td>
-</tr>
-<tr class="even">
-<td>もちもち</td>
-<td>この大福すごくもちもちだよ。</td>
-<td>弾力がある。</td>
-</tr>
-<tr class="odd">
-<td>しゃきしゃき</td>
-<td>このサラダ、レタスがとてもしゃきしゃきしていておいしいです。</td>
-<td>フレッシュで水分も多い。野菜に使われることが多い。</td>
-</tr>
-<tr class="even">
-<td>ほかほか</td>
-<td>炊き立てのほかほかご飯で幸せいっぱい。</td>
-<td>あったかくて、やわらかくて、</td>
-</tr>
-<tr class="odd">
-<td>かりかり</td>
-<td>ベーコンはカリカリに焼いたほうがおいしい。</td>
-<td>しっかりと長い時間焼いて、水分が抜けた状態。かたい状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="食べる-３回目">✨食べる　３回目✨</h1>
-<blockquote>
-<p>がつがつ</p>
-<p>ぱくぱく</p>
-<p>もぐもぐ</p>
-<p>もりもり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 44%" />
-<col style="width: 49%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がつがつ</td>
-<td>フレンチレストランでがつがつ食べるのはやめてください。</td>
-<td>すごい勢いで食べている。欲張りなようす。</td>
-</tr>
-<tr class="even">
-<td>ぱくぱく</td>
-<td>野菜嫌いのケントも、カレーに入れるとぱくぱく食べる。</td>
-<td>元気に、嫌がらずに食べている。</td>
-</tr>
-<tr class="odd">
-<td>もぐもぐ</td>
-<td>口をもぐもぐさせてる。</td>
-<td>口に物を入れて動かしている（嚙んでいる）状態。口の中にたくさん入れているような感じ！</td>
-</tr>
-<tr class="even">
-<td>もりもり</td>
-<td>モリモリ食べて暑さを吹き飛ばしましょう！</td>
-<td>元気よくたくさん食べている状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="飲む">✨飲む✨</h1>
-<blockquote>
-<p>ぐっと</p>
-<p>ごくごく</p>
-<p>ちびちび</p>
-<p>がぶがぶ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぐっと</td>
-<td>皆：はい！一気！一気！一気！<br />部長：君もぐっと飲んで。ぐっとぐっと！</td>
-<td>勢いがあって一気に。</td>
-</tr>
-<tr class="even">
-<td>ごくごく</td>
-<td>ごくごくとおいしそうに飲むね。私も飲みたくなっちゃったよ。</td>
-<td>のどを鳴らしておいしそうに飲む様子。</td>
-</tr>
-<tr class="odd">
-<td>ちびちび</td>
-<td>のりこ：けんとくん！ちびちび飲んでないで、男らしくぐっとね！<br />けんと：あ、お酒に弱いので。</td>
-<td>酒などを少しずつ飲む様子。少しずつ楽しみながら飲む。</td>
-</tr>
-<tr class="even">
-<td>がぶがぶ</td>
-<td>試合後、シン選手は水をがぶがぶと飲み始めた。</td>
-<td>水を大量に飲む感じ（カバのように）。<br />口を大きく開けてたくさん入れる。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="言う">✨言う✨</h1>
-<blockquote>
-<p>おずおず</p>
-<p>がんがん</p>
-<p>ぶつぶつ</p>
-<p>べらべら</p>
-<p>ぼそぼそ</p>
-<p>くどくど</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>おずおず</td>
-<td>「あの、すみません。私がこのパソコン壊しました。」と彼はおずおず言った。</td>
-<td>言い難そうな様子。申し訳なさそうな感じ。</td>
-</tr>
-<tr class="even">
-<td>がんがん</td>
-<td>そんなにガンガン言われたら、やる気もなくなっちゃうよ。</td>
-<td>ずっと続けて、何度も強く言う。</td>
-</tr>
-<tr class="odd">
-<td>ぶつぶつ</td>
-<td>彼はいつも仕事中ぶつぶつと独り言を言っている。</td>
-<td>周りに聞こえないような感じ。<br />文句や不満を言う。</td>
-</tr>
-<tr class="even">
-<td>べらべら</td>
-<td>秘密をベラベラしゃべる人は、信用できません。</td>
-<td>何でもいっぱいしゃべる人。</td>
-</tr>
-<tr class="odd">
-<td>ぼそぼそ</td>
-<td>下を向いてぼそぼそ話していると、何が言いたいのか、わかりません。</td>
-<td>音が小さいだけ。</td>
-</tr>
-<tr class="even">
-<td>くどくど</td>
-<td>くどくどと何回もしつこいわよ！</td>
-<td>何回もしつこく言うこと。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="寝る">✨寝る✨</h1>
-<blockquote>
-<p>うとうと</p>
-<p>ぐうぐう</p>
-<p>すやすや</p>
-<p>ぐっすり</p>
-<p>こっくりこっくり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 50%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>うとうと</td>
-<td>授業中にうとうとしていると体がビクッとなってしまった。</td>
-<td>ちょっとの間浅く寝るさま。浅い。</td>
-</tr>
-<tr class="even">
-<td>ぐうぐう</td>
-<td>猫ってぐうぐう寝るの？あまり音出さない気がするけど。</td>
-<td>寝ているときの音。<br />お腹が空いたとき。</td>
-</tr>
-<tr class="odd">
-<td>すやすや</td>
-<td>子供がすやすやと寝る姿を見ると育児の疲れも吹っ飛びます。</td>
-<td>静かで穏やかな眠り。</td>
-</tr>
-<tr class="even">
-<td>ぐっすり</td>
-<td>最近、寝ても疲れが取れないのです。ぐっすり寝る方法を教えてください。</td>
-<td>深い。</td>
-</tr>
-<tr class="odd">
-<td>こっくりこっくり</td>
-<td>彼は夜の電車のつり革にぶら下がりながらこっくりこっくりしている。</td>
-<td>頭が揺れながら寝ている状態。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き１早い">✨動き１早い✨</h1>
-<blockquote>
-<p>さっさと</p>
-<p>すらすら</p>
-<p>てきぱき</p>
-<p>はきはき</p>
-<p>きびきび</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>さっさと</td>
-<td>明日は試験だよ！いつまでも寝てないでさっさと勉強しなさい！</td>
-<td>時間を無駄にせずに早く動く様子。</td>
-</tr>
-<tr class="even">
-<td>すらすら</td>
-<td>日本語を勉強し、思ったことをすらすら言えるようになりたい。</td>
-<td>話し方が流暢。ぺらぺら。<br />止まらず、スムーズにこなすこと。</td>
-</tr>
-<tr class="odd">
-<td>てきぱき</td>
-<td>仕事がテキパキ出来る人ってうらやましい。私もそうなりたいな。</td>
-<td>効率的に仕事をする様子動作やものごと。</td>
-</tr>
-<tr class="even">
-<td>はきはき</td>
-<td>のりこさんはいつもはきはきしていますね。</td>
-<td>はっきりして、元気な。</td>
-</tr>
-<tr class="odd">
-<td>きびきび</td>
-<td>店長に怒られないようにきびきび働く。</td>
-<td>すごく元気でいきいきしていて、きもちがよいさま、動作や態度。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き２遅い">✨動き２遅い✨</h1>
-<blockquote>
-<p>のろのろ</p>
-<p>ゆっくり</p>
-<p>のんびり</p>
-<p>だらだら</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>のろのろ</td>
-<td>最近駅でのろのろ歩きながらスマホをしている人が多くて、よく人ぶつかります。</td>
-<td>遅い状態。動きが鈍い様子。</td>
-</tr>
-<tr class="even">
-<td>ゆっくり</td>
-<td>慌てないで。落ち着いて、ゆっくり話して。</td>
-<td>遅くてゆとり、余裕があるさま。</td>
-</tr>
-<tr class="odd">
-<td>のんびり</td>
-<td>今日は日曜日だし、ベランダ日差しでも浴びながらのんびり、まったりと時間を過ごそうと～</td>
-<td>時間に余裕があってゆっくりすることができる。</td>
-</tr>
-<tr class="even">
-<td>だらだら</td>
-<td>だらだらした生活から抜け出し、充実した生活を送りたい。</td>
-<td>適当にという感じ。生活リズムが乱れているような様子。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="動き３歩く">✨動き３歩く✨</h1>
-<blockquote>
-<p>ぶらぶら</p>
-<p>よたよた</p>
-<p>とぼとぼ</p>
-<p>よちよち</p>
-<p>すたすた</p>
-<p>てくてく</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぶらぶら</td>
-<td>家の近くでぶらぶらしていたら、ケント君にばったりあった。</td>
-<td>別の目的がなくのんびりと歩くさま。<br />ぶらぶら遊ぶ（悪い意味）<br />ふらふら→力が入らなかったりして体が揺れ動くさま。</td>
-</tr>
-<tr class="even">
-<td>よたよた</td>
-<td>赤ちゃんがよたよたと歩いている。可愛い！</td>
-<td>足がふらふらして危ないさま。<br />お年寄り<br />疲れている人にも使う。</td>
-</tr>
-<tr class="odd">
-<td>とぼとぼ</td>
-<td>彼は好きな人に告白したが、きっぱり断わられ、とぼとぼと家まで歩いて行った。</td>
-<td>元気がなく寂しそうに歩くさま。</td>
-</tr>
-<tr class="even">
-<td>よちよち</td>
-<td>赤ちゃんがよちよち歩く姿はとてもかわいい。</td>
-<td>小股で歩く様子。</td>
-</tr>
-<tr class="odd">
-<td>すたすた</td>
-<td>田舎の人はのろのろと歩くが、東京の人はすたすたと歩く。</td>
-<td>わき目もふらず、早く歩くさま。</td>
-</tr>
-<tr class="even">
-<td>てくてく</td>
-<td>学校終わりの小学生が帰り道をテクテク歩いている。</td>
-<td>乗り物に乗らずひたすら歩くさま。<br />歩いている時以外には使わない。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の動き４">✨人の動き４✨</h1>
-<blockquote>
-<p>うろうろ</p>
-<p>こそこそ</p>
-<p>こつこつ</p>
-<p>せっせと</p>
-<p>ぺこぺこ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>うろうろ</td>
-<td>知らない男の人が家の前をうろうろしていて、なんだか気味が悪い。</td>
-<td>歩き回る様子。怪しい、怖い。<br />目的は無い。意味も無く、理由も無く。</td>
-</tr>
-<tr class="even">
-<td>こそこそ</td>
-<td>親に隠れて、コソコソとゲームをやっていたがばれてしまった。</td>
-<td>人に知られないようにひそかに物事をするさま。<br />こそこそと話す。</td>
-</tr>
-<tr class="odd">
-<td>こつこつ</td>
-<td>コツコツ練習したら、上手になるよ。</td>
-<td>地道に、ちょっとずつ、毎日続ける。努力する様子。</td>
-</tr>
-<tr class="even">
-<td>せっせと</td>
-<td>日曜日も休まず、せっせと働く。</td>
-<td>休まずに一生懸命に事を行うさま。</td>
-</tr>
-<tr class="odd">
-<td>ぺこぺこ</td>
-<td>彼は出世のため、いつも上司にも部下にもぺこぺこしている。</td>
-<td>頭を何度も下げる様子。<br />お腹ぺこぺこ。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の動き５落ち着かない">✨人の動き５落ち着かない✨</h1>
-<blockquote>
-<p>あたふた</p>
-<p>ばたばた</p>
-<p>そわそわ</p>
-<p>そそくさ</p>
-<p>ぐずぐず</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>あたふた</td>
-<td>「5分後にお客さん来るよ。」と聞いた紀子先生は、あたふたしながら掃除を始めた。</td>
-<td>慌てているが急いで行動しているさま。</td>
-</tr>
-<tr class="even">
-<td>ばたばた</td>
-<td>やっと仕事が終わった。今日は朝からずっとばたばたしていた。</td>
-<td>歩き回りながら忙しくて慌てている様子。</td>
-</tr>
-<tr class="odd">
-<td>そわそわ</td>
-<td>授業の終わりが近づくと、学生たちは授業に集中せず、そわそわし始めた。</td>
-<td>落ち着かない様子。<br />他のことが気になって、心が落ち着かないさま。<br />ドキドキ似ている。</td>
-</tr>
-<tr class="even">
-<td>そそくさ</td>
-<td>友達がいない彼は、大学の授業が終わったとたんそそくさと帰った。</td>
-<td>すぐに。硬い表現。</td>
-</tr>
-<tr class="odd">
-<td>ぐずぐず</td>
-<td>母：ぐずぐずしているとおいていくよ！</td>
-<td>動きがのろくてあまり物事が進まないさま。<br />子供に使うことが多い。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情１驚き">✨人の感情１驚き✨</h1>
-<blockquote>
-<p>どきっとする</p>
-<p>はっとする</p>
-<p>どきどきする</p>
-<p>ぽかんとする</p>
-<p>ぎょっとする</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>どきっとする</td>
-<td>男性は髪の長い女性にドキッとすることが多い。</td>
-<td>興奮しらり、驚いたりしていきなり心臓を打つさま。<br />どっきり</td>
-</tr>
-<tr class="even">
-<td>はっとする</td>
-<td>バスでうとうとしていたけど、アナウンスではっと目覚めたらちょうど目的地だった。</td>
-<td>何かを急に気づいて驚くさま。<br />「ハッ」は息の音</td>
-</tr>
-<tr class="odd">
-<td>どきどきする</td>
-<td>何回も練習したけど、人前に立って話し始めたらどきどきして大変だった。</td>
-<td>緊張、運動、不安で、心臓が早く強く打つ様子。</td>
-</tr>
-<tr class="even">
-<td>ぽかんとする</td>
-<td>いつも口をぽかんと開けていたら、だらしないよ。</td>
-<td>驚いて口が開いている様子。</td>
-</tr>
-<tr class="odd">
-<td>ぎょっとする</td>
-<td>鏡を見ながら髪を直していたら、後ろに紀子先生がいてぎょっとした。</td>
-<td>考えてもなかったことがいきなり起こって驚いたり怖いがる様。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情２怖い">✨人の感情２怖い✨</h1>
-<blockquote>
-<p>ぞっとする</p>
-<p>びくびくする</p>
-<p>ひやひやする</p>
-<p>おどおどする</p>
-<p>ぶるぶるする</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぞっとする</td>
-<td>私は高いところが怖いので、12階から見下ろすとぞっとする。</td>
-<td>寒さや恐怖で背筋が寒くなるさま。<br />「かんがえだけで」、「想像しただけで」と一緒に使うことが多い。</td>
-</tr>
-<tr class="even">
-<td>びくびくする</td>
-<td>ボールを投げたら父の車に当たってひびが入ってしまった。<br />父が気付くまでびくびくしながら部屋に隠れていた。</td>
-<td>悪いことが起こると思って、常に怖がっている様子。<br />体を震える。</td>
-</tr>
-<tr class="odd">
-<td>ひやひやする</td>
-<td>落ちてしまいそうで、背中が汗でびっしょりするぐらいひやひやした。</td>
-<td>怖い、冷たい、寒い。<br />悪いことが起こると思って不安がる様子。</td>
-</tr>
-<tr class="even">
-<td>おどおどする</td>
-<td>いつもおどおどしていないで、はきはき話しましょう。</td>
-<td>怖くて自信を無くし、落ち着かないさま。</td>
-</tr>
-<tr class="odd">
-<td>ぶるぶるする</td>
-<td>紀子先生の顔を見た子犬が、ぶるぶる震えだした。</td>
-<td>寒さや恐怖などのために震えるさま。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情３怒り">✨人の感情３怒り✨</h1>
-<blockquote>
-<p>いらいら</p>
-<p>むかむか</p>
-<p>かっ</p>
-<p>むっ</p>
-<p>ぷんぷん</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>いらいら</td>
-<td>20分待っても、注文した料理が出てこないので、イライラしてきた。</td>
-<td>思いどおりにいかなくて、神経が高ぶること。<br />いらっとする。</td>
-</tr>
-<tr class="even">
-<td>むかむか</td>
-<td>今朝、親に怒られてむかむかしている。</td>
-<td>後になってからも腹が立つ気持ち。<br />心の奥底から怒りがこみ上げてくるさま。<br />吐き気がして気持ちの悪いさま。</td>
-</tr>
-<tr class="odd">
-<td>かっ</td>
-<td>彼女は短気ですぐかっとなってしまう。</td>
-<td>急に怒り出す。<br />キレる。</td>
-</tr>
-<tr class="even">
-<td>むっ</td>
-<td>私のミスで彼女はムッとしているけど、どこが悪かったのかを教えてほしい。</td>
-<td>心の中で怒るさま。</td>
-</tr>
-<tr class="odd">
-<td>ぷんぷん</td>
-<td>もぅ。プンプンだよ。プンプン。</td>
-<td>口を膨らませながら怒っているような。<br />女の子が言う。<br />激おこぷんぷん丸。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情４いい気持ち">✨人の感情４いい気持ち✨</h1>
-<blockquote>
-<p>いきいき</p>
-<p>うきうき</p>
-<p>わくわく</p>
-<p>すっきり</p>
-<p>ほっと</p>
-</blockquote>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 47%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>いきいき</td>
-<td>彼はアニメの話になると、とてもイキイキした顔になる。</td>
-<td>明るくて元気なさま。</td>
-</tr>
-<tr class="even">
-<td>うきうき</td>
-<td>春休みの旅行のことを考えただけウキウキする。</td>
-<td>足が地面から離れてしまいそうなくらい楽しい感覚。</td>
-</tr>
-<tr class="odd">
-<td>わくわく</td>
-<td>ワクワクしながら宝くじの当選結果を確認した。</td>
-<td>これから起こることに対し期待するさま。</td>
-</tr>
-<tr class="even">
-<td>すっきり</td>
-<td>ずっと胸にためていたことを全部言葉に出せてすっきりした。</td>
-<td>余計なものがくなり、気持ちの良いさま。<br />ぐっすり寝た後とかしっかり掃除した後もよく使う。</td>
-</tr>
-<tr class="odd">
-<td>ほっと</td>
-<td>迷子になったと思っていた息子が無事に帰ってきてほっとした。</td>
-<td>よかった、胸をなでおろす感じ。<br />安心する。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="人の感情５愛">✨人の感情５愛✨</h1>
-<blockquote>
-<p>めろめろ</p>
-<p>いちゃいちゃ</p>
-<p>でれでれ</p>
-<p>ベタベタ</p>
-<p>キュン</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>めろめろ</td>
-<td>私はもう彼にメロメロなの。毎日会っても全然飽きないぐらい。</td>
-<td>愛に酔って理性を失ったさま。</td>
-</tr>
-<tr class="even">
-<td>いちゃいちゃ</td>
-<td>高校生が朝から公園でいちゃいちゃしているのを見て嫌な気持ちになった。</td>
-<td>カップル同士が人前でスキンシップをしているさま。<br />いちゃつく。</td>
-</tr>
-<tr class="odd">
-<td>でれでれ</td>
-<td>けんと先生は好きな女性の前でデレデレになるらしい。</td>
-<td>彼女、彼氏の前でだらしなくなるさま。<br />甘くなる。何でも許す。</td>
-</tr>
-<tr class="even">
-<td>ベタベタ</td>
-<td>いくら新婚でも、公共の場でベタベタ触りあうのはだめだ。</td>
-<td>主にカップルがくっつきあうさま。<br />ベタつく。</td>
-</tr>
-<tr class="odd">
-<td>キュン</td>
-<td>あなたに「愛してる」と言われるたびにキュンとするの。</td>
-<td>ときめく感情。<br />胸キュン。<br />キュンキュン</td>
-</tr>
-</tbody>
-</table>
-<h1 id="空間１余裕がない">✨空間１余裕がない✨</h1>
-<blockquote>
-<p>ぎっしり</p>
-<p>ぎゅうぎゅう</p>
-<p>ぴちぴち</p>
-<p>ぴったり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぎっしり</td>
-<td>予定がぎっしり詰まっていまして、空いているのは月曜の午前だけです。</td>
-<td>すきまなく詰まっているさま。<br />予定、荷物、知識。</td>
-</tr>
-<tr class="even">
-<td>ぎゅうぎゅう</td>
-<td>朝の地下鉄はぎゅうぎゅうでもう息も出来ないぐらいだ。</td>
-<td>無理に詰め込むさま。<br />荷物、建物、乗り物。</td>
-</tr>
-<tr class="odd">
-<td>ぴちぴち</td>
-<td>太り過ぎてシャツがぴちぴちだ。</td>
-<td>余裕がない。<br />体のラインがわかるくらい。<br />ぴったりよりきつい。<br />服によく使う。<br />新鮮さを表すときも使う。</td>
-</tr>
-<tr class="even">
-<td>ぴったり</td>
-<td>このサイズはぶかぶかです。25㎝の靴がぴったりだと思います。</td>
-<td>大きくも、小さくもなく、多くも、少ない、ちょうどいいさま。<br />時間、服、量、サイズなどに使う。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="空間２余裕がある">✨空間２余裕がある✨</h1>
-<blockquote>
-<p>がらがら</p>
-<p>すかすか</p>
-<p>ぶかぶか</p>
-<p>だぶだぶ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がらがら</td>
-<td>このサッカースタジアムはいつもガラガラだ。</td>
-<td>乗り物、建物に人がほとんどいない様子。<br />がらがらの音。<br />のどがガラガラ。</td>
-</tr>
-<tr class="even">
-<td>すかすか</td>
-<td>私のかばんは、いつもすかすかで筆箱しか入っていない。</td>
-<td>結構空間が残っていて、まだ人／物が入る。<br />本棚、箱など。</td>
-</tr>
-<tr class="odd">
-<td>ぶかぶか</td>
-<td>この子供はぶかぶかの服を着ている。</td>
-<td>身に着けている服や靴が大きすぎるてあまっているようす。<br />ちょっとだらしない。</td>
-</tr>
-<tr class="even">
-<td>だぶだぶ</td>
-<td>去年までは、ぴったりの服が流行っていたけど、最近はだぶだぶの服が人気だ。</td>
-<td>靴には使えない。<br />服が長すぎる。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="からだ１太っている">✨からだ１太っている✨</h1>
-<blockquote>
-<p>ぶよぶよ</p>
-<p>ぱんぱん</p>
-<p>ぷにぷに</p>
-<p>ぶくぶく</p>
-<p>ぽっちゃり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 8%" />
-<col style="width: 49%" />
-<col style="width: 42%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ぶよぶよ</td>
-<td>もうすぐ夏だから、ぷよぷよしているお腹をなくさないと。</td>
-<td>太り過ぎて肉がたるんでいる様子。</td>
-</tr>
-<tr class="even">
-<td>ぱんぱん</td>
-<td>おなかがパンパンになるあで食べ過ぎるのはあまり良くない。腹八分目がちょうど良い。</td>
-<td>お腹が破裂しそうなくらい。</td>
-</tr>
-<tr class="odd">
-<td>ぷにぷに</td>
-<td>赤ちゃんのほっぺたはぷにぷにしていて、触り心地がいい。</td>
-<td>柔らかく、弾力があるさま。</td>
-</tr>
-<tr class="even">
-<td>ぶくぶく</td>
-<td>お正月、食べ過ぎてぶくぶく太ってしまった。</td>
-<td>短い間に太っていく様子。<br />歯を磨いた後ぶくぶく。</td>
-</tr>
-<tr class="odd">
-<td>ぽっちゃり</td>
-<td>やせている女の人より、ぽっちゃりしている方が好きなんだよね。</td>
-<td>少し太っている人のことをかわいく表す言葉。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="からだ２瘦せている">✨からだ２瘦せている✨</h1>
-<blockquote>
-<p>がりがり</p>
-<p>ひょろひょろ</p>
-<p>げっそり</p>
-<p>すらっと</p>
-<p>ほっそり</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 45%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>がりがり</td>
-<td>あの人はがりがりだけど、たくさん食べる。</td>
-<td>骨が見えるぐらい瘦せている様子。<br />硬いものをかみ砕いた時にでる音。</td>
-</tr>
-<tr class="even">
-<td>ひょろひょろ</td>
-<td>ひょろひょろした男は筋トレをしよう。</td>
-<td>体が細長くて、力が弱い感じ。<br />もやしのような食べ物にも使う。</td>
-</tr>
-<tr class="odd">
-<td>げっそり</td>
-<td>一週間あまり食べなかったからげっそりした。</td>
-<td>疲れて顔が瘦せた感じ。<br />顔に使う表現。<br />良くない意味。</td>
-</tr>
-<tr class="even">
-<td>すらっと</td>
-<td>この人はモデルみたいにすらりとしている。うらやましい。</td>
-<td>背が高くて細い。<br />褒め言葉。<br />すらっと／すらりと。</td>
-</tr>
-<tr class="odd">
-<td>ほっそり</td>
-<td>二重あごをどうにかしたいです。顔をほっそりさせる方法を教えてください。</td>
-<td>ただスリムで細いという意味。<br />顔、足などによく使う。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="疲れ１">✨疲れ１✨</h1>
-<blockquote>
-<p>へとへと</p>
-<p>くたくた</p>
-<p>ふらふら</p>
-<p>くらくら</p>
-<p>がくがく</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 50%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>へとへと</td>
-<td>立って10時間働いた。もうへとへとで歩けないほどだ。</td>
-<td>かなり疲れた状態。<br />基本的には人に対して使う。</td>
-</tr>
-<tr class="even">
-<td>くたくた</td>
-<td>毎日残業でくたくただ。</td>
-<td>かなり疲れ状態＝へとへと<br />くたくた＜くたばる</td>
-</tr>
-<tr class="odd">
-<td>ふらふら</td>
-<td>昨日から何も食べてなくて、もうふらふらだよ。</td>
-<td>不安定に揺れるさま。<br />しっかり立っていられない。</td>
-</tr>
-<tr class="even">
-<td>くらくら</td>
-<td>最近くらくらして、吐き気がします。まるで目が回っている感じです。</td>
-<td>目まいがするさま。<br />頭がくらくらする。</td>
-</tr>
-<tr class="odd">
-<td>がくがく</td>
-<td>富士山の頂上に登った。気持ちいいが、膝ががくがくする。</td>
-<td>恐怖や疲労などで体の一部分が強く小刻み震えるさま。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="疲れ２">✨疲れ２✨</h1>
-<blockquote>
-<p>へろへろ</p>
-<p>ばたん</p>
-<p>ぐったり</p>
-<p>ばったり</p>
-<p>ぼろぼろ</p>
-</blockquote>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 46%" />
-<col style="width: 46%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>単語</th>
-<th>例文</th>
-<th>説明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>へろへろ</td>
-<td>難しい中国語の講義を3時間聞いた。もうへろへろ。</td>
-<td>見るからに弱いさま。<br />力のないさま。</td>
-</tr>
-<tr class="even">
-<td>ばたん</td>
-<td>大変です！あの人、いきなりバタンと倒れました。</td>
-<td>人や物が音を立てて倒れるさま。<br />ドアにも使える。</td>
-</tr>
-<tr class="odd">
-<td>ぐったり</td>
-<td>今日は暑すぎて、もうぐったり。これ以上動けない。</td>
-<td>疲れたり弱ったりして、力が抜けたさま。</td>
-</tr>
-<tr class="even">
-<td>ばったり</td>
-<td>今日一日中ずっと歩き回っていたので家に着いたとたんばったり倒れた。</td>
-<td>いきなり倒れたり落ちたりするさま。<br />偶然会う→ばったり会う</td>
-</tr>
-<tr class="odd">
-<td>ぼろぼろ</td>
-<td>夜勤を一ヶ月続けたら体がぼろぼろになってしまった。</td>
-<td>心身とも疲れ切っているさま。<br />車や服など物にもよく使う。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
       </categories>
   </entry>
   <entry>
@@ -8057,122 +5515,6 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
-    <title>味についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すっぽい</td>
-<td>酸的</td>
-</tr>
-<tr class="even">
-<td>甘い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あまずっぽい</td>
-<td>酸甜的</td>
-</tr>
-<tr class="even">
-<td>苦い（にがい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>ほろ苦い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>塩辛い（しおからい）</td>
-<td>咸的</td>
-</tr>
-<tr class="odd">
-<td>しょっぽい</td>
-<td>咸的（口语）</td>
-</tr>
-<tr class="even">
-<td>辛い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>薄い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>濃い（こい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>油つこい</td>
-<td>油腻的</td>
-</tr>
-<tr class="even">
-<td>濃厚</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あっさり</td>
-<td>清淡的</td>
-</tr>
-<tr class="even">
-<td>こってり</td>
-<td>（拉面等）浓厚的</td>
-</tr>
-<tr class="odd">
-<td>ジューシー</td>
-<td>多汁的</td>
-</tr>
-<tr class="even">
-<td>まろやか</td>
-<td>醇厚的</td>
-</tr>
-<tr class="odd">
-<td>複雑</td>
-<td>难以描述的</td>
-</tr>
-<tr class="even">
-<td>クセになる</td>
-<td>欲罢不能的</td>
-</tr>
-<tr class="odd">
-<td>硬い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>柔らかい</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>臭い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>パサパサ</td>
-<td>干巴巴</td>
-</tr>
-<tr class="even">
-<td>ネバネバ</td>
-<td>黏糊糊</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
     <title>授受</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
     <content><![CDATA[<hr />
@@ -8397,6 +5739,122 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
       </categories>
   </entry>
   <entry>
+    <title>味についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>すっぽい</td>
+<td>酸的</td>
+</tr>
+<tr class="even">
+<td>甘い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あまずっぽい</td>
+<td>酸甜的</td>
+</tr>
+<tr class="even">
+<td>苦い（にがい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ほろ苦い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>塩辛い（しおからい）</td>
+<td>咸的</td>
+</tr>
+<tr class="odd">
+<td>しょっぽい</td>
+<td>咸的（口语）</td>
+</tr>
+<tr class="even">
+<td>辛い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>薄い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>濃い（こい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>油つこい</td>
+<td>油腻的</td>
+</tr>
+<tr class="even">
+<td>濃厚</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あっさり</td>
+<td>清淡的</td>
+</tr>
+<tr class="even">
+<td>こってり</td>
+<td>（拉面等）浓厚的</td>
+</tr>
+<tr class="odd">
+<td>ジューシー</td>
+<td>多汁的</td>
+</tr>
+<tr class="even">
+<td>まろやか</td>
+<td>醇厚的</td>
+</tr>
+<tr class="odd">
+<td>複雑</td>
+<td>难以描述的</td>
+</tr>
+<tr class="even">
+<td>クセになる</td>
+<td>欲罢不能的</td>
+</tr>
+<tr class="odd">
+<td>硬い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>柔らかい</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>臭い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>パサパサ</td>
+<td>干巴巴</td>
+</tr>
+<tr class="even">
+<td>ネバネバ</td>
+<td>黏糊糊</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
     <title>料理についての日本語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -8594,6 +6052,390 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
       </categories>
   </entry>
   <entry>
+    <title>連濁と促音と半濁音</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%80%A3%E6%BF%81%E3%81%A8%E4%BF%83%E9%9F%B3%E3%81%A8%E5%8D%8A%E6%BF%81%E9%9F%B3/</url>
+    <content><![CDATA[<hr />
+<h1 id="連濁">✨連濁✨</h1>
+<hr />
+<h1 id="nn">N＋N</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>本棚</td>
+<td>ほんだな</td>
+</tr>
+<tr class="even">
+<td>台所</td>
+<td>だいどころ</td>
+</tr>
+<tr class="odd">
+<td>黒板</td>
+<td>こくばん</td>
+</tr>
+<tr class="even">
+<td>毛皮</td>
+<td>けがわ</td>
+</tr>
+<tr class="odd">
+<td>昔話</td>
+<td>むかしばなし</td>
+</tr>
+<tr class="even">
+<td>鼻血</td>
+<td>はなぢ</td>
+</tr>
+<tr class="odd">
+<td>平仮名</td>
+<td>ひらがな</td>
+</tr>
+<tr class="even">
+<td>迷子</td>
+<td>まいご</td>
+</tr>
+<tr class="odd">
+<td>評判</td>
+<td>ひょうばん</td>
+</tr>
+</tbody>
+</table>
+<h1 id="重複">重複</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>時々</td>
+</tr>
+<tr class="even">
+<td>人々</td>
+</tr>
+<tr class="odd">
+<td>様々</td>
+</tr>
+</tbody>
+</table>
+<h1 id="nvますn">N＋V<del>ます</del>＝N</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>下書き</td>
+<td>したがき</td>
+</tr>
+<tr class="even">
+<td>物語</td>
+<td>ものがたり</td>
+</tr>
+<tr class="odd">
+<td>日帰り</td>
+<td>ひがえり</td>
+</tr>
+<tr class="even">
+<td>下着</td>
+<td>したぎ</td>
+</tr>
+<tr class="odd">
+<td>大通り</td>
+<td>おおどおり</td>
+</tr>
+<tr class="even">
+<td>共働き</td>
+<td>ともばたらき</td>
+</tr>
+</tbody>
+</table>
+<h1 id="ｎｖｖ">Ｎ＋Ｖ＝Ｖ</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>区切る</td>
+<td>くぎる</td>
+</tr>
+<tr class="even">
+<td>気付く</td>
+<td>きづく</td>
+</tr>
+<tr class="odd">
+<td>気づける</td>
+<td>きづける</td>
+</tr>
+<tr class="even">
+<td>役立つ</td>
+<td>やくだつ</td>
+</tr>
+<tr class="odd">
+<td>目指す</td>
+<td>めざす</td>
+</tr>
+<tr class="even">
+<td>片付ける</td>
+<td>かたづける</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="促音">✨促音✨</h1>
+<hr />
+<h1 id="くか行くっ">「く」＋「か行」、「く」→「っ」</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>国家</td>
+<td>こっか</td>
+</tr>
+<tr class="even">
+<td>借金</td>
+<td>しゃっきん</td>
+</tr>
+<tr class="odd">
+<td>特権</td>
+<td>とっけん</td>
+</tr>
+<tr class="even">
+<td>学校</td>
+<td>がっこう</td>
+</tr>
+</tbody>
+</table>
+<h1
+id="つか行さ行た行くっ">「つ」＋「か行・さ行・た行」、「く」→「っ」</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>失格</td>
+<td>しっかく</td>
+</tr>
+<tr class="even">
+<td>発掘</td>
+<td>はっくつ</td>
+</tr>
+<tr class="odd">
+<td>結婚</td>
+<td>けっこん</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>出産</td>
+<td>しゅっさん</td>
+</tr>
+<tr class="even">
+<td>達者</td>
+<td>たっしゃ</td>
+</tr>
+<tr class="odd">
+<td>骨折</td>
+<td>こっせつ</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>発達</td>
+<td>はったつ</td>
+</tr>
+<tr class="even">
+<td>決定</td>
+<td>けってい</td>
+</tr>
+<tr class="odd">
+<td>列島</td>
+<td>れっとう</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="促音半濁音">✨促音＋半濁音✨</h1>
+<hr />
+<h1
+id="つは行くっは行ぱ行">「つ」＋「は行」、「く」→「っ」、「は行」→「ぱ行」</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>突破</td>
+<td>とっぱ</td>
+</tr>
+<tr class="even">
+<td>発表</td>
+<td>はっぴょう</td>
+</tr>
+<tr class="odd">
+<td>切腹</td>
+<td>せっぷく</td>
+</tr>
+<tr class="even">
+<td>立法</td>
+<td>りっぽう</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="半濁音">✨半濁音✨</h1>
+<hr />
+<h1 id="んは行は行ぱ行">「ん」＋「は行」、「は行」→「ぱ行」</h1>
+<table>
+<thead>
+<tr class="header">
+<th>語彙</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>先輩</td>
+<td>せんぱい</td>
+</tr>
+<tr class="even">
+<td>神秘</td>
+<td>しんぴ</td>
+</tr>
+<tr class="odd">
+<td>音符</td>
+<td>おんぷ</td>
+</tr>
+<tr class="even">
+<td>漢方</td>
+<td>かんぽう</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>色についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ピンク</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>薄ピンク</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>水色（みずいろ）</td>
+<td>淡蓝色</td>
+</tr>
+<tr class="even">
+<td>黄緑（きみどり）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>黄色（きいろ）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>青い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>紫（むらさき）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>オレンジ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>緑</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>灰色（はいいろ）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>赤い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>黒い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>白い（しろい）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>茶色（ちゃいろ）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
     <title>省略語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -8735,6 +6577,103 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
 <p>放在句首，相当于 なぜなら</p>
 <p>放在句中，相当于 でも</p>
 <p>放在句尾，相当于 という</p>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>飲み物についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%A3%B2%E3%81%BF%E7%89%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>お湯</td>
+<td>热水</td>
+</tr>
+<tr class="even">
+<td>お冷や</td>
+<td>凉水</td>
+</tr>
+<tr class="odd">
+<td>お酒</td>
+<td>酒</td>
+</tr>
+<tr class="even">
+<td>ミルクティー</td>
+<td>奶茶</td>
+</tr>
+<tr class="odd">
+<td>タピオカ</td>
+<td>珍珠奶茶</td>
+</tr>
+<tr class="even">
+<td>ビール</td>
+<td>啤酒</td>
+</tr>
+<tr class="odd">
+<td>ワイン</td>
+<td>红酒</td>
+</tr>
+<tr class="even">
+<td>スプライト</td>
+<td>雪碧</td>
+</tr>
+<tr class="odd">
+<td>ファンタ</td>
+<td>芬达</td>
+</tr>
+<tr class="even">
+<td>コーラ</td>
+<td>可乐</td>
+</tr>
+<tr class="odd">
+<td>カクテル</td>
+<td>鸡尾酒</td>
+</tr>
+<tr class="even">
+<td>シャンピン</td>
+<td>香槟</td>
+</tr>
+<tr class="odd">
+<td>コーヒー</td>
+<td>咖啡</td>
+</tr>
+<tr class="even">
+<td>ヨーグルト</td>
+<td>酸奶</td>
+</tr>
+<tr class="odd">
+<td>ミルク</td>
+<td>牛奶</td>
+</tr>
+<tr class="even">
+<td>サイダー</td>
+<td>汽水</td>
+</tr>
+<tr class="odd">
+<td>ジュース</td>
+<td>果汁</td>
+</tr>
+<tr class="even">
+<td>ラテ</td>
+<td>拿铁</td>
+</tr>
+<tr class="odd">
+<td>お茶</td>
+<td>茶</td>
+</tr>
+</tbody>
+</table>
 <hr />
 ]]></content>
       <categories>
@@ -13068,6 +11007,996 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
+    <title>ことわざ</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%AB%BA/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ことわざ</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>一目ぼれ</td>
+<td>一见钟情</td>
+</tr>
+<tr class="even">
+<td>目と鼻の先</td>
+<td>一箭之地</td>
+</tr>
+<tr class="odd">
+<td>急がば回れ</td>
+<td>欲速则不达</td>
+</tr>
+<tr class="even">
+<td>弘法にも筆の誤り</td>
+<td>智者千虑，必有一失</td>
+</tr>
+<tr class="odd">
+<td>千里の堤蟻の穴から崩れる</td>
+<td>千里之堤，溃于蚁穴</td>
+</tr>
+<tr class="even">
+<td>猫に小判</td>
+<td>对牛弹琴</td>
+</tr>
+<tr class="odd">
+<td>猫の目のように変わる</td>
+<td>变化无常</td>
+</tr>
+<tr class="even">
+<td>井の中の蛙</td>
+<td>井底之蛙</td>
+</tr>
+<tr class="odd">
+<td>塵も積もれば山となる</td>
+<td>积少成多</td>
+</tr>
+<tr class="even">
+<td>郷に入っては郷に従え</td>
+<td>入乡随俗</td>
+</tr>
+<tr class="odd">
+<td>河童の屁</td>
+<td>易如反掌</td>
+</tr>
+<tr class="even">
+<td>河童に水泳を教える</td>
+<td>班门弄斧</td>
+</tr>
+<tr class="odd">
+<td>好事門を出でず悪事千里を走る</td>
+<td>好事不出门，坏事行千里</td>
+</tr>
+<tr class="even">
+<td>馬子にも衣裳</td>
+<td>人靠衣装马靠鞍</td>
+</tr>
+<tr class="odd">
+<td>縁は異なもの</td>
+<td>千里姻缘一线牵</td>
+</tr>
+<tr class="even">
+<td>異とするに足りない</td>
+<td>不足为奇</td>
+</tr>
+<tr class="odd">
+<td>石が流れて木の葉が沈む</td>
+<td>浮石沉木，太阳从西边出来</td>
+</tr>
+<tr class="even">
+<td>転ばぬ先の杖</td>
+<td>未雨绸缪</td>
+</tr>
+<tr class="odd">
+<td>気は心</td>
+<td>千里送鹅毛，礼轻情意重</td>
+</tr>
+<tr class="even">
+<td>彼を知り己を知らば百戦危うからず</td>
+<td>知彼知己，百战不殆</td>
+</tr>
+<tr class="odd">
+<td>木に竹を接ぐ</td>
+<td>驴唇不对马嘴，张冠李戴</td>
+</tr>
+<tr class="even">
+<td>木に縁って魚を求む</td>
+<td>缘木求鱼</td>
+</tr>
+<tr class="odd">
+<td>木で鼻を括る</td>
+<td>冷淡对人，爱答不理</td>
+</tr>
+<tr class="even">
+<td>腐っても鯛</td>
+<td>瘦死的骆驼比马大</td>
+</tr>
+<tr class="odd">
+<td>愚公山を移す</td>
+<td>愚公移山</td>
+</tr>
+<tr class="even">
+<td>癖ある馬に乗りあり</td>
+<td>有脾气的人必有专长</td>
+</tr>
+<tr class="odd">
+<td>光陰矢の如し</td>
+<td>光阴似箭</td>
+</tr>
+<tr class="even">
+<td>目糞鼻糞を笑う</td>
+<td>秃子笑和尚</td>
+</tr>
+<tr class="odd">
+<td>落花流水</td>
+<td>落花流水</td>
+</tr>
+<tr class="even">
+<td>五十歩百歩</td>
+<td>五十步笑百步</td>
+</tr>
+<tr class="odd">
+<td>虎穴に入らずんば虎子を得ず</td>
+<td>不入虎穴焉得虎子</td>
+</tr>
+<tr class="even">
+<td>気にも草にも心を置く</td>
+<td>风声鹤唳，草木皆兵</td>
+</tr>
+<tr class="odd">
+<td>短気は損気</td>
+<td>性急吃亏</td>
+</tr>
+<tr class="even">
+<td>転んでもただは起きぬ</td>
+<td>雁过拔毛</td>
+</tr>
+<tr class="odd">
+<td>聞くは一時の恥聞かぬは一生の恥</td>
+<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
+</tr>
+<tr class="even">
+<td>亀の甲より年の劫</td>
+<td>姜还是老的辣</td>
+</tr>
+<tr class="odd">
+<td>すき腹にまずいものなし</td>
+<td>饥不择食</td>
+</tr>
+<tr class="even">
+<td>可愛い子には旅をさせよ</td>
+<td>爱子就让他外出见世面</td>
+</tr>
+<tr class="odd">
+<td>頭隠して尻隠さず</td>
+<td>藏头露尾</td>
+</tr>
+<tr class="even">
+<td>帯に短し、たすきに長し</td>
+<td>高不成低不就</td>
+</tr>
+<tr class="odd">
+<td>二階から目薬</td>
+<td>远水救不了近火</td>
+</tr>
+<tr class="even">
+<td>痘痕も靨</td>
+<td>情人眼里出西施</td>
+</tr>
+<tr class="odd">
+<td>暑さ寒さも彼岸まで</td>
+<td>热到秋分，冷到春分</td>
+</tr>
+<tr class="even">
+<td>人の花は赤い、他人の飯は白い</td>
+<td>东西总是别人的好</td>
+</tr>
+<tr class="odd">
+<td>腹も身の内</td>
+<td>食不过量</td>
+</tr>
+<tr class="even">
+<td>腹八分目に医者いらず</td>
+<td>八分饱不求医</td>
+</tr>
+<tr class="odd">
+<td>好きこそものの上手なれ</td>
+<td>爱好就能精通</td>
+</tr>
+<tr class="even">
+<td>虎の威を借りる狐</td>
+<td>狐假虎威</td>
+</tr>
+<tr class="odd">
+<td>団栗の背比べ</td>
+<td>半斤八两</td>
+</tr>
+<tr class="even">
+<td>花より団子</td>
+<td>舍华求实</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N1副詞</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E5%89%AF%E8%A9%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 56%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>副詞</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>すっかり</td>
+<td>完全，彻底</td>
+</tr>
+<tr class="even">
+<td>はっきりと</td>
+<td>清晰的</td>
+</tr>
+<tr class="odd">
+<td>うっかり</td>
+<td>不注意，不留神</td>
+</tr>
+<tr class="even">
+<td>しっかり</td>
+<td>好好地、完全</td>
+</tr>
+<tr class="odd">
+<td>なんて</td>
+<td>多么</td>
+</tr>
+<tr class="even">
+<td>なん（だ）か</td>
+<td>总觉得</td>
+</tr>
+<tr class="odd">
+<td>なんと</td>
+<td>竟然</td>
+</tr>
+<tr class="even">
+<td>意外と</td>
+<td>意外</td>
+</tr>
+<tr class="odd">
+<td>どんなに、どれだけ、いかに、なんて</td>
+<td>怎样，怎么</td>
+</tr>
+<tr class="even">
+<td>もうすぐ、間もなく、すぐに、すぐ、早速</td>
+<td>立即，马上</td>
+</tr>
+<tr class="odd">
+<td>かつて、むかし、以前、前に、これまで</td>
+<td>过去，以前，曾经</td>
+</tr>
+<tr class="even">
+<td>がんらい（元来）、ほんらい（本来）、もともと、もと</td>
+<td>本来</td>
+</tr>
+<tr class="odd">
+<td>たいてい（大抵）、だいたい（大体）</td>
+<td>大概，大抵，大都</td>
+</tr>
+<tr class="even">
+<td>いちおう（一応）、とりあえず</td>
+<td>姑且，暂且，先</td>
+</tr>
+<tr class="odd">
+<td>すでに（既に）、もう</td>
+<td>已经</td>
+</tr>
+<tr class="even">
+<td>どうか、どうぞ</td>
+<td>请</td>
+</tr>
+<tr class="odd">
+<td>もしかして、もしかしたら、もしかすると、もし、もしも</td>
+<td>也许</td>
+</tr>
+<tr class="even">
+<td>なかなか、とても、たいへん、だいぶ、かなり、けっこう</td>
+<td>非常，很</td>
+</tr>
+<tr class="odd">
+<td>すこしも、ちっとも</td>
+<td>一点儿（也不），毫（无）</td>
+</tr>
+<tr class="even">
+<td>ようやく、とうとう、やっと、ついに、いよいよ（愈々）</td>
+<td>终于</td>
+</tr>
+<tr class="odd">
+<td>ただ、たった，たんに（単に）</td>
+<td>仅，只</td>
+</tr>
+<tr class="even">
+<td>まんいち(万一) 、まんがいち(万が一)</td>
+<td>万一</td>
+</tr>
+<tr class="odd">
+<td>いかが、どう</td>
+<td>如何</td>
+</tr>
+<tr class="even">
+<td>どうして、なぜ</td>
+<td>为什么，为何，何故</td>
+</tr>
+<tr class="odd">
+<td>まず、先に、先ほど</td>
+<td>首先</td>
+</tr>
+<tr class="even">
+<td>ぜったいに（絶対に）、ぜったい</td>
+<td>绝对</td>
+</tr>
+<tr class="odd">
+<td>きゅうに（急に）、とつぜん（突然）</td>
+<td>突然</td>
+</tr>
+<tr class="even">
+<td>主として（しゅとして）、主に、主要に</td>
+<td>主要</td>
+</tr>
+<tr class="odd">
+<td>これまで、今まで</td>
+<td>现在为止，以前，此前</td>
+</tr>
+<tr class="even">
+<td>いちど（一度）</td>
+<td>一次，一遍，一度</td>
+</tr>
+<tr class="odd">
+<td>こんど（今度）</td>
+<td>这回，下次</td>
+</tr>
+<tr class="even">
+<td>ごく</td>
+<td>极，最，非常</td>
+</tr>
+<tr class="odd">
+<td>ちっとも</td>
+<td>一点儿（也不），毫（无）</td>
+</tr>
+<tr class="even">
+<td>たった今</td>
+<td>刚刚</td>
+</tr>
+<tr class="odd">
+<td>さっき</td>
+<td>刚才</td>
+</tr>
+<tr class="even">
+<td>もう一度</td>
+<td>再次</td>
+</tr>
+<tr class="odd">
+<td>全然</td>
+<td>根本不</td>
+</tr>
+<tr class="even">
+<td>ちょっど</td>
+<td>刚好</td>
+</tr>
+<tr class="odd">
+<td>あまり</td>
+<td>不太</td>
+</tr>
+<tr class="even">
+<td>本当に</td>
+<td>实在是，真的</td>
+</tr>
+<tr class="odd">
+<td>また</td>
+<td>还，再，由</td>
+</tr>
+<tr class="even">
+<td>たまに</td>
+<td>偶尔</td>
+</tr>
+<tr class="odd">
+<td>時々</td>
+<td>有时</td>
+</tr>
+<tr class="even">
+<td>いちばん（一番）</td>
+<td>最，第一</td>
+</tr>
+<tr class="odd">
+<td>こう</td>
+<td>这样</td>
+</tr>
+<tr class="even">
+<td>そう/ああ</td>
+<td>那样</td>
+</tr>
+<tr class="odd">
+<td>あとで（後で）</td>
+<td>过会儿</td>
+</tr>
+<tr class="even">
+<td>ゆっくり</td>
+<td>好好地，安静地</td>
+</tr>
+<tr class="odd">
+<td>もちろん（勿論）</td>
+<td>当然，不用说</td>
+</tr>
+<tr class="even">
+<td>じゅうぶん（十分）</td>
+<td>好好地，充足地</td>
+</tr>
+<tr class="odd">
+<td>ちゃんと</td>
+<td>好好地，的确，完全</td>
+</tr>
+<tr class="even">
+<td>そろそろ</td>
+<td>快要</td>
+</tr>
+<tr class="odd">
+<td>はやく</td>
+<td>早点儿</td>
+</tr>
+<tr class="even">
+<td>初めて</td>
+<td>第一次</td>
+</tr>
+<tr class="odd">
+<td>たぶん（多分）</td>
+<td>可能，大概</td>
+</tr>
+<tr class="even">
+<td>じつは（実は）</td>
+<td>其实，实际上</td>
+</tr>
+<tr class="odd">
+<td>ざっと</td>
+<td>粗略地；一下子，很快；（流水声）哗啦</td>
+</tr>
+<tr class="even">
+<td>きっと</td>
+<td>一定</td>
+</tr>
+<tr class="odd">
+<td>ずっと</td>
+<td>得多，一直</td>
+</tr>
+<tr class="even">
+<td>もっと</td>
+<td>更加</td>
+</tr>
+<tr class="odd">
+<td>やっと</td>
+<td>终于</td>
+</tr>
+<tr class="even">
+<td>ぐっと</td>
+<td>一下子、更加</td>
+</tr>
+<tr class="odd">
+<td>ほっと</td>
+<td>放松，放心</td>
+</tr>
+<tr class="even">
+<td>さっと</td>
+<td>很快，一下子；忽然，骤然</td>
+</tr>
+<tr class="odd">
+<td>まさに</td>
+<td>正是，真正是，的确，实在，确实</td>
+</tr>
+<tr class="even">
+<td>やや</td>
+<td>略显，稍微</td>
+</tr>
+<tr class="odd">
+<td>じつに（実に）</td>
+<td>实在，的确，确实</td>
+</tr>
+<tr class="even">
+<td>のちほど（後ほど）</td>
+<td>过一会儿，随后</td>
+</tr>
+<tr class="odd">
+<td>いったい</td>
+<td>到底，究竟</td>
+</tr>
+<tr class="even">
+<td>にこにこ</td>
+<td>笑眯眯，微笑</td>
+</tr>
+<tr class="odd">
+<td>いきなり</td>
+<td>突然，冷不防</td>
+</tr>
+<tr class="even">
+<td>なんとなく</td>
+<td>不由得，总觉得</td>
+</tr>
+<tr class="odd">
+<td>にっこり</td>
+<td>莞尔，微笑，嫣然一笑</td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td>轻飘飘，软绵绵</td>
+</tr>
+<tr class="odd">
+<td>ぐずぐず</td>
+<td>磨磨蹭蹭，慢腾腾</td>
+</tr>
+<tr class="even">
+<td>ぼんやり</td>
+<td>发呆，精神恍惚；模糊，不清楚</td>
+</tr>
+<tr class="odd">
+<td>いらいら</td>
+<td>焦躁不安，焦急</td>
+</tr>
+<tr class="even">
+<td>わくわく</td>
+<td>欢欣雀跃，焦急</td>
+</tr>
+<tr class="odd">
+<td>どきっと</td>
+<td>大吃一惊，震惊，吓一跳</td>
+</tr>
+<tr class="even">
+<td>どきどき</td>
+<td>七上八下，心怦怦跳；忐忑不安</td>
+</tr>
+<tr class="odd">
+<td>そのうち</td>
+<td>不久，过几天</td>
+</tr>
+<tr class="even">
+<td>のんびり</td>
+<td>放松，轻松；悠闲自在，悠然自得</td>
+</tr>
+<tr class="odd">
+<td>たまたま</td>
+<td>偶然，碰巧</td>
+</tr>
+<tr class="even">
+<td>ぴったり</td>
+<td>正合适，恰好</td>
+</tr>
+<tr class="odd">
+<td>つるつる</td>
+<td>溜滑，滑溜，光滑</td>
+</tr>
+<tr class="even">
+<td>いずれ</td>
+<td>早晚，反正</td>
+</tr>
+<tr class="odd">
+<td>いきいき</td>
+<td>栩栩如生，生动；生气勃勃</td>
+</tr>
+<tr class="even">
+<td>やがて</td>
+<td>后来，不久；大约</td>
+</tr>
+<tr class="odd">
+<td>つぎつぎ（次々）</td>
+<td>不断，接二连三，接踵而来</td>
+</tr>
+<tr class="even">
+<td>喜んで</td>
+<td>高兴地，非常愿意地</td>
+</tr>
+<tr class="odd">
+<td>どうしても</td>
+<td>无论如何也</td>
+</tr>
+<tr class="even">
+<td>せいぜい</td>
+<td>最多，充其量；尽量，尽可能</td>
+</tr>
+<tr class="odd">
+<td>いまにも（今にも）</td>
+<td>眼看就要，马上</td>
+</tr>
+<tr class="even">
+<td>徐々に</td>
+<td>渐渐，逐步</td>
+</tr>
+<tr class="odd">
+<td>はっきり、明確に</td>
+<td>清楚，明确</td>
+</tr>
+<tr class="even">
+<td>まことに（誠に）</td>
+<td>由衷，实在，诚然，的确，非常</td>
+</tr>
+<tr class="odd">
+<td>しょんぼり</td>
+<td>垂头丧气</td>
+</tr>
+<tr class="even">
+<td>ぐっすり</td>
+<td>熟睡，酣睡</td>
+</tr>
+<tr class="odd">
+<td>さっさと</td>
+<td>赶快地，麻利，快速，赶紧</td>
+</tr>
+<tr class="even">
+<td>つまり</td>
+<td>就是，即，就是说；总之，究竟</td>
+</tr>
+<tr class="odd">
+<td>むしろ（寧ろ）</td>
+<td>不如，与其，宁可，毋宁</td>
+</tr>
+<tr class="even">
+<td>おもわず（思わず）</td>
+<td>禁不住，不由得</td>
+</tr>
+<tr class="odd">
+<td>こってり</td>
+<td>味浓，油腻</td>
+</tr>
+<tr class="even">
+<td>あっさり</td>
+<td>清淡；朴素；淡泊</td>
+</tr>
+<tr class="odd">
+<td>さっぱり</td>
+<td>清爽；整洁，利落</td>
+</tr>
+<tr class="even">
+<td>すっきり</td>
+<td>爽气，畅快；流畅，整洁</td>
+</tr>
+<tr class="odd">
+<td>もっぱら（専ら）</td>
+<td>专门，完全</td>
+</tr>
+<tr class="even">
+<td>まさか</td>
+<td>绝没想到，怎能</td>
+</tr>
+<tr class="odd">
+<td>ひときわ</td>
+<td>格外，尤其</td>
+</tr>
+<tr class="even">
+<td>ぜひとも、ぜひ、必ず</td>
+<td>一定，务必</td>
+</tr>
+<tr class="odd">
+<td>いまさら（今さら）</td>
+<td>现在更（不…）</td>
+</tr>
+<tr class="even">
+<td>もうもう</td>
+<td>烟滚滚，烟蒙蒙，灰蒙蒙</td>
+</tr>
+<tr class="odd">
+<td>ちょっと</td>
+<td>哎，劳驾；有点，稍微；有点……，不太</td>
+</tr>
+<tr class="even">
+<td>よく</td>
+<td>竟能，居然；好好地；常常</td>
+</tr>
+<tr class="odd">
+<td>しばしば</td>
+<td>经常，每每，常常</td>
+</tr>
+<tr class="even">
+<td>つねに (常に)</td>
+<td>总是，常常，时常</td>
+</tr>
+<tr class="odd">
+<td>いがいと (意外と)</td>
+<td>意外地</td>
+</tr>
+<tr class="even">
+<td>むろん（無論）</td>
+<td>当然，不用说</td>
+</tr>
+<tr class="odd">
+<td>ずらりと</td>
+<td>一大排，成排地</td>
+</tr>
+<tr class="even">
+<td>かえって（却って）</td>
+<td>反倒，反而</td>
+</tr>
+<tr class="odd">
+<td>はたして(果たして)</td>
+<td>究竟，到底</td>
+</tr>
+<tr class="even">
+<td>くよくよ</td>
+<td>担心，闷闷不乐</td>
+</tr>
+<tr class="odd">
+<td>いつまでも</td>
+<td>因为，由于；无论怎样，总之</td>
+</tr>
+<tr class="even">
+<td>びっしり</td>
+<td>密密麻麻地，慢慢地，空隙</td>
+</tr>
+<tr class="odd">
+<td>いっきに(一気に)</td>
+<td>一下子，一口气</td>
+</tr>
+<tr class="even">
+<td>あくまで</td>
+<td>到底，毕竟，终究</td>
+</tr>
+<tr class="odd">
+<td>ふたたび(再び)</td>
+<td>再次，再</td>
+</tr>
+<tr class="even">
+<td>みずから(自ら)</td>
+<td>亲自；自己</td>
+</tr>
+<tr class="odd">
+<td>そわそわ</td>
+<td>慌张，心神不定，坐立不安</td>
+</tr>
+<tr class="even">
+<td>すすんで(進んで)</td>
+<td>主动地，积极地，自愿地</td>
+</tr>
+<tr class="odd">
+<td>えんえん（延々）</td>
+<td>绵延不绝，连绵不绝</td>
+</tr>
+<tr class="even">
+<td>めったに</td>
+<td>很少，不常</td>
+</tr>
+<tr class="odd">
+<td>なかよく（仲良く）</td>
+<td>亲密，友好</td>
+</tr>
+<tr class="even">
+<td>おもいきり（思い切り）</td>
+<td>彻底，痛快；决心，决意</td>
+</tr>
+<tr class="odd">
+<td>けっきょく（結局）</td>
+<td>结果，最后</td>
+</tr>
+<tr class="even">
+<td>そうとう（相当）、ずいぶん（随分）</td>
+<td>相当，很，颇</td>
+</tr>
+<tr class="odd">
+<td>まったく（全く）</td>
+<td>完全，全然</td>
+</tr>
+<tr class="even">
+<td>あらためて（改めた）</td>
+<td>再，重新</td>
+</tr>
+<tr class="odd">
+<td>おりいって（折り入って）</td>
+<td>诚恳，特意</td>
+</tr>
+<tr class="even">
+<td>ともに</td>
+<td>一起 ，一同；共同</td>
+</tr>
+<tr class="odd">
+<td>ときには（時には）</td>
+<td>有时</td>
+</tr>
+<tr class="even">
+<td>せいぜい</td>
+<td>最多，充其量；尽量，尽可能</td>
+</tr>
+<tr class="odd">
+<td>かんかん</td>
+<td>大发脾气，大怒；(太阳)火辣辣，（火）熊熊</td>
+</tr>
+<tr class="even">
+<td>わざわざ</td>
+<td>特意，故意</td>
+</tr>
+<tr class="odd">
+<td>わざと</td>
+<td>故意，特意，有意</td>
+</tr>
+<tr class="even">
+<td>いちだんと（一段と）</td>
+<td>越发，更加</td>
+</tr>
+<tr class="odd">
+<td>らくらく（楽々）</td>
+<td>简单，非常容易；安适</td>
+</tr>
+<tr class="even">
+<td>ぞくぞく（続々）</td>
+<td>源源不断，陆续</td>
+</tr>
+<tr class="odd">
+<td>だんだん（段々）</td>
+<td>渐渐地</td>
+</tr>
+<tr class="even">
+<td>いっさい (一切)</td>
+<td>一概，一切</td>
+</tr>
+<tr class="odd">
+<td>たがいに（互いに）</td>
+<td>交互，交替，相互</td>
+</tr>
+<tr class="even">
+<td>なにしろ(何しろ)</td>
+<td>因为，由于；无论怎样，总之</td>
+</tr>
+<tr class="odd">
+<td>いつも</td>
+<td>始终，总是，一直</td>
+</tr>
+<tr class="even">
+<td>まっすぐ</td>
+<td>径直</td>
+</tr>
+<tr class="odd">
+<td>たしか</td>
+<td>好像是</td>
+</tr>
+<tr class="even">
+<td>これから</td>
+<td>从今以后</td>
+</tr>
+<tr class="odd">
+<td>すごく</td>
+<td>了不起地，惊人地</td>
+</tr>
+<tr class="even">
+<td>べつに（別に）</td>
+<td>并不</td>
+</tr>
+<tr class="odd">
+<td>ほとんど</td>
+<td>大部分，几乎</td>
+</tr>
+<tr class="even">
+<td>つい</td>
+<td>不知不觉地</td>
+</tr>
+<tr class="odd">
+<td>しばらく</td>
+<td>好久，片刻</td>
+</tr>
+<tr class="even">
+<td>ほかに</td>
+<td>另外</td>
+</tr>
+<tr class="odd">
+<td>うまく</td>
+<td>高明地，很好地，好吃地</td>
+</tr>
+<tr class="even">
+<td>丁寧に</td>
+<td>礼貌地，恭敬地</td>
+</tr>
+<tr class="odd">
+<td>きちんと</td>
+<td>好好地，正经地</td>
+</tr>
+<tr class="even">
+<td>ぜんぶ</td>
+<td>全部</td>
+</tr>
+<tr class="odd">
+<td>相変わらず</td>
+<td>依然，照旧</td>
+</tr>
+<tr class="even">
+<td>とにかく</td>
+<td>特别是，总之</td>
+</tr>
+<tr class="odd">
+<td>まだまだ</td>
+<td>还，尚</td>
+</tr>
+<tr class="even">
+<td>ぺらぺら</td>
+<td>流利地</td>
+</tr>
+<tr class="odd">
+<td>ワンワン</td>
+<td>汪汪（狗叫）</td>
+</tr>
+<tr class="even">
+<td>ザーザー</td>
+<td>哗啦哗啦</td>
+</tr>
+<tr class="odd">
+<td>すやすや</td>
+<td>安静地，香甜地</td>
+</tr>
+<tr class="even">
+<td>くれくれ</td>
+<td>弯弯曲曲</td>
+</tr>
+<tr class="odd">
+<td>どんどん</td>
+<td>连续不段地，接二连三地</td>
+</tr>
+<tr class="even">
+<td>こっそり</td>
+<td>偷偷地，悄悄地</td>
+</tr>
+<tr class="odd">
+<td>さすが（流石）</td>
+<td>不愧是，果然</td>
+</tr>
+<tr class="even">
+<td>じっさいに（実際に）</td>
+<td>实际上</td>
+</tr>
+<tr class="odd">
+<td>せっかく</td>
+<td>好不容易，特意</td>
+</tr>
+<tr class="even">
+<td>もっとも（最も）</td>
+<td>最</td>
+</tr>
+<tr class="odd">
+<td>ちょくせつ（直接）</td>
+<td>直接</td>
+</tr>
+<tr class="even">
+<td>まるで</td>
+<td>好像</td>
+</tr>
+<tr class="odd">
+<td>いかにも</td>
+<td>典型地，实在，的确</td>
+</tr>
+<tr class="even">
+<td>しょうしょう（少々）</td>
+<td>稍微</td>
+</tr>
+<tr class="odd">
+<td>ただいま（只今）</td>
+<td>马上，立即</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>聴解</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%81%B4%E8%A7%A3/</url>
     <content><![CDATA[<hr />
@@ -13760,528 +12689,1795 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
-    <title>ことわざ</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%AB%BA/</url>
+    <title>N1文法</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
     <content><![CDATA[<hr />
+<h2 id="第１課-時間">第１課　時間</h2>
+<blockquote>
+<p>や否や</p>
+<p>や</p>
+<p>が早いか</p>
+<p>なり</p>
+<p>そばから</p>
+<p>がてら</p>
+<p>かたがた</p>
+<p>かたわら</p>
+<p>てからというもの</p>
+<p>を限りに</p>
+<p>を皮切りに</p>
+</blockquote>
+<h3 id="を皮切りに">1. を皮切りに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～为开端</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
+<blockquote>
+<p>とあって</p>
+<p>こととて</p>
+<p>ことだし</p>
+<p>こともあって</p>
+<p>ゆえに</p>
+<p>からこそ·ばこそ</p>
+<p>ではあるまいし</p>
+<p>始末だ</p>
+<p>た手前</p>
+<p>はずみに</p>
+<p>すじまい</p>
+</blockquote>
+<h3 id="とあって">2. とあって</h3>
 <table>
 <colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
+<col style="width: 6%" />
+<col style="width: 93%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ことわざ</th>
-<th>意味</th>
+<th>接続</th>
+<th>体言、简体句</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>一目ぼれ</td>
-<td>一见钟情</td>
+<td>意味</td>
+<td>因为，由于特殊情况而出现了后项的状态</td>
 </tr>
 <tr class="even">
-<td>目と鼻の先</td>
-<td>一箭之地</td>
-</tr>
-<tr class="odd">
-<td>急がば回れ</td>
-<td>欲速则不达</td>
-</tr>
-<tr class="even">
-<td>弘法にも筆の誤り</td>
-<td>智者千虑，必有一失</td>
-</tr>
-<tr class="odd">
-<td>千里の堤蟻の穴から崩れる</td>
-<td>千里之堤，溃于蚁穴</td>
-</tr>
-<tr class="even">
-<td>猫に小判</td>
-<td>对牛弹琴</td>
-</tr>
-<tr class="odd">
-<td>猫の目のように変わる</td>
-<td>变化无常</td>
-</tr>
-<tr class="even">
-<td>井の中の蛙</td>
-<td>井底之蛙</td>
-</tr>
-<tr class="odd">
-<td>塵も積もれば山となる</td>
-<td>积少成多</td>
-</tr>
-<tr class="even">
-<td>郷に入っては郷に従え</td>
-<td>入乡随俗</td>
-</tr>
-<tr class="odd">
-<td>河童の屁</td>
-<td>易如反掌</td>
-</tr>
-<tr class="even">
-<td>河童に水泳を教える</td>
-<td>班门弄斧</td>
-</tr>
-<tr class="odd">
-<td>好事門を出でず悪事千里を走る</td>
-<td>好事不出门，坏事行千里</td>
-</tr>
-<tr class="even">
-<td>馬子にも衣裳</td>
-<td>人靠衣装马靠鞍</td>
-</tr>
-<tr class="odd">
-<td>縁は異なもの</td>
-<td>千里姻缘一线牵</td>
-</tr>
-<tr class="even">
-<td>異とするに足りない</td>
-<td>不足为奇</td>
-</tr>
-<tr class="odd">
-<td>石が流れて木の葉が沈む</td>
-<td>浮石沉木，太阳从西边出来</td>
-</tr>
-<tr class="even">
-<td>転ばぬ先の杖</td>
-<td>未雨绸缪</td>
-</tr>
-<tr class="odd">
-<td>気は心</td>
-<td>千里送鹅毛，礼轻情意重</td>
-</tr>
-<tr class="even">
-<td>彼を知り己を知らば百戦危うからず</td>
-<td>知彼知己，百战不殆</td>
-</tr>
-<tr class="odd">
-<td>木に竹を接ぐ</td>
-<td>驴唇不对马嘴，张冠李戴</td>
-</tr>
-<tr class="even">
-<td>木に縁って魚を求む</td>
-<td>缘木求鱼</td>
-</tr>
-<tr class="odd">
-<td>木で鼻を括る</td>
-<td>冷淡对人，爱答不理</td>
-</tr>
-<tr class="even">
-<td>腐っても鯛</td>
-<td>瘦死的骆驼比马大</td>
-</tr>
-<tr class="odd">
-<td>愚公山を移す</td>
-<td>愚公移山</td>
-</tr>
-<tr class="even">
-<td>癖ある馬に乗りあり</td>
-<td>有脾气的人必有专长</td>
-</tr>
-<tr class="odd">
-<td>光陰矢の如し</td>
-<td>光阴似箭</td>
-</tr>
-<tr class="even">
-<td>目糞鼻糞を笑う</td>
-<td>秃子笑和尚</td>
-</tr>
-<tr class="odd">
-<td>落花流水</td>
-<td>落花流水</td>
-</tr>
-<tr class="even">
-<td>五十歩百歩</td>
-<td>五十步笑百步</td>
-</tr>
-<tr class="odd">
-<td>虎穴に入らずんば虎子を得ず</td>
-<td>不入虎穴焉得虎子</td>
-</tr>
-<tr class="even">
-<td>気にも草にも心を置く</td>
-<td>风声鹤唳，草木皆兵</td>
-</tr>
-<tr class="odd">
-<td>短気は損気</td>
-<td>性急吃亏</td>
-</tr>
-<tr class="even">
-<td>転んでもただは起きぬ</td>
-<td>雁过拔毛</td>
-</tr>
-<tr class="odd">
-<td>聞くは一時の恥聞かぬは一生の恥</td>
-<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
-</tr>
-<tr class="even">
-<td>亀の甲より年の劫</td>
-<td>姜还是老的辣</td>
-</tr>
-<tr class="odd">
-<td>すき腹にまずいものなし</td>
-<td>饥不择食</td>
-</tr>
-<tr class="even">
-<td>可愛い子には旅をさせよ</td>
-<td>爱子就让他外出见世面</td>
-</tr>
-<tr class="odd">
-<td>頭隠して尻隠さず</td>
-<td>藏头露尾</td>
-</tr>
-<tr class="even">
-<td>帯に短し、たすきに長し</td>
-<td>高不成低不就</td>
-</tr>
-<tr class="odd">
-<td>二階から目薬</td>
-<td>远水救不了近火</td>
-</tr>
-<tr class="even">
-<td>痘痕も靨</td>
-<td>情人眼里出西施</td>
-</tr>
-<tr class="odd">
-<td>暑さ寒さも彼岸まで</td>
-<td>热到秋分，冷到春分</td>
-</tr>
-<tr class="even">
-<td>人の花は赤い、他人の飯は白い</td>
-<td>东西总是别人的好</td>
-</tr>
-<tr class="odd">
-<td>腹も身の内</td>
-<td>食不过量</td>
-</tr>
-<tr class="even">
-<td>腹八分目に医者いらず</td>
-<td>八分饱不求医</td>
-</tr>
-<tr class="odd">
-<td>好きこそものの上手なれ</td>
-<td>爱好就能精通</td>
-</tr>
-<tr class="even">
-<td>虎の威を借りる狐</td>
-<td>狐假虎威</td>
-</tr>
-<tr class="odd">
-<td>団栗の背比べ</td>
-<td>半斤八两</td>
-</tr>
-<tr class="even">
-<td>花より団子</td>
-<td>舍华求实</td>
+<td>例文</td>
+<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
 </tr>
 </tbody>
 </table>
+<h3 id="ゆえに">3. ゆえに</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第３課-逆接">第３課　逆接</h2>
+<blockquote>
+<p>には～が～</p>
+<p>とはいえ</p>
+<p>といえども</p>
+<p>であれ</p>
+<p>ものを</p>
+<p>ないまでも</p>
+<p>ならまだしも</p>
+<p>たら～たで</p>
+<p>そうかと言って～ない</p>
+</blockquote>
+<h3 id="ものを">4. ものを</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（伴有不满）本来...可是...</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
+<blockquote>
+<p>ものなら</p>
+<p>ものとして</p>
+<p>としたって</p>
+<p>にしたって</p>
+<p>としたところで</p>
+<p>にしたところで</p>
+<p>とあれば</p>
+<p>たが·ら最後</p>
+<p>ともなると·ともなれば</p>
+<p>ようと（が）～ようと（が）</p>
+</blockquote>
+<h3 id="ものなら">5. ものなら</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>如果能～的话（可能性很低但期待实现）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>こられるものなら、もちろん来てほしいですが...</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ようとがようとがようとがまいとが">7.
+ようと·が～ようと·が、ようと·が～まいと·が</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>意向形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论、不管</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第５課-対象関係">第５課　対象、関係</h2>
+<blockquote>
+<p>に即して</p>
+<p>にひきかえ</p>
+<p>にかかわる</p>
+<p>に関わりなく</p>
+<p>にかけては</p>
+<p>と相まって</p>
+<p>にもまして</p>
+<p>をもって</p>
+<p>をよそに</p>
+<p>をしりめに</p>
+<p>をものともせずに</p>
+<p>をこめて</p>
+<p>をひかえて</p>
+<p>あっての</p>
+<p>から～に至るまで</p>
+<p>いかんだ·いかんによっては</p>
+<p>いかんによらず</p>
+<p>によるところ</p>
+</blockquote>
+<h3 id="をもって">8. をもって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～，用～；表示时间的起止点；原因；据说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第６課-強調限定">第６課　強調、限定</h2>
+<blockquote>
+<p>はおろか</p>
+<p>もさることながら</p>
+<p>言うに及ばず</p>
+<p>ならではの</p>
+<p>ともあろう</p>
+<p>に至って</p>
+<p>にして</p>
+<p>に～を重ねる</p>
+<p>をおいて～ない</p>
+<p>てやまない</p>
+<p>たりとも</p>
+<p>なり</p>
+<p>てまで</p>
+<p>からある</p>
+<p>だに</p>
+<p>すら</p>
+<p>ですら</p>
+<p>だけ</p>
+<p>ただ～のみ</p>
+</blockquote>
+<h3 id="もさることながら">9. もさることながら</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>～是当然的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ならではの">10. ならではの</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>只有～才有的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このような細かい心遣いは恋人ならではですね。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第7課-並列">第7課　並列</h2>
+<blockquote>
+<p>あるかと思えば～もある</p>
+<p>だの～だの</p>
+<p>なり～なり</p>
+<p>といい～といい</p>
+<p>であれ～であれ</p>
+<p>つ～つ</p>
+</blockquote>
+<h3 id="といいといい">1１. といい～といい</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论从～来说还是从～来说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>学歴といい、実力といい、向こうの方が勝っている。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="であれであれ">1２. であれ～であれ</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、形容词词干</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论～还是～</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第８課-話題提出">第８課　話題提出</h2>
+<blockquote>
+<p>ときたら</p>
+<p>に至っては</p>
+<p>たるもの</p>
+<p>とは</p>
+<p>～はいざしらず·ならいざしらず</p>
+<p>はともあれ</p>
+<p>はさておき</p>
+</blockquote>
+<h3 id="はさておき">1３. はさておき</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词或短语</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>暂且不提</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第９課-判断評価">第９課　判断、評価</h2>
+<blockquote>
+<p>までもない</p>
+<p>にあたらない</p>
+<p>にかたくない</p>
+<p>に限ったことではない</p>
+<p>ないとも限らない</p>
+<p>といったらありゃしない·といったらない</p>
+<p>なんと～だろう·なんという～だろう</p>
+<p>くらいなら～方がいい</p>
+<p>に越したことはない</p>
+<p>ないものでもない</p>
+<p>といって～ない</p>
+<p>という～ない</p>
+<p>までだ</p>
+<p>までのことだ</p>
+<p>ばそれまでだ</p>
+<p>てしかるべきだ</p>
+<p>限りだ</p>
+<p>極まる·極まりない</p>
+<p>の至り</p>
+<p>きらいがある</p>
+<p>に足る</p>
+<p>あるまじき</p>
+<p>というところだ</p>
+</blockquote>
+<h3 id="までもない">1４. までもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>基本型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>没必要</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="なんとだろう">1５. なんと～だろう</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>一般修饰动词/形容词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>多么～啊</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>なんと優しい人だろう。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ないものでもないないでもない">1６.
+ないものでもない／ないでもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>ない形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>也不是不～（不情愿的妥协）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>どうしても知りたいなら、教えないものでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="までだ">1７. までだ</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第10課-可能">第10課　可能</h2>
+<blockquote>
+<p>ないものか</p>
+<p>ずにすむ</p>
+<p>を禁じ得ない</p>
+<p>を余儀なくされる·を余儀なくさせる</p>
+<p>にたえる</p>
+<p>にたえない</p>
+<p>べくもない</p>
+</blockquote>
+<h3 id="を余儀なくされるを余儀なくさせる">1８.
+を余儀なくされる·を余儀なくさせる</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>被迫；迫使</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第11課-状態">第11課　状態</h2>
+<blockquote>
+<p>ずにはおかない</p>
+<p>てかなわない</p>
+<p>ともなく·ともなしに</p>
+<p>ことなく·ことなしに</p>
+<p>ごとき</p>
+<p>ながらに</p>
+<p>なりに</p>
+<p>ばかりになっている</p>
+<p>とばかりに</p>
+<p>んばかりに</p>
+<p>んがために</p>
+<p>んとする</p>
+<p>べく</p>
+<p>べくして</p>
+<p>にあって</p>
+</blockquote>
+<h3 id="なりに">1９. なりに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>与～相称的，相适应的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>子供には子供なりの考えがある。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第12課-接尾語">第12課　接尾語</h2>
+<blockquote>
+<p>そこなう</p>
+<p>こなす</p>
+<p>あげる</p>
+</blockquote>
 <hr />
 ]]></content>
       <categories>
         <category>日本語</category>
-        <category>その他</category>
+        <category>JLPT N1</category>
       </categories>
   </entry>
   <entry>
-    <title>連濁と促音と半濁音</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%80%A3%E6%BF%81%E3%81%A8%E4%BF%83%E9%9F%B3%E3%81%A8%E5%8D%8A%E6%BF%81%E9%9F%B3/</url>
+    <title>N1擬声語と擬態語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%93%AC%E5%A3%B0%E8%AA%9E%E3%81%A8%E6%93%AC%E6%85%8B%E8%AA%9E/</url>
     <content><![CDATA[<hr />
-<h1 id="連濁">✨連濁✨</h1>
+<h1 id="擬声語擬態語">✨擬声語&amp;擬態語✨</h1>
 <hr />
-<h1 id="nn">N＋N</h1>
-<table>
-<thead>
-<tr class="header">
-<th>語彙</th>
-<th>仮名</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>本棚</td>
-<td>ほんだな</td>
-</tr>
-<tr class="even">
-<td>台所</td>
-<td>だいどころ</td>
-</tr>
-<tr class="odd">
-<td>黒板</td>
-<td>こくばん</td>
-</tr>
-<tr class="even">
-<td>毛皮</td>
-<td>けがわ</td>
-</tr>
-<tr class="odd">
-<td>昔話</td>
-<td>むかしばなし</td>
-</tr>
-<tr class="even">
-<td>鼻血</td>
-<td>はなぢ</td>
-</tr>
-<tr class="odd">
-<td>平仮名</td>
-<td>ひらがな</td>
-</tr>
-<tr class="even">
-<td>迷子</td>
-<td>まいご</td>
-</tr>
-<tr class="odd">
-<td>評判</td>
-<td>ひょうばん</td>
-</tr>
-</tbody>
-</table>
-<h1 id="重複">重複</h1>
-<table>
-<thead>
-<tr class="header">
-<th>語彙</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>時々</td>
-</tr>
-<tr class="even">
-<td>人々</td>
-</tr>
-<tr class="odd">
-<td>様々</td>
-</tr>
-</tbody>
-</table>
-<h1 id="nvますn">N＋V<del>ます</del>＝N</h1>
-<table>
-<thead>
-<tr class="header">
-<th>語彙</th>
-<th>仮名</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>下書き</td>
-<td>したがき</td>
-</tr>
-<tr class="even">
-<td>物語</td>
-<td>ものがたり</td>
-</tr>
-<tr class="odd">
-<td>日帰り</td>
-<td>ひがえり</td>
-</tr>
-<tr class="even">
-<td>下着</td>
-<td>したぎ</td>
-</tr>
-<tr class="odd">
-<td>大通り</td>
-<td>おおどおり</td>
-</tr>
-<tr class="even">
-<td>共働き</td>
-<td>ともばたらき</td>
-</tr>
-</tbody>
-</table>
-<h1 id="ｎｖｖ">Ｎ＋Ｖ＝Ｖ</h1>
-<table>
-<thead>
-<tr class="header">
-<th>語彙</th>
-<th>仮名</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>区切る</td>
-<td>くぎる</td>
-</tr>
-<tr class="even">
-<td>気付く</td>
-<td>きづく</td>
-</tr>
-<tr class="odd">
-<td>気づける</td>
-<td>きづける</td>
-</tr>
-<tr class="even">
-<td>役立つ</td>
-<td>やくだつ</td>
-</tr>
-<tr class="odd">
-<td>目指す</td>
-<td>めざす</td>
-</tr>
-<tr class="even">
-<td>片付ける</td>
-<td>かたづける</td>
-</tr>
-</tbody>
-</table>
+<h2 id="擬声語">擬声語</h2>
+<h3 id="聞こえる物音を表す言葉">聞こえる物音を表す言葉</h3>
+<h2 id="擬態語">擬態語</h2>
+<h3
+id="聞こえないものや身振りなどの状態を表す言葉">聞こえないものや身振りなどの状態を表す言葉</h3>
 <hr />
-<h1 id="促音">✨促音✨</h1>
-<hr />
-<h1 id="くか行くっ">「く」＋「か行」、「く」→「っ」</h1>
+<h1 id="見る">✨見る✨</h1>
+<blockquote>
+<p>きょろきょろ</p>
+<p>じっと</p>
+<p>じろじろ</p>
+<p>ちらちら</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 56%" />
+<col style="width: 32%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>国家</td>
-<td>こっか</td>
+<td>きょろきょろ</td>
+<td>東京に初めて来たとき、きょろきょろしていたら変な人だと思われた。</td>
+<td>いろんなところを見る様子。</td>
 </tr>
 <tr class="even">
-<td>借金</td>
-<td>しゃっきん</td>
+<td>じっと</td>
+<td>話した事もないのにじっと見てくる男の子がいます。私のことが好きなのかしら。</td>
+<td>ずっと一つのものを見ていること。</td>
 </tr>
 <tr class="odd">
-<td>特権</td>
-<td>とっけん</td>
+<td>じろじろ</td>
+<td>何さっきからじろじろ見ているの？本当に失礼ね。</td>
+<td>一つのもののいろんなところを見る。</td>
 </tr>
 <tr class="even">
-<td>学校</td>
-<td>がっこう</td>
+<td>ちらちら</td>
+<td>おい！ちらちらどこを見ているんだ！まだ授業は終わってないぞ。</td>
+<td>時々違う場所を見る。</td>
 </tr>
 </tbody>
 </table>
-<h1
-id="つか行さ行た行くっ">「つ」＋「か行・さ行・た行」、「く」→「っ」</h1>
+<h1 id="感じる">✨感じる✨</h1>
+<blockquote>
+<p>さらさら</p>
+<p>つるつる</p>
+<p>ふわふわ</p>
+<p>すべすべ</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 54%" />
+<col style="width: 37%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>失格</td>
-<td>しっかく</td>
+<td>さらさら</td>
+<td>美容室帰りのサラサラ髪。</td>
+<td>スムーズに指が髪の毛に通る感じ。</td>
 </tr>
 <tr class="even">
-<td>発掘</td>
-<td>はっくつ</td>
+<td>つるつる</td>
+<td>温泉に入ると肌がツルツルになりますよね！</td>
+<td>滑りやすいこと。</td>
 </tr>
 <tr class="odd">
-<td>結婚</td>
-<td>けっこん</td>
+<td>ふわふわ</td>
+<td>干したばかりの布団はふわふわしていてとて気持ちいい。</td>
+<td>空気をいっぱい含むんで、やわらかい。</td>
+</tr>
+<tr class="even">
+<td>すべすべ</td>
+<td>赤ちゃんの肌ってほんとすべすべだよね。</td>
+<td>肌が良い状態のこと。</td>
 </tr>
 </tbody>
 </table>
+<h1 id="感じる-２回目">✨感じる ２回目✨</h1>
+<blockquote>
+<p>ざらざら</p>
+<p>かさかさ</p>
+<p>べたべた</p>
+<p>ねばねば</p>
+<p>ぬるぬる</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>出産</td>
-<td>しゅっさん</td>
+<td>ざらざら</td>
+<td>もう夏になるし、かかとのザラザラをなくしたい。</td>
+<td>硬いしなんかごそごそするし。</td>
 </tr>
 <tr class="even">
-<td>達者</td>
-<td>たっしゃ</td>
+<td>かさかさ</td>
+<td>肌が乾燥する季節突入。毎年この時期になると肌がカサカサになる。</td>
+<td>水分不足が原因の肌荒れ。落ち葉。</td>
 </tr>
 <tr class="odd">
-<td>骨折</td>
-<td>こっせつ</td>
+<td>べたべた</td>
+<td>汗でベタベタだから早くシャワーを浴びたい。</td>
+<td>気持ち悪いくらいの粘着感。<br />カップルとか人がいちゃついている時。</td>
+</tr>
+<tr class="even">
+<td>ねばねば</td>
+<td>とろろ丼とか納豆は、ねばねばしているけど健康にいいしとてもおいしい。</td>
+<td>食べ物に使うことが多いです。</td>
+</tr>
+<tr class="odd">
+<td>ぬるぬる</td>
+<td>なめこはなぜヌルヌルしているんですか？</td>
+<td>ちょっと光っていて、光沢があって、つやつやしていて、ぬめぬめ、ねばねばするもの。</td>
 </tr>
 </tbody>
 </table>
+<h1 id="食べる">✨食べる✨</h1>
+<blockquote>
+<p>こってり</p>
+<p>あっさり</p>
+<p>さっぱり</p>
+<p>ひりひり</p>
+<p>ツーン</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 43%" />
+<col style="width: 43%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>発達</td>
-<td>はったつ</td>
+<td>こってり</td>
+<td>こってりしたラーメンは大好きだけど、次の日が大変だからね。</td>
+<td>油が多くて、味も濃い、どろどろ。</td>
 </tr>
 <tr class="even">
-<td>決定</td>
-<td>けってい</td>
+<td>あっさり</td>
+<td>でもラーメンは食べたいから、今日はあっさりしたラーメンにしとこう。</td>
+<td>「こってり」の正反対。</td>
 </tr>
 <tr class="odd">
-<td>列島</td>
-<td>れっとう</td>
+<td>さっぱり</td>
+<td>夏場でもレモンをかけることでさっぱりといただけます。</td>
+<td>すっきりしていて重たくなくてちょっと酸味のあるもの。冷たいものが多い。</td>
+</tr>
+<tr class="even">
+<td>ひりひり・ぴりぴり</td>
+<td>辛い物を食べたら舌がひりひりしてしょうがない。水が欲しい！</td>
+<td>熱い状態。表面が痛い、浅い痛み。やけど、日焼けの時も「ひりひり」という。</td>
+</tr>
+<tr class="odd">
+<td>ツーン</td>
+<td>わさびが入ったお寿司を食べたら、鼻がツーンと痛くなった。</td>
+<td>わさび。</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h1 id="促音半濁音">✨促音＋半濁音✨</h1>
-<hr />
-<h1
-id="つは行くっは行ぱ行">「つ」＋「は行」、「く」→「っ」、「は行」→「ぱ行」</h1>
+<h1 id="食べる-２回目">✨食べる　２回目✨</h1>
+<blockquote>
+<p>しこしこ</p>
+<p>もちもち</p>
+<p>しゃきしゃき</p>
+<p>ほかほか</p>
+<p>かりかり</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>突破</td>
-<td>とっぱ</td>
+<td>しこしこ</td>
+<td>この麵はしこしこしていてとても美味しかったです。</td>
+<td>弾力がある。嚙み応えがある。太くていっぱい嚙ないといけない。こしがある。</td>
 </tr>
 <tr class="even">
-<td>発表</td>
-<td>はっぴょう</td>
+<td>もちもち</td>
+<td>この大福すごくもちもちだよ。</td>
+<td>弾力がある。</td>
 </tr>
 <tr class="odd">
-<td>切腹</td>
-<td>せっぷく</td>
+<td>しゃきしゃき</td>
+<td>このサラダ、レタスがとてもしゃきしゃきしていておいしいです。</td>
+<td>フレッシュで水分も多い。野菜に使われることが多い。</td>
 </tr>
 <tr class="even">
-<td>立法</td>
-<td>りっぽう</td>
+<td>ほかほか</td>
+<td>炊き立てのほかほかご飯で幸せいっぱい。</td>
+<td>あったかくて、やわらかくて、</td>
+</tr>
+<tr class="odd">
+<td>かりかり</td>
+<td>ベーコンはカリカリに焼いたほうがおいしい。</td>
+<td>しっかりと長い時間焼いて、水分が抜けた状態。かたい状態。</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h1 id="半濁音">✨半濁音✨</h1>
-<hr />
-<h1 id="んは行は行ぱ行">「ん」＋「は行」、「は行」→「ぱ行」</h1>
+<h1 id="食べる-３回目">✨食べる　３回目✨</h1>
+<blockquote>
+<p>がつがつ</p>
+<p>ぱくぱく</p>
+<p>もぐもぐ</p>
+<p>もりもり</p>
+</blockquote>
 <table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 44%" />
+<col style="width: 49%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>語彙</th>
-<th>仮名</th>
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>先輩</td>
-<td>せんぱい</td>
+<td>がつがつ</td>
+<td>フレンチレストランでがつがつ食べるのはやめてください。</td>
+<td>すごい勢いで食べている。欲張りなようす。</td>
 </tr>
 <tr class="even">
-<td>神秘</td>
-<td>しんぴ</td>
+<td>ぱくぱく</td>
+<td>野菜嫌いのケントも、カレーに入れるとぱくぱく食べる。</td>
+<td>元気に、嫌がらずに食べている。</td>
 </tr>
 <tr class="odd">
-<td>音符</td>
-<td>おんぷ</td>
+<td>もぐもぐ</td>
+<td>口をもぐもぐさせてる。</td>
+<td>口に物を入れて動かしている（嚙んでいる）状態。口の中にたくさん入れているような感じ！</td>
 </tr>
 <tr class="even">
-<td>漢方</td>
-<td>かんぽう</td>
+<td>もりもり</td>
+<td>モリモリ食べて暑さを吹き飛ばしましょう！</td>
+<td>元気よくたくさん食べている状態。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="飲む">✨飲む✨</h1>
+<blockquote>
+<p>ぐっと</p>
+<p>ごくごく</p>
+<p>ちびちび</p>
+<p>がぶがぶ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぐっと</td>
+<td>皆：はい！一気！一気！一気！<br />部長：君もぐっと飲んで。ぐっとぐっと！</td>
+<td>勢いがあって一気に。</td>
+</tr>
+<tr class="even">
+<td>ごくごく</td>
+<td>ごくごくとおいしそうに飲むね。私も飲みたくなっちゃったよ。</td>
+<td>のどを鳴らしておいしそうに飲む様子。</td>
+</tr>
+<tr class="odd">
+<td>ちびちび</td>
+<td>のりこ：けんとくん！ちびちび飲んでないで、男らしくぐっとね！<br />けんと：あ、お酒に弱いので。</td>
+<td>酒などを少しずつ飲む様子。少しずつ楽しみながら飲む。</td>
+</tr>
+<tr class="even">
+<td>がぶがぶ</td>
+<td>試合後、シン選手は水をがぶがぶと飲み始めた。</td>
+<td>水を大量に飲む感じ（カバのように）。<br />口を大きく開けてたくさん入れる。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="言う">✨言う✨</h1>
+<blockquote>
+<p>おずおず</p>
+<p>がんがん</p>
+<p>ぶつぶつ</p>
+<p>べらべら</p>
+<p>ぼそぼそ</p>
+<p>くどくど</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>おずおず</td>
+<td>「あの、すみません。私がこのパソコン壊しました。」と彼はおずおず言った。</td>
+<td>言い難そうな様子。申し訳なさそうな感じ。</td>
+</tr>
+<tr class="even">
+<td>がんがん</td>
+<td>そんなにガンガン言われたら、やる気もなくなっちゃうよ。</td>
+<td>ずっと続けて、何度も強く言う。</td>
+</tr>
+<tr class="odd">
+<td>ぶつぶつ</td>
+<td>彼はいつも仕事中ぶつぶつと独り言を言っている。</td>
+<td>周りに聞こえないような感じ。<br />文句や不満を言う。</td>
+</tr>
+<tr class="even">
+<td>べらべら</td>
+<td>秘密をベラベラしゃべる人は、信用できません。</td>
+<td>何でもいっぱいしゃべる人。</td>
+</tr>
+<tr class="odd">
+<td>ぼそぼそ</td>
+<td>下を向いてぼそぼそ話していると、何が言いたいのか、わかりません。</td>
+<td>音が小さいだけ。</td>
+</tr>
+<tr class="even">
+<td>くどくど</td>
+<td>くどくどと何回もしつこいわよ！</td>
+<td>何回もしつこく言うこと。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="寝る">✨寝る✨</h1>
+<blockquote>
+<p>うとうと</p>
+<p>ぐうぐう</p>
+<p>すやすや</p>
+<p>ぐっすり</p>
+<p>こっくりこっくり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 50%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>うとうと</td>
+<td>授業中にうとうとしていると体がビクッとなってしまった。</td>
+<td>ちょっとの間浅く寝るさま。浅い。</td>
+</tr>
+<tr class="even">
+<td>ぐうぐう</td>
+<td>猫ってぐうぐう寝るの？あまり音出さない気がするけど。</td>
+<td>寝ているときの音。<br />お腹が空いたとき。</td>
+</tr>
+<tr class="odd">
+<td>すやすや</td>
+<td>子供がすやすやと寝る姿を見ると育児の疲れも吹っ飛びます。</td>
+<td>静かで穏やかな眠り。</td>
+</tr>
+<tr class="even">
+<td>ぐっすり</td>
+<td>最近、寝ても疲れが取れないのです。ぐっすり寝る方法を教えてください。</td>
+<td>深い。</td>
+</tr>
+<tr class="odd">
+<td>こっくりこっくり</td>
+<td>彼は夜の電車のつり革にぶら下がりながらこっくりこっくりしている。</td>
+<td>頭が揺れながら寝ている状態。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き１早い">✨動き１早い✨</h1>
+<blockquote>
+<p>さっさと</p>
+<p>すらすら</p>
+<p>てきぱき</p>
+<p>はきはき</p>
+<p>きびきび</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>さっさと</td>
+<td>明日は試験だよ！いつまでも寝てないでさっさと勉強しなさい！</td>
+<td>時間を無駄にせずに早く動く様子。</td>
+</tr>
+<tr class="even">
+<td>すらすら</td>
+<td>日本語を勉強し、思ったことをすらすら言えるようになりたい。</td>
+<td>話し方が流暢。ぺらぺら。<br />止まらず、スムーズにこなすこと。</td>
+</tr>
+<tr class="odd">
+<td>てきぱき</td>
+<td>仕事がテキパキ出来る人ってうらやましい。私もそうなりたいな。</td>
+<td>効率的に仕事をする様子動作やものごと。</td>
+</tr>
+<tr class="even">
+<td>はきはき</td>
+<td>のりこさんはいつもはきはきしていますね。</td>
+<td>はっきりして、元気な。</td>
+</tr>
+<tr class="odd">
+<td>きびきび</td>
+<td>店長に怒られないようにきびきび働く。</td>
+<td>すごく元気でいきいきしていて、きもちがよいさま、動作や態度。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き２遅い">✨動き２遅い✨</h1>
+<blockquote>
+<p>のろのろ</p>
+<p>ゆっくり</p>
+<p>のんびり</p>
+<p>だらだら</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>のろのろ</td>
+<td>最近駅でのろのろ歩きながらスマホをしている人が多くて、よく人ぶつかります。</td>
+<td>遅い状態。動きが鈍い様子。</td>
+</tr>
+<tr class="even">
+<td>ゆっくり</td>
+<td>慌てないで。落ち着いて、ゆっくり話して。</td>
+<td>遅くてゆとり、余裕があるさま。</td>
+</tr>
+<tr class="odd">
+<td>のんびり</td>
+<td>今日は日曜日だし、ベランダ日差しでも浴びながらのんびり、まったりと時間を過ごそうと～</td>
+<td>時間に余裕があってゆっくりすることができる。</td>
+</tr>
+<tr class="even">
+<td>だらだら</td>
+<td>だらだらした生活から抜け出し、充実した生活を送りたい。</td>
+<td>適当にという感じ。生活リズムが乱れているような様子。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="動き３歩く">✨動き３歩く✨</h1>
+<blockquote>
+<p>ぶらぶら</p>
+<p>よたよた</p>
+<p>とぼとぼ</p>
+<p>よちよち</p>
+<p>すたすた</p>
+<p>てくてく</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぶらぶら</td>
+<td>家の近くでぶらぶらしていたら、ケント君にばったりあった。</td>
+<td>別の目的がなくのんびりと歩くさま。<br />ぶらぶら遊ぶ（悪い意味）<br />ふらふら→力が入らなかったりして体が揺れ動くさま。</td>
+</tr>
+<tr class="even">
+<td>よたよた</td>
+<td>赤ちゃんがよたよたと歩いている。可愛い！</td>
+<td>足がふらふらして危ないさま。<br />お年寄り<br />疲れている人にも使う。</td>
+</tr>
+<tr class="odd">
+<td>とぼとぼ</td>
+<td>彼は好きな人に告白したが、きっぱり断わられ、とぼとぼと家まで歩いて行った。</td>
+<td>元気がなく寂しそうに歩くさま。</td>
+</tr>
+<tr class="even">
+<td>よちよち</td>
+<td>赤ちゃんがよちよち歩く姿はとてもかわいい。</td>
+<td>小股で歩く様子。</td>
+</tr>
+<tr class="odd">
+<td>すたすた</td>
+<td>田舎の人はのろのろと歩くが、東京の人はすたすたと歩く。</td>
+<td>わき目もふらず、早く歩くさま。</td>
+</tr>
+<tr class="even">
+<td>てくてく</td>
+<td>学校終わりの小学生が帰り道をテクテク歩いている。</td>
+<td>乗り物に乗らずひたすら歩くさま。<br />歩いている時以外には使わない。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の動き４">✨人の動き４✨</h1>
+<blockquote>
+<p>うろうろ</p>
+<p>こそこそ</p>
+<p>こつこつ</p>
+<p>せっせと</p>
+<p>ぺこぺこ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>うろうろ</td>
+<td>知らない男の人が家の前をうろうろしていて、なんだか気味が悪い。</td>
+<td>歩き回る様子。怪しい、怖い。<br />目的は無い。意味も無く、理由も無く。</td>
+</tr>
+<tr class="even">
+<td>こそこそ</td>
+<td>親に隠れて、コソコソとゲームをやっていたがばれてしまった。</td>
+<td>人に知られないようにひそかに物事をするさま。<br />こそこそと話す。</td>
+</tr>
+<tr class="odd">
+<td>こつこつ</td>
+<td>コツコツ練習したら、上手になるよ。</td>
+<td>地道に、ちょっとずつ、毎日続ける。努力する様子。</td>
+</tr>
+<tr class="even">
+<td>せっせと</td>
+<td>日曜日も休まず、せっせと働く。</td>
+<td>休まずに一生懸命に事を行うさま。</td>
+</tr>
+<tr class="odd">
+<td>ぺこぺこ</td>
+<td>彼は出世のため、いつも上司にも部下にもぺこぺこしている。</td>
+<td>頭を何度も下げる様子。<br />お腹ぺこぺこ。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の動き５落ち着かない">✨人の動き５落ち着かない✨</h1>
+<blockquote>
+<p>あたふた</p>
+<p>ばたばた</p>
+<p>そわそわ</p>
+<p>そそくさ</p>
+<p>ぐずぐず</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>あたふた</td>
+<td>「5分後にお客さん来るよ。」と聞いた紀子先生は、あたふたしながら掃除を始めた。</td>
+<td>慌てているが急いで行動しているさま。</td>
+</tr>
+<tr class="even">
+<td>ばたばた</td>
+<td>やっと仕事が終わった。今日は朝からずっとばたばたしていた。</td>
+<td>歩き回りながら忙しくて慌てている様子。</td>
+</tr>
+<tr class="odd">
+<td>そわそわ</td>
+<td>授業の終わりが近づくと、学生たちは授業に集中せず、そわそわし始めた。</td>
+<td>落ち着かない様子。<br />他のことが気になって、心が落ち着かないさま。<br />ドキドキ似ている。</td>
+</tr>
+<tr class="even">
+<td>そそくさ</td>
+<td>友達がいない彼は、大学の授業が終わったとたんそそくさと帰った。</td>
+<td>すぐに。硬い表現。</td>
+</tr>
+<tr class="odd">
+<td>ぐずぐず</td>
+<td>母：ぐずぐずしているとおいていくよ！</td>
+<td>動きがのろくてあまり物事が進まないさま。<br />子供に使うことが多い。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情１驚き">✨人の感情１驚き✨</h1>
+<blockquote>
+<p>どきっとする</p>
+<p>はっとする</p>
+<p>どきどきする</p>
+<p>ぽかんとする</p>
+<p>ぎょっとする</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>どきっとする</td>
+<td>男性は髪の長い女性にドキッとすることが多い。</td>
+<td>興奮しらり、驚いたりしていきなり心臓を打つさま。<br />どっきり</td>
+</tr>
+<tr class="even">
+<td>はっとする</td>
+<td>バスでうとうとしていたけど、アナウンスではっと目覚めたらちょうど目的地だった。</td>
+<td>何かを急に気づいて驚くさま。<br />「ハッ」は息の音</td>
+</tr>
+<tr class="odd">
+<td>どきどきする</td>
+<td>何回も練習したけど、人前に立って話し始めたらどきどきして大変だった。</td>
+<td>緊張、運動、不安で、心臓が早く強く打つ様子。</td>
+</tr>
+<tr class="even">
+<td>ぽかんとする</td>
+<td>いつも口をぽかんと開けていたら、だらしないよ。</td>
+<td>驚いて口が開いている様子。</td>
+</tr>
+<tr class="odd">
+<td>ぎょっとする</td>
+<td>鏡を見ながら髪を直していたら、後ろに紀子先生がいてぎょっとした。</td>
+<td>考えてもなかったことがいきなり起こって驚いたり怖いがる様。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情２怖い">✨人の感情２怖い✨</h1>
+<blockquote>
+<p>ぞっとする</p>
+<p>びくびくする</p>
+<p>ひやひやする</p>
+<p>おどおどする</p>
+<p>ぶるぶるする</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぞっとする</td>
+<td>私は高いところが怖いので、12階から見下ろすとぞっとする。</td>
+<td>寒さや恐怖で背筋が寒くなるさま。<br />「かんがえだけで」、「想像しただけで」と一緒に使うことが多い。</td>
+</tr>
+<tr class="even">
+<td>びくびくする</td>
+<td>ボールを投げたら父の車に当たってひびが入ってしまった。<br />父が気付くまでびくびくしながら部屋に隠れていた。</td>
+<td>悪いことが起こると思って、常に怖がっている様子。<br />体を震える。</td>
+</tr>
+<tr class="odd">
+<td>ひやひやする</td>
+<td>落ちてしまいそうで、背中が汗でびっしょりするぐらいひやひやした。</td>
+<td>怖い、冷たい、寒い。<br />悪いことが起こると思って不安がる様子。</td>
+</tr>
+<tr class="even">
+<td>おどおどする</td>
+<td>いつもおどおどしていないで、はきはき話しましょう。</td>
+<td>怖くて自信を無くし、落ち着かないさま。</td>
+</tr>
+<tr class="odd">
+<td>ぶるぶるする</td>
+<td>紀子先生の顔を見た子犬が、ぶるぶる震えだした。</td>
+<td>寒さや恐怖などのために震えるさま。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情３怒り">✨人の感情３怒り✨</h1>
+<blockquote>
+<p>いらいら</p>
+<p>むかむか</p>
+<p>かっ</p>
+<p>むっ</p>
+<p>ぷんぷん</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>いらいら</td>
+<td>20分待っても、注文した料理が出てこないので、イライラしてきた。</td>
+<td>思いどおりにいかなくて、神経が高ぶること。<br />いらっとする。</td>
+</tr>
+<tr class="even">
+<td>むかむか</td>
+<td>今朝、親に怒られてむかむかしている。</td>
+<td>後になってからも腹が立つ気持ち。<br />心の奥底から怒りがこみ上げてくるさま。<br />吐き気がして気持ちの悪いさま。</td>
+</tr>
+<tr class="odd">
+<td>かっ</td>
+<td>彼女は短気ですぐかっとなってしまう。</td>
+<td>急に怒り出す。<br />キレる。</td>
+</tr>
+<tr class="even">
+<td>むっ</td>
+<td>私のミスで彼女はムッとしているけど、どこが悪かったのかを教えてほしい。</td>
+<td>心の中で怒るさま。</td>
+</tr>
+<tr class="odd">
+<td>ぷんぷん</td>
+<td>もぅ。プンプンだよ。プンプン。</td>
+<td>口を膨らませながら怒っているような。<br />女の子が言う。<br />激おこぷんぷん丸。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情４いい気持ち">✨人の感情４いい気持ち✨</h1>
+<blockquote>
+<p>いきいき</p>
+<p>うきうき</p>
+<p>わくわく</p>
+<p>すっきり</p>
+<p>ほっと</p>
+</blockquote>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>いきいき</td>
+<td>彼はアニメの話になると、とてもイキイキした顔になる。</td>
+<td>明るくて元気なさま。</td>
+</tr>
+<tr class="even">
+<td>うきうき</td>
+<td>春休みの旅行のことを考えただけウキウキする。</td>
+<td>足が地面から離れてしまいそうなくらい楽しい感覚。</td>
+</tr>
+<tr class="odd">
+<td>わくわく</td>
+<td>ワクワクしながら宝くじの当選結果を確認した。</td>
+<td>これから起こることに対し期待するさま。</td>
+</tr>
+<tr class="even">
+<td>すっきり</td>
+<td>ずっと胸にためていたことを全部言葉に出せてすっきりした。</td>
+<td>余計なものがくなり、気持ちの良いさま。<br />ぐっすり寝た後とかしっかり掃除した後もよく使う。</td>
+</tr>
+<tr class="odd">
+<td>ほっと</td>
+<td>迷子になったと思っていた息子が無事に帰ってきてほっとした。</td>
+<td>よかった、胸をなでおろす感じ。<br />安心する。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="人の感情５愛">✨人の感情５愛✨</h1>
+<blockquote>
+<p>めろめろ</p>
+<p>いちゃいちゃ</p>
+<p>でれでれ</p>
+<p>ベタベタ</p>
+<p>キュン</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>めろめろ</td>
+<td>私はもう彼にメロメロなの。毎日会っても全然飽きないぐらい。</td>
+<td>愛に酔って理性を失ったさま。</td>
+</tr>
+<tr class="even">
+<td>いちゃいちゃ</td>
+<td>高校生が朝から公園でいちゃいちゃしているのを見て嫌な気持ちになった。</td>
+<td>カップル同士が人前でスキンシップをしているさま。<br />いちゃつく。</td>
+</tr>
+<tr class="odd">
+<td>でれでれ</td>
+<td>けんと先生は好きな女性の前でデレデレになるらしい。</td>
+<td>彼女、彼氏の前でだらしなくなるさま。<br />甘くなる。何でも許す。</td>
+</tr>
+<tr class="even">
+<td>ベタベタ</td>
+<td>いくら新婚でも、公共の場でベタベタ触りあうのはだめだ。</td>
+<td>主にカップルがくっつきあうさま。<br />ベタつく。</td>
+</tr>
+<tr class="odd">
+<td>キュン</td>
+<td>あなたに「愛してる」と言われるたびにキュンとするの。</td>
+<td>ときめく感情。<br />胸キュン。<br />キュンキュン</td>
+</tr>
+</tbody>
+</table>
+<h1 id="空間１余裕がない">✨空間１余裕がない✨</h1>
+<blockquote>
+<p>ぎっしり</p>
+<p>ぎゅうぎゅう</p>
+<p>ぴちぴち</p>
+<p>ぴったり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぎっしり</td>
+<td>予定がぎっしり詰まっていまして、空いているのは月曜の午前だけです。</td>
+<td>すきまなく詰まっているさま。<br />予定、荷物、知識。</td>
+</tr>
+<tr class="even">
+<td>ぎゅうぎゅう</td>
+<td>朝の地下鉄はぎゅうぎゅうでもう息も出来ないぐらいだ。</td>
+<td>無理に詰め込むさま。<br />荷物、建物、乗り物。</td>
+</tr>
+<tr class="odd">
+<td>ぴちぴち</td>
+<td>太り過ぎてシャツがぴちぴちだ。</td>
+<td>余裕がない。<br />体のラインがわかるくらい。<br />ぴったりよりきつい。<br />服によく使う。<br />新鮮さを表すときも使う。</td>
+</tr>
+<tr class="even">
+<td>ぴったり</td>
+<td>このサイズはぶかぶかです。25㎝の靴がぴったりだと思います。</td>
+<td>大きくも、小さくもなく、多くも、少ない、ちょうどいいさま。<br />時間、服、量、サイズなどに使う。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="空間２余裕がある">✨空間２余裕がある✨</h1>
+<blockquote>
+<p>がらがら</p>
+<p>すかすか</p>
+<p>ぶかぶか</p>
+<p>だぶだぶ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>がらがら</td>
+<td>このサッカースタジアムはいつもガラガラだ。</td>
+<td>乗り物、建物に人がほとんどいない様子。<br />がらがらの音。<br />のどがガラガラ。</td>
+</tr>
+<tr class="even">
+<td>すかすか</td>
+<td>私のかばんは、いつもすかすかで筆箱しか入っていない。</td>
+<td>結構空間が残っていて、まだ人／物が入る。<br />本棚、箱など。</td>
+</tr>
+<tr class="odd">
+<td>ぶかぶか</td>
+<td>この子供はぶかぶかの服を着ている。</td>
+<td>身に着けている服や靴が大きすぎるてあまっているようす。<br />ちょっとだらしない。</td>
+</tr>
+<tr class="even">
+<td>だぶだぶ</td>
+<td>去年までは、ぴったりの服が流行っていたけど、最近はだぶだぶの服が人気だ。</td>
+<td>靴には使えない。<br />服が長すぎる。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="からだ１太っている">✨からだ１太っている✨</h1>
+<blockquote>
+<p>ぶよぶよ</p>
+<p>ぱんぱん</p>
+<p>ぷにぷに</p>
+<p>ぶくぶく</p>
+<p>ぽっちゃり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 49%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ぶよぶよ</td>
+<td>もうすぐ夏だから、ぷよぷよしているお腹をなくさないと。</td>
+<td>太り過ぎて肉がたるんでいる様子。</td>
+</tr>
+<tr class="even">
+<td>ぱんぱん</td>
+<td>おなかがパンパンになるあで食べ過ぎるのはあまり良くない。腹八分目がちょうど良い。</td>
+<td>お腹が破裂しそうなくらい。</td>
+</tr>
+<tr class="odd">
+<td>ぷにぷに</td>
+<td>赤ちゃんのほっぺたはぷにぷにしていて、触り心地がいい。</td>
+<td>柔らかく、弾力があるさま。</td>
+</tr>
+<tr class="even">
+<td>ぶくぶく</td>
+<td>お正月、食べ過ぎてぶくぶく太ってしまった。</td>
+<td>短い間に太っていく様子。<br />歯を磨いた後ぶくぶく。</td>
+</tr>
+<tr class="odd">
+<td>ぽっちゃり</td>
+<td>やせている女の人より、ぽっちゃりしている方が好きなんだよね。</td>
+<td>少し太っている人のことをかわいく表す言葉。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="からだ２瘦せている">✨からだ２瘦せている✨</h1>
+<blockquote>
+<p>がりがり</p>
+<p>ひょろひょろ</p>
+<p>げっそり</p>
+<p>すらっと</p>
+<p>ほっそり</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>がりがり</td>
+<td>あの人はがりがりだけど、たくさん食べる。</td>
+<td>骨が見えるぐらい瘦せている様子。<br />硬いものをかみ砕いた時にでる音。</td>
+</tr>
+<tr class="even">
+<td>ひょろひょろ</td>
+<td>ひょろひょろした男は筋トレをしよう。</td>
+<td>体が細長くて、力が弱い感じ。<br />もやしのような食べ物にも使う。</td>
+</tr>
+<tr class="odd">
+<td>げっそり</td>
+<td>一週間あまり食べなかったからげっそりした。</td>
+<td>疲れて顔が瘦せた感じ。<br />顔に使う表現。<br />良くない意味。</td>
+</tr>
+<tr class="even">
+<td>すらっと</td>
+<td>この人はモデルみたいにすらりとしている。うらやましい。</td>
+<td>背が高くて細い。<br />褒め言葉。<br />すらっと／すらりと。</td>
+</tr>
+<tr class="odd">
+<td>ほっそり</td>
+<td>二重あごをどうにかしたいです。顔をほっそりさせる方法を教えてください。</td>
+<td>ただスリムで細いという意味。<br />顔、足などによく使う。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="疲れ１">✨疲れ１✨</h1>
+<blockquote>
+<p>へとへと</p>
+<p>くたくた</p>
+<p>ふらふら</p>
+<p>くらくら</p>
+<p>がくがく</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 50%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>へとへと</td>
+<td>立って10時間働いた。もうへとへとで歩けないほどだ。</td>
+<td>かなり疲れた状態。<br />基本的には人に対して使う。</td>
+</tr>
+<tr class="even">
+<td>くたくた</td>
+<td>毎日残業でくたくただ。</td>
+<td>かなり疲れ状態＝へとへと<br />くたくた＜くたばる</td>
+</tr>
+<tr class="odd">
+<td>ふらふら</td>
+<td>昨日から何も食べてなくて、もうふらふらだよ。</td>
+<td>不安定に揺れるさま。<br />しっかり立っていられない。</td>
+</tr>
+<tr class="even">
+<td>くらくら</td>
+<td>最近くらくらして、吐き気がします。まるで目が回っている感じです。</td>
+<td>目まいがするさま。<br />頭がくらくらする。</td>
+</tr>
+<tr class="odd">
+<td>がくがく</td>
+<td>富士山の頂上に登った。気持ちいいが、膝ががくがくする。</td>
+<td>恐怖や疲労などで体の一部分が強く小刻み震えるさま。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="疲れ２">✨疲れ２✨</h1>
+<blockquote>
+<p>へろへろ</p>
+<p>ばたん</p>
+<p>ぐったり</p>
+<p>ばったり</p>
+<p>ぼろぼろ</p>
+</blockquote>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 46%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>単語</th>
+<th>例文</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>へろへろ</td>
+<td>難しい中国語の講義を3時間聞いた。もうへろへろ。</td>
+<td>見るからに弱いさま。<br />力のないさま。</td>
+</tr>
+<tr class="even">
+<td>ばたん</td>
+<td>大変です！あの人、いきなりバタンと倒れました。</td>
+<td>人や物が音を立てて倒れるさま。<br />ドアにも使える。</td>
+</tr>
+<tr class="odd">
+<td>ぐったり</td>
+<td>今日は暑すぎて、もうぐったり。これ以上動けない。</td>
+<td>疲れたり弱ったりして、力が抜けたさま。</td>
+</tr>
+<tr class="even">
+<td>ばったり</td>
+<td>今日一日中ずっと歩き回っていたので家に着いたとたんばったり倒れた。</td>
+<td>いきなり倒れたり落ちたりするさま。<br />偶然会う→ばったり会う</td>
+</tr>
+<tr class="odd">
+<td>ぼろぼろ</td>
+<td>夜勤を一ヶ月続けたら体がぼろぼろになってしまった。</td>
+<td>心身とも疲れ切っているさま。<br />車や服など物にもよく使う。</td>
 </tr>
 </tbody>
 </table>
@@ -14289,180 +14485,7 @@ id="つは行くっは行ぱ行">「つ」＋「は行」、「く」→「っ�
 ]]></content>
       <categories>
         <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>飲み物についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%A3%B2%E3%81%BF%E7%89%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>お湯</td>
-<td>热水</td>
-</tr>
-<tr class="even">
-<td>お冷や</td>
-<td>凉水</td>
-</tr>
-<tr class="odd">
-<td>お酒</td>
-<td>酒</td>
-</tr>
-<tr class="even">
-<td>ミルクティー</td>
-<td>奶茶</td>
-</tr>
-<tr class="odd">
-<td>タピオカ</td>
-<td>珍珠奶茶</td>
-</tr>
-<tr class="even">
-<td>ビール</td>
-<td>啤酒</td>
-</tr>
-<tr class="odd">
-<td>ワイン</td>
-<td>红酒</td>
-</tr>
-<tr class="even">
-<td>スプライト</td>
-<td>雪碧</td>
-</tr>
-<tr class="odd">
-<td>ファンタ</td>
-<td>芬达</td>
-</tr>
-<tr class="even">
-<td>コーラ</td>
-<td>可乐</td>
-</tr>
-<tr class="odd">
-<td>カクテル</td>
-<td>鸡尾酒</td>
-</tr>
-<tr class="even">
-<td>シャンピン</td>
-<td>香槟</td>
-</tr>
-<tr class="odd">
-<td>コーヒー</td>
-<td>咖啡</td>
-</tr>
-<tr class="even">
-<td>ヨーグルト</td>
-<td>酸奶</td>
-</tr>
-<tr class="odd">
-<td>ミルク</td>
-<td>牛奶</td>
-</tr>
-<tr class="even">
-<td>サイダー</td>
-<td>汽水</td>
-</tr>
-<tr class="odd">
-<td>ジュース</td>
-<td>果汁</td>
-</tr>
-<tr class="even">
-<td>ラテ</td>
-<td>拿铁</td>
-</tr>
-<tr class="odd">
-<td>お茶</td>
-<td>茶</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>色についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ピンク</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>薄ピンク</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>水色（みずいろ）</td>
-<td>淡蓝色</td>
-</tr>
-<tr class="even">
-<td>黄緑（きみどり）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>黄色（きいろ）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>青い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>紫（むらさき）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>オレンジ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>緑</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>灰色（はいいろ）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>赤い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>黒い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>白い（しろい）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>茶色（ちゃいろ）</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
+        <category>JLPT N1</category>
       </categories>
   </entry>
 </search>
