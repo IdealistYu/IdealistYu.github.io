@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2024-05-14T15:53:43.100Z</updated>
+  <updated>2024-05-17T13:59:36.322Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Terminology (Quantum Computing)</title>
+    <link href="https://blog.loveyou.moe/Quantum/Terminology/"/>
+    <id>https://blog.loveyou.moe/Quantum/Terminology/</id>
+    <published>2024-05-16T15:00:00.000Z</published>
+    <updated>2024-05-17T13:59:36.322Z</updated>
+    
+    
+    <summary type="html">updating</summary>
+    
+    
+    
+    <category term="Quantum" scheme="https://blog.loveyou.moe/categories/Quantum/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Basics of Game Theory</title>
     <link href="https://blog.loveyou.moe/KU/GameTheory/"/>
     <id>https://blog.loveyou.moe/KU/GameTheory/</id>
     <published>2024-05-10T15:00:00.000Z</published>
-    <updated>2024-05-14T15:53:43.100Z</updated>
+    <updated>2024-05-16T14:49:58.463Z</updated>
     
     
     <summary type="html">「まとめ」</summary>
@@ -74,7 +91,7 @@
     <link href="https://blog.loveyou.moe/Vocabulary/Vocabulary[2024]/"/>
     <id>https://blog.loveyou.moe/Vocabulary/Vocabulary[2024]/</id>
     <published>2024-03-23T15:00:00.000Z</published>
-    <updated>2024-05-13T02:45:00.525Z</updated>
+    <updated>2024-05-16T14:29:50.475Z</updated>
     
     
     <summary type="html">鄙人在读文献时候深感自己词汇量还差得远，于是乎决定积累一下碰到的不太熟悉的词汇，做成Todo List的形式，定期回顾一下（但愿）。</summary>
@@ -82,23 +99,6 @@
     
     
     <category term="Vocabulary" scheme="https://blog.loveyou.moe/categories/Vocabulary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>九大情報理工学過去問の解答</title>
-    <link href="https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/"/>
-    <id>https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</id>
-    <published>2024-03-10T15:00:00.000Z</published>
-    <updated>2024-03-10T16:57:16.659Z</updated>
-    
-    
-    <summary type="html">九州大学　大学院システム情報工学府　情報理工学専攻　過去問の解答（令和元年〜五年）</summary>
-    
-    
-    
-    <category term="KU" scheme="https://blog.loveyou.moe/categories/KU/"/>
     
     
   </entry>
