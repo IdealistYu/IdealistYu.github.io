@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2024-05-17T13:59:36.322Z</updated>
+  <updated>2024-05-19T07:11:52.162Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hidden Markov Model</title>
+    <link href="https://blog.loveyou.moe/KU/HMM/"/>
+    <id>https://blog.loveyou.moe/KU/HMM/</id>
+    <published>2024-05-18T15:00:00.000Z</published>
+    <updated>2024-05-19T07:11:52.162Z</updated>
+    
+    
+    <summary type="html">「まとめ」</summary>
+    
+    
+    
+    <category term="KU" scheme="https://blog.loveyou.moe/categories/KU/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Terminology (Quantum Computing)</title>
@@ -82,23 +99,6 @@
     <category term="日本語" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
     
     <category term="その他" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Vocabulary[2024]</title>
-    <link href="https://blog.loveyou.moe/Vocabulary/Vocabulary[2024]/"/>
-    <id>https://blog.loveyou.moe/Vocabulary/Vocabulary[2024]/</id>
-    <published>2024-03-23T15:00:00.000Z</published>
-    <updated>2024-05-16T14:29:50.475Z</updated>
-    
-    
-    <summary type="html">鄙人在读文献时候深感自己词汇量还差得远，于是乎决定积累一下碰到的不太熟悉的词汇，做成Todo List的形式，定期回顾一下（但愿）。</summary>
-    
-    
-    
-    <category term="Vocabulary" scheme="https://blog.loveyou.moe/categories/Vocabulary/"/>
     
     
   </entry>
