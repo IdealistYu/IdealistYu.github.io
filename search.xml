@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>人生第一张像素画</title>
+    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
+    <content><![CDATA[<hr />
+<h3
+id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
+<p><img src="/images/2023-12-14-1.png" /></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Aseprite</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Basics of Game Theory</title>
     <url>/KU/GameTheory/</url>
     <content><![CDATA[<h3 id="game-theory">Game Theory</h3>
@@ -313,13 +326,13 @@ class="math inline">\(\beta_t=P(X_{t+1},\cdots,X_T|Z_t)\)</span></p>
 <li>Homogeneous Markov Assumption</li>
 </ol>
 <p><span class="math display">\[
-P(i_{t+1}|i_t,\cdots,i_1,o_t,\cdots,o_1)=P(i_{t+1}|i_t)
+P(Z_{t+1}|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(Z_{t+1}|Z_t)
 \]</span></p>
 <ol start="2" type="1">
 <li>Independent observations Assumption</li>
 </ol>
 <p><span class="math display">\[
-P(o_t|i_t,\cdots,i_1,o_t,\cdots,o_1)=P(o_t|i_t)
+P(X_t|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(X_t|Z_t)
 \]</span></p>
 <h2 id="tasks">Tasks</h2>
 $$
@@ -384,6 +397,31 @@ href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7
 ]]></content>
       <categories>
         <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Terminology (Quantum Computing)</title>
+    <url>/Quantum/Terminology/</url>
+    <content><![CDATA[<hr />
+<h3 id="quantum-volume">Quantum Volume</h3>
+<p>Quantum volume is a metric that measures the capabilities and error
+rates of a quantum computer. It expresses the maximum size of square
+quantum circuits that can be implemented successfully by the computer.
+The form of the circuits is independent from the quantum computer
+architecture, but compiler can transform and optimize it to take
+advantage of the computer's features. Thus, quantum volumes for
+different architectures can be compared.</p>
+<p>IBM's redefinition</p>
+<p>In 2019, IBM's researchers modified the quantum volume definition to
+be an exponential of the circuit size, stating that it corresponds to
+the complexity of simulating the circuit on a classical computer: <span
+class="math display">\[
+\log_2 V_Q = \underset{n \le
+N}{\operatorname{arg\,max}}\left\{\min\left[n, d(n)\right]\right\}
+\]</span></p>
+]]></content>
+      <categories>
+        <category>Quantum</category>
       </categories>
   </entry>
   <entry>
@@ -1526,6 +1564,78 @@ hello.txt</td>
       </categories>
   </entry>
   <entry>
+    <title>LaTeX字母上方符号</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="section">^</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\hat A
+\]</span></p>
+<h1 id="section-1">-</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\overline A
+\]</span></p>
+<h1 id="section-2">~</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\widetilde A
+\]</span></p>
+<h1 id="section-3">・</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\dot A
+\quad
+\ddot A
+\quad
+\dddot A
+\quad
+\ddddot A
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX省略号</title>
+    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="横向底部省略号">横向底部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\ldots
+\]</span></p>
+<h1 id="横向中部省略号">横向中部省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+A\cdots
+\]</span></p>
+<h1 id="竖向省略号">竖向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\vdots
+\]</span></p>
+<h1 id="斜向省略号">斜向省略号</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\ddots
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+  </entry>
+  <entry>
     <title>树莓派安装conky监控运行状态</title>
     <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
     <content><![CDATA[<hr />
@@ -1582,6 +1692,39 @@ CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，�
 ]]></content>
       <categories>
         <category>Raspberry Pi</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>LaTeX字母加粗</title>
+    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
+    <content><![CDATA[<hr />
+<p><span class="math display">\[
+\LaTeX{}
+\]</span></p>
+<h1 id="常规表示">常规表示</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+m\quad \beta
+\]</span></p>
+<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol m
+\]</span></p>
+<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\mathbf m
+\]</span></p>
+<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
+<p><span class="math display">\[
+\boldsymbol \beta
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>LaTex</category>
       </categories>
   </entry>
   <entry>
@@ -2368,111 +2511,6 @@ href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式�
       </categories>
   </entry>
   <entry>
-    <title>LaTeX字母上方符号</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E4%B8%8A%E6%96%B9%E7%AC%A6%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="section">^</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\hat</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\hat A
-\]</span></p>
-<h1 id="section-1">-</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\overline</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\overline A
-\]</span></p>
-<h1 id="section-2">~</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\widetilde</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\widetilde A
-\]</span></p>
-<h1 id="section-3">・</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\dot</span> A <span class="keyword">\ddot</span> A <span class="keyword">\dddot</span> A <span class="keyword">\ddddot</span> A</span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\dot A
-\quad
-\ddot A
-\quad
-\dddot A
-\quad
-\ddddot A
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX字母加粗</title>
-    <url>/LaTex/LaTeX%E5%AD%97%E6%AF%8D%E5%8A%A0%E7%B2%97/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="常规表示">常规表示</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">m <span class="keyword">\quad</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-m\quad \beta
-\]</span></p>
-<h1 id="加粗不改变斜体">加粗（不改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol m
-\]</span></p>
-<h1 id="加粗改变斜体">加粗（改变斜体）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\mathbf</span> m </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\mathbf m
-\]</span></p>
-<h1 id="加粗希腊字母">加粗（希腊字母）</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\boldsymbol</span> <span class="keyword">\beta</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\boldsymbol \beta
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>LaTeX省略号</title>
-    <url>/LaTex/LaTeX%E7%9C%81%E7%95%A5%E5%8F%B7/</url>
-    <content><![CDATA[<hr />
-<p><span class="math display">\[
-\LaTeX{}
-\]</span></p>
-<h1 id="横向底部省略号">横向底部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ldots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\ldots
-\]</span></p>
-<h1 id="横向中部省略号">横向中部省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\cdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-A\cdots
-\]</span></p>
-<h1 id="竖向省略号">竖向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\vdots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\vdots
-\]</span></p>
-<h1 id="斜向省略号">斜向省略号</h1>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\ddots</span> </span><br></pre></td></tr></table></figure>
-<p><span class="math display">\[
-\ddots
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
     <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
@@ -2501,31 +2539,6 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
-    <title>Terminology (Quantum Computing)</title>
-    <url>/Quantum/Terminology/</url>
-    <content><![CDATA[<hr />
-<h3 id="quantum-volume">Quantum Volume</h3>
-<p>Quantum volume is a metric that measures the capabilities and error
-rates of a quantum computer. It expresses the maximum size of square
-quantum circuits that can be implemented successfully by the computer.
-The form of the circuits is independent from the quantum computer
-architecture, but compiler can transform and optimize it to take
-advantage of the computer's features. Thus, quantum volumes for
-different architectures can be compared.</p>
-<p>IBM's redefinition</p>
-<p>In 2019, IBM's researchers modified the quantum volume definition to
-be an exponential of the circuit size, stating that it corresponds to
-the complexity of simulating the circuit on a classical computer: <span
-class="math display">\[
-\log_2 V_Q = \underset{n \le
-N}{\operatorname{arg\,max}}\left\{\min\left[n, d(n)\right]\right\}
-\]</span></p>
-]]></content>
-      <categories>
-        <category>Quantum</category>
-      </categories>
-  </entry>
-  <entry>
     <title>img与a标签行内对齐</title>
     <url>/Site/img%E4%B8%8Ea%E6%A0%87%E7%AD%BE%E8%A1%8C%E5%86%85%E5%AF%B9%E9%BD%90/</url>
     <content><![CDATA[<hr />
@@ -2544,19 +2557,6 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
 ]]></content>
       <categories>
         <category>Site</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>人生第一张像素画</title>
-    <url>/Aseprite/%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E5%BC%A0%E5%83%8F%E7%B4%A0%E7%94%BB/</url>
-    <content><![CDATA[<hr />
-<h3
-id="照着之前买的博麗霊夢手机壳画的孩子不懂事字是乱加的">照着之前买的博麗霊夢手机壳画的，孩子不懂事，字是乱加的（</h3>
-<p><img src="/images/2023-12-14-1.png" /></p>
-<hr />
-]]></content>
-      <categories>
-        <category>Aseprite</category>
       </categories>
   </entry>
   <entry>
@@ -3879,6 +3879,592 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
+    <title>N1文法</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
+    <content><![CDATA[<hr />
+<h2 id="第１課-時間">第１課　時間</h2>
+<blockquote>
+<p>や否や</p>
+<p>や</p>
+<p>が早いか</p>
+<p>なり</p>
+<p>そばから</p>
+<p>がてら</p>
+<p>かたがた</p>
+<p>かたわら</p>
+<p>てからというもの</p>
+<p>を限りに</p>
+<p>を皮切りに</p>
+</blockquote>
+<h3 id="を皮切りに">1. を皮切りに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～为开端</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
+<blockquote>
+<p>とあって</p>
+<p>こととて</p>
+<p>ことだし</p>
+<p>こともあって</p>
+<p>ゆえに</p>
+<p>からこそ·ばこそ</p>
+<p>ではあるまいし</p>
+<p>始末だ</p>
+<p>た手前</p>
+<p>はずみに</p>
+<p>すじまい</p>
+</blockquote>
+<h3 id="とあって">2. とあって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、简体句</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为，由于特殊情况而出现了后项的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ゆえに">3. ゆえに</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>因为</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第３課-逆接">第３課　逆接</h2>
+<blockquote>
+<p>には～が～</p>
+<p>とはいえ</p>
+<p>といえども</p>
+<p>であれ</p>
+<p>ものを</p>
+<p>ないまでも</p>
+<p>ならまだしも</p>
+<p>たら～たで</p>
+<p>そうかと言って～ない</p>
+</blockquote>
+<h3 id="ものを">4. ものを</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（伴有不满）本来...可是...</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
+<blockquote>
+<p>ものなら</p>
+<p>ものとして</p>
+<p>としたって</p>
+<p>にしたって</p>
+<p>としたところで</p>
+<p>にしたところで</p>
+<p>とあれば</p>
+<p>たが·ら最後</p>
+<p>ともなると·ともなれば</p>
+<p>ようと（が）～ようと（が）</p>
+</blockquote>
+<h3 id="ものなら">5. ものなら</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>如果能～的话（可能性很低但期待实现）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>こられるものなら、もちろん来てほしいですが...</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ようとがようとがようとがまいとが">7.
+ようと·が～ようと·が、ようと·が～まいと·が</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>意向形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论、不管</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第５課-対象関係">第５課　対象、関係</h2>
+<blockquote>
+<p>に即して</p>
+<p>にひきかえ</p>
+<p>にかかわる</p>
+<p>に関わりなく</p>
+<p>にかけては</p>
+<p>と相まって</p>
+<p>にもまして</p>
+<p>をもって</p>
+<p>をよそに</p>
+<p>をしりめに</p>
+<p>をものともせずに</p>
+<p>をこめて</p>
+<p>をひかえて</p>
+<p>あっての</p>
+<p>から～に至るまで</p>
+<p>いかんだ·いかんによっては</p>
+<p>いかんによらず</p>
+<p>によるところ</p>
+</blockquote>
+<h3 id="をもって">8. をもって</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>以～，用～；表示时间的起止点；原因；据说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第６課-強調限定">第６課　強調、限定</h2>
+<blockquote>
+<p>はおろか</p>
+<p>もさることながら</p>
+<p>言うに及ばず</p>
+<p>ならではの</p>
+<p>ともあろう</p>
+<p>に至って</p>
+<p>にして</p>
+<p>に～を重ねる</p>
+<p>をおいて～ない</p>
+<p>てやまない</p>
+<p>たりとも</p>
+<p>なり</p>
+<p>てまで</p>
+<p>からある</p>
+<p>だに</p>
+<p>すら</p>
+<p>ですら</p>
+<p>だけ</p>
+<p>ただ～のみ</p>
+</blockquote>
+<h3 id="もさることながら">9. もさることながら</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>～是当然的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ならではの">10. ならではの</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>只有～才有的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>このような細かい心遣いは恋人ならではですね。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第7課-並列">第7課　並列</h2>
+<blockquote>
+<p>あるかと思えば～もある</p>
+<p>だの～だの</p>
+<p>なり～なり</p>
+<p>といい～といい</p>
+<p>であれ～であれ</p>
+<p>つ～つ</p>
+</blockquote>
+<h3 id="といいといい">1１. といい～といい</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论从～来说还是从～来说</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>学歴といい、実力といい、向こうの方が勝っている。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="であれであれ">1２. であれ～であれ</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、形容词词干</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>无论～还是～</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第８課-話題提出">第８課　話題提出</h2>
+<blockquote>
+<p>ときたら</p>
+<p>に至っては</p>
+<p>たるもの</p>
+<p>とは</p>
+<p>～はいざしらず·ならいざしらず</p>
+<p>はともあれ</p>
+<p>はさておき</p>
+</blockquote>
+<h3 id="はさておき">1３. はさておき</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词或短语</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>暂且不提</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第９課-判断評価">第９課　判断、評価</h2>
+<blockquote>
+<p>までもない</p>
+<p>にあたらない</p>
+<p>にかたくない</p>
+<p>に限ったことではない</p>
+<p>ないとも限らない</p>
+<p>といったらありゃしない·といったらない</p>
+<p>なんと～だろう·なんという～だろう</p>
+<p>くらいなら～方がいい</p>
+<p>に越したことはない</p>
+<p>ないものでもない</p>
+<p>といって～ない</p>
+<p>という～ない</p>
+<p>までだ</p>
+<p>までのことだ</p>
+<p>ばそれまでだ</p>
+<p>てしかるべきだ</p>
+<p>限りだ</p>
+<p>極まる·極まりない</p>
+<p>の至り</p>
+<p>きらいがある</p>
+<p>に足る</p>
+<p>あるまじき</p>
+<p>というところだ</p>
+</blockquote>
+<h3 id="までもない">1４. までもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>基本型</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>没必要</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="なんとだろう">1５. なんと～だろう</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>一般修饰动词/形容词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>多么～啊</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>なんと優しい人だろう。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ないものでもないないでもない">1６.
+ないものでもない／ないでもない</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>ない形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>也不是不～（不情愿的妥协）</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>どうしても知りたいなら、教えないものでもない。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="までだ">1７. までだ</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言、用言连体形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第10課-可能">第10課　可能</h2>
+<blockquote>
+<p>ないものか</p>
+<p>ずにすむ</p>
+<p>を禁じ得ない</p>
+<p>を余儀なくされる·を余儀なくさせる</p>
+<p>にたえる</p>
+<p>にたえない</p>
+<p>べくもない</p>
+</blockquote>
+<h3 id="を余儀なくされるを余儀なくさせる">1８.
+を余儀なくされる·を余儀なくさせる</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>体言</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>被迫；迫使</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第11課-状態">第11課　状態</h2>
+<blockquote>
+<p>ずにはおかない</p>
+<p>てかなわない</p>
+<p>ともなく·ともなしに</p>
+<p>ことなく·ことなしに</p>
+<p>ごとき</p>
+<p>ながらに</p>
+<p>なりに</p>
+<p>ばかりになっている</p>
+<p>とばかりに</p>
+<p>んばかりに</p>
+<p>んがために</p>
+<p>んとする</p>
+<p>べく</p>
+<p>べくして</p>
+<p>にあって</p>
+</blockquote>
+<h3 id="なりに">1９. なりに</h3>
+<table>
+<thead>
+<tr class="header">
+<th>接続</th>
+<th>名词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>意味</td>
+<td>与～相称的，相适应的</td>
+</tr>
+<tr class="even">
+<td>例文</td>
+<td>子供には子供なりの考えがある。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="第12課-接尾語">第12課　接尾語</h2>
+<blockquote>
+<p>そこなう</p>
+<p>こなす</p>
+<p>あげる</p>
+</blockquote>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N1</category>
+      </categories>
+  </entry>
+  <entry>
     <title>N1擬声語と擬態語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%93%AC%E5%A3%B0%E8%AA%9E%E3%81%A8%E6%93%AC%E6%85%8B%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -5085,592 +5671,6 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 </tr>
 </tbody>
 </table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N1</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N1文法</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E6%96%87%E6%B3%95/</url>
-    <content><![CDATA[<hr />
-<h2 id="第１課-時間">第１課　時間</h2>
-<blockquote>
-<p>や否や</p>
-<p>や</p>
-<p>が早いか</p>
-<p>なり</p>
-<p>そばから</p>
-<p>がてら</p>
-<p>かたがた</p>
-<p>かたわら</p>
-<p>てからというもの</p>
-<p>を限りに</p>
-<p>を皮切りに</p>
-</blockquote>
-<h3 id="を皮切りに">1. を皮切りに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～为开端</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>彼が歌い出したのお皮切りに、みんな歌った。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第２課-原因理由結果">第２課　原因、理由、結果</h2>
-<blockquote>
-<p>とあって</p>
-<p>こととて</p>
-<p>ことだし</p>
-<p>こともあって</p>
-<p>ゆえに</p>
-<p>からこそ·ばこそ</p>
-<p>ではあるまいし</p>
-<p>始末だ</p>
-<p>た手前</p>
-<p>はずみに</p>
-<p>すじまい</p>
-</blockquote>
-<h3 id="とあって">2. とあって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、简体句</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为，由于特殊情况而出现了后项的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>日本で初めて生まれたパンダとあって、見物人が全国から上野動物園に殺到した。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ゆえに">3. ゆえに</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形、体言＋の、体言＋が、用言体行形＋が</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>因为</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>初心者故、よろしくご指導ください。<br />外国人であるがゆえに、そんな扱いを受けたのだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第３課-逆接">第３課　逆接</h2>
-<blockquote>
-<p>には～が～</p>
-<p>とはいえ</p>
-<p>といえども</p>
-<p>であれ</p>
-<p>ものを</p>
-<p>ないまでも</p>
-<p>ならまだしも</p>
-<p>たら～たで</p>
-<p>そうかと言って～ない</p>
-</blockquote>
-<h3 id="ものを">4. ものを</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（伴有不满）本来...可是...</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないと一言いってくれれば貸してやったものを、何も言わないのでわからなかった。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第４課-仮定条件">第４課　仮定、条件</h2>
-<blockquote>
-<p>ものなら</p>
-<p>ものとして</p>
-<p>としたって</p>
-<p>にしたって</p>
-<p>としたところで</p>
-<p>にしたところで</p>
-<p>とあれば</p>
-<p>たが·ら最後</p>
-<p>ともなると·ともなれば</p>
-<p>ようと（が）～ようと（が）</p>
-</blockquote>
-<h3 id="ものなら">5. ものなら</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>如果能～的话（可能性很低但期待实现）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>こられるものなら、もちろん来てほしいですが...</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ともなるとともなれば">6. ともなると·ともなれば</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>一到～强调到某一特殊时期会出现与往常不同的状态</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>今はさわやかな毎日だが、11月ともなると、ほとんど毎日雪だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ようとがようとがようとがまいとが">7.
-ようと·が～ようと·が、ようと·が～まいと·が</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>意向形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论、不管</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>雨が降ろうと風が吹こうと、僕は行きます。<br />雨が降ろうとふるまいと、家の中にいる僕には関係ないことだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第５課-対象関係">第５課　対象、関係</h2>
-<blockquote>
-<p>に即して</p>
-<p>にひきかえ</p>
-<p>にかかわる</p>
-<p>に関わりなく</p>
-<p>にかけては</p>
-<p>と相まって</p>
-<p>にもまして</p>
-<p>をもって</p>
-<p>をよそに</p>
-<p>をしりめに</p>
-<p>をものともせずに</p>
-<p>をこめて</p>
-<p>をひかえて</p>
-<p>あっての</p>
-<p>から～に至るまで</p>
-<p>いかんだ·いかんによっては</p>
-<p>いかんによらず</p>
-<p>によるところ</p>
-</blockquote>
-<h3 id="をもって">8. をもって</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>以～，用～；表示时间的起止点；原因；据说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>みんなの実力をもってすれば、今度の試験は必ずうまく行くはずだ。<br />田中先生の話をもってすれば、佐藤は真面目です。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第６課-強調限定">第６課　強調、限定</h2>
-<blockquote>
-<p>はおろか</p>
-<p>もさることながら</p>
-<p>言うに及ばず</p>
-<p>ならではの</p>
-<p>ともあろう</p>
-<p>に至って</p>
-<p>にして</p>
-<p>に～を重ねる</p>
-<p>をおいて～ない</p>
-<p>てやまない</p>
-<p>たりとも</p>
-<p>なり</p>
-<p>てまで</p>
-<p>からある</p>
-<p>だに</p>
-<p>すら</p>
-<p>ですら</p>
-<p>だけ</p>
-<p>ただ～のみ</p>
-</blockquote>
-<h3 id="もさることながら">9. もさることながら</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>～是当然的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このあにめは画面の美しさもさることながら、ストーリーも感動的だ。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ならではの">10. ならではの</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>只有～才有的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>このような細かい心遣いは恋人ならではですね。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第7課-並列">第7課　並列</h2>
-<blockquote>
-<p>あるかと思えば～もある</p>
-<p>だの～だの</p>
-<p>なり～なり</p>
-<p>といい～といい</p>
-<p>であれ～であれ</p>
-<p>つ～つ</p>
-</blockquote>
-<h3 id="といいといい">1１. といい～といい</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论从～来说还是从～来说</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>学歴といい、実力といい、向こうの方が勝っている。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="であれであれ">1２. であれ～であれ</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、形容词词干</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>无论～还是～</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>大人であろうと、子供であろうと、みんなこの組が好きだ。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第８課-話題提出">第８課　話題提出</h2>
-<blockquote>
-<p>ときたら</p>
-<p>に至っては</p>
-<p>たるもの</p>
-<p>とは</p>
-<p>～はいざしらず·ならいざしらず</p>
-<p>はともあれ</p>
-<p>はさておき</p>
-</blockquote>
-<h3 id="はさておき">1３. はさておき</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词或短语</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>暂且不提</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>いつ出発するかはさておき、とりあえず行くかどうか決めましょう。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第９課-判断評価">第９課　判断、評価</h2>
-<blockquote>
-<p>までもない</p>
-<p>にあたらない</p>
-<p>にかたくない</p>
-<p>に限ったことではない</p>
-<p>ないとも限らない</p>
-<p>といったらありゃしない·といったらない</p>
-<p>なんと～だろう·なんという～だろう</p>
-<p>くらいなら～方がいい</p>
-<p>に越したことはない</p>
-<p>ないものでもない</p>
-<p>といって～ない</p>
-<p>という～ない</p>
-<p>までだ</p>
-<p>までのことだ</p>
-<p>ばそれまでだ</p>
-<p>てしかるべきだ</p>
-<p>限りだ</p>
-<p>極まる·極まりない</p>
-<p>の至り</p>
-<p>きらいがある</p>
-<p>に足る</p>
-<p>あるまじき</p>
-<p>というところだ</p>
-</blockquote>
-<h3 id="までもない">1４. までもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>基本型</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>没必要</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>そんなことは常識だ。わざわざ説明してもらうまでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="なんとだろう">1５. なんと～だろう</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>一般修饰动词/形容词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>多么～啊</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>なんと優しい人だろう。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ないものでもないないでもない">1６.
-ないものでもない／ないでもない</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>ない形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>也不是不～（不情愿的妥协）</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>どうしても知りたいなら、教えないものでもない。</td>
-</tr>
-</tbody>
-</table>
-<h3 id="までだ">1７. までだ</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言、用言连体形</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>（表示在这种方法下可以解决）～就是了；仅此而已</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>結婚したくないなら、しないまでのことだ。<br />わからないから聞いたまでで、他の意味はありません。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第10課-可能">第10課　可能</h2>
-<blockquote>
-<p>ないものか</p>
-<p>ずにすむ</p>
-<p>を禁じ得ない</p>
-<p>を余儀なくされる·を余儀なくさせる</p>
-<p>にたえる</p>
-<p>にたえない</p>
-<p>べくもない</p>
-</blockquote>
-<h3 id="を余儀なくされるを余儀なくさせる">1８.
-を余儀なくされる·を余儀なくさせる</h3>
-<table>
-<colgroup>
-<col style="width: 6%" />
-<col style="width: 93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>体言</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>被迫；迫使</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>お金がないため、退学を余儀なくされた。<br />資金不足は、その工事の中止を余儀なくさせた。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第11課-状態">第11課　状態</h2>
-<blockquote>
-<p>ずにはおかない</p>
-<p>てかなわない</p>
-<p>ともなく·ともなしに</p>
-<p>ことなく·ことなしに</p>
-<p>ごとき</p>
-<p>ながらに</p>
-<p>なりに</p>
-<p>ばかりになっている</p>
-<p>とばかりに</p>
-<p>んばかりに</p>
-<p>んがために</p>
-<p>んとする</p>
-<p>べく</p>
-<p>べくして</p>
-<p>にあって</p>
-</blockquote>
-<h3 id="なりに">1９. なりに</h3>
-<table>
-<thead>
-<tr class="header">
-<th>接続</th>
-<th>名词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>意味</td>
-<td>与～相称的，相适应的</td>
-</tr>
-<tr class="even">
-<td>例文</td>
-<td>子供には子供なりの考えがある。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="第12課-接尾語">第12課　接尾語</h2>
-<blockquote>
-<p>そこなう</p>
-<p>こなす</p>
-<p>あげる</p>
-</blockquote>
 <hr />
 ]]></content>
       <categories>
@@ -12702,6 +12702,203 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       </categories>
   </entry>
   <entry>
+    <title>料理についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>炒める</td>
+</tr>
+<tr class="even">
+<td>煎る</td>
+</tr>
+<tr class="odd">
+<td>焼く</td>
+</tr>
+<tr class="even">
+<td>炙る</td>
+</tr>
+<tr class="odd">
+<td>揚げる</td>
+</tr>
+<tr class="even">
+<td>素揚げ</td>
+</tr>
+<tr class="odd">
+<td>炊く</td>
+</tr>
+<tr class="even">
+<td>蒸す</td>
+</tr>
+<tr class="odd">
+<td>蒸かす</td>
+</tr>
+<tr class="even">
+<td>蒸らす</td>
+</tr>
+<tr class="odd">
+<td>煮る</td>
+</tr>
+<tr class="even">
+<td>煮込む</td>
+</tr>
+<tr class="odd">
+<td>煮詰める</td>
+</tr>
+<tr class="even">
+<td>茹でる</td>
+</tr>
+<tr class="odd">
+<td>湯がく</td>
+</tr>
+<tr class="even">
+<td>沸かす</td>
+</tr>
+<tr class="odd">
+<td>漬ける</td>
+</tr>
+<tr class="even">
+<td>チンする</td>
+</tr>
+<tr class="odd">
+<td>火を通す</td>
+</tr>
+<tr class="even">
+<td>温める</td>
+</tr>
+<tr class="odd">
+<td>冷ます</td>
+</tr>
+<tr class="even">
+<td>解凍</td>
+</tr>
+<tr class="odd">
+<td>切る</td>
+</tr>
+<tr class="even">
+<td>輪切り</td>
+</tr>
+<tr class="odd">
+<td>半月切り</td>
+</tr>
+<tr class="even">
+<td>銀杏切り</td>
+</tr>
+<tr class="odd">
+<td>小口切り</td>
+</tr>
+<tr class="even">
+<td>斜め切り</td>
+</tr>
+<tr class="odd">
+<td>乱切り</td>
+</tr>
+<tr class="even">
+<td>拍子木切り</td>
+</tr>
+<tr class="odd">
+<td>短冊切り</td>
+</tr>
+<tr class="even">
+<td>色紙切り</td>
+</tr>
+<tr class="odd">
+<td>賽の目切り</td>
+</tr>
+<tr class="even">
+<td>千切り</td>
+</tr>
+<tr class="odd">
+<td>微塵切り</td>
+</tr>
+<tr class="even">
+<td>櫛形切り</td>
+</tr>
+<tr class="odd">
+<td>飾り切り</td>
+</tr>
+<tr class="even">
+<td>薄切り</td>
+</tr>
+<tr class="odd">
+<td>ぶつ切り</td>
+</tr>
+<tr class="even">
+<td>笹掻き</td>
+</tr>
+<tr class="odd">
+<td>剝く</td>
+</tr>
+<tr class="even">
+<td>刻む</td>
+</tr>
+<tr class="odd">
+<td>（魚を）捌く</td>
+</tr>
+<tr class="even">
+<td>（魚を）おろす</td>
+</tr>
+<tr class="odd">
+<td>おろす/すりおろす</td>
+</tr>
+<tr class="even">
+<td>すりつぶす</td>
+</tr>
+<tr class="odd">
+<td>漉す</td>
+</tr>
+<tr class="even">
+<td>捏ねる</td>
+</tr>
+<tr class="odd">
+<td>混ぜる</td>
+</tr>
+<tr class="even">
+<td>和える</td>
+</tr>
+<tr class="odd">
+<td>焦がす</td>
+</tr>
+<tr class="even">
+<td>泡立てる</td>
+</tr>
+<tr class="odd">
+<td>寝かす</td>
+</tr>
+<tr class="even">
+<td>干す</td>
+</tr>
+<tr class="odd">
+<td>発酵</td>
+</tr>
+<tr class="even">
+<td>燻製</td>
+</tr>
+<tr class="odd">
+<td>水を切る</td>
+</tr>
+<tr class="even">
+<td>水で戻す</td>
+</tr>
+<tr class="odd">
+<td>ミキサーにかける</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
     <title>授受</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
     <content><![CDATA[<hr />
@@ -12926,203 +13123,6 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
       </categories>
   </entry>
   <entry>
-    <title>料理についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>炒める</td>
-</tr>
-<tr class="even">
-<td>煎る</td>
-</tr>
-<tr class="odd">
-<td>焼く</td>
-</tr>
-<tr class="even">
-<td>炙る</td>
-</tr>
-<tr class="odd">
-<td>揚げる</td>
-</tr>
-<tr class="even">
-<td>素揚げ</td>
-</tr>
-<tr class="odd">
-<td>炊く</td>
-</tr>
-<tr class="even">
-<td>蒸す</td>
-</tr>
-<tr class="odd">
-<td>蒸かす</td>
-</tr>
-<tr class="even">
-<td>蒸らす</td>
-</tr>
-<tr class="odd">
-<td>煮る</td>
-</tr>
-<tr class="even">
-<td>煮込む</td>
-</tr>
-<tr class="odd">
-<td>煮詰める</td>
-</tr>
-<tr class="even">
-<td>茹でる</td>
-</tr>
-<tr class="odd">
-<td>湯がく</td>
-</tr>
-<tr class="even">
-<td>沸かす</td>
-</tr>
-<tr class="odd">
-<td>漬ける</td>
-</tr>
-<tr class="even">
-<td>チンする</td>
-</tr>
-<tr class="odd">
-<td>火を通す</td>
-</tr>
-<tr class="even">
-<td>温める</td>
-</tr>
-<tr class="odd">
-<td>冷ます</td>
-</tr>
-<tr class="even">
-<td>解凍</td>
-</tr>
-<tr class="odd">
-<td>切る</td>
-</tr>
-<tr class="even">
-<td>輪切り</td>
-</tr>
-<tr class="odd">
-<td>半月切り</td>
-</tr>
-<tr class="even">
-<td>銀杏切り</td>
-</tr>
-<tr class="odd">
-<td>小口切り</td>
-</tr>
-<tr class="even">
-<td>斜め切り</td>
-</tr>
-<tr class="odd">
-<td>乱切り</td>
-</tr>
-<tr class="even">
-<td>拍子木切り</td>
-</tr>
-<tr class="odd">
-<td>短冊切り</td>
-</tr>
-<tr class="even">
-<td>色紙切り</td>
-</tr>
-<tr class="odd">
-<td>賽の目切り</td>
-</tr>
-<tr class="even">
-<td>千切り</td>
-</tr>
-<tr class="odd">
-<td>微塵切り</td>
-</tr>
-<tr class="even">
-<td>櫛形切り</td>
-</tr>
-<tr class="odd">
-<td>飾り切り</td>
-</tr>
-<tr class="even">
-<td>薄切り</td>
-</tr>
-<tr class="odd">
-<td>ぶつ切り</td>
-</tr>
-<tr class="even">
-<td>笹掻き</td>
-</tr>
-<tr class="odd">
-<td>剝く</td>
-</tr>
-<tr class="even">
-<td>刻む</td>
-</tr>
-<tr class="odd">
-<td>（魚を）捌く</td>
-</tr>
-<tr class="even">
-<td>（魚を）おろす</td>
-</tr>
-<tr class="odd">
-<td>おろす/すりおろす</td>
-</tr>
-<tr class="even">
-<td>すりつぶす</td>
-</tr>
-<tr class="odd">
-<td>漉す</td>
-</tr>
-<tr class="even">
-<td>捏ねる</td>
-</tr>
-<tr class="odd">
-<td>混ぜる</td>
-</tr>
-<tr class="even">
-<td>和える</td>
-</tr>
-<tr class="odd">
-<td>焦がす</td>
-</tr>
-<tr class="even">
-<td>泡立てる</td>
-</tr>
-<tr class="odd">
-<td>寝かす</td>
-</tr>
-<tr class="even">
-<td>干す</td>
-</tr>
-<tr class="odd">
-<td>発酵</td>
-</tr>
-<tr class="even">
-<td>燻製</td>
-</tr>
-<tr class="odd">
-<td>水を切る</td>
-</tr>
-<tr class="even">
-<td>水で戻す</td>
-</tr>
-<tr class="odd">
-<td>ミキサーにかける</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
     <title>省略語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -13265,82 +13265,6 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
 <p>放在句中，相当于 でも</p>
 <p>放在句尾，相当于 という</p>
 <hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>色についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ピンク</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>薄ピンク</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>水色（みずいろ）</td>
-<td>淡蓝色</td>
-</tr>
-<tr class="even">
-<td>黄緑（きみどり）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>黄色（きいろ）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>青い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>紫（むらさき）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>オレンジ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>緑</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>灰色（はいいろ）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>赤い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>黒い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>白い（しろい）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>茶色（ちゃいろ）</td>
-<td></td>
-</tr>
-</tbody>
-</table>
 ]]></content>
       <categories>
         <category>日本語</category>
@@ -14033,6 +13957,82 @@ id="資料をコピーしたいんですがコピー機を使わせていただ�
 </tbody>
 </table>
 <hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>色についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ピンク</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>薄ピンク</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>水色（みずいろ）</td>
+<td>淡蓝色</td>
+</tr>
+<tr class="even">
+<td>黄緑（きみどり）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>黄色（きいろ）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>青い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>紫（むらさき）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>オレンジ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>緑</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>灰色（はいいろ）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>赤い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>黒い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>白い（しろい）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>茶色（ちゃいろ）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 ]]></content>
       <categories>
         <category>日本語</category>
