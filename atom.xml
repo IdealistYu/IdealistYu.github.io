@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2024-05-19T07:22:44.454Z</updated>
+  <updated>2024-05-26T14:55:13.519Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于随笔</title>
+    <link href="https://blog.loveyou.moe/%E9%9A%8F%E7%AC%94/%E5%85%B3%E4%BA%8E%E9%9A%8F%E7%AC%94/"/>
+    <id>https://blog.loveyou.moe/%E9%9A%8F%E7%AC%94/%E5%85%B3%E4%BA%8E%E9%9A%8F%E7%AC%94/</id>
+    <published>2024-05-25T15:00:00.000Z</published>
+    <updated>2024-05-26T14:55:13.519Z</updated>
+    
+    
+    <summary type="html">人果然还是得写点什么的...</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.loveyou.moe/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hidden Markov Model</title>
@@ -80,25 +97,6 @@
     
     
     <category term="Vocabulary" scheme="https://blog.loveyou.moe/categories/Vocabulary/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>キーの記号の読み方</title>
-    <link href="https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/"/>
-    <id>https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/</id>
-    <published>2024-04-09T15:00:00.000Z</published>
-    <updated>2024-04-20T12:58:09.989Z</updated>
-    
-    
-    <summary type="html">「まとめ」</summary>
-    
-    
-    
-    <category term="日本語" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
-    
-    <category term="その他" scheme="https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/"/>
     
     
   </entry>
