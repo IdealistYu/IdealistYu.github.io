@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.loveyou.moe/anime/index.html</loc>
+    
+    <lastmod>2024-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/%E9%9A%8F%E7%AC%94/%E5%85%B3%E4%BA%8E%E9%9A%8F%E7%AC%94/</loc>
     
     <lastmod>2024-05-26</lastmod>
@@ -409,13 +418,6 @@
 
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/KU/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.loveyou.moe/categories/Quantum/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -423,14 +425,21 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
+    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Regular-expression/</loc>
+    <loc>https://blog.loveyou.moe/categories/KU/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.loveyou.moe/categories/Aseprite/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -444,6 +453,13 @@
   </url>
   
   <url>
+    <loc>https://blog.loveyou.moe/categories/Linux/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/categories/Vocabulary/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -451,7 +467,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
+    <loc>https://blog.loveyou.moe/categories/Regular-expression/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -472,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Aseprite/</loc>
+    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -486,14 +502,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
+    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -507,7 +516,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
+    <loc>https://blog.loveyou.moe/categories/Literature/Translate/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
