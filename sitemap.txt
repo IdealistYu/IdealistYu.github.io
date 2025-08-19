@@ -6,7 +6,6 @@ https://blog.loveyou.moe/KU/HMM/
 https://blog.loveyou.moe/Vocabulary/Abbreviations/
 https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/
 https://blog.loveyou.moe/categories/index.html
-https://blog.loveyou.moe/download/index.html
 https://blog.loveyou.moe/404.html
 https://blog.loveyou.moe/Literature/Translate/BERT/
 https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/
@@ -42,9 +41,9 @@ https://blog.loveyou.moe/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96
 https://blog.loveyou.moe/
 https://blog.loveyou.moe/categories/KU/
 https://blog.loveyou.moe/categories/LaTex/
-https://blog.loveyou.moe/categories/Regular-expression/
-https://blog.loveyou.moe/categories/Raspberry-Pi/
 https://blog.loveyou.moe/categories/Linux/
+https://blog.loveyou.moe/categories/Raspberry-Pi/
+https://blog.loveyou.moe/categories/Regular-expression/
 https://blog.loveyou.moe/categories/Site/
 https://blog.loveyou.moe/categories/Vocabulary/
 https://blog.loveyou.moe/categories/%E9%9A%8F%E7%AC%94/
