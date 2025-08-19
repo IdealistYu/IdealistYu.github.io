@@ -1,6 +1,485 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hidden Markov Model</title>
+    <url>/KU/HMM/</url>
+    <content><![CDATA[<p><img src="https://p.ipic.vip/wp3csr.png" /></p>
+<h2 id="basics-of-model">Basics of model</h2>
+<p><span class="math display">\[
+\lambda=(\pi,\mathcal A,\mathcal B)
+\]</span></p>
+<p><span class="math inline">\(\pi:\)</span> initial distribution</p>
+<p><span class="math inline">\(\mathcal A:\)</span> state-transition
+matrix</p>
+<p><span class="math inline">\(\mathcal B:\)</span>​ emission matrix</p>
+<p><span
+class="math inline">\(\alpha_t=P(X_1,\cdots,X_t,Z_t)\)</span>​</p>
+<p><span
+class="math inline">\(\beta_t=P(X_{t+1},\cdots,X_T|Z_t)\)</span></p>
+<h2 id="assumption">Assumption</h2>
+<ol type="1">
+<li>Homogeneous Markov Assumption</li>
+</ol>
+<p><span class="math display">\[
+P(Z_{t+1}|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(Z_{t+1}|Z_t)
+\]</span></p>
+<ol start="2" type="1">
+<li>Independent observations Assumption</li>
+</ol>
+<p><span class="math display">\[
+P(X_t|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(X_t|Z_t)
+\]</span></p>
+<h2 id="tasks">Tasks</h2>
+<p><span class="math display">\[
+\begin{cases}
+\text{Learning}\,(\lambda:\text{unknown})\quad\lambda_{MLE}=\underset{\lambda}
+{\operatorname{arg\,max}}P(X|\lambda)\quad \text{[Baum–Welch
+Algorithm]}\\
+\text{Inference}\,(\lambda:\text{known})
+\begin{cases}
+\text{Decoding}: Z=\underset{Z} {\operatorname{arg\,max}}P(Z|X)\quad
+\text{[Viterbi Algorithm]}\\
+\text{Prob of evidence}:P(X) \quad \text{[Forward Algorithm] | [Backward
+Algorithm]}\\
+\text{Filtering(online)}:P(Z_t|X_1,\cdots\,X_t) \quad \text{[Forward
+Algorithm]}\\
+\text{Smoothing(offline)}:P(Z_t|X_1,\cdots\,X_T) \quad
+\text{[Forward-Backward Algorithm]}\\
+\text{Prediction}:P(Z_{t+1}|X_1,\cdots\,X_t) \text{ or }
+P(X_{t+1}|X_1,\cdots\,X_t)\quad \text{[Forward Algorithm]}\\
+\end{cases}
+\end{cases}
+\]</span></p>
+<hr />
+]]></content>
+      <categories>
+        <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Basics of Game Theory</title>
+    <url>/KU/GameTheory/</url>
+    <content><![CDATA[<h3 id="game-theory">Game Theory</h3>
+<p>Game theory is the study of mathematical models of strategic
+interactions among rational agents. It has applications in many fields
+of social science, used extensively in economics as well as in logic,
+systems science and computer science.</p>
+<h3 id="classification">Classification</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Cooperative Game</th>
+<th>Non-Cooperative Game</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Complete Information Game</strong><br /><strong>Perfect
+Information Game</strong><br /><strong>Certainty
+Game</strong><br /><strong>Symmetric Game</strong></td>
+<td><strong>Incomplete Information Game</strong><br /><strong>Imperfect
+Information Game</strong><br /><strong>Uncertain
+Game</strong><br /><strong>Asymmetric Game</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Static Game (Simultaneous-Move)</strong></td>
+<td><strong>Dynamic Game (Sequential-Move)</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Zero-Sum Game</strong><br /><strong>Constant-Sum
+Game</strong></td>
+<td><strong>Non-Zero-Sum Game</strong><br /><strong>Variable-Sum
+Game</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Alliance Game</strong></td>
+<td><strong>Non-Aligned Game</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="representation">Representation</h3>
+<ul>
+<li>Normal form: The normal (or strategic form) game is usually
+represented by a matrix which shows the players, strategies, and payoffs
+(as pictured here).</li>
+</ul>
+<p><img src="https://p.ipic.vip/qhcote.png" style="zoom:50%;" /></p>
+<ul>
+<li>Extensive form: The extensive form can be used to formalize games
+with a time sequencing of moves. Extensive form games can be visualised
+using game trees (as pictured here). Here each vertex (or node)
+represents a point of choice for a player. The player is specified by a
+number listed by the vertex. The lines out of the vertex represent a
+possible action for that player. The payoffs are specified at the bottom
+of the tree.</li>
+</ul>
+<p><img src="https://p.ipic.vip/y1utne.png" style="zoom:10%;" /></p>
+<ul>
+<li>Characteristic function form: In games that possess removable
+utility, separate rewards are not given; rather, the characteristic
+function decides the payoff of each unity. The idea is that the unity
+that is 'empty', so to speak, does not receive a reward at all.</li>
+</ul>
+<h3 id="dominant-strategy">Dominant Strategy</h3>
+<p>The strategy that gives you higher (or equal) utility than any other
+strategy, regardless of the opponent’s action.</p>
+<h3 id="dominant-strategy-equilibrium">Dominant Strategy
+Equilibrium</h3>
+<p>When each player has a dominant strategy, the combination is termed a
+dominant strategy equilibrium.</p>
+<h3 id="nash-equilibrium">Nash Equilibrium</h3>
+<p>In game theory, the Nash equilibrium is the most commonly-used
+solution concept for non-cooperative games. A Nash equilibrium is a
+situation where no player could gain by changing their own strategy
+(holding all other players' strategies fixed).</p>
+<h3 id="cooperative-equilibrium">Cooperative Equilibrium</h3>
+<p>A cooperative equilibrium is a solution concept in game theory where
+players achieve optimal outcomes through cooperation. In this state, all
+participants adhere to consistent cooperative strategies to maximize
+their collective benefits.</p>
+<h3 id="focal-point">Focal point</h3>
+<p>In game theory, a focal point (or Schelling point) is a solution that
+people tend to choose by default in the absence of communication in
+order to avoid coordination failure.</p>
+<h3 id="cournot-competition">Cournot competition</h3>
+<p>Cournot competition is an economic model used to describe an industry
+structure in which companies compete on the amount of output they will
+produce, which they decide on independently of each other and at the
+same time.</p>
+<h3 id="solution-of-zero-sum-game">Solution of Zero-sum Game</h3>
+<p>For two-player finite zero-sum games, the different game theoretic
+solution concepts of Nash equilibrium, minimax, and maximin all give the
+same solution. If the players are allowed to play a mixed strategy, the
+game always has an equilibrium.</p>
+<h3 id="max-min-strategy">Max-min strategy</h3>
+<p>For each action, consider the worst-case caused by the opponent's
+action, then choose the best action among these worst cases.</p>
+<h3 id="saddle-point">Saddle point</h3>
+<ul>
+<li><p>In a zero-sum matrix game, an outcome is a saddle point if the
+outcome is a minimum in its row and maximum in its column.</p></li>
+<li><p>In a zero-sum game, if there exists a saddle point, then the
+result of the game will be that point.</p></li>
+<li><p>Not necessarily exists.</p></li>
+</ul>
+<h3 id="mixed-strategy">Mixed Strategy</h3>
+<p>A mixed strategy is an assignment of a probability to each pure
+strategy. When enlisting mixed strategy, it is often because the game
+does not allow for a rational description in specifying a pure strategy
+(choose a single action) for the game.</p>
+<h3 id="oddness-theorem">Oddness Theorem</h3>
+<p>Almost all finite games (games that can be written in a finite
+matrix) have a finite number of solutions, and that number is also
+odd.</p>
+<h3 id="congestion-games">Congestion Games</h3>
+<p>Congestion games (CG) are a class of games in game theory. They
+represent situations which commonly occur in roads, communication
+networks, oligopoly markets and natural habitats. There is a set of
+resources (e.g. roads or communication links); there are several players
+who need resources (e.g. drivers or network users); each player chooses
+a subset of these resources (e.g. a path in the network); the delay in
+each resource is determined by the number of players choosing a subset
+that contains this resource. The cost of each player is the sum of
+delays among all resources he chooses. Naturally, each player wants to
+minimize his own delay; however, each player's choices impose a negative
+externality on the other players, which may lead to inefficient
+outcomes.</p>
+<h3 id="pareto-efficiency">Pareto Efficiency</h3>
+<p>A state is said Pareto efficient, iff there exists no state that is
+better for one agent, and no worse for all the rest.</p>
+<h3 id="shapley-value">Shapley value</h3>
+<p>The Shapley value is a solution concept in cooperative game theory.
+It resolves problem of order dependence in marginal contribution schemes
+by averaging marginal contribution over all orders! <span
+class="math display">\[
+W(|S|)=\frac{(n-|S|)!(|S|-1)!}{n!}
+\]</span> <span class="math display">\[
+\varphi_i(V)=\sum_{i\in S\subseteq I } W(|S|)[V(S)-V(S\backslash\{i\})]
+\]</span></p>
+<p>The Shapley value is the only value division that satisfies all of
+the following axiomatic conditions:</p>
+<ol type="1">
+<li>Symmetry</li>
+<li>Linearity: for any <span class="math inline">\(S\)</span>, if <span
+class="math inline">\(v(S)=w(S)+w&#39;(S)\)</span> holds, i.e., <span
+class="math inline">\(v\)</span> can be divided into <span
+class="math inline">\(w\)</span> and <span
+class="math inline">\(w&#39;\)</span>, then the Shapley value for <span
+class="math inline">\(v\)</span> is the sum of the Shapley values for
+<span class="math inline">\(w\)</span> and <span
+class="math inline">\(w&#39;\)</span>​.</li>
+<li>Efficiency: the sum is equal to <span
+class="math inline">\(v(N)\)</span>.</li>
+<li>Null player: we call player a as null player if for any coalition
+<span class="math inline">\(S\)</span> (without <span
+class="math inline">\(a\)</span>)，<span class="math inline">\(v(S) =
+v(S\cup\{a\})\)</span> holds. Each null player obtains 0.</li>
+</ol>
+<h3 id="core">Core</h3>
+<p>In cooperative game theory, the core is the set of feasible
+allocations or imputations where no coalition of agents can benefit by
+breaking away from the grand coalition. One can think of the core
+corresponding to situations where it is possible to sustain cooperation
+among all agents. A coalition is said to improve upon or block a
+feasible allocation if the members of that coalition can generate more
+value among themselves than they are allocated in the original
+allocation. As such, that coalition is not incentivized to stay with the
+grand coalition.</p>
+<p>An allocation is said to be in the core of a game if there is no
+coalition that can improve upon it. The core is then the set of all
+feasible allocations .</p>
+<h3 id="nucleolus">Nucleolus</h3>
+<p>In cooperative game theory, the nucleolus of a cooperative game is
+the solution (i.e., allocation of payments to players) that maximizes
+the smallest excess of a coalition (where the excess is the difference
+between the payment given to the coalition and the value the coalition
+could get by deviating). Subject to that, the nucleolus satisfies the
+second-smallest excess; and so on, in the leximin order.</p>
+<p>The nucleolus is a single solution, for which the vector of excesses
+of all coalitions is largest in the leximin order. Intuitively, the
+nucleolus maximizes the stability of the solution by minimizing the
+incentives of coalitions to deviate.</p>
+<h3 id="banzhaf-power-index">Banzhaf power index</h3>
+<p>The Banzhaf power index is a power index defined by the probability
+of changing an outcome of a vote where voting rights are not necessarily
+equally divided among the voters or shareholders.</p>
+<p>Characteristic function: <span class="math display">\[
+V(S)=\begin{cases}1 \quad\text{Allied } S \text{
+wins}\\0\quad\text{else}\end{cases}
+\]</span> Power Index: <span class="math display">\[
+c_j=\sum_{j\in S\subseteq I }[V(S)-V(S\backslash\{j\})]
+\]</span> Power index ratio: <span class="math display">\[
+\Phi_j=\frac{c_j}{c_1+c_2+\cdots+c_n}
+\]</span></p>
+<h3 id="sequential-game">Sequential Game</h3>
+<p>In game theory, a sequential game is a game where one player chooses
+their action before the others choose theirs. The other players must
+have information on the first player's choice so that the difference in
+time has no strategic effect. Sequential games are governed by the time
+axis and represented in the form of decision trees.</p>
+<p>Sequential games with perfect information can be analysed
+mathematically using combinatorial game theory.</p>
+<h3 id="combinatorial-game-theory">Combinatorial game theory</h3>
+<p>Combinatorial game theory is a branch of mathematics and theoretical
+computer science that typically studies sequential games with perfect
+information. Study has been largely confined to two-player games that
+have a position that the players take turns changing in defined ways or
+moves to achieve a defined winning condition.</p>
+<h3 id="backward-induction">Backward induction</h3>
+<p>Backward induction is the process of determining a sequence of
+optimal choices by reasoning from the end point of a problem or
+situation back to its beginning via individual events or actions (point
+by point).</p>
+<h3 id="stackelberg-competition">Stackelberg competition</h3>
+<p>The Stackelberg leadership model is a strategic game in economics in
+which the leader firm moves first and then the follower firms move
+sequentially (hence, it is sometimes described as the "leader-follower
+game").</p>
+<p>There are some further constraints upon the sustaining of a
+Stackelberg equilibrium. The leader must know ex ante that the follower
+observes its action. The follower must have no means of committing to a
+future non-Stackelberg leader's action and the leader must know this.
+Indeed, if the 'follower' could commit to a Stackelberg leader action
+and the 'leader' knew this, the leader's best response would be to play
+a Stackelberg follower action.</p>
+<p>Firms may engage in Stackelberg competition if one has some sort of
+advantage enabling it to move first. More generally, the leader must
+have commitment power. Moving observably first is the most obvious means
+of commitment: once the leader has made its move, it cannot undo it—it
+is committed to that action. Moving first may be possible if the leader
+was the incumbent monopoly of the industry and the follower is a new
+entrant. Holding excess capacity is another means of commitment.</p>
+<h3 id="common-equilibrium">Common Equilibrium</h3>
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 28%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Static Game</th>
+<th>Dynamic Game</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Complete Information Game</strong></td>
+<td>Nash Equilibrium</td>
+<td>Subgame Perfect Nash Equilibrium</td>
+</tr>
+<tr class="even">
+<td><strong>Incomplete Information Game</strong></td>
+<td>Bayesian Nash Equilibrium</td>
+<td>Perfect Bayesian Nash Equilibrium</td>
+</tr>
+</tbody>
+</table>
+<h3 id="leximin-order">Leximin order</h3>
+<p>In mathematics, leximin order is a total preorder on
+finite-dimensional vectors. A more accurate, but less common term is
+leximin preorder. The leximin order is particularly important in social
+choice theory and fair division.</p>
+<h3 id="game-tree">Game tree</h3>
+<ul>
+<li>A state/node: a possible state of the game.</li>
+<li>State transition/edge: connect two states/nodes, such that the
+transition is valid (one-way).</li>
+<li>The first mover is called the MAX player, and the second mover is
+called the MIN plyer. The node corresponds to the turn of the
+first-mover is called a MAX node (similarly, MIN node).</li>
+<li>A node where the win/lost is determined is called a terminal
+node.</li>
+</ul>
+<p>Scope of application:</p>
+<ul>
+<li><p>A player makes his decision multiple times two players make their
+decisions alternately.</p></li>
+<li><p>The choice of the actions of the other player in the previous
+turns are public.</p></li>
+</ul>
+<h3 id="centipede-game">Centipede Game</h3>
+<p>Centipede game is an extensive form game in which two players take
+turns choosing either to take a slightly larger share of an increasing
+pot, or to pass the pot to the other player. The payoffs are arranged so
+that if one passes the pot to one's opponent and the opponent takes the
+pot on the next round, one receives slightly less than if one had taken
+the pot on this round, but after an additional switch the potential
+payoff will be higher.</p>
+<p>The unique subgame perfect equilibrium (and every Nash equilibrium)
+of these games results in the first player taking the pot on the first
+round of the game; however, in empirical tests, relatively few players
+do so, and as a result, achieve a higher payoff than in the subgame
+perfect and Nash equilibria. These results are taken to show that
+subgame perfect equilibria and Nash equilibria fail to predict human
+play in some circumstances.</p>
+<h3 id="properly-layout-of-talmud">Properly Layout of Talmud</h3>
+<p>Without game theory, a two millennia old mystery may still remain
+unsolved. The Talmud, an ancient Babylonian text central to Judaism,
+suggests a cryptic method of dividing a dead man’s estate between three
+creditors.</p>
+<h3 id="contested-garment-rule">Contested garment rule</h3>
+<p>The contested garment (CG) rule, also called concede-and-divide, is a
+division rule for solving problems of conflicting claims (also called
+"bankruptcy problems"). The idea is that, if one claimant's claim is
+less than 100% of the estate to divide, then he effectively concedes the
+unclaimed estate to the other claimant. Therefore, we first give to each
+claimant, the amount conceded to him/her by the other claimant. The
+remaining amount is then divided equally among the two claimants.</p>
+<h3 id="mechanism-design">Mechanism design</h3>
+<p>Mechanism design is a branch of economics, social choice theory, and
+game theory that deals with designing games (or mechanisms) to implement
+a given social choice function. Because it starts at the end of the game
+(the optimal result) and then works backwards to find a game that
+implements it, it is sometimes called reverse game theory.</p>
+]]></content>
+      <categories>
+        <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>九大情報理工学過去問の解答</title>
+    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<h1
+id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
+<h1
+id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
+<hr />
+<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
+style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
+<p>因为是自己做完之后免费分享的，<span
+style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
+<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
+<hr />
+<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
+style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
+<p>無料共有にて提供されているファイルです。<span
+style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
+<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
+href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
+<hr />
+<h2 id="解析学微積分">解析学・微積分</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
+<h2 id="線形代数">線形代数</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
+<h2 id="ヘクトル解析">ベクトル解析</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
+<h2 id="情報理論">情報理論</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
+<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
+<hr />
+]]></content>
+      <categories>
+        <category>KU</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>树莓派安装conky监控运行状态</title>
+    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
+    <content><![CDATA[<hr />
+<h3 id="时间">时间</h3>
+<p>2022.7（请注意时效性）</p>
+<h3 id="环境及物料">环境及物料</h3>
+<table>
+<thead>
+<tr class="header">
+<th>环境及物料</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Raspberry Pi 4B(8G)</td>
+</tr>
+<tr class="even">
+<td>OS: Raspberry Pi OS(64-bit)</td>
+</tr>
+<tr class="odd">
+<td>Win11 PC(用于远程桌面连接)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conky简介">Conky简介</h3>
+<p><a
+href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
+是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
+上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
+CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
+<h3 id="conky安装">Conky安装</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky配置">Conky配置</h3>
+<ul>
+<li>创建配置文件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>把下面的内容复制到新建的文件中（从conky
+1.10以来，配置文件都是用新的lua语法编写的）</li>
+</ul>
+<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
+</ul>
+<h3 id="conky使用">Conky使用</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
+<h3 id="conky效果">Conky效果</h3>
+<p><img src="/images/2022-07-25-1.jpg" /></p>
+<ul>
+<li>截图软件scrot</li>
+</ul>
+<hr />
+]]></content>
+      <categories>
+        <category>Raspberry Pi</category>
+      </categories>
+  </entry>
+  <entry>
     <title>基础正则表达式速查表与常用正则表达式示例</title>
     <url>/Regular%20expression/%E5%9F%BA%E7%A1%80%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E9%80%9F%E6%9F%A5%E8%A1%A8%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[<hr />
@@ -772,65 +1251,6 @@
       </categories>
   </entry>
   <entry>
-    <title>树莓派安装conky监控运行状态</title>
-    <url>/Raspberry%20Pi/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%85conky%E7%9B%91%E6%8E%A7%E8%BF%90%E8%A1%8C%E7%8A%B6%E6%80%81/</url>
-    <content><![CDATA[<hr />
-<h3 id="时间">时间</h3>
-<p>2022.7（请注意时效性）</p>
-<h3 id="环境及物料">环境及物料</h3>
-<table>
-<thead>
-<tr class="header">
-<th>环境及物料</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Raspberry Pi 4B(8G)</td>
-</tr>
-<tr class="even">
-<td>OS: Raspberry Pi OS(64-bit)</td>
-</tr>
-<tr class="odd">
-<td>Win11 PC(用于远程桌面连接)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="conky简介">Conky简介</h3>
-<p><a
-href="https://wiki.archlinux.org/title/Conky_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">Conky</a>
-是一个用于X窗口系统的系统监视软件。它可以运行在 GNU/Linux 和 FreeBSD
-上，是一个基于GPL协议的免费软件。Conky 可以监控许多系统变量，包括
-CPU，内存，交换分区，磁盘空间，温度，top，上传，下载，系统消息，以及更多。它具有很高的可配置性，但配置有一些难于理解。Conky是torsmo的一个分支。</p>
-<h3 id="conky安装">Conky安装</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky配置">Conky配置</h3>
-<ul>
-<li>创建配置文件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /home/username/.conkyrc <span class="comment">#将username替换成用户名，默认用户名pi</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>把下面的内容复制到新建的文件中（从conky
-1.10以来，配置文件都是用新的lua语法编写的）</li>
-</ul>
-<figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">conky.<span class="built_in">config</span> = &#123;</span><br><span class="line"></span><br><span class="line">background = <span class="literal">true</span>,</span><br><span class="line">use_xft = <span class="literal">true</span>,</span><br><span class="line">font = <span class="string">&#x27;123:size=12&#x27;</span>,</span><br><span class="line">xftalpha = <span class="number">0.1</span>,</span><br><span class="line">update_interval = <span class="number">0.5</span>,</span><br><span class="line">total_run_times = <span class="number">0</span>,</span><br><span class="line">own_window = <span class="literal">true</span>,</span><br><span class="line">own_window_type = <span class="string">&#x27;normal&#x27;</span>,</span><br><span class="line">own_window_transparent = <span class="literal">true</span>,</span><br><span class="line">own_window_hints = <span class="string">&#x27;undecorated,below,sticky,skip_taskbar,skip_pager&#x27;</span>,</span><br><span class="line">double_buffer = <span class="literal">true</span>,</span><br><span class="line">minimum_width = <span class="number">250</span>,</span><br><span class="line">minimum_height = <span class="number">5</span>,</span><br><span class="line">maximum_width = <span class="number">400</span>,</span><br><span class="line">draw_shades = <span class="literal">false</span>,</span><br><span class="line">draw_outline = <span class="literal">false</span>,</span><br><span class="line">draw_borders = <span class="literal">false</span>,</span><br><span class="line">draw_graph_borders = <span class="literal">false</span>,</span><br><span class="line">default_color = <span class="string">&#x27;gray&#x27;</span>,</span><br><span class="line">default_shade_color = <span class="string">&#x27;red&#x27;</span>,</span><br><span class="line">default_outline_color = <span class="string">&#x27;green&#x27;</span>,</span><br><span class="line">alignment = <span class="string">&#x27;top_right&#x27;</span>,</span><br><span class="line">gap_x = <span class="number">10</span>,</span><br><span class="line">gap_y = <span class="number">10</span>,</span><br><span class="line">no_buffers = <span class="literal">true</span>,</span><br><span class="line">uppercase = <span class="literal">false</span>,</span><br><span class="line">cpu_avg_samples = <span class="number">2</span>,</span><br><span class="line">net_avg_samples = <span class="number">1</span>,</span><br><span class="line">override_utf8_locale = <span class="literal">false</span>,</span><br><span class="line">use_spacer = <span class="string">&#x27;right&#x27;</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">conky.text = <span class="string">[[</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:size=20&#125;$&#123;color Tan1&#125;RPI$&#123;color Ivory&#125;LINUX</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;voffset -90&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;</span></span><br><span class="line"><span class="string">$&#123;font&#125;</span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;SYSTEM $&#123;color DarkSlateGray&#125; $&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;$sysname $kernel $alignr $machine</span></span><br><span class="line"><span class="string">Frequency $alignr$&#123;freq_g cpu0&#125;Ghz</span></span><br><span class="line"><span class="string">Uptime $alignr$&#123;uptime&#125;</span></span><br><span class="line"><span class="string">File System $alignr$&#123;fs_type&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;CPU $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;Temp: $alignr $&#123;exec sudo vcgencmd measure_temp | cut -c6-9&#125; C</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;CPU1  $&#123;cpu cpu1&#125;% $&#123;cpubar cpu1&#125;</span></span><br><span class="line"><span class="string">CPU2  $&#123;cpu cpu2&#125;% $&#123;cpubar cpu2&#125;</span></span><br><span class="line"><span class="string">CPU3  $&#123;cpu cpu3&#125;% $&#123;cpubar cpu3&#125;</span></span><br><span class="line"><span class="string">CPU4  $&#123;cpu cpu4&#125;% $&#123;cpubar cpu4&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;cpugraph DimGray DarkSlateGray&#125; $color</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;MEMORY $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;MEM $alignc $mem / $memmax $alignr $memperc%</span></span><br><span class="line"><span class="string">$membar</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;SWAP $alignc $swap / $swapmax $alignr $swapperc%</span></span><br><span class="line"><span class="string">$swapbar</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;HDD $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;/home $alignc $&#123;fs_used /home&#125; / $&#123;fs_size /home&#125; $alignr $&#123;fs_free_perc /home&#125;%</span></span><br><span class="line"><span class="string">$&#123;fs_bar /home&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan1&#125;TOP PROCESSES $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$&#123;color DimGray&#125;$font$&#123;top_mem name 2&#125;$&#123;alignr&#125;$&#123;top mem 2&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 3&#125;$&#123;alignr&#125;$&#123;top mem 3&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 4&#125;$&#123;alignr&#125;$&#123;top mem 4&#125; %</span></span><br><span class="line"><span class="string">$font$&#123;top_mem name 5&#125;$&#123;alignr&#125;$&#123;top mem 5&#125; %</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">$&#123;font Arial:bold:size=10&#125;$&#123;color Tan2&#125;NETWORK $&#123;color DarkSlateGray&#125;$&#123;hr 2&#125;</span></span><br><span class="line"><span class="string">$font$&#123;color DimGray&#125;IP on eth0 $alignr $&#123;addr eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Down $alignr $&#123;downspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string">Up $alignr $&#123;upspeed eth0&#125; kb/s</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">Downloaded: $alignr  $&#123;totaldown eth0&#125;</span></span><br><span class="line"><span class="string">Uploaded: $alignr  $&#123;totalup eth0&#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">]]</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>Ctrl+O写入，回车确定，Ctrl+X退出</li>
-</ul>
-<h3 id="conky使用">Conky使用</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">conky</span><br></pre></td></tr></table></figure>
-<h3 id="conky效果">Conky效果</h3>
-<p><img src="/images/2022-07-25-1.jpg" /></p>
-<ul>
-<li>截图软件scrot</li>
-</ul>
-<hr />
-]]></content>
-      <categories>
-        <category>Raspberry Pi</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo通过git部署后README与LICENSE文件被覆盖的问题</title>
     <url>/Site/README%E4%B8%8ELICENSE%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<hr />
@@ -856,6 +1276,18 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
 ]]></content>
       <categories>
         <category>Site</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>正则表达式可视化</title>
+    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+    <content><![CDATA[<hr />
+<p><a
+href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
+<hr />
+]]></content>
+      <categories>
+        <category>Regular expression</category>
       </categories>
   </entry>
   <entry>
@@ -928,62 +1360,6 @@ id="对齐后添加vertical-align-middle">对齐后（添加<code>vertical-align
       </categories>
   </entry>
   <entry>
-    <title>Hidden Markov Model</title>
-    <url>/KU/HMM/</url>
-    <content><![CDATA[<p><img src="https://p.ipic.vip/wp3csr.png" /></p>
-<h2 id="basics-of-model">Basics of model</h2>
-<p><span class="math display">\[
-\lambda=(\pi,\mathcal A,\mathcal B)
-\]</span></p>
-<p><span class="math inline">\(\pi:\)</span> initial distribution</p>
-<p><span class="math inline">\(\mathcal A:\)</span> state-transition
-matrix</p>
-<p><span class="math inline">\(\mathcal B:\)</span>​ emission matrix</p>
-<p><span
-class="math inline">\(\alpha_t=P(X_1,\cdots,X_t,Z_t)\)</span>​</p>
-<p><span
-class="math inline">\(\beta_t=P(X_{t+1},\cdots,X_T|Z_t)\)</span></p>
-<h2 id="assumption">Assumption</h2>
-<ol type="1">
-<li>Homogeneous Markov Assumption</li>
-</ol>
-<p><span class="math display">\[
-P(Z_{t+1}|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(Z_{t+1}|Z_t)
-\]</span></p>
-<ol start="2" type="1">
-<li>Independent observations Assumption</li>
-</ol>
-<p><span class="math display">\[
-P(X_t|Z_t,\cdots,Z_1,X_t,\cdots,X_1)=P(X_t|Z_t)
-\]</span></p>
-<h2 id="tasks">Tasks</h2>
-<p><span class="math display">\[
-\begin{cases}
-\text{Learning}\,(\lambda:\text{unknown})\quad\lambda_{MLE}=\underset{\lambda}
-{\operatorname{arg\,max}}P(X|\lambda)\quad \text{[Baum–Welch
-Algorithm]}\\
-\text{Inference}\,(\lambda:\text{known})
-\begin{cases}
-\text{Decoding}: Z=\underset{Z} {\operatorname{arg\,max}}P(Z|X)\quad
-\text{[Viterbi Algorithm]}\\
-\text{Prob of evidence}:P(X) \quad \text{[Forward Algorithm] | [Backward
-Algorithm]}\\
-\text{Filtering(online)}:P(Z_t|X_1,\cdots\,X_t) \quad \text{[Forward
-Algorithm]}\\
-\text{Smoothing(offline)}:P(Z_t|X_1,\cdots\,X_T) \quad
-\text{[Forward-Backward Algorithm]}\\
-\text{Prediction}:P(Z_{t+1}|X_1,\cdots\,X_t) \text{ or }
-P(X_{t+1}|X_1,\cdots\,X_t)\quad \text{[Forward Algorithm]}\\
-\end{cases}
-\end{cases}
-\]</span></p>
-<hr />
-]]></content>
-      <categories>
-        <category>KU</category>
-      </categories>
-  </entry>
-  <entry>
     <title>NexT侧边栏添加网站运行时间</title>
     <url>/Site/%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4/</url>
     <content><![CDATA[<hr />
@@ -1005,341 +1381,19 @@ src="https://img.shields.io/badge/NexT-v8.14.0-green?logo=data:image/png;base64,
       </categories>
   </entry>
   <entry>
-    <title>Basics of Game Theory</title>
-    <url>/KU/GameTheory/</url>
-    <content><![CDATA[<h3 id="game-theory">Game Theory</h3>
-<p>Game theory is the study of mathematical models of strategic
-interactions among rational agents. It has applications in many fields
-of social science, used extensively in economics as well as in logic,
-systems science and computer science.</p>
-<h3 id="classification">Classification</h3>
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Cooperative Game</th>
-<th>Non-Cooperative Game</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Complete Information Game</strong><br /><strong>Perfect
-Information Game</strong><br /><strong>Certainty
-Game</strong><br /><strong>Symmetric Game</strong></td>
-<td><strong>Incomplete Information Game</strong><br /><strong>Imperfect
-Information Game</strong><br /><strong>Uncertain
-Game</strong><br /><strong>Asymmetric Game</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Static Game (Simultaneous-Move)</strong></td>
-<td><strong>Dynamic Game (Sequential-Move)</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>Zero-Sum Game</strong><br /><strong>Constant-Sum
-Game</strong></td>
-<td><strong>Non-Zero-Sum Game</strong><br /><strong>Variable-Sum
-Game</strong></td>
-</tr>
-<tr class="even">
-<td><strong>Alliance Game</strong></td>
-<td><strong>Non-Aligned Game</strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="representation">Representation</h3>
-<ul>
-<li>Normal form: The normal (or strategic form) game is usually
-represented by a matrix which shows the players, strategies, and payoffs
-(as pictured here).</li>
-</ul>
-<p><img src="https://p.ipic.vip/qhcote.png" style="zoom:50%;" /></p>
-<ul>
-<li>Extensive form: The extensive form can be used to formalize games
-with a time sequencing of moves. Extensive form games can be visualised
-using game trees (as pictured here). Here each vertex (or node)
-represents a point of choice for a player. The player is specified by a
-number listed by the vertex. The lines out of the vertex represent a
-possible action for that player. The payoffs are specified at the bottom
-of the tree.</li>
-</ul>
-<p><img src="https://p.ipic.vip/y1utne.png" style="zoom:10%;" /></p>
-<ul>
-<li>Characteristic function form: In games that possess removable
-utility, separate rewards are not given; rather, the characteristic
-function decides the payoff of each unity. The idea is that the unity
-that is 'empty', so to speak, does not receive a reward at all.</li>
-</ul>
-<h3 id="dominant-strategy">Dominant Strategy</h3>
-<p>The strategy that gives you higher (or equal) utility than any other
-strategy, regardless of the opponent’s action.</p>
-<h3 id="dominant-strategy-equilibrium">Dominant Strategy
-Equilibrium</h3>
-<p>When each player has a dominant strategy, the combination is termed a
-dominant strategy equilibrium.</p>
-<h3 id="nash-equilibrium">Nash Equilibrium</h3>
-<p>In game theory, the Nash equilibrium is the most commonly-used
-solution concept for non-cooperative games. A Nash equilibrium is a
-situation where no player could gain by changing their own strategy
-(holding all other players' strategies fixed).</p>
-<h3 id="cooperative-equilibrium">Cooperative Equilibrium</h3>
-<p>A cooperative equilibrium is a solution concept in game theory where
-players achieve optimal outcomes through cooperation. In this state, all
-participants adhere to consistent cooperative strategies to maximize
-their collective benefits.</p>
-<h3 id="focal-point">Focal point</h3>
-<p>In game theory, a focal point (or Schelling point) is a solution that
-people tend to choose by default in the absence of communication in
-order to avoid coordination failure.</p>
-<h3 id="cournot-competition">Cournot competition</h3>
-<p>Cournot competition is an economic model used to describe an industry
-structure in which companies compete on the amount of output they will
-produce, which they decide on independently of each other and at the
-same time.</p>
-<h3 id="solution-of-zero-sum-game">Solution of Zero-sum Game</h3>
-<p>For two-player finite zero-sum games, the different game theoretic
-solution concepts of Nash equilibrium, minimax, and maximin all give the
-same solution. If the players are allowed to play a mixed strategy, the
-game always has an equilibrium.</p>
-<h3 id="max-min-strategy">Max-min strategy</h3>
-<p>For each action, consider the worst-case caused by the opponent's
-action, then choose the best action among these worst cases.</p>
-<h3 id="saddle-point">Saddle point</h3>
-<ul>
-<li><p>In a zero-sum matrix game, an outcome is a saddle point if the
-outcome is a minimum in its row and maximum in its column.</p></li>
-<li><p>In a zero-sum game, if there exists a saddle point, then the
-result of the game will be that point.</p></li>
-<li><p>Not necessarily exists.</p></li>
-</ul>
-<h3 id="mixed-strategy">Mixed Strategy</h3>
-<p>A mixed strategy is an assignment of a probability to each pure
-strategy. When enlisting mixed strategy, it is often because the game
-does not allow for a rational description in specifying a pure strategy
-(choose a single action) for the game.</p>
-<h3 id="oddness-theorem">Oddness Theorem</h3>
-<p>Almost all finite games (games that can be written in a finite
-matrix) have a finite number of solutions, and that number is also
-odd.</p>
-<h3 id="congestion-games">Congestion Games</h3>
-<p>Congestion games (CG) are a class of games in game theory. They
-represent situations which commonly occur in roads, communication
-networks, oligopoly markets and natural habitats. There is a set of
-resources (e.g. roads or communication links); there are several players
-who need resources (e.g. drivers or network users); each player chooses
-a subset of these resources (e.g. a path in the network); the delay in
-each resource is determined by the number of players choosing a subset
-that contains this resource. The cost of each player is the sum of
-delays among all resources he chooses. Naturally, each player wants to
-minimize his own delay; however, each player's choices impose a negative
-externality on the other players, which may lead to inefficient
-outcomes.</p>
-<h3 id="pareto-efficiency">Pareto Efficiency</h3>
-<p>A state is said Pareto efficient, iff there exists no state that is
-better for one agent, and no worse for all the rest.</p>
-<h3 id="shapley-value">Shapley value</h3>
-<p>The Shapley value is a solution concept in cooperative game theory.
-It resolves problem of order dependence in marginal contribution schemes
-by averaging marginal contribution over all orders! <span
-class="math display">\[
-W(|S|)=\frac{(n-|S|)!(|S|-1)!}{n!}
-\]</span> <span class="math display">\[
-\varphi_i(V)=\sum_{i\in S\subseteq I } W(|S|)[V(S)-V(S\backslash\{i\})]
-\]</span></p>
-<p>The Shapley value is the only value division that satisfies all of
-the following axiomatic conditions:</p>
-<ol type="1">
-<li>Symmetry</li>
-<li>Linearity: for any <span class="math inline">\(S\)</span>, if <span
-class="math inline">\(v(S)=w(S)+w&#39;(S)\)</span> holds, i.e., <span
-class="math inline">\(v\)</span> can be divided into <span
-class="math inline">\(w\)</span> and <span
-class="math inline">\(w&#39;\)</span>, then the Shapley value for <span
-class="math inline">\(v\)</span> is the sum of the Shapley values for
-<span class="math inline">\(w\)</span> and <span
-class="math inline">\(w&#39;\)</span>​.</li>
-<li>Efficiency: the sum is equal to <span
-class="math inline">\(v(N)\)</span>.</li>
-<li>Null player: we call player a as null player if for any coalition
-<span class="math inline">\(S\)</span> (without <span
-class="math inline">\(a\)</span>)，<span class="math inline">\(v(S) =
-v(S\cup\{a\})\)</span> holds. Each null player obtains 0.</li>
-</ol>
-<h3 id="core">Core</h3>
-<p>In cooperative game theory, the core is the set of feasible
-allocations or imputations where no coalition of agents can benefit by
-breaking away from the grand coalition. One can think of the core
-corresponding to situations where it is possible to sustain cooperation
-among all agents. A coalition is said to improve upon or block a
-feasible allocation if the members of that coalition can generate more
-value among themselves than they are allocated in the original
-allocation. As such, that coalition is not incentivized to stay with the
-grand coalition.</p>
-<p>An allocation is said to be in the core of a game if there is no
-coalition that can improve upon it. The core is then the set of all
-feasible allocations .</p>
-<h3 id="nucleolus">Nucleolus</h3>
-<p>In cooperative game theory, the nucleolus of a cooperative game is
-the solution (i.e., allocation of payments to players) that maximizes
-the smallest excess of a coalition (where the excess is the difference
-between the payment given to the coalition and the value the coalition
-could get by deviating). Subject to that, the nucleolus satisfies the
-second-smallest excess; and so on, in the leximin order.</p>
-<p>The nucleolus is a single solution, for which the vector of excesses
-of all coalitions is largest in the leximin order. Intuitively, the
-nucleolus maximizes the stability of the solution by minimizing the
-incentives of coalitions to deviate.</p>
-<h3 id="banzhaf-power-index">Banzhaf power index</h3>
-<p>The Banzhaf power index is a power index defined by the probability
-of changing an outcome of a vote where voting rights are not necessarily
-equally divided among the voters or shareholders.</p>
-<p>Characteristic function: <span class="math display">\[
-V(S)=\begin{cases}1 \quad\text{Allied } S \text{
-wins}\\0\quad\text{else}\end{cases}
-\]</span> Power Index: <span class="math display">\[
-c_j=\sum_{j\in S\subseteq I }[V(S)-V(S\backslash\{j\})]
-\]</span> Power index ratio: <span class="math display">\[
-\Phi_j=\frac{c_j}{c_1+c_2+\cdots+c_n}
-\]</span></p>
-<h3 id="sequential-game">Sequential Game</h3>
-<p>In game theory, a sequential game is a game where one player chooses
-their action before the others choose theirs. The other players must
-have information on the first player's choice so that the difference in
-time has no strategic effect. Sequential games are governed by the time
-axis and represented in the form of decision trees.</p>
-<p>Sequential games with perfect information can be analysed
-mathematically using combinatorial game theory.</p>
-<h3 id="combinatorial-game-theory">Combinatorial game theory</h3>
-<p>Combinatorial game theory is a branch of mathematics and theoretical
-computer science that typically studies sequential games with perfect
-information. Study has been largely confined to two-player games that
-have a position that the players take turns changing in defined ways or
-moves to achieve a defined winning condition.</p>
-<h3 id="backward-induction">Backward induction</h3>
-<p>Backward induction is the process of determining a sequence of
-optimal choices by reasoning from the end point of a problem or
-situation back to its beginning via individual events or actions (point
-by point).</p>
-<h3 id="stackelberg-competition">Stackelberg competition</h3>
-<p>The Stackelberg leadership model is a strategic game in economics in
-which the leader firm moves first and then the follower firms move
-sequentially (hence, it is sometimes described as the "leader-follower
-game").</p>
-<p>There are some further constraints upon the sustaining of a
-Stackelberg equilibrium. The leader must know ex ante that the follower
-observes its action. The follower must have no means of committing to a
-future non-Stackelberg leader's action and the leader must know this.
-Indeed, if the 'follower' could commit to a Stackelberg leader action
-and the 'leader' knew this, the leader's best response would be to play
-a Stackelberg follower action.</p>
-<p>Firms may engage in Stackelberg competition if one has some sort of
-advantage enabling it to move first. More generally, the leader must
-have commitment power. Moving observably first is the most obvious means
-of commitment: once the leader has made its move, it cannot undo it—it
-is committed to that action. Moving first may be possible if the leader
-was the incumbent monopoly of the industry and the follower is a new
-entrant. Holding excess capacity is another means of commitment.</p>
-<h3 id="common-equilibrium">Common Equilibrium</h3>
-<table>
-<colgroup>
-<col style="width: 34%" />
-<col style="width: 28%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Static Game</th>
-<th>Dynamic Game</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Complete Information Game</strong></td>
-<td>Nash Equilibrium</td>
-<td>Subgame Perfect Nash Equilibrium</td>
-</tr>
-<tr class="even">
-<td><strong>Incomplete Information Game</strong></td>
-<td>Bayesian Nash Equilibrium</td>
-<td>Perfect Bayesian Nash Equilibrium</td>
-</tr>
-</tbody>
-</table>
-<h3 id="leximin-order">Leximin order</h3>
-<p>In mathematics, leximin order is a total preorder on
-finite-dimensional vectors. A more accurate, but less common term is
-leximin preorder. The leximin order is particularly important in social
-choice theory and fair division.</p>
-<h3 id="game-tree">Game tree</h3>
-<ul>
-<li>A state/node: a possible state of the game.</li>
-<li>State transition/edge: connect two states/nodes, such that the
-transition is valid (one-way).</li>
-<li>The first mover is called the MAX player, and the second mover is
-called the MIN plyer. The node corresponds to the turn of the
-first-mover is called a MAX node (similarly, MIN node).</li>
-<li>A node where the win/lost is determined is called a terminal
-node.</li>
-</ul>
-<p>Scope of application:</p>
-<ul>
-<li><p>A player makes his decision multiple times two players make their
-decisions alternately.</p></li>
-<li><p>The choice of the actions of the other player in the previous
-turns are public.</p></li>
-</ul>
-<h3 id="centipede-game">Centipede Game</h3>
-<p>Centipede game is an extensive form game in which two players take
-turns choosing either to take a slightly larger share of an increasing
-pot, or to pass the pot to the other player. The payoffs are arranged so
-that if one passes the pot to one's opponent and the opponent takes the
-pot on the next round, one receives slightly less than if one had taken
-the pot on this round, but after an additional switch the potential
-payoff will be higher.</p>
-<p>The unique subgame perfect equilibrium (and every Nash equilibrium)
-of these games results in the first player taking the pot on the first
-round of the game; however, in empirical tests, relatively few players
-do so, and as a result, achieve a higher payoff than in the subgame
-perfect and Nash equilibria. These results are taken to show that
-subgame perfect equilibria and Nash equilibria fail to predict human
-play in some circumstances.</p>
-<h3 id="properly-layout-of-talmud">Properly Layout of Talmud</h3>
-<p>Without game theory, a two millennia old mystery may still remain
-unsolved. The Talmud, an ancient Babylonian text central to Judaism,
-suggests a cryptic method of dividing a dead man’s estate between three
-creditors.</p>
-<h3 id="contested-garment-rule">Contested garment rule</h3>
-<p>The contested garment (CG) rule, also called concede-and-divide, is a
-division rule for solving problems of conflicting claims (also called
-"bankruptcy problems"). The idea is that, if one claimant's claim is
-less than 100% of the estate to divide, then he effectively concedes the
-unclaimed estate to the other claimant. Therefore, we first give to each
-claimant, the amount conceded to him/her by the other claimant. The
-remaining amount is then divided equally among the two claimants.</p>
-<h3 id="mechanism-design">Mechanism design</h3>
-<p>Mechanism design is a branch of economics, social choice theory, and
-game theory that deals with designing games (or mechanisms) to implement
-a given social choice function. Because it starts at the end of the game
-(the optimal result) and then works backwards to find a game that
-implements it, it is sometimes called reverse game theory.</p>
-]]></content>
-      <categories>
-        <category>KU</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>正则表达式可视化</title>
-    <url>/Regular%20expression/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8F%AF%E8%A7%86%E5%8C%96/</url>
+    <title>文献翻译BERT</title>
+    <url>/Literature/Translate/BERT/</url>
     <content><![CDATA[<hr />
-<p><a
-href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式可视化网站</a></p>
+<h1 id="bert">BERT</h1>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT.pdf" data-height="800px"></div>
+<hr />
+<h1 id="bert_translated">BERT_translated</h1>
+<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT_translated.pdf" data-height="800px"></div>
 <hr />
 ]]></content>
       <categories>
-        <category>Regular expression</category>
+        <category>Literature</category>
+        <category>Translate</category>
       </categories>
   </entry>
   <entry>
@@ -1362,41 +1416,768 @@ href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">正则表达式�
       </categories>
   </entry>
   <entry>
-    <title>九大情報理工学過去問の解答</title>
-    <url>/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<h1
-id="九州大学-大学院システム情報工学府">九州大学　大学院システム情報工学府</h1>
-<h1
-id="情報理工学専攻-過去問の解答令和元年五年">情報理工学専攻　過去問の解答（令和元年〜五年）</h1>
-<hr />
-<p>笔者最近整理了一下之前做的九大过去问，本着互联网精神，决定直接分享公开。数学选的是「解析学・微積分」「線形代数」「ベクトル解析」，专业课选的是「情報理論」「計算機アーキテクチャ」。<span
-style="color:rgba(244,63,94,1)">错误肯定是有的，解答过程也太不完整，仅作参考。</span></p>
-<p>因为是自己做完之后免费分享的，<span
-style="color:rgba(244,63,94,1)">希望使用的人不要拿到煤炉等平台上去卖钱</span>（市价大约是4000～6000円）。</p>
-<p>※如果你的浏览器不适配直接在博客内阅读pdf文件，请到<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">这里</a>直接下载文件。</p>
-<hr />
-<p>主に「解析学・微積分」「線形代数」「ベクトル解析」「情報理論」「計算機アーキテクチャ」の大学院入試（院試）の過去問の解答を公開しています。<span
-style="color:rgba(244,63,94,1)">個人的に作っているもので、公式なものではありません。ドラフト版で、正確さや完全さはありませんので、ご利用には注意してください。</span></p>
-<p>無料共有にて提供されているファイルです。<span
-style="color:rgba(244,63,94,1)">商業目的での販売など、悪用はご遠慮ください。</span>共有の趣旨は情報の普及と共有です。ご理解とご協力をお願いいたします。</p>
-<p>※ブラウザがPDFを直接ブログ内で閲覧できない場合は、<a
-href="https://blog.loveyou.moe/download/#%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94">こちら</a>からファイルを直接ダウンロードしてください。</p>
-<hr />
-<h2 id="解析学微積分">解析学・微積分</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/解析学・微積分.pdf" data-height="800px"></div>
-<h2 id="線形代数">線形代数</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/線形代数.pdf" data-height="800px"></div>
-<h2 id="ヘクトル解析">ベクトル解析</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/ベクトル解析.pdf" data-height="800px"></div>
-<h2 id="情報理論">情報理論</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/情報理論.pdf" data-height="800px"></div>
-<h2 id="計算機アーキテクチャ">計算機アーキテクチャ</h2>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/計算機アーキテクチャ.pdf" data-height="800px"></div>
+    <title>N1副詞</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E5%89%AF%E8%A9%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 56%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>副詞</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>すっかり</td>
+<td>完全，彻底</td>
+</tr>
+<tr class="even">
+<td>はっきりと</td>
+<td>清晰的</td>
+</tr>
+<tr class="odd">
+<td>うっかり</td>
+<td>不注意，不留神</td>
+</tr>
+<tr class="even">
+<td>しっかり</td>
+<td>好好地、完全</td>
+</tr>
+<tr class="odd">
+<td>なんて</td>
+<td>多么</td>
+</tr>
+<tr class="even">
+<td>なん（だ）か</td>
+<td>总觉得</td>
+</tr>
+<tr class="odd">
+<td>なんと</td>
+<td>竟然</td>
+</tr>
+<tr class="even">
+<td>意外と</td>
+<td>意外</td>
+</tr>
+<tr class="odd">
+<td>どんなに、どれだけ、いかに、なんて</td>
+<td>怎样，怎么</td>
+</tr>
+<tr class="even">
+<td>もうすぐ、間もなく、すぐに、すぐ、早速</td>
+<td>立即，马上</td>
+</tr>
+<tr class="odd">
+<td>かつて、むかし、以前、前に、これまで</td>
+<td>过去，以前，曾经</td>
+</tr>
+<tr class="even">
+<td>がんらい（元来）、ほんらい（本来）、もともと、もと</td>
+<td>本来</td>
+</tr>
+<tr class="odd">
+<td>たいてい（大抵）、だいたい（大体）</td>
+<td>大概，大抵，大都</td>
+</tr>
+<tr class="even">
+<td>いちおう（一応）、とりあえず</td>
+<td>姑且，暂且，先</td>
+</tr>
+<tr class="odd">
+<td>すでに（既に）、もう</td>
+<td>已经</td>
+</tr>
+<tr class="even">
+<td>どうか、どうぞ</td>
+<td>请</td>
+</tr>
+<tr class="odd">
+<td>もしかして、もしかしたら、もしかすると、もし、もしも</td>
+<td>也许</td>
+</tr>
+<tr class="even">
+<td>なかなか、とても、たいへん、だいぶ、かなり、けっこう</td>
+<td>非常，很</td>
+</tr>
+<tr class="odd">
+<td>すこしも、ちっとも</td>
+<td>一点儿（也不），毫（无）</td>
+</tr>
+<tr class="even">
+<td>ようやく、とうとう、やっと、ついに、いよいよ（愈々）</td>
+<td>终于</td>
+</tr>
+<tr class="odd">
+<td>ただ、たった，たんに（単に）</td>
+<td>仅，只</td>
+</tr>
+<tr class="even">
+<td>まんいち(万一) 、まんがいち(万が一)</td>
+<td>万一</td>
+</tr>
+<tr class="odd">
+<td>いかが、どう</td>
+<td>如何</td>
+</tr>
+<tr class="even">
+<td>どうして、なぜ</td>
+<td>为什么，为何，何故</td>
+</tr>
+<tr class="odd">
+<td>まず、先に、先ほど</td>
+<td>首先</td>
+</tr>
+<tr class="even">
+<td>ぜったいに（絶対に）、ぜったい</td>
+<td>绝对</td>
+</tr>
+<tr class="odd">
+<td>きゅうに（急に）、とつぜん（突然）</td>
+<td>突然</td>
+</tr>
+<tr class="even">
+<td>主として（しゅとして）、主に、主要に</td>
+<td>主要</td>
+</tr>
+<tr class="odd">
+<td>これまで、今まで</td>
+<td>现在为止，以前，此前</td>
+</tr>
+<tr class="even">
+<td>いちど（一度）</td>
+<td>一次，一遍，一度</td>
+</tr>
+<tr class="odd">
+<td>こんど（今度）</td>
+<td>这回，下次</td>
+</tr>
+<tr class="even">
+<td>ごく</td>
+<td>极，最，非常</td>
+</tr>
+<tr class="odd">
+<td>ちっとも</td>
+<td>一点儿（也不），毫（无）</td>
+</tr>
+<tr class="even">
+<td>たった今</td>
+<td>刚刚</td>
+</tr>
+<tr class="odd">
+<td>さっき</td>
+<td>刚才</td>
+</tr>
+<tr class="even">
+<td>もう一度</td>
+<td>再次</td>
+</tr>
+<tr class="odd">
+<td>全然</td>
+<td>根本不</td>
+</tr>
+<tr class="even">
+<td>ちょっど</td>
+<td>刚好</td>
+</tr>
+<tr class="odd">
+<td>あまり</td>
+<td>不太</td>
+</tr>
+<tr class="even">
+<td>本当に</td>
+<td>实在是，真的</td>
+</tr>
+<tr class="odd">
+<td>また</td>
+<td>还，再，由</td>
+</tr>
+<tr class="even">
+<td>たまに</td>
+<td>偶尔</td>
+</tr>
+<tr class="odd">
+<td>時々</td>
+<td>有时</td>
+</tr>
+<tr class="even">
+<td>いちばん（一番）</td>
+<td>最，第一</td>
+</tr>
+<tr class="odd">
+<td>こう</td>
+<td>这样</td>
+</tr>
+<tr class="even">
+<td>そう/ああ</td>
+<td>那样</td>
+</tr>
+<tr class="odd">
+<td>あとで（後で）</td>
+<td>过会儿</td>
+</tr>
+<tr class="even">
+<td>ゆっくり</td>
+<td>好好地，安静地</td>
+</tr>
+<tr class="odd">
+<td>もちろん（勿論）</td>
+<td>当然，不用说</td>
+</tr>
+<tr class="even">
+<td>じゅうぶん（十分）</td>
+<td>好好地，充足地</td>
+</tr>
+<tr class="odd">
+<td>ちゃんと</td>
+<td>好好地，的确，完全</td>
+</tr>
+<tr class="even">
+<td>そろそろ</td>
+<td>快要</td>
+</tr>
+<tr class="odd">
+<td>はやく</td>
+<td>早点儿</td>
+</tr>
+<tr class="even">
+<td>初めて</td>
+<td>第一次</td>
+</tr>
+<tr class="odd">
+<td>たぶん（多分）</td>
+<td>可能，大概</td>
+</tr>
+<tr class="even">
+<td>じつは（実は）</td>
+<td>其实，实际上</td>
+</tr>
+<tr class="odd">
+<td>ざっと</td>
+<td>粗略地；一下子，很快；（流水声）哗啦</td>
+</tr>
+<tr class="even">
+<td>きっと</td>
+<td>一定</td>
+</tr>
+<tr class="odd">
+<td>ずっと</td>
+<td>得多，一直</td>
+</tr>
+<tr class="even">
+<td>もっと</td>
+<td>更加</td>
+</tr>
+<tr class="odd">
+<td>やっと</td>
+<td>终于</td>
+</tr>
+<tr class="even">
+<td>ぐっと</td>
+<td>一下子、更加</td>
+</tr>
+<tr class="odd">
+<td>ほっと</td>
+<td>放松，放心</td>
+</tr>
+<tr class="even">
+<td>さっと</td>
+<td>很快，一下子；忽然，骤然</td>
+</tr>
+<tr class="odd">
+<td>まさに</td>
+<td>正是，真正是，的确，实在，确实</td>
+</tr>
+<tr class="even">
+<td>やや</td>
+<td>略显，稍微</td>
+</tr>
+<tr class="odd">
+<td>じつに（実に）</td>
+<td>实在，的确，确实</td>
+</tr>
+<tr class="even">
+<td>のちほど（後ほど）</td>
+<td>过一会儿，随后</td>
+</tr>
+<tr class="odd">
+<td>いったい</td>
+<td>到底，究竟</td>
+</tr>
+<tr class="even">
+<td>にこにこ</td>
+<td>笑眯眯，微笑</td>
+</tr>
+<tr class="odd">
+<td>いきなり</td>
+<td>突然，冷不防</td>
+</tr>
+<tr class="even">
+<td>なんとなく</td>
+<td>不由得，总觉得</td>
+</tr>
+<tr class="odd">
+<td>にっこり</td>
+<td>莞尔，微笑，嫣然一笑</td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td>轻飘飘，软绵绵</td>
+</tr>
+<tr class="odd">
+<td>ぐずぐず</td>
+<td>磨磨蹭蹭，慢腾腾</td>
+</tr>
+<tr class="even">
+<td>ぼんやり</td>
+<td>发呆，精神恍惚；模糊，不清楚</td>
+</tr>
+<tr class="odd">
+<td>いらいら</td>
+<td>焦躁不安，焦急</td>
+</tr>
+<tr class="even">
+<td>わくわく</td>
+<td>欢欣雀跃，焦急</td>
+</tr>
+<tr class="odd">
+<td>どきっと</td>
+<td>大吃一惊，震惊，吓一跳</td>
+</tr>
+<tr class="even">
+<td>どきどき</td>
+<td>七上八下，心怦怦跳；忐忑不安</td>
+</tr>
+<tr class="odd">
+<td>そのうち</td>
+<td>不久，过几天</td>
+</tr>
+<tr class="even">
+<td>のんびり</td>
+<td>放松，轻松；悠闲自在，悠然自得</td>
+</tr>
+<tr class="odd">
+<td>たまたま</td>
+<td>偶然，碰巧</td>
+</tr>
+<tr class="even">
+<td>ぴったり</td>
+<td>正合适，恰好</td>
+</tr>
+<tr class="odd">
+<td>つるつる</td>
+<td>溜滑，滑溜，光滑</td>
+</tr>
+<tr class="even">
+<td>いずれ</td>
+<td>早晚，反正</td>
+</tr>
+<tr class="odd">
+<td>いきいき</td>
+<td>栩栩如生，生动；生气勃勃</td>
+</tr>
+<tr class="even">
+<td>やがて</td>
+<td>后来，不久；大约</td>
+</tr>
+<tr class="odd">
+<td>つぎつぎ（次々）</td>
+<td>不断，接二连三，接踵而来</td>
+</tr>
+<tr class="even">
+<td>喜んで</td>
+<td>高兴地，非常愿意地</td>
+</tr>
+<tr class="odd">
+<td>どうしても</td>
+<td>无论如何也</td>
+</tr>
+<tr class="even">
+<td>せいぜい</td>
+<td>最多，充其量；尽量，尽可能</td>
+</tr>
+<tr class="odd">
+<td>いまにも（今にも）</td>
+<td>眼看就要，马上</td>
+</tr>
+<tr class="even">
+<td>徐々に</td>
+<td>渐渐，逐步</td>
+</tr>
+<tr class="odd">
+<td>はっきり、明確に</td>
+<td>清楚，明确</td>
+</tr>
+<tr class="even">
+<td>まことに（誠に）</td>
+<td>由衷，实在，诚然，的确，非常</td>
+</tr>
+<tr class="odd">
+<td>しょんぼり</td>
+<td>垂头丧气</td>
+</tr>
+<tr class="even">
+<td>ぐっすり</td>
+<td>熟睡，酣睡</td>
+</tr>
+<tr class="odd">
+<td>さっさと</td>
+<td>赶快地，麻利，快速，赶紧</td>
+</tr>
+<tr class="even">
+<td>つまり</td>
+<td>就是，即，就是说；总之，究竟</td>
+</tr>
+<tr class="odd">
+<td>むしろ（寧ろ）</td>
+<td>不如，与其，宁可，毋宁</td>
+</tr>
+<tr class="even">
+<td>おもわず（思わず）</td>
+<td>禁不住，不由得</td>
+</tr>
+<tr class="odd">
+<td>こってり</td>
+<td>味浓，油腻</td>
+</tr>
+<tr class="even">
+<td>あっさり</td>
+<td>清淡；朴素；淡泊</td>
+</tr>
+<tr class="odd">
+<td>さっぱり</td>
+<td>清爽；整洁，利落</td>
+</tr>
+<tr class="even">
+<td>すっきり</td>
+<td>爽气，畅快；流畅，整洁</td>
+</tr>
+<tr class="odd">
+<td>もっぱら（専ら）</td>
+<td>专门，完全</td>
+</tr>
+<tr class="even">
+<td>まさか</td>
+<td>绝没想到，怎能</td>
+</tr>
+<tr class="odd">
+<td>ひときわ</td>
+<td>格外，尤其</td>
+</tr>
+<tr class="even">
+<td>ぜひとも、ぜひ、必ず</td>
+<td>一定，务必</td>
+</tr>
+<tr class="odd">
+<td>いまさら（今さら）</td>
+<td>现在更（不…）</td>
+</tr>
+<tr class="even">
+<td>もうもう</td>
+<td>烟滚滚，烟蒙蒙，灰蒙蒙</td>
+</tr>
+<tr class="odd">
+<td>ちょっと</td>
+<td>哎，劳驾；有点，稍微；有点……，不太</td>
+</tr>
+<tr class="even">
+<td>よく</td>
+<td>竟能，居然；好好地；常常</td>
+</tr>
+<tr class="odd">
+<td>しばしば</td>
+<td>经常，每每，常常</td>
+</tr>
+<tr class="even">
+<td>つねに (常に)</td>
+<td>总是，常常，时常</td>
+</tr>
+<tr class="odd">
+<td>いがいと (意外と)</td>
+<td>意外地</td>
+</tr>
+<tr class="even">
+<td>むろん（無論）</td>
+<td>当然，不用说</td>
+</tr>
+<tr class="odd">
+<td>ずらりと</td>
+<td>一大排，成排地</td>
+</tr>
+<tr class="even">
+<td>かえって（却って）</td>
+<td>反倒，反而</td>
+</tr>
+<tr class="odd">
+<td>はたして(果たして)</td>
+<td>究竟，到底</td>
+</tr>
+<tr class="even">
+<td>くよくよ</td>
+<td>担心，闷闷不乐</td>
+</tr>
+<tr class="odd">
+<td>いつまでも</td>
+<td>因为，由于；无论怎样，总之</td>
+</tr>
+<tr class="even">
+<td>びっしり</td>
+<td>密密麻麻地，慢慢地，空隙</td>
+</tr>
+<tr class="odd">
+<td>いっきに(一気に)</td>
+<td>一下子，一口气</td>
+</tr>
+<tr class="even">
+<td>あくまで</td>
+<td>到底，毕竟，终究</td>
+</tr>
+<tr class="odd">
+<td>ふたたび(再び)</td>
+<td>再次，再</td>
+</tr>
+<tr class="even">
+<td>みずから(自ら)</td>
+<td>亲自；自己</td>
+</tr>
+<tr class="odd">
+<td>そわそわ</td>
+<td>慌张，心神不定，坐立不安</td>
+</tr>
+<tr class="even">
+<td>すすんで(進んで)</td>
+<td>主动地，积极地，自愿地</td>
+</tr>
+<tr class="odd">
+<td>えんえん（延々）</td>
+<td>绵延不绝，连绵不绝</td>
+</tr>
+<tr class="even">
+<td>めったに</td>
+<td>很少，不常</td>
+</tr>
+<tr class="odd">
+<td>なかよく（仲良く）</td>
+<td>亲密，友好</td>
+</tr>
+<tr class="even">
+<td>おもいきり（思い切り）</td>
+<td>彻底，痛快；决心，决意</td>
+</tr>
+<tr class="odd">
+<td>けっきょく（結局）</td>
+<td>结果，最后</td>
+</tr>
+<tr class="even">
+<td>そうとう（相当）、ずいぶん（随分）</td>
+<td>相当，很，颇</td>
+</tr>
+<tr class="odd">
+<td>まったく（全く）</td>
+<td>完全，全然</td>
+</tr>
+<tr class="even">
+<td>あらためて（改めた）</td>
+<td>再，重新</td>
+</tr>
+<tr class="odd">
+<td>おりいって（折り入って）</td>
+<td>诚恳，特意</td>
+</tr>
+<tr class="even">
+<td>ともに</td>
+<td>一起 ，一同；共同</td>
+</tr>
+<tr class="odd">
+<td>ときには（時には）</td>
+<td>有时</td>
+</tr>
+<tr class="even">
+<td>せいぜい</td>
+<td>最多，充其量；尽量，尽可能</td>
+</tr>
+<tr class="odd">
+<td>かんかん</td>
+<td>大发脾气，大怒；(太阳)火辣辣，（火）熊熊</td>
+</tr>
+<tr class="even">
+<td>わざわざ</td>
+<td>特意，故意</td>
+</tr>
+<tr class="odd">
+<td>わざと</td>
+<td>故意，特意，有意</td>
+</tr>
+<tr class="even">
+<td>いちだんと（一段と）</td>
+<td>越发，更加</td>
+</tr>
+<tr class="odd">
+<td>らくらく（楽々）</td>
+<td>简单，非常容易；安适</td>
+</tr>
+<tr class="even">
+<td>ぞくぞく（続々）</td>
+<td>源源不断，陆续</td>
+</tr>
+<tr class="odd">
+<td>だんだん（段々）</td>
+<td>渐渐地</td>
+</tr>
+<tr class="even">
+<td>いっさい (一切)</td>
+<td>一概，一切</td>
+</tr>
+<tr class="odd">
+<td>たがいに（互いに）</td>
+<td>交互，交替，相互</td>
+</tr>
+<tr class="even">
+<td>なにしろ(何しろ)</td>
+<td>因为，由于；无论怎样，总之</td>
+</tr>
+<tr class="odd">
+<td>いつも</td>
+<td>始终，总是，一直</td>
+</tr>
+<tr class="even">
+<td>まっすぐ</td>
+<td>径直</td>
+</tr>
+<tr class="odd">
+<td>たしか</td>
+<td>好像是</td>
+</tr>
+<tr class="even">
+<td>これから</td>
+<td>从今以后</td>
+</tr>
+<tr class="odd">
+<td>すごく</td>
+<td>了不起地，惊人地</td>
+</tr>
+<tr class="even">
+<td>べつに（別に）</td>
+<td>并不</td>
+</tr>
+<tr class="odd">
+<td>ほとんど</td>
+<td>大部分，几乎</td>
+</tr>
+<tr class="even">
+<td>つい</td>
+<td>不知不觉地</td>
+</tr>
+<tr class="odd">
+<td>しばらく</td>
+<td>好久，片刻</td>
+</tr>
+<tr class="even">
+<td>ほかに</td>
+<td>另外</td>
+</tr>
+<tr class="odd">
+<td>うまく</td>
+<td>高明地，很好地，好吃地</td>
+</tr>
+<tr class="even">
+<td>丁寧に</td>
+<td>礼貌地，恭敬地</td>
+</tr>
+<tr class="odd">
+<td>きちんと</td>
+<td>好好地，正经地</td>
+</tr>
+<tr class="even">
+<td>ぜんぶ</td>
+<td>全部</td>
+</tr>
+<tr class="odd">
+<td>相変わらず</td>
+<td>依然，照旧</td>
+</tr>
+<tr class="even">
+<td>とにかく</td>
+<td>特别是，总之</td>
+</tr>
+<tr class="odd">
+<td>まだまだ</td>
+<td>还，尚</td>
+</tr>
+<tr class="even">
+<td>ぺらぺら</td>
+<td>流利地</td>
+</tr>
+<tr class="odd">
+<td>ワンワン</td>
+<td>汪汪（狗叫）</td>
+</tr>
+<tr class="even">
+<td>ザーザー</td>
+<td>哗啦哗啦</td>
+</tr>
+<tr class="odd">
+<td>すやすや</td>
+<td>安静地，香甜地</td>
+</tr>
+<tr class="even">
+<td>くれくれ</td>
+<td>弯弯曲曲</td>
+</tr>
+<tr class="odd">
+<td>どんどん</td>
+<td>连续不段地，接二连三地</td>
+</tr>
+<tr class="even">
+<td>こっそり</td>
+<td>偷偷地，悄悄地</td>
+</tr>
+<tr class="odd">
+<td>さすが（流石）</td>
+<td>不愧是，果然</td>
+</tr>
+<tr class="even">
+<td>じっさいに（実際に）</td>
+<td>实际上</td>
+</tr>
+<tr class="odd">
+<td>せっかく</td>
+<td>好不容易，特意</td>
+</tr>
+<tr class="even">
+<td>もっとも（最も）</td>
+<td>最</td>
+</tr>
+<tr class="odd">
+<td>ちょくせつ（直接）</td>
+<td>直接</td>
+</tr>
+<tr class="even">
+<td>まるで</td>
+<td>好像</td>
+</tr>
+<tr class="odd">
+<td>いかにも</td>
+<td>典型地，实在，的确</td>
+</tr>
+<tr class="even">
+<td>しょうしょう（少々）</td>
+<td>稍微</td>
+</tr>
+<tr class="odd">
+<td>ただいま（只今）</td>
+<td>马上，立即</td>
+</tr>
+</tbody>
+</table>
 <hr />
 ]]></content>
       <categories>
-        <category>KU</category>
+        <category>日本語</category>
+        <category>JLPT N1</category>
       </categories>
   </entry>
   <entry>
@@ -2614,760 +3395,153 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
-    <title>N1副詞</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N1/N1%E5%89%AF%E8%A9%9E/</url>
+    <title>キーの記号の読み方</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/</url>
     <content><![CDATA[<hr />
+<p><img src="https://p.ipic.vip/517a8e.jpg" /></p>
 <table>
-<colgroup>
-<col style="width: 56%" />
-<col style="width: 43%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th>副詞</th>
-<th>翻訳</th>
+<th>記号</th>
+<th>読み方</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>すっかり</td>
-<td>完全，彻底</td>
+<td>~</td>
+<td>チルダ</td>
 </tr>
 <tr class="even">
-<td>はっきりと</td>
-<td>清晰的</td>
+<td>!</td>
+<td>ビックリマーク・感嘆符</td>
 </tr>
 <tr class="odd">
-<td>うっかり</td>
-<td>不注意，不留神</td>
+<td>@</td>
+<td>アットマーク・単価符号</td>
 </tr>
 <tr class="even">
-<td>しっかり</td>
-<td>好好地、完全</td>
+<td>#</td>
+<td>ハッシュ</td>
 </tr>
 <tr class="odd">
-<td>なんて</td>
-<td>多么</td>
+<td>♯</td>
+<td>シャープ</td>
 </tr>
 <tr class="even">
-<td>なん（だ）か</td>
-<td>总觉得</td>
+<td>$</td>
+<td>ドルマーク</td>
 </tr>
 <tr class="odd">
-<td>なんと</td>
-<td>竟然</td>
+<td>%</td>
+<td>パーセント</td>
 </tr>
 <tr class="even">
-<td>意外と</td>
-<td>意外</td>
+<td>^</td>
+<td>ハット・山記号</td>
 </tr>
 <tr class="odd">
-<td>どんなに、どれだけ、いかに、なんて</td>
-<td>怎样，怎么</td>
+<td>&amp;</td>
+<td>アンド</td>
 </tr>
 <tr class="even">
-<td>もうすぐ、間もなく、すぐに、すぐ、早速</td>
-<td>立即，马上</td>
+<td>*</td>
+<td>アスタリスク・星印</td>
 </tr>
 <tr class="odd">
-<td>かつて、むかし、以前、前に、これまで</td>
-<td>过去，以前，曾经</td>
+<td>(</td>
+<td>かっこ</td>
 </tr>
 <tr class="even">
-<td>がんらい（元来）、ほんらい（本来）、もともと、もと</td>
-<td>本来</td>
+<td>)</td>
+<td>かっこ閉じ</td>
 </tr>
 <tr class="odd">
-<td>たいてい（大抵）、だいたい（大体）</td>
-<td>大概，大抵，大都</td>
+<td>ー</td>
+<td>ダッシュ</td>
 </tr>
 <tr class="even">
-<td>いちおう（一応）、とりあえず</td>
-<td>姑且，暂且，先</td>
+<td>−</td>
+<td>マイナス</td>
 </tr>
 <tr class="odd">
-<td>すでに（既に）、もう</td>
-<td>已经</td>
+<td>-</td>
+<td>ハイフン</td>
 </tr>
 <tr class="even">
-<td>どうか、どうぞ</td>
-<td>请</td>
+<td>_</td>
+<td>アンダーバー</td>
 </tr>
 <tr class="odd">
-<td>もしかして、もしかしたら、もしかすると、もし、もしも</td>
-<td>也许</td>
+<td>/</td>
+<td>スラッシュ</td>
 </tr>
 <tr class="even">
-<td>なかなか、とても、たいへん、だいぶ、かなり、けっこう</td>
-<td>非常，很</td>
+<td>\</td>
+<td>バックスラッシュ</td>
 </tr>
 <tr class="odd">
-<td>すこしも、ちっとも</td>
-<td>一点儿（也不），毫（无）</td>
+<td>:</td>
+<td>コロン</td>
 </tr>
 <tr class="even">
-<td>ようやく、とうとう、やっと、ついに、いよいよ（愈々）</td>
-<td>终于</td>
+<td>;</td>
+<td>セミコロン</td>
 </tr>
 <tr class="odd">
-<td>ただ、たった，たんに（単に）</td>
-<td>仅，只</td>
+<td>"</td>
+<td>ダブルクォーテーション・ちょんちょん</td>
 </tr>
 <tr class="even">
-<td>まんいち(万一) 、まんがいち(万が一)</td>
-<td>万一</td>
+<td>'</td>
+<td>クォーテーションマーク</td>
 </tr>
 <tr class="odd">
-<td>いかが、どう</td>
-<td>如何</td>
+<td>&lt;</td>
+<td>小なり</td>
 </tr>
 <tr class="even">
-<td>どうして、なぜ</td>
-<td>为什么，为何，何故</td>
+<td>&gt;</td>
+<td>大なり</td>
 </tr>
 <tr class="odd">
-<td>まず、先に、先ほど</td>
-<td>首先</td>
+<td>,</td>
+<td>コンマ</td>
 </tr>
 <tr class="even">
-<td>ぜったいに（絶対に）、ぜったい</td>
-<td>绝对</td>
+<td>、</td>
+<td>読点</td>
 </tr>
 <tr class="odd">
-<td>きゅうに（急に）、とつぜん（突然）</td>
-<td>突然</td>
+<td>。</td>
+<td>句点</td>
 </tr>
 <tr class="even">
-<td>主として（しゅとして）、主に、主要に</td>
-<td>主要</td>
+<td>.</td>
+<td>ピリオド</td>
 </tr>
 <tr class="odd">
-<td>これまで、今まで</td>
-<td>现在为止，以前，此前</td>
+<td>?</td>
+<td>クェスチョンマーク・はてな</td>
 </tr>
 <tr class="even">
-<td>いちど（一度）</td>
-<td>一次，一遍，一度</td>
+<td>fn</td>
+<td>ファンクション</td>
 </tr>
 <tr class="odd">
-<td>こんど（今度）</td>
-<td>这回，下次</td>
+<td>control</td>
+<td>コントロール</td>
 </tr>
 <tr class="even">
-<td>ごく</td>
-<td>极，最，非常</td>
+<td>option</td>
+<td>オプション</td>
 </tr>
 <tr class="odd">
-<td>ちっとも</td>
-<td>一点儿（也不），毫（无）</td>
+<td>command</td>
+<td>コマンド</td>
 </tr>
 <tr class="even">
-<td>たった今</td>
-<td>刚刚</td>
-</tr>
-<tr class="odd">
-<td>さっき</td>
-<td>刚才</td>
-</tr>
-<tr class="even">
-<td>もう一度</td>
-<td>再次</td>
-</tr>
-<tr class="odd">
-<td>全然</td>
-<td>根本不</td>
-</tr>
-<tr class="even">
-<td>ちょっど</td>
-<td>刚好</td>
-</tr>
-<tr class="odd">
-<td>あまり</td>
-<td>不太</td>
-</tr>
-<tr class="even">
-<td>本当に</td>
-<td>实在是，真的</td>
-</tr>
-<tr class="odd">
-<td>また</td>
-<td>还，再，由</td>
-</tr>
-<tr class="even">
-<td>たまに</td>
-<td>偶尔</td>
-</tr>
-<tr class="odd">
-<td>時々</td>
-<td>有时</td>
-</tr>
-<tr class="even">
-<td>いちばん（一番）</td>
-<td>最，第一</td>
-</tr>
-<tr class="odd">
-<td>こう</td>
-<td>这样</td>
-</tr>
-<tr class="even">
-<td>そう/ああ</td>
-<td>那样</td>
-</tr>
-<tr class="odd">
-<td>あとで（後で）</td>
-<td>过会儿</td>
-</tr>
-<tr class="even">
-<td>ゆっくり</td>
-<td>好好地，安静地</td>
-</tr>
-<tr class="odd">
-<td>もちろん（勿論）</td>
-<td>当然，不用说</td>
-</tr>
-<tr class="even">
-<td>じゅうぶん（十分）</td>
-<td>好好地，充足地</td>
-</tr>
-<tr class="odd">
-<td>ちゃんと</td>
-<td>好好地，的确，完全</td>
-</tr>
-<tr class="even">
-<td>そろそろ</td>
-<td>快要</td>
-</tr>
-<tr class="odd">
-<td>はやく</td>
-<td>早点儿</td>
-</tr>
-<tr class="even">
-<td>初めて</td>
-<td>第一次</td>
-</tr>
-<tr class="odd">
-<td>たぶん（多分）</td>
-<td>可能，大概</td>
-</tr>
-<tr class="even">
-<td>じつは（実は）</td>
-<td>其实，实际上</td>
-</tr>
-<tr class="odd">
-<td>ざっと</td>
-<td>粗略地；一下子，很快；（流水声）哗啦</td>
-</tr>
-<tr class="even">
-<td>きっと</td>
-<td>一定</td>
-</tr>
-<tr class="odd">
-<td>ずっと</td>
-<td>得多，一直</td>
-</tr>
-<tr class="even">
-<td>もっと</td>
-<td>更加</td>
-</tr>
-<tr class="odd">
-<td>やっと</td>
-<td>终于</td>
-</tr>
-<tr class="even">
-<td>ぐっと</td>
-<td>一下子、更加</td>
-</tr>
-<tr class="odd">
-<td>ほっと</td>
-<td>放松，放心</td>
-</tr>
-<tr class="even">
-<td>さっと</td>
-<td>很快，一下子；忽然，骤然</td>
-</tr>
-<tr class="odd">
-<td>まさに</td>
-<td>正是，真正是，的确，实在，确实</td>
-</tr>
-<tr class="even">
-<td>やや</td>
-<td>略显，稍微</td>
-</tr>
-<tr class="odd">
-<td>じつに（実に）</td>
-<td>实在，的确，确实</td>
-</tr>
-<tr class="even">
-<td>のちほど（後ほど）</td>
-<td>过一会儿，随后</td>
-</tr>
-<tr class="odd">
-<td>いったい</td>
-<td>到底，究竟</td>
-</tr>
-<tr class="even">
-<td>にこにこ</td>
-<td>笑眯眯，微笑</td>
-</tr>
-<tr class="odd">
-<td>いきなり</td>
-<td>突然，冷不防</td>
-</tr>
-<tr class="even">
-<td>なんとなく</td>
-<td>不由得，总觉得</td>
-</tr>
-<tr class="odd">
-<td>にっこり</td>
-<td>莞尔，微笑，嫣然一笑</td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td>轻飘飘，软绵绵</td>
-</tr>
-<tr class="odd">
-<td>ぐずぐず</td>
-<td>磨磨蹭蹭，慢腾腾</td>
-</tr>
-<tr class="even">
-<td>ぼんやり</td>
-<td>发呆，精神恍惚；模糊，不清楚</td>
-</tr>
-<tr class="odd">
-<td>いらいら</td>
-<td>焦躁不安，焦急</td>
-</tr>
-<tr class="even">
-<td>わくわく</td>
-<td>欢欣雀跃，焦急</td>
-</tr>
-<tr class="odd">
-<td>どきっと</td>
-<td>大吃一惊，震惊，吓一跳</td>
-</tr>
-<tr class="even">
-<td>どきどき</td>
-<td>七上八下，心怦怦跳；忐忑不安</td>
-</tr>
-<tr class="odd">
-<td>そのうち</td>
-<td>不久，过几天</td>
-</tr>
-<tr class="even">
-<td>のんびり</td>
-<td>放松，轻松；悠闲自在，悠然自得</td>
-</tr>
-<tr class="odd">
-<td>たまたま</td>
-<td>偶然，碰巧</td>
-</tr>
-<tr class="even">
-<td>ぴったり</td>
-<td>正合适，恰好</td>
-</tr>
-<tr class="odd">
-<td>つるつる</td>
-<td>溜滑，滑溜，光滑</td>
-</tr>
-<tr class="even">
-<td>いずれ</td>
-<td>早晚，反正</td>
-</tr>
-<tr class="odd">
-<td>いきいき</td>
-<td>栩栩如生，生动；生气勃勃</td>
-</tr>
-<tr class="even">
-<td>やがて</td>
-<td>后来，不久；大约</td>
-</tr>
-<tr class="odd">
-<td>つぎつぎ（次々）</td>
-<td>不断，接二连三，接踵而来</td>
-</tr>
-<tr class="even">
-<td>喜んで</td>
-<td>高兴地，非常愿意地</td>
-</tr>
-<tr class="odd">
-<td>どうしても</td>
-<td>无论如何也</td>
-</tr>
-<tr class="even">
-<td>せいぜい</td>
-<td>最多，充其量；尽量，尽可能</td>
-</tr>
-<tr class="odd">
-<td>いまにも（今にも）</td>
-<td>眼看就要，马上</td>
-</tr>
-<tr class="even">
-<td>徐々に</td>
-<td>渐渐，逐步</td>
-</tr>
-<tr class="odd">
-<td>はっきり、明確に</td>
-<td>清楚，明确</td>
-</tr>
-<tr class="even">
-<td>まことに（誠に）</td>
-<td>由衷，实在，诚然，的确，非常</td>
-</tr>
-<tr class="odd">
-<td>しょんぼり</td>
-<td>垂头丧气</td>
-</tr>
-<tr class="even">
-<td>ぐっすり</td>
-<td>熟睡，酣睡</td>
-</tr>
-<tr class="odd">
-<td>さっさと</td>
-<td>赶快地，麻利，快速，赶紧</td>
-</tr>
-<tr class="even">
-<td>つまり</td>
-<td>就是，即，就是说；总之，究竟</td>
-</tr>
-<tr class="odd">
-<td>むしろ（寧ろ）</td>
-<td>不如，与其，宁可，毋宁</td>
-</tr>
-<tr class="even">
-<td>おもわず（思わず）</td>
-<td>禁不住，不由得</td>
-</tr>
-<tr class="odd">
-<td>こってり</td>
-<td>味浓，油腻</td>
-</tr>
-<tr class="even">
-<td>あっさり</td>
-<td>清淡；朴素；淡泊</td>
-</tr>
-<tr class="odd">
-<td>さっぱり</td>
-<td>清爽；整洁，利落</td>
-</tr>
-<tr class="even">
-<td>すっきり</td>
-<td>爽气，畅快；流畅，整洁</td>
-</tr>
-<tr class="odd">
-<td>もっぱら（専ら）</td>
-<td>专门，完全</td>
-</tr>
-<tr class="even">
-<td>まさか</td>
-<td>绝没想到，怎能</td>
-</tr>
-<tr class="odd">
-<td>ひときわ</td>
-<td>格外，尤其</td>
-</tr>
-<tr class="even">
-<td>ぜひとも、ぜひ、必ず</td>
-<td>一定，务必</td>
-</tr>
-<tr class="odd">
-<td>いまさら（今さら）</td>
-<td>现在更（不…）</td>
-</tr>
-<tr class="even">
-<td>もうもう</td>
-<td>烟滚滚，烟蒙蒙，灰蒙蒙</td>
-</tr>
-<tr class="odd">
-<td>ちょっと</td>
-<td>哎，劳驾；有点，稍微；有点……，不太</td>
-</tr>
-<tr class="even">
-<td>よく</td>
-<td>竟能，居然；好好地；常常</td>
-</tr>
-<tr class="odd">
-<td>しばしば</td>
-<td>经常，每每，常常</td>
-</tr>
-<tr class="even">
-<td>つねに (常に)</td>
-<td>总是，常常，时常</td>
-</tr>
-<tr class="odd">
-<td>いがいと (意外と)</td>
-<td>意外地</td>
-</tr>
-<tr class="even">
-<td>むろん（無論）</td>
-<td>当然，不用说</td>
-</tr>
-<tr class="odd">
-<td>ずらりと</td>
-<td>一大排，成排地</td>
-</tr>
-<tr class="even">
-<td>かえって（却って）</td>
-<td>反倒，反而</td>
-</tr>
-<tr class="odd">
-<td>はたして(果たして)</td>
-<td>究竟，到底</td>
-</tr>
-<tr class="even">
-<td>くよくよ</td>
-<td>担心，闷闷不乐</td>
-</tr>
-<tr class="odd">
-<td>いつまでも</td>
-<td>因为，由于；无论怎样，总之</td>
-</tr>
-<tr class="even">
-<td>びっしり</td>
-<td>密密麻麻地，慢慢地，空隙</td>
-</tr>
-<tr class="odd">
-<td>いっきに(一気に)</td>
-<td>一下子，一口气</td>
-</tr>
-<tr class="even">
-<td>あくまで</td>
-<td>到底，毕竟，终究</td>
-</tr>
-<tr class="odd">
-<td>ふたたび(再び)</td>
-<td>再次，再</td>
-</tr>
-<tr class="even">
-<td>みずから(自ら)</td>
-<td>亲自；自己</td>
-</tr>
-<tr class="odd">
-<td>そわそわ</td>
-<td>慌张，心神不定，坐立不安</td>
-</tr>
-<tr class="even">
-<td>すすんで(進んで)</td>
-<td>主动地，积极地，自愿地</td>
-</tr>
-<tr class="odd">
-<td>えんえん（延々）</td>
-<td>绵延不绝，连绵不绝</td>
-</tr>
-<tr class="even">
-<td>めったに</td>
-<td>很少，不常</td>
-</tr>
-<tr class="odd">
-<td>なかよく（仲良く）</td>
-<td>亲密，友好</td>
-</tr>
-<tr class="even">
-<td>おもいきり（思い切り）</td>
-<td>彻底，痛快；决心，决意</td>
-</tr>
-<tr class="odd">
-<td>けっきょく（結局）</td>
-<td>结果，最后</td>
-</tr>
-<tr class="even">
-<td>そうとう（相当）、ずいぶん（随分）</td>
-<td>相当，很，颇</td>
-</tr>
-<tr class="odd">
-<td>まったく（全く）</td>
-<td>完全，全然</td>
-</tr>
-<tr class="even">
-<td>あらためて（改めた）</td>
-<td>再，重新</td>
-</tr>
-<tr class="odd">
-<td>おりいって（折り入って）</td>
-<td>诚恳，特意</td>
-</tr>
-<tr class="even">
-<td>ともに</td>
-<td>一起 ，一同；共同</td>
-</tr>
-<tr class="odd">
-<td>ときには（時には）</td>
-<td>有时</td>
-</tr>
-<tr class="even">
-<td>せいぜい</td>
-<td>最多，充其量；尽量，尽可能</td>
-</tr>
-<tr class="odd">
-<td>かんかん</td>
-<td>大发脾气，大怒；(太阳)火辣辣，（火）熊熊</td>
-</tr>
-<tr class="even">
-<td>わざわざ</td>
-<td>特意，故意</td>
-</tr>
-<tr class="odd">
-<td>わざと</td>
-<td>故意，特意，有意</td>
-</tr>
-<tr class="even">
-<td>いちだんと（一段と）</td>
-<td>越发，更加</td>
-</tr>
-<tr class="odd">
-<td>らくらく（楽々）</td>
-<td>简单，非常容易；安适</td>
-</tr>
-<tr class="even">
-<td>ぞくぞく（続々）</td>
-<td>源源不断，陆续</td>
-</tr>
-<tr class="odd">
-<td>だんだん（段々）</td>
-<td>渐渐地</td>
-</tr>
-<tr class="even">
-<td>いっさい (一切)</td>
-<td>一概，一切</td>
-</tr>
-<tr class="odd">
-<td>たがいに（互いに）</td>
-<td>交互，交替，相互</td>
-</tr>
-<tr class="even">
-<td>なにしろ(何しろ)</td>
-<td>因为，由于；无论怎样，总之</td>
-</tr>
-<tr class="odd">
-<td>いつも</td>
-<td>始终，总是，一直</td>
-</tr>
-<tr class="even">
-<td>まっすぐ</td>
-<td>径直</td>
-</tr>
-<tr class="odd">
-<td>たしか</td>
-<td>好像是</td>
-</tr>
-<tr class="even">
-<td>これから</td>
-<td>从今以后</td>
-</tr>
-<tr class="odd">
-<td>すごく</td>
-<td>了不起地，惊人地</td>
-</tr>
-<tr class="even">
-<td>べつに（別に）</td>
-<td>并不</td>
-</tr>
-<tr class="odd">
-<td>ほとんど</td>
-<td>大部分，几乎</td>
-</tr>
-<tr class="even">
-<td>つい</td>
-<td>不知不觉地</td>
-</tr>
-<tr class="odd">
-<td>しばらく</td>
-<td>好久，片刻</td>
-</tr>
-<tr class="even">
-<td>ほかに</td>
-<td>另外</td>
-</tr>
-<tr class="odd">
-<td>うまく</td>
-<td>高明地，很好地，好吃地</td>
-</tr>
-<tr class="even">
-<td>丁寧に</td>
-<td>礼貌地，恭敬地</td>
-</tr>
-<tr class="odd">
-<td>きちんと</td>
-<td>好好地，正经地</td>
-</tr>
-<tr class="even">
-<td>ぜんぶ</td>
-<td>全部</td>
-</tr>
-<tr class="odd">
-<td>相変わらず</td>
-<td>依然，照旧</td>
-</tr>
-<tr class="even">
-<td>とにかく</td>
-<td>特别是，总之</td>
-</tr>
-<tr class="odd">
-<td>まだまだ</td>
-<td>还，尚</td>
-</tr>
-<tr class="even">
-<td>ぺらぺら</td>
-<td>流利地</td>
-</tr>
-<tr class="odd">
-<td>ワンワン</td>
-<td>汪汪（狗叫）</td>
-</tr>
-<tr class="even">
-<td>ザーザー</td>
-<td>哗啦哗啦</td>
-</tr>
-<tr class="odd">
-<td>すやすや</td>
-<td>安静地，香甜地</td>
-</tr>
-<tr class="even">
-<td>くれくれ</td>
-<td>弯弯曲曲</td>
-</tr>
-<tr class="odd">
-<td>どんどん</td>
-<td>连续不段地，接二连三地</td>
-</tr>
-<tr class="even">
-<td>こっそり</td>
-<td>偷偷地，悄悄地</td>
-</tr>
-<tr class="odd">
-<td>さすが（流石）</td>
-<td>不愧是，果然</td>
-</tr>
-<tr class="even">
-<td>じっさいに（実際に）</td>
-<td>实际上</td>
-</tr>
-<tr class="odd">
-<td>せっかく</td>
-<td>好不容易，特意</td>
-</tr>
-<tr class="even">
-<td>もっとも（最も）</td>
-<td>最</td>
-</tr>
-<tr class="odd">
-<td>ちょくせつ（直接）</td>
-<td>直接</td>
-</tr>
-<tr class="even">
-<td>まるで</td>
-<td>好像</td>
-</tr>
-<tr class="odd">
-<td>いかにも</td>
-<td>典型地，实在，的确</td>
-</tr>
-<tr class="even">
-<td>しょうしょう（少々）</td>
-<td>稍微</td>
-</tr>
-<tr class="odd">
-<td>ただいま（只今）</td>
-<td>马上，立即</td>
+<td>space</td>
+<td>スペース</td>
 </tr>
 </tbody>
 </table>
@@ -3375,7 +3549,320 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 ]]></content>
       <categories>
         <category>日本語</category>
-        <category>JLPT N1</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>人体についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E4%BA%BA%E4%BD%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>漢字</th>
+<th>仮名</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>体</td>
+<td>からだ</td>
+</tr>
+<tr class="even">
+<td>皮膚</td>
+<td>ひふ</td>
+</tr>
+<tr class="odd">
+<td>関節</td>
+<td>かんせつ</td>
+</tr>
+<tr class="even">
+<td>頭</td>
+<td>あたま</td>
+</tr>
+<tr class="odd">
+<td>後頭部</td>
+<td>こうとうぶ</td>
+</tr>
+<tr class="even">
+<td>髪の毛</td>
+<td>かみのけ</td>
+</tr>
+<tr class="odd">
+<td>旋毛</td>
+<td>つむじ</td>
+</tr>
+<tr class="even">
+<td>前髪</td>
+<td>まえがみ</td>
+</tr>
+<tr class="odd">
+<td>生え際</td>
+<td>はえぎわ</td>
+</tr>
+<tr class="even">
+<td>揉み上げ</td>
+<td>もみあげ</td>
+</tr>
+<tr class="odd">
+<td>髭</td>
+<td>ひげ</td>
+</tr>
+<tr class="even">
+<td>顔</td>
+<td>かお</td>
+</tr>
+<tr class="odd">
+<td>額</td>
+<td>ひたい</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>おでこ</td>
+</tr>
+<tr class="odd">
+<td>眉</td>
+<td>まゆ</td>
+</tr>
+<tr class="even">
+<td>眉毛</td>
+<td>まゆげ</td>
+</tr>
+<tr class="odd">
+<td>目</td>
+<td>め</td>
+</tr>
+<tr class="even">
+<td>目頭</td>
+<td>めがしら</td>
+</tr>
+<tr class="odd">
+<td>目尻</td>
+<td>めじり</td>
+</tr>
+<tr class="even">
+<td>瞼</td>
+<td>まぶた</td>
+</tr>
+<tr class="odd">
+<td>一重瞼</td>
+<td>ひとえまぶた</td>
+</tr>
+<tr class="even">
+<td>二重瞼</td>
+<td>ふたえまぶた</td>
+</tr>
+<tr class="odd">
+<td>眼球</td>
+<td>がんきゅう</td>
+</tr>
+<tr class="even">
+<td>耳</td>
+<td>みみ</td>
+</tr>
+<tr class="odd">
+<td>耳朶</td>
+<td>みみたぶ</td>
+</tr>
+<tr class="even">
+<td>鼻</td>
+<td>はな</td>
+</tr>
+<tr class="odd">
+<td>頬</td>
+<td>ほお/ほほ</td>
+</tr>
+<tr class="even">
+<td>口</td>
+<td>くち</td>
+</tr>
+<tr class="odd">
+<td>唇</td>
+<td>くちびる</td>
+</tr>
+<tr class="even">
+<td>歯茎</td>
+<td>はぐき</td>
+</tr>
+<tr class="odd">
+<td>歯</td>
+<td>は</td>
+</tr>
+<tr class="even">
+<td>前歯</td>
+<td>まえば</td>
+</tr>
+<tr class="odd">
+<td>奥歯</td>
+<td>おくば</td>
+</tr>
+<tr class="even">
+<td>親知らず</td>
+<td>おやしらず</td>
+</tr>
+<tr class="odd">
+<td>八重歯</td>
+<td>やえば</td>
+</tr>
+<tr class="even">
+<td>舌</td>
+<td>した</td>
+</tr>
+<tr class="odd">
+<td>顎</td>
+<td>あご</td>
+</tr>
+<tr class="even">
+<td>喉</td>
+<td>のど</td>
+</tr>
+<tr class="odd">
+<td>首</td>
+<td>くび</td>
+</tr>
+<tr class="even">
+<td>肩</td>
+<td>かた</td>
+</tr>
+<tr class="odd">
+<td>脇</td>
+<td>わき</td>
+</tr>
+<tr class="even">
+<td>腕</td>
+<td>うで</td>
+</tr>
+<tr class="odd">
+<td>肘</td>
+<td>ひじ</td>
+</tr>
+<tr class="even">
+<td>手首</td>
+<td>てくび</td>
+</tr>
+<tr class="odd">
+<td>手</td>
+<td>て</td>
+</tr>
+<tr class="even">
+<td>掌</td>
+<td>てのひら</td>
+</tr>
+<tr class="odd">
+<td>手の甲</td>
+<td>てのこう</td>
+</tr>
+<tr class="even">
+<td>指</td>
+<td>ゆび</td>
+</tr>
+<tr class="odd">
+<td>親指</td>
+<td>おやゆび</td>
+</tr>
+<tr class="even">
+<td>人差し指</td>
+<td>ひとさしゆび</td>
+</tr>
+<tr class="odd">
+<td>中指</td>
+<td>なかゆび</td>
+</tr>
+<tr class="even">
+<td>薬指</td>
+<td>くすりゆび</td>
+</tr>
+<tr class="odd">
+<td>小指</td>
+<td>こゆび</td>
+</tr>
+<tr class="even">
+<td>爪</td>
+<td>つめ</td>
+</tr>
+<tr class="odd">
+<td>腹/お腹</td>
+<td>はら/おなか</td>
+</tr>
+<tr class="even">
+<td>脇腹</td>
+<td>わきばら</td>
+</tr>
+<tr class="odd">
+<td>臍</td>
+<td>へそ</td>
+</tr>
+<tr class="even">
+<td>背中</td>
+<td>せなか</td>
+</tr>
+<tr class="odd">
+<td>腰</td>
+<td>こし</td>
+</tr>
+<tr class="even">
+<td>尻</td>
+<td>しり</td>
+</tr>
+<tr class="odd">
+<td>太腿</td>
+<td>ふともも</td>
+</tr>
+<tr class="even">
+<td>脹脛</td>
+<td>ふくらはぎ</td>
+</tr>
+<tr class="odd">
+<td>膝</td>
+<td>ひざ</td>
+</tr>
+<tr class="even">
+<td>脛</td>
+<td>すね</td>
+</tr>
+<tr class="odd">
+<td>アキレス腱</td>
+<td>あきれすけん</td>
+</tr>
+<tr class="even">
+<td>踵</td>
+<td>かかと</td>
+</tr>
+<tr class="odd">
+<td>脚</td>
+<td>あし</td>
+</tr>
+<tr class="even">
+<td>足</td>
+<td>あし</td>
+</tr>
+<tr class="odd">
+<td>足首</td>
+<td>あしくび</td>
+</tr>
+<tr class="even">
+<td>足の甲</td>
+<td>あしのこう</td>
+</tr>
+<tr class="odd">
+<td>足の裏</td>
+<td>あしのうら</td>
+</tr>
+<tr class="even">
+<td>爪先</td>
+<td>つまさき</td>
+</tr>
+<tr class="odd">
+<td>足の指</td>
+<td>あしのゆび</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -3965,115 +4452,649 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
-    <title>N2動詞</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
+    <title>味についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
     <content><![CDATA[<hr />
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 13%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-</colgroup>
+<table>
 <thead>
 <tr class="header">
-<th>悩んむ</th>
-<th>悔やむ</th>
-<th>恨む</th>
-<th>憎む</th>
-<th>痛む・傷む</th>
-<th>恵む</th>
-<th>囲む</th>
-<th>包む</th>
-<th>掴む</th>
-<th>縮む</th>
+<th>日本語</th>
+<th>中国語</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>疑う</strong></td>
-<td><strong>育つ</strong></td>
-<td><strong>養う</strong></td>
-<td><strong>奪う</strong></td>
-<td><strong>競う　戦う</strong></td>
-<td><strong>争う</strong></td>
-<td><strong>庇う</strong></td>
-<td><strong>狙う</strong></td>
-<td><strong>揃う</strong></td>
-<td><strong>補う</strong></td>
+<td>すっぽい</td>
+<td>酸的</td>
 </tr>
 <tr class="even">
-<td><strong>除く</strong></td>
-<td><strong>省く</strong></td>
-<td><strong>暴く</strong></td>
-<td><strong>招く</strong></td>
-<td><strong>傾く　導く</strong></td>
-<td><strong>扱う</strong></td>
-<td><strong>救う</strong></td>
-<td><strong>伺う</strong></td>
-<td><strong>覆う</strong></td>
-<td><strong>占う</strong></td>
+<td>甘い</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><strong>俯く</strong></td>
-<td><strong>囁く</strong></td>
-<td><strong>催す</strong></td>
-<td><strong>偏る</strong></td>
-<td><strong>謝る・誤る</strong></td>
-<td><strong>乱れる</strong></td>
-<td><strong>暴れる</strong></td>
-<td><strong>潰れる</strong></td>
-<td><strong>崩れる</strong></td>
-<td><strong>萎れる</strong></td>
+<td>あまずっぽい</td>
+<td>酸甜的</td>
 </tr>
 <tr class="even">
-<td><strong>凍る</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>濁る</strong></td>
-<td><strong>破れる</strong></td>
-<td><strong>囲まれる</strong></td>
-<td><strong>異なる</strong></td>
-<td><strong>倒れる</strong></td>
-<td><strong>壊れる</strong></td>
-<td><strong>揃える</strong></td>
-<td><strong>含める</strong></td>
+<td>苦い（にがい）</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><strong>腐る</strong></td>
-<td><strong>断る</strong></td>
-<td><strong>被る</strong></td>
-<td><strong>固める</strong></td>
-<td><strong>隔てる</strong></td>
-<td><strong>憧れる</strong></td>
-<td><strong>整える</strong></td>
-<td><strong>備える</strong></td>
-<td><strong>喋る</strong></td>
-<td><strong>蓄える</strong></td>
+<td>ほろ苦い</td>
+<td></td>
 </tr>
 <tr class="even">
-<td><strong>頼る</strong></td>
-<td><strong>潜る</strong></td>
-<td><strong>劣る</strong></td>
-<td><strong>痺れる</strong></td>
-<td><strong>隠れる</strong></td>
-<td><strong>隠す</strong></td>
-<td><strong>定める</strong></td>
-<td><strong>握る</strong></td>
-<td><strong>畳む</strong></td>
-<td><strong>挟む</strong></td>
+<td>塩辛い（しおからい）</td>
+<td>咸的</td>
 </tr>
 <tr class="odd">
-<td><strong>驚かす</strong></td>
-<td><strong>躓く</strong></td>
-<td><strong>削る</strong></td>
-<td><strong>戻す</strong></td>
-<td><strong>衰える</strong></td>
+<td>しょっぽい</td>
+<td>咸的（口语）</td>
+</tr>
+<tr class="even">
+<td>辛い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>薄い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>濃い（こい）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>油つこい</td>
+<td>油腻的</td>
+</tr>
+<tr class="even">
+<td>濃厚</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あっさり</td>
+<td>清淡的</td>
+</tr>
+<tr class="even">
+<td>こってり</td>
+<td>（拉面等）浓厚的</td>
+</tr>
+<tr class="odd">
+<td>ジューシー</td>
+<td>多汁的</td>
+</tr>
+<tr class="even">
+<td>まろやか</td>
+<td>醇厚的</td>
+</tr>
+<tr class="odd">
+<td>複雑</td>
+<td>难以描述的</td>
+</tr>
+<tr class="even">
+<td>クセになる</td>
+<td>欲罢不能的</td>
+</tr>
+<tr class="odd">
+<td>硬い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>柔らかい</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>臭い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>ふわふわ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>パサパサ</td>
+<td>干巴巴</td>
+</tr>
+<tr class="even">
+<td>ネバネバ</td>
+<td>黏糊糊</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>授受</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
+    <content><![CDATA[<hr />
+<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
+<hr />
+<h3
+id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
+<h3
+id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
+<h3 id="此句型一般用于我给别人某物别人给别人某物">★
+此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
+<h3 id="山田さんは木村さんに花を上げました">·
+山田さんは木村さんに花を上げました。</h3>
+<h3
+id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
+<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
+<h3
+id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
+<h3
+id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
+<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
+对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
+<h3 id="木村さんは山田さんに花をもらいました">·
+木村さんは山田さんに花をもらいました。</h3>
+<h3
+id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
+<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
+<h3
+id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
+<h3
+id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
+<h3 id="一般用于别人给我家人某物时使用">★
+一般用于“别人给我（家人）某物”时使用。</h3>
+<h3 id="佐藤さん私にクリスマスカードをくれました">·
+佐藤さん（私に）クリスマスカードをくれました。</h3>
+<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
+<hr />
+<h1 id="贰-动作的授受">贰 动作的授受</h1>
+<hr />
+<h3
+id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
+<h3
+id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
+<h3
+id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は木村さんに本を貸してあげました">·
+私は木村さんに本を貸してあげました。</h3>
+<h3 id="田中さんはミラーさんに資料を作ってあげました">·
+田中さんはミラーさんに資料を作ってあげました。</h3>
+<h3
+id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
+当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
+<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
+<h3
+id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
+<h3
+id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
+<h3
+id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
+<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
+私は山田さんに図書館の電話番号を教えてもらいました。</h3>
+<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
+ミラーさんは木村さんに京都を案内してもらいます。</h3>
+<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
+てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
+<h3
+id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
+<h3
+id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
+<h3 id="母は私にセーターを送ってくれました">·
+母は（私に）セーターを送ってくれました。</h3>
+<h3 id="林さんは弟におもちゃを買ってくれました">·
+林さんは弟におもちゃを買ってくれました。</h3>
+<hr />
+<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
+<hr />
+<h3
+id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
+<h3
+id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
+<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
+<h3
+id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
+<h3
+id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
+<h3
+id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
+<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
+<h3
+id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
+<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
+<h3
+id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
+<h3
+id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3
+id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
+<h3 id="私はおばからかわいい手袋をもらいました">·
+私はおばからかわいい手袋をもらいました。</h3>
+<h3 id="息子から誕生日のプレゼントをもらいました">·
+息子から誕生日のプレゼントをもらいました。</h3>
+<h3
+id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
+<h3
+id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
+<h3
+id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
+<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
+家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
+<h3 id="部長がわたしにお土産をくださいました">·
+部長が（わたしに）お土産をくださいました。</h3>
+<h3 id="先生が娘に辞書をくださいました">·
+先生が娘に辞書をくださいました。</h3>
+<hr />
+<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
+<hr />
+<h3
+id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
+<h3
+id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
+<h3
+id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
+<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
+<h3
+id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
+<h3
+id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
+<h3
+id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
+<h3
+id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
+“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
+<h3
+id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
+<h3
+id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
+<h3
+id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
+<h3
+id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
+<h3 id="息子に飛行機の切符を予約してもらいました">·
+息子に飛行機の切符を予約してもらいました。</h3>
+<h3
+id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
+<h3
+id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
+<h3
+id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
+<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
+部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
+<h3 id="部長はわたしを駅まで送ってくださいました">·
+部長は（わたしを）駅まで送ってくださいました。</h3>
+<h3 id="部長はわたしのレポートを直してくださいました">·
+部長は（わたしの）レポートを直してくださいました。</h3>
+<hr />
+<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
+<hr />
+<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
+<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
+<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
+<h3
+id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
+<h3
+id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
+私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
+<h3 id="卒業論文をご指導くださったのは山田先生です">·
+卒業論文をご指導くださったのは山田先生です。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
+<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
+<h2 id="请您">“请您~”</h2>
+<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
+<h3 id="お早めにお召し上がりください">·
+お早めにお召し上がりください。</h3>
+<h3 id="間違いがあるかどうかご確認ください">·
+間違いがあるかどうかご確認ください。</h3>
+<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
+<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
+<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
+<h3
+id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
+<h3
+id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
+大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
+<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
+ご結婚式にお招きいただきまして、ありがとうございます。</h3>
+<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
+こちらにお名前をお書きいただいてもよろしいですか。</h3>
+<h2
+id="させてくださるさせてください">させてくださる・させてください</h2>
+<h2
+id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
+<h3
+id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
+<h3 id="体の具合が悪いから先生が休ませてくださいました">·
+体の具合が悪いから、先生が休ませてくださいました。</h3>
+<h3 id="そのことについて少し考えさせてください">·
+そのことについて少し考えさせてください。</h3>
+<h3 id="この機械の使い方を説明させてください">·
+この機械の使い方を説明させてください。</h3>
+<h2 id="させていただく">させていただく</h2>
+<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
+<h3
+id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
+<h3
+id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
+先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
+<h3
+id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
+資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
+<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
+ドアのところに私の傘を置かせていただいてもいいですか。</h3>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>動詞の形</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
+    <content><![CDATA[<hr />
+<h1 id="まとめ">まとめ</h1>
+<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
+<h1 id="練習">練習</h1>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 10%" />
+<col style="width: 6%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>洗います</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>待ちます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>帰ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>休みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>遊びます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>死にます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>急ぎます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -4082,117 +5103,309 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 </tr>
 </tbody>
 </table>
-<table>
+<h1 id="解答">解答</h1>
+<table style="width:100%;">
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 15%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 8%" />
-<col style="width: 8%" />
-<col style="width: 10%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 12%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>なやんむ</th>
-<th>くやむ</th>
-<th>うらむ</th>
-<th>にくむ</th>
-<th>いたむ</th>
-<th>めぐむ</th>
-<th>かこむ</th>
-<th>つつむ</th>
-<th>つかむ</th>
-<th>ちぢむ</th>
+<th></th>
+<th>辞書</th>
+<th>た</th>
+<th>て</th>
+<th>否定</th>
+<th>仮定</th>
+<th>推量</th>
+<th>可能</th>
+<th>受け身</th>
+<th>使役</th>
+<th>使役受け身</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>うたがう</strong></td>
-<td><strong>そだつ</strong></td>
-<td><strong>やしなう</strong></td>
-<td><strong>うばう</strong></td>
-<td><strong>きそう　たたかう</strong></td>
-<td><strong>あらそう</strong></td>
-<td><strong>かばう</strong></td>
-<td><strong>ねらう</strong></td>
-<td><strong>そろう</strong></td>
-<td><strong>おぎなう</strong></td>
+<td>洗います</td>
+<td>洗う</td>
+<td>洗った</td>
+<td>洗って</td>
+<td>洗わない</td>
+<td>洗えば</td>
+<td>洗おう</td>
+<td>洗える</td>
+<td>洗われる</td>
+<td>洗わせる</td>
+<td>洗わされる</td>
 </tr>
 <tr class="even">
-<td><strong>のぞく</strong></td>
-<td><strong>はぶく</strong></td>
-<td><strong>あばく</strong></td>
-<td><strong>まねく</strong></td>
-<td><strong>かたむく　みちびく</strong></td>
-<td><strong>あつかう</strong></td>
-<td><strong>すくう</strong></td>
-<td><strong>うかがう</strong></td>
-<td><strong>おおう</strong></td>
-<td><strong>うらなう</strong></td>
+<td>待ちます</td>
+<td>待つ</td>
+<td>待った</td>
+<td>待って</td>
+<td>待たない</td>
+<td>待てば</td>
+<td>待とう</td>
+<td>待てる</td>
+<td>待たれる</td>
+<td>待たせる</td>
+<td>待たされる</td>
 </tr>
 <tr class="odd">
-<td><strong>うつむく</strong></td>
-<td><strong>ささやく</strong></td>
-<td><strong>もよおす</strong></td>
-<td><strong>かたよる</strong></td>
-<td><strong>あやまる</strong></td>
-<td><strong>みだれる</strong></td>
-<td><strong>あばれる</strong></td>
-<td><strong>つぶれる</strong></td>
-<td><strong>くずれる</strong></td>
-<td><strong>しおれる</strong></td>
+<td>帰ります</td>
+<td>帰る</td>
+<td>帰った</td>
+<td>帰って</td>
+<td>帰らない</td>
+<td>帰れば</td>
+<td>帰ろう</td>
+<td>帰れる</td>
+<td>帰られる</td>
+<td>帰らせる</td>
+<td>帰らされる</td>
 </tr>
 <tr class="even">
-<td><strong>こおる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>にごる</strong></td>
-<td><strong>やぶれる</strong></td>
-<td><strong>かこまれる</strong></td>
-<td><strong>ことなる</strong></td>
-<td><strong>たおれる</strong></td>
-<td><strong>こわれる</strong></td>
-<td><strong>そろえる</strong></td>
-<td><strong>ふくめる</strong></td>
+<td>休みます</td>
+<td>休む</td>
+<td>休んだ</td>
+<td>休んで</td>
+<td>休まない</td>
+<td>休めば</td>
+<td>休もう</td>
+<td>休める</td>
+<td>休まれる</td>
+<td>休ませる</td>
+<td>休まされる</td>
 </tr>
 <tr class="odd">
-<td><strong>くさる</strong></td>
-<td><strong>ことわる</strong></td>
-<td><strong>こうむる</strong></td>
-<td><strong>かためる</strong></td>
-<td><strong>へだてる</strong></td>
-<td><strong>あこがれる</strong></td>
-<td><strong>ととのえる</strong></td>
-<td><strong>そなえる</strong></td>
-<td><strong>しゃべる</strong></td>
-<td><strong>たくわえる</strong></td>
+<td>遊びます</td>
+<td>遊ぶ</td>
+<td>遊んだ</td>
+<td>遊んで</td>
+<td>遊ばない</td>
+<td>遊べば</td>
+<td>遊ぼう</td>
+<td>遊べる</td>
+<td>遊ばれる</td>
+<td>遊ばせる</td>
+<td>遊ばされる</td>
 </tr>
 <tr class="even">
-<td><strong>たよる</strong></td>
-<td><strong>もぐる</strong></td>
-<td><strong>おとる</strong></td>
-<td><strong>しびれる</strong></td>
-<td><strong>かくれる</strong></td>
-<td><strong>かくる</strong></td>
-<td><strong>さだめる</strong></td>
-<td><strong>にぎる</strong></td>
-<td><strong>たたむ</strong></td>
-<td><strong>はさむ</strong></td>
+<td>死にます</td>
+<td>死ぬ</td>
+<td>死んだ</td>
+<td>死んで</td>
+<td>死なない</td>
+<td>死ねば</td>
+<td>死のう</td>
+<td>死ねる</td>
+<td>死なれる</td>
+<td>死なせる</td>
+<td>死なされる</td>
 </tr>
 <tr class="odd">
-<td><strong>おどろかす</strong></td>
-<td><strong>つまずく</strong></td>
-<td><strong>けずる</strong></td>
-<td><strong>もどす</strong></td>
-<td><strong>おとろえる</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>急ぎます</td>
+<td>急ぐ</td>
+<td>急いだ</td>
+<td>急いで</td>
+<td>急いがない</td>
+<td>急げば</td>
+<td>急ごう</td>
+<td>急げる</td>
+<td>急がれる</td>
+<td>急がせる</td>
+<td>急がされる</td>
+</tr>
+<tr class="even">
+<td>降ります</td>
+<td>降る</td>
+<td>降った</td>
+<td>降って</td>
+<td>降らない</td>
+<td>降れば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="odd">
+<td>飲みます</td>
+<td>飲む</td>
+<td>飲んだ</td>
+<td>飲んで</td>
+<td>飲まない</td>
+<td>飲めば</td>
+<td>飲もう</td>
+<td>飲める</td>
+<td>飲まれる</td>
+<td>飲ませる</td>
+<td>飲まされる</td>
+</tr>
+<tr class="even">
+<td>行きます</td>
+<td>行く</td>
+<td>行った</td>
+<td>行って</td>
+<td>行かない</td>
+<td>行けば</td>
+<td>行こう</td>
+<td>行ける</td>
+<td>行かれる</td>
+<td>行かせる</td>
+<td>行かされる</td>
+</tr>
+<tr class="odd">
+<td>切ります</td>
+<td>切る</td>
+<td>切った</td>
+<td>切って</td>
+<td>切らない</td>
+<td>切れば</td>
+<td>切ろう</td>
+<td>切れる</td>
+<td>切られる</td>
+<td>切らせる</td>
+<td>切らされる</td>
+</tr>
+<tr class="even">
+<td>出ます</td>
+<td>出る</td>
+<td>出た</td>
+<td>出て</td>
+<td>出ない</td>
+<td>出れば</td>
+<td>出よう</td>
+<td>出られる</td>
+<td>出られる</td>
+<td>出させる</td>
+<td>出させらせる</td>
+</tr>
+<tr class="odd">
+<td>迎えます</td>
+<td>迎える</td>
+<td>迎えた</td>
+<td>迎えて</td>
+<td>迎えない</td>
+<td>迎えれば</td>
+<td>迎えよう</td>
+<td>迎えられる</td>
+<td>迎えられる</td>
+<td>迎えさせる</td>
+<td>迎えさせられる</td>
+</tr>
+<tr class="even">
+<td>食べます</td>
+<td>食べる</td>
+<td>食べた</td>
+<td>食べて</td>
+<td>食べない</td>
+<td>食べれば</td>
+<td>食べよう</td>
+<td>食べられる</td>
+<td>食べられる</td>
+<td>食べさせる</td>
+<td>食べさせられる</td>
+</tr>
+<tr class="odd">
+<td>降ります</td>
+<td>降りる</td>
+<td>降りた</td>
+<td>降りて</td>
+<td>降りない</td>
+<td>降りれば</td>
+<td>降りよう</td>
+<td>降りられる</td>
+<td>降りられる</td>
+<td>降りさせる</td>
+<td>降りさせられる</td>
+</tr>
+<tr class="even">
+<td>足ります</td>
+<td>足りる</td>
+<td>足りた</td>
+<td>足りて</td>
+<td>足りない</td>
+<td>足りれば</td>
+<td>足りよう</td>
+<td>足りられる</td>
+<td>足りられる</td>
+<td>足りさせる</td>
+<td>足りさせられる</td>
+</tr>
+<tr class="odd">
+<td>止めます</td>
+<td>止める</td>
+<td>止めた</td>
+<td>止めて</td>
+<td>止めない</td>
+<td>止めれば</td>
+<td>止めよう</td>
+<td>止められる</td>
+<td>止められる</td>
+<td>止めさせる</td>
+<td>止めさせられる</td>
+</tr>
+<tr class="even">
+<td>できます</td>
+<td>できる</td>
+<td>できた</td>
+<td>できて</td>
+<td>できない</td>
+<td>できれば</td>
+<td>できよう</td>
+<td>できる</td>
+<td>できられる</td>
+<td>できさせる</td>
+<td>できさせられる</td>
+</tr>
+<tr class="odd">
+<td>来ます</td>
+<td>くる</td>
+<td>きた</td>
+<td>きて</td>
+<td>こない</td>
+<td>くれば</td>
+<td>こよう</td>
+<td>こられる</td>
+<td>こられる</td>
+<td>こさせる</td>
+<td>こさせられる</td>
+</tr>
+<tr class="even">
+<td>食事します</td>
+<td>食事する</td>
+<td>食事した</td>
+<td>食事して</td>
+<td>食事しない</td>
+<td>食事すれば</td>
+<td>食事しよう</td>
+<td>食事できる</td>
+<td>食事される</td>
+<td>食事させる</td>
+<td>食事させられる</td>
+</tr>
+<tr class="odd">
+<td>します</td>
+<td>する</td>
+<td>した</td>
+<td>して</td>
+<td>しない</td>
+<td>すれば</td>
+<td>しよう</td>
+<td>できる</td>
+<td>される</td>
+<td>させる</td>
+<td>させられる</td>
 </tr>
 </tbody>
 </table>
@@ -4200,7 +5413,1346 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
 ]]></content>
       <categories>
         <category>日本語</category>
-        <category>JLPT N2</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>省略語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<h1 id="文末的省略">① 文末的省略</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>どちらへ（おでかけですか）?/您去哪儿？</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>どうぞこちらへ（来てください）。/请到这边来。</td>
+</tr>
+<tr class="even">
+<td>お先に（失礼します）。/我先告辞了。</td>
+</tr>
+<tr class="odd">
+<td>李さんと食事したら（いいですか）/和小李一起吃饭（怎么样）</td>
+</tr>
+<tr class="even">
+<td>つまらないものですが…（どうぞお受け取りください）/小小意思不成敬意，（请您收下）。</td>
+</tr>
+<tr class="odd">
+<td>买いたいことは买いたいですけど…（お金がない）/买是想买，（就是没有钱）。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="结合前后文和助词">结合前后文和助词</h2>
+<hr />
+<h1 id="语法的省略">② 语法的省略</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 20%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>もとの形</th>
+<th>会話の形</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>～てください</td>
+<td>～て</td>
+<td>请（做）……</td>
+</tr>
+<tr class="even">
+<td>～たらどう？</td>
+<td>～たら？</td>
+<td>做……的话怎么样</td>
+</tr>
+<tr class="odd">
+<td>～といい／ならいい／ばいい。</td>
+<td>～と／なら／ば</td>
+<td>如果……的话就好了/就可以了</td>
+</tr>
+<tr class="even">
+<td>～ないといけない。</td>
+<td>～ないと</td>
+<td>不……的话就……</td>
+</tr>
+<tr class="odd">
+<td>～なくてもいい</td>
+<td>～なくても</td>
+<td>不……也可以</td>
+</tr>
+<tr class="even">
+<td>～てもしかたがない</td>
+<td>～ても</td>
+<td>就算……也没有用</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="以副词结句的省略">③ 以副词结句的省略</h1>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>否定</th>
+<th>なかなか、ぜんぜん、どうしても、別に、特に...</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>時間</td>
+<td>今すぐ、直ちに、そろそろ...</td>
+</tr>
+<tr class="even">
+<td>意志</td>
+<td>ぜひ、必ず、絶対...</td>
+</tr>
+<tr class="odd">
+<td>その他</td>
+<td>大体、確かに、ちょっと...</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="補充">④ 補充</h1>
+<hr />
+<h1 id="きゃじゃちゃ">「きゃ」「じゃ」「ちゃ」</h1>
+<p>【１】</p>
+<p>ちゃ・じゃ・きゃ</p>
+<p>～てはいけない → ～ちゃいけない</p>
+<p>～ではいけない → ～じゃいけない</p>
+<p>例：</p>
+<p>食べてはいけない → 食べちゃいけない</p>
+<p>【２】</p>
+<p>～てしまう → ～ちゃう</p>
+<p>～でしまう → ～じゃう</p>
+<p>例：</p>
+<p>食べてしまう → 食べちゃう</p>
+<p>【３】</p>
+<p>～なくてはいけない → ～なくちゃいけない</p>
+<p>～なければならない → ～なきゃならない</p>
+<p>例：</p>
+<p>食べなくてはいけない → 食べなくちゃ（いけない）</p>
+<p>食べなければならない → 食べなきゃ（ならない）</p>
+<h1 id="しといた">「しといた」</h1>
+<p>「しといた」は「しておいた」が縮まった口語かと思います。</p>
+<p>「しておいた」は「しておく」の過去形</p>
+<p>「～ておく」は、後に予定されている何かのために、あらかじめ準備する場合に使います。</p>
+<p>「昨日しといた」は「昨日のうちに、(おそらく今日以降発生する何かのために)準備のためにやりました」ということです。</p>
+<p>たとえば</p>
+<p>「レストランを予約しておいたよ(予約しといたよ)」</p>
+<p>「お昼ごはん作っておいたから(作っといたから)、あとで食べてね」</p>
+<h1 id="だって">「だって」</h1>
+<p>だって</p>
+<p>放在句首，相当于 なぜなら</p>
+<p>放在句中，相当于 でも</p>
+<p>放在句尾，相当于 という</p>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>料理についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>炒める</td>
+</tr>
+<tr class="even">
+<td>煎る</td>
+</tr>
+<tr class="odd">
+<td>焼く</td>
+</tr>
+<tr class="even">
+<td>炙る</td>
+</tr>
+<tr class="odd">
+<td>揚げる</td>
+</tr>
+<tr class="even">
+<td>素揚げ</td>
+</tr>
+<tr class="odd">
+<td>炊く</td>
+</tr>
+<tr class="even">
+<td>蒸す</td>
+</tr>
+<tr class="odd">
+<td>蒸かす</td>
+</tr>
+<tr class="even">
+<td>蒸らす</td>
+</tr>
+<tr class="odd">
+<td>煮る</td>
+</tr>
+<tr class="even">
+<td>煮込む</td>
+</tr>
+<tr class="odd">
+<td>煮詰める</td>
+</tr>
+<tr class="even">
+<td>茹でる</td>
+</tr>
+<tr class="odd">
+<td>湯がく</td>
+</tr>
+<tr class="even">
+<td>沸かす</td>
+</tr>
+<tr class="odd">
+<td>漬ける</td>
+</tr>
+<tr class="even">
+<td>チンする</td>
+</tr>
+<tr class="odd">
+<td>火を通す</td>
+</tr>
+<tr class="even">
+<td>温める</td>
+</tr>
+<tr class="odd">
+<td>冷ます</td>
+</tr>
+<tr class="even">
+<td>解凍</td>
+</tr>
+<tr class="odd">
+<td>切る</td>
+</tr>
+<tr class="even">
+<td>輪切り</td>
+</tr>
+<tr class="odd">
+<td>半月切り</td>
+</tr>
+<tr class="even">
+<td>銀杏切り</td>
+</tr>
+<tr class="odd">
+<td>小口切り</td>
+</tr>
+<tr class="even">
+<td>斜め切り</td>
+</tr>
+<tr class="odd">
+<td>乱切り</td>
+</tr>
+<tr class="even">
+<td>拍子木切り</td>
+</tr>
+<tr class="odd">
+<td>短冊切り</td>
+</tr>
+<tr class="even">
+<td>色紙切り</td>
+</tr>
+<tr class="odd">
+<td>賽の目切り</td>
+</tr>
+<tr class="even">
+<td>千切り</td>
+</tr>
+<tr class="odd">
+<td>微塵切り</td>
+</tr>
+<tr class="even">
+<td>櫛形切り</td>
+</tr>
+<tr class="odd">
+<td>飾り切り</td>
+</tr>
+<tr class="even">
+<td>薄切り</td>
+</tr>
+<tr class="odd">
+<td>ぶつ切り</td>
+</tr>
+<tr class="even">
+<td>笹掻き</td>
+</tr>
+<tr class="odd">
+<td>剝く</td>
+</tr>
+<tr class="even">
+<td>刻む</td>
+</tr>
+<tr class="odd">
+<td>（魚を）捌く</td>
+</tr>
+<tr class="even">
+<td>（魚を）おろす</td>
+</tr>
+<tr class="odd">
+<td>おろす/すりおろす</td>
+</tr>
+<tr class="even">
+<td>すりつぶす</td>
+</tr>
+<tr class="odd">
+<td>漉す</td>
+</tr>
+<tr class="even">
+<td>捏ねる</td>
+</tr>
+<tr class="odd">
+<td>混ぜる</td>
+</tr>
+<tr class="even">
+<td>和える</td>
+</tr>
+<tr class="odd">
+<td>焦がす</td>
+</tr>
+<tr class="even">
+<td>泡立てる</td>
+</tr>
+<tr class="odd">
+<td>寝かす</td>
+</tr>
+<tr class="even">
+<td>干す</td>
+</tr>
+<tr class="odd">
+<td>発酵</td>
+</tr>
+<tr class="even">
+<td>燻製</td>
+</tr>
+<tr class="odd">
+<td>水を切る</td>
+</tr>
+<tr class="even">
+<td>水で戻す</td>
+</tr>
+<tr class="odd">
+<td>ミキサーにかける</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>色についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>中国語</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ピンク</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>薄ピンク</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>水色（みずいろ）</td>
+<td>淡蓝色</td>
+</tr>
+<tr class="even">
+<td>黄緑（きみどり）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>黄色（きいろ）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>青い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>紫（むらさき）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>オレンジ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>緑</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>灰色（はいいろ）</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>赤い</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>黒い</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>白い（しろい）</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>茶色（ちゃいろ）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>聴解</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%81%B4%E8%A7%A3/</url>
+    <content><![CDATA[<hr />
+<h1 id="常见口语约音">常见口语约音</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 28%" />
+<col style="width: 48%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>元の形</th>
+<th>変化した形・縮約形</th>
+<th>例文</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ておく／でおく</td>
+<td>とく／どく</td>
+<td>準備しとく／飲んどく</td>
+</tr>
+<tr class="even">
+<td>ら</td>
+<td>ん</td>
+<td>わかんない</td>
+</tr>
+<tr class="odd">
+<td>る</td>
+<td>ん</td>
+<td>何やってんの</td>
+</tr>
+<tr class="even">
+<td>れ</td>
+<td>ん</td>
+<td>寝らんない</td>
+</tr>
+<tr class="odd">
+<td>の</td>
+<td>ん</td>
+<td>好きだもん／有名なんです</td>
+</tr>
+<tr class="even">
+<td>に</td>
+<td>ん</td>
+<td>嫌んなる／いちんち</td>
+</tr>
+<tr class="odd">
+<td>れば</td>
+<td>りゃ</td>
+<td>地図を見りゃ分かる</td>
+</tr>
+<tr class="even">
+<td>とても／すごく／ばかり</td>
+<td>とっても／すっごく／ばっかり</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>あまり／おなじ</td>
+<td>あんまり／おんなじ</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>それは／これは</td>
+<td>そりゃ／こりゃ</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>～てしまう／でしまう</td>
+<td>～ちゃう／じゃう</td>
+<td>食べちゃう／飲んじゃう</td>
+</tr>
+<tr class="even">
+<td>～ては／では</td>
+<td>～ちゃ／じゃ</td>
+<td>食べちゃダメ／それじゃ</td>
+</tr>
+<tr class="odd">
+<td>～なくては</td>
+<td>～なくちゃ</td>
+<td>しなくちゃいけない</td>
+</tr>
+<tr class="even">
+<td>～なければ</td>
+<td>～なきゃ</td>
+<td>帰らなきゃ</td>
+</tr>
+<tr class="odd">
+<td>～ている／～でいる</td>
+<td>～てる／～でる</td>
+<td>持ってる／込んでる</td>
+</tr>
+<tr class="even">
+<td>～ていく／でいく</td>
+<td>～てく／でく</td>
+<td>連れてく／遊んでく</td>
+</tr>
+<tr class="odd">
+<td>と／という</td>
+<td>って</td>
+<td>太郎っていう<br />礼儀ってもの</td>
+</tr>
+<tr class="even">
+<td>ても／でも</td>
+<td>たって／だって</td>
+<td>やれって言ったって無理だ<br />呼んだって来ないよ</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="选项常见汉语词">选项常见汉语词</h1>
+<hr />
+<table>
+<tbody>
+<tr class="odd">
+<td>影響（えいきょう）</td>
+<td>営業（えいぎょう）</td>
+</tr>
+<tr class="even">
+<td>改良（かいりょう）</td>
+<td>概要（がいよう）</td>
+</tr>
+<tr class="odd">
+<td>価格（かかく）</td>
+<td>科学（かがく）</td>
+</tr>
+<tr class="even">
+<td>対象（たいしょう）</td>
+<td>対処（たいしょ）</td>
+</tr>
+<tr class="odd">
+<td>種類（しゅるい）</td>
+<td>書類（しょるい）</td>
+</tr>
+<tr class="even">
+<td>原因（げんいん）</td>
+<td>貢献（こうけん）</td>
+</tr>
+<tr class="odd">
+<td>成果（せいか）</td>
+<td>結果（けっか）</td>
+</tr>
+<tr class="even">
+<td>変化（へんか）</td>
+<td>変更（へんこう）</td>
+</tr>
+<tr class="odd">
+<td>仕方（しかた）</td>
+<td>方法（ほうほう）</td>
+</tr>
+<tr class="even">
+<td>紹介（しょうかい）</td>
+<td>案内（あんない）</td>
+</tr>
+<tr class="odd">
+<td>入れ方</td>
+<td>選び方</td>
+</tr>
+<tr class="even">
+<td>経験（けいけん）</td>
+<td>研究（けんきゅう）</td>
+</tr>
+<tr class="odd">
+<td>理由（りゆう）</td>
+<td>歴史（れきし）</td>
+</tr>
+<tr class="even">
+<td>見通し（みとおし）</td>
+<td>見込み（みこみ）</td>
+</tr>
+<tr class="odd">
+<td>予約（よやく）</td>
+<td>予定（よてい）</td>
+</tr>
+<tr class="even">
+<td>日程（にってい）</td>
+<td>スケジュール</td>
+</tr>
+<tr class="odd">
+<td>調査（ちょうさ）</td>
+<td>注意点（ちゅういてん）</td>
+</tr>
+<tr class="even">
+<td>意義（いぎ）</td>
+<td>低下（ていか）</td>
+</tr>
+<tr class="odd">
+<td>役割（やくわり）</td>
+<td>出会い（であい）</td>
+</tr>
+<tr class="even">
+<td>方針（ほうしん）</td>
+<td>内容（ないよう）</td>
+</tr>
+<tr class="odd">
+<td>募集（ぼしゅう）</td>
+<td>きっかけ</td>
+</tr>
+<tr class="even">
+<td>見合わせ</td>
+<td>キャンセル</td>
+</tr>
+<tr class="odd">
+<td>産業（さんぎょう）</td>
+<td>技術（ぎじゅつ）</td>
+</tr>
+<tr class="even">
+<td>進歩（しんぽ）</td>
+<td>目標（もくひょう）</td>
+</tr>
+<tr class="odd">
+<td>活動（かつどう）</td>
+<td>反省（はんせい）</td>
+</tr>
+<tr class="even">
+<td>関係（かんけい）</td>
+<td>確認（かくにん）</td>
+</tr>
+<tr class="odd">
+<td>記録（きろく）</td>
+<td>必要性（ひつようせい）</td>
+</tr>
+<tr class="even">
+<td>賛成（さんせい）</td>
+<td>反対（はんたい）</td>
+</tr>
+<tr class="odd">
+<td>増加（ぞうか）</td>
+<td>減少（げんしょう）</td>
+</tr>
+<tr class="even">
+<td>上回る（うわまわる）</td>
+<td>下回る（したまわる）</td>
+</tr>
+<tr class="odd">
+<td>上昇（じょうしょう）</td>
+<td>下降（かこう）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="听力常见单词">听力常见单词</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 41%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>单词</th>
+<th>含义</th>
+<th>单词</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>取りかかる</td>
+<td>着手，开始</td>
+<td>見積書（みつもりしょ）</td>
+<td>估价表</td>
+</tr>
+<tr class="even">
+<td>～をしぼる</td>
+<td>集中；变窄</td>
+<td>領収書（りょうしゅうしょ）</td>
+<td>收据</td>
+</tr>
+<tr class="odd">
+<td>～をつかむ</td>
+<td>抓住，掌握</td>
+<td>企画書・案</td>
+<td>企划书</td>
+</tr>
+<tr class="even">
+<td>配る</td>
+<td>分配</td>
+<td>打ち合わせ</td>
+<td>商谈，洽谈</td>
+</tr>
+<tr class="odd">
+<td>手配する</td>
+<td>安排</td>
+<td>問い合わせ</td>
+<td>咨询</td>
+</tr>
+<tr class="even">
+<td>修正する</td>
+<td>订正</td>
+<td>手続き</td>
+<td>手续</td>
+</tr>
+<tr class="odd">
+<td>配布する</td>
+<td>散发</td>
+<td>引き継ぐ</td>
+<td>交接，继承</td>
+</tr>
+<tr class="even">
+<td>保留する</td>
+<td>保留</td>
+<td>一通り（ひととおり）</td>
+<td>大概，大体上</td>
+</tr>
+<tr class="odd">
+<td>検討する</td>
+<td>讨论</td>
+<td>一応（いちおう）</td>
+<td>大体；姑且暂时</td>
+</tr>
+<tr class="even">
+<td>把握する</td>
+<td>掌握，理解</td>
+<td>入れ替える</td>
+<td>更换，替代，替换</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 27%" />
+<col style="width: 32%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>单词</th>
+<th>含义</th>
+<th>单词</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>見送る</td>
+<td>目送，送行；搁置</td>
+<td>きっかけ</td>
+<td>契机</td>
+</tr>
+<tr class="even">
+<td>見直す</td>
+<td>重看，重新认识；见起色</td>
+<td>手順（てじゅん）</td>
+<td>工作的程序</td>
+</tr>
+<tr class="odd">
+<td>見極める</td>
+<td>看清，看透</td>
+<td>興味ある</td>
+<td>感兴趣</td>
+</tr>
+<tr class="even">
+<td>懸念する（けねん）</td>
+<td>担心，忧虑</td>
+<td>評判</td>
+<td>评价（好）</td>
+</tr>
+<tr class="odd">
+<td>捻出する（ねんしゅつ）</td>
+<td>想出；筹措出</td>
+<td>大事／大切／肝心</td>
+<td>重要</td>
+</tr>
+<tr class="even">
+<td>恐れ入る</td>
+<td>抱歉，对不起</td>
+<td>無関心</td>
+<td>不关心</td>
+</tr>
+<tr class="odd">
+<td>踏み切る</td>
+<td>下决心</td>
+<td>注目が高まる</td>
+<td>受到关注</td>
+</tr>
+<tr class="even">
+<td>心がける</td>
+<td>留心，注意</td>
+<td>期待が集まる</td>
+<td>受到期待</td>
+</tr>
+<tr class="odd">
+<td>受け止める</td>
+<td>理解，认识</td>
+<td>臨機応変（りんきおうへん）</td>
+<td>临机应变</td>
+</tr>
+<tr class="even">
+<td>打ち明ける</td>
+<td>坦率</td>
+<td>似たり寄ったり</td>
+<td>半斤八两</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 23%" />
+<col style="width: 26%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>单词</th>
+<th>含义</th>
+<th>单词</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>開発する</td>
+<td>开发</td>
+<td>担い手（にないて）</td>
+<td>挑东西的人</td>
+</tr>
+<tr class="even">
+<td>見直す</td>
+<td>重新考虑，认识</td>
+<td>活性化</td>
+<td>活性化，激活</td>
+</tr>
+<tr class="odd">
+<td>取り組み</td>
+<td>搭配；努力</td>
+<td>老化</td>
+<td>老化</td>
+</tr>
+<tr class="even">
+<td>募る（つのる）</td>
+<td>招募；越来越厉害</td>
+<td>高齢者・高齢化</td>
+<td>老年人。老年化</td>
+</tr>
+<tr class="odd">
+<td>育てる</td>
+<td>培养，培育</td>
+<td>過疎化</td>
+<td>人口过少</td>
+</tr>
+<tr class="even">
+<td>搭載する（とうさい）</td>
+<td>搭载</td>
+<td>方策</td>
+<td>方案，方法</td>
+</tr>
+<tr class="odd">
+<td>値上げ</td>
+<td>加价，提高价格</td>
+<td>行楽地</td>
+<td>游览地</td>
+</tr>
+<tr class="even">
+<td>魅力</td>
+<td>魅力</td>
+<td>改装</td>
+<td>改装</td>
+</tr>
+<tr class="odd">
+<td>根気</td>
+<td>耐心，毅力</td>
+<td>有無</td>
+<td>有无</td>
+</tr>
+<tr class="even">
+<td>箇所（かしょ）</td>
+<td>地方，部分</td>
+<td>恐れがある</td>
+<td>担心，忧虑</td>
+</tr>
+<tr class="odd">
+<td>活躍</td>
+<td>活跃</td>
+<td>異文化</td>
+<td>异文化</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="常见外来语">常见外来语</h1>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>单词</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ゼミ</td>
+</tr>
+<tr class="even">
+<td>テーマ</td>
+</tr>
+<tr class="odd">
+<td>イメージ</td>
+</tr>
+<tr class="even">
+<td>ボランティア</td>
+</tr>
+<tr class="odd">
+<td>スケジュール</td>
+</tr>
+<tr class="even">
+<td>プログラム</td>
+</tr>
+<tr class="odd">
+<td>プロジェクト</td>
+</tr>
+<tr class="even">
+<td>オンライン</td>
+</tr>
+<tr class="odd">
+<td>ネットワーク</td>
+</tr>
+<tr class="even">
+<td>ホームページ</td>
+</tr>
+<tr class="odd">
+<td>ウェブサイト</td>
+</tr>
+<tr class="even">
+<td>アクセス</td>
+</tr>
+<tr class="odd">
+<td>インタビュー</td>
+</tr>
+<tr class="even">
+<td>クリアー</td>
+</tr>
+<tr class="odd">
+<td>ピックアップ</td>
+</tr>
+<tr class="even">
+<td>ニーズ</td>
+</tr>
+<tr class="odd">
+<td>パンフレット</td>
+</tr>
+<tr class="even">
+<td>プリンター</td>
+</tr>
+<tr class="odd">
+<td>プレゼン</td>
+</tr>
+<tr class="even">
+<td>リサーチ</td>
+</tr>
+<tr class="odd">
+<td>トラブル</td>
+</tr>
+<tr class="even">
+<td>クリア</td>
+</tr>
+<tr class="odd">
+<td>リアル</td>
+</tr>
+<tr class="even">
+<td>アイディア</td>
+</tr>
+<tr class="odd">
+<td>ブレーキ</td>
+</tr>
+<tr class="even">
+<td>メイン</td>
+</tr>
+<tr class="odd">
+<td>インテリア</td>
+</tr>
+<tr class="even">
+<td>ターゲット</td>
+</tr>
+<tr class="odd">
+<td>メーカー</td>
+</tr>
+<tr class="even">
+<td>ストレス</td>
+</tr>
+<tr class="odd">
+<td>メリット</td>
+</tr>
+<tr class="even">
+<td>コミュニケーション</td>
+</tr>
+<tr class="odd">
+<td>サイト</td>
+</tr>
+<tr class="even">
+<td>ロボット</td>
+</tr>
+<tr class="odd">
+<td>システム</td>
+</tr>
+<tr class="even">
+<td>イベント</td>
+</tr>
+<tr class="odd">
+<td>グループ</td>
+</tr>
+<tr class="even">
+<td>イメージ</td>
+</tr>
+<tr class="odd">
+<td>チャンス</td>
+</tr>
+<tr class="even">
+<td>ヒント</td>
+</tr>
+<tr class="odd">
+<td>インターネット</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="常见表达">常见表达</h1>
+<hr />
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>会ったときのあいさつ</th>
+<th>お礼</th>
+<th>受け</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>先日はどうも<br />お世話になっております<br />ご無沙汰しております<br />お変わりありませんか<br />　ーおかげさまで<br />　ー相変わらずです<br />ごめんください</td>
+<td>お世話になりました<br />助かりました<br />わざわざすみませんでした<br />悪いなあ<br />悪かったね</td>
+<td>どういたしまして<br />構いません<br />（それで）結構です</td>
+</tr>
+<tr class="even">
+<td>別れるときのあいさつ</td>
+<td>謝り</td>
+<td>その他</td>
+</tr>
+<tr class="odd">
+<td>お気をつけて<br />（お先に）失礼します<br />お大事に<br />お疲れ様でした<br />ご苦労様でした<br />お邪魔しました</td>
+<td>ご迷惑をおかけしました<br />すまなかったね<br />申し訳ございません<br />悪いね／悪かったね</td>
+<td>（いいえ、）結構です<断り><br />申し訳ないんですが<断り><br />悪いんだけど<断り><br />とんでもないです<謙遜><br />お口に合うかどうか<進め><br />　ーお構いなく<遠慮></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 43%" />
+<col style="width: 7%" />
+<col style="width: 43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>話し手がする</th>
+<th></th>
+<th>聞き手がする</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>許可求め</td>
+<td>～させて＋ほしいんだけど<br />　　　　　ください／くださいませんか<br />　　　　　もらえる？／もらえない？<br />　　　　　もらえませんか<br />　　　　　いただけませんか<br />　　　　　くれない？／くれませんか<br />～ても＋いい？／いいですか<br />　　　　いいでしょうか<br />　　　　よろしいでしょうか</td>
+<td>依頼</td>
+<td>～て＋ほしいんだけど<br />　　　ください／くださいませんか<br />　　　もらえる？／もらえない？<br />　　　もらえませんか<br />　　　いただきたいんですが<br />　　　いただけませんか<br />　　　くれない？／くれませんか<br />　　　くれる（もらえる）と助かるんですが（ありがたいんですが）</td>
+</tr>
+<tr class="even">
+<td>申し出</td>
+<td>～ましょうか／～ようか／～ますね</td>
+<td>提案・指示</td>
+<td>～たら＋どう？／どうですが<br />～ば＋　いいんじゃない？<br />　　　　いいと思います<br />～たほうがいいですよ</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>ことわざ</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%AB%BA/</url>
+    <content><![CDATA[<hr />
+<table>
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>ことわざ</th>
+<th>意味</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>一目ぼれ</td>
+<td>一见钟情</td>
+</tr>
+<tr class="even">
+<td>目と鼻の先</td>
+<td>一箭之地</td>
+</tr>
+<tr class="odd">
+<td>急がば回れ</td>
+<td>欲速则不达</td>
+</tr>
+<tr class="even">
+<td>弘法にも筆の誤り</td>
+<td>智者千虑，必有一失</td>
+</tr>
+<tr class="odd">
+<td>千里の堤蟻の穴から崩れる</td>
+<td>千里之堤，溃于蚁穴</td>
+</tr>
+<tr class="even">
+<td>猫に小判</td>
+<td>对牛弹琴</td>
+</tr>
+<tr class="odd">
+<td>猫の目のように変わる</td>
+<td>变化无常</td>
+</tr>
+<tr class="even">
+<td>井の中の蛙</td>
+<td>井底之蛙</td>
+</tr>
+<tr class="odd">
+<td>塵も積もれば山となる</td>
+<td>积少成多</td>
+</tr>
+<tr class="even">
+<td>郷に入っては郷に従え</td>
+<td>入乡随俗</td>
+</tr>
+<tr class="odd">
+<td>河童の屁</td>
+<td>易如反掌</td>
+</tr>
+<tr class="even">
+<td>河童に水泳を教える</td>
+<td>班门弄斧</td>
+</tr>
+<tr class="odd">
+<td>好事門を出でず悪事千里を走る</td>
+<td>好事不出门，坏事行千里</td>
+</tr>
+<tr class="even">
+<td>馬子にも衣裳</td>
+<td>人靠衣装马靠鞍</td>
+</tr>
+<tr class="odd">
+<td>縁は異なもの</td>
+<td>千里姻缘一线牵</td>
+</tr>
+<tr class="even">
+<td>異とするに足りない</td>
+<td>不足为奇</td>
+</tr>
+<tr class="odd">
+<td>石が流れて木の葉が沈む</td>
+<td>浮石沉木，太阳从西边出来</td>
+</tr>
+<tr class="even">
+<td>転ばぬ先の杖</td>
+<td>未雨绸缪</td>
+</tr>
+<tr class="odd">
+<td>気は心</td>
+<td>千里送鹅毛，礼轻情意重</td>
+</tr>
+<tr class="even">
+<td>彼を知り己を知らば百戦危うからず</td>
+<td>知彼知己，百战不殆</td>
+</tr>
+<tr class="odd">
+<td>木に竹を接ぐ</td>
+<td>驴唇不对马嘴，张冠李戴</td>
+</tr>
+<tr class="even">
+<td>木に縁って魚を求む</td>
+<td>缘木求鱼</td>
+</tr>
+<tr class="odd">
+<td>木で鼻を括る</td>
+<td>冷淡对人，爱答不理</td>
+</tr>
+<tr class="even">
+<td>腐っても鯛</td>
+<td>瘦死的骆驼比马大</td>
+</tr>
+<tr class="odd">
+<td>愚公山を移す</td>
+<td>愚公移山</td>
+</tr>
+<tr class="even">
+<td>癖ある馬に乗りあり</td>
+<td>有脾气的人必有专长</td>
+</tr>
+<tr class="odd">
+<td>光陰矢の如し</td>
+<td>光阴似箭</td>
+</tr>
+<tr class="even">
+<td>目糞鼻糞を笑う</td>
+<td>秃子笑和尚</td>
+</tr>
+<tr class="odd">
+<td>落花流水</td>
+<td>落花流水</td>
+</tr>
+<tr class="even">
+<td>五十歩百歩</td>
+<td>五十步笑百步</td>
+</tr>
+<tr class="odd">
+<td>虎穴に入らずんば虎子を得ず</td>
+<td>不入虎穴焉得虎子</td>
+</tr>
+<tr class="even">
+<td>気にも草にも心を置く</td>
+<td>风声鹤唳，草木皆兵</td>
+</tr>
+<tr class="odd">
+<td>短気は損気</td>
+<td>性急吃亏</td>
+</tr>
+<tr class="even">
+<td>転んでもただは起きぬ</td>
+<td>雁过拔毛</td>
+</tr>
+<tr class="odd">
+<td>聞くは一時の恥聞かぬは一生の恥</td>
+<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
+</tr>
+<tr class="even">
+<td>亀の甲より年の劫</td>
+<td>姜还是老的辣</td>
+</tr>
+<tr class="odd">
+<td>すき腹にまずいものなし</td>
+<td>饥不择食</td>
+</tr>
+<tr class="even">
+<td>可愛い子には旅をさせよ</td>
+<td>爱子就让他外出见世面</td>
+</tr>
+<tr class="odd">
+<td>頭隠して尻隠さず</td>
+<td>藏头露尾</td>
+</tr>
+<tr class="even">
+<td>帯に短し、たすきに長し</td>
+<td>高不成低不就</td>
+</tr>
+<tr class="odd">
+<td>二階から目薬</td>
+<td>远水救不了近火</td>
+</tr>
+<tr class="even">
+<td>痘痕も靨</td>
+<td>情人眼里出西施</td>
+</tr>
+<tr class="odd">
+<td>暑さ寒さも彼岸まで</td>
+<td>热到秋分，冷到春分</td>
+</tr>
+<tr class="even">
+<td>人の花は赤い、他人の飯は白い</td>
+<td>东西总是别人的好</td>
+</tr>
+<tr class="odd">
+<td>腹も身の内</td>
+<td>食不过量</td>
+</tr>
+<tr class="even">
+<td>腹八分目に医者いらず</td>
+<td>八分饱不求医</td>
+</tr>
+<tr class="odd">
+<td>好きこそものの上手なれ</td>
+<td>爱好就能精通</td>
+</tr>
+<tr class="even">
+<td>虎の威を借りる狐</td>
+<td>狐假虎威</td>
+</tr>
+<tr class="odd">
+<td>団栗の背比べ</td>
+<td>半斤八两</td>
+</tr>
+<tr class="even">
+<td>花より団子</td>
+<td>舍华求实</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>その他</category>
       </categories>
   </entry>
   <entry>
@@ -4969,6 +7521,482 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
+    <title>N2動詞</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E5%8B%95%E8%A9%9E/</url>
+    <content><![CDATA[<hr />
+<table style="width:100%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>悩んむ</th>
+<th>悔やむ</th>
+<th>恨む</th>
+<th>憎む</th>
+<th>痛む・傷む</th>
+<th>恵む</th>
+<th>囲む</th>
+<th>包む</th>
+<th>掴む</th>
+<th>縮む</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>疑う</strong></td>
+<td><strong>育つ</strong></td>
+<td><strong>養う</strong></td>
+<td><strong>奪う</strong></td>
+<td><strong>競う　戦う</strong></td>
+<td><strong>争う</strong></td>
+<td><strong>庇う</strong></td>
+<td><strong>狙う</strong></td>
+<td><strong>揃う</strong></td>
+<td><strong>補う</strong></td>
+</tr>
+<tr class="even">
+<td><strong>除く</strong></td>
+<td><strong>省く</strong></td>
+<td><strong>暴く</strong></td>
+<td><strong>招く</strong></td>
+<td><strong>傾く　導く</strong></td>
+<td><strong>扱う</strong></td>
+<td><strong>救う</strong></td>
+<td><strong>伺う</strong></td>
+<td><strong>覆う</strong></td>
+<td><strong>占う</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>俯く</strong></td>
+<td><strong>囁く</strong></td>
+<td><strong>催す</strong></td>
+<td><strong>偏る</strong></td>
+<td><strong>謝る・誤る</strong></td>
+<td><strong>乱れる</strong></td>
+<td><strong>暴れる</strong></td>
+<td><strong>潰れる</strong></td>
+<td><strong>崩れる</strong></td>
+<td><strong>萎れる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>凍る</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>濁る</strong></td>
+<td><strong>破れる</strong></td>
+<td><strong>囲まれる</strong></td>
+<td><strong>異なる</strong></td>
+<td><strong>倒れる</strong></td>
+<td><strong>壊れる</strong></td>
+<td><strong>揃える</strong></td>
+<td><strong>含める</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>腐る</strong></td>
+<td><strong>断る</strong></td>
+<td><strong>被る</strong></td>
+<td><strong>固める</strong></td>
+<td><strong>隔てる</strong></td>
+<td><strong>憧れる</strong></td>
+<td><strong>整える</strong></td>
+<td><strong>備える</strong></td>
+<td><strong>喋る</strong></td>
+<td><strong>蓄える</strong></td>
+</tr>
+<tr class="even">
+<td><strong>頼る</strong></td>
+<td><strong>潜る</strong></td>
+<td><strong>劣る</strong></td>
+<td><strong>痺れる</strong></td>
+<td><strong>隠れる</strong></td>
+<td><strong>隠す</strong></td>
+<td><strong>定める</strong></td>
+<td><strong>握る</strong></td>
+<td><strong>畳む</strong></td>
+<td><strong>挟む</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>驚かす</strong></td>
+<td><strong>躓く</strong></td>
+<td><strong>削る</strong></td>
+<td><strong>戻す</strong></td>
+<td><strong>衰える</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 15%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>なやんむ</th>
+<th>くやむ</th>
+<th>うらむ</th>
+<th>にくむ</th>
+<th>いたむ</th>
+<th>めぐむ</th>
+<th>かこむ</th>
+<th>つつむ</th>
+<th>つかむ</th>
+<th>ちぢむ</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>うたがう</strong></td>
+<td><strong>そだつ</strong></td>
+<td><strong>やしなう</strong></td>
+<td><strong>うばう</strong></td>
+<td><strong>きそう　たたかう</strong></td>
+<td><strong>あらそう</strong></td>
+<td><strong>かばう</strong></td>
+<td><strong>ねらう</strong></td>
+<td><strong>そろう</strong></td>
+<td><strong>おぎなう</strong></td>
+</tr>
+<tr class="even">
+<td><strong>のぞく</strong></td>
+<td><strong>はぶく</strong></td>
+<td><strong>あばく</strong></td>
+<td><strong>まねく</strong></td>
+<td><strong>かたむく　みちびく</strong></td>
+<td><strong>あつかう</strong></td>
+<td><strong>すくう</strong></td>
+<td><strong>うかがう</strong></td>
+<td><strong>おおう</strong></td>
+<td><strong>うらなう</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>うつむく</strong></td>
+<td><strong>ささやく</strong></td>
+<td><strong>もよおす</strong></td>
+<td><strong>かたよる</strong></td>
+<td><strong>あやまる</strong></td>
+<td><strong>みだれる</strong></td>
+<td><strong>あばれる</strong></td>
+<td><strong>つぶれる</strong></td>
+<td><strong>くずれる</strong></td>
+<td><strong>しおれる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>こおる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>にごる</strong></td>
+<td><strong>やぶれる</strong></td>
+<td><strong>かこまれる</strong></td>
+<td><strong>ことなる</strong></td>
+<td><strong>たおれる</strong></td>
+<td><strong>こわれる</strong></td>
+<td><strong>そろえる</strong></td>
+<td><strong>ふくめる</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>くさる</strong></td>
+<td><strong>ことわる</strong></td>
+<td><strong>こうむる</strong></td>
+<td><strong>かためる</strong></td>
+<td><strong>へだてる</strong></td>
+<td><strong>あこがれる</strong></td>
+<td><strong>ととのえる</strong></td>
+<td><strong>そなえる</strong></td>
+<td><strong>しゃべる</strong></td>
+<td><strong>たくわえる</strong></td>
+</tr>
+<tr class="even">
+<td><strong>たよる</strong></td>
+<td><strong>もぐる</strong></td>
+<td><strong>おとる</strong></td>
+<td><strong>しびれる</strong></td>
+<td><strong>かくれる</strong></td>
+<td><strong>かくる</strong></td>
+<td><strong>さだめる</strong></td>
+<td><strong>にぎる</strong></td>
+<td><strong>たたむ</strong></td>
+<td><strong>はさむ</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>おどろかす</strong></td>
+<td><strong>つまずく</strong></td>
+<td><strong>けずる</strong></td>
+<td><strong>もどす</strong></td>
+<td><strong>おとろえる</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>N2慣用句</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
+    <content><![CDATA[<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>首にする</td>
+<td>解雇，撤职</td>
+</tr>
+<tr class="even">
+<td>首を長くする</td>
+<td>翘首企盼</td>
+</tr>
+<tr class="odd">
+<td>首が回らない</td>
+<td>债台高筑</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>頭にくる</td>
+<td>生气，发火。</td>
+</tr>
+<tr class="even">
+<td>頭に絞る</td>
+<td>绞尽脑汁</td>
+</tr>
+<tr class="odd">
+<td>頭が下がる</td>
+<td>佩服，感服。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>目を丸くする</td>
+<td>双目圆睁</td>
+</tr>
+<tr class="even">
+<td>目が冴えて眠れない</td>
+<td>头脑清醒睡不着，兴奋</td>
+</tr>
+<tr class="odd">
+<td>目が肥えている</td>
+<td>眼力高（一般的东西看不上眼）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>口が軽い</td>
+<td>嘴不严，嘴快。喋喋不休。</td>
+</tr>
+<tr class="even">
+<td>口が重い</td>
+<td>不爱说话，话少，寡言。</td>
+</tr>
+<tr class="odd">
+<td>口が悪い</td>
+<td>嘴损，说话刻薄。</td>
+</tr>
+<tr class="even">
+<td>口が滑る</td>
+<td>不小心把不应该说出去的事情说漏嘴了。</td>
+</tr>
+<tr class="odd">
+<td>口が肥えている</td>
+<td>口味高，讲究吃。嘴刁。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>息が合う</td>
+<td>合得来，步调一致，配合默契。</td>
+</tr>
+<tr class="even">
+<td>息が切れる</td>
+<td>接不上气。呼吸困难。气喘。死，气绝。断气。</td>
+</tr>
+<tr class="odd">
+<td>息をのむほど</td>
+<td>屏息</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>気が利く</td>
+<td>顾全； 周到。有眼力。</td>
+</tr>
+<tr class="even">
+<td>気がある</td>
+<td>有意志、欲望的。有兴趣或关心。特指有爱慕的感情。</td>
+</tr>
+<tr class="odd">
+<td>気を配る</td>
+<td>注意，留心。</td>
+</tr>
+<tr class="even">
+<td>気が済む</td>
+<td>称心如意。心满意足。了却心事。舒心。心安。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 88%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>腕が立つ</td>
+<td>手艺、技术高强。</td>
+</tr>
+<tr class="even">
+<td>腕が利く</td>
+<td>有本领，能干，技艺高超。</td>
+</tr>
+<tr class="odd">
+<td>腕を組む</td>
+<td>双臂抱在胸前。旁观或者思考等的时候的动作。两人互相挽着手臂。亦指，为了合作而成为朋友。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>手を打つ</td>
+<td>采取措施，设法处理</td>
+</tr>
+<tr class="even">
+<td>手を焼く</td>
+<td>因不能很好地处理问题而感到为难。棘手、难对付。</td>
+</tr>
+<tr class="odd">
+<td>猫の手も借りたい</td>
+<td>忙得团团转。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>日本語</th>
+<th>翻訳</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>足を引っ張る</td>
+<td>妨碍别人成功或前进。亦指成为障碍。拖后腿。</td>
+</tr>
+<tr class="even">
+<td>足下にも及（およ）ばない</td>
+<td>望尘莫及</td>
+</tr>
+<tr class="odd">
+<td>足が速い</td>
+<td>畅销，易腐</td>
+</tr>
+</tbody>
+</table>
+<hr />
+]]></content>
+      <categories>
+        <category>日本語</category>
+        <category>JLPT N2</category>
+      </categories>
+  </entry>
+  <entry>
     <title>N2敬語</title>
     <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%95%AC%E8%AA%9E/</url>
     <content><![CDATA[<hr />
@@ -5214,1413 +8242,95 @@ id="聞こえないものや身振りなどの状態を表す言葉">聞こえ�
       </categories>
   </entry>
   <entry>
-    <title>文献翻译BERT</title>
-    <url>/Literature/Translate/BERT/</url>
-    <content><![CDATA[<hr />
-<h1 id="bert">BERT</h1>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT.pdf" data-height="800px"></div>
-<hr />
-<h1 id="bert_translated">BERT_translated</h1>
-<div class="pdf-container" data-target="https://blog.loveyou.moe/pdf/BERT_translated.pdf" data-height="800px"></div>
-<hr />
-]]></content>
-      <categories>
-        <category>Literature</category>
-        <category>Translate</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>N2慣用句</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT%20N2/N2%E6%85%A3%E7%94%A8%E5%8F%A5/</url>
+    <title>飲み物についての日本語</title>
+    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%A3%B2%E3%81%BF%E7%89%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
     <content><![CDATA[<hr />
 <table>
 <thead>
 <tr class="header">
 <th>日本語</th>
-<th>翻訳</th>
+<th>中国語</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>首にする</td>
-<td>解雇，撤职</td>
+<td>お湯</td>
+<td>热水</td>
 </tr>
 <tr class="even">
-<td>首を長くする</td>
-<td>翘首企盼</td>
+<td>お冷や</td>
+<td>凉水</td>
 </tr>
 <tr class="odd">
-<td>首が回らない</td>
-<td>债台高筑</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>頭にくる</td>
-<td>生气，发火。</td>
+<td>お酒</td>
+<td>酒</td>
 </tr>
 <tr class="even">
-<td>頭に絞る</td>
-<td>绞尽脑汁</td>
+<td>ミルクティー</td>
+<td>奶茶</td>
 </tr>
 <tr class="odd">
-<td>頭が下がる</td>
-<td>佩服，感服。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>目を丸くする</td>
-<td>双目圆睁</td>
+<td>タピオカ</td>
+<td>珍珠奶茶</td>
 </tr>
 <tr class="even">
-<td>目が冴えて眠れない</td>
-<td>头脑清醒睡不着，兴奋</td>
+<td>ビール</td>
+<td>啤酒</td>
 </tr>
 <tr class="odd">
-<td>目が肥えている</td>
-<td>眼力高（一般的东西看不上眼）</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>口が軽い</td>
-<td>嘴不严，嘴快。喋喋不休。</td>
+<td>ワイン</td>
+<td>红酒</td>
 </tr>
 <tr class="even">
-<td>口が重い</td>
-<td>不爱说话，话少，寡言。</td>
+<td>スプライト</td>
+<td>雪碧</td>
 </tr>
 <tr class="odd">
-<td>口が悪い</td>
-<td>嘴损，说话刻薄。</td>
+<td>ファンタ</td>
+<td>芬达</td>
 </tr>
 <tr class="even">
-<td>口が滑る</td>
-<td>不小心把不应该说出去的事情说漏嘴了。</td>
+<td>コーラ</td>
+<td>可乐</td>
 </tr>
 <tr class="odd">
-<td>口が肥えている</td>
-<td>口味高，讲究吃。嘴刁。</td>
+<td>カクテル</td>
+<td>鸡尾酒</td>
+</tr>
+<tr class="even">
+<td>シャンピン</td>
+<td>香槟</td>
+</tr>
+<tr class="odd">
+<td>コーヒー</td>
+<td>咖啡</td>
+</tr>
+<tr class="even">
+<td>ヨーグルト</td>
+<td>酸奶</td>
+</tr>
+<tr class="odd">
+<td>ミルク</td>
+<td>牛奶</td>
+</tr>
+<tr class="even">
+<td>サイダー</td>
+<td>汽水</td>
+</tr>
+<tr class="odd">
+<td>ジュース</td>
+<td>果汁</td>
+</tr>
+<tr class="even">
+<td>ラテ</td>
+<td>拿铁</td>
+</tr>
+<tr class="odd">
+<td>お茶</td>
+<td>茶</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>息が合う</td>
-<td>合得来，步调一致，配合默契。</td>
-</tr>
-<tr class="even">
-<td>息が切れる</td>
-<td>接不上气。呼吸困难。气喘。死，气绝。断气。</td>
-</tr>
-<tr class="odd">
-<td>息をのむほど</td>
-<td>屏息</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>気が利く</td>
-<td>顾全； 周到。有眼力。</td>
-</tr>
-<tr class="even">
-<td>気がある</td>
-<td>有意志、欲望的。有兴趣或关心。特指有爱慕的感情。</td>
-</tr>
-<tr class="odd">
-<td>気を配る</td>
-<td>注意，留心。</td>
-</tr>
-<tr class="even">
-<td>気が済む</td>
-<td>称心如意。心满意足。了却心事。舒心。心安。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>腕が立つ</td>
-<td>手艺、技术高强。</td>
-</tr>
-<tr class="even">
-<td>腕が利く</td>
-<td>有本领，能干，技艺高超。</td>
-</tr>
-<tr class="odd">
-<td>腕を組む</td>
-<td>双臂抱在胸前。旁观或者思考等的时候的动作。两人互相挽着手臂。亦指，为了合作而成为朋友。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>手を打つ</td>
-<td>采取措施，设法处理</td>
-</tr>
-<tr class="even">
-<td>手を焼く</td>
-<td>因不能很好地处理问题而感到为难。棘手、难对付。</td>
-</tr>
-<tr class="odd">
-<td>猫の手も借りたい</td>
-<td>忙得团团转。</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<table>
-<colgroup>
-<col style="width: 36%" />
-<col style="width: 63%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>翻訳</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>足を引っ張る</td>
-<td>妨碍别人成功或前进。亦指成为障碍。拖后腿。</td>
-</tr>
-<tr class="even">
-<td>足下にも及（およ）ばない</td>
-<td>望尘莫及</td>
-</tr>
-<tr class="odd">
-<td>足が速い</td>
-<td>畅销，易腐</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>人体についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E4%BA%BA%E4%BD%93%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>漢字</th>
-<th>仮名</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>体</td>
-<td>からだ</td>
-</tr>
-<tr class="even">
-<td>皮膚</td>
-<td>ひふ</td>
-</tr>
-<tr class="odd">
-<td>関節</td>
-<td>かんせつ</td>
-</tr>
-<tr class="even">
-<td>頭</td>
-<td>あたま</td>
-</tr>
-<tr class="odd">
-<td>後頭部</td>
-<td>こうとうぶ</td>
-</tr>
-<tr class="even">
-<td>髪の毛</td>
-<td>かみのけ</td>
-</tr>
-<tr class="odd">
-<td>旋毛</td>
-<td>つむじ</td>
-</tr>
-<tr class="even">
-<td>前髪</td>
-<td>まえがみ</td>
-</tr>
-<tr class="odd">
-<td>生え際</td>
-<td>はえぎわ</td>
-</tr>
-<tr class="even">
-<td>揉み上げ</td>
-<td>もみあげ</td>
-</tr>
-<tr class="odd">
-<td>髭</td>
-<td>ひげ</td>
-</tr>
-<tr class="even">
-<td>顔</td>
-<td>かお</td>
-</tr>
-<tr class="odd">
-<td>額</td>
-<td>ひたい</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>おでこ</td>
-</tr>
-<tr class="odd">
-<td>眉</td>
-<td>まゆ</td>
-</tr>
-<tr class="even">
-<td>眉毛</td>
-<td>まゆげ</td>
-</tr>
-<tr class="odd">
-<td>目</td>
-<td>め</td>
-</tr>
-<tr class="even">
-<td>目頭</td>
-<td>めがしら</td>
-</tr>
-<tr class="odd">
-<td>目尻</td>
-<td>めじり</td>
-</tr>
-<tr class="even">
-<td>瞼</td>
-<td>まぶた</td>
-</tr>
-<tr class="odd">
-<td>一重瞼</td>
-<td>ひとえまぶた</td>
-</tr>
-<tr class="even">
-<td>二重瞼</td>
-<td>ふたえまぶた</td>
-</tr>
-<tr class="odd">
-<td>眼球</td>
-<td>がんきゅう</td>
-</tr>
-<tr class="even">
-<td>耳</td>
-<td>みみ</td>
-</tr>
-<tr class="odd">
-<td>耳朶</td>
-<td>みみたぶ</td>
-</tr>
-<tr class="even">
-<td>鼻</td>
-<td>はな</td>
-</tr>
-<tr class="odd">
-<td>頬</td>
-<td>ほお/ほほ</td>
-</tr>
-<tr class="even">
-<td>口</td>
-<td>くち</td>
-</tr>
-<tr class="odd">
-<td>唇</td>
-<td>くちびる</td>
-</tr>
-<tr class="even">
-<td>歯茎</td>
-<td>はぐき</td>
-</tr>
-<tr class="odd">
-<td>歯</td>
-<td>は</td>
-</tr>
-<tr class="even">
-<td>前歯</td>
-<td>まえば</td>
-</tr>
-<tr class="odd">
-<td>奥歯</td>
-<td>おくば</td>
-</tr>
-<tr class="even">
-<td>親知らず</td>
-<td>おやしらず</td>
-</tr>
-<tr class="odd">
-<td>八重歯</td>
-<td>やえば</td>
-</tr>
-<tr class="even">
-<td>舌</td>
-<td>した</td>
-</tr>
-<tr class="odd">
-<td>顎</td>
-<td>あご</td>
-</tr>
-<tr class="even">
-<td>喉</td>
-<td>のど</td>
-</tr>
-<tr class="odd">
-<td>首</td>
-<td>くび</td>
-</tr>
-<tr class="even">
-<td>肩</td>
-<td>かた</td>
-</tr>
-<tr class="odd">
-<td>脇</td>
-<td>わき</td>
-</tr>
-<tr class="even">
-<td>腕</td>
-<td>うで</td>
-</tr>
-<tr class="odd">
-<td>肘</td>
-<td>ひじ</td>
-</tr>
-<tr class="even">
-<td>手首</td>
-<td>てくび</td>
-</tr>
-<tr class="odd">
-<td>手</td>
-<td>て</td>
-</tr>
-<tr class="even">
-<td>掌</td>
-<td>てのひら</td>
-</tr>
-<tr class="odd">
-<td>手の甲</td>
-<td>てのこう</td>
-</tr>
-<tr class="even">
-<td>指</td>
-<td>ゆび</td>
-</tr>
-<tr class="odd">
-<td>親指</td>
-<td>おやゆび</td>
-</tr>
-<tr class="even">
-<td>人差し指</td>
-<td>ひとさしゆび</td>
-</tr>
-<tr class="odd">
-<td>中指</td>
-<td>なかゆび</td>
-</tr>
-<tr class="even">
-<td>薬指</td>
-<td>くすりゆび</td>
-</tr>
-<tr class="odd">
-<td>小指</td>
-<td>こゆび</td>
-</tr>
-<tr class="even">
-<td>爪</td>
-<td>つめ</td>
-</tr>
-<tr class="odd">
-<td>腹/お腹</td>
-<td>はら/おなか</td>
-</tr>
-<tr class="even">
-<td>脇腹</td>
-<td>わきばら</td>
-</tr>
-<tr class="odd">
-<td>臍</td>
-<td>へそ</td>
-</tr>
-<tr class="even">
-<td>背中</td>
-<td>せなか</td>
-</tr>
-<tr class="odd">
-<td>腰</td>
-<td>こし</td>
-</tr>
-<tr class="even">
-<td>尻</td>
-<td>しり</td>
-</tr>
-<tr class="odd">
-<td>太腿</td>
-<td>ふともも</td>
-</tr>
-<tr class="even">
-<td>脹脛</td>
-<td>ふくらはぎ</td>
-</tr>
-<tr class="odd">
-<td>膝</td>
-<td>ひざ</td>
-</tr>
-<tr class="even">
-<td>脛</td>
-<td>すね</td>
-</tr>
-<tr class="odd">
-<td>アキレス腱</td>
-<td>あきれすけん</td>
-</tr>
-<tr class="even">
-<td>踵</td>
-<td>かかと</td>
-</tr>
-<tr class="odd">
-<td>脚</td>
-<td>あし</td>
-</tr>
-<tr class="even">
-<td>足</td>
-<td>あし</td>
-</tr>
-<tr class="odd">
-<td>足首</td>
-<td>あしくび</td>
-</tr>
-<tr class="even">
-<td>足の甲</td>
-<td>あしのこう</td>
-</tr>
-<tr class="odd">
-<td>足の裏</td>
-<td>あしのうら</td>
-</tr>
-<tr class="even">
-<td>爪先</td>
-<td>つまさき</td>
-</tr>
-<tr class="odd">
-<td>足の指</td>
-<td>あしのゆび</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>動詞の形</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%8B%95%E8%A9%9E%E3%81%AE%E5%BD%A2/</url>
-    <content><![CDATA[<hr />
-<h1 id="まとめ">まとめ</h1>
-<p><img src="https://p.ipic.vip/3na3h7.png" /></p>
-<h1 id="練習">練習</h1>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 6%" />
-<col style="width: 10%" />
-<col style="width: 6%" />
-<col style="width: 17%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h1 id="解答">解答</h1>
-<table style="width:100%;">
-<colgroup>
-<col style="width: 9%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 7%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 9%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>辞書</th>
-<th>た</th>
-<th>て</th>
-<th>否定</th>
-<th>仮定</th>
-<th>推量</th>
-<th>可能</th>
-<th>受け身</th>
-<th>使役</th>
-<th>使役受け身</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>洗います</td>
-<td>洗う</td>
-<td>洗った</td>
-<td>洗って</td>
-<td>洗わない</td>
-<td>洗えば</td>
-<td>洗おう</td>
-<td>洗える</td>
-<td>洗われる</td>
-<td>洗わせる</td>
-<td>洗わされる</td>
-</tr>
-<tr class="even">
-<td>待ちます</td>
-<td>待つ</td>
-<td>待った</td>
-<td>待って</td>
-<td>待たない</td>
-<td>待てば</td>
-<td>待とう</td>
-<td>待てる</td>
-<td>待たれる</td>
-<td>待たせる</td>
-<td>待たされる</td>
-</tr>
-<tr class="odd">
-<td>帰ります</td>
-<td>帰る</td>
-<td>帰った</td>
-<td>帰って</td>
-<td>帰らない</td>
-<td>帰れば</td>
-<td>帰ろう</td>
-<td>帰れる</td>
-<td>帰られる</td>
-<td>帰らせる</td>
-<td>帰らされる</td>
-</tr>
-<tr class="even">
-<td>休みます</td>
-<td>休む</td>
-<td>休んだ</td>
-<td>休んで</td>
-<td>休まない</td>
-<td>休めば</td>
-<td>休もう</td>
-<td>休める</td>
-<td>休まれる</td>
-<td>休ませる</td>
-<td>休まされる</td>
-</tr>
-<tr class="odd">
-<td>遊びます</td>
-<td>遊ぶ</td>
-<td>遊んだ</td>
-<td>遊んで</td>
-<td>遊ばない</td>
-<td>遊べば</td>
-<td>遊ぼう</td>
-<td>遊べる</td>
-<td>遊ばれる</td>
-<td>遊ばせる</td>
-<td>遊ばされる</td>
-</tr>
-<tr class="even">
-<td>死にます</td>
-<td>死ぬ</td>
-<td>死んだ</td>
-<td>死んで</td>
-<td>死なない</td>
-<td>死ねば</td>
-<td>死のう</td>
-<td>死ねる</td>
-<td>死なれる</td>
-<td>死なせる</td>
-<td>死なされる</td>
-</tr>
-<tr class="odd">
-<td>急ぎます</td>
-<td>急ぐ</td>
-<td>急いだ</td>
-<td>急いで</td>
-<td>急いがない</td>
-<td>急げば</td>
-<td>急ごう</td>
-<td>急げる</td>
-<td>急がれる</td>
-<td>急がせる</td>
-<td>急がされる</td>
-</tr>
-<tr class="even">
-<td>降ります</td>
-<td>降る</td>
-<td>降った</td>
-<td>降って</td>
-<td>降らない</td>
-<td>降れば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="odd">
-<td>飲みます</td>
-<td>飲む</td>
-<td>飲んだ</td>
-<td>飲んで</td>
-<td>飲まない</td>
-<td>飲めば</td>
-<td>飲もう</td>
-<td>飲める</td>
-<td>飲まれる</td>
-<td>飲ませる</td>
-<td>飲まされる</td>
-</tr>
-<tr class="even">
-<td>行きます</td>
-<td>行く</td>
-<td>行った</td>
-<td>行って</td>
-<td>行かない</td>
-<td>行けば</td>
-<td>行こう</td>
-<td>行ける</td>
-<td>行かれる</td>
-<td>行かせる</td>
-<td>行かされる</td>
-</tr>
-<tr class="odd">
-<td>切ります</td>
-<td>切る</td>
-<td>切った</td>
-<td>切って</td>
-<td>切らない</td>
-<td>切れば</td>
-<td>切ろう</td>
-<td>切れる</td>
-<td>切られる</td>
-<td>切らせる</td>
-<td>切らされる</td>
-</tr>
-<tr class="even">
-<td>出ます</td>
-<td>出る</td>
-<td>出た</td>
-<td>出て</td>
-<td>出ない</td>
-<td>出れば</td>
-<td>出よう</td>
-<td>出られる</td>
-<td>出られる</td>
-<td>出させる</td>
-<td>出させらせる</td>
-</tr>
-<tr class="odd">
-<td>迎えます</td>
-<td>迎える</td>
-<td>迎えた</td>
-<td>迎えて</td>
-<td>迎えない</td>
-<td>迎えれば</td>
-<td>迎えよう</td>
-<td>迎えられる</td>
-<td>迎えられる</td>
-<td>迎えさせる</td>
-<td>迎えさせられる</td>
-</tr>
-<tr class="even">
-<td>食べます</td>
-<td>食べる</td>
-<td>食べた</td>
-<td>食べて</td>
-<td>食べない</td>
-<td>食べれば</td>
-<td>食べよう</td>
-<td>食べられる</td>
-<td>食べられる</td>
-<td>食べさせる</td>
-<td>食べさせられる</td>
-</tr>
-<tr class="odd">
-<td>降ります</td>
-<td>降りる</td>
-<td>降りた</td>
-<td>降りて</td>
-<td>降りない</td>
-<td>降りれば</td>
-<td>降りよう</td>
-<td>降りられる</td>
-<td>降りられる</td>
-<td>降りさせる</td>
-<td>降りさせられる</td>
-</tr>
-<tr class="even">
-<td>足ります</td>
-<td>足りる</td>
-<td>足りた</td>
-<td>足りて</td>
-<td>足りない</td>
-<td>足りれば</td>
-<td>足りよう</td>
-<td>足りられる</td>
-<td>足りられる</td>
-<td>足りさせる</td>
-<td>足りさせられる</td>
-</tr>
-<tr class="odd">
-<td>止めます</td>
-<td>止める</td>
-<td>止めた</td>
-<td>止めて</td>
-<td>止めない</td>
-<td>止めれば</td>
-<td>止めよう</td>
-<td>止められる</td>
-<td>止められる</td>
-<td>止めさせる</td>
-<td>止めさせられる</td>
-</tr>
-<tr class="even">
-<td>できます</td>
-<td>できる</td>
-<td>できた</td>
-<td>できて</td>
-<td>できない</td>
-<td>できれば</td>
-<td>できよう</td>
-<td>できる</td>
-<td>できられる</td>
-<td>できさせる</td>
-<td>できさせられる</td>
-</tr>
-<tr class="odd">
-<td>来ます</td>
-<td>くる</td>
-<td>きた</td>
-<td>きて</td>
-<td>こない</td>
-<td>くれば</td>
-<td>こよう</td>
-<td>こられる</td>
-<td>こられる</td>
-<td>こさせる</td>
-<td>こさせられる</td>
-</tr>
-<tr class="even">
-<td>食事します</td>
-<td>食事する</td>
-<td>食事した</td>
-<td>食事して</td>
-<td>食事しない</td>
-<td>食事すれば</td>
-<td>食事しよう</td>
-<td>食事できる</td>
-<td>食事される</td>
-<td>食事させる</td>
-<td>食事させられる</td>
-</tr>
-<tr class="odd">
-<td>します</td>
-<td>する</td>
-<td>した</td>
-<td>して</td>
-<td>しない</td>
-<td>すれば</td>
-<td>しよう</td>
-<td>できる</td>
-<td>される</td>
-<td>させる</td>
-<td>させられる</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>授受</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%8E%88%E5%8F%97/</url>
-    <content><![CDATA[<hr />
-<h1 id="壹-授受动词的基本用法">壹 授受动词的基本用法</h1>
-<hr />
-<h3
-id="aはbにをあげます-a给b某物">✨AはBに～をあげます　“A给B某物。”✨</h3>
-<h3
-id="あげます貸します教えます等方向向外的动词都有其对象人物此时用に表对象">“あげます”“貸します”“教えます”等方向向外的动词，都有其对象人物。此时用“に”表对象。</h3>
-<h3 id="此句型一般用于我给别人某物别人给别人某物">★
-此句型一般用于“我给别人某物。”“别人给别人某物。”</h3>
-<h3 id="山田さんは木村さんに花を上げました">·
-山田さんは木村さんに花を上げました。</h3>
-<h3
-id="私はイーさんに本を貸しました">·（私は）イーさんに本を貸しました。</h3>
-<h3 id="太郎君に英語を教えます">· 太郎君に英語を教えます。</h3>
-<h3
-id="aはbにをもらいます-a从b那儿得到某物">✨AはBに～をもらいます　“A从B那儿得到某物。”✨</h3>
-<h3
-id="もらいます借ります習います等方向向内的动词是从承受动作的人这方来说的对象用にから表示">“もらいます”“借ります”“習います”等方向向内的动词，是从承受动作的人这方来说的。对象用“に”“から”表示。</h3>
-<h3 id="对象不能是第一人称一般用于我从别人得到某物别人从别人得到某物">★
-对象不能是第一人称。一般用于“我从别人得到某物。”“别人从别人得到某物。”</h3>
-<h3 id="木村さんは山田さんに花をもらいました">·
-木村さんは山田さんに花をもらいました。</h3>
-<h3
-id="私はカリナさんにcdを借りました">·（私は）カリナさんにCDを借りました。</h3>
-<h3 id="ワンさんに中国語を習います">· ワンさんに中国語を習います。</h3>
-<h3
-id="aはbにをくれます-a给我我家人某物">✨AはBに～をくれます　“A给我（我家人）某物。”✨</h3>
-<h3
-id="主语为他人接收对象为我或我家人时使用">主语为他人，接收对象为我或我家人时使用。</h3>
-<h3 id="一般用于别人给我家人某物时使用">★
-一般用于“别人给我（家人）某物”时使用。</h3>
-<h3 id="佐藤さん私にクリスマスカードをくれました">·
-佐藤さん（私に）クリスマスカードをくれました。</h3>
-<h3 id="先生は妹に辞書をくれました">· 先生は妹に辞書をくれました。</h3>
-<hr />
-<h1 id="贰-动作的授受">贰 动作的授受</h1>
-<hr />
-<h3
-id="aはbにてあげます-a帮b做某事">✨AはBに～てあげます　“A帮B做某事。”✨</h3>
-<h3
-id="表基于好意做出的会带给对方好处行为">表基于好意做出的会带给对方好处行为。</h3>
-<h3
-id="此句型的主语为我或别人对象为别人不能是我">此句型的主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は木村さんに本を貸してあげました">·
-私は木村さんに本を貸してあげました。</h3>
-<h3 id="田中さんはミラーさんに資料を作ってあげました">·
-田中さんはミラーさんに資料を作ってあげました。</h3>
-<h3
-id="当动作者是说话人的时候由于会给人一种强加于人的印象对关系不太亲近或地位高的人最好避免直接使用此时应使用ましょうか句型">★
-当动作者是说话人的时候，由于会给人一种强加于人的印象，对关系不太亲近或地位高的人最好避免直接使用。此时应使用“～ましょうか”句型。</h3>
-<h3 id="タクシーを呼びましょうか">· タクシーを呼びましょうか。</h3>
-<h3
-id="aはbにてもらいます-a让b帮忙做某事">✨AはBに～てもらいます　“A让B帮忙做某事。”✨</h3>
-<h3
-id="这是个得到好处的一方心存感谢的表达方式">这是个得到好处的一方心存感谢的表达方式。</h3>
-<h3
-id="此句型主语为我或别人对象为别人不能是我">此句型主语为我或别人；对象为别人，不能是“我”。</h3>
-<h3 id="私は山田さんに図書館の電話番号を教えてもらいました">·
-私は山田さんに図書館の電話番号を教えてもらいました。</h3>
-<h3 id="ミラーさんは木村さんに京都を案内してもらいます">·
-ミラーさんは木村さんに京都を案内してもらいます。</h3>
-<h3 id="aはbに-てくれます-a帮我做某事a帮我家人做某事">✨AはBに～
-てくれます　“A帮我做某事。”“A帮我家人做某事。”✨</h3>
-<h3
-id="得到好处的我或我家人心存感谢的表达方式此句型主语是他人对象是我或我家人">得到好处的我或我家人心存感谢的表达方式。此句型主语是他人，对象是“我”或“我家人”。</h3>
-<h3
-id="接收者是我的时候私に可省略">接收者是“我”的时候，“私に”可省略。</h3>
-<h3 id="母は私にセーターを送ってくれました">·
-母は（私に）セーターを送ってくれました。</h3>
-<h3 id="林さんは弟におもちゃを買ってくれました">·
-林さんは弟におもちゃを買ってくれました。</h3>
-<hr />
-<h1 id="叁-授受动词的尊敬用法">叁 授受动词的尊敬用法</h1>
-<hr />
-<h3
-id="aはbにをやります-a给b某物">✨AはBに～をやります　“A给B某物。”✨</h3>
-<h3
-id="aはbにをさしあげます-a给b某物">✨AはBに～をさしあげます　“A给B某物。”✨</h3>
-<h3 id="此句型主语多为我">此句型主语多为“我”。</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用あげます">地位相同时，用“あげます”。</h3>
-<h3
-id="地位比自己高的人时用さしあげます">地位比自己高的人时，用“さしあげます”。</h3>
-<h3
-id="わたしは息子にお菓子をやります">·（わたしは）息子にお菓子をやります。</h3>
-<h3
-id="わたしは犬にえさをやります">·（わたしは）犬にえさをやります。</h3>
-<h3 id="先生にお土産を差し上げます">· 先生にお土産を差し上げます。</h3>
-<h3
-id="aはbにをいただきます-我从b那里得到某物">✨AはBに～をいただきます　“我从B那里得到某物。”✨</h3>
-<h3 id="此句型主语多为我-1">此句型主语多为“我”。</h3>
-<h3
-id="地位低和地位相同时用もらいます">地位低和地位相同时，用“もらいます”。</h3>
-<h3
-id="地位比自己高的人时用いただきます">地位比自己高的人时，用“いただきます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3
-id="わたしは部長にお土産をいただきました">·（わたしは）部長にお土産をいただきました。</h3>
-<h3 id="私はおばからかわいい手袋をもらいました">·
-私はおばからかわいい手袋をもらいました。</h3>
-<h3 id="息子から誕生日のプレゼントをもらいました">·
-息子から誕生日のプレゼントをもらいました。</h3>
-<h3
-id="aはわたしにをくださいます-某人给我某物">✨Aは（わたしに）～をくださいます　“某人给我某物。”✨</h3>
-<h3
-id="地位低和地位相同时用くれます">地位低和地位相同时，用“くれます”。</h3>
-<h3
-id="地位比自己高的人给自己和自己家人某物时用くださいます">地位比自己高的人给自己和自己家人某物时，用“くださいます”。</h3>
-<h3 id="家人属于关系亲密即使爷爷奶奶也不用尊敬-1">★
-家人属于关系亲密，即使爷爷奶奶也不用尊敬。</h3>
-<h3 id="部長がわたしにお土産をくださいました">·
-部長が（わたしに）お土産をくださいました。</h3>
-<h3 id="先生が娘に辞書をくださいました">·
-先生が娘に辞書をくださいました。</h3>
-<hr />
-<h1 id="肆-动作的尊敬授受">肆 动作的尊敬授受</h1>
-<hr />
-<h3
-id="aはbにてやります-我帮某人做某事">✨AはBに～てやります　“我帮某人做某事。”✨</h3>
-<h3
-id="aはbにてさしあげます-我帮某人做某事">✨AはBに～てさしあげます　“我帮某人做某事”✨</h3>
-<h3
-id="当接受者是比自己地位低的人或动植物时用前者更显关爱之意-1">当接受者是比自己地位低的人或动植物时用前者，更显关爱之意。</h3>
-<h3 id="地位相同时用てあげます">地位相同时，用“～てあげます”。</h3>
-<h3
-id="地位比自己高的人时用てさしあげます">地位比自己高的人时，用“～てさしあげます”。</h3>
-<h3
-id="わたしは息子に紙飛行機を作ってやります">·（わたしは）息子に紙飛行機を作ってやります。</h3>
-<h3
-id="わたしは犬を散歩に連れて行ってやりました">·（わたしは）犬を散歩に連れて行ってやりました。</h3>
-<h3
-id="てさしあげます会给人尊大的印象所以在对上司长辈当面说话时最好不用这种说法">★
-“てさしあげます”会给人尊大的印象，所以在对上司、长辈当面说话时最好不用这种说法。</h3>
-<h3
-id="aはbにていただきます-我让某人帮我做某事">✨AはBに～ていただきます　“我让某人帮我做某事。”✨</h3>
-<h3
-id="动词当对象为地位高的人时用ていただきます">动词当对象为地位高的人时，用“～ていただきます”。</h3>
-<h3
-id="对象低和相同时用てもらいます">对象低和相同时，用“～てもらいます”。</h3>
-<h3
-id="わたしは課長に手紙の間違いを直していただきました">·（わたしは）課長に手紙の間違いを直していただきました。</h3>
-<h3 id="息子に飛行機の切符を予約してもらいました">·
-息子に飛行機の切符を予約してもらいました。</h3>
-<h3
-id="aはbにてくださいます-某人帮我做某事">✨AはBに～てくださいます　“某人帮我做某事。”✨</h3>
-<h3
-id="地位低和地位相同时用てくれます">地位低和地位相同时，用“～てくれます”。</h3>
-<h3
-id="动词当对象为地位高的人时用てくださいます">动词当对象为地位高的人时，用“～てくださいます”。</h3>
-<h3 id="部長の奥さんはわたしにお茶を教えてくださいました">·
-部長の奥さんは（わたしに）お茶を教えてくださいました。</h3>
-<h3 id="部長はわたしを駅まで送ってくださいました">·
-部長は（わたしを）駅まで送ってくださいました。</h3>
-<h3 id="部長はわたしのレポートを直してくださいました">·
-部長は（わたしの）レポートを直してくださいました。</h3>
-<hr />
-<h1 id="伍-敬语中的授受表达">伍 敬语中的授受表达</h1>
-<hr />
-<h2 id="おⅰ-ⅱ类动词ます形くださる">お＋Ⅰ Ⅱ类动词ます形＋くださる</h2>
-<h2 id="おごⅲ类动词词干くださる">お／ご＋Ⅲ类动词词干＋くださる</h2>
-<h2 id="帮忙做了某事-帮我">“~帮忙做了某事” “～帮我～”</h2>
-<h3
-id="地位高的人为己方做事即てくれるてくださる的尊敬">地位高的人为己方做事。即「てくれる・てくださる」的尊敬。</h3>
-<h3
-id="私たちが旅館に着くと従業員たちが笑顔でようこそお越しくださいましたとあいさつしてくれた">·
-私たちが旅館に着くと、従業員たちが笑顔で「ようこそお越しくださいました。」とあいさつしてくれた。</h3>
-<h3 id="卒業論文をご指導くださったのは山田先生です">·
-卒業論文をご指導くださったのは山田先生です。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形ください">お＋Ⅰ Ⅱ类动词ます形＋ください</h2>
-<h2 id="おごⅲ类动词词干ください">お／ご＋Ⅲ类动词词干＋ください</h2>
-<h2 id="请您">“请您~”</h2>
-<h3 id="即てください的尊敬">即「てください」的尊敬</h3>
-<h3 id="お早めにお召し上がりください">·
-お早めにお召し上がりください。</h3>
-<h3 id="間違いがあるかどうかご確認ください">·
-間違いがあるかどうかご確認ください。</h3>
-<h2 id="おⅰ-ⅱ类动词ます形いただく">お＋Ⅰ Ⅱ类动词ます形＋いただく</h2>
-<h2 id="おごⅲ类动词词干いただく">お／ご＋Ⅲ类动词词干＋いただく</h2>
-<h2 id="请您-承蒙您帮忙">“请您<sub>。”　“承蒙您（帮忙）</sub>”</h2>
-<h3
-id="谦虚接受他人动作或请别人帮助时使用即てもらうていただく的更礼貌说法">谦虚接受他人动作，或请别人帮助时使用。即「てもらう・ていただく」的更礼貌说法。</h3>
-<h3
-id="大西病院では現在事務職員を募集しています詳細はホームページをご覧いただくか直接お電話でお問い合わせください">·
-大西病院では、現在事務職員を募集しています。詳細は、ホームページをご覧いただくか、直接お電話でお問い合わせください。</h3>
-<h3 id="ご結婚式にお招きいただきましてありがとうございます">·
-ご結婚式にお招きいただきまして、ありがとうございます。</h3>
-<h3 id="こちらにお名前をお書きいただいてもよろしいですか">·
-こちらにお名前をお書きいただいてもよろしいですか。</h3>
-<h2
-id="させてくださるさせてください">させてくださる・させてください</h2>
-<h2
-id="请让我-请准许我-准许我了">“请让我<sub>”　“请准许我</sub>”　“～准许我~了”</h2>
-<h3
-id="表请求上级长辈等允许己方做某事">表请求上级、长辈等允许己方做某事。</h3>
-<h3 id="体の具合が悪いから先生が休ませてくださいました">·
-体の具合が悪いから、先生が休ませてくださいました。</h3>
-<h3 id="そのことについて少し考えさせてください">·
-そのことについて少し考えさせてください。</h3>
-<h3 id="この機械の使い方を説明させてください">·
-この機械の使い方を説明させてください。</h3>
-<h2 id="させていただく">させていただく</h2>
-<h2 id="请允许我好吗">“请允许我~（好吗？）”</h2>
-<h3
-id="させてもらう的自谦表请求尊长等允许自己做某事常以提问形式出现">「させてもらう」的自谦，表请求尊长等允许自己做某事。常以提问形式出现。</h3>
-<h3
-id="先日お話があったスピーチの件なんですがぜひ私にやらせていただけないでしょうか">·
-先日お話があったスピーチの件なんですが、ぜひ私にやらせていただけないでしょうか。</h3>
-<h3
-id="資料をコピーしたいんですがコピー機を使わせていただいてもよろしいですか">·
-資料をコピーしたいんですが、コピー機を使わせていただいてもよろしいですか。</h3>
-<h3 id="ドアのところに私の傘を置かせていただいてもいいですか">·
-ドアのところに私の傘を置かせていただいてもいいですか。</h3>
 <hr />
 ]]></content>
       <categories>
@@ -10951,1716 +12661,6 @@ id="から見るとから見ればから見て">１１.～から見ると・か�
       <categories>
         <category>日本語</category>
         <category>JLPT N2</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>キーの記号の読み方</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/Keyboard/</url>
-    <content><![CDATA[<hr />
-<p><img src="https://p.ipic.vip/517a8e.jpg" /></p>
-<table>
-<thead>
-<tr class="header">
-<th>記号</th>
-<th>読み方</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>~</td>
-<td>チルダ</td>
-</tr>
-<tr class="even">
-<td>!</td>
-<td>ビックリマーク・感嘆符</td>
-</tr>
-<tr class="odd">
-<td>@</td>
-<td>アットマーク・単価符号</td>
-</tr>
-<tr class="even">
-<td>#</td>
-<td>ハッシュ</td>
-</tr>
-<tr class="odd">
-<td>♯</td>
-<td>シャープ</td>
-</tr>
-<tr class="even">
-<td>$</td>
-<td>ドルマーク</td>
-</tr>
-<tr class="odd">
-<td>%</td>
-<td>パーセント</td>
-</tr>
-<tr class="even">
-<td>^</td>
-<td>ハット・山記号</td>
-</tr>
-<tr class="odd">
-<td>&amp;</td>
-<td>アンド</td>
-</tr>
-<tr class="even">
-<td>*</td>
-<td>アスタリスク・星印</td>
-</tr>
-<tr class="odd">
-<td>(</td>
-<td>かっこ</td>
-</tr>
-<tr class="even">
-<td>)</td>
-<td>かっこ閉じ</td>
-</tr>
-<tr class="odd">
-<td>ー</td>
-<td>ダッシュ</td>
-</tr>
-<tr class="even">
-<td>−</td>
-<td>マイナス</td>
-</tr>
-<tr class="odd">
-<td>-</td>
-<td>ハイフン</td>
-</tr>
-<tr class="even">
-<td>_</td>
-<td>アンダーバー</td>
-</tr>
-<tr class="odd">
-<td>/</td>
-<td>スラッシュ</td>
-</tr>
-<tr class="even">
-<td>\</td>
-<td>バックスラッシュ</td>
-</tr>
-<tr class="odd">
-<td>:</td>
-<td>コロン</td>
-</tr>
-<tr class="even">
-<td>;</td>
-<td>セミコロン</td>
-</tr>
-<tr class="odd">
-<td>"</td>
-<td>ダブルクォーテーション・ちょんちょん</td>
-</tr>
-<tr class="even">
-<td>'</td>
-<td>クォーテーションマーク</td>
-</tr>
-<tr class="odd">
-<td>&lt;</td>
-<td>小なり</td>
-</tr>
-<tr class="even">
-<td>&gt;</td>
-<td>大なり</td>
-</tr>
-<tr class="odd">
-<td>,</td>
-<td>コンマ</td>
-</tr>
-<tr class="even">
-<td>、</td>
-<td>読点</td>
-</tr>
-<tr class="odd">
-<td>。</td>
-<td>句点</td>
-</tr>
-<tr class="even">
-<td>.</td>
-<td>ピリオド</td>
-</tr>
-<tr class="odd">
-<td>?</td>
-<td>クェスチョンマーク・はてな</td>
-</tr>
-<tr class="even">
-<td>fn</td>
-<td>ファンクション</td>
-</tr>
-<tr class="odd">
-<td>control</td>
-<td>コントロール</td>
-</tr>
-<tr class="even">
-<td>option</td>
-<td>オプション</td>
-</tr>
-<tr class="odd">
-<td>command</td>
-<td>コマンド</td>
-</tr>
-<tr class="even">
-<td>space</td>
-<td>スペース</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>聴解</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%81%B4%E8%A7%A3/</url>
-    <content><![CDATA[<hr />
-<h1 id="常见口语约音">常见口语约音</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 22%" />
-<col style="width: 28%" />
-<col style="width: 48%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>元の形</th>
-<th>変化した形・縮約形</th>
-<th>例文</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ておく／でおく</td>
-<td>とく／どく</td>
-<td>準備しとく／飲んどく</td>
-</tr>
-<tr class="even">
-<td>ら</td>
-<td>ん</td>
-<td>わかんない</td>
-</tr>
-<tr class="odd">
-<td>る</td>
-<td>ん</td>
-<td>何やってんの</td>
-</tr>
-<tr class="even">
-<td>れ</td>
-<td>ん</td>
-<td>寝らんない</td>
-</tr>
-<tr class="odd">
-<td>の</td>
-<td>ん</td>
-<td>好きだもん／有名なんです</td>
-</tr>
-<tr class="even">
-<td>に</td>
-<td>ん</td>
-<td>嫌んなる／いちんち</td>
-</tr>
-<tr class="odd">
-<td>れば</td>
-<td>りゃ</td>
-<td>地図を見りゃ分かる</td>
-</tr>
-<tr class="even">
-<td>とても／すごく／ばかり</td>
-<td>とっても／すっごく／ばっかり</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あまり／おなじ</td>
-<td>あんまり／おんなじ</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>それは／これは</td>
-<td>そりゃ／こりゃ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>～てしまう／でしまう</td>
-<td>～ちゃう／じゃう</td>
-<td>食べちゃう／飲んじゃう</td>
-</tr>
-<tr class="even">
-<td>～ては／では</td>
-<td>～ちゃ／じゃ</td>
-<td>食べちゃダメ／それじゃ</td>
-</tr>
-<tr class="odd">
-<td>～なくては</td>
-<td>～なくちゃ</td>
-<td>しなくちゃいけない</td>
-</tr>
-<tr class="even">
-<td>～なければ</td>
-<td>～なきゃ</td>
-<td>帰らなきゃ</td>
-</tr>
-<tr class="odd">
-<td>～ている／～でいる</td>
-<td>～てる／～でる</td>
-<td>持ってる／込んでる</td>
-</tr>
-<tr class="even">
-<td>～ていく／でいく</td>
-<td>～てく／でく</td>
-<td>連れてく／遊んでく</td>
-</tr>
-<tr class="odd">
-<td>と／という</td>
-<td>って</td>
-<td>太郎っていう<br />礼儀ってもの</td>
-</tr>
-<tr class="even">
-<td>ても／でも</td>
-<td>たって／だって</td>
-<td>やれって言ったって無理だ<br />呼んだって来ないよ</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="选项常见汉语词">选项常见汉语词</h1>
-<hr />
-<table>
-<tbody>
-<tr class="odd">
-<td>影響（えいきょう）</td>
-<td>営業（えいぎょう）</td>
-</tr>
-<tr class="even">
-<td>改良（かいりょう）</td>
-<td>概要（がいよう）</td>
-</tr>
-<tr class="odd">
-<td>価格（かかく）</td>
-<td>科学（かがく）</td>
-</tr>
-<tr class="even">
-<td>対象（たいしょう）</td>
-<td>対処（たいしょ）</td>
-</tr>
-<tr class="odd">
-<td>種類（しゅるい）</td>
-<td>書類（しょるい）</td>
-</tr>
-<tr class="even">
-<td>原因（げんいん）</td>
-<td>貢献（こうけん）</td>
-</tr>
-<tr class="odd">
-<td>成果（せいか）</td>
-<td>結果（けっか）</td>
-</tr>
-<tr class="even">
-<td>変化（へんか）</td>
-<td>変更（へんこう）</td>
-</tr>
-<tr class="odd">
-<td>仕方（しかた）</td>
-<td>方法（ほうほう）</td>
-</tr>
-<tr class="even">
-<td>紹介（しょうかい）</td>
-<td>案内（あんない）</td>
-</tr>
-<tr class="odd">
-<td>入れ方</td>
-<td>選び方</td>
-</tr>
-<tr class="even">
-<td>経験（けいけん）</td>
-<td>研究（けんきゅう）</td>
-</tr>
-<tr class="odd">
-<td>理由（りゆう）</td>
-<td>歴史（れきし）</td>
-</tr>
-<tr class="even">
-<td>見通し（みとおし）</td>
-<td>見込み（みこみ）</td>
-</tr>
-<tr class="odd">
-<td>予約（よやく）</td>
-<td>予定（よてい）</td>
-</tr>
-<tr class="even">
-<td>日程（にってい）</td>
-<td>スケジュール</td>
-</tr>
-<tr class="odd">
-<td>調査（ちょうさ）</td>
-<td>注意点（ちゅういてん）</td>
-</tr>
-<tr class="even">
-<td>意義（いぎ）</td>
-<td>低下（ていか）</td>
-</tr>
-<tr class="odd">
-<td>役割（やくわり）</td>
-<td>出会い（であい）</td>
-</tr>
-<tr class="even">
-<td>方針（ほうしん）</td>
-<td>内容（ないよう）</td>
-</tr>
-<tr class="odd">
-<td>募集（ぼしゅう）</td>
-<td>きっかけ</td>
-</tr>
-<tr class="even">
-<td>見合わせ</td>
-<td>キャンセル</td>
-</tr>
-<tr class="odd">
-<td>産業（さんぎょう）</td>
-<td>技術（ぎじゅつ）</td>
-</tr>
-<tr class="even">
-<td>進歩（しんぽ）</td>
-<td>目標（もくひょう）</td>
-</tr>
-<tr class="odd">
-<td>活動（かつどう）</td>
-<td>反省（はんせい）</td>
-</tr>
-<tr class="even">
-<td>関係（かんけい）</td>
-<td>確認（かくにん）</td>
-</tr>
-<tr class="odd">
-<td>記録（きろく）</td>
-<td>必要性（ひつようせい）</td>
-</tr>
-<tr class="even">
-<td>賛成（さんせい）</td>
-<td>反対（はんたい）</td>
-</tr>
-<tr class="odd">
-<td>増加（ぞうか）</td>
-<td>減少（げんしょう）</td>
-</tr>
-<tr class="even">
-<td>上回る（うわまわる）</td>
-<td>下回る（したまわる）</td>
-</tr>
-<tr class="odd">
-<td>上昇（じょうしょう）</td>
-<td>下降（かこう）</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="听力常见单词">听力常见单词</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 41%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>单词</th>
-<th>含义</th>
-<th>单词</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>取りかかる</td>
-<td>着手，开始</td>
-<td>見積書（みつもりしょ）</td>
-<td>估价表</td>
-</tr>
-<tr class="even">
-<td>～をしぼる</td>
-<td>集中；变窄</td>
-<td>領収書（りょうしゅうしょ）</td>
-<td>收据</td>
-</tr>
-<tr class="odd">
-<td>～をつかむ</td>
-<td>抓住，掌握</td>
-<td>企画書・案</td>
-<td>企划书</td>
-</tr>
-<tr class="even">
-<td>配る</td>
-<td>分配</td>
-<td>打ち合わせ</td>
-<td>商谈，洽谈</td>
-</tr>
-<tr class="odd">
-<td>手配する</td>
-<td>安排</td>
-<td>問い合わせ</td>
-<td>咨询</td>
-</tr>
-<tr class="even">
-<td>修正する</td>
-<td>订正</td>
-<td>手続き</td>
-<td>手续</td>
-</tr>
-<tr class="odd">
-<td>配布する</td>
-<td>散发</td>
-<td>引き継ぐ</td>
-<td>交接，继承</td>
-</tr>
-<tr class="even">
-<td>保留する</td>
-<td>保留</td>
-<td>一通り（ひととおり）</td>
-<td>大概，大体上</td>
-</tr>
-<tr class="odd">
-<td>検討する</td>
-<td>讨论</td>
-<td>一応（いちおう）</td>
-<td>大体；姑且暂时</td>
-</tr>
-<tr class="even">
-<td>把握する</td>
-<td>掌握，理解</td>
-<td>入れ替える</td>
-<td>更换，替代，替换</td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 27%" />
-<col style="width: 32%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>单词</th>
-<th>含义</th>
-<th>单词</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>見送る</td>
-<td>目送，送行；搁置</td>
-<td>きっかけ</td>
-<td>契机</td>
-</tr>
-<tr class="even">
-<td>見直す</td>
-<td>重看，重新认识；见起色</td>
-<td>手順（てじゅん）</td>
-<td>工作的程序</td>
-</tr>
-<tr class="odd">
-<td>見極める</td>
-<td>看清，看透</td>
-<td>興味ある</td>
-<td>感兴趣</td>
-</tr>
-<tr class="even">
-<td>懸念する（けねん）</td>
-<td>担心，忧虑</td>
-<td>評判</td>
-<td>评价（好）</td>
-</tr>
-<tr class="odd">
-<td>捻出する（ねんしゅつ）</td>
-<td>想出；筹措出</td>
-<td>大事／大切／肝心</td>
-<td>重要</td>
-</tr>
-<tr class="even">
-<td>恐れ入る</td>
-<td>抱歉，对不起</td>
-<td>無関心</td>
-<td>不关心</td>
-</tr>
-<tr class="odd">
-<td>踏み切る</td>
-<td>下决心</td>
-<td>注目が高まる</td>
-<td>受到关注</td>
-</tr>
-<tr class="even">
-<td>心がける</td>
-<td>留心，注意</td>
-<td>期待が集まる</td>
-<td>受到期待</td>
-</tr>
-<tr class="odd">
-<td>受け止める</td>
-<td>理解，认识</td>
-<td>臨機応変（りんきおうへん）</td>
-<td>临机应变</td>
-</tr>
-<tr class="even">
-<td>打ち明ける</td>
-<td>坦率</td>
-<td>似たり寄ったり</td>
-<td>半斤八两</td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 23%" />
-<col style="width: 26%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>单词</th>
-<th>含义</th>
-<th>单词</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>開発する</td>
-<td>开发</td>
-<td>担い手（にないて）</td>
-<td>挑东西的人</td>
-</tr>
-<tr class="even">
-<td>見直す</td>
-<td>重新考虑，认识</td>
-<td>活性化</td>
-<td>活性化，激活</td>
-</tr>
-<tr class="odd">
-<td>取り組み</td>
-<td>搭配；努力</td>
-<td>老化</td>
-<td>老化</td>
-</tr>
-<tr class="even">
-<td>募る（つのる）</td>
-<td>招募；越来越厉害</td>
-<td>高齢者・高齢化</td>
-<td>老年人。老年化</td>
-</tr>
-<tr class="odd">
-<td>育てる</td>
-<td>培养，培育</td>
-<td>過疎化</td>
-<td>人口过少</td>
-</tr>
-<tr class="even">
-<td>搭載する（とうさい）</td>
-<td>搭载</td>
-<td>方策</td>
-<td>方案，方法</td>
-</tr>
-<tr class="odd">
-<td>値上げ</td>
-<td>加价，提高价格</td>
-<td>行楽地</td>
-<td>游览地</td>
-</tr>
-<tr class="even">
-<td>魅力</td>
-<td>魅力</td>
-<td>改装</td>
-<td>改装</td>
-</tr>
-<tr class="odd">
-<td>根気</td>
-<td>耐心，毅力</td>
-<td>有無</td>
-<td>有无</td>
-</tr>
-<tr class="even">
-<td>箇所（かしょ）</td>
-<td>地方，部分</td>
-<td>恐れがある</td>
-<td>担心，忧虑</td>
-</tr>
-<tr class="odd">
-<td>活躍</td>
-<td>活跃</td>
-<td>異文化</td>
-<td>异文化</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="常见外来语">常见外来语</h1>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>单词</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ゼミ</td>
-</tr>
-<tr class="even">
-<td>テーマ</td>
-</tr>
-<tr class="odd">
-<td>イメージ</td>
-</tr>
-<tr class="even">
-<td>ボランティア</td>
-</tr>
-<tr class="odd">
-<td>スケジュール</td>
-</tr>
-<tr class="even">
-<td>プログラム</td>
-</tr>
-<tr class="odd">
-<td>プロジェクト</td>
-</tr>
-<tr class="even">
-<td>オンライン</td>
-</tr>
-<tr class="odd">
-<td>ネットワーク</td>
-</tr>
-<tr class="even">
-<td>ホームページ</td>
-</tr>
-<tr class="odd">
-<td>ウェブサイト</td>
-</tr>
-<tr class="even">
-<td>アクセス</td>
-</tr>
-<tr class="odd">
-<td>インタビュー</td>
-</tr>
-<tr class="even">
-<td>クリアー</td>
-</tr>
-<tr class="odd">
-<td>ピックアップ</td>
-</tr>
-<tr class="even">
-<td>ニーズ</td>
-</tr>
-<tr class="odd">
-<td>パンフレット</td>
-</tr>
-<tr class="even">
-<td>プリンター</td>
-</tr>
-<tr class="odd">
-<td>プレゼン</td>
-</tr>
-<tr class="even">
-<td>リサーチ</td>
-</tr>
-<tr class="odd">
-<td>トラブル</td>
-</tr>
-<tr class="even">
-<td>クリア</td>
-</tr>
-<tr class="odd">
-<td>リアル</td>
-</tr>
-<tr class="even">
-<td>アイディア</td>
-</tr>
-<tr class="odd">
-<td>ブレーキ</td>
-</tr>
-<tr class="even">
-<td>メイン</td>
-</tr>
-<tr class="odd">
-<td>インテリア</td>
-</tr>
-<tr class="even">
-<td>ターゲット</td>
-</tr>
-<tr class="odd">
-<td>メーカー</td>
-</tr>
-<tr class="even">
-<td>ストレス</td>
-</tr>
-<tr class="odd">
-<td>メリット</td>
-</tr>
-<tr class="even">
-<td>コミュニケーション</td>
-</tr>
-<tr class="odd">
-<td>サイト</td>
-</tr>
-<tr class="even">
-<td>ロボット</td>
-</tr>
-<tr class="odd">
-<td>システム</td>
-</tr>
-<tr class="even">
-<td>イベント</td>
-</tr>
-<tr class="odd">
-<td>グループ</td>
-</tr>
-<tr class="even">
-<td>イメージ</td>
-</tr>
-<tr class="odd">
-<td>チャンス</td>
-</tr>
-<tr class="even">
-<td>ヒント</td>
-</tr>
-<tr class="odd">
-<td>インターネット</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="常见表达">常见表达</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>会ったときのあいさつ</th>
-<th>お礼</th>
-<th>受け</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>先日はどうも<br />お世話になっております<br />ご無沙汰しております<br />お変わりありませんか<br />　ーおかげさまで<br />　ー相変わらずです<br />ごめんください</td>
-<td>お世話になりました<br />助かりました<br />わざわざすみませんでした<br />悪いなあ<br />悪かったね</td>
-<td>どういたしまして<br />構いません<br />（それで）結構です</td>
-</tr>
-<tr class="even">
-<td>別れるときのあいさつ</td>
-<td>謝り</td>
-<td>その他</td>
-</tr>
-<tr class="odd">
-<td>お気をつけて<br />（お先に）失礼します<br />お大事に<br />お疲れ様でした<br />ご苦労様でした<br />お邪魔しました</td>
-<td>ご迷惑をおかけしました<br />すまなかったね<br />申し訳ございません<br />悪いね／悪かったね</td>
-<td>（いいえ、）結構です<断り><br />申し訳ないんですが<断り><br />悪いんだけど<断り><br />とんでもないです<謙遜><br />お口に合うかどうか<進め><br />　ーお構いなく<遠慮></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 43%" />
-<col style="width: 7%" />
-<col style="width: 43%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>話し手がする</th>
-<th></th>
-<th>聞き手がする</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>許可求め</td>
-<td>～させて＋ほしいんだけど<br />　　　　　ください／くださいませんか<br />　　　　　もらえる？／もらえない？<br />　　　　　もらえませんか<br />　　　　　いただけませんか<br />　　　　　くれない？／くれませんか<br />～ても＋いい？／いいですか<br />　　　　いいでしょうか<br />　　　　よろしいでしょうか</td>
-<td>依頼</td>
-<td>～て＋ほしいんだけど<br />　　　ください／くださいませんか<br />　　　もらえる？／もらえない？<br />　　　もらえませんか<br />　　　いただきたいんですが<br />　　　いただけませんか<br />　　　くれない？／くれませんか<br />　　　くれる（もらえる）と助かるんですが（ありがたいんですが）</td>
-</tr>
-<tr class="even">
-<td>申し出</td>
-<td>～ましょうか／～ようか／～ますね</td>
-<td>提案・指示</td>
-<td>～たら＋どう？／どうですが<br />～ば＋　いいんじゃない？<br />　　　　いいと思います<br />～たほうがいいですよ</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>ことわざ</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%AB%BA/</url>
-    <content><![CDATA[<hr />
-<table>
-<colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>ことわざ</th>
-<th>意味</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>一目ぼれ</td>
-<td>一见钟情</td>
-</tr>
-<tr class="even">
-<td>目と鼻の先</td>
-<td>一箭之地</td>
-</tr>
-<tr class="odd">
-<td>急がば回れ</td>
-<td>欲速则不达</td>
-</tr>
-<tr class="even">
-<td>弘法にも筆の誤り</td>
-<td>智者千虑，必有一失</td>
-</tr>
-<tr class="odd">
-<td>千里の堤蟻の穴から崩れる</td>
-<td>千里之堤，溃于蚁穴</td>
-</tr>
-<tr class="even">
-<td>猫に小判</td>
-<td>对牛弹琴</td>
-</tr>
-<tr class="odd">
-<td>猫の目のように変わる</td>
-<td>变化无常</td>
-</tr>
-<tr class="even">
-<td>井の中の蛙</td>
-<td>井底之蛙</td>
-</tr>
-<tr class="odd">
-<td>塵も積もれば山となる</td>
-<td>积少成多</td>
-</tr>
-<tr class="even">
-<td>郷に入っては郷に従え</td>
-<td>入乡随俗</td>
-</tr>
-<tr class="odd">
-<td>河童の屁</td>
-<td>易如反掌</td>
-</tr>
-<tr class="even">
-<td>河童に水泳を教える</td>
-<td>班门弄斧</td>
-</tr>
-<tr class="odd">
-<td>好事門を出でず悪事千里を走る</td>
-<td>好事不出门，坏事行千里</td>
-</tr>
-<tr class="even">
-<td>馬子にも衣裳</td>
-<td>人靠衣装马靠鞍</td>
-</tr>
-<tr class="odd">
-<td>縁は異なもの</td>
-<td>千里姻缘一线牵</td>
-</tr>
-<tr class="even">
-<td>異とするに足りない</td>
-<td>不足为奇</td>
-</tr>
-<tr class="odd">
-<td>石が流れて木の葉が沈む</td>
-<td>浮石沉木，太阳从西边出来</td>
-</tr>
-<tr class="even">
-<td>転ばぬ先の杖</td>
-<td>未雨绸缪</td>
-</tr>
-<tr class="odd">
-<td>気は心</td>
-<td>千里送鹅毛，礼轻情意重</td>
-</tr>
-<tr class="even">
-<td>彼を知り己を知らば百戦危うからず</td>
-<td>知彼知己，百战不殆</td>
-</tr>
-<tr class="odd">
-<td>木に竹を接ぐ</td>
-<td>驴唇不对马嘴，张冠李戴</td>
-</tr>
-<tr class="even">
-<td>木に縁って魚を求む</td>
-<td>缘木求鱼</td>
-</tr>
-<tr class="odd">
-<td>木で鼻を括る</td>
-<td>冷淡对人，爱答不理</td>
-</tr>
-<tr class="even">
-<td>腐っても鯛</td>
-<td>瘦死的骆驼比马大</td>
-</tr>
-<tr class="odd">
-<td>愚公山を移す</td>
-<td>愚公移山</td>
-</tr>
-<tr class="even">
-<td>癖ある馬に乗りあり</td>
-<td>有脾气的人必有专长</td>
-</tr>
-<tr class="odd">
-<td>光陰矢の如し</td>
-<td>光阴似箭</td>
-</tr>
-<tr class="even">
-<td>目糞鼻糞を笑う</td>
-<td>秃子笑和尚</td>
-</tr>
-<tr class="odd">
-<td>落花流水</td>
-<td>落花流水</td>
-</tr>
-<tr class="even">
-<td>五十歩百歩</td>
-<td>五十步笑百步</td>
-</tr>
-<tr class="odd">
-<td>虎穴に入らずんば虎子を得ず</td>
-<td>不入虎穴焉得虎子</td>
-</tr>
-<tr class="even">
-<td>気にも草にも心を置く</td>
-<td>风声鹤唳，草木皆兵</td>
-</tr>
-<tr class="odd">
-<td>短気は損気</td>
-<td>性急吃亏</td>
-</tr>
-<tr class="even">
-<td>転んでもただは起きぬ</td>
-<td>雁过拔毛</td>
-</tr>
-<tr class="odd">
-<td>聞くは一時の恥聞かぬは一生の恥</td>
-<td>向人求教是一时的耻辱，不问将会造成一生的耻辱</td>
-</tr>
-<tr class="even">
-<td>亀の甲より年の劫</td>
-<td>姜还是老的辣</td>
-</tr>
-<tr class="odd">
-<td>すき腹にまずいものなし</td>
-<td>饥不择食</td>
-</tr>
-<tr class="even">
-<td>可愛い子には旅をさせよ</td>
-<td>爱子就让他外出见世面</td>
-</tr>
-<tr class="odd">
-<td>頭隠して尻隠さず</td>
-<td>藏头露尾</td>
-</tr>
-<tr class="even">
-<td>帯に短し、たすきに長し</td>
-<td>高不成低不就</td>
-</tr>
-<tr class="odd">
-<td>二階から目薬</td>
-<td>远水救不了近火</td>
-</tr>
-<tr class="even">
-<td>痘痕も靨</td>
-<td>情人眼里出西施</td>
-</tr>
-<tr class="odd">
-<td>暑さ寒さも彼岸まで</td>
-<td>热到秋分，冷到春分</td>
-</tr>
-<tr class="even">
-<td>人の花は赤い、他人の飯は白い</td>
-<td>东西总是别人的好</td>
-</tr>
-<tr class="odd">
-<td>腹も身の内</td>
-<td>食不过量</td>
-</tr>
-<tr class="even">
-<td>腹八分目に医者いらず</td>
-<td>八分饱不求医</td>
-</tr>
-<tr class="odd">
-<td>好きこそものの上手なれ</td>
-<td>爱好就能精通</td>
-</tr>
-<tr class="even">
-<td>虎の威を借りる狐</td>
-<td>狐假虎威</td>
-</tr>
-<tr class="odd">
-<td>団栗の背比べ</td>
-<td>半斤八两</td>
-</tr>
-<tr class="even">
-<td>花より団子</td>
-<td>舍华求实</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>省略語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E7%9C%81%E7%95%A5%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<h1 id="文末的省略">① 文末的省略</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>どちらへ（おでかけですか）?/您去哪儿？</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>どうぞこちらへ（来てください）。/请到这边来。</td>
-</tr>
-<tr class="even">
-<td>お先に（失礼します）。/我先告辞了。</td>
-</tr>
-<tr class="odd">
-<td>李さんと食事したら（いいですか）/和小李一起吃饭（怎么样）</td>
-</tr>
-<tr class="even">
-<td>つまらないものですが…（どうぞお受け取りください）/小小意思不成敬意，（请您收下）。</td>
-</tr>
-<tr class="odd">
-<td>买いたいことは买いたいですけど…（お金がない）/买是想买，（就是没有钱）。</td>
-</tr>
-</tbody>
-</table>
-<h2 id="结合前后文和助词">结合前后文和助词</h2>
-<hr />
-<h1 id="语法的省略">② 语法的省略</h1>
-<hr />
-<table>
-<colgroup>
-<col style="width: 41%" />
-<col style="width: 20%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>もとの形</th>
-<th>会話の形</th>
-<th>意味</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>～てください</td>
-<td>～て</td>
-<td>请（做）……</td>
-</tr>
-<tr class="even">
-<td>～たらどう？</td>
-<td>～たら？</td>
-<td>做……的话怎么样</td>
-</tr>
-<tr class="odd">
-<td>～といい／ならいい／ばいい。</td>
-<td>～と／なら／ば</td>
-<td>如果……的话就好了/就可以了</td>
-</tr>
-<tr class="even">
-<td>～ないといけない。</td>
-<td>～ないと</td>
-<td>不……的话就……</td>
-</tr>
-<tr class="odd">
-<td>～なくてもいい</td>
-<td>～なくても</td>
-<td>不……也可以</td>
-</tr>
-<tr class="even">
-<td>～てもしかたがない</td>
-<td>～ても</td>
-<td>就算……也没有用</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="以副词结句的省略">③ 以副词结句的省略</h1>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th>否定</th>
-<th>なかなか、ぜんぜん、どうしても、別に、特に...</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>時間</td>
-<td>今すぐ、直ちに、そろそろ...</td>
-</tr>
-<tr class="even">
-<td>意志</td>
-<td>ぜひ、必ず、絶対...</td>
-</tr>
-<tr class="odd">
-<td>その他</td>
-<td>大体、確かに、ちょっと...</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h1 id="補充">④ 補充</h1>
-<hr />
-<h1 id="きゃじゃちゃ">「きゃ」「じゃ」「ちゃ」</h1>
-<p>【１】</p>
-<p>ちゃ・じゃ・きゃ</p>
-<p>～てはいけない → ～ちゃいけない</p>
-<p>～ではいけない → ～じゃいけない</p>
-<p>例：</p>
-<p>食べてはいけない → 食べちゃいけない</p>
-<p>【２】</p>
-<p>～てしまう → ～ちゃう</p>
-<p>～でしまう → ～じゃう</p>
-<p>例：</p>
-<p>食べてしまう → 食べちゃう</p>
-<p>【３】</p>
-<p>～なくてはいけない → ～なくちゃいけない</p>
-<p>～なければならない → ～なきゃならない</p>
-<p>例：</p>
-<p>食べなくてはいけない → 食べなくちゃ（いけない）</p>
-<p>食べなければならない → 食べなきゃ（ならない）</p>
-<h1 id="しといた">「しといた」</h1>
-<p>「しといた」は「しておいた」が縮まった口語かと思います。</p>
-<p>「しておいた」は「しておく」の過去形</p>
-<p>「～ておく」は、後に予定されている何かのために、あらかじめ準備する場合に使います。</p>
-<p>「昨日しといた」は「昨日のうちに、(おそらく今日以降発生する何かのために)準備のためにやりました」ということです。</p>
-<p>たとえば</p>
-<p>「レストランを予約しておいたよ(予約しといたよ)」</p>
-<p>「お昼ごはん作っておいたから(作っといたから)、あとで食べてね」</p>
-<h1 id="だって">「だって」</h1>
-<p>だって</p>
-<p>放在句首，相当于 なぜなら</p>
-<p>放在句中，相当于 でも</p>
-<p>放在句尾，相当于 という</p>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>料理についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E6%96%99%E7%90%86%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>炒める</td>
-</tr>
-<tr class="even">
-<td>煎る</td>
-</tr>
-<tr class="odd">
-<td>焼く</td>
-</tr>
-<tr class="even">
-<td>炙る</td>
-</tr>
-<tr class="odd">
-<td>揚げる</td>
-</tr>
-<tr class="even">
-<td>素揚げ</td>
-</tr>
-<tr class="odd">
-<td>炊く</td>
-</tr>
-<tr class="even">
-<td>蒸す</td>
-</tr>
-<tr class="odd">
-<td>蒸かす</td>
-</tr>
-<tr class="even">
-<td>蒸らす</td>
-</tr>
-<tr class="odd">
-<td>煮る</td>
-</tr>
-<tr class="even">
-<td>煮込む</td>
-</tr>
-<tr class="odd">
-<td>煮詰める</td>
-</tr>
-<tr class="even">
-<td>茹でる</td>
-</tr>
-<tr class="odd">
-<td>湯がく</td>
-</tr>
-<tr class="even">
-<td>沸かす</td>
-</tr>
-<tr class="odd">
-<td>漬ける</td>
-</tr>
-<tr class="even">
-<td>チンする</td>
-</tr>
-<tr class="odd">
-<td>火を通す</td>
-</tr>
-<tr class="even">
-<td>温める</td>
-</tr>
-<tr class="odd">
-<td>冷ます</td>
-</tr>
-<tr class="even">
-<td>解凍</td>
-</tr>
-<tr class="odd">
-<td>切る</td>
-</tr>
-<tr class="even">
-<td>輪切り</td>
-</tr>
-<tr class="odd">
-<td>半月切り</td>
-</tr>
-<tr class="even">
-<td>銀杏切り</td>
-</tr>
-<tr class="odd">
-<td>小口切り</td>
-</tr>
-<tr class="even">
-<td>斜め切り</td>
-</tr>
-<tr class="odd">
-<td>乱切り</td>
-</tr>
-<tr class="even">
-<td>拍子木切り</td>
-</tr>
-<tr class="odd">
-<td>短冊切り</td>
-</tr>
-<tr class="even">
-<td>色紙切り</td>
-</tr>
-<tr class="odd">
-<td>賽の目切り</td>
-</tr>
-<tr class="even">
-<td>千切り</td>
-</tr>
-<tr class="odd">
-<td>微塵切り</td>
-</tr>
-<tr class="even">
-<td>櫛形切り</td>
-</tr>
-<tr class="odd">
-<td>飾り切り</td>
-</tr>
-<tr class="even">
-<td>薄切り</td>
-</tr>
-<tr class="odd">
-<td>ぶつ切り</td>
-</tr>
-<tr class="even">
-<td>笹掻き</td>
-</tr>
-<tr class="odd">
-<td>剝く</td>
-</tr>
-<tr class="even">
-<td>刻む</td>
-</tr>
-<tr class="odd">
-<td>（魚を）捌く</td>
-</tr>
-<tr class="even">
-<td>（魚を）おろす</td>
-</tr>
-<tr class="odd">
-<td>おろす/すりおろす</td>
-</tr>
-<tr class="even">
-<td>すりつぶす</td>
-</tr>
-<tr class="odd">
-<td>漉す</td>
-</tr>
-<tr class="even">
-<td>捏ねる</td>
-</tr>
-<tr class="odd">
-<td>混ぜる</td>
-</tr>
-<tr class="even">
-<td>和える</td>
-</tr>
-<tr class="odd">
-<td>焦がす</td>
-</tr>
-<tr class="even">
-<td>泡立てる</td>
-</tr>
-<tr class="odd">
-<td>寝かす</td>
-</tr>
-<tr class="even">
-<td>干す</td>
-</tr>
-<tr class="odd">
-<td>発酵</td>
-</tr>
-<tr class="even">
-<td>燻製</td>
-</tr>
-<tr class="odd">
-<td>水を切る</td>
-</tr>
-<tr class="even">
-<td>水で戻す</td>
-</tr>
-<tr class="odd">
-<td>ミキサーにかける</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>味についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E5%91%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すっぽい</td>
-<td>酸的</td>
-</tr>
-<tr class="even">
-<td>甘い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あまずっぽい</td>
-<td>酸甜的</td>
-</tr>
-<tr class="even">
-<td>苦い（にがい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>ほろ苦い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>塩辛い（しおからい）</td>
-<td>咸的</td>
-</tr>
-<tr class="odd">
-<td>しょっぽい</td>
-<td>咸的（口语）</td>
-</tr>
-<tr class="even">
-<td>辛い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>薄い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>濃い（こい）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>油つこい</td>
-<td>油腻的</td>
-</tr>
-<tr class="even">
-<td>濃厚</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>あっさり</td>
-<td>清淡的</td>
-</tr>
-<tr class="even">
-<td>こってり</td>
-<td>（拉面等）浓厚的</td>
-</tr>
-<tr class="odd">
-<td>ジューシー</td>
-<td>多汁的</td>
-</tr>
-<tr class="even">
-<td>まろやか</td>
-<td>醇厚的</td>
-</tr>
-<tr class="odd">
-<td>複雑</td>
-<td>难以描述的</td>
-</tr>
-<tr class="even">
-<td>クセになる</td>
-<td>欲罢不能的</td>
-</tr>
-<tr class="odd">
-<td>硬い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>柔らかい</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>臭い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>ふわふわ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>パサパサ</td>
-<td>干巴巴</td>
-</tr>
-<tr class="even">
-<td>ネバネバ</td>
-<td>黏糊糊</td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>色についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E8%89%B2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ピンク</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>薄ピンク</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>水色（みずいろ）</td>
-<td>淡蓝色</td>
-</tr>
-<tr class="even">
-<td>黄緑（きみどり）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>黄色（きいろ）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>青い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>紫（むらさき）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>オレンジ</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>緑</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>灰色（はいいろ）</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>赤い</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>黒い</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>白い（しろい）</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>茶色（ちゃいろ）</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>飲み物についての日本語</title>
-    <url>/%E6%97%A5%E6%9C%AC%E8%AA%9E/%E3%81%9D%E3%81%AE%E4%BB%96/%E9%A3%B2%E3%81%BF%E7%89%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E/</url>
-    <content><![CDATA[<hr />
-<table>
-<thead>
-<tr class="header">
-<th>日本語</th>
-<th>中国語</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>お湯</td>
-<td>热水</td>
-</tr>
-<tr class="even">
-<td>お冷や</td>
-<td>凉水</td>
-</tr>
-<tr class="odd">
-<td>お酒</td>
-<td>酒</td>
-</tr>
-<tr class="even">
-<td>ミルクティー</td>
-<td>奶茶</td>
-</tr>
-<tr class="odd">
-<td>タピオカ</td>
-<td>珍珠奶茶</td>
-</tr>
-<tr class="even">
-<td>ビール</td>
-<td>啤酒</td>
-</tr>
-<tr class="odd">
-<td>ワイン</td>
-<td>红酒</td>
-</tr>
-<tr class="even">
-<td>スプライト</td>
-<td>雪碧</td>
-</tr>
-<tr class="odd">
-<td>ファンタ</td>
-<td>芬达</td>
-</tr>
-<tr class="even">
-<td>コーラ</td>
-<td>可乐</td>
-</tr>
-<tr class="odd">
-<td>カクテル</td>
-<td>鸡尾酒</td>
-</tr>
-<tr class="even">
-<td>シャンピン</td>
-<td>香槟</td>
-</tr>
-<tr class="odd">
-<td>コーヒー</td>
-<td>咖啡</td>
-</tr>
-<tr class="even">
-<td>ヨーグルト</td>
-<td>酸奶</td>
-</tr>
-<tr class="odd">
-<td>ミルク</td>
-<td>牛奶</td>
-</tr>
-<tr class="even">
-<td>サイダー</td>
-<td>汽水</td>
-</tr>
-<tr class="odd">
-<td>ジュース</td>
-<td>果汁</td>
-</tr>
-<tr class="even">
-<td>ラテ</td>
-<td>拿铁</td>
-</tr>
-<tr class="odd">
-<td>お茶</td>
-<td>茶</td>
-</tr>
-</tbody>
-</table>
-<hr />
-]]></content>
-      <categories>
-        <category>日本語</category>
-        <category>その他</category>
       </categories>
   </entry>
   <entry>
