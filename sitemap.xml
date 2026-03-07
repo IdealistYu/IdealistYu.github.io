@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</loc>
+    
+    <lastmod>2026-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.loveyou.moe/anime/index.html</loc>
     
     <lastmod>2026-03-07</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://blog.loveyou.moe/Literature/Translate/BERT/</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.loveyou.moe/KU/%E4%B9%9D%E5%A4%A7%E6%83%85%E5%A0%B1%E7%90%86%E5%B7%A5%E5%AD%A6%E9%81%8E%E5%8E%BB%E5%95%8F%E3%81%AE%E8%A7%A3%E7%AD%94/</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -274,14 +274,14 @@
 
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
+    <loc>https://blog.loveyou.moe/categories/KU/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Vocabulary/</loc>
+    <loc>https://blog.loveyou.moe/categories/Raspberry-Pi/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -295,7 +295,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/KU/</loc>
+    <loc>https://blog.loveyou.moe/categories/Vocabulary/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -309,14 +309,14 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
+    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N2/</loc>
+    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N1/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -330,7 +330,7 @@
   </url>
   
   <url>
-    <loc>https://blog.loveyou.moe/categories/Literature/</loc>
+    <loc>https://blog.loveyou.moe/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/JLPT-N2/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
