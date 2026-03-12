@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
+  <entry>
+    <title>temp</title>
+    <url>/temp/</url>
+    <content><![CDATA[<hr />
+<h3 id="temp">Temp</h3>
+<hr />
+]]></content>
+      <categories>
+        <category>temp</category>
+      </categories>
+  </entry>
 </search>

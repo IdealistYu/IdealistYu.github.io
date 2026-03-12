@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yu&#39;s Site</title>
+  
+  
+  <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
+  
+  <link href="https://blog.loveyou.moe/"/>
+  <updated>2026-03-12T06:15:33.556Z</updated>
+  <id>https://blog.loveyou.moe/</id>
+  
+  <author>
+    <name>Yu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>temp</title>
+    <link href="https://blog.loveyou.moe/temp/"/>
+    <id>https://blog.loveyou.moe/temp/</id>
+    <published>2026-03-11T15:00:00.000Z</published>
+    <updated>2026-03-12T06:15:33.556Z</updated>
+    
+    <content type="html"><![CDATA[<hr /><h3 id="temp">Temp</h3><hr />]]></content>
+    
+    
+    <summary type="html">temp</summary>
+    
+    
+    
+    <category term="temp" scheme="https://blog.loveyou.moe/categories/temp/"/>
+    
+    
+  </entry>
+  
+</feed>
