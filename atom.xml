@@ -6,7 +6,7 @@
   <link href="https://blog.loveyou.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.loveyou.moe/"/>
-  <updated>2026-09-26T16:06:05.990Z</updated>
+  <updated>2026-09-26T16:11:12.041Z</updated>
   <id>https://blog.loveyou.moe/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.loveyou.moe/city-ex/"/>
     <id>https://blog.loveyou.moe/city-ex/</id>
     <published>2026-09-26T15:00:00.000Z</published>
-    <updated>2026-09-26T16:06:05.990Z</updated>
+    <updated>2026-09-26T16:11:12.041Z</updated>
     
     <content type="html"><![CDATA[<p>最近做了一个小网站：<strong><ahref="https://china.loveyou.moe/">城市制霸</a></strong>。</p><p>在中国地图上把去过的城市一个个涂上颜色，最后得到一张属于自己的足迹地图，还能保存成图片分享出去。</p><figure><img src="/images/city-ex/preview.png" alt="城市制霸" /><figcaption aria-hidden="true">城市制霸</figcaption></figure><span id="more"></span><h2 id="缘起">缘起</h2><p>之前很流行一个「中国制霸」的小游戏（<ahref="https://github.com/itorr/china-ex">itorr/china-ex</a>），以省为单位，给去过的省份涂色、算分。玩起来很上头，但总觉得省这个粒度有点粗：去过广州不代表去过广东，在杭州住过几年，也不代表去过浙江的每一个地方。</p><p>于是就想做一个细化到城市的版本：地图用真实的矢量边界，全国视图看全局，点进某个省再逐个标记城市。</p><h2 id="能做什么">能做什么</h2><ul><li><strong>标记城市</strong>：在全国地图上点一个省，地图会放大到这个省；再点城市，选择去过的程度。</li><li><strong>五个等级</strong>：居住（5 分）、短居（4 分）、游玩（3分）、出差（2 分）、路过（1 分），总分自动统计。</li><li><strong>画笔</strong>：先选好等级，再连续点击多个城市，一口气涂完。</li><li><strong>搜索</strong>：输入城市名、简称或拼音（<code>shenzhen</code>、<code>sz</code>都行），直接定位。</li><li><strong>保存图片</strong>：全国视图保存全国足迹图；在省视图保存这个省的「XX制霸」图，全省点亮还会盖上「全制霸」印章。</li></ul><figure><img src="/images/city-ex/screen-province.jpg" alt="省视图" /><figcaption aria-hidden="true">省视图</figcaption></figure><figure><img src="/images/city-ex/export-province.png" alt="单省导出图" /><figcaption aria-hidden="true">单省导出图</figcaption></figure><h2 id="座城市是怎么来的">370 座城市是怎么来的</h2><p>这里的「城市」指地级行政区，外加几类通常也会被当作「一个地方」的单位：</p><table><thead><tr><th>类别</th><th>数量</th></tr></thead><tbody><tr><td>地级市</td><td>293</td></tr><tr><td>自治州</td><td>30</td></tr><tr><td>地区</td><td>7</td></tr><tr><td>盟</td><td>3</td></tr><tr><td>省直辖县级单位（仙桃、济源、海南各市县、新疆兵团城市等）</td><td>30</td></tr><tr><td>北京、天津、上海、重庆、香港、澳门、台湾（各算一个）</td><td>7</td></tr><tr><td><strong>合计</strong></td><td><strong>370</strong></td></tr></tbody></table><p>理论满分是 370 × 5 = 1850分。不过要拿满分，得在每座城市都住满一年以上，也就是先活个 370岁再说。</p><h2 id="数据存在哪">数据存在哪</h2><p>不需要注册登录，所有标记都只保存在你自己的浏览器里，不会上传到任何服务器。换手机、换电脑或清理浏览器之前，可以在统计卡片里点「导出」存成一个JSON 文件，之后再「导入」恢复。</p><h2 id="技术上的一点碎碎念">技术上的一点碎碎念</h2><p>整个网站是纯静态页面，没有后端：</p><ul><li>地图边界来自阿里 DataV GeoAtlas，用 mapshaper 修复拓扑、简化后投影成SVG；全国视图先加载一份粗略的边界，进入省视图时再换成精细版。</li><li>界面字体用的是开源的<ahref="https://github.com/atelier-anchor/smiley-sans">得意黑</a>，按页面实际用到的字做了子集，不到100 KB。</li><li>用 Vite 构建，部署在 Vercel 上，国内也能直接访问。</li></ul><p>代码以 MIT 协议开源在 <ahref="https://github.com/IdealistYu/city-ex">GitHub</a>。</p><h2 id="最后">最后</h2><p>网站地址：<strong><a href="https://china.loveyou.moe/"class="uri">https://china.loveyou.moe/</a></strong>，手机和电脑的浏览器都能直接打开（在微信里打不开的话，点右上角「在浏览器打开」）。</p><p>欢迎来涂一涂，看看自己到底点亮了多少座城市。</p>]]></content>
     
@@ -30,7 +30,7 @@
     
     
     
-    <category term="tool" scheme="https://blog.loveyou.moe/categories/tool/"/>
+    <category term="工具" scheme="https://blog.loveyou.moe/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
   </entry>
