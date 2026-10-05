@@ -95,5 +95,5 @@ links:
 - name: Yu's Site
   url: https://blog.loveyou.moe/
   avatar: https://idealistyu.github.io/images/avatar.jpg
-  descr: ゆちゃんのブログ
+  descr: 絶賛勉強中
 ```
