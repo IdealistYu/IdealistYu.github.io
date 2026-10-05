@@ -4,6 +4,7 @@ date: 2026-09-27
 categories:
   - 工具
 description: 做了一个小网站「城市制霸」：在中国地图上标记去过的 370 座城市，按居住、短居、游玩、出差、路过上色，生成全国或单省的足迹图。
+comments: false
 ---
 
 最近做了一个小网站：**[城市制霸](https://china.loveyou.moe/)**。
