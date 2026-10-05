@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm ci && curl -fsSL https://github.com/jgm/pandoc/releases/download/3.12/pandoc-3.12-linux-amd64.tar.gz | tar xz -C /tmp",
+  "buildCommand": "PATH=/tmp/pandoc-3.12/bin:$PATH npm run build",
+  "outputDirectory": "public"
+}
