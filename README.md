@@ -25,6 +25,8 @@ npm run server                 # 本地预览 http://localhost:4000
 git add -A && git commit -m "Add post: 标题" && git push
 ```
 
+构建前会自动检查（`scripts/validate-posts.js`）：文章缺 `title`/`date`、引用了不存在的本地图片时构建失败，GitHub 会发邮件，线上保持原样。
+
 推送到 `dev` 后，GitHub Actions（`.github/workflows/deploy.yml`）会构建并把 `public/` 推到 `main`，Vercel 随后自动上线，通常一两分钟。向 `dev` 提 PR 只构建不发布；也可以在 Actions 页面手动运行。
 
 ## 结构
@@ -33,6 +35,6 @@ git add -A && git commit -m "Add post: 标题" && git push
 |---|---|
 | `source/` | 文章、页面、图片 |
 | `themes/next/` | 改过的 NexT 主题（模板、样式、配置都在这里改） |
-| `scripts/` | 站点级 Hexo 过滤器 |
+| `scripts/` | 站点级 Hexo 脚本：文章检查、`<figure>` 修正 |
 | `_config.yml` | 站点配置 |
 | `vercel.json` | 关闭源码分支的 Vercel 预览构建 |
