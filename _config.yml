@@ -117,3 +117,8 @@ search:
   format: html
 
 # Custom Configuration
+
+# Markdown (hexo-renderer-marked)
+marked:
+  smartypants: false
+  figcaption: true

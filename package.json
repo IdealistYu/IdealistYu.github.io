@@ -20,7 +20,7 @@
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-sitemap": "^3.0.1",
-    "hexo-renderer-pandoc": "^0.3.1",
+    "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-word-counter": "^0.1.0"
