@@ -16,7 +16,7 @@ function localImages(raw) {
   const refs = [];
   for (const re of IMAGE_REFS) {
     for (const [, url] of body.matchAll(re)) {
-      if (!/^([a-z]+:|\/\/|#)/i.test(url)) refs.push(url.split(/[?#]/)[0]);
+      if (!/^([a-z]+:|\/\/|#)/i.test(url) && !url.includes('{{')) refs.push(url.split(/[?#]/)[0]);
     }
   }
   return refs;
@@ -33,7 +33,9 @@ hexo.extend.filter.register('before_generate', () => {
       if (!/^title:\s*\S/m.test(fm)) errors.push(`${file}: front-matter 缺少 title`);
       if (!/^date:\s*\S/m.test(fm)) errors.push(`${file}: front-matter 缺少 date（如 date: 2026-10-06 20:00:00）`);
     }
-    for (const url of localImages(doc.raw)) {
+    const linkAvatars = (Array.isArray(doc.links) ? doc.links : [])
+      .map(l => l && l.avatar).filter(a => a && !/^([a-z]+:|\/\/)/i.test(a));
+    for (const url of [...localImages(doc.raw), ...linkAvatars]) {
       const rel = decodeURIComponent(url);
       const assetDir = isPost ? file.replace(/\.[^/.]+$/, '') : dirname(file);
       const target = rel.startsWith('/') ? join(source_dir, rel) : join(source_dir, assetDir, rel);

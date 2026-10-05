@@ -1,134 +1,95 @@
 ---
 title: Links
 date: 2025-08-20 04:29:54
+# 友链列表：新增一位朋友只要在这里加一项（字段和下面的交换格式一致，avatar 可以是本目录的图片或完整网址）
+links:
+  - name: 随思南游
+    url: https://www.ssnur.com/
+    avatar: 1.jpg
+    descr: 生如夏花之绚烂，死如秋叶之静
+  - name: 肥猪qwq
+    url: https://blog.feizhuqwq.com
+    avatar: 2.jpg
+    descr: 因为不可能，所以才值得相信。
+  - name: 二次元论坛
+    url: https://www.ecylt.top/
+    avatar: 3.jpg
+    descr: 按下F逃离世界
+  - name: 绯鞠的博客
+    url: https://loli.fj.cn
+    avatar: 4.gif
+    descr: 一只爱折腾的绯鞠
+  - name: 沉舟侧畔Blog
+    url: https://springwood.me
+    avatar: 5.jpg
+    descr: 新生的力量，生机勃勃
+  - name: tinsir888's blog
+    url: https://tinsir888.github.io
+    avatar: 6.jpg
+    descr: Ηλύσια Πεδία ;-)
 ---
 
----
-
-<html>
 <style>
-.links-content{
-margin-top:1rem;
+.friends {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
 }
-.link-navigation::after {
-content: " ";
-display: block;
-clear: both;
+.post-body .friends a.friend {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 1rem;
+  align-items: center;
+  padding: .8rem 1rem;
+  border: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
 }
-.card {
-width: 45%;
-font-size: 1rem;
-padding: 10px 20px;
-border-radius: 4px;
-transition-duration: 0.15s;
-margin-bottom: 1rem;
-display:flex;
+.post-body .friends a.friend:hover {
+  transform: translateY(-3px);
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
 }
-.card:nth-child(odd) {
-float: left;
+.post-body .friends .friend-avatar {
+  grid-row: span 2;
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+  border-radius: 10px;
+  object-fit: cover;
 }
-.card:nth-child(even) {
-float: right;
+.friends .friend-name,
+.friends .friend-descr {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.card:hover {
-transform: scale(1.1);
-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+.friends .friend-name {
+  font-weight: 600;
 }
-.card a {
-border:none;
-}
-.card .ava {
-width: 3rem!important;
-height: 3rem!important;
-margin:0!important;
-margin-right: 1em!important;
-border-radius:10px;
-}
-.card .card-header {
-overflow: hidden;
-width: 100%;
-}
-.card .card-header .info {
-font-style:normal;
-color:#a3a3a3;
-font-size:14px;
-min-width: 0;
-overflow: hidden;
-white-space: nowrap;
+.friends .friend-descr {
+  color: #999;
+  font-size: .85em;
 }
 </style>
-<div class="post-body">
-<div id="links">
-<div class="links-content">
-<a href="https://www.ssnur.com/">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="1.jpg" />
-<div class="card-header">
-<span>随思南游</span>
-<div class="info">生如夏花之绚烂，死如秋叶之静</div>
-</div>
-</div>
-</a>
-<a href="https://blog.feizhuqwq.com">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="2.jpg" />
-<div class="card-header">
-<span>肥猪qwq</span>
-<div class="info">因为不可能，所以才值得相信。</div>
-</div>
-</div>
-</a>
-<a href="https://www.ecylt.top/">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="3.jpg" />
-<div class="card-header">
-<span>二次元论坛</span>
-<div class="info">按下F逃离世界</div>
-</div>
-</div>
-</a>
-<a href="https://loli.fj.cn">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="4.gif" />
-<div class="card-header">
-<span>绯鞠的博客</span>
-<div class="info">一只爱折腾的绯鞠</div>
-</div>
-</div>
-</a>
-<a href="https://springwood.me">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="5.jpg" />
-<div class="card-header">
-<span>沉舟侧畔Blog</span>
-<div class="info">新生的力量，生机勃勃</div>
-</div>
-</div>
-</a>
-<a href="https://tinsir888.github.io">
-<div class="link-navigation">
-<div class="card">
-<img class="ava" src="6.jpg" />
-<div class="card-header">
-<span>tinsir888's blog</span>
-<div class="info">Ηλύσια Πεδία ;-)</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-</html>
 
-
+<div class="friends">
+{% for f in links %}
+<a class="friend" href="{{ f.url }}" title="{{ f.name }} — {{ f.descr }}"><img class="friend-avatar" src="{{ f.avatar }}" alt="{{ f.name }}" width="48" height="48" loading="lazy"><span class="friend-name">{{ f.name }}</span><span class="friend-descr">{{ f.descr }}</span></a>
+{% endfor %}
+</div>
 
 ---
+
+## 交换友链
+
+欢迎交换友链！按下面的格式在评论区留下贵站信息，我会尽快加上：
 
 ```yaml
 - name: Yu's Site
@@ -136,7 +97,3 @@ white-space: nowrap;
   avatar: https://idealistyu.github.io/images/avatar.jpg
   descr: ゆちゃんのブログ
 ```
-
-欢迎交换友链！请按照相同格式在下方评论中提供贵站的基本信息。
-
----
