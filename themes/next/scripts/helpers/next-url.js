@@ -1,7 +1,7 @@
 'use strict';
 
 const { htmlTag } = require('hexo-util');
-const { parse } = require('url');
+const { parseUrl: parse } = require('../events/lib/utils');
 
 module.exports = function(path, text, options = {}) {
   const { config, theme } = this;

@@ -75,10 +75,21 @@ const points = {
   ]
 };
 
+// WHATWG replacement for the deprecated url.parse(): relative URLs yield empty fields.
+function parseUrl(url) {
+  try {
+    const { protocol, hostname } = new URL(url);
+    return { protocol, hostname };
+  } catch {
+    return { protocol: null, hostname: null };
+  }
+}
+
 // Required by theme-next-docs and @next-theme/plugins
 module.exports = {
   resolve,
   highlightTheme,
   getVendors,
+  parseUrl,
   points
 };

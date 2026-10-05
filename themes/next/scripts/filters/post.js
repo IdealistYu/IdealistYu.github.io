@@ -2,7 +2,7 @@
 
 'use strict';
 
-const { parse } = require('url');
+const { parseUrl: parse } = require('../events/lib/utils');
 const { unescapeHTML } = require('hexo-util');
 
 hexo.extend.filter.register('after_post_render', data => {

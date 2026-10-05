@@ -5,24 +5,29 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo clean && hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "new": "hexo new"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "8.1.2"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
-    "hexo-deployer-git": "^3.0.0",
+    "css": "^3.0.0",
+    "hexo": "^8.1.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^3.0.0",
-    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-feed": "^4.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-renderer-marked": "^7.0.1",
-    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-word-counter": "^0.1.0"
+    "hexo-util": "^3.3.0",
+    "hexo-word-counter": "^0.2.2",
+    "js-yaml": "^4.3.2"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   }
 }

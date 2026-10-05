@@ -3,10 +3,14 @@
 'use strict';
 
 const crypto = require('crypto');
-const { parse } = require('url');
 const nextFont = require('./font');
 const nextUrl = require('./next-url');
-const { getVendors } = require('../events/lib/utils');
+const { getVendors, parseUrl } = require('../events/lib/utils');
+
+const origin = url => {
+  const { protocol, hostname } = parseUrl(url);
+  return hostname ? protocol + '//' + hostname : '';
+};
 
 hexo.extend.helper.register('next_font', nextFont);
 hexo.extend.helper.register('next_url', nextUrl);
@@ -58,11 +62,11 @@ hexo.extend.helper.register('next_pre', function() {
   const { enable, host } = this.theme.font;
   const { internal, plugins, custom_cdn_url } = this.theme.vendors;
   const links = {
-    local   : this.theme.js && parse(this.theme.js).hostname ? parse(this.theme.js).protocol + '//' + parse(this.theme.js).hostname : '',
+    local   : this.theme.js ? origin(this.theme.js) : '',
     jsdelivr: 'https://cdn.jsdelivr.net',
     unpkg   : 'https://unpkg.com',
     cdnjs   : 'https://cdnjs.cloudflare.com',
-    custom  : custom_cdn_url && parse(custom_cdn_url).hostname ? parse(custom_cdn_url).protocol + '//' + parse(custom_cdn_url).hostname : ''
+    custom  : custom_cdn_url ? origin(custom_cdn_url) : ''
   };
   const h = enable ? host || 'https://fonts.googleapis.com' : '';
   const i = links[internal];

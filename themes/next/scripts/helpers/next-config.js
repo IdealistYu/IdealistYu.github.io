@@ -2,7 +2,7 @@
 
 'use strict';
 
-const { parse } = require('url');
+const { parseUrl: parse } = require('../events/lib/utils');
 
 /**
  * Export theme config

@@ -1,5 +1,6 @@
 ---
 title: Anime
+date: 2026-03-08 22:31:45
 comments: false
 ---
 
